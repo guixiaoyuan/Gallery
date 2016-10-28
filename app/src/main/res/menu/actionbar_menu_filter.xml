@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/actionbar_popupmenu" >
+        <item
+            android:id="@+id/actionbar_menu_all"
+            android:title="@string/actionbar_menu_text_all"/>
+        <item
+            android:id="@+id/actionbar_menu_photo"
+            android:title="@string/actionbar_menu_text_photo"/>
+        <item
+            android:id="@+id/actionbar_menu_video"
+            android:title="@string/actionbar_menu_text_video"/>
+    </group>
+
+</menu>

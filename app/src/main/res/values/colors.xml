@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <color name="default_background">#000</color>
+
+    <!-- configuration for album set page -->
+    <color name="albumset_background">#FAFAFA</color>
+    <color name="albumset_placeholder">#e0e0e0</color><!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-06-02,PR1015839 -->
+    <color name="albumset_label_background">#fafafa</color><!--//[BUGFIX]-Add by TCTNJ,hua.yang, 2016-03-09,PR1132300 -->
+    <color name="albumset_label_title">#353535</color>
+    <color name="albumset_label_count">#80000000</color>
+    <color name="albumset_video_time">#FFFFFFFF</color>
+
+    <!-- configuration for album page -->
+    <color name="album_background">#FAFAFA</color>
+    <color name="album_placeholder">#e0e0e0</color><!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-06-02,PR1015839 -->
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-05-26,PR1000246 Begin -->
+    <color name="album_video_time">#FFFFFFFF</color>
+    <color name="actionbar_color">#00E3FF</color>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-05-26,PR1000246 End -->
+
+    <!-- configuration for photo page -->
+    <color name="photo_background">#000000</color>
+    <color name="photo_placeholder">#333</color>
+
+    <!-- configuration for manage cache page -->
+    <color name="cache_background">#1A1A1A</color>
+    <color name="cache_placeholder">#333</color>
+
+    <color name="bitmap_screennail_placeholder">#00000000</color>
+
+    <color name="slideshow_background">#1A1A1A</color>
+
+    <color name="button_dark_transparent_background">#6000</color>
+
+    <color name="ingest_highlight_semitransparent">#8833b5e5</color>
+    <color name="ingest_date_tile_text">#33b5e5</color>
+
+    <!-- Camera resources below -->
+
+    <color name="recording_time_elapsed_text">#FFFFFFFF</color>
+    <color name="recording_time_remaining_text">#FFFF0033</color>
+    <color name="on_viewfinder_label_background_color">#77333333</color>
+    <color name="review_control_pressed_color">#FF33B5E5</color>
+    <color name="review_control_pressed_fan_color">#3F33B5E5</color>
+    <color name="review_background">#FF000000</color>
+    <color name="icon_disabled_color">#DD777777</color>
+    <color name="time_lapse_arc">#FFC5C5C5</color>
+    <color name="indicator_background">#40000000</color>
+    <color name="popup_title_color">#ff33b5e5</color>
+    <color name="popup_background">#ff282828</color>
+    <color name="pano_progress_empty">#FF2E2E2E</color>
+    <color name="pano_progress_done">#FF33525E</color>
+    <color name="pano_progress_indication">#FF0099CC</color>
+    <color name="pano_progress_indication_fast">#FFFF2222</color>
+    <color name="mode_selection_border">#33B5E5</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="face_detect_start">#80ffffff</color>
+    <color name="face_detect_success">#8050d060</color>
+    <color name="face_detect_fail">#80d05060</color>
+    <color name="gray">#FFAAAAAA</color>
+
+    <!-- [FEATURE]-add-BEGIN by jian.pan1, 11/05/2014, For FR824779 Video Subtitle -->
+    <color name="subtitle_background">@android:color/transparent</color>
+    <!-- [FEATURE]-mod-end by jian.pan1 -->
+
+    <!-- [FEATURE]-Add-BEGIN by TCTNB(Haoli Zhang), 2014/5/11, FR-824326 No WiFi Display Extension Mode -->
+    <color name="setting_background">#b0282828</color>
+    <!-- [FEATURE]-Add-END by TCTNB(Haoli Zhang), 2014/5/11, FR-824326 No WiFi Display Extension Mode -->
+    <!--//[FEATURE]-Add-BEGIN by TCTNB.ye.chen, 2014/11/26, FR-851713-->
+    <color name="tips_title">#FFf7b400</color>
+    <!--//[FEATURE]-Add-END by TCTNB.ye.chen, 2014/11/26, FR-851713-->
+    <!-- [FEATURE]-Add-BEGIN by NJHR(chengqun.sun), 2014/11/20, FR-826631 Multi screen interaction -->
+    <color name="tip_color">#FFF7B400</color>
+    <!-- [FEATURE]-Add-END by NJHR(chengqun.sun), 2014/11/20, FR-826631 Multi screen interaction -->
+
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2014-12-10,PR863349 Begin -->
+    <color name="widget_no_photos_hint_color">#FFBEBEBE</color>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2014-12-10,PR863349 end -->
+
+    <color name="title_text_color">#666666</color>
+    <color name="color_primary">#00BCD4</color>
+    <color name="color_primary_dark">#0097A7</color>
+    <color name="color_primary_dark_black">#000000</color>
+    <color name="actionbar_icon_color">#ffffff</color>
+    <color name="actionbar_text_color">#ffffff</color>
+    <color name="text_hint_color">#ffffff</color>
+    <color name="primary_text_color">#a6d2d2d2</color>
+    <color name="theme_text_color">#ffffff</color>
+    <color name="text_color_primary_disable_only">#1A1A1A</color>
+    <color name="text_color_secondary">#d2d2d2</color>
+    <color name="text_color_primary">#ffffff</color>
+    <color name="left_title_normal">#DD000000</color>
+    <color name="left_title_selectd">#00bcd4</color>
+    <color name="actionbar_white_text_color">#ffffff</color>
+    <color name="dark_gray">#1A1A1A</color>
+    <color name="details_title_color">#666666</color>
+    <color name="details_content_color">#000000</color>
+    <color name="slider_bg_color">#ffffff</color>
+
+    <color name="actionbar_bg_dark_color">#cc000000</color>
+    <color name="actionbar_title_color">#ffffff</color>
+
+    <color name="settings_switch_color">#ff00ff</color>
+
+    <!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-27,PR901717 Begin -->
+    <color name="color_trans">#00ffffff</color>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-05-19,PR997203 Begin -->
+    <color name="color_bottom_btn_pressed">#50FFFFFF</color>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-05-19,PR997203 End -->
+    <!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-27,PR901717 End -->
+    <color name="polaroid_background">#F7F6F5</color>
+    <color name="polaroid_toolbar_color">#E4E0DE</color>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-07-08,PR1049341 Begin -->
+    <color name="polaroid_main_background">#000000</color>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-07-08,PR1049341 End -->
+
+    <color name="actionbar_background_color">#00BCD4</color>
+    <color name="tab_ripple_color">@color/tab_accent_color</color>
+    <color name="tab_accent_color">#FFEA00</color>
+    <color name="tab_selected_underline_color">@color/tab_accent_color</color>
+    <color name="tab_text_selected">#FFFFFFFF</color>
+    <color name="tab_text_diselected">#B3FFFFFF</color>
+
+    <!-- configuration for moments page start-->
+    <color name="moments_background">#FAFAFA</color>
+    <color name="moments_placeholder">#e0e0e0</color>
+    <color name="moments_video_time">#FFFFFFFF</color>
+    <color name="moments_title_date_color">#8A000000</color>
+    <color name="moments_title_address_color">#8A000000</color>
+    <color name="moments_time_bar_text_color">#FFFFFFFF</color>
+    <!-- configuration for moments page end-->
+    <!--// [ALM][BUGFIX]-Add by TCTNJ,jian.pan1, 2015-11-19,PR942618 Begin -->
+    <color name="action_mode_background_color">#FFFAFAFA</color>
+    <!--// [ALM][BUGFIX]-Add by TCTNJ,jian.pan1, 2015-11-19,PR942618 End -->
+    <!--//[BUGFIX]-Add by TCTNJ,caihong.gu-nb, 2015/12/26,PR1201923 begin -->
+    <color name="no_internet_connection_text_color">#B3FFFFFF</color>
+    <!--//[BUGFIX]-Add by TCTNJ,caihong.gu-nb, 2015/12/26,PR1201923 end -->
+    <!--//[BUGFIX]-Add by TSNJ,hao.yin, 2016-03-18,PR1719255 begin -->
+    <color name="photopage_time_line_color">#AAFFFFFF</color>
+    <!--//[BUGFIX]-Add by TSNJ,hao.yin, 2016-03-18,PR1719255 end -->
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <!-- configuration for fastScroll -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="arrow_back_color">#8B008B</color>
+    <color name="date_tag_back">#000000</color>
+
+    <color name="colorBottomNavigationPrimary">#3F51B5</color>
+    <color name="colorBottomNavigationPrimaryDark">#303F9F</color>
+    <color name="colorBottomNavigationAccent">#FF00BCD4</color>
+    <color name="colorBottomNavigationInactive">#8A000000</color>
+    <color name="colorBottomNavigationActiveColored">#FFFFFF</color>
+    <color name="colorBottomNavigationInactiveColored">#50FFFFFF</color>
+    <color name="colorBottomNavigationNotification">#F63D2B</color>
+
+    <color name="status_bar_color">#33000000</color>
+    <color name="toolbar_title_select_color">#DE000000</color>
+    <color name="toolbar_title_select_more_color">#FF00BCD4</color>
+
+    <color name="new_album_edit_hint">#97000000</color>
+    <color name="new_album_menu_grey">#66000000</color>
+    <color name="new_album_menu_light">#00BCD4</color>
+    <color name="new_album_edit_line">#00BCD4</color>
+    <color name="new_album_edit_warning">#D50000</color>
+    <color name="new_album_item_bg">#e6e6e6</color>
+</resources>

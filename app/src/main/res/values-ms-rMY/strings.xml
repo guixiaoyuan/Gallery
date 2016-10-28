@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Galeri"</string>
+	<!---->
+	<string name="gadget_title">"Bingkai gambar"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"Pemain video"</string>
+	<!---->
+	<string name="loading_video">"Memuatkan video..."</string>
+	<!---->
+	<string name="loading_image">"Memuatkan imej..."</string>
+	<!---->
+	<string name="loading_account">"Memuatkan akaun…"</string>
+	<!---->
+	<string name="resume_playing_title">"Sambung semula video"</string>
+	<!---->
+	<string name="resume_playing_message">"Sambung semula bermain daripada %s ?"</string>
+	<!---->
+	<string name="resume_playing_resume">"Sambung bermain"</string>
+	<!---->
+	<string name="loading">"Memuatkan..."</string>
+	<!---->
+	<string name="fail_to_load">"Tidak dapat memuatkan"</string>
+	<!---->
+	<string name="fail_trim">"Fail video tidak dapat dipangkas."</string>
+	<!---->
+	<string name="fail_to_load_image">"Tidak dapat memuatkan imej"</string>
+	<!---->
+	<string name="no_thumbnail">"Tiada lakaran kenit"</string>
+	<!---->
+	<string name="resume_playing_restart">"Mula semula"</string>
+	<!---->
+	<string name="crop_save_text">"OK"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="multiface_crop_help">"Sentuh muka untuk bermula"</string>
+	<!---->
+	<string name="saving_image">"Menyimpan gambar..."</string>
+	<!---->
+	<string name="filtershow_saving_image">"Menyimpan gambar ke <xliff:g id="album_name">%1$s</xliff:g> …"</string>
+	<!---->
+	<string name="save_error">"Tidak dapat menyimpan imej yang dipangkas."</string>
+	<!---->
+	<string name="crop_label">"Pangkas gambar"</string>
+	<!---->
+	<string name="trim_label">"Pangkas video"</string>
+	<!---->
+	<string name="select_image">"Pilih foto"</string>
+	<!---->
+	<string name="select_video">"Pilih video"</string>
+	<!---->
+	<string name="select_item">"Pilih item"</string>
+	<!---->
+	<string name="select_album">"Pilih album"</string>
+	<!---->
+	<string name="select_group">"Pilih kumpulan"</string>
+	<!---->
+	<string name="set_image">"Set sebagai..."</string>
+	<!---->
+	<string name="set_wallpaper">"Tetapkan kertas dinding"</string>
+	<!---->
+	<string name="wallpaper">"Menetapkan kertas dinding…"</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"Kertas dinding"</string>
+	<!---->
+	<string name="delete">"Padam"</string>
+	<!---->
+	<string name="deleting">"Memadam"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"Padam item yang dipilih?"</item>
+		<item quantity="other">"Padam item yang dipilih?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"Sahkan"</string>
+	<!---->
+	<string name="cancel">"Batal"</string>
+	<!---->
+	<string name="share">"Kongsi"</string>
+	<!---->
+	<string name="share_panorama">"Kongsi panorama"</string>
+	<!---->
+	<string name="share_as_photo">"Kongsi sebagai foto"</string>
+	<!---->
+	<string name="deleted">"Dipadam"</string>
+	<!---->
+	<string name="undo">"BUAT ASAL"</string>
+	<!---->
+	<string name="select_all">"Pilih semua"</string>
+	<!---->
+	<string name="deselect_all">"Nyahpilih semua"</string>
+	<!---->
+	<string name="slideshow">"Tayangan slaid"</string>
+	<!---->
+	<string name="details">"Butiran"</string>
+	<!---->
+	<string name="details_title">"%1$d dari %2$d item:"</string>
+	<!---->
+	<string name="close">"Tutup"</string>
+	<!---->
+	<string name="switch_to_camera">"Bertukar kepada kamera"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d dipilih"</item>
+		<item quantity="one">"%1$d dipilih"</item>
+		<item quantity="other">"%1$d dipilih"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d dipilih"</item>
+		<item quantity="one">"%1$d dipilih"</item>
+		<item quantity="other">"%1$d dipilih"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d dipilih"</item>
+		<item quantity="one">"%1$d dipilih"</item>
+		<item quantity="other">"%1$d dipilih"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"Tunjukkan pada peta"</string>
+	<!---->
+	<string name="rotate_left">"Putar ke kiri"</string>
+	<!---->
+	<string name="rotate_right">"Putar ke kanan"</string>
+	<!---->
+	<string name="no_such_item">"Tidak dapat mencari item."</string>
+	<!---->
+	<string name="edit">"Edit"</string>
+	<!---->
+	<string name="mix_video">"Campur"</string>
+	<!---->
+	<string name="simple_edit">"Edit ringkas"</string>
+	<!---->
+	<string name="process_caching_requests">"Memproses permintaan cache"</string>
+	<!---->
+	<string name="caching_label">"Mengcache..."</string>
+	<!---->
+	<string name="crop_action">"Pangkas"</string>
+	<!---->
+	<string name="trim_action">"Cantas"</string>
+	<!---->
+	<string name="mute_action">"Redam"</string>
+	<!---->
+	<string name="set_as">"Tetapkan sebagai"</string>
+	<!---->
+	<string name="video_mute_err">"Tidak boleh meredamkan video."</string>
+	<!---->
+	<string name="video_err">"Tidak boleh memainkan video."</string>
+	<!---->
+	<string name="group_by_location">"Mengikut lokasi"</string>
+	<!---->
+	<string name="group_by_time">"Mengikut masa"</string>
+	<!---->
+	<string name="group_by_tags">"Mengikut teg"</string>
+	<!---->
+	<string name="group_by_faces">"Mengikut orang"</string>
+	<!---->
+	<string name="group_by_album">"Mengikut album"</string>
+	<!---->
+	<string name="group_by_size">"Mengikut saiz"</string>
+	<!---->
+	<string name="untagged">"Tidak ditag"</string>
+	<!---->
+	<string name="no_location">"Tiada lokasi"</string>
+	<!---->
+	<string name="no_connectivity">"Beberapa lokasi tidak dapat dikenal pasti kerana masalah rangkaian."</string>
+	<!---->
+	<string name="sync_album_error">"Tidak dapat memuat turun foto dalam album ini. Cuba lagi nanti."</string>
+	<!---->
+	<string name="show_images_only">"Imej sahaja"</string>
+	<!---->
+	<string name="show_videos_only">"Video sahaja"</string>
+	<!---->
+	<string name="show_all">"Imej &amp; video"</string>
+	<!---->
+	<string name="appwidget_title">"Galeri Foto"</string>
+	<!---->
+	<string name="appwidget_empty_text">"Tiada foto."</string>
+	<!---->
+	<string name="crop_saved">"Imej yang dipangkas disimpan ke <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+	<!---->
+	<string name="no_albums_alert">"Tiada album tersedia"</string>
+	<!---->
+	<string name="empty_album">"Tiada imej/video tersedia"</string>
+	<!---->
+	<string name="picasa_posts">"Siaran"</string>
+	<!---->
+	<string name="make_available_offline">"Jadikan tersedia luar talian"</string>
+	<!---->
+	<string name="sync_picasa_albums">"Muat semula"</string>
+	<!---->
+	<string name="done">"Selesai"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d dari %2$d item:"</string>
+	<!---->
+	<string name="title">"Tajuk"</string>
+	<!---->
+	<string name="description">"Perihalan"</string>
+	<!---->
+	<string name="time">"Masa"</string>
+	<!---->
+	<string name="location">"Lokasi"</string>
+	<!---->
+	<string name="path">"Laluan"</string>
+	<!---->
+	<string name="width">"Lebar"</string>
+	<!---->
+	<string name="height">"Tinggi"</string>
+	<!---->
+	<string name="orientation">"Orientasi"</string>
+	<!---->
+	<string name="duration">"Tempoh"</string>
+	<!---->
+	<string name="mimetype">"Jenis MIME"</string>
+	<!---->
+	<string name="file_size">"Saiz fail"</string>
+	<!---->
+	<string name="maker">"Pembuat"</string>
+	<!---->
+	<string name="model">"Model"</string>
+	<!---->
+	<string name="flash">"Flash"</string>
+	<!---->
+	<string name="aperture">"Bukaan"</string>
+	<!---->
+	<string name="focal_length">"Jarak Fokus"</string>
+	<!---->
+	<string name="white_balance">"Imbangan putih"</string>
+	<!---->
+	<string name="exposure_time">"Masa dedahan"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"mm"</string>
+	<!---->
+	<string name="manual">"Manual"</string>
+	<!---->
+	<string name="auto">"Auto"</string>
+	<!---->
+	<string name="flash_on">"Denyar dilepas"</string>
+	<!---->
+	<string name="flash_off">"Tiada denyar"</string>
+	<!---->
+	<string name="unknown">"Tidak diketahui"</string>
+	<!---->
+	<string name="ffx_original">"Asal"</string>
+	<!---->
+	<string name="ffx_vintage">"Vintaj"</string>
+	<!---->
+	<string name="ffx_instant">"Segera"</string>
+	<!---->
+	<string name="ffx_bleach">"Luntur"</string>
+	<!---->
+	<string name="ffx_blue_crush">"Biru"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"B/W"</string>
+	<!---->
+	<string name="ffx_punch">"Tumbuk"</string>
+	<!---->
+	<string name="ffx_x_process">"proses X"</string>
+	<!---->
+	<string name="ffx_washout">"Latte"</string>
+	<!---->
+	<string name="ffx_washout_color">"Litho"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"Menjadikan album tersedia di luar talian."</item>
+		<item quantity="other">"Menjadikan album tersedia di luar talian."</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Item ini disimpan pada peranti dan tersedia di luar talian."</string>
+	<!---->
+	<string name="set_label_all_albums">"Semua album"</string>
+	<!---->
+	<string name="set_label_local_albums">"Album setempat"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"Peranti MTP"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Album Picasa"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="BYTES">%s</xliff:g> percuma"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="SIZE">%1$s</xliff:g> atau kurang"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="SIZE">%1$s</xliff:g> atau kurang"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> hingga <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"Import"</string>
+	<!---->
+	<string name="import_complete">"Import selesai"</string>
+	<!---->
+	<string name="import_fail">"Import tidak berjaya"</string>
+	<!---->
+	<string name="camera_connected">"Kamera disambungkan."</string>
+	<!---->
+	<string name="camera_disconnected">"Kamera diputuskan sambungan."</string>
+	<!---->
+	<string name="click_import">"Sentuh di sini untuk mengimport"</string>
+	<!---->
+	<string name="widget_type_album">"Pilih album"</string>
+	<!---->
+	<string name="widget_type_shuffle">"Rombak semua imej"</string>
+	<!---->
+	<string name="widget_type_photo">"Pilih imej"</string>
+	<!---->
+	<string name="widget_type">"Pilih imej"</string>
+	<!---->
+	<string name="slideshow_dream_name">"Tayangan slaid"</string>
+	<!---->
+	<string name="albums">"Album"</string>
+	<!---->
+	<string name="times">"Masa"</string>
+	<!---->
+	<string name="locations">"Lokasi"</string>
+	<!---->
+	<string name="people">"Orang"</string>
+	<!---->
+	<string name="tags">"Tanda nama"</string>
+	<!---->
+	<string name="group_by">"Kumpulkan mengikut"</string>
+	<!---->
+	<string name="settings">"Tetapan"</string>
+	<!---->
+	<string name="add_account">"Tambah akaun"</string>
+	<!---->
+	<string name="folder_camera">"Kamera"</string>
+	<!---->
+	<string name="folder_download">"Muat Turun"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"Foto dalam talian yang diedit"</string>
+	<!---->
+	<string name="folder_imported">"Diimport"</string>
+	<!---->
+	<string name="folder_screenshot">"Petikan Skrin"</string>
+	<!---->
+	<string name="help">"Bantuan"</string>
+	<!---->
+	<string name="no_external_storage_title">"Tiada storan"</string>
+	<!---->
+	<string name="no_external_storage">"Tiada storan luar tersedia"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Paparan jalur filem"</string>
+	<!---->
+	<string name="switch_photo_grid">"Paparan grid"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"Paparan skrin penuh"</string>
+	<!---->
+	<string name="trimming">"Pemangkasan"</string>
+	<!---->
+	<string name="muting">"Meredam"</string>
+	<!---->
+	<string name="please_wait">"Sila tunggu"</string>
+	<!---->
+	<string name="save_into">"Menyimpan video ke <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="trim_save_into">"Fail yang dipangkas disimpan ke <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"Fail yang disenyapkan disimpan ke <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="trim_too_short">"Tidak boleh kecilkan : video sasaran terlalu pendek"</string>
+	<!---->
+	<string name="mute_nosupport">"Tidak boleh meredam : video tidak disokong"</string>
+	<!---->
+	<string name="pano_progress_text">"Panorama persembahan"</string>
+	<!---->
+	<string name="save">"SIMPAN"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"Mengimbas kandungan..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d item diimbas"</item>
+		<item quantity="one">"%1$d item diimbas"</item>
+		<item quantity="other">"%1$d item diimbas"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"%1$d item dipilih"</item>
+		<item quantity="one">"%1$d item dipilih"</item>
+		<item quantity="other">"%1$d item dipilih"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"Mengisih..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"Pengimbasan selesai"</string>
+	<!---->
+	<string name="ingest_importing">"Mengimport..."</string>
+	<!---->
+	<string name="ingest_empty_device">"Tiada kandungan tersedia untuk diimport pada peranti ini."</string>
+	<!---->
+	<string name="ingest_no_device">"Tiada peranti MTP disambungkan"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"Ralat kamera"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Tidak boleh menyambung kepada kamera."</string>
+	<!---->
+	<string name="camera_disabled">"Kamera telah dilumpuhkan kerana dasar keselamatan."</string>
+	<!---->
+	<string name="camera_label">"Kamera"</string>
+	<!---->
+	<string name="wait">"Sila tunggu..."</string>
+	<!---->
+	<string name="review_cancel">"BATAL"</string>
+	<!---->
+	<string name="review_ok">"SIAP"</string>
+	<!---->
+	<string name="time_lapse_title">"Rakaman selang masa"</string>
+	<!---->
+	<string name="pref_camera_id_title">"Pilih kamera"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Kembali"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Depan"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"Lokasi stor"</string>
+	<!---->
+	<string name="pref_camera_location_label">"Lokasi"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"Pemasa kira detik"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 saat"</item>
+		<item quantity="other">"%d saat"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Bunyikan bip semasa kira detik"</string>
+	<!---->
+	<string name="setting_off">"Mati"</string>
+	<!---->
+	<string name="setting_on">"Hidup"</string>
+	<!---->
+	<string name="pref_video_quality_title">"Kualiti video"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Tinggi"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Rendah"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"Selang masa"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"Tetapan kamera"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Seting kamkorder"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Saiz gambar"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8M Piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2M piksel (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1.3M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Mod fokus"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Auto"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Infiniti"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"AUTO"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"INFINITI"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"MAKRO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Mod denyar"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"Mod denyar"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Auto"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Hidup"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Mati"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"DENYAR AUTO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"DENYAR HIDUP"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"DENYAR MATI"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Imbangan putih"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Imbangan putih"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Auto"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Berpijar"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Cahaya siang"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Pendarfluor"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Mendung"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"AUTO"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Berpijar"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Cahaya siang"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Pendarfluor"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Mendung"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Mod pemandangan"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Auto"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Tindakan"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Malam"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Matahari terbenam"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Parti"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"Tiada"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"Tindakan"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"Malam"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"Mthri terbenam"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"Parti"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"PEMASA KIRA DETIK"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"PEMASA MATI"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 saat"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 saat"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 saat"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 saat"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Tidak boleh dipilih dalam mod pemandangan."</string>
+	<!---->
+	<string name="pref_exposure_title">"Pendedahan"</string>
+	<!---->
+	<string name="pref_exposure_label">"Pendedahan"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"KAMERA DEPAN"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"KAMERA BELAKANG"</string>
+	<!---->
+	<string name="dialog_ok">"OK"</string>
+	<!---->
+	<string name="video_reach_size_limit">"Had saiz dicapai."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Trlalu cepat"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Menyediakan panorama"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Tidak dapat menyimpan panorama."</string>
+	<!---->
+	<string name="pano_dialog_title">"Panorama"</string>
+	<!---->
+	<string name="pano_capture_indication">"Menangkap gambar panorama"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Menunggu panorama sebelumnya"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Menyimpan…"</string>
+	<!---->
+	<string name="pano_review_rendering">"Menghasilkan panorama"</string>
+	<!---->
+	<string name="tap_to_focus">"Sentuh untuk memfokus"</string>
+	<!---->
+	<string name="pref_video_effect_title">"Kesan"</string>
+	<!---->
+	<string name="effect_none">"Tiada"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Picit"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Mata besar"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Mulut besar"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Mulut kecil"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Hdg besar"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Mata kecil"</string>
+	<!---->
+	<string name="effect_backdropper_space">"Di angkasa"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Matahari terbenam"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Video anda"</string>
+	<!---->
+	<string name="bg_replacement_message">"Tetapkan peranti anda ke bawah."\n"Keluar dari pandangan seketika."</string>
+	<!---->
+	<string name="video_snapshot_hint">"Sentuh untuk mengambil gambar semasa merakam."</string>
+	<!---->
+	<string name="video_recording_started">"Rakaman video telah dimulakan."</string>
+	<!---->
+	<string name="video_recording_stopped">"Rakaman video telah dihentikan."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"Tangkapan video dilumpuhkan apabila kesan khas dihidupkan."</string>
+	<!---->
+	<string name="clear_effects">"Padamkan kesan"</string>
+	<!---->
+	<string name="effect_silly_faces">"MUKA BODOH"</string>
+	<!---->
+	<string name="effect_background">"LATAR BELAKANG"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"Butang pengatup"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Butang menu"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"Foto paling terbaru"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"Suis kamera depan dan belakang"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"Pemilih kamera, video atau panorama"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"Lagi kawalan tetapan"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"Tutup kawalan tetapan"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"Kawalan zum"</string>
+	<!---->
+	<string name="accessibility_decrement">"Pengurangan %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"Tingkatkan %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s kotak semak"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Tukar ke foto"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Tukar kepada video"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Tukar ke mod Panorama"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"Beralih ke panorama baharu"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Tukar kepada Fokus Semula"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"Semakan dibatalkan"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Semakan selesai"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Semakan dibuat semula"</string>
+	<!---->
+	<string name="accessibility_play_video">"Mainkan video"</string>
+	<!---->
+	<string name="accessibility_pause_video">"Jeda video"</string>
+	<!---->
+	<string name="accessibility_reload_video">"Muat semula video"</string>
+	<!---->
+	<string name="accessibility_time_bar">"Bar masa pemain video"</string>
+	<!---->
+	<string name="capital_on">"HIDUP"</string>
+	<!---->
+	<string name="capital_off">"MATI"</string>
+	<!---->
+	<string name="gif_err">"Tidak boleh memainkan gif."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Mati"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0.5 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0.5 minit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 minit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 minit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 minit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 minit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 minit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 minit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 minit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 minit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 minit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 minit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 minit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 minit"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0.5 jam"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 jam"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1.5 jam"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 jam"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 jam"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 jam"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 jam"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 jam"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 jam"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 jam"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 jam"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 jam"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 jam"</string>
+	<!---->
+	<string name="time_lapse_seconds">"saat"</string>
+	<!---->
+	<string name="time_lapse_minutes">"minit"</string>
+	<!---->
+	<string name="time_lapse_hours">"jam"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"Selesai"</string>
+	<!---->
+	<string name="set_time_interval">"Set selang masa"</string>
+	<!---->
+	<string name="set_time_interval_help">"Ciri selang masa dimatikan. Hidupkannya untuk menetapkan selang masa."</string>
+	<!---->
+	<string name="set_timer_help">"Pemasa kira detik dimatikan. Hidupkannya untuk mengira detik sebelum mengambil gambar."</string>
+	<!---->
+	<string name="set_duration">"Set tempoh dalam saat"</string>
+	<!---->
+	<string name="count_down_title_text">"Mengira detik untuk mengambil foto"</string>
+	<!---->
+	<string name="remember_location_title">"Ingat lokasi foto?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Tag foto dan video anda dengan lokasi tempat ia diambil.\n\nApl lain boleh mengakses maklumat ini bersama dengan imej yang telah disimpan."</string>
+	<!---->
+	<string name="remember_location_no">"Tidak, terima kasih"</string>
+	<!---->
+	<string name="remember_location_yes">"Ya"</string>
+	<!---->
+	<string name="menu_camera">"Kamera"</string>
+	<!---->
+	<string name="menu_search">"Cari"</string>
+	<!---->
+	<string name="tab_photos">"Foto"</string>
+	<!---->
+	<string name="tab_albums">"Album"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Lagi pilihan"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"Tetapan"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d foto"</item>
+		<item quantity="other">"%1$d foto"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"Sari kata"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"Maaf, video ini tidak sah untuk penstriman ke peranti ini."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"Tidak dapat mainkan video ini."</string>
+	<!---->
+	<string name="VideoView_error_button">"OK"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"Video ini tidak disokong"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"Tidak dapat menyambung. Cuba sambung semula %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"Menyambung ..."</string>
+	<!---->
+	<string name="media_controller_buffering">"Menimbal %d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"Tidak boleh menyambung ke pelayan"</string>
+	<!---->
+	<string name="media_controller_live">"Langsung"</string>
+	<!---->
+	<string name="media_controller_playing">"Memainkan"</string>
+	<!---->
+	<string name="notify_photo_text">"Pengawal galeri"</string>
+	<!---->
+	<string name="notify_video_text">"Pengawal galeri"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"Persembahan slaid Paparan Wi-Fi didayakan"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"Video Paparan Wi-Fi didayakan"</string>
+	<!---->
+	<string name="wfd_alert">"Awasan"</string>
+	<!---->
+	<string name="wfd_change_message">"Video akan diganti."</string>
+	<!---->
+	<string name="wfd_change_button">"Ya"</string>
+	<!---->
+	<string name="wfd_not_change_button">"Tidak"</string>
+	<!---->
+	<string name="wfd_show">"Paparan Wi-Fi"</string>
+	<!---->
+	<string name="wfd_show_on">"Hidupkan Paparan Wi-Fi"</string>
+	<!---->
+	<string name="wfd_show_off">"Matikan Paparan Wi-Fi"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"Seret fail ke segi empat kuning untuk berkongsi skrin anda."</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"Jenis yang tidak disokong"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Amaran"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Semua fail yang dilindung salin tersembunyi disebabkan sambungan Paparan Wi-Fi."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"Matikan Paparan Wi - Fi"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"Teruskan"</string>
+	<!---->
+	<string name="tv_link_close">"Paparan Wi-Fi telah ditutup"</string>
+	<!---->
+	<string name="drm_no_valid_right">"Fail tiada autoriti DRM yang sah"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">"Fail DRM "%s" tamat tempoh. Memadamnya?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"Fail DRM "%s" tamat tempoh. Buka kuncinya?"</string>
+	<!---->
+	<string name="unlimited_usage">"Penggunaan tanpa had"</string>
+	<!---->
+	<string name="not_available">"Tidak tersedia"</string>
+	<!---->
+	<string name="use_times">"Gunakan %s kali"</string>
+	<!---->
+	<string name="valid_after">"Sah selepas"</string>
+	<!---->
+	<string name="valid_until">"Sah sehingga"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"Ketuk dua kali dan slaid untuk mengezum masuk / keluar dalam Kamera"</string>
+	<!---->
+	<string name="tips_done">"Selesai"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"Ketuk dua kali dan slaid untuk mengezum masuk /keluar dalam Galeri"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"Belajar tentang satu jari zoom"</string>
+	<!---->
+	<string name="drm_current_right">"Kekangan Semasa"</string>
+	<!---->
+	<string name="right_url">"Lesen"</string>
+	<!---->
+	<string name="vendor">"Vendor:"</string>
+	<!---->
+	<string name="stop">"Berhenti"</string>
+	<!---->
+	<string name="selectRenderer">"Pilih pemain"</string>
+	<!---->
+	<string name="noRenderer">"Tidak menemui sebarang peranti pemapar"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"Berhenti memainkan video di TV?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"Berhenti memainkan gambar di TV?"</string>
+	<!---->
+	<string name="play_video">"Mainkan video"</string>
+	<!---->
+	<string name="shake_video_text">"Goncang telefon anda pada halaman video untuk memainkannya di TV anda"</string>
+	<!---->
+	<string name="shake_picture_text">"Untuk dimainkan di TV anda, goncang telefon anda di halaman gambar."</string>
+	<!---->
+	<string name="wait_dialog">"Sila tunggu..."</string>
+	<!---->
+	<string name="toast_nostop">"Untuk berhenti dimainkan di TV, mulakan pemain tempatan."</string>
+	<!---->
+	<string name="dlna_format_not_support">"Format fail tidak disokong."</string>
+	<!---->
+	<string name="left_title_camera_roll">"Gulungan Kamera"</string>
+	<!---->
+	<string name="left_title_timeline">"Masa"</string>
+	<!---->
+	<string name="left_title_albums">"Album"</string>
+	<!---->
+	<string name="left_title_videos">"Video"</string>
+	<!---->
+	<string name="left_title_location">"Lokasi"</string>
+	<!---->
+	<string name="drawer_open">"Buka laci navigasi"</string>
+	<!---->
+	<string name="drawer_close">"Tutup laci navigasi"</string>
+	<!---->
+	<string name="photo_share">"Kongsi ke"</string>
+	<!---->
+	<string name="filtershow_save">"SIMPAN"</string>
+	<!---->
+	<string name="filtershow_none">"Tiada"</string>
+	<!---->
+	<string name="filtershow_frame">"Bingkai"</string>
+	<!---->
+	<string name="drm_no_crop">"Fail "%s" tidak dibenarkan dipotong kerana fail dilindungi DRM."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"Fail "%s" tidak dibenarkan untuk diset sebagai ikon kenalan kerana fail ini dilindungi DRM."</string>
+	<!---->
+	<string name="never_tip">"Tunjukkan petua semasa dimulakan"</string>
+	<!---->
+	<string name="three_finger_tips0">"Letakkan tiga jari pada skrin."</string>
+	<!---->
+	<string name="three_finger_tips1">"Seret fail ke kawasan kuning."</string>
+	<!---->
+	<string name="three_finger_tips2">"Apabila kawasan ini berisi warna kuning, perkongsian tersebut telah berjaya."</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"Fail DRM tidak seharusnya dipaparkan melalui Paparan Wi-Fi!"</string>
+	<!---->
+	<string name="filtershow_save_title">"Simpan perubahan"</string>
+	<!---->
+	<string name="filtershow_save_message">"Adakah anda ingin menyimpan sebagai salinan atau tulis ganti imej asal?"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"Jangan tanya lagi"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"SIMPAN SEBAGAI SALINAN"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"TULIS GANTI YANG ASAL"</string>
+	<!---->
+	<string name="lock_video">"Dikunci"</string>
+	<!---->
+	<string name="unlock_video">"Dibuka kunci"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Lesen DRM telah tamat."</string>
+	<!---->
+	<string name="drm_protection_status">"Status perlindungan:"</string>
+	<!---->
+	<string name="drm_can_forward">"Boleh dikirim semula."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Tidak boleh dikemukakan."</string>
+	<!---->
+	<string name="drm_no_license">"Lesen DRM tidak tersedia."</string>
+	<!---->
+	<string name="drm_begin">"Mula:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Tiada had."</string>
+	<!---->
+	<string name="drm_end">"Tamat:"</string>
+	<!---->
+	<string name="drm_use_left">"Kekal"</string>
+	<!---->
+	<string name="date_taken">"Tarikh diambil"</string>
+	<!---->
+	<string name="modified_time">"Masa diubah suai"</string>
+	<!---->
+	<string name="fast_forward">"Ke depan pantas %ds"</string>
+	<!---->
+	<string name="fast_backward">"Ke belakang pantas %ds"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"Rangkaian disambung semula, terus memainkan?"</string>
+	<!---->
+	<string name="polaroid_action_open">"Buka"</string>
+	<!---->
+	<string name="polaroid_action_save">"Simpan"</string>
+	<!---->
+	<string name="polaroid_action_send">"Hantar"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"Berikan saya satu pelukan"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"Menyimpan gambar..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"Editor Polaroid"</string>
+	<!---->
+	<string name="editor_select_filtershow">"Editor (Lalai)"</string>
+	<!---->
+	<string name="date_tag">"Tarikh"</string>
+	<!---->
+	<string name="location_tag">"lokasi"</string>
+	<!---->
+	<string name="slogan_tag">"slogan"</string>
+	<!---->
+	<string name="polaroid_no_location">"Tiada lokasi"</string>
+	<!---->
+	<string name="save_iamge_compelete">"Foto disimpan ke Galeri."</string>
+	<!---->
+	<string name="save_image_error">"Gagal menyimpan fail."</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"Imej terlalu kecil"</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"Saiz minimum ialah 320 x 320 piksel."</string>
+	<!---->
+	<string name="open_with">"Buka dengan"</string>
+	<!---->
+	<string name="moments_month_view">"Pemandangan dalam bulan"</string>
+	<!---->
+	<string name="moments_day_view">"Pemandangan dalam hari"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"Semua"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"Gambar"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"Video"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"Urutan letusan ini mengandungi %s foto. Padam kesemuanya?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"Tulis ganti tangkapan letusan atau simpan sebagai imej berasingan?"</string>
+	<!---->
+	<string name="burst_overwrite">"Tulis ganti"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"Simpan sebagai imej berasingan"</string>
+	<!---->
+	<string name="burst_cancel">"BATAL"</string>
+	<!---->
+	<string name="burst_delete">"PADAM"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"Kegemaran"</string>
+	<!---->
+	<string name="select">"Pilih"</string>
+	<!---->
+	<string name="getstarted">"Mulakan"</string>
+	<!---->
+	<string name="gotit">"Dapat"</string>
+	<!---->
+	<string name="faceshow_start">"Kejutan menarik menanti anda apabila anda mencapai jumlah selfie yang tertentu. Mulakan pengembaraan anda sekarang!"</string>
+	<!---->
+	<string name="faceshow_takemore">"Anda memerlukan lebih banyak selfie untuk mencipta pertunjukan wajah anda sendiri."</string>
+	<!---->
+	<string name="selfies">"Selfie"</string>
+	<!---->
+	<string name="parallax">"Paralaks"</string>
+	<!---->
+	<string name="trim_title">"Buang perubahan?"</string>
+	<!---->
+	<string name="trim_message">"Perubahan anda tidak disimpan"</string>
+	<!---->
+	<string name="trim_discard">"Buang"</string>
+	<!---->
+	<string name="main_tab_moments">"Detik"</string>
+	<!---->
+	<string name="moments_show">"Tunjuk"</string>
+	<!---->
+	<string name="illegal_image_format">"Format imej tidak sah, tidak dapat edit."</string>
+	<!---->
+	<string name="exporting_video">"Mengeksport video"</string>
+	<!---->
+	<string name="exporting_message">"Ini mungkin mengambil masa beberapa saat, tunggu sebentar..."</string>
+	<!---->
+	<string name="share_save_video">"Menyimpan video ke Galeri..."</string>
+	<!---->
+	<string name="share_saved">"Video disimpan ke Galeri"</string>
+	<!---->
+	<string name="share_save_image">"Menyimpan imej ke Galeri ..."</string>
+	<!---->
+	<string name="share_image_saved">"Imej disimpan ke Galeri"</string>
+	<!---->
+	<string name="location_permission_toast_text">"Tiada data lokasi daripada Kamera"</string>
+	<!---->
+	<string name="no_internet_contect_text">"Tiada smbg Internet"</string>
+	<!---->
+	<string name="more">"Lebih banyak"</string>
+	<!---->
+	<string name="moment_album_today">"Hari ini"</string>
+	<!---->
+	<string name="moment_album_yesterday">"semalam"</string>
+	<!---->
+	<string name="location_destination_text">"Isih foto dan video mengikut lokasi dalam Moments"</string>
+	<string-array name="month">
+		<item>"Januari"</item>
+		<item>"Februari"</item>
+		<item>"Mac"</item>
+		<item>"April"</item>
+		<item>"Mei"</item>
+		<item>"Jun"</item>
+		<item>"Julai"</item>
+		<item>"Ogos"</item>
+		<item>"September"</item>
+		<item>"Oktober"</item>
+		<item>"November"</item>
+		<item>"Disember"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"Untuk mengisih foto dan video mengikut lokasi, berikan kebenaran kepada Galeri untuk mengakses Lokasi."</string>
+	<!---->
+	<string name="permission_location_settings">"Seting"</string>
+	<!---->
+	<string name="boom_key_tip_1">"Kemukakan foto dalam kolaj yang berbeza-beza dan menarik"</string>
+	<!---->
+	<string name="boom_key_tip_2">"Mulakan persembahan kolaj dengan Boom key"</string>
+	<!---->
+	<string name="boom_key_tip_3">"Cetuskan persembahan kolaj dari Album"</string>
+	<!---->
+	<string name="boom_key_tip_4">"Cetuskan persembahan kolaj dari pratonton foto"</string>
+	<!---->
+	<string name="tx_skip">"Langkau"</string>
+	<!---->
+	<string name="tx_done">"Selesai"</string>
+	<!---->
+	<string name="boom_key">"Boom key"</string>
+	<!---->
+	<string name="press">"Tekan"</string>
+	<!---->
+	<string name="not_support_parallax_share">"Tidak boleh berkongsi Fyuse dari Detik"</string>
+	<!---->
+	<string name="permissions_hi">"Hai!"</string>
+	<!---->
+	<string name="not_support_video_edit">"Format video tidak disokong."</string>
+</resources>

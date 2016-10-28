@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+|                                                                 Date:12/2013 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  xihe.lu                                                           |
+|  Email  :  xihe.lu@tcl.com                                                   |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     :                                                                  |
+|  Labels   : OneFingerZoomer                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 12/20/2013|       xihe.lu        |       CR566425       |One finger zoom     |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/btn_tips_pressed" />
+    <item android:drawable="@drawable/btn_tips_normal" />
+</selector>

@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Albamu"</string>
+	<!---->
+	<string name="gadget_title">"Fremu ya picha"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"Kichezeshi cha video"</string>
+	<!---->
+	<string name="loading_video">"Inapakia video\u2026"</string>
+	<!---->
+	<string name="loading_image">"Inapakia picha\u2026"</string>
+	<!---->
+	<string name="loading_account">"Inapakia akaunti\u2026"</string>
+	<!---->
+	<string name="resume_playing_title">"Endeleza video"</string>
+	<!---->
+	<string name="resume_playing_message">"Je, ungependa kuendelea kucheza kutoka %s ?"</string>
+	<!---->
+	<string name="resume_playing_resume">"Endelea kucheza"</string>
+	<!---->
+	<string name="loading">"Inapakia\u2026"</string>
+	<!---->
+	<string name="fail_to_load">"Haikuweza kupakiwa"</string>
+	<!---->
+	<string name="fail_trim">"Faili ya video haiwezi kupunwa."</string>
+	<!---->
+	<string name="fail_to_load_image">"Haikuweza kupakia picha"</string>
+	<!---->
+	<string name="no_thumbnail">"Hakina kijipicha"</string>
+	<!---->
+	<string name="resume_playing_restart">"Anza tena"</string>
+	<!---->
+	<string name="crop_save_text">"SAWA"</string>
+	<!---->
+	<string name="ok">"SAWA"</string>
+	<!---->
+	<string name="multiface_crop_help">"Gusa uso ili uanze"</string>
+	<!---->
+	<string name="saving_image">"Inahifadhi picha\u2026"</string>
+	<!---->
+	<string name="filtershow_saving_image">"Inahifadhi picha kwenye <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="save_error">"Haikuweza kuhifadhi picha iliyopogolewa."</string>
+	<!---->
+	<string name="crop_label">"Pogoa picha"</string>
+	<!---->
+	<string name="trim_label">"Punguza video"</string>
+	<!---->
+	<string name="select_image">"Chagua picha"</string>
+	<!---->
+	<string name="select_video">"Chagua video"</string>
+	<!---->
+	<string name="select_item">"Chagua Kitu"</string>
+	<!---->
+	<string name="select_album">"Chagua albamu"</string>
+	<!---->
+	<string name="select_group">"Chagua kundi"</string>
+	<!---->
+	<string name="set_image">"Weka kama..."</string>
+	<!---->
+	<string name="set_wallpaper">"Weka pazia"</string>
+	<!---->
+	<string name="wallpaper">"Inaweka pazia\u2026"</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"Picha ya ukuta"</string>
+	<!---->
+	<string name="delete">"Futa"</string>
+	<!---->
+	<string name="deleting">"Inafuta"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"Futa kitu kilichochaguliwa?"</item>
+		<item quantity="other">"Je, ungependa kufuta vipengele vilivyochaguliwa?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"Thibitisha"</string>
+	<!---->
+	<string name="cancel">"Ghairi"</string>
+	<!---->
+	<string name="share">"Shiriki"</string>
+	<!---->
+	<string name="share_panorama">"Shiriki panorama"</string>
+	<!---->
+	<string name="share_as_photo">"Shiriki kama picha"</string>
+	<!---->
+	<string name="deleted">"Imefutwa"</string>
+	<!---->
+	<string name="undo">"TENGUA"</string>
+	<!---->
+	<string name="select_all">"Chagua zote"</string>
+	<!---->
+	<string name="deselect_all">"Tengua uteuzi wa zote"</string>
+	<!---->
+	<string name="slideshow">"Onyesho la slaidi"</string>
+	<!---->
+	<string name="details">"Maelezo"</string>
+	<!---->
+	<string name="details_title">"Vipengele %1$d kati ya %2$d:"</string>
+	<!---->
+	<string name="close">"Funga"</string>
+	<!---->
+	<string name="switch_to_camera">"Geuza kwa Kamera"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d zimechaguliwa"</item>
+		<item quantity="one">"%1$d zimechaguliwa"</item>
+		<item quantity="other">"%1$d zimechaguliwa"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d zimechaguliwa"</item>
+		<item quantity="one">"%1$d zimechaguliwa"</item>
+		<item quantity="other">"%1$d zimechaguliwa"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d zimechaguliwa"</item>
+		<item quantity="one">"%1$d zimechaguliwa"</item>
+		<item quantity="other">"%1$d zimechaguliwa"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"Onyesha kwenye ramani"</string>
+	<!---->
+	<string name="rotate_left">"Zungusha kushoto"</string>
+	<!---->
+	<string name="rotate_right">"Zungusha kulia"</string>
+	<!---->
+	<string name="no_such_item">"Haikuweza kupata kipengele."</string>
+	<!---->
+	<string name="edit">"Hariri"</string>
+	<!---->
+	<string name="mix_video">"Mchanganyiko"</string>
+	<!---->
+	<string name="simple_edit">"Uhariri rahisi"</string>
+	<!---->
+	<string name="process_caching_requests">"Kuchakata maombi ya kache"</string>
+	<!---->
+	<string name="caching_label">"Inapakua\u2026"</string>
+	<!---->
+	<string name="crop_action">"Pogoa"</string>
+	<!---->
+	<string name="trim_action">"Punguza"</string>
+	<!---->
+	<string name="mute_action">"Nyamazisha"</string>
+	<!---->
+	<string name="set_as">"Weka kama"</string>
+	<!---->
+	<string name="video_mute_err">"Haiwezi kunyamazisha video."</string>
+	<!---->
+	<string name="video_err">"Haiwezi kucheza video hii."</string>
+	<!---->
+	<string name="group_by_location">"Kwa eneo"</string>
+	<!---->
+	<string name="group_by_time">"Kwa muda"</string>
+	<!---->
+	<string name="group_by_tags">"Kwa tagi"</string>
+	<!---->
+	<string name="group_by_faces">"Na watu"</string>
+	<!---->
+	<string name="group_by_album">"Kwa albamu"</string>
+	<!---->
+	<string name="group_by_size">"Kwa ukubwa"</string>
+	<!---->
+	<string name="untagged">"Tengua uwekaji tagi"</string>
+	<!---->
+	<string name="no_location">"Hakuna eneo"</string>
+	<!---->
+	<string name="no_connectivity">"Baadhi ya maeneo hayakuweza kutambuliwa kwa sababu ya matatizo ya mtandao."</string>
+	<!---->
+	<string name="sync_album_error">"Haikuweza kupakua picha katika albamu hii. Jaribu tena baadaye."</string>
+	<!---->
+	<string name="show_images_only">"Picha peke yake"</string>
+	<!---->
+	<string name="show_videos_only">"Video peke yake"</string>
+	<!---->
+	<string name="show_all">"Picha na video"</string>
+	<!---->
+	<string name="appwidget_title">"Galari ya picha"</string>
+	<!---->
+	<string name="appwidget_empty_text">"Hakuna picha"</string>
+	<!---->
+	<string name="crop_saved">"Picha zilizopogolewa zimehifadhiwa kwenye <xliff:g id="folder_name">%s</xliff:g>."</string>
+	<!---->
+	<string name="no_albums_alert">"Hakuna albamu inapatikana"</string>
+	<!---->
+	<string name="empty_album">"Hakina picha/video inapatikana"</string>
+	<!---->
+	<string name="picasa_posts">"Uchapishaji"</string>
+	<!---->
+	<string name="make_available_offline">"Wezesha ipatikane nje ya mtandao"</string>
+	<!---->
+	<string name="sync_picasa_albums">"Onyesha upya"</string>
+	<!---->
+	<string name="done">"Kamilika"</string>
+	<!---->
+	<string name="sequence_in_set">"Vipengele %1$d kati ya %2$d:"</string>
+	<!---->
+	<string name="title">"Mada"</string>
+	<!---->
+	<string name="description">"Maelezo"</string>
+	<!---->
+	<string name="time">"Muda"</string>
+	<!---->
+	<string name="location">"Eneo"</string>
+	<!---->
+	<string name="path">"Njia"</string>
+	<!---->
+	<string name="width">"Upana"</string>
+	<!---->
+	<string name="height">"Urefu"</string>
+	<!---->
+	<string name="orientation">"Mwelekeo"</string>
+	<!---->
+	<string name="duration">"Muda"</string>
+	<!---->
+	<string name="mimetype">"Aina ya MIME"</string>
+	<!---->
+	<string name="file_size">"Ukubwa wa faili"</string>
+	<!---->
+	<string name="maker">"Kiweka alama"</string>
+	<!---->
+	<string name="model">"Aina"</string>
+	<!---->
+	<string name="flash">"Flashi"</string>
+	<!---->
+	<string name="aperture">"Kitundu"</string>
+	<!---->
+	<string name="focal_length">"Urefu wa Fokasi"</string>
+	<!---->
+	<string name="white_balance">"Usawazishaji weupe"</string>
+	<!---->
+	<string name="exposure_time">"Muda ambao kitundu cha kamera kinakaa wazi"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"mm"</string>
+	<!---->
+	<string name="manual">"Kwa-mkono"</string>
+	<!---->
+	<string name="auto">"Otomatiki"</string>
+	<!---->
+	<string name="flash_on">"Mweko umeanzishwa"</string>
+	<!---->
+	<string name="flash_off">"Hakuna mweko"</string>
+	<!---->
+	<string name="unknown">"Isiyojulikana"</string>
+	<!---->
+	<string name="ffx_original">"Asili"</string>
+	<!---->
+	<string name="ffx_vintage">"Ubora wa juu"</string>
+	<!---->
+	<string name="ffx_instant">"Papo hapo"</string>
+	<!---->
+	<string name="ffx_bleach">"Blichi"</string>
+	<!---->
+	<string name="ffx_blue_crush">"Bluu"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"B/W"</string>
+	<!---->
+	<string name="ffx_punch">"Toboa"</string>
+	<!---->
+	<string name="ffx_x_process">"Mchakato wa X"</string>
+	<!---->
+	<string name="ffx_washout">"Latei"</string>
+	<!---->
+	<string name="ffx_washout_color">"Lithografia"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"Kuwezesha albamu kupatikana nje ya mtandao."</item>
+		<item quantity="other">"Kuwezesha albamu kupatikana nje ya mtandao."</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Kipengele hiki kimehifadhiwa ndani na kinapatikana nje ya mtandao."</string>
+	<!---->
+	<string name="set_label_all_albums">"Albamu zote"</string>
+	<!---->
+	<string name="set_label_local_albums">"Albamu za ndani"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"Vifaa vya MTP"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Albamu za Picasa"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="bytes">%s</xliff:g> inapatikana"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="size">%1$s</xliff:g> au chini"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="size">%1$s</xliff:g> au juu"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="min_size">%1$s</xliff:g> kwa <xliff:g id="max_size">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"Ingiza"</string>
+	<!---->
+	<string name="import_complete">"Uingizaji umekamilika"</string>
+	<!---->
+	<string name="import_fail">"Uingizaji haujafaulu"</string>
+	<!---->
+	<string name="camera_connected">"Kamera imeunganishwa."</string>
+	<!---->
+	<string name="camera_disconnected">"Kamera imetenganishwa."</string>
+	<!---->
+	<string name="click_import">"Gusa hapa uingize"</string>
+	<!---->
+	<string name="widget_type_album">"Chagua albamu"</string>
+	<!---->
+	<string name="widget_type_shuffle">"Changanya picha zote"</string>
+	<!---->
+	<string name="widget_type_photo">"Chagua picha"</string>
+	<!---->
+	<string name="widget_type">"Chagua picha"</string>
+	<!---->
+	<string name="slideshow_dream_name">"Onyesho la slaidi"</string>
+	<!---->
+	<string name="albums">"Albamu"</string>
+	<!---->
+	<string name="times">"Mara"</string>
+	<!---->
+	<string name="locations">"Maeneo"</string>
+	<!---->
+	<string name="people">"Watu"</string>
+	<!---->
+	<string name="tags">"Tagi"</string>
+	<!---->
+	<string name="group_by">"Panga kwa"</string>
+	<!---->
+	<string name="settings">"Mipangilio"</string>
+	<!---->
+	<string name="add_account">"Ongeza akaunti"</string>
+	<!---->
+	<string name="folder_camera">"Kamera"</string>
+	<!---->
+	<string name="folder_download">"Pakua"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"Picha za mtandaoni zilizohaririwa"</string>
+	<!---->
+	<string name="folder_imported">"Imeletwa"</string>
+	<!---->
+	<string name="folder_screenshot">"Kielelezo-skrini"</string>
+	<!---->
+	<string name="help">"Msaada"</string>
+	<!---->
+	<string name="no_external_storage_title">"Hakuna hifadhi"</string>
+	<!---->
+	<string name="no_external_storage">"Hakuna hifadhi ya nje inapatikana"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Mwonekano wa utepe wa filamu"</string>
+	<!---->
+	<string name="switch_photo_grid">"Mwonekano gridi"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"Mtazamo wa skrini mzima"</string>
+	<!---->
+	<string name="trimming">"Kupunguza"</string>
+	<!---->
+	<string name="muting">"Kunyamazisha"</string>
+	<!---->
+	<string name="please_wait">"Tafadhali subiri"</string>
+	<!---->
+	<string name="save_into">"Inahifadhi video kwenye <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="trim_save_into">"Faili iliyopunguzwa imehifadhiwa kwenye <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"Faili iliyonyamazishwa imehifadhiwa kwenye <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="trim_too_short">"Haiwezi kupogoa: video lengwa ni fupi sana"</string>
+	<!---->
+	<string name="mute_nosupport">"Haiwezi kunyamazisha: video haikubaliwi"</string>
+	<!---->
+	<string name="pano_progress_text">"Inaonyesha panorama"</string>
+	<!---->
+	<string name="save">"HIFADHI"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"Inachanganua maudhui..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"Vipengele %1$d vimechanganuliwa"</item>
+		<item quantity="one">"Kipengele %1$d kimechanganuliwa"</item>
+		<item quantity="other">"Vipengele %1$d vimechanganuliwa"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"Vipengele %1$d vimechaguliwa"</item>
+		<item quantity="one">"Kipengele %1$d kimechaguliwa"</item>
+		<item quantity="other">"Vipengele %1$d vimechaguliwa"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"Inapanga..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"Uchanganuzi umekamilika"</string>
+	<!---->
+	<string name="ingest_importing">"Inaingiza..."</string>
+	<!---->
+	<string name="ingest_empty_device">"Hakuna maudhui yanapatikana kwa kuingiza kwenye kifaa hiki."</string>
+	<!---->
+	<string name="ingest_no_device">"Hakuna kifaa cha MTP kimeunganishwa"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"Hitilafu ya kamera"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Haiwezi kuunganisha kwenye kamera."</string>
+	<!---->
+	<string name="camera_disabled">"Kamera imezimwa kwa sababu ya sera za usalama."</string>
+	<!---->
+	<string name="camera_label">"Kamera"</string>
+	<!---->
+	<string name="wait">"Tafadhali subiri\u2026"</string>
+	<!---->
+	<string name="review_cancel">"GHAIRI"</string>
+	<!---->
+	<string name="review_ok">"KAMILIKA"</string>
+	<!---->
+	<string name="time_lapse_title">"Kurekodi wa muda ukipita"</string>
+	<!---->
+	<string name="pref_camera_id_title">"Chagua kamera"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Nyuma"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Mbele"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"Eneo la hifadhi"</string>
+	<!---->
+	<string name="pref_camera_location_label">"Eneo"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"Kipima muda"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"Sekunde 1"</item>
+		<item quantity="other">"Sekunde %d"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Toa mlio inapohesabu"</string>
+	<!---->
+	<string name="setting_off">"Zima"</string>
+	<!---->
+	<string name="setting_on">"Washa"</string>
+	<!---->
+	<string name="pref_video_quality_title">"Ubora wa video"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Juu"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Chini"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"Muda umekwisha"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"Mipangilio ya kamera"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Mipangilio ya kamkoda"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Ukubwa wa picha"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"Megapikseli 13"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"Megapikseli 8"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"Megapikseli 5"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"Megapikseli 4"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"Megapikseli 3"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"Megapikseli 2"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"Megapikseli 2 (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"Megapikseli 1.3"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"Megapikseli 1"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Hali ya kulenga"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Otomatiki"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Pasipo kikomo"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"OTOMATIKI"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"PASIPO KIKOMO"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"MAKRO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Modi ya mwako"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"Modi ya mwako"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Otomatiki"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Washa"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Zima"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"MWAKO OTO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"MWAKO UMEWASHWA"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"ZIMA MWAKO"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Usawazishaji weupe"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Usawazishaji weupe"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Otomatiki"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Kutoa mwangaza"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Mchana"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Uakisi mwanga"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Mawingu"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"OTOMATIKI"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Kutoa mwangaza"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Mchana"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Uakisi mwanga"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Mawingu"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Hali ya mandhari"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Otomatiki"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Hatua"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Usiku"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Machweo"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Sherehe"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"Hakuna"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"Hatua"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"Usiku"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"Machweo"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"Sherehe"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"SAA YA KUHESABU"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"KIPIMA WAKATI KIMEZIMWA"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"Sekunde 1"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"Sekunde 3"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"Sekunde 10"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"Sekunde 15"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Haiwezi kuchaguliwa ikiwa katika hali ya mandhari."</string>
+	<!---->
+	<string name="pref_exposure_title">"Mfichuo"</string>
+	<!---->
+	<string name="pref_exposure_label">"Mfichuo"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"KAMERA YA MBELE"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"KAMERA YA NYUMA"</string>
+	<!---->
+	<string name="dialog_ok">"SAWA"</string>
+	<!---->
+	<string name="video_reach_size_limit">"Kikomo cha ukubwa kimefikiwa."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Umesonga kwa kasi"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Panorama inaandaliwa"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Haikuweza kuhifadhi mandhari yote"</string>
+	<!---->
+	<string name="pano_dialog_title">"Mandhari yote"</string>
+	<!---->
+	<string name="pano_capture_indication">"Inapiga picha ya panorama"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Inasubiri picha ya awali ya panorama"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Inahifadhi\u2026"</string>
+	<!---->
+	<string name="pano_review_rendering">"Inaonyesha panorama"</string>
+	<!---->
+	<string name="tap_to_focus">"Gusa ili ulenge"</string>
+	<!---->
+	<string name="pref_video_effect_title">"Matokeo"</string>
+	<!---->
+	<string name="effect_none">"Hakuna"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Bana"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Macho makubwa"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Mdomo mkubwa"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Mdomo mdogo"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Pua kubwa"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Macho madogo"</string>
+	<!---->
+	<string name="effect_backdropper_space">"Kwenya nafasi"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Machweo"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Video yako"</string>
+	<!---->
+	<string name="bg_replacement_message">"Weka kifaa chako chini.\nOndoa kwenye mwonekano kwa muda."</string>
+	<!---->
+	<string name="video_snapshot_hint">"Gusa ili upige picha unaporekodi."</string>
+	<!---->
+	<string name="video_recording_started">"Kurekodi video kumeanzishwa."</string>
+	<!---->
+	<string name="video_recording_stopped">"Kurekodi video kumesimamishwa."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"Picha ya video imelemazwa wakati matokeo maalum yamewashwa."</string>
+	<!---->
+	<string name="clear_effects">"Futa madoido"</string>
+	<!---->
+	<string name="effect_silly_faces">"SURA PUMBAVU"</string>
+	<!---->
+	<string name="effect_background">"MANDHARI-NYUMA"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"Kitufe cha kilango"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Kitufe cha menyu"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"Picha ya hivi karibuni"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"Ugeuzaji wa kamera ya mbele na nyuma"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"Kiteuzi cha kamera, video, au mandhari yote"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"Udhibiti zaidi wa mpangilio"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"Udhibiti wa mpangilio wa kufunga"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"Udhibiti wa ukuzaji"</string>
+	<!---->
+	<string name="accessibility_decrement">"Punguza %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"Ongeza %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"Kisanduku-tiki cha %1$s"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Badilisha hadi kwa picha"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Badilisha hadi kwa video"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Geuza kwenye modi ya kolagi"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"Geuza kwenye mandhari mapya"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Tumia Kubadilisha kiini"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"Ukaguzi umeghairiwa"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Ukaguzi umekamilika"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Kagua upigaji tena wa picha"</string>
+	<!---->
+	<string name="accessibility_play_video">"Cheza video"</string>
+	<!---->
+	<string name="accessibility_pause_video">"Sitisha video"</string>
+	<!---->
+	<string name="accessibility_reload_video">"Pakia video upya"</string>
+	<!---->
+	<string name="accessibility_time_bar">"Mwambaa wa saa ya kicheza video"</string>
+	<!---->
+	<string name="capital_on">"WASHA"</string>
+	<!---->
+	<string name="capital_off">"ZIMA"</string>
+	<!---->
+	<string name="gif_err">"Haiwezi kucheza gif."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Zima"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"Sekunde 0.5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"Sekunde 1"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"Sekunde 1.5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"Sekunde 2"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"Sekunde 2.5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"Sekunde 3"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"Sekunde 4"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"Sekunde 5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"Sekunde 6"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"Sekunde 10"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"Sekunde 12"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"Sekunde 15"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"Sekunde 24"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"dakika 0.5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"Dakika 1"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"Dakika 1.5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"Dakika 2"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"Dakika 2.5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"Dakika 3"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"Dakika 4"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"Dakika 5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"Dakika 6"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"Dakika 10"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"Dakika 12"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"Dakika 15"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"Dakika 24"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"Saa 0.5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"Saa 1"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"Saa 1.5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"Saa 2"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"Saa 2.5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"Saa 3"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"Saa 4"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"Saa 5"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"Saa 6"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"Saa 10"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"Saa 12"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"Saa 15"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"Saa 24"</string>
+	<!---->
+	<string name="time_lapse_seconds">"sekunde"</string>
+	<!---->
+	<string name="time_lapse_minutes">"dakika"</string>
+	<!---->
+	<string name="time_lapse_hours">"saa"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"Kamilika"</string>
+	<!---->
+	<string name="set_time_interval">"Weka kipindi cha muda"</string>
+	<!---->
+	<string name="set_time_interval_help">"Kipengele cha kuisha kwa muda kimezimwa. Kiwashe ili uweke kipindi cha muda."</string>
+	<!---->
+	<string name="set_timer_help">"Saa ya kuhesabu imezimwa. Iwashe ili uhesabu kabla ya kupiga picha."</string>
+	<!---->
+	<string name="set_duration">"Weka muda katika sekunde"</string>
+	<!---->
+	<string name="count_down_title_text">"Inahesabu ili kupiga picha"</string>
+	<!---->
+	<string name="remember_location_title">"Unakumbuka maeneo ya picha?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Tambulisha picha na video zako kwa kujumuisha maeneo ambamo zinapigiwa.\n\nProgramu nyingine zinaweza kufikia maelezo haya pamoja na picha zako zilizohifadhiwa."</string>
+	<!---->
+	<string name="remember_location_no">"Hapana, asante"</string>
+	<!---->
+	<string name="remember_location_yes">"Ndiyo"</string>
+	<!---->
+	<string name="menu_camera">"Kamera"</string>
+	<!---->
+	<string name="menu_search">"Tafuta"</string>
+	<!---->
+	<string name="tab_photos">"Picha"</string>
+	<!---->
+	<string name="tab_albums">"Albamu"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Chaguo zaidi"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"Mipangilio"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"Picha %1$d"</item>
+		<item quantity="other">"Picha %1$d"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"Manukuu"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"Video hii sio halali kwa utiririshaji kwenye kifaa hiki."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"Haiwezi kucheza video hii."</string>
+	<!---->
+	<string name="VideoView_error_button">"SAWA"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"Video haikubaliwi"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"Haikuweza kuunganisha. Jaribu kuunganisha upya %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"Inaunganisha..."</string>
+	<!---->
+	<string name="media_controller_buffering">"Inapakia %d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"Haiwezi kuunganisha kwenye seva"</string>
+	<!---->
+	<string name="media_controller_live">"Moja kwa moja"</string>
+	<!---->
+	<string name="media_controller_playing">"Inachezesha"</string>
+	<!---->
+	<string name="notify_photo_text">"Kidhibiti galari"</string>
+	<!---->
+	<string name="notify_video_text">"Kidhibiti galari"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"Onyesho la slaidi la Onyesha la Wi-Fi limewezeshwa"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"Video ya Wi-Fi Display imewezeshwa"</string>
+	<!---->
+	<string name="wfd_alert">"Arifa"</string>
+	<!---->
+	<string name="wfd_change_message">"Video itabadilishwa."</string>
+	<!---->
+	<string name="wfd_change_button">"Ndiyo"</string>
+	<!---->
+	<string name="wfd_not_change_button">"Hapana"</string>
+	<!---->
+	<string name="wfd_show">"Wi-Fi Display"</string>
+	<!---->
+	<string name="wfd_show_on">"Washa Wi-Fi Display"</string>
+	<!---->
+	<string name="wfd_show_off">"Zima Wi-Fi Display"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"Kokota faili kwenye mstatili wa manjano ili ushiriki skrini yako."</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"Aina hii haikubaliwi"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Onyo"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Faili zote zilizolindwa kunakiliwa zimefichwa kwa sababu ya muunganisho wa Wi-Fi Display."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"Zima Wi-Fi Display"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"Endelea"</string>
+	<!---->
+	<string name="tv_link_close">"Wi-Fi Display limefungwa"</string>
+	<!---->
+	<string name="drm_no_valid_right">"Faili haina mamlaka halali ya DRM"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">"Faili ya DRM "%s" imefikisha mwisho wa matumizi. Je, ungependa kuifuta?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"Faili ya DRM "%s" imefikisha mwisho wa matumizi. Ungependa kuifungua?"</string>
+	<!---->
+	<string name="unlimited_usage">"Matumizi bila kikomo"</string>
+	<!---->
+	<string name="not_available">"Haipatikani"</string>
+	<!---->
+	<string name="use_times">"Tumia mara %s"</string>
+	<!---->
+	<string name="valid_after">"Halali baada ya"</string>
+	<!---->
+	<string name="valid_until">"Halali hadi"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"Gusa mara mbili na utelezeshe ili ukuze zaidi/ufifize katika Kamera"</string>
+	<!---->
+	<string name="tips_done">"Kamilika"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"Gonga mara mbili na utelezeshe ili ukuze zaidi/ufifize katika Galari"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"Pata maelezo kuhusu ukuzaji wa kidole kimoja"</string>
+	<!---->
+	<string name="drm_current_right">"Kikwazo cha Sasa"</string>
+	<!---->
+	<string name="right_url">"Leseni"</string>
+	<!---->
+	<string name="vendor">"Mtoaji huduma:"</string>
+	<!---->
+	<string name="stop">"Simamisha"</string>
+	<!---->
+	<string name="selectRenderer">"Chagua kichezaji"</string>
+	<!---->
+	<string name="noRenderer">"Haiwezi kupata kifaa chochote kinachotoa"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"Je, ungependa kuwacha kucheza video kwenye runinga?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"Je, ungependa kuwacha kucheza picha kwenye runinga?"</string>
+	<!---->
+	<string name="play_video">"Cheza video"</string>
+	<!---->
+	<string name="shake_video_text">"Ili uicheze kwenye runinga yako tikisa simu yako kwenye ukurasa wa video."</string>
+	<!---->
+	<string name="shake_picture_text">"Ili uicheze kwenye runinga yako tikisa simu yako kwenye ukurasa wa picha."</string>
+	<!---->
+	<string name="wait_dialog">"Tafadhali subiri..."</string>
+	<!---->
+	<string name="toast_nostop">"Ili kusimamisha uchazaji kwenye runinga, chagua kichazaji cha ndani."</string>
+	<!---->
+	<string name="dlna_format_not_support">"Umbizo wa faili haukubaliki."</string>
+	<!---->
+	<string name="left_title_camera_roll">"Picha zote"</string>
+	<!---->
+	<string name="left_title_timeline">"Muda"</string>
+	<!---->
+	<string name="left_title_albums">"Albamu"</string>
+	<!---->
+	<string name="left_title_videos">"Video"</string>
+	<!---->
+	<string name="left_title_location">"Maeneo"</string>
+	<!---->
+	<string name="drawer_open">"Fungua droo ya urambazaji"</string>
+	<!---->
+	<string name="drawer_close">"Funga droo ya urambazaji"</string>
+	<!---->
+	<string name="photo_share">"Shiriki kwa"</string>
+	<!---->
+	<string name="filtershow_save">"Hifadhi"</string>
+	<!---->
+	<string name="filtershow_none">"Hakuna"</string>
+	<!---->
+	<string name="filtershow_frame">"Fremu"</string>
+	<!---->
+	<string name="drm_no_crop">"Faili %s" hairuhusiwi kupogolewa kwa sababu faili imelindwa na DRM."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"Faili %s" hairuhusiwi kuwekwa kama ikoni ya mwasiliani kwa sababu imelindwa na DRM."</string>
+	<!---->
+	<string name="never_tip">"Onyesha vidokezo unapowasha"</string>
+	<!---->
+	<string name="three_finger_tips0">"Weka vidole vitatu kwenye skrini"</string>
+	<!---->
+	<string name="three_finger_tips1">"Kokota faili kwenye eneo la rangi ya manjano"</string>
+	<!---->
+	<string name="three_finger_tips2">"Wakati nafasi imejaa rangi ya manjano, kushiriki kumefaulu."</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"Faili ya DRM haifai kuonyeshwa kupitia Wi-Fi Display."</string>
+	<!---->
+	<string name="filtershow_save_title">"Hifadhi mabadiliko"</string>
+	<!---->
+	<string name="filtershow_save_message">"Je, ungepenga kuhifadhi kama nakala au kuandikiza picha asili?"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"Usiniulize tena"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"HIFADHI KAMA NAKALA"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"ANDIKIZA ASILI"</string>
+	<!---->
+	<string name="lock_video">"Fungwa"</string>
+	<!---->
+	<string name="unlock_video">"Funguliwa"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Leseni ya DRM imekwisha."</string>
+	<!---->
+	<string name="drm_protection_status">"Hali ya ulinzi:"</string>
+	<!---->
+	<string name="drm_can_forward">"Inaweza kusambazwa."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Haiwezi kusambazwa."</string>
+	<!---->
+	<string name="drm_no_license">"Hakuna leseni ya DRM inapatikana."</string>
+	<!---->
+	<string name="drm_begin">"Anza:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Hakuna kikomo"</string>
+	<!---->
+	<string name="drm_end">"Mwisho:"</string>
+	<!---->
+	<string name="drm_use_left">"Inayosalia"</string>
+	<!---->
+	<string name="date_taken">"Tarehe Iliyopigwa"</string>
+	<!---->
+	<string name="modified_time">"Muda uliorekebishwa"</string>
+	<!---->
+	<string name="fast_forward">"Mbele haraka%d"</string>
+	<!---->
+	<string name="fast_backward">"Nyuma haraka%d"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"Mtandao umeunganishwa upya, je ungependa kuendelea kucheza?"</string>
+	<!---->
+	<string name="polaroid_action_open">"Fungua"</string>
+	<!---->
+	<string name="polaroid_action_save">"Hifadhi"</string>
+	<!---->
+	<string name="polaroid_action_send">"Tuma"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"Nikumbatie ~"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"Inahifadhi picha..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"Kihariri cha polaroidi"</string>
+	<!---->
+	<string name="editor_select_filtershow">"Kihariri (Chaguo-msingi)"</string>
+	<!---->
+	<string name="date_tag">"Tarehe"</string>
+	<!---->
+	<string name="location_tag">"Eneo"</string>
+	<!---->
+	<string name="slogan_tag">"Wito"</string>
+	<!---->
+	<string name="polaroid_no_location">"Hakuna eneo"</string>
+	<!---->
+	<string name="save_iamge_compelete">"Picha imehifadhiwa kwenye Galari."</string>
+	<!---->
+	<string name="save_image_error">"Haikuweza kuhifadhi faili"</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"Picha ni ndogo sana"</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"Ukuwa wa chini zaidi ni pikseli 320 x 320."</string>
+	<!---->
+	<string name="open_with">"Fungua ukitumia"</string>
+	<!---->
+	<string name="moments_month_view">"Mwonekano wa mwezi"</string>
+	<!---->
+	<string name="moments_day_view">"Mwonekano wa mchana"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"Zote"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"Picha"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"Video"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuzi"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"Mfululizo huu wa upigaji picha una picha %s. Je, ungependa kufuta picha zote?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"Je, ungependa kuandikiza picha mfululizo au kuzihifadhi kama picha binafsi?"</string>
+	<!---->
+	<string name="burst_overwrite">"Andikiza"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"Hifadhi kama picha za kibinafsi"</string>
+	<!---->
+	<string name="burst_cancel">"Ghairi"</string>
+	<!---->
+	<string name="burst_delete">"Futa"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"Kipendwa"</string>
+	<!---->
+	<string name="select">"Chagua"</string>
+	<!---->
+	<string name="getstarted">"Anza kutumia"</string>
+	<!---->
+	<string name="gotit">"Nimeelewa"</string>
+	<!---->
+	<string name="faceshow_start">"Jambo la ajabu linakusubiri unapofikisha hadi kiasi fulani cha picha-binafsi Anza safari yako sasa hivi!"</string>
+	<!---->
+	<string name="faceshow_takemore">"Unahitaji picha-binafsi zaidi ili uunde onyesho lako mwenyewe la uso."</string>
+	<!---->
+	<string name="selfies">"Picha-binafsi"</string>
+	<!---->
+	<string name="parallax">"Mkengeusho"</string>
+	<!---->
+	<string name="trim_title">"Ungependa kupuuza mabadiliko?"</string>
+	<!---->
+	<string name="trim_message">"Mabadiliko yako hayajahifadhiwa"</string>
+	<!---->
+	<string name="trim_discard">"Tupa"</string>
+	<!---->
+	<string name="main_tab_moments">"Matukio"</string>
+	<!---->
+	<string name="moments_show">"Onyesha"</string>
+	<!---->
+	<string name="illegal_image_format">"Umbizo la picha lisilo sahihi, haiwezi kuhariri."</string>
+	<!---->
+	<string name="exporting_video">"Kuhamisha video"</string>
+	<!---->
+	<string name="exporting_message">"Jambo hili linaweza kuchukua sekunde chache, subiri kwa muda mfupi..."</string>
+	<!---->
+	<string name="share_save_video">"Inahifadhi video kwenye Galari..."</string>
+	<!---->
+	<string name="share_saved">"Video imehifadhiwa kwenye Galari"</string>
+	<!---->
+	<string name="share_save_image">"Inahifadhi video kwenye Galari..."</string>
+	<!---->
+	<string name="share_image_saved">"Picha imehifadhiwa kwenye Galari"</string>
+	<!---->
+	<string name="location_permission_toast_text">"Hakuna data ya eneo kutoka kwenye Kamera"</string>
+	<!---->
+	<string name="no_internet_contect_text">"Hakuna muunganisho wa mtandao"</string>
+	<!---->
+	<string name="more">"Zaidi"</string>
+	<!---->
+	<string name="moment_album_today">"Leo"</string>
+	<!---->
+	<string name="moment_album_yesterday">"Jana"</string>
+	<!---->
+	<string name="location_destination_text">"Panga picha na video kwa eneo katika Matukio"</string>
+	<string-array name="month">
+		<item>"Januari"</item>
+		<item>"Februari"</item>
+		<item>"Machi"</item>
+		<item>"Aprili"</item>
+		<item>"Mei"</item>
+		<item>"Juni"</item>
+		<item>"Julai"</item>
+		<item>"Agosti"</item>
+		<item>"Septemba"</item>
+		<item>"Oktoba"</item>
+		<item>"Novemba"</item>
+		<item>"Desemba"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"Kupanga picha na video kwa eneo, ruhusu idhini ya Galari kufikia Eneo."</string>
+	<!---->
+	<string name="permission_location_settings">"Mipangilio"</string>
+	<!---->
+	<string name="boom_key_tip_1">"Weka picha upya katika kolagi tofauti na ya ajabu"</string>
+	<!---->
+	<string name="boom_key_tip_2">"Anzisha onyesho la kolagi kutoka Matukio"</string>
+	<!---->
+	<string name="boom_key_tip_3">"Anzisha onyesho la kolagi kutoka Albamu"</string>
+	<!---->
+	<string name="boom_key_tip_4">"Anzisha onyesho la kolagi kutoka uhakiki wa picha"</string>
+	<!---->
+	<string name="tx_skip">"Ruka"</string>
+	<!---->
+	<string name="tx_done">"Kamilika"</string>
+	<!---->
+	<string name="boom_key">"Kibonye cha kuongeza"</string>
+	<!---->
+	<string name="press">"Bonyeza"</string>
+	<!-- no translation found for not_support_parallax_share -->
+	<skip />
+	<!-- no translation found for permissions_hi -->
+	<skip />
+	<!-- no translation found for not_support_video_edit -->
+	<skip />
+</resources>

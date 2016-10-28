@@ -1,0 +1,52 @@
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="98dp"
+    android:paddingRight="98dp" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_boom_tip_03" >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_press"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="26dp"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/press"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_boomkey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="26dp"
+            android:gravity="top"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="@string/boom_key"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fbeb00"
+            android:textSize="8sp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>

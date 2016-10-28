@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"ছবি সম্পাদক"</string>
+	<!---->
+	<string name="cannot_load_image">"ইমেজ লোড করতে পারেন"</string>
+	<!-- no translation found for cannot_edit_original -->
+	<skip />
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"সেট ওয়ালপেপার"</string>
+	<!---->
+	<string name="download_failure">"ছবির জন্য ডাউনলোড করা যায়নি. অনুপলব্ধ নেটওয়ার্ক."</string>
+	<!---->
+	<string name="original">"মূল"</string>
+	<!---->
+	<string name="borders">"সীমাসমূহ"</string>
+	<!---->
+	<string name="custom_border">"কাস্টম"</string>
+	<!---->
+	<string name="filtershow_undo">"পূর্বাবস্থা"</string>
+	<!---->
+	<string name="filtershow_redo">"পুনরায় করা"</string>
+	<!---->
+	<string name="show_imagestate_panel">"ছবির অবস্থা দেখান"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"ছবির অবস্থা লুকান"</string>
+	<!---->
+	<string name="export_image">"রপ্তানি"</string>
+	<!---->
+	<string name="print_image">"ছাপান"</string>
+	<!-- no translation found for filtershow_auto_edit -->
+	<skip />
+	<!-- no translation found for export_flattened -->
+	<skip />
+	<!-- no translation found for select_output_settings -->
+	<skip />
+	<!-- no translation found for quality -->
+	<skip />
+	<!---->
+	<string name="size">"সাইজ"</string>
+	<!---->
+	<string name="x">"এক্স"</string>
+	<!---->
+	<string name="menu_settings">"সেটিংস"</string>
+	<!---->
+	<string name="unsaved">"এই ইমেজ থেকে অসংরক্ষিত পরিবর্তন রয়েছে."</string>
+	<!---->
+	<string name="save_before_exit">"সংরক্ষণ করে প্রস্থান"</string>
+	<!---->
+	<string name="save_and_exit">"সংরক্ষণ করে প্রস্থান"</string>
+	<!---->
+	<string name="save_and_processing">"অগ্রাধিকার"</string>
+	<!---->
+	<string name="exit">"প্রস্থান"</string>
+	<!---->
+	<string name="history">"ইতিবৃত্ত"</string>
+	<!---->
+	<string name="reset">"পুনরায় সেট করা"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"বর্তমান ছবির অবস্থা"</string>
+	<!---->
+	<string name="compare_original">"তুলনা"</string>
+	<!---->
+	<string name="apply_effect">"প্রয়োগ"</string>
+	<!---->
+	<string name="reset_effect">"পুনরায় সেট করা"</string>
+	<!---->
+	<string name="aspect">"দিক"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"কোনটিই নয়"</string>
+	<!-- no translation found for aspectCustom_effect -->
+	<skip />
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"স্থির"</string>
+	<!---->
+	<string name="tinyplanet">"ক্ষুদ্র গ্রহ"</string>
+	<!---->
+	<string name="exposure">"উন্মোচন"</string>
+	<!---->
+	<string name="sharpness">"তীক্ষ্ণতা"</string>
+	<!---->
+	<string name="contrast">"উজ্জ্বলতা"</string>
+	<!---->
+	<string name="vibrance">"আন্দোলন"</string>
+	<!---->
+	<string name="saturation">"পরিপৃক্তি"</string>
+	<!---->
+	<string name="bwfilter">"BW ফিল্টার"</string>
+	<!---->
+	<string name="wbalance">"স্বয়ংক্রিয় বর্ণ"</string>
+	<!---->
+	<string name="hue">"হিউ(রঞ্জক)"</string>
+	<!---->
+	<string name="shadow_recovery">"ছায়া"</string>
+	<!---->
+	<string name="highlight_recovery">"হাইলাইটস"</string>
+	<!---->
+	<string name="curvesRGB">"বক্ররেখা"</string>
+	<!---->
+	<string name="vignette">"ভিগনেট"</string>
+	<!---->
+	<string name="vignette_main">"ভিগনেট"</string>
+	<!---->
+	<string name="vignette_exposure">"উন্মোচন"</string>
+	<!---->
+	<string name="vignette_saturation">"পরিপৃক্তি"</string>
+	<!---->
+	<string name="vignette_contrast">"বৈপরীত্য"</string>
+	<!-- no translation found for vignette_falloff -->
+	<skip />
+	<!---->
+	<string name="redeye">"রেড আই"</string>
+	<!---->
+	<string name="imageDraw">"আঁকা"</string>
+	<!---->
+	<string name="straighten">"স্ট্রেইটেন"</string>
+	<!---->
+	<string name="crop">"ক্রপ করুন"</string>
+	<!---->
+	<string name="rotate">"ঘোরানো"</string>
+	<!---->
+	<string name="mirror">"প্রতিবিম্ব"</string>
+	<!---->
+	<string name="negative">"নেগেটিভ"</string>
+	<!---->
+	<string name="none">"কোনটিই নয়"</string>
+	<!---->
+	<string name="edge">"প্রান্ত"</string>
+	<!---->
+	<string name="kmeans">"পোস্টারাইজ"</string>
+	<!---->
+	<string name="downsample">"Downsample"</string>
+	<!-- no translation found for grad -->
+	<skip />
+	<!---->
+	<string name="editor_grad_brightness">"উজ্বলতা(ব্রাইটনেস)"</string>
+	<!---->
+	<string name="editor_grad_contrast">"বৈপরীত্য"</string>
+	<!---->
+	<string name="editor_grad_saturation">"পরিপৃক্তি"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"প্রধান"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"লাল"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"হলুদ"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"সবুজ"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"সিয়ান"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"নীল"</string>
+	<!-- no translation found for editor_chan_sat_magenta -->
+	<skip />
+	<!---->
+	<string name="editor_grad_style">"ভঙ্গী"</string>
+	<!---->
+	<string name="editor_grad_new">"নতুন"</string>
+	<!-- no translation found for curves_channel_rgb -->
+	<skip />
+	<!---->
+	<string name="curves_channel_red">"লাল"</string>
+	<!---->
+	<string name="curves_channel_green">"সবুজ"</string>
+	<!---->
+	<string name="curves_channel_blue">"নীল"</string>
+	<!---->
+	<string name="draw_style">"ভঙ্গী"</string>
+	<!---->
+	<string name="draw_size">"সাইজ"</string>
+	<!---->
+	<string name="draw_hue">"হিউ(রঞ্জক)"</string>
+	<!---->
+	<string name="draw_saturation">"পরিপৃক্তি"</string>
+	<!---->
+	<string name="draw_value">"উজ্বলতা(ব্রাইটনেস)"</string>
+	<!---->
+	<string name="draw_color">"রঙ"</string>
+	<!---->
+	<string name="draw_style_line">"লাইনস"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"চিহ্নিতকারী ব্যক্তি"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"ছড়ান"</string>
+	<!---->
+	<string name="draw_clear">"মুছুন"</string>
+	<!-- no translation found for color_border_size -->
+	<skip />
+	<!---->
+	<string name="color_border_corner_size">"বৈপরীত্য"</string>
+	<!---->
+	<string name="color_border_color">"রঙ"</string>
+	<!---->
+	<string name="color_border_clear">"মুছুন"</string>
+	<!---->
+	<string name="color_pick_select">"কাস্টম রঙ চয়ন করুন"</string>
+	<!---->
+	<string name="color_pick_title">"নির্বাচন রঙ"</string>
+	<!---->
+	<string name="draw_size_title">"নির্বাচন আকার"</string>
+	<!---->
+	<string name="draw_size_accept">"ঠিক আছে"</string>
+	<!---->
+	<string name="state_panel_original">"মূল"</string>
+	<!---->
+	<string name="state_panel_result">"ফল"</string>
+	<!---->
+	<string name="filtershow_notification_label">"সংরক্ষণ করুন"</string>
+	<!---->
+	<string name="filtershow_notification_message">"প্রসেসিং ..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"সংরক্ষণ করুন"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"ব্যবহারকারী প্রিসেট গালাগাল প্রতিবেদন করো"</string>
+	<!---->
+	<string name="filtershow_new_preset">"নতুন"</string>
+	<!---->
+	<string name="filtershow_preset_name">"পোস্টারাইজ"</string>
+	<!-- no translation found for filtershow_show_info_panel -->
+	<skip />
+	<!---->
+	<string name="filtershow_show_info_panel_name">"আইসল্যান্ডিক"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"%1$s ছবি গ্রহণ করতে ব্যর্থ হয়েছে""</string>
+	<!-- no translation found for filtershow_show_info_panel_histogram -->
+	<skip />
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"ইংরেজি"</string>
+	<!-- no translation found for filtershow_add_button_looks -->
+	<skip />
+	<!---->
+	<string name="filtershow_add_button_versions">"সংস্করণ"</string>
+	<!---->
+	<string name="filtershow_version_original">"মূল"</string>
+	<!---->
+	<string name="filtershow_version_current">"বর্তমান"</string>
+	<!---->
+	<string name="filtershow_exif_model">"মডেল"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"অ্যাপারচার"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"ফোকাল দৈর্ঘ্য"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"সোজা করা"</string>
+	<!-- no translation found for filtershow_exif_date -->
+	<skip />
+	<!---->
+	<string name="filtershow_exif_f_stop">"এক্সপোজার"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"এক্সপোজার টাইম"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"কপিরাইট"</string>
+</resources>

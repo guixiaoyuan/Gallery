@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Apr 02 14:48:29 GMT+08:00 2015
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"ويرايشگر عکس"</string>
+	<!---->
+	<string name="cannot_load_image">"تصوير بارگيري نمي شود"</string>
+	<!---->
+	<string name="cannot_edit_original">"نمی توانید مورد اصلی را ویرایش کنید"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"تنظیم تصویر زمینه"</string>
+	<!---->
+	<string name="download_failure">"نمی توانید عکس را دانلود کنید. شبکه در دسترس نيست."</string>
+	<!---->
+	<string name="original">"اصلي"</string>
+	<!---->
+	<string name="borders">"حاشيه ها"</string>
+	<!---->
+	<string name="custom_border">"سفارشی"</string>
+	<!---->
+	<string name="filtershow_undo">"لغو عمل"</string>
+	<!---->
+	<string name="filtershow_redo">"انجام دوباره"</string>
+	<!---->
+	<string name="show_imagestate_panel">"نمايش حالت تصوير"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"پنهان کردن حالت تصوير"</string>
+	<!---->
+	<string name="export_image">"صادر کردن"</string>
+	<!---->
+	<string name="print_image">"چاپ"</string>
+	<!---->
+	<string name="export_flattened">"صادر کردن تصویر مسطح"</string>
+	<!---->
+	<string name="select_output_settings">"تصویر صادر شده یک کپی بدون ویرایش سابقه است."</string>
+	<!---->
+	<string name="quality">"کیفیت"</string>
+	<!---->
+	<string name="size">"اندازه"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"تنظیمات"</string>
+	<!---->
+	<string name="unsaved">"در این تصویر تغییرات ذخیره نشده ای موجود است."</string>
+	<!---->
+	<string name="save_before_exit">"می خواهید قبل از خروج ذخیره کنید؟"</string>
+	<!---->
+	<string name="save_and_exit">"ذخیره و خروج"</string>
+	<!---->
+	<string name="save_and_processing">"در حال پردازش تصویر با وضوح کامل..."</string>
+	<!---->
+	<string name="exit">"خروج"</string>
+	<!---->
+	<string name="history">"تاریخچه"</string>
+	<!---->
+	<string name="reset">"بازنشاني"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"حالت فعلي تصوير"</string>
+	<!---->
+	<string name="compare_original">"مقايسه"</string>
+	<!---->
+	<string name="apply_effect">"اعمال"</string>
+	<!---->
+	<string name="reset_effect">"بازنشاني"</string>
+	<!---->
+	<string name="aspect">"ابعاد"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"هیچکدام"</string>
+	<!---->
+	<string name="aspectCustom_effect">"سفارشی"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"ثابت"</string>
+	<!---->
+	<string name="tinyplanet">"سياره کوچک"</string>
+	<!---->
+	<string name="exposure">"نوردهي"</string>
+	<!---->
+	<string name="sharpness">"وضوح"</string>
+	<!---->
+	<string name="contrast">"کنتراست"</string>
+	<!---->
+	<string name="vibrance">"لرزش"</string>
+	<!---->
+	<string name="saturation">"اشباع"</string>
+	<!---->
+	<string name="bwfilter">"فیلتر BW"</string>
+	<!---->
+	<string name="wbalance">"رنگ خودکار"</string>
+	<!---->
+	<string name="hue">"رنگ"</string>
+	<!---->
+	<string name="shadow_recovery">"سایه ها"</string>
+	<!---->
+	<string name="highlight_recovery">"قسمت های برجسته"</string>
+	<!---->
+	<string name="curvesRGB">"منحني ها"</string>
+	<!---->
+	<string name="vignette">"وینت"</string>
+	<!---->
+	<string name="vignette_main">"وینت"</string>
+	<!---->
+	<string name="vignette_exposure">"نوردهي"</string>
+	<!---->
+	<string name="vignette_saturation">"اشباع"</string>
+	<!---->
+	<string name="vignette_contrast">"کنتراست"</string>
+	<!---->
+	<string name="vignette_falloff">"انحراف"</string>
+	<!---->
+	<string name="redeye">"قرمزی چشم"</string>
+	<!---->
+	<string name="imageDraw">"کشیدن"</string>
+	<!---->
+	<string name="straighten">"صاف کردن"</string>
+	<!---->
+	<string name="crop">"برش"</string>
+	<!---->
+	<string name="rotate">"چرخش"</string>
+	<!---->
+	<string name="mirror">"آينه"</string>
+	<!---->
+	<string name="negative">"نگاتیو"</string>
+	<!---->
+	<string name="none">"هیچکدام"</string>
+	<!---->
+	<string name="edge">"لبه ها"</string>
+	<!---->
+	<string name="kmeans">"پوستری کردن"</string>
+	<!---->
+	<string name="downsample">"پایین آوردن سرعت نمونه"</string>
+	<!---->
+	<string name="grad">"فارغ التحصیل"</string>
+	<!---->
+	<string name="editor_grad_brightness">"روشنایی"</string>
+	<!---->
+	<string name="editor_grad_contrast">"کنتراست"</string>
+	<!---->
+	<string name="editor_grad_saturation">"اشباع"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"اصلی"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"قرمز"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"زرد"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"سبز"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"فيروزه اي"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"آبي"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"زرشکی"</string>
+	<!---->
+	<string name="editor_grad_style">"سبک"</string>
+	<!---->
+	<string name="editor_grad_new">"جدید"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"قرمز"</string>
+	<!---->
+	<string name="curves_channel_green">"سبز"</string>
+	<!---->
+	<string name="curves_channel_blue">"آبي"</string>
+	<!---->
+	<string name="draw_style">"سبک"</string>
+	<!---->
+	<string name="draw_size">"اندازه"</string>
+	<!---->
+	<string name="draw_hue">"رنگ"</string>
+	<!---->
+	<string name="draw_saturation">"اشباع"</string>
+	<!---->
+	<string name="draw_value">"روشنایی"</string>
+	<!---->
+	<string name="draw_color">"رنگ"</string>
+	<!---->
+	<string name="draw_style_line">"خطوط"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"مارکر"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"اسپری"</string>
+	<!---->
+	<string name="draw_clear">"پاک کردن"</string>
+	<!---->
+	<string name="color_border_size">"ضخامت"</string>
+	<!---->
+	<string name="color_border_corner_size">"اندازه گوشه"</string>
+	<!---->
+	<string name="color_border_color">"رنگ"</string>
+	<!---->
+	<string name="color_border_clear">"پاک کردن"</string>
+	<!---->
+	<string name="color_pick_select">"انتخاب رنگ سفارشی"</string>
+	<!---->
+	<string name="color_pick_title">"انتخاب رنگ"</string>
+	<!---->
+	<string name="draw_size_title">"انتخاب اندازه"</string>
+	<!---->
+	<string name="draw_size_accept">"تایید"</string>
+	<!---->
+	<string name="state_panel_original">"اصلي"</string>
+	<!---->
+	<string name="state_panel_result">"نتیجه"</string>
+	<!---->
+	<string name="filtershow_notification_label">"ذخیره تصویر"</string>
+	<!---->
+	<string name="filtershow_notification_message">"در حال پردازش..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"ذخیره پیش تنظیم فعلی"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"مدیریت پیش تنظیم های کاربر"</string>
+	<!---->
+	<string name="filtershow_new_preset">"پیش تنظیم جدید"</string>
+	<!---->
+	<string name="filtershow_preset_name">"نام پیش تنظیم"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"اطلاعات"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"نام تصویر"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"اندازه تصویر"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"هيستوگرام"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"داده EXIF"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"پیش تنظیم"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"نسخه"</string>
+	<!---->
+	<string name="filtershow_version_original">"اصلي"</string>
+	<!---->
+	<string name="filtershow_version_current">"فعلي"</string>
+	<!---->
+	<string name="filtershow_exif_model">"مدل"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"دریچه دیافراگم"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"فاصله کانونی"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"فاصله سوژه"</string>
+	<!---->
+	<string name="filtershow_exif_date">"تاریخ مقرر"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"مقیاس F Stop"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"زمان نوردهی"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"حق نسخه برداري"</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- [FEATURE]-add-BEGIN by jian.pan1, 11/06/2014, For FR828601 Pop-up Video play -->
+    <item android:drawable="@drawable/popup_video_show_normal" android:state_focused="false" android:state_pressed="false"/>
+    <item android:drawable="@drawable/popup_video_show_pressed" android:state_pressed="true"/>
+    <!-- [FEATURE]-add-END by jian.pan1 -->
+</selector>

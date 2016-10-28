@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Galerija"</string>
+	<!---->
+	<string name="gadget_title">"Okvir slike"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"Videoplayer"</string>
+	<!---->
+	<string name="loading_video">"Učitavanje videozapisa…"</string>
+	<!---->
+	<string name="loading_image">"Učitavanje slike…"</string>
+	<!---->
+	<string name="loading_account">"Učitavanje računa…"</string>
+	<!---->
+	<string name="resume_playing_title">"Nastavi video"</string>
+	<!---->
+	<string name="resume_playing_message">"Nastavi reprodukciju iz %s?"</string>
+	<!---->
+	<string name="resume_playing_resume">"Nastavi reprodukc."</string>
+	<!---->
+	<string name="loading">"Učitavanje…"</string>
+	<!---->
+	<string name="fail_to_load">"Nije bilo moguće učitati"</string>
+	<!---->
+	<string name="fail_trim">"Videozapis se ne može izrezati."</string>
+	<!---->
+	<string name="fail_to_load_image">"Nije moguće učitati sliku"</string>
+	<!---->
+	<string name="no_thumbnail">"Nema minijatura"</string>
+	<!---->
+	<string name="resume_playing_restart">"Ponovi"</string>
+	<!---->
+	<string name="crop_save_text">"U redu"</string>
+	<!---->
+	<string name="ok">"U redu"</string>
+	<!---->
+	<string name="multiface_crop_help">"Dodirnite lice za početak"</string>
+	<!---->
+	<string name="saving_image">"Spremanje slike..."</string>
+	<!---->
+	<string name="filtershow_saving_image">"Spremanje slike u <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="save_error">"Nije moguće spremiti izrezanu sliku."</string>
+	<!---->
+	<string name="crop_label">"Izrezivanje slike"</string>
+	<!---->
+	<string name="trim_label">"Odreži videozapis"</string>
+	<!---->
+	<string name="select_image">"Odaberite fotog."</string>
+	<!---->
+	<string name="select_video">"Odaberite videoz."</string>
+	<!---->
+	<string name="select_item">"Odaberite stavku"</string>
+	<!---->
+	<string name="select_album">"Odaberite album"</string>
+	<!---->
+	<string name="select_group">"Odabir grupe"</string>
+	<!---->
+	<string name="set_image">"Postavi kao&#8230;"</string>
+	<!---->
+	<string name="set_wallpaper">"Postavi pozadinsku sliku"</string>
+	<!---->
+	<string name="wallpaper">"Postavljanje pozadinske slike…"</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"Pozadinska slika"</string>
+	<!---->
+	<string name="delete">"Obriši"</string>
+	<!---->
+	<string name="deleting">"Brisanje"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"Obrisati odabranu stavku?"</item>
+		<item quantity="other">"Obrisati odabrane stavke?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"Potvrdi"</string>
+	<!---->
+	<string name="cancel">"Odustani"</string>
+	<!---->
+	<string name="share">"Podijeli"</string>
+	<!---->
+	<string name="share_panorama">"Podijeli panoramu"</string>
+	<!---->
+	<string name="share_as_photo">"Podijeli kao fotografiju"</string>
+	<!---->
+	<string name="deleted">"Obrisano"</string>
+	<!---->
+	<string name="undo">"Vrati"</string>
+	<!---->
+	<string name="select_all">"Odaberi sve"</string>
+	<!---->
+	<string name="deselect_all">"Poništi odabir za sve"</string>
+	<!---->
+	<string name="slideshow">"Dijaprojekcija"</string>
+	<!---->
+	<string name="details">"Pojedinosti"</string>
+	<!---->
+	<string name="details_title">"%1$d od ukupno stavki: %2$d"</string>
+	<!---->
+	<string name="close">"Zatvori"</string>
+	<!---->
+	<string name="switch_to_camera">"Prebacivanje na fotoaparat"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"Odabrano: %1$d"</item>
+		<item quantity="one">"Odabrano: %1$d"</item>
+		<item quantity="other">"Odabrano: %1$d"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"Odabrano: %1$d"</item>
+		<item quantity="one">"Odabrano: %1$d"</item>
+		<item quantity="other">"Odabrano: %1$d"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"Odabrano: %1$d"</item>
+		<item quantity="one">"Odabrano: %1$d"</item>
+		<item quantity="other">"Odabrano: %1$d"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"Pokaži na karti"</string>
+	<!---->
+	<string name="rotate_left">"Rotiraj ulijevo"</string>
+	<!---->
+	<string name="rotate_right">"Rotiraj udesno"</string>
+	<!---->
+	<string name="no_such_item">"Nije moguće pronaći stavku."</string>
+	<!---->
+	<string name="edit">"Uredi"</string>
+	<!---->
+	<string name="mix_video">"Miks"</string>
+	<!---->
+	<string name="simple_edit">"Jednostavno uređivanje"</string>
+	<!---->
+	<string name="process_caching_requests">"Obrada zahtjeva za predmemoriju"</string>
+	<!---->
+	<string name="caching_label">"U predmemoriju…"</string>
+	<!---->
+	<string name="crop_action">"Obreži"</string>
+	<!---->
+	<string name="trim_action">"Odreži"</string>
+	<!---->
+	<string name="mute_action">"Bez zvuka"</string>
+	<!---->
+	<string name="set_as">"Postavi kao"</string>
+	<!---->
+	<string name="video_mute_err">"Nije moguće isključiti zvuk videozapisa."</string>
+	<!---->
+	<string name="video_err">"Nije moguće reproducirati videozapis."</string>
+	<!---->
+	<string name="group_by_location">"Prema lokaciji"</string>
+	<!---->
+	<string name="group_by_time">"Po vremenu"</string>
+	<!---->
+	<string name="group_by_tags">"Po oznakama"</string>
+	<!---->
+	<string name="group_by_faces">"Po osobama"</string>
+	<!---->
+	<string name="group_by_album">"Po albumu"</string>
+	<!---->
+	<string name="group_by_size">"Po veličini"</string>
+	<!---->
+	<string name="untagged">"Neoznačeno"</string>
+	<!---->
+	<string name="no_location">"Nema lokacije"</string>
+	<!---->
+	<string name="no_connectivity">"Neke lokacije nisu se mogle identificirati zbog poteškoća s mrežnom."</string>
+	<!---->
+	<string name="sync_album_error">"Preuzimanje slika u ovom albumu nije moguće. Pokušajte kasnije."</string>
+	<!---->
+	<string name="show_images_only">"Samo slike"</string>
+	<!---->
+	<string name="show_videos_only">"Samo videozapisi"</string>
+	<!---->
+	<string name="show_all">"Slike &amp; videozapisi"</string>
+	<!---->
+	<string name="appwidget_title">"Galerija fotografija"</string>
+	<!---->
+	<string name="appwidget_empty_text">"Nema fotografija."</string>
+	<!---->
+	<string name="crop_saved">"Izrezana slika spremljena u mapu <xliff:g id="folder_name">%s</xliff:g>."</string>
+	<!---->
+	<string name="no_albums_alert">"Nema dostupnih albuma"</string>
+	<!---->
+	<string name="empty_album">"Nema slike/zvuka"</string>
+	<!---->
+	<string name="picasa_posts">"Postovi"</string>
+	<!---->
+	<string name="make_available_offline">"Učini dostupnim van mreže"</string>
+	<!---->
+	<string name="sync_picasa_albums">"Osvježi"</string>
+	<!---->
+	<string name="done">"Gotovo"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d od %2$d stavki:"</string>
+	<!---->
+	<string name="title">"Naslov"</string>
+	<!---->
+	<string name="description">"Opis"</string>
+	<!---->
+	<string name="time">"Vrijeme"</string>
+	<!---->
+	<string name="location">"Lokacija"</string>
+	<!---->
+	<string name="path">"Putanja"</string>
+	<!---->
+	<string name="width">"Širina"</string>
+	<!---->
+	<string name="height">"Visina"</string>
+	<!---->
+	<string name="orientation">"Usmjerenje"</string>
+	<!---->
+	<string name="duration">"Trajanje"</string>
+	<!---->
+	<string name="mimetype">"Vrsta MIME-a"</string>
+	<!---->
+	<string name="file_size">"Vel. datoteke"</string>
+	<!---->
+	<string name="maker">"Autor"</string>
+	<!---->
+	<string name="model">"Model"</string>
+	<!---->
+	<string name="flash">"Bljeskalica"</string>
+	<!---->
+	<string name="aperture">"Otvor blende"</string>
+	<!---->
+	<string name="focal_length">"Žariš. duljina"</string>
+	<!---->
+	<string name="white_balance">"Omjer bijele"</string>
+	<!---->
+	<string name="exposure_time">"Vrijeme eksp."</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"mm"</string>
+	<!---->
+	<string name="manual">"Ručno"</string>
+	<!---->
+	<string name="auto">"Automatski"</string>
+	<!---->
+	<string name="flash_on">"Bljes. okinuta"</string>
+	<!---->
+	<string name="flash_off">"Bez bljesk."</string>
+	<!---->
+	<string name="unknown">"Nepoznato"</string>
+	<!---->
+	<string name="ffx_original">"Original"</string>
+	<!---->
+	<string name="ffx_vintage">"Staromodno"</string>
+	<!---->
+	<string name="ffx_instant">"Trenutno"</string>
+	<!---->
+	<string name="ffx_bleach">"Izbjeljivač"</string>
+	<!---->
+	<string name="ffx_blue_crush">"Plava"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"Crno bijela"</string>
+	<!---->
+	<string name="ffx_punch">"Izbušeno"</string>
+	<!---->
+	<string name="ffx_x_process">"X faktor"</string>
+	<!---->
+	<string name="ffx_washout">"Latte"</string>
+	<!---->
+	<string name="ffx_washout_color">"Litho"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"Spremanje albuma za izvanmrežni rad."</item>
+		<item quantity="other">"Spremanje albuma za izvanmrežni rad."</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Ova stavka pohranjena je lokalno i dostupna je izvan mreže."</string>
+	<!---->
+	<string name="set_label_all_albums">"Svi albumi"</string>
+	<!---->
+	<string name="set_label_local_albums">"Lokalni albumi"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"MTP uređaji"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Picasa albumi"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="BYTES">%s</xliff:g> slobodno"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="SIZE">%1$s</xliff:g> ili niže"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="SIZE">%1$s</xliff:g> ili više"</string>
+	<!---->
+	<string name="size_between">"Od <xliff:g id="MIN_SIZE">%1$s</xliff:g> do <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"Uvezi"</string>
+	<!---->
+	<string name="import_complete">"Uvoz je dovršen"</string>
+	<!---->
+	<string name="import_fail">"Uvoz neuspješan"</string>
+	<!---->
+	<string name="camera_connected">"Fotoaparat je uključen."</string>
+	<!---->
+	<string name="camera_disconnected">"Fotoaparat je isključen."</string>
+	<!---->
+	<string name="click_import">"Dodirnite ovdje za uvoz"</string>
+	<!---->
+	<string name="widget_type_album">"Odaberi album"</string>
+	<!---->
+	<string name="widget_type_shuffle">"Nasumično prikaži sve slike"</string>
+	<!---->
+	<string name="widget_type_photo">"Odaberite sliku"</string>
+	<!---->
+	<string name="widget_type">"Odabir slika"</string>
+	<!---->
+	<string name="slideshow_dream_name">"Dijaprojekcija"</string>
+	<!---->
+	<string name="albums">"Albumi"</string>
+	<!---->
+	<string name="times">"Vremena"</string>
+	<!---->
+	<string name="locations">"Lokacije"</string>
+	<!---->
+	<string name="people">"Osobe"</string>
+	<!---->
+	<string name="tags">"Oznake"</string>
+	<!---->
+	<string name="group_by">"Grupiraj po"</string>
+	<!---->
+	<string name="settings">"Postavke"</string>
+	<!---->
+	<string name="add_account">"Dodaj račun"</string>
+	<!---->
+	<string name="folder_camera">"Fotoaparat"</string>
+	<!---->
+	<string name="folder_download">"Preuzmi"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"Uredi mrežne slike"</string>
+	<!---->
+	<string name="folder_imported">"Uvezeno"</string>
+	<!---->
+	<string name="folder_screenshot">"Snimke zaslona"</string>
+	<!---->
+	<string name="help">"Pomoć"</string>
+	<!---->
+	<string name="no_external_storage_title">"Nema pohrane"</string>
+	<!---->
+	<string name="no_external_storage">"Nema vanjske pohrane"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Filmska vrpca"</string>
+	<!---->
+	<string name="switch_photo_grid">"Mreža"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"Prikaz u punom zaslonu"</string>
+	<!---->
+	<string name="trimming">"Rezanje"</string>
+	<!---->
+	<string name="muting">"Isključivanje zvuka"</string>
+	<!---->
+	<string name="please_wait">"Molimo pričekajte"</string>
+	<!---->
+	<string name="save_into">"Pohrana odrezanog videozapisa u album:"</string>
+	<!---->
+	<string name="trim_save_into">"Izrezana datoteka spremljena u <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"Utišana datoteka spremljena u <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="trim_too_short">"Nije moguće odrezati: videozapis je prekratak"</string>
+	<!---->
+	<string name="mute_nosupport">"Nije moguće isključiti zvuk : nije podržan videozapis"</string>
+	<!---->
+	<string name="pano_progress_text">"Obrada panorame"</string>
+	<!---->
+	<string name="save">"SPREMI"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"Obrada sadržaja..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d stavki obrađeno"</item>
+		<item quantity="one">"%1$d stavki obrađeno"</item>
+		<item quantity="other">"%1$d stavki obrađeno"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"%1$d stavki odabrano"</item>
+		<item quantity="one">"%1$d stavka odabrana"</item>
+		<item quantity="other">"%1$d stavki odabrano"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"Sortiranje..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"Obrada završena"</string>
+	<!---->
+	<string name="ingest_importing">"Uvoz...."</string>
+	<!---->
+	<string name="ingest_empty_device">"Nema dostupnog sadržaja za uvoz na uređaj."</string>
+	<!---->
+	<string name="ingest_no_device">"Trenutno nema spojenih MTP uređaja"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"Pogreška fotoaparata"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Povezivanje s fotoaparatom nije moguće."</string>
+	<!---->
+	<string name="camera_disabled">"Fotoaparat je onemogućen zbog sigurnosnih pravila."</string>
+	<!---->
+	<string name="camera_label">"Fotoaparat"</string>
+	<!---->
+	<string name="wait">"Pričekajte…"</string>
+	<!---->
+	<string name="review_cancel">"ODUSTANI"</string>
+	<!---->
+	<string name="review_ok">"U REDU"</string>
+	<!---->
+	<string name="time_lapse_title">"Snimanje s vremenskim odmakom"</string>
+	<!---->
+	<string name="pref_camera_id_title">"Odaberite kameru"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Natrag"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Prednji fotoaparat"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"Lokacija pohranjivanja"</string>
+	<!---->
+	<string name="pref_camera_location_label">"Lokacija"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"Odbrojavanje"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 sekunda"</item>
+		<item quantity="other">"%d sek."</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Ton tijekom odbrojavanja"</string>
+	<!---->
+	<string name="setting_off">"Isklj."</string>
+	<!---->
+	<string name="setting_on">"Uključeno"</string>
+	<!---->
+	<string name="pref_video_quality_title">"Kvaliteta videozap."</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Visoki"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Niski"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"Snimanje s vremenskim odmakom"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"Postavke fotoaparata"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Postavke kamere"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Veličina slike"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13M piksela"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8 Mpx"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5 Mpx"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4 Mpx"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3 Mpx"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2 Mpx"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2 Mpx (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1,3 Mpx"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1 Mpx"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Način fokusir."</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Automat."</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Isklj."</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"AUTOM."</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"Beskonačno"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"MACRO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Način bljeskalice"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"Način bljeskalice"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Automat."</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Uključeno"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Isključeno"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"BLJESKALICA: automatski"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"BLJESKALICA: uključeno"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"BLJESKALICA: isključeno"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Omjer bijele"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Omjer bijele"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Automat."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Užareno"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Dnevna svjetlost"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Fluorescentno"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Oblačno"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"AUTOM."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Užareno"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Dnevna svjetlost"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Fluorescentno"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Oblačno"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Način scene"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Automat."</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Akcija"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Noćni"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Zalazak sunca"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Zabava"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"Ništa"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"Akcija"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"Noćni"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"Zalazak sunca"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"Zabava"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"ODBROJAVANJE"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"VREMENSKI BROJAČ ISKLJUČEN"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 sekunda"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 sekunde"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 sekundi"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 sekunda"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"U načinu scene ne može se odabirati."</string>
+	<!---->
+	<string name="pref_exposure_title">"Ekspozicija"</string>
+	<!---->
+	<string name="pref_exposure_label">"Ekspozicija"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"PREDNJI FOTOAPARAT"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"STRAŽNJI FOTOAPARAT"</string>
+	<!---->
+	<string name="dialog_ok">"U redu"</string>
+	<!---->
+	<string name="video_reach_size_limit">"Postignuto ograničenje veličine."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Prebrzo"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Priprema panorame"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Panoramu nije moguće spremiti."</string>
+	<!---->
+	<string name="pano_dialog_title">"Panorama"</string>
+	<!---->
+	<string name="pano_capture_indication">"Snimanje panorame"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Čekanje na prethodnu panoramu"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Spremanje..."</string>
+	<!---->
+	<string name="pano_review_rendering">"Obrada prikaza panorame"</string>
+	<!---->
+	<string name="tap_to_focus">"Dodirnite za fokus"</string>
+	<!---->
+	<string name="pref_video_effect_title">"Efekti"</string>
+	<!---->
+	<string name="effect_none">"Ništa"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Stiskanje"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Velike oči"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Velika usta"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Mala usta"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Veliki nos"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Male oči"</string>
+	<!---->
+	<string name="effect_backdropper_space">"U svemiru"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Zalaz. sunca"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Izaberite vlastito"</string>
+	<!---->
+	<string name="bg_replacement_message">"U nastavku postavite ​​uređaj."\n"Odmaknite se na trenutak."</string>
+	<!---->
+	<string name="video_snapshot_hint">"Dodirnite za snimanje fotografije tijekom snimanja."</string>
+	<!---->
+	<string name="video_recording_started">"Snimanje videozapisa započelo."</string>
+	<!---->
+	<string name="video_recording_stopped">"Snimanje videozapisa završeno."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"Fotografiranje је onemogućeno kada su posebni efekti uključeni."</string>
+	<!---->
+	<string name="clear_effects">"Obriši efekte"</string>
+	<!---->
+	<string name="effect_silly_faces">"ŠAŠAVA LICA"</string>
+	<!---->
+	<string name="effect_background">"POZADINA"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"Tipka okidača"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Tipka izbornika"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"Najnovija fotografija"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"Prednji i stražnji prekidač fotoaparata"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"Birač fotoaparata, videozapisa ili panorame"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"Više kontrola postavke"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"Kontrole postavke zatvaranja"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"Upravljanje povećavanjem/smanjivanjem"</string>
+	<!---->
+	<string name="accessibility_decrement">"Smanjenje %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"Povećanje %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s potvrdni okvir"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Prebaci na fotografiju"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Prebaci na videozapis"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Promijeni u: Panoramski način"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"Prijeđi na novu panoramu"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Prebaci na fokusiranje"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"Odustani"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Pregled završen"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Ponovni pregled"</string>
+	<!---->
+	<string name="accessibility_play_video">"Reproduciraj videozapis"</string>
+	<!---->
+	<string name="accessibility_pause_video">"Pauziraj videozapis"</string>
+	<!---->
+	<string name="accessibility_reload_video">"Ponovno učitaj videozapis"</string>
+	<!---->
+	<string name="accessibility_time_bar">"Vremenska skala video player-a"</string>
+	<!---->
+	<string name="capital_on">"UKLJUČENO"</string>
+	<!---->
+	<string name="capital_off">"ISKLJUČENO"</string>
+	<!---->
+	<string name="gif_err">"Nije moguće pokrenuti gif."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Isključeno"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0,5 sek."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 sekunda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1.5 sekunda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 sekunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2.5 sekunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 sekunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 sekunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 sekunda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 sekundi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 sekundi"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 sek."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 sekunda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 sek."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0,5 min."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 min"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1,5 min."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2,5 min."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 min."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 min."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 min."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 min."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 minuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 min."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0,5h"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 sat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1,5h"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 sata"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2,5h"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 sata"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 sata"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5h"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 sati"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10h"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 sati"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15h"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 sata"</string>
+	<!---->
+	<string name="time_lapse_seconds">"sekunde"</string>
+	<!---->
+	<string name="time_lapse_minutes">"minute"</string>
+	<!---->
+	<string name="time_lapse_hours">"sati"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"Gotovo"</string>
+	<!---->
+	<string name="set_time_interval">"Postavljanje vremenskog razmaka"</string>
+	<!---->
+	<string name="set_time_interval_help">"Značajka protjecanja vremena je isključena. Uključite ju za postavljanje vremenskog razmaka."</string>
+	<!---->
+	<string name="set_timer_help">"Odbrojavanje je isključeno. Uključite za odbrojavanje prije snimanja slike."</string>
+	<!---->
+	<string name="set_duration">"Postavite trajanje u sekundama"</string>
+	<!---->
+	<string name="count_down_title_text">"Odbrojavanje za snimanje slike"</string>
+	<!---->
+	<string name="remember_location_title">"Zapamti lokaciju fotografiranja?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Označite svoje slike i videozapise s informacijama o lokaciji.\n\nDruge aplikacije mogu pristupiti ovim informacijama te snimljenim slikama."</string>
+	<!---->
+	<string name="remember_location_no">"Ne hvala"</string>
+	<!---->
+	<string name="remember_location_yes">"Da"</string>
+	<!---->
+	<string name="menu_camera">"Fotoaparat"</string>
+	<!---->
+	<string name="menu_search">"Pretraživanje"</string>
+	<!---->
+	<string name="tab_photos">"Fotografije"</string>
+	<!---->
+	<string name="tab_albums">"Albumi"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Više opcija"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"Postavke"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d slika"</item>
+		<item quantity="other">"%1$d slika/e"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"Titl"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"Ovaj videozapis nije valjan za streaming na ovaj uređaj."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"Ovaj videozapis nije moguće reproducirati."</string>
+	<!---->
+	<string name="VideoView_error_button">"U redu"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"Ovaj videozapis nije podržan"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"Ne može se spojiti. Pokušajte se ponovno povezati s %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"Povezivanje..."</string>
+	<!---->
+	<string name="media_controller_buffering">"Stavljanje u međuspremnik %d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"Nije se moguće povezati s poslužiteljem"</string>
+	<!---->
+	<string name="media_controller_live">"U živo"</string>
+	<!---->
+	<string name="media_controller_playing">"Reproduciranje"</string>
+	<!---->
+	<string name="notify_photo_text">"Upravljanje galerijom"</string>
+	<!---->
+	<string name="notify_video_text">"Upravljanje galerijom"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"Dijaprojekcija Wi-Fi prikaza omogućena"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"Videozapis Wi-Fi prikaza omogućen"</string>
+	<!---->
+	<string name="wfd_alert">"Upozorenje"</string>
+	<!---->
+	<string name="wfd_change_message">"Videozapis će biti zamijenjen."</string>
+	<!---->
+	<string name="wfd_change_button">"Da"</string>
+	<!---->
+	<string name="wfd_not_change_button">"Ne"</string>
+	<!---->
+	<string name="wfd_show">"Wi-Fi prikaz"</string>
+	<!---->
+	<string name="wfd_show_on">"Uključi Wi-Fi prikaz"</string>
+	<!---->
+	<string name="wfd_show_off">"Isključi Wi-Fi prikaz"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"Povucite datoteku u žuti kvadrat za dijeljenje zaslona."</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"Ovaj tip nije podržan"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Upozorenje"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Sve datoteke zaštićene od kopiranja skrivene su jer je Wi-Fi prikaz spojen."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"Isključi Wi-Fi prikaz"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"Nastavi"</string>
+	<!---->
+	<string name="tv_link_close">"Wi-Fi prikaz je zatvoren"</string>
+	<!---->
+	<string name="drm_no_valid_right">"Datoteka nema valjane DRM ovlasti"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">"DRM datoteka "%s" je istekla. Obrisati?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"DRM datoteka "%s" je istekla. Otključati?"</string>
+	<!---->
+	<string name="unlimited_usage">"Neograničeno korištenje"</string>
+	<!---->
+	<string name="not_available">"Nije dostupno"</string>
+	<!---->
+	<string name="use_times">"Koristi %d puta"</string>
+	<!---->
+	<string name="valid_after">"Vrijedi nakon"</string>
+	<!---->
+	<string name="valid_until">"Vrijedi do"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"Dodirnite dva puta i povucite za uvećanje/umanjenje u fotoaparatu."</string>
+	<!---->
+	<string name="tips_done">"Gotovo"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"Dodirnite dva puta i povucite za uvećanje/umanjenje u galeriji"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"Naučite više o uvećanju jednim prstom"</string>
+	<!---->
+	<string name="drm_current_right">"Trenutno ograničenje"</string>
+	<!---->
+	<string name="right_url">"Licence"</string>
+	<!---->
+	<string name="vendor">"Dobavljač:"</string>
+	<!---->
+	<string name="stop">"Zaustavi"</string>
+	<!---->
+	<string name="selectRenderer">"Odaberite reproduktor"</string>
+	<!---->
+	<string name="noRenderer">"Nije moguće pronaći niti jedan uređaj za obradu"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"Zaustaviti reprodukciju videozapisa na TV-u?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"Zaustaviti reprodukciju slika na TV-u?"</string>
+	<!---->
+	<string name="play_video">"Reproduciraj videozapis"</string>
+	<!---->
+	<string name="shake_video_text">"Protresite telefon na stranici s videozapisima za reprodukciju na TV-u"</string>
+	<!---->
+	<string name="shake_picture_text">"Za reprodukciju na TV-u protresite uređaj kada je prikazana slika."</string>
+	<!---->
+	<string name="wait_dialog">"Molimo pričekajte..."</string>
+	<!---->
+	<string name="toast_nostop">"Za prekid reprodukcije na TV-u odaberite lokalni player."</string>
+	<!---->
+	<string name="dlna_format_not_support">"Ovaj format datoteke nije podržan."</string>
+	<!---->
+	<string name="left_title_camera_roll">"Fotografije"</string>
+	<!---->
+	<string name="left_title_timeline">"Vrijeme"</string>
+	<!---->
+	<string name="left_title_albums">"Albumi"</string>
+	<!---->
+	<string name="left_title_videos">"Videozapisi"</string>
+	<!---->
+	<string name="left_title_location">"Lokacije"</string>
+	<!---->
+	<string name="drawer_open">"Otvori navigacijsku karticu"</string>
+	<!---->
+	<string name="drawer_close">"Zatvori navigacijsku karticu"</string>
+	<!---->
+	<string name="photo_share">"Podijeli s"</string>
+	<!---->
+	<string name="filtershow_save">"SPREMI"</string>
+	<!---->
+	<string name="filtershow_none">"Ništa"</string>
+	<!---->
+	<string name="filtershow_frame">"Okvir"</string>
+	<!---->
+	<string name="drm_no_crop">"Datoteka "%s" ne dozvoljava rezanje jer je DRM zaštićena."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"Nije dozvoljeno postaviti datoteku "%s" kao ikonu kontakta jer je DRM zaštićena."</string>
+	<!---->
+	<string name="never_tip">"Prikaži savjete pri pokretanju"</string>
+	<!---->
+	<string name="three_finger_tips0">"Postavite tri prsta na zaslon."</string>
+	<!---->
+	<string name="three_finger_tips1">"Povucite datoteku u žuto područje."</string>
+	<!---->
+	<string name="three_finger_tips2">"Dijeljenje je uspješno kada je područje ispunjeno žutom bojom."</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"DRM datoteka ne bi trebala biti prikazana putem Wi-Fi zaslona!"</string>
+	<!---->
+	<string name="filtershow_save_title">"Spremi promjene"</string>
+	<!---->
+	<string name="filtershow_save_message">"Želite li spremiti kopiju ili prepisati postojeću sliku?"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"Više me ne pitaj"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"SPREMI KAO KOPIJU"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"PREPIŠI POSTOJEĆU"</string>
+	<!---->
+	<string name="lock_video">"Zaključano"</string>
+	<!---->
+	<string name="unlock_video">"Otključano"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM licenca je istekla."</string>
+	<!---->
+	<string name="drm_protection_status">"Statis zaštite:"</string>
+	<!---->
+	<string name="drm_can_forward">"Može se proslijediti."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Ne može se proslijediti."</string>
+	<!---->
+	<string name="drm_no_license">"Nema raspoložive DRM licence."</string>
+	<!---->
+	<string name="drm_begin">"Počni:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Bez ograničenja."</string>
+	<!---->
+	<string name="drm_end">"Kraj:"</string>
+	<!---->
+	<string name="drm_use_left">"Preostalo"</string>
+	<!---->
+	<string name="date_taken">"Datum snimanja"</string>
+	<!---->
+	<string name="modified_time">"Vrijeme uređivanja"</string>
+	<!---->
+	<string name="fast_forward">"Brzo naprijed %ds"</string>
+	<!---->
+	<string name="fast_backward">"Brzo natrag %ds"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"Mreža je ponovno povezana, nastaviti s reprodukcijom?"</string>
+	<!---->
+	<string name="polaroid_action_open">"Otvori"</string>
+	<!---->
+	<string name="polaroid_action_save">"Spremi"</string>
+	<!---->
+	<string name="polaroid_action_send">"Pošalji"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"Zagrli me"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"Spremanje slike..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"Polaroid uređivač"</string>
+	<!---->
+	<string name="editor_select_filtershow">"Uređivač (zadano)"</string>
+	<!---->
+	<string name="date_tag">"Datum"</string>
+	<!---->
+	<string name="location_tag">"Lokacija"</string>
+	<!---->
+	<string name="slogan_tag">"slogan"</string>
+	<!---->
+	<string name="polaroid_no_location">"Nema lokacije"</string>
+	<!---->
+	<string name="save_iamge_compelete">"Fotografija spremljena u galeriju."</string>
+	<!---->
+	<string name="save_image_error">"Nije moguće spremiti datoteku."</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"Slika je premala"</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"Minimalna veličina je 320 x 320 piksela."</string>
+	<!---->
+	<string name="open_with">"Otvori s"</string>
+	<!---->
+	<string name="moments_month_view">"Pregled mjeseca"</string>
+	<!---->
+	<string name="moments_day_view">"Pregled dana"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"Sve"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"Fotografija"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"Video"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"Ovaj rafalni slijed sadrži %s fotografija. Obrisati sve?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"Prepisati rafalne snimke ili spremiti kao zasebne slike?"</string>
+	<!---->
+	<string name="burst_overwrite">"Prepiši"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"Spremi kao zasebne slike"</string>
+	<!---->
+	<string name="burst_cancel">"ODUSTANI"</string>
+	<!---->
+	<string name="burst_delete">"izbriši"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"favorit"</string>
+	<!---->
+	<string name="select">"Odaberi"</string>
+	<!---->
+	<string name="getstarted">"Započnite"</string>
+	<!---->
+	<string name="gotit">"Jasno mi je"</string>
+	<!---->
+	<string name="faceshow_start">"Kada dostignete određeni broj selfija očekuje vas pravo čudo. Započnite vaše putovanje sada!"</string>
+	<!---->
+	<string name="faceshow_takemore">"Potrebno je još selfija za izradu prikaza lica."</string>
+	<!---->
+	<string name="selfies">"Selfie"</string>
+	<!---->
+	<string name="parallax">"Premještanje"</string>
+	<!---->
+	<string name="trim_title">"Odbaciti promjene?"</string>
+	<!---->
+	<string name="trim_message">"Vaše promjene nisu spremljene"</string>
+	<!---->
+	<string name="trim_discard">"Odbaci"</string>
+	<!---->
+	<string name="main_tab_moments">"Trenutci"</string>
+	<!---->
+	<string name="moments_show">"Prikaži"</string>
+	<!---->
+	<string name="illegal_image_format">"Neispravan format slike, nije moguće uređivati."</string>
+	<!---->
+	<string name="exporting_video">"Izvoz videozapisa"</string>
+	<!---->
+	<string name="exporting_message">"Ovo može potrajati nekoliko sekundi, pričekajte trenutak..."</string>
+	<!---->
+	<string name="share_save_video">"Spremanje videozapisa u galeriju..."</string>
+	<!---->
+	<string name="share_saved">"Videozapis spremljen u galeriju"</string>
+	<!---->
+	<string name="share_save_image">"Spremanje slike u galeriju..."</string>
+	<!---->
+	<string name="share_image_saved">"Slika spremljena u galeriju"</string>
+	<!---->
+	<string name="location_permission_toast_text">"Nema podataka lokacije iz fotoaparata"</string>
+	<!---->
+	<string name="no_internet_contect_text">"Nema internetske veze"</string>
+	<!---->
+	<string name="more">"Više"</string>
+	<!---->
+	<string name="moment_album_today">"Danas"</string>
+	<!---->
+	<string name="moment_album_yesterday">"jučer"</string>
+	<!---->
+	<string name="location_destination_text">"Razvrstavanje fotografija i videozapisa prema lokaciji u aplikaciji Trenutci"</string>
+	<string-array name="month">
+		<item>"Siječanj"</item>
+		<item>"Veljača"</item>
+		<item>"Ožujak"</item>
+		<item>"Travanj"</item>
+		<item>"Svibanj"</item>
+		<item>"Lipanj"</item>
+		<item>"Srpanj"</item>
+		<item>"Kolovoz"</item>
+		<item>"Rujan"</item>
+		<item>"Listopad"</item>
+		<item>"Studeni"</item>
+		<item>"Prosinac"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"Za razvrstavanje fotografija i videozapisa prema lokaciji dozvolite galeriji pristup lokaciji."</string>
+	<!---->
+	<string name="permission_location_settings">"Postavke"</string>
+	<!---->
+	<string name="boom_key_tip_1">"Vaše fotografije prikazane u različitim i nevjerojatnim kolažima"</string>
+	<!---->
+	<string name="boom_key_tip_2">"Pokretanje prikaza kolaža putem instantne tipke"</string>
+	<!---->
+	<string name="boom_key_tip_3">"Pokretanje prikaza kolaža iz albuma"</string>
+	<!---->
+	<string name="boom_key_tip_4">"Pokretanje prikaza kolaža iz pregleda slika"</string>
+	<!---->
+	<string name="tx_skip">"Preskoči"</string>
+	<!---->
+	<string name="tx_done">"Gotovo"</string>
+	<!---->
+	<string name="boom_key">"Instantno slikanje"</string>
+	<!---->
+	<string name="press">"Pritisnite"</string>
+	<!---->
+	<string name="not_support_parallax_share">"Dijeljenje Fyusea iz Trenutaka nije moguće"</string>
+	<!---->
+	<string name="permissions_hi">"BOK!"</string>
+	<!---->
+	<string name="not_support_video_edit">"Format videozapisa nije podržan."</string>
+</resources>

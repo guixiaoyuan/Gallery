@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_select"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/select_item"/>
+    <item
+        android:id="@+id/action_slideshow"
+        android:icon="@drawable/ic_menu_slideshow_holo_light"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/slideshow"/>
+
+    <item
+        android:id="@+id/action_day_view"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="@string/moments_day_view"/>
+    <item
+        android:id="@+id/action_month_view"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:title="@string/moments_month_view"/>
+    <item
+        android:id="@+id/action_collage_view"
+        android:orderInCategory="104"
+        android:showAsAction="never"
+        android:title="@string/moments_staggered_view"/>
+    <item
+        android:id="@+id/action_create_collage"
+        android:orderInCategory="105"
+        android:visible="false"
+        android:showAsAction="never"
+        android:title="@string/moments_create_collage"/>
+    <item
+        android:id="@+id/action_face_show"
+        android:orderInCategory="106"
+        android:showAsAction="never"
+        android:title="@string/face_show"/>
+    <item
+        android:id="@+id/action_slow_motion"
+        android:orderInCategory="107"
+        android:showAsAction="never"
+        android:title="@string/slow_motion"/>
+    <item
+        android:id="@+id/animator_on"
+        android:orderInCategory="108"
+        android:showAsAction="never"
+        android:title="@string/animator_on"
+        android:visible="false"/>
+    <item
+        android:id="@+id/animator_off"
+        android:orderInCategory="109"
+        android:showAsAction="never"
+        android:title="@string/animator_off"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/camera_switcher"
+        android:icon="@drawable/ic_photo_camera"
+        android:showAsAction="always"
+        android:title="@string/switch_to_camera"/>
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.FitWindowsFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_bar_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.ContentFrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/toolbar_layout"/>
+        <include layout="@layout/collage_page_layout"/>
+    </android.support.v7.widget.ContentFrameLayout>
+</android.support.v7.widget.FitWindowsFrameLayout>

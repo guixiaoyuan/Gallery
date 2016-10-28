@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-21,PR895834 Begin -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/videoplayerControlPanel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+       <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-21,PR904501 Begin -->
+        <!-- <ImageButton
+            android:id="@+id/loopModeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_video_loop_deselected"
+            android:background="#00000000"
+            android:layout_weight="1"/> -->
+       <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-21,PR904501 end -->
+
+        <ImageButton
+            android:id="@+id/video_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_share"
+            android:background="#00000000"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/video_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            android:visibility="gone"
+            android:background="#00000000"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/video_trim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_scissors"
+            android:background="#00000000"
+            android:layout_weight="1"/>
+
+        <!-- [FEATURE]-add-BEGIN by jian.pan1, 11/06/2014,FR828601 Pop-up Video play -->
+        <ImageButton
+            android:id="@+id/video_favourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:src="@drawable/ic_fav"
+            android:layout_weight="1"/>
+        <!-- [FEATURE]-add-END by jian.pan1 -->
+
+        <!-- <ImageButton
+            android:id="@+id/fullscreenModeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/videoplayer_fullscreen_on"
+            android:background="#00000000"
+            android:layout_weight="1"
+            android:visibility="gone"/> -->
+
+       <!--  <ImageButton
+            android:id="@+id/video_lock_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/videoplayer_unlock"
+            android:background="#00000000"
+            android:layout_weight="1" /> -->
+    </LinearLayout>
+
+</RelativeLayout>
+<!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-21,PR895834 End -->

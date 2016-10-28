@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+|                                                                 Date:12/2013 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  wen.zhuang                                                        |
+|  Email  :  wen.zhuang@tcl-mobile.com                                         |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     :                                                                  |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 12/10/2013|     wen.zhuang       |FR550507              |Multi screen        |
+|           |                      |                      |interaction         |
+| **********|**********************|**********************|******************* |
+| 04/08/2014|      yubin.ying      |       PR619653       |[Multi-screen inte- |
+|           |                      |                      |raction]UI display  |
+|           |                      |                      |issue               |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/status_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dip"
+    android:paddingLeft="0dip"
+    android:paddingTop="0dip" >
+
+    <RelativeLayout
+        android:id="@+id/into_control"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="110dip"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/iv_cover"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentLeft="true" >
+
+            <!-- PR 533366 Modified by fang.song 20131011 begin -->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:padding="16dip"
+                android:src="@drawable/dlna_notification" />
+            <!-- PR 533366 Modified by fang.song 20131011 end -->
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txt_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/iv_cover"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="left"
+            android:paddingLeft="8dip"
+            android:paddingRight="0dip"
+            android:paddingTop="8dip"
+            android:singleLine="true"
+            android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_tv"
+            android:layout_toRightOf="@+id/iv_cover"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="left"
+            android:paddingLeft="8dip"
+            android:paddingRight="0dip"
+            android:singleLine="true"
+            android:text="@string/play_video"
+            android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent" />
+    </RelativeLayout>
+
+    <!--[BUGFIX]-Mod-BEGIN by TCTNB.yubin.ying,04/08/2014,619653,-->
+    <LinearLayout
+        android:id="@+id/stop_control"
+        android:layout_width="50dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:paddingBottom="8dip"
+        android:paddingTop="13.5dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="0dip" >
+    <!--[BUGFIX]-Mod-END by TCTNB.yubin.ying-->
+
+        <ImageView
+            android:id="@+id/btn_stop_play_on_tv"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dlna_stat_notif_stop" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/view_branch"
+        android:layout_width="2dip"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="15dip"
+        android:layout_toLeftOf="@id/stop_control"
+        android:background="#ffffffff" />
+
+    <ImageView
+        android:id="@+id/btn_pause"
+        android:layout_width="55dip"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/view_branch"
+        android:paddingBottom="10dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="0dip"
+        android:paddingTop="13.5dip"
+        android:layout_marginRight="7dip"
+        android:src="@drawable/dlna_stat_notif_pause" />
+
+</RelativeLayout>

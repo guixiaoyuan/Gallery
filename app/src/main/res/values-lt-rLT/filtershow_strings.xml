@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Nuotraukų redagavimo priemonė"</string>
+	<!---->
+	<string name="cannot_load_image">"Negalima įkelti vaizdo!"</string>
+	<!---->
+	<string name="cannot_edit_original">"Nepavyksta suredaguoti pirminio varianto"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Tapeto nustatymas"</string>
+	<!---->
+	<string name="download_failure">"Nuotraukos atsiųsti nepavyko. Tinklas nepasiekiamas."</string>
+	<!---->
+	<string name="original">"Originalas"</string>
+	<!---->
+	<string name="borders">"Kraštinės"</string>
+	<!---->
+	<string name="custom_border">"Priskirtas"</string>
+	<!---->
+	<string name="filtershow_undo">"Anuliuoti"</string>
+	<!---->
+	<string name="filtershow_redo">"Perdaryti"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Rodyti pritaikytus efektus"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Slėpti pritaikytus efektus"</string>
+	<!---->
+	<string name="export_image">"Eksportuoti"</string>
+	<!---->
+	<string name="print_image">"Spausdinti"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Automatinis redagavimas"</string>
+	<!---->
+	<string name="export_flattened">"Eksportuoti plokščią vaizdą"</string>
+	<!---->
+	<string name="select_output_settings">"Eksportuotas vaizdas bus nukopijuotas be redagavimo istorijos."</string>
+	<!---->
+	<string name="quality">"Kokybė"</string>
+	<!---->
+	<string name="size">"Dydis"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Nustatymai"</string>
+	<!---->
+	<string name="unsaved">"Yra neįrašytų šio vaizdo keitimų."</string>
+	<!---->
+	<string name="save_before_exit">"Ar prieš išeinant įrašyti?"</string>
+	<!---->
+	<string name="save_and_exit">"Įrašyti ir išeiti"</string>
+	<!---->
+	<string name="save_and_processing">"Apdorojamas visos skyros vaizdas..."</string>
+	<!---->
+	<string name="exit">"Išeiti"</string>
+	<!---->
+	<string name="history">"Istorija"</string>
+	<!---->
+	<string name="reset">"Atstatyti"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Pritaikyti efektai"</string>
+	<!---->
+	<string name="compare_original">"Lyginti"</string>
+	<!---->
+	<string name="apply_effect">"Taikyti"</string>
+	<!---->
+	<string name="reset_effect">"Atstatyti"</string>
+	<!---->
+	<string name="aspect">"Aspektas"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Nėra"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Tinkintas"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Fiksuota"</string>
+	<!---->
+	<string name="tinyplanet">"Mažytė planeta"</string>
+	<!---->
+	<string name="exposure">"Išlaikymas"</string>
+	<!---->
+	<string name="sharpness">"Ryškumas"</string>
+	<!---->
+	<string name="contrast">"Kontrastas"</string>
+	<!---->
+	<string name="vibrance">"Gyvumas"</string>
+	<!---->
+	<string name="saturation">"Spalvų sodrumas"</string>
+	<!---->
+	<string name="bwfilter">"Nespalvotas filtras"</string>
+	<!---->
+	<string name="wbalance">"Automatinė spalva"</string>
+	<!---->
+	<string name="hue">"Atspalvis"</string>
+	<!---->
+	<string name="shadow_recovery">"Šešėliai"</string>
+	<!---->
+	<string name="highlight_recovery">"Paryškinimai"</string>
+	<!---->
+	<string name="curvesRGB">"Kreivės"</string>
+	<!---->
+	<string name="vignette">"Vinjetė"</string>
+	<!---->
+	<string name="vignette_main">"Vinjetė"</string>
+	<!---->
+	<string name="vignette_exposure">"Išlaikymas"</string>
+	<!---->
+	<string name="vignette_saturation">"Spalvų sodrumas"</string>
+	<!---->
+	<string name="vignette_contrast">"Kontrastas"</string>
+	<!---->
+	<string name="vignette_falloff">"Kristi"</string>
+	<!---->
+	<string name="redeye">"Raudona akis"</string>
+	<!---->
+	<string name="imageDraw">"Piešti"</string>
+	<!---->
+	<string name="straighten">"Tiesinimas"</string>
+	<!---->
+	<string name="crop">"Apkarpyti"</string>
+	<!---->
+	<string name="rotate">"Pasukti"</string>
+	<!---->
+	<string name="mirror">"Veidrodis"</string>
+	<!---->
+	<string name="negative">"Negatyv."</string>
+	<!---->
+	<string name="none">"Nėra"</string>
+	<!---->
+	<string name="edge">"Kraštai"</string>
+	<!---->
+	<string name="kmeans">"Plakatas"</string>
+	<!---->
+	<string name="downsample">"Sumažinti"</string>
+	<!---->
+	<string name="grad">"Pagal gradaciją"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Skaistis"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Kontrastas"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Spalvų sodrumas"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Pagrindinis"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Raudona"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Geltona"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Žalia"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Žalsvai mėlyna"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Mėlyna"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Purpurinė"</string>
+	<!---->
+	<string name="editor_grad_style">"Stilius"</string>
+	<!---->
+	<string name="editor_grad_new">"Naujiena"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Raudona"</string>
+	<!---->
+	<string name="curves_channel_green">"Žalia"</string>
+	<!---->
+	<string name="curves_channel_blue">"Mėlyna"</string>
+	<!---->
+	<string name="draw_style">"Stilius"</string>
+	<!---->
+	<string name="draw_size">"Dydis"</string>
+	<!---->
+	<string name="draw_hue">"Atspalvis"</string>
+	<!---->
+	<string name="draw_saturation">"Spalvų sodrumas"</string>
+	<!---->
+	<string name="draw_value">"Skaistis"</string>
+	<!---->
+	<string name="draw_color">"Spalv."</string>
+	<!---->
+	<string name="draw_style_line">"Linijos"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Spalviklis"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Purkštukas"</string>
+	<!---->
+	<string name="draw_clear">"Išvalyti"</string>
+	<!---->
+	<string name="color_border_size">"Storis"</string>
+	<!---->
+	<string name="color_border_corner_size">"Kampo dydis"</string>
+	<!---->
+	<string name="color_border_color">"Spalv."</string>
+	<!---->
+	<string name="color_border_clear">"Išvalyti"</string>
+	<!---->
+	<string name="color_pick_select">"Pasirinkite pasirinktinę spalvą"</string>
+	<!---->
+	<string name="color_pick_title">"Pasirinkti spalvą"</string>
+	<!---->
+	<string name="draw_size_title">"Pasirinkite dydį"</string>
+	<!---->
+	<string name="draw_size_accept">"Gerai"</string>
+	<!---->
+	<string name="state_panel_original">"Originalas"</string>
+	<!---->
+	<string name="state_panel_result">"Rezultatas"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Įrašomas vaizdas"</string>
+	<!---->
+	<string name="filtershow_notification_message">"Apdorojama..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Įrašyti dabartinį išankstinį nustatymą"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Valdyti išankstinius naudotojo nustatymus"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Naujas išankstinis nustatymas"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Iš anksto nustatytas pavadinimas"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Informacija"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Vaizdo pavadinimas"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Vaizdo dydis"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Histograma"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"EXIF data"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Iš anksto nustatyti"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Versija"</string>
+	<!---->
+	<string name="filtershow_version_original">"Originalas"</string>
+	<!---->
+	<string name="filtershow_version_current">"Dabartinė nuostata"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Modelis"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Diafragma"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Židinio nuot."</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Atstumas iki objekto"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Fotografavimo data"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F padala"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Išryšk. trukmė"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Autorių teisės"</string>
+</resources>

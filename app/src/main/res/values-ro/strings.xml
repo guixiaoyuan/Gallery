@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Galerie"</string>
+	<!---->
+	<string name="gadget_title">"Ramă foto"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"Player video"</string>
+	<!---->
+	<string name="loading_video">"Se încarcă videoclipul..."</string>
+	<!---->
+	<string name="loading_image">"Se încarcă imaginea..."</string>
+	<!---->
+	<string name="loading_account">"Contul se încarcă..."</string>
+	<!---->
+	<string name="resume_playing_title">"Continuare video"</string>
+	<!---->
+	<string name="resume_playing_message">"Reluaţi redarea de la %s?"</string>
+	<!---->
+	<string name="resume_playing_resume">"Reluare redare"</string>
+	<!---->
+	<string name="loading">"Se încarcă..."</string>
+	<!---->
+	<string name="fail_to_load">"Nu s-au putut încărca"</string>
+	<!---->
+	<string name="fail_trim">"Fișierul video nu poate fi tăiat."</string>
+	<!---->
+	<string name="fail_to_load_image">"Nu s-a putut încărca imaginea"</string>
+	<!---->
+	<string name="no_thumbnail">"Nu există o miniatură"</string>
+	<!---->
+	<string name="resume_playing_restart">"Porniţi de la început"</string>
+	<!---->
+	<string name="crop_save_text">"OK"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="multiface_crop_help">"Atingeţi o faţă pentru a începe"</string>
+	<!---->
+	<string name="saving_image">"Se salvează fotografia..."</string>
+	<!---->
+	<string name="filtershow_saving_image">"Se salvează imaginea în <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="save_error">"Imaginea decupată nu s-a putut salva."</string>
+	<!---->
+	<string name="crop_label">"Decupaţi fotografia"</string>
+	<!---->
+	<string name="trim_label">"Decupare video"</string>
+	<!---->
+	<string name="select_image">"Selectaţi fotografie"</string>
+	<!---->
+	<string name="select_video">"Selectaţi videoclip"</string>
+	<!---->
+	<string name="select_item">"Selectaţi un element"</string>
+	<!---->
+	<string name="select_album">"Selectați album"</string>
+	<!---->
+	<string name="select_group">"Selectaţi un grup"</string>
+	<!---->
+	<string name="set_image">"Setaţi ca..."</string>
+	<!---->
+	<string name="set_wallpaper">"Setaţi imaginea de fundal"</string>
+	<!---->
+	<string name="wallpaper">"Se setează imaginea de fundal..."</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"Imagine de fundal"</string>
+	<!---->
+	<string name="delete">"Ştergere"</string>
+	<!---->
+	<string name="deleting">"Se şterge..."</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"Ştergeţi elementul selectat?"</item>
+		<item quantity="other">"Ştergeţi elementele selectate?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"Confirmaţi"</string>
+	<!---->
+	<string name="cancel">"Anulaţi"</string>
+	<!---->
+	<string name="share">"Distribuiţi"</string>
+	<!---->
+	<string name="share_panorama">"Partajare panoramă"</string>
+	<!---->
+	<string name="share_as_photo">"Partajare ca fotografie"</string>
+	<!---->
+	<string name="deleted">"Şters"</string>
+	<!---->
+	<string name="undo">"ANULARE"</string>
+	<!---->
+	<string name="select_all">"Selectaţi-le pe toate"</string>
+	<!---->
+	<string name="deselect_all">"Deselectaţi-le pe toate"</string>
+	<!---->
+	<string name="slideshow">"Prezentare"</string>
+	<!---->
+	<string name="details">"Detalii"</string>
+	<!---->
+	<string name="details_title">"%1$d din %2$d (de) elemente:"</string>
+	<!---->
+	<string name="close">"Închideţi"</string>
+	<!---->
+	<string name="switch_to_camera">"Comutaţi la Camera foto"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d selectate"</item>
+		<item quantity="one">"%1$d selectat"</item>
+		<item quantity="other">"%1$d selectate"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d selectate"</item>
+		<item quantity="one">"%1$d selectat"</item>
+		<item quantity="other">"%1$d selectate"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d selectate"</item>
+		<item quantity="one">"%1$d selectat"</item>
+		<item quantity="other">"%1$d selectate"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"Afişaţi pe hartă"</string>
+	<!---->
+	<string name="rotate_left">"Rotiţi spre stânga"</string>
+	<!---->
+	<string name="rotate_right">"Rotiţi spre dreapta"</string>
+	<!---->
+	<string name="no_such_item">"Elementul nu a putut fi găsit."</string>
+	<!---->
+	<string name="edit">"Editaţi"</string>
+	<!---->
+	<string name="mix_video">"Mixare"</string>
+	<!---->
+	<string name="simple_edit">"Modificare simplă"</string>
+	<!---->
+	<string name="process_caching_requests">"Se proces. solicit. de stocare în memoria cache"</string>
+	<!---->
+	<string name="caching_label">"Mem. cache..."</string>
+	<!---->
+	<string name="crop_action">"Decupaţi"</string>
+	<!---->
+	<string name="trim_action">"Decupare"</string>
+	<!---->
+	<string name="mute_action">"Sunet dezactivat"</string>
+	<!---->
+	<string name="set_as">"Setaţi ca"</string>
+	<!---->
+	<string name="video_mute_err">"Nu se poate dezactiva sunetul înregistrării video."</string>
+	<!---->
+	<string name="video_err">"Nu se poate reda videoclipul."</string>
+	<!---->
+	<string name="group_by_location">"După locaţie"</string>
+	<!---->
+	<string name="group_by_time">"După dată"</string>
+	<!---->
+	<string name="group_by_tags">"După etichete"</string>
+	<!---->
+	<string name="group_by_faces">"În funcţie de persoane"</string>
+	<!---->
+	<string name="group_by_album">"După album"</string>
+	<!---->
+	<string name="group_by_size">"În funcţie de dimensiune"</string>
+	<!---->
+	<string name="untagged">"Neetichetate"</string>
+	<!---->
+	<string name="no_location">"Fără locaţie"</string>
+	<!---->
+	<string name="no_connectivity">"Unele locaţii nu au putut fi identificate din cauza unor probleme de reţea."</string>
+	<!---->
+	<string name="sync_album_error">"Nu s-au putut descărca fotografiile din acest album. Încercaţi mai târziu."</string>
+	<!---->
+	<string name="show_images_only">"Numai imagini"</string>
+	<!---->
+	<string name="show_videos_only">"Numai videoclipuri"</string>
+	<!---->
+	<string name="show_all">"Imagini şi videoclipuri"</string>
+	<!---->
+	<string name="appwidget_title">"Galerie foto"</string>
+	<!---->
+	<string name="appwidget_empty_text">"Nicio fotografie."</string>
+	<!---->
+	<string name="crop_saved">"Imaginea decupată a fost salvată în <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+	<!---->
+	<string name="no_albums_alert">"Nu există albume disponibile"</string>
+	<!---->
+	<string name="empty_album">"Nu există imagini/videoclipuri disponibile"</string>
+	<!---->
+	<string name="picasa_posts">"Postări"</string>
+	<!---->
+	<string name="make_available_offline">"Faceţi-le disponibile offline"</string>
+	<!---->
+	<string name="sync_picasa_albums">"Actualizaţi"</string>
+	<!---->
+	<string name="done">"Terminat"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d din %2$d (de) elemente:"</string>
+	<!---->
+	<string name="title">"Titlu"</string>
+	<!---->
+	<string name="description">"Descriere"</string>
+	<!---->
+	<string name="time">"Oră"</string>
+	<!---->
+	<string name="location">"Locaţie"</string>
+	<!---->
+	<string name="path">"Cale"</string>
+	<!---->
+	<string name="width">"Lăţime"</string>
+	<!---->
+	<string name="height">"Înălţime"</string>
+	<!---->
+	<string name="orientation">"Orientare"</string>
+	<!---->
+	<string name="duration">"Durată"</string>
+	<!---->
+	<string name="mimetype">"Tip MIME"</string>
+	<!---->
+	<string name="file_size">"Dimensiune fişier"</string>
+	<!---->
+	<string name="maker">"Producător"</string>
+	<!---->
+	<string name="model">"Model"</string>
+	<!---->
+	<string name="flash">"Bliţ"</string>
+	<!---->
+	<string name="aperture">"Diafragmă"</string>
+	<!---->
+	<string name="focal_length">"Distanţă focală"</string>
+	<!---->
+	<string name="white_balance">"Balanţă de alb"</string>
+	<!---->
+	<string name="exposure_time">"Timp expunere"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"mm"</string>
+	<!---->
+	<string name="manual">"Manual"</string>
+	<!---->
+	<string name="auto">"Auto"</string>
+	<!---->
+	<string name="flash_on">"Bliţ activat"</string>
+	<!---->
+	<string name="flash_off">"Fără bliţ"</string>
+	<!---->
+	<string name="unknown">"Necunoscut"</string>
+	<!---->
+	<string name="ffx_original">"Original"</string>
+	<!---->
+	<string name="ffx_vintage">"Retro"</string>
+	<!---->
+	<string name="ffx_instant">"Instantaneu"</string>
+	<!---->
+	<string name="ffx_bleach">"Decolorare"</string>
+	<!---->
+	<string name="ffx_blue_crush">"Albastru"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"Alb-negru"</string>
+	<!---->
+	<string name="ffx_punch">"Distorsiune convexă"</string>
+	<!---->
+	<string name="ffx_x_process">"Procesare încrucişată"</string>
+	<!---->
+	<string name="ffx_washout">"Latte"</string>
+	<!---->
+	<string name="ffx_washout_color">"Litografie"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"Se face disponibil offline albumul."</item>
+		<item quantity="other">"Se fac disponibile offline albumele"</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Acest element este stocat local şi disponibil offline."</string>
+	<!---->
+	<string name="set_label_all_albums">"Toate albumele"</string>
+	<!---->
+	<string name="set_label_local_albums">"Albume locale"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"Dispozitive MTP"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Albume Picasa"</string>
+	<!---->
+	<string name="free_space_format">"Spaţiu liber: <xliff:g id="BYTES">%s</xliff:g>"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="SIZE">%1$s</xliff:g> sau mai puţin"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="SIZE">%1$s</xliff:g> sau mai mult"</string>
+	<!---->
+	<string name="size_between">"Între <xliff:g id="MIN_SIZE">%1$s</xliff:g> şi <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"Importaţi"</string>
+	<!---->
+	<string name="import_complete">"Import finalizat"</string>
+	<!---->
+	<string name="import_fail">"Import eşuat"</string>
+	<!---->
+	<string name="camera_connected">"Camera foto conectată."</string>
+	<!---->
+	<string name="camera_disconnected">"Camera foto deconectată."</string>
+	<!---->
+	<string name="click_import">"Atingeţi aici pentru import"</string>
+	<!---->
+	<string name="widget_type_album">"Alegeţi un album"</string>
+	<!---->
+	<string name="widget_type_shuffle">"Redaţi aleatoriu toate imag."</string>
+	<!---->
+	<string name="widget_type_photo">"Alegeţi o imagine"</string>
+	<!---->
+	<string name="widget_type">"Alegeţi imagini"</string>
+	<!---->
+	<string name="slideshow_dream_name">"Slideshow"</string>
+	<!---->
+	<string name="albums">"Albume"</string>
+	<!---->
+	<string name="times">"Ore"</string>
+	<!---->
+	<string name="locations">"Locaţii"</string>
+	<!---->
+	<string name="people">"Contacte"</string>
+	<!---->
+	<string name="tags">"Etichete"</string>
+	<!---->
+	<string name="group_by">"Grupaţi după"</string>
+	<!---->
+	<string name="settings">"Setări"</string>
+	<!---->
+	<string name="add_account">"Adăugaţi un cont"</string>
+	<!---->
+	<string name="folder_camera">"Cameră foto/video"</string>
+	<!---->
+	<string name="folder_download">"Descărcare"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"Fotografii online modificate"</string>
+	<!---->
+	<string name="folder_imported">"Importat"</string>
+	<!---->
+	<string name="folder_screenshot">"Captură de ecran"</string>
+	<!---->
+	<string name="help">"Ajutor"</string>
+	<!---->
+	<string name="no_external_storage_title">"Nu există spaţiu de stocare"</string>
+	<!---->
+	<string name="no_external_storage">"Nu este disponibil niciun dispozitiv extern de stocare"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Vizualizare ca diafilm"</string>
+	<!---->
+	<string name="switch_photo_grid">"Vizualizare ca grilă"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"Afișare în ecran complet"</string>
+	<!---->
+	<string name="trimming">"Se decupează..."</string>
+	<!---->
+	<string name="muting">"Dezactivare sunet"</string>
+	<!---->
+	<string name="please_wait">"Aşteptaţi..."</string>
+	<!---->
+	<string name="save_into">"Se salvează videoclipul în <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="trim_save_into">"Fișierul trunchiat salvat în <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"Fișierul cu sunetul dezactivat salvat în <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="trim_too_short">"Decupare imposibilă: videoclipul ţintă este prea scurt"</string>
+	<!---->
+	<string name="mute_nosupport">"Nu se poate dezactiva sunetul: înregistrare video nesusținută"</string>
+	<!---->
+	<string name="pano_progress_text">"Redare panoramă"</string>
+	<!---->
+	<string name="save">"SALVAŢI"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"Se scanează conținutul..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d elemente scanate"</item>
+		<item quantity="one">"%1$d element scanat"</item>
+		<item quantity="other">"%1$d elemente scanate"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"%1$d elemente selectate"</item>
+		<item quantity="one">"%1$d element selectat"</item>
+		<item quantity="other">"%1$d elemente selectate"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"Se sortează..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"Scanare realizată"</string>
+	<!---->
+	<string name="ingest_importing">"Se importă..."</string>
+	<!---->
+	<string name="ingest_empty_device">"Nu există conținut disponibil pentru importare în acest dispozitiv."</string>
+	<!---->
+	<string name="ingest_no_device">"Nu există dispozitiv MTP conectat"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"Eroare cameră foto"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Nu se poate conecta la camera foto."</string>
+	<!---->
+	<string name="camera_disabled">"Camera foto a fost dezactivată din cauza politicilor de securitate."</string>
+	<!---->
+	<string name="camera_label">"Cameră foto"</string>
+	<!---->
+	<string name="wait">"Aşteptaţi..."</string>
+	<!---->
+	<string name="review_cancel">"ANULARE"</string>
+	<!---->
+	<string name="review_ok">"TERMINAT"</string>
+	<!---->
+	<string name="time_lapse_title">"Înregistrare cu filmare lentă"</string>
+	<!---->
+	<string name="pref_camera_id_title">"Alegeţi camera foto"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Înapoi"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Faţă"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"Stocare poziţie"</string>
+	<!---->
+	<string name="pref_camera_location_label">"Locaţie"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"Temporizator cu numărătoare inversă"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 secundă"</item>
+		<item quantity="other">"%d secunde"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Bip în timpul numărătorii inverse"</string>
+	<!---->
+	<string name="setting_off">"Oprit"</string>
+	<!---->
+	<string name="setting_on">"Pornit"</string>
+	<!---->
+	<string name="pref_video_quality_title">"Calitate video"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Ridicată"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Redusă"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"Intervale de înreg."</string>
+	<!---->
+	<string name="pref_camera_settings_category">"Setările camerei foto"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Setări cameră video"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Dimensiune imagine"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13 MP"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8 MP"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5 MP"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4 MP"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3 MP"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2 MP"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2 MP (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1,3MP"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1 MP"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Mod focalizare"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Automat"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Infinit"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Macro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"AUTOM."</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"INFINIT"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"MACRO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Mod flash"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"Mod flash"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Automat"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Pornită"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Oprită"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"BLIȚ AUTOMAT"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"BLIȚ PORNIT"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"BLIȚ OPRIT"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Balanţă de alb"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Balanţă de alb"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Automat"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Incandescent"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Lumină diurnă"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Fluorescent"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Înnorat"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"AUTOM."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Incandescent"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Lumină diurnă"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Fluorescent"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Noros"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Mod scenă"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Automat"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Acţiune"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Noapte"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Apus"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Petrecere"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"Niciunul"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"Acţiune"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"Noapte"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"Apus"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"Petrecere"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"TEMPORIZATOR CU NUMĂRĂTOARE INVERSĂ"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"TEMPORIZATOR OPRIT"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 secundă"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 secunde"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 secunde"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 secunde"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Nu este selectabil în modul scenă."</string>
+	<!---->
+	<string name="pref_exposure_title">"Expunere"</string>
+	<!---->
+	<string name="pref_exposure_label">"Expunere"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"APARAT FOTO FAȚĂ"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"APARAT FOTO SPATE"</string>
+	<!---->
+	<string name="dialog_ok">"OK"</string>
+	<!---->
+	<string name="video_reach_size_limit">"Limită dimensiune atinsă."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Prea repede"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Se pregăteşte panorama"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Panorama nu a putut fi salvată."</string>
+	<!---->
+	<string name="pano_dialog_title">"Panoramă"</string>
+	<!---->
+	<string name="pano_capture_indication">"Se capturează panorama"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Se aşteaptă panorama anterioară"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Se salvează\u2026"</string>
+	<!---->
+	<string name="pano_review_rendering">"Se redă panorama"</string>
+	<!---->
+	<string name="tap_to_focus">"Atingeţi pentru a focaliza"</string>
+	<!---->
+	<string name="pref_video_effect_title">"Efecte"</string>
+	<!---->
+	<string name="effect_none">"Niciunul"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Comprimare"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Ochi mari"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Gură mare"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Gură mică"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Nas mare"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Ochi mici"</string>
+	<!---->
+	<string name="effect_backdropper_space">"În spaţiu"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Apus"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Videocl. dvs."</string>
+	<!---->
+	<string name="bg_replacement_message">"Aşezaţi dispozitivul jos."\n"Ieşiţi din cadru un moment."</string>
+	<!---->
+	<string name="video_snapshot_hint">"Atingeţi pentru a realiza fotografie în timpul înregistrării."</string>
+	<!---->
+	<string name="video_recording_started">"Înregistrarea video a fost începută."</string>
+	<!---->
+	<string name="video_recording_stopped">"Înregistrarea video a fost oprită."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"Instantaneul video este dezactivat când efectele speciale sunt pornite."</string>
+	<!---->
+	<string name="clear_effects">"Ştergeţi efectele"</string>
+	<!---->
+	<string name="effect_silly_faces">"FEŢE PROSTUŢE"</string>
+	<!---->
+	<string name="effect_background">"FUNDAL"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"Butonul Declanşaţi"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Buton meniu"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"Cea mai recentă fotografie"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"Comutator pentru camera foto din faţă şi din spate"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"Selector pentru modurile cameră foto, cameră video sau panoramă"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"Mai multe comenzi pentru setări"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"Închideţi comenzile pentru setări"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"Comandă mărire/micşorare"</string>
+	<!---->
+	<string name="accessibility_decrement">"Reduceţi %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"Măriţi %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"Căsuța de bifare %1$s"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Comutaţi la camera foto"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Comutaţi la camera video"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Treceţi la modul panoramic"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"Comutaţi la o panoramă nouă"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Treceți la refocalizare"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"Anulaţi examinarea"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Examinare realizată"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Reluarea examinării"</string>
+	<!---->
+	<string name="accessibility_play_video">"Redați înregistrare video"</string>
+	<!---->
+	<string name="accessibility_pause_video">"Întrerupeți înregistrare video"</string>
+	<!---->
+	<string name="accessibility_reload_video">"Reîncărcați înregistrare video"</string>
+	<!---->
+	<string name="accessibility_time_bar">"Bara de timp a player-ului video"</string>
+	<!---->
+	<string name="capital_on">"ACTIVĂ"</string>
+	<!---->
+	<string name="capital_off">"INACTIVĂ"</string>
+	<!---->
+	<string name="gif_err">"Nu se poate reda gif."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Oprită"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0,5 secunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 secundă"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 secunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 secunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 secunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 secunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 secunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 secunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 secunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 secunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 secunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 secunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 secunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0,5 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 minut"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1,5 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2,5 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0,5 ore"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 oră"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1,5 ore"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 ore"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2,5 ore"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 ore"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 ore"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 ore"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 ore"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 ore"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 ore"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 ore"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 de ore"</string>
+	<!---->
+	<string name="time_lapse_seconds">"secunde"</string>
+	<!---->
+	<string name="time_lapse_minutes">"minute"</string>
+	<!---->
+	<string name="time_lapse_hours">"ore"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"Terminat"</string>
+	<!---->
+	<string name="set_time_interval">"Setare interval de timp"</string>
+	<!---->
+	<string name="set_time_interval_help">"Funcția interval de timp este oprită. Porniți funcția pentru a seta intervalul de timp."</string>
+	<!---->
+	<string name="set_timer_help">"Temporizatorul cu numărătoare inversă este oprit. Porniți-l pentru a începe numărătoarea inversă înainte de efectuarea unei fotografii."</string>
+	<!---->
+	<string name="set_duration">"Setați durata în secunde"</string>
+	<!---->
+	<string name="count_down_title_text">"Numărătoarea inversă pentru efectuarea fotografiei se află în curs"</string>
+	<!---->
+	<string name="remember_location_title">"Vă aduceți aminte de locul în care s-a efectuat fotografia?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Etichetați fotografiile și videoclipurile cu locațiile în care au fost efectuate.\n\nAlte aplicații pot accesa aceste informații împreună cu imaginile salvate."</string>
+	<!---->
+	<string name="remember_location_no">"Nu, mulțumesc."</string>
+	<!---->
+	<string name="remember_location_yes">"Da"</string>
+	<!---->
+	<string name="menu_camera">"Cameră foto/video"</string>
+	<!---->
+	<string name="menu_search">"Căutare"</string>
+	<!---->
+	<string name="tab_photos">"Fotografii"</string>
+	<!---->
+	<string name="tab_albums">"Albume"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Mai multe opţiuni"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"Setări"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d imagine"</item>
+		<item quantity="other">"%1$d imagini"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"Subtitlu"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"Acest fişier video nu este valid pentru a fi transmis în flux către acest dispozitiv."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"Nu puteţi reda acest videoclip"</string>
+	<!---->
+	<string name="VideoView_error_button">"OK"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"Videoclipul nu este acceptat"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"Conectare imposibilă. Încercați să reconectați %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"Se conectează..."</string>
+	<!---->
+	<string name="media_controller_buffering">"Se utilizează zona tampon %d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"Conectare la server imposibilă"</string>
+	<!---->
+	<string name="media_controller_live">"Live"</string>
+	<!---->
+	<string name="media_controller_playing">"În curs de redare"</string>
+	<!---->
+	<string name="notify_photo_text">"Comandă galerie"</string>
+	<!---->
+	<string name="notify_video_text">"Comandă galerie"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"Expunerea de diapozitive pe afișajul Wi-Fi este activată"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"Vizionarea de videoclipuri pe afișajul Wi-Fi este activată"</string>
+	<!---->
+	<string name="wfd_alert">"Alertă"</string>
+	<!---->
+	<string name="wfd_change_message">"Videoclipul va fi înlocuit."</string>
+	<!---->
+	<string name="wfd_change_button">"Da"</string>
+	<!---->
+	<string name="wfd_not_change_button">"Nu"</string>
+	<!---->
+	<string name="wfd_show">"Afișaj Wi-Fi"</string>
+	<!---->
+	<string name="wfd_show_on">"Activați afișaj Wi-Fi"</string>
+	<!---->
+	<string name="wfd_show_off">"Dezactivați afișaj Wi-Fi"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"Trageţi fişierul în dreptunghiul galben pentru a partaja ecranul."</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"Acest tip nu este acceptat"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Avertizare"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Toate fișierele protejate împotriva copierii sunt ascunse din cauza conexiunii cu afișajul Wi-Fi."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"Dezactivați afișajul Wi-Fi"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"Continuare"</string>
+	<!---->
+	<string name="tv_link_close">"Afișajul Wi-Fi a fost închis"</string>
+	<!---->
+	<string name="drm_no_valid_right">"Fișierul nu are autorizare DRM valabilă"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">"Fișierul DRM "%s" a expirat. Ștergeți?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"Fișierul DRM "%s" a expirat. Deblocați?"</string>
+	<!---->
+	<string name="unlimited_usage">"Utilizare nelimitată"</string>
+	<!---->
+	<string name="not_available">"Nu este disponibil"</string>
+	<!---->
+	<string name="use_times">"Utilizaţi de %s ori"</string>
+	<!---->
+	<string name="valid_after">"Valabil după"</string>
+	<!---->
+	<string name="valid_until">"Valabil până la"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"Atingeți de două ori și glisați pentru a mări sau micșora în ecranul Aparat foto."</string>
+	<!---->
+	<string name="tips_done">"Realizat"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"Atingeți de două ori şi glisați pentru a mări/micşora în Galerie."</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"Aflați mai multe despre mărirea/micșorarea cu un singur deget"</string>
+	<!---->
+	<string name="drm_current_right">"Restricţie actuală"</string>
+	<!---->
+	<string name="right_url">"Licențe"</string>
+	<!---->
+	<string name="vendor">"Furnizor:"</string>
+	<!---->
+	<string name="stop">"Oprire"</string>
+	<!---->
+	<string name="selectRenderer">"Selectați un dispozitiv de redare"</string>
+	<!---->
+	<string name="noRenderer">"Nu se găsește un dispozitiv de redare"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"Opriți redarea videoclipului pe televizor?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"Opriți redarea imaginilor pe televizor?"</string>
+	<!---->
+	<string name="play_video">"Redare videoclipuri"</string>
+	<!---->
+	<string name="shake_video_text">"Scuturați telefonul când afișați pagina cu videoclipul pentru a reda videoclipul pe televizor."</string>
+	<!---->
+	<string name="shake_picture_text">"Pentru redarea pe TV, scuturați telefonul în pagina cu imaginea."</string>
+	<!---->
+	<string name="wait_dialog">"Aşteptaţi..."</string>
+	<!---->
+	<string name="toast_nostop">"Pentru a opri redarea pe TV, selectați un dispozitiv de redare local."</string>
+	<!---->
+	<string name="dlna_format_not_support">"Formatul fişierului nu este acceptat."</string>
+	<!---->
+	<string name="left_title_camera_roll">"Rolă de film"</string>
+	<!---->
+	<string name="left_title_timeline">"Ora"</string>
+	<!---->
+	<string name="left_title_albums">"Albume"</string>
+	<!---->
+	<string name="left_title_videos">"Videoclipuri"</string>
+	<!---->
+	<string name="left_title_location">"Locaţii"</string>
+	<!---->
+	<string name="drawer_open">"Deschideţi sertarul de navigare"</string>
+	<!---->
+	<string name="drawer_close">"Închideţi sertarul de navigare"</string>
+	<!---->
+	<string name="photo_share">"Partajare:"</string>
+	<!---->
+	<string name="filtershow_save">"SALVAŢI"</string>
+	<!---->
+	<string name="filtershow_none">"Niciunul"</string>
+	<!---->
+	<string name="filtershow_frame">"Chenar"</string>
+	<!---->
+	<string name="drm_no_crop">"Fişierul "%s" nu poate fi decupat. Protecţie DRM."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"Fişierul "%s" nu poate fi setat ca pictogramă pentru contact, pentru că fişierul este protejat prin DRM."</string>
+	<!---->
+	<string name="never_tip">"Afișați recomandări la pornire"</string>
+	<!---->
+	<string name="three_finger_tips0">"Puneți trei degete pe ecran."</string>
+	<!---->
+	<string name="three_finger_tips1">"Trageți fișierul în zona galbenă."</string>
+	<!---->
+	<string name="three_finger_tips2">"Când zona este galbenă, partajarea este reușită."</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"Fişierul DRM nu ar trebui să fie afişat prin Afişaj Wi-Fi!"</string>
+	<!---->
+	<string name="filtershow_save_title">"Salvați modificările"</string>
+	<!---->
+	<string name="filtershow_save_message">"Doriți să salvați ca și copie sau să suprascrieți imaginea originală?"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"Nu mai întrebaţi"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"SALVAȚI CA ȘI COPIE"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"SUPRASCRIEȚI ORIGINALUL"</string>
+	<!---->
+	<string name="lock_video">"Blocat"</string>
+	<!---->
+	<string name="unlock_video">"Deblocat"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Licenţa DRM a expirat."</string>
+	<!---->
+	<string name="drm_protection_status">"Stare de protecţie:"</string>
+	<!---->
+	<string name="drm_can_forward">"Este posibilă redirecţionarea."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Nu este posibilă redirecţionarea."</string>
+	<!---->
+	<string name="drm_no_license">"Nu există licenţă DRM disponibilă."</string>
+	<!---->
+	<string name="drm_begin">"Începere:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Nu există limitare."</string>
+	<!---->
+	<string name="drm_end">"Încheiere:"</string>
+	<!---->
+	<string name="drm_use_left">"Utilizare rămasă:"</string>
+	<!---->
+	<string name="date_taken">"Data realizării"</string>
+	<!---->
+	<string name="modified_time">"Ora modificării"</string>
+	<!---->
+	<string name="fast_forward">"Derulați rapid înainte %d sdecunde"</string>
+	<!---->
+	<string name="fast_backward">"Derulați rapid înapoi %d secunde"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"S-a refăcut conexiunea la rețea. Continuați redarea?"</string>
+	<!---->
+	<string name="polaroid_action_open">"Deschidere"</string>
+	<!---->
+	<string name="polaroid_action_save">"Salvaţi"</string>
+	<!---->
+	<string name="polaroid_action_send">"Trimitere"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"Dă-mi o îmbrățișare!"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"Se salvează fotografia..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"Editor polaroid"</string>
+	<!---->
+	<string name="editor_select_filtershow">"Editor (implicit)"</string>
+	<!---->
+	<string name="date_tag">"Dată"</string>
+	<!---->
+	<string name="location_tag">"Locaţie"</string>
+	<!---->
+	<string name="slogan_tag">"Slogan"</string>
+	<!---->
+	<string name="polaroid_no_location">"Fără locaţie"</string>
+	<!---->
+	<string name="save_iamge_compelete">"Fotografia a fost salvată în Galerie."</string>
+	<!---->
+	<string name="save_image_error">"Salvarea fișierului nu a reușit."</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"Imaginea este prea mică."</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"Dimensiunea minimă este de 320 x 320 pixeli."</string>
+	<!---->
+	<string name="open_with">"Deschidere cu"</string>
+	<!---->
+	<string name="moments_month_view">"Mod de afișare Lună"</string>
+	<!---->
+	<string name="moments_day_view">"Mod de afișare Zi"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"Toate"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"Fotografie"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"Video"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"Această serie de fotografii în rafală conține %s fotografii. Le ștergeți pe toate?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"Suprascrieți fotografiile în rafală sau le salvați ca imagini individuale?"</string>
+	<!---->
+	<string name="burst_overwrite">"Suprascriere"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"Salvare ca imagini individuale"</string>
+	<!---->
+	<string name="burst_cancel">"ANULARE"</string>
+	<!---->
+	<string name="burst_delete">"ştergere"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"Preferate"</string>
+	<!---->
+	<string name="select">"Selectaţi"</string>
+	<!---->
+	<string name="getstarted">"Începeţi"</string>
+	<!---->
+	<string name="gotit">"Am înțeles"</string>
+	<!---->
+	<string name="faceshow_start">"Vă așteaptă o adevărată minune când atingeți un anumit număr de selfie-uri. Începeți experiența acum!"</string>
+	<!---->
+	<string name="faceshow_takemore">"Aveți nevoie de mai multe selfie-uri pentru a crea o prezentare proprie cu chipul dvs."</string>
+	<!---->
+	<string name="selfies">"Selfie"</string>
+	<!---->
+	<string name="parallax">"Paralaxă"</string>
+	<!---->
+	<string name="trim_title">"Anulați modificările?"</string>
+	<!---->
+	<string name="trim_message">"Modificările dvs. nu sunt salvate"</string>
+	<!---->
+	<string name="trim_discard">"Renunţare"</string>
+	<!---->
+	<string name="main_tab_moments">"Momente"</string>
+	<!---->
+	<string name="moments_show">"Afișați"</string>
+	<!---->
+	<string name="illegal_image_format">"Format ilegal al imaginii. Modificarea nu este posibilă."</string>
+	<!---->
+	<string name="exporting_video">"Se exportă videoclipul"</string>
+	<!---->
+	<string name="exporting_message">"Această operație poate dura câteva secunde, așteptați..."</string>
+	<!---->
+	<string name="share_save_video">"Se salvează videoclipul în Galerie..."</string>
+	<!---->
+	<string name="share_saved">"Videoclipul a fost salvat în Galerie"</string>
+	<!---->
+	<string name="share_save_image">"Se salvează imaginea în Galerie..."</string>
+	<!---->
+	<string name="share_image_saved">"Imaginea a fost salvată în Galerie"</string>
+	<!---->
+	<string name="location_permission_toast_text">"Nu există date de poziționare de la Cameră"</string>
+	<!---->
+	<string name="no_internet_contect_text">"Fără conexiune Internet"</string>
+	<!---->
+	<string name="more">"Mai mult"</string>
+	<!---->
+	<string name="moment_album_today">"Astăzi"</string>
+	<!---->
+	<string name="moment_album_yesterday">"ieri"</string>
+	<!---->
+	<string name="location_destination_text">"Sortați fotografiile și videoclipurile în funcție de localizare, în Momente"</string>
+	<string-array name="month">
+		<item>"Ianuarie"</item>
+		<item>"Februarie"</item>
+		<item>"Martie"</item>
+		<item>"Aprilie"</item>
+		<item>"Mai"</item>
+		<item>"Iunie"</item>
+		<item>"Iulie"</item>
+		<item>"August"</item>
+		<item>"Septembrie"</item>
+		<item>"Octombrie"</item>
+		<item>"Noiembrie"</item>
+		<item>"Decembrie"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"Pentru a sorta fotografiile și videoclipurile în funcție de localizare, permiteți aplicației Galerie să acceseze funcția de localizare."</string>
+	<!---->
+	<string name="permission_location_settings">"Setări"</string>
+	<!---->
+	<string name="boom_key_tip_1">"Prezentați fotografiile în colaje noi, incredibile"</string>
+	<!---->
+	<string name="boom_key_tip_2">"Declanșare afișare colaje prin tasta Boom."</string>
+	<!---->
+	<string name="boom_key_tip_3">"Declanșare afișare colaje din Albume"</string>
+	<!---->
+	<string name="boom_key_tip_4">"Declanșare afișare colaje din secțiunea de examinare fotografii"</string>
+	<!---->
+	<string name="tx_skip">"Omit."</string>
+	<!---->
+	<string name="tx_done">"Terminat"</string>
+	<!---->
+	<string name="boom_key">"tasta Boom"</string>
+	<!---->
+	<string name="press">"Apăsați"</string>
+	<!---->
+	<string name="not_support_parallax_share">"Nu se poate partaja Fyuse din Momente"</string>
+	<!---->
+	<string name="permissions_hi">"BUNĂ!"</string>
+	<!---->
+	<string name="not_support_video_edit">"Formatul video nu este acceptat."</string>
+</resources>

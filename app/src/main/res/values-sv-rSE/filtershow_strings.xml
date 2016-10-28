@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Fotoredigerare"</string>
+	<!---->
+	<string name="cannot_load_image">"Kan inte ladda bilden"</string>
+	<!---->
+	<string name="cannot_edit_original">"Kan inte redigera original"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Ställer in bakgrundsbild"</string>
+	<!---->
+	<string name="download_failure">"Det gick inte att hämta foto. Nätverk ej tillgängligt."</string>
+	<!---->
+	<string name="original">"Original"</string>
+	<!---->
+	<string name="borders">"Gränser"</string>
+	<!---->
+	<string name="custom_border">"Anpassad"</string>
+	<!---->
+	<string name="filtershow_undo">"Ångra"</string>
+	<!---->
+	<string name="filtershow_redo">"Gör om"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Visa bildstatus"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Dölj bildtillstånd"</string>
+	<!---->
+	<string name="export_image">"Exportera"</string>
+	<!---->
+	<string name="print_image">"Skriv ut"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Redigera automatiskt"</string>
+	<!---->
+	<string name="export_flattened">"Exportera utjämnad bild"</string>
+	<!---->
+	<string name="select_output_settings">"Den exporterade bilden är en kopia utan redigeringshistorik."</string>
+	<!---->
+	<string name="quality">"Kvalitet"</string>
+	<!---->
+	<string name="size">"Storlek"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Inställningar"</string>
+	<!---->
+	<string name="unsaved">"Det finns osparade ändringar i den här bilden."</string>
+	<!---->
+	<string name="save_before_exit">"Spara innan avslut?"</string>
+	<!---->
+	<string name="save_and_exit">"Spara och avsluta"</string>
+	<!---->
+	<string name="save_and_processing">"Bearbetar bild med full upplösning..."</string>
+	<!---->
+	<string name="exit">"Stäng"</string>
+	<!---->
+	<string name="history">"Historik"</string>
+	<!---->
+	<string name="reset">"Återställ"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Aktuell bildstatus"</string>
+	<!---->
+	<string name="compare_original">"Jämför"</string>
+	<!---->
+	<string name="apply_effect">"Använd"</string>
+	<!---->
+	<string name="reset_effect">"Återställ"</string>
+	<!---->
+	<string name="aspect">"Aspekt"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Inga"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Anpassad"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Fast"</string>
+	<!---->
+	<string name="tinyplanet">"Liten planet"</string>
+	<!---->
+	<string name="exposure">"Exponering"</string>
+	<!---->
+	<string name="sharpness">"Skärpa"</string>
+	<!---->
+	<string name="contrast">"Kontrast"</string>
+	<!---->
+	<string name="vibrance">"Klarhet"</string>
+	<!---->
+	<string name="saturation">"Mättnad"</string>
+	<!---->
+	<string name="bwfilter">"BW-filter"</string>
+	<!---->
+	<string name="wbalance">"Automatisk färg"</string>
+	<!---->
+	<string name="hue">"Ton"</string>
+	<!---->
+	<string name="shadow_recovery">"Skuggor"</string>
+	<!---->
+	<string name="highlight_recovery">"Högdager"</string>
+	<!---->
+	<string name="curvesRGB">"Kurvor"</string>
+	<!---->
+	<string name="vignette">"Vignette"</string>
+	<!---->
+	<string name="vignette_main">"Vignette"</string>
+	<!---->
+	<string name="vignette_exposure">"Exponering"</string>
+	<!---->
+	<string name="vignette_saturation">"Mättnad"</string>
+	<!---->
+	<string name="vignette_contrast">"Kontrast"</string>
+	<!---->
+	<string name="vignette_falloff">"Ramla av"</string>
+	<!---->
+	<string name="redeye">"Röda ögon"</string>
+	<!---->
+	<string name="imageDraw">"Rita"</string>
+	<!---->
+	<string name="straighten">"Räta ut"</string>
+	<!---->
+	<string name="crop">"Beskär"</string>
+	<!---->
+	<string name="rotate">"Rotera"</string>
+	<!---->
+	<string name="mirror">"Spegel"</string>
+	<!---->
+	<string name="negative">"Negativ"</string>
+	<!---->
+	<string name="none">"Inga"</string>
+	<!---->
+	<string name="edge">"Kanter"</string>
+	<!---->
+	<string name="kmeans">"Färgreduktion"</string>
+	<!---->
+	<string name="downsample">"Nedsampling"</string>
+	<!---->
+	<string name="grad">"Examen"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Ljusstyrka"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Kontrast"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Mättnad"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Telefonnummer"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Röd"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Gul"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Grön"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Cyan"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Blå"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Magenta"</string>
+	<!---->
+	<string name="editor_grad_style">"Stil"</string>
+	<!---->
+	<string name="editor_grad_new">"Ny"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Röd"</string>
+	<!---->
+	<string name="curves_channel_green">"Grön"</string>
+	<!---->
+	<string name="curves_channel_blue">"Blå"</string>
+	<!---->
+	<string name="draw_style">"Stil"</string>
+	<!---->
+	<string name="draw_size">"Storlek"</string>
+	<!---->
+	<string name="draw_hue">"Ton"</string>
+	<!---->
+	<string name="draw_saturation">"Mättnad"</string>
+	<!---->
+	<string name="draw_value">"Ljusstyrka"</string>
+	<!---->
+	<string name="draw_color">"Färg"</string>
+	<!---->
+	<string name="draw_style_line">"Linjer"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Markör"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Stänk"</string>
+	<!---->
+	<string name="draw_clear">"Rensa"</string>
+	<!---->
+	<string name="color_border_size">"Tjocklek"</string>
+	<!---->
+	<string name="color_border_corner_size">"Hörnstorlek"</string>
+	<!---->
+	<string name="color_border_color">"Färg"</string>
+	<!---->
+	<string name="color_border_clear">"Rensa"</string>
+	<!---->
+	<string name="color_pick_select">"Välj anpassad färg"</string>
+	<!---->
+	<string name="color_pick_title">"Välj färg"</string>
+	<!---->
+	<string name="draw_size_title">"Välj storlek"</string>
+	<!---->
+	<string name="draw_size_accept">"OK"</string>
+	<!---->
+	<string name="state_panel_original">"Original"</string>
+	<!---->
+	<string name="state_panel_result">"Resultat"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Sparar bild"</string>
+	<!---->
+	<string name="filtershow_notification_message">"Bearbetar..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Spara aktuell förinställning"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Hantera användarförinställning"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Ny förinställning"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Förinställ namn"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Information"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Bildnamn"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Bildstorlek"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Stapeldiagram"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"EXIF-data"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Förinställ"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Version"</string>
+	<!---->
+	<string name="filtershow_version_original">"Original"</string>
+	<!---->
+	<string name="filtershow_version_current">"Aktuell"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Modell"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Bländare"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Fokuslängd"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Avstånd till motiv"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Taget-datum"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F Stop"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Exponeringstid"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Upphovsrätt"</string>
+</resources>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Urejevalnik slik"</string>
+	<!---->
+	<string name="cannot_load_image">"Slike ni mogoče naložiti"</string>
+	<!---->
+	<string name="cannot_edit_original">"Originala ni mogoče urejati"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Nastavitev ozadja"</string>
+	<!---->
+	<string name="download_failure">"Slike ni mogoče prenesti. Omrežje ni dostopno."</string>
+	<!---->
+	<string name="original">"Original"</string>
+	<!---->
+	<string name="borders">"Robovi"</string>
+	<!---->
+	<string name="custom_border">"Po meri"</string>
+	<!---->
+	<string name="filtershow_undo">"Razveljavi"</string>
+	<!---->
+	<string name="filtershow_redo">"Ponovi"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Prikaži stanje slike"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Skrij stanje slike"</string>
+	<!---->
+	<string name="export_image">"Izvozi"</string>
+	<!---->
+	<string name="print_image">"Tiskanje"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Samodejno urejanje"</string>
+	<!---->
+	<string name="export_flattened">"Izvozi združeno sliko."</string>
+	<!---->
+	<string name="select_output_settings">"Izvožena slika bo kopija brez urejanja zgodovine."</string>
+	<!---->
+	<string name="quality">"Kakovost"</string>
+	<!---->
+	<string name="size">"Velikost"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Nastavitve"</string>
+	<!---->
+	<string name="unsaved">"Slika vsebuje spremembe, ki niso shranjene."</string>
+	<!---->
+	<string name="save_before_exit">"Želite shraniti pred izhodom?"</string>
+	<!---->
+	<string name="save_and_exit">"Shrani in zapri"</string>
+	<!---->
+	<string name="save_and_processing">"Procesiranje slike v celotni resoluciji"</string>
+	<!---->
+	<string name="exit">"Izhod"</string>
+	<!---->
+	<string name="history">"Zgodovina"</string>
+	<!---->
+	<string name="reset">"Ponastavitev"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Trenutno stanje slike"</string>
+	<!---->
+	<string name="compare_original">"Primerjaj"</string>
+	<!---->
+	<string name="apply_effect">"Sprejmi"</string>
+	<!---->
+	<string name="reset_effect">"Ponastavitev"</string>
+	<!---->
+	<string name="aspect">"Vidik"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Brez"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Po meri"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Popravljeno"</string>
+	<!---->
+	<string name="tinyplanet">"Majhen planet"</string>
+	<!---->
+	<string name="exposure">"Osvetlitev"</string>
+	<!---->
+	<string name="sharpness">"Ostrina"</string>
+	<!---->
+	<string name="contrast">"Kontrast"</string>
+	<!---->
+	<string name="vibrance">"Tresljaji"</string>
+	<!---->
+	<string name="saturation">"Nasičenost"</string>
+	<!---->
+	<string name="bwfilter">"Filter BW"</string>
+	<!---->
+	<string name="wbalance">"Samodejna barva"</string>
+	<!---->
+	<string name="hue">"Prelivanje"</string>
+	<!---->
+	<string name="shadow_recovery">"Sence"</string>
+	<!---->
+	<string name="highlight_recovery">"Poudarki"</string>
+	<!---->
+	<string name="curvesRGB">"Vijuge"</string>
+	<!---->
+	<string name="vignette">"Vinjeta"</string>
+	<!---->
+	<string name="vignette_main">"Vinjeta"</string>
+	<!---->
+	<string name="vignette_exposure">"Osvetlitev"</string>
+	<!---->
+	<string name="vignette_saturation">"Nasičenost"</string>
+	<!---->
+	<string name="vignette_contrast">"Kontrast"</string>
+	<!---->
+	<string name="vignette_falloff">"Falloff"</string>
+	<!---->
+	<string name="redeye">"Rdeče oči"</string>
+	<!---->
+	<string name="imageDraw">"Nariši"</string>
+	<!---->
+	<string name="straighten">"Poravnavanje"</string>
+	<!---->
+	<string name="crop">"Obrezovanje"</string>
+	<!---->
+	<string name="rotate">"Zasukaj"</string>
+	<!---->
+	<string name="mirror">"Zrcaljenje"</string>
+	<!---->
+	<string name="negative">"Negativ"</string>
+	<!---->
+	<string name="none">"Brez"</string>
+	<!---->
+	<string name="edge">"Koti"</string>
+	<!---->
+	<string name="kmeans">"Poster"</string>
+	<!---->
+	<string name="downsample">"Zmanjševanje vzorčenja"</string>
+	<!---->
+	<string name="grad">"Graduated"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Svetlost"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Kontrast"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Nasičenost"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Centrala"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Rdeče"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Rumena"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Zeleno"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Cianidna"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Modro"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Vijolična"</string>
+	<!---->
+	<string name="editor_grad_style">"Slog"</string>
+	<!---->
+	<string name="editor_grad_new">"Novo"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Rdeče"</string>
+	<!---->
+	<string name="curves_channel_green">"Zeleno"</string>
+	<!---->
+	<string name="curves_channel_blue">"Modro"</string>
+	<!---->
+	<string name="draw_style">"Slog"</string>
+	<!---->
+	<string name="draw_size">"Velikost"</string>
+	<!---->
+	<string name="draw_hue">"Prelivanje"</string>
+	<!---->
+	<string name="draw_saturation">"Nasičenost"</string>
+	<!---->
+	<string name="draw_value">"Svetlost"</string>
+	<!---->
+	<string name="draw_color">"Barva"</string>
+	<!---->
+	<string name="draw_style_line">"Črte"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Marker"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Poškropljeno"</string>
+	<!---->
+	<string name="draw_clear">"Počisti"</string>
+	<!---->
+	<string name="color_border_size">"Debelina"</string>
+	<!---->
+	<string name="color_border_corner_size">"Velikost robov"</string>
+	<!---->
+	<string name="color_border_color">"Barva"</string>
+	<!---->
+	<string name="color_border_clear">"Počisti"</string>
+	<!---->
+	<string name="color_pick_select">"Izberite poljubno barvo"</string>
+	<!---->
+	<string name="color_pick_title">"Izberite barvo"</string>
+	<!---->
+	<string name="draw_size_title">"Izberite velikost"</string>
+	<!---->
+	<string name="draw_size_accept">"V redu"</string>
+	<!---->
+	<string name="state_panel_original">"Izvirna"</string>
+	<!---->
+	<string name="state_panel_result">"Rezultat"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Shranjevanje slike"</string>
+	<!---->
+	<string name="filtershow_notification_message">"V obdelavi ..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Shranjevanje trenutne prednastavitve"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Upravljaj z uporabniškimi prednastavitvami."</string>
+	<!---->
+	<string name="filtershow_new_preset">"Nova prednastavitev"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Ime prednastavitve"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Informacije"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Ime slike"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Velikost slike"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Histogram"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"Podatki EXIF"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Prednastavitev"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Različica"</string>
+	<!---->
+	<string name="filtershow_version_original">"Original"</string>
+	<!---->
+	<string name="filtershow_version_current">"Trenutna"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Model"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Zaslonka"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Gorišč. razd."</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Oddaljenost predmeta"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Datum zajetja slike"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"Funkcija F Stop"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Čas osvetlitve"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Avtorske pravice"</string>
+</resources>

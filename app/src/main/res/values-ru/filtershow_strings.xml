@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Редактор фотографий"</string>
+	<!---->
+	<string name="cannot_load_image">"Невозможно загрузить изображение"</string>
+	<!---->
+	<string name="cannot_edit_original">"Невозможно редактировать оригинал"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Установка обоев"</string>
+	<!---->
+	<string name="download_failure">"Не удалось загрузить фотографию. Сеть недоступна"</string>
+	<!---->
+	<string name="original">"Оригинал"</string>
+	<!---->
+	<string name="borders">"Рамка"</string>
+	<!---->
+	<string name="custom_border">"Пользовательская"</string>
+	<!---->
+	<string name="filtershow_undo">"Отменить"</string>
+	<!---->
+	<string name="filtershow_redo">"переделать"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Показать применённые эффекты"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Скрыть применённые эффекты"</string>
+	<!---->
+	<string name="export_image">"Экспорт"</string>
+	<!---->
+	<string name="print_image">"Печать"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Авто-редактирование"</string>
+	<!---->
+	<string name="export_flattened">"Экспорт изображения"</string>
+	<!---->
+	<string name="select_output_settings">"Экспортируемое изображение будет копией без истории редактирования."</string>
+	<!---->
+	<string name="quality">"Качество"</string>
+	<!---->
+	<string name="size">"Размер"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Настройки"</string>
+	<!---->
+	<string name="unsaved">"Есть не сохраненные изменения этого изображения."</string>
+	<!---->
+	<string name="save_before_exit">"Сохранить перед выходом?"</string>
+	<!---->
+	<string name="save_and_exit">"Сохранить и выйти"</string>
+	<!---->
+	<string name="save_and_processing">"Обработка исходного изображения…"</string>
+	<!---->
+	<string name="exit">"Выход"</string>
+	<!---->
+	<string name="history">"История"</string>
+	<!---->
+	<string name="reset">"Сброс"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Применённые эффекты"</string>
+	<!---->
+	<string name="compare_original">"Сравнить"</string>
+	<!---->
+	<string name="apply_effect">"Применить"</string>
+	<!---->
+	<string name="reset_effect">"Сброс"</string>
+	<!---->
+	<string name="aspect">"Аспект"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Нет"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Настроить"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Фиксированный"</string>
+	<!---->
+	<string name="tinyplanet">"Крошечная планета"</string>
+	<!---->
+	<string name="exposure">"Выдержка"</string>
+	<!---->
+	<string name="sharpness">"Резкость"</string>
+	<!---->
+	<string name="contrast">"Контраст"</string>
+	<!---->
+	<string name="vibrance">"Вибрация"</string>
+	<!---->
+	<string name="saturation">"Насыщенность"</string>
+	<!---->
+	<string name="bwfilter">"Фильтр Ч/Б"</string>
+	<!---->
+	<string name="wbalance">"Автоцвет"</string>
+	<!---->
+	<string name="hue">"Оттенок"</string>
+	<!---->
+	<string name="shadow_recovery">"Затенение"</string>
+	<!---->
+	<string name="highlight_recovery">"Блики"</string>
+	<!---->
+	<string name="curvesRGB">"Кривые"</string>
+	<!---->
+	<string name="vignette">"Виньетка"</string>
+	<!---->
+	<string name="vignette_main">"Виньетка"</string>
+	<!---->
+	<string name="vignette_exposure">"Выдержка"</string>
+	<!---->
+	<string name="vignette_saturation">"Насыщенность"</string>
+	<!---->
+	<string name="vignette_contrast">"Контраст"</string>
+	<!---->
+	<string name="vignette_falloff">"Спад"</string>
+	<!---->
+	<string name="redeye">"Красные глаза"</string>
+	<!---->
+	<string name="imageDraw">"Нарисовать"</string>
+	<!---->
+	<string name="straighten">"Выпрямление"</string>
+	<!---->
+	<string name="crop">"Кадрировать"</string>
+	<!---->
+	<string name="rotate">"Поворот"</string>
+	<!---->
+	<string name="mirror">"Отражение"</string>
+	<!---->
+	<string name="negative">"Негатив"</string>
+	<!---->
+	<string name="none">"Нет"</string>
+	<!---->
+	<string name="edge">"Края"</string>
+	<!---->
+	<string name="kmeans">"Постеризация"</string>
+	<!---->
+	<string name="downsample">"Субдискретизировать"</string>
+	<!---->
+	<string name="grad">"Калибровка"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Яркость"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Контраст"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Насыщенность"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Основной"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Красный"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Жёлтый"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Зеленый"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Голубой"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Голубой"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Пурпурный"</string>
+	<!---->
+	<string name="editor_grad_style">"Стиль"</string>
+	<!---->
+	<string name="editor_grad_new">"Добавить"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Красный"</string>
+	<!---->
+	<string name="curves_channel_green">"Зеленый"</string>
+	<!---->
+	<string name="curves_channel_blue">"Голубой"</string>
+	<!---->
+	<string name="draw_style">"Стиль"</string>
+	<!---->
+	<string name="draw_size">"Размер"</string>
+	<!---->
+	<string name="draw_hue">"Оттенок"</string>
+	<!---->
+	<string name="draw_saturation">"Насыщенность"</string>
+	<!---->
+	<string name="draw_value">"Яркость"</string>
+	<!---->
+	<string name="draw_color">"Цвет"</string>
+	<!---->
+	<string name="draw_style_line">"Линии"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Маркер"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Брызги"</string>
+	<!---->
+	<string name="draw_clear">"Очистить"</string>
+	<!---->
+	<string name="color_border_size">"Толщина"</string>
+	<!---->
+	<string name="color_border_corner_size">"Форма углов"</string>
+	<!---->
+	<string name="color_border_color">"Цвет"</string>
+	<!---->
+	<string name="color_border_clear">"Очистить"</string>
+	<!---->
+	<string name="color_pick_select">"Выберите другой цвет"</string>
+	<!---->
+	<string name="color_pick_title">"Выбрать цвет"</string>
+	<!---->
+	<string name="draw_size_title">"Выберите размер"</string>
+	<!---->
+	<string name="draw_size_accept">"ОК"</string>
+	<!---->
+	<string name="state_panel_original">"Оригинал"</string>
+	<!---->
+	<string name="state_panel_result">"Результат"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Сохранение изображения"</string>
+	<!---->
+	<string name="filtershow_notification_message">"Обработка..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Сохранить текущий"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Управление предустановками пользователя"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Новый пресет"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Название"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Сведения"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Имя изображения"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Размер изображения"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Гистограмма"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"Данные EXIF"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Добавить"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"О программе"</string>
+	<!---->
+	<string name="filtershow_version_original">"Оригинал"</string>
+	<!---->
+	<string name="filtershow_version_current">"Текущее"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Модель"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Диафрагма"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Фокусное расстояние"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Расстояние до объекта"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Дата съёмки"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F Стоп"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Выдержка"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Авторские права"</string>
+</resources>

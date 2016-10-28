@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="70dp"
+    android:layout_height="match_parent"
+    android:background="@color/actionbar_background_color"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_title_item"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_collage_1_3"/>
+    </LinearLayout>
+
+</LinearLayout>

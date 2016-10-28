@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"المعرض"</string>
+	<!---->
+	<string name="gadget_title">"إطار الصورة"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"مشغّل الفيديو"</string>
+	<!---->
+	<string name="loading_video">"جارٍ تحميل الفيديو\u2026"</string>
+	<!---->
+	<string name="loading_image">"جارٍ تحميل الصورة\u2026"</string>
+	<!---->
+	<string name="loading_account">"جارٍ تحميل الحساب\u2026"</string>
+	<!---->
+	<string name="resume_playing_title">"استئناف الفيديو"</string>
+	<!---->
+	<string name="resume_playing_message">"هل تريد استئناف التشغيل من %s ؟"</string>
+	<!---->
+	<string name="resume_playing_resume">"استئناف التشغيل"</string>
+	<!---->
+	<string name="loading">"جارٍ التحميل\u2026"</string>
+	<!---->
+	<string name="fail_to_load">"تعذر التحميل"</string>
+	<!---->
+	<string name="fail_trim">"يتعذر تهذيب الفيديو."</string>
+	<!---->
+	<string name="fail_to_load_image">"تعذر تحميل الصورة"</string>
+	<!---->
+	<string name="no_thumbnail">"بلا صورة مصغرة"</string>
+	<!---->
+	<string name="resume_playing_restart">"بدء من جديد"</string>
+	<!---->
+	<string name="crop_save_text">"موافق"</string>
+	<!---->
+	<string name="ok">"موافق"</string>
+	<!---->
+	<string name="multiface_crop_help">"المس وجهًا للبدء"</string>
+	<!---->
+	<string name="saving_image">"جارٍ حفظ الصورة\u2026"</string>
+	<!---->
+	<string name="filtershow_saving_image">"جارٍ حفظ الصورة في <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="save_error">"تعذر حفظ الصورة التي تم اقتصاصها."</string>
+	<!---->
+	<string name="crop_label">"اقتصاص الصورة"</string>
+	<!---->
+	<string name="trim_label">"تهذيب الفيديو"</string>
+	<!---->
+	<string name="select_image">"تحديد صورة"</string>
+	<!---->
+	<string name="select_video">"تحديد فيديو"</string>
+	<!---->
+	<string name="select_item">"تحديد عنصر"</string>
+	<!---->
+	<string name="select_album">"تحديد ألبوم"</string>
+	<!---->
+	<string name="select_group">"تحديد مجموعة"</string>
+	<!---->
+	<string name="set_image">"تعيين كـ..."</string>
+	<!---->
+	<string name="set_wallpaper">"تعيين خلفية"</string>
+	<!---->
+	<string name="wallpaper">"جارٍ تعيين خلفية الشاشة\u2026"</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"الخلفية"</string>
+	<!---->
+	<string name="delete">"حذف"</string>
+	<!---->
+	<string name="deleting">"جاري الحذف"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"حذف العنصر المحدد؟"</item>
+		<item quantity="other">"حذف العناصر المحددة؟"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"تأكيد"</string>
+	<!---->
+	<string name="cancel">"إلغاء"</string>
+	<!---->
+	<string name="share">"مشاركة"</string>
+	<!---->
+	<string name="share_panorama">"مشاركة بانوراما"</string>
+	<!---->
+	<string name="share_as_photo">"مشاركة كصورة"</string>
+	<!---->
+	<string name="deleted">"تم الحذف"</string>
+	<!---->
+	<string name="undo">"تراجع"</string>
+	<!---->
+	<string name="select_all">"تحديد الكل"</string>
+	<!---->
+	<string name="deselect_all">"إلغاء تحديد الكل"</string>
+	<!---->
+	<string name="slideshow">"عرض الشرائح"</string>
+	<!---->
+	<string name="details">"التفاصيل"</string>
+	<!---->
+	<string name="details_title">"%1$d من %2$d من العناصر:"</string>
+	<!---->
+	<string name="close">"إغلاق"</string>
+	<!---->
+	<string name="switch_to_camera">"التحويل للكاميرا"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"تم تحديد %1$d"</item>
+		<item quantity="one">"تم تحديد %1$d"</item>
+		<item quantity="other">"تم تحديد %1$d"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"تم تحديد %1$d"</item>
+		<item quantity="one">"تم تحديد %1$d"</item>
+		<item quantity="other">"تم تحديد %1$d"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"تم تحديد %1$d"</item>
+		<item quantity="one">"تم تحديد %1$d"</item>
+		<item quantity="other">"تم تحديد %1$d"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"عرض على الخريطة"</string>
+	<!---->
+	<string name="rotate_left">"تدوير لليسار"</string>
+	<!---->
+	<string name="rotate_right">"تدوير لليمين"</string>
+	<!---->
+	<string name="no_such_item">"تعذر العثور على العنصر."</string>
+	<!---->
+	<string name="edit">"تعديل"</string>
+	<!---->
+	<string name="mix_video">"مزيج"</string>
+	<!---->
+	<string name="simple_edit">"تحرير بسيط"</string>
+	<!---->
+	<string name="process_caching_requests">"معالجة طلبات التخزين المؤقت"</string>
+	<!---->
+	<string name="caching_label">"جارٍ التخزين مؤقتًا\u2026"</string>
+	<!---->
+	<string name="crop_action">"اقتصاص"</string>
+	<!---->
+	<string name="trim_action">"تهذيب"</string>
+	<!---->
+	<string name="mute_action">"كتم"</string>
+	<!---->
+	<string name="set_as">"تعيين كـ"</string>
+	<!---->
+	<string name="video_mute_err">"لا يمكن كتم صوت الفيديو."</string>
+	<!---->
+	<string name="video_err">"لا يمكن تشغيل الفيديو."</string>
+	<!---->
+	<string name="group_by_location">"حسب الموقع"</string>
+	<!---->
+	<string name="group_by_time">"حسب الوقت"</string>
+	<!---->
+	<string name="group_by_tags">"حسب العلامات"</string>
+	<!---->
+	<string name="group_by_faces">"حسب الأشخاص"</string>
+	<!---->
+	<string name="group_by_album">"حسب الألبوم"</string>
+	<!---->
+	<string name="group_by_size">"حسب الحجم"</string>
+	<!---->
+	<string name="untagged">"بلا علامات"</string>
+	<!---->
+	<string name="no_location">"لا موقع"</string>
+	<!---->
+	<string name="no_connectivity">"تعذر تحديد بعض المواقع بسبب مشاكل في الشبكة."</string>
+	<!---->
+	<string name="sync_album_error">"تعذر تنزيل الصور في هذا الألبوم. أعد المحاولة لاحقًا."</string>
+	<!---->
+	<string name="show_images_only">"الصور فقط"</string>
+	<!---->
+	<string name="show_videos_only">"مقاطع الفيديو فقط"</string>
+	<!---->
+	<string name="show_all">"الصور ومقاطع الفيديو"</string>
+	<!---->
+	<string name="appwidget_title">"معرض الصور"</string>
+	<!---->
+	<string name="appwidget_empty_text">"ليست هناك أية صور."</string>
+	<!---->
+	<string name="crop_saved">"تم حفظ الصورة المقتصة إلى <xliff:g id="folder_name">%s</xliff:g>."</string>
+	<!---->
+	<string name="no_albums_alert">"ليست هناك أية ألبومات متاحة"</string>
+	<!---->
+	<string name="empty_album">"لا توجد صورة/فيديو متوفر"</string>
+	<!---->
+	<string name="picasa_posts">"المشاركات"</string>
+	<!---->
+	<string name="make_available_offline">"جعلها متاحة في وضع عدم الاتصال"</string>
+	<!---->
+	<string name="sync_picasa_albums">"تحديث"</string>
+	<!---->
+	<string name="done">"تم"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d من %2$d من العناصر:"</string>
+	<!---->
+	<string name="title">"العنوان"</string>
+	<!---->
+	<string name="description">"الوصف"</string>
+	<!---->
+	<string name="time">"الوقت"</string>
+	<!---->
+	<string name="location">"الموقع"</string>
+	<!---->
+	<string name="path">"المسار"</string>
+	<!---->
+	<string name="width">"العرض"</string>
+	<!---->
+	<string name="height">"الارتفاع"</string>
+	<!---->
+	<string name="orientation">"الاتجاه"</string>
+	<!---->
+	<string name="duration">"المدة"</string>
+	<!---->
+	<string name="mimetype">"نوع MIME"</string>
+	<!---->
+	<string name="file_size">"حجم الملف"</string>
+	<!---->
+	<string name="maker">"منشئ الوسائط"</string>
+	<!---->
+	<string name="model">"الطراز"</string>
+	<!---->
+	<string name="flash">"الفلاش"</string>
+	<!---->
+	<string name="aperture">"فتحة العدسة"</string>
+	<!---->
+	<string name="focal_length">"البعد البؤري"</string>
+	<!---->
+	<string name="white_balance">"موازنة اللون الأبيض"</string>
+	<!---->
+	<string name="exposure_time">"مدة التعرض للضوء"</string>
+	<!---->
+	<string name="iso">"سرعة ISO"</string>
+	<!---->
+	<string name="unit_mm">"ملليمتر"</string>
+	<!---->
+	<string name="manual">"يدوية"</string>
+	<!---->
+	<string name="auto">"تلقائي"</string>
+	<!---->
+	<string name="flash_on">"تم تشغيل الفلاش"</string>
+	<!---->
+	<string name="flash_off">"بلا فلاش"</string>
+	<!---->
+	<string name="unknown">"غير معروف"</string>
+	<!---->
+	<string name="ffx_original">"أصلي"</string>
+	<!---->
+	<string name="ffx_vintage">"عتيق"</string>
+	<!---->
+	<string name="ffx_instant">"فوري"</string>
+	<!---->
+	<string name="ffx_bleach">"تبييض"</string>
+	<!---->
+	<string name="ffx_blue_crush">"أزرق"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"أبيض وأسود"</string>
+	<!---->
+	<string name="ffx_punch">"ثقب"</string>
+	<!---->
+	<string name="ffx_x_process">"معالجة x"</string>
+	<!---->
+	<string name="ffx_washout">"لاتيه"</string>
+	<!---->
+	<string name="ffx_washout_color">"طباعة حجرية"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"جارٍ جعل الألبوم متاحًا في وضع عدم الاتصال."</item>
+		<item quantity="other">"جارٍ جعل الألبومات متاحة في وضع عدم الاتصال."</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"هذا العنصر مخزن محليًا ومتاح في وضع عدم الاتصال."</string>
+	<!---->
+	<string name="set_label_all_albums">"كل الألبومات"</string>
+	<!---->
+	<string name="set_label_local_albums">"الألبومات المحلية"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"أجهزة MTP"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"ألبومات الويب بيكاسا"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="BYTES">%s</xliff:g> متوفرة"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="SIZE">%1$s</xliff:g> أو أقل"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="SIZE">%1$s</xliff:g> أو أكثر"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> إلى <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"استيراد"</string>
+	<!---->
+	<string name="import_complete">"انتهى الاستيراد"</string>
+	<!---->
+	<string name="import_fail">"أخفق الاستيراد"</string>
+	<!---->
+	<string name="camera_connected">"الكاميرا متصلة."</string>
+	<!---->
+	<string name="camera_disconnected">"الكاميرا غير متصلة."</string>
+	<!---->
+	<string name="click_import">"المس هنا للاستيراد"</string>
+	<!---->
+	<string name="widget_type_album">"اختيار ألبوم"</string>
+	<!---->
+	<string name="widget_type_shuffle">"ترتيب عشوائي لجميع الصور"</string>
+	<!---->
+	<string name="widget_type_photo">"اختيار صورة"</string>
+	<!---->
+	<string name="widget_type">"اختيار صور"</string>
+	<!---->
+	<string name="slideshow_dream_name">"عرض الشرائح"</string>
+	<!---->
+	<string name="albums">"ألبومات"</string>
+	<!---->
+	<string name="times">"المرات"</string>
+	<!---->
+	<string name="locations">"المواقع"</string>
+	<!---->
+	<string name="people">"الأشخاص"</string>
+	<!---->
+	<string name="tags">"العلامات"</string>
+	<!---->
+	<string name="group_by">"تجميع حسب"</string>
+	<!---->
+	<string name="settings">"الإعدادات"</string>
+	<!---->
+	<string name="add_account">"إضافة حساب"</string>
+	<!---->
+	<string name="folder_camera">"الكاميرا"</string>
+	<!---->
+	<string name="folder_download">"تنزيل"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"الصور التي تم تحريرها عبر الإنترنت"</string>
+	<!---->
+	<string name="folder_imported">"تم الاستيراد"</string>
+	<!---->
+	<string name="folder_screenshot">"لقطة شاشة"</string>
+	<!---->
+	<string name="help">"مساعدة"</string>
+	<!---->
+	<string name="no_external_storage_title">"لا توجد ذاكرة"</string>
+	<!---->
+	<string name="no_external_storage">"لا يوجد مخزن خارجي متاح"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"عرض شريط سينما"</string>
+	<!---->
+	<string name="switch_photo_grid">"عرض الشبكة"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"عرض ملء الصورة"</string>
+	<!---->
+	<string name="trimming">"جارٍ التهذيب"</string>
+	<!---->
+	<string name="muting">"كتم الصوت"</string>
+	<!---->
+	<string name="please_wait">"يرجى الانتظار"</string>
+	<!---->
+	<string name="save_into">"حفظ الفيديو في <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="trim_save_into">"تم حفظ الملف المقصوص على <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"تم حفظ ملف بدون صوت على <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="trim_too_short">"تعذر التهذيب: الفيديو المستهدف قصير للغاية"</string>
+	<!---->
+	<string name="mute_nosupport">"تعذر كتم الصوت: فيديو غير مدعوم"</string>
+	<!---->
+	<string name="pano_progress_text">"عرض بانوراما"</string>
+	<!---->
+	<string name="save">"حفظ"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"جارٍ فحص المحتوى..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"تم فحص %1$d من العناصر"</item>
+		<item quantity="one">"تم فحص %1$d عنصر"</item>
+		<item quantity="other">"تم فحص %1$d من العناصر"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"%1$d عنصر محدد"</item>
+		<item quantity="one">"%1$d عنصر محدد"</item>
+		<item quantity="other">"%1$d عنصر محدد"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"جارٍ الفرز..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"تم الفحص"</string>
+	<!---->
+	<string name="ingest_importing">"جارٍ الاستيراد..."</string>
+	<!---->
+	<string name="ingest_empty_device">"لا يتوفر أي محتوى للاستيراد على هذا الجهاز."</string>
+	<!---->
+	<string name="ingest_no_device">"ليس هناك جهاز MTP متصلاً"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"خطأ بالكاميرا"</string>
+	<!---->
+	<string name="cannot_connect_camera">"يتعذر الاتصال بالكاميرا."</string>
+	<!---->
+	<string name="camera_disabled">"تم تعطيل الكاميرا بسبب سياسات الأمان."</string>
+	<!---->
+	<string name="camera_label">"الكاميرا"</string>
+	<!---->
+	<string name="wait">"يرجى الانتظار…"</string>
+	<!---->
+	<string name="review_cancel">"إلغاء"</string>
+	<!---->
+	<string name="review_ok">"تم"</string>
+	<!---->
+	<string name="time_lapse_title">"تسجيل اللقطات المتتابعة"</string>
+	<!---->
+	<string name="pref_camera_id_title">"اختيار الكاميرا"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"رجوع"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"أمامية"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"تخزين الموقع"</string>
+	<!---->
+	<string name="pref_camera_location_label">"الموقع"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"موقت العد العكسي"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"ثانية واحدة"</item>
+		<item quantity="other">"%d من الثواني"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"إشارة صوتية أثناء العد العكسي"</string>
+	<!---->
+	<string name="setting_off">"إيقاف"</string>
+	<!---->
+	<string name="setting_on">"تشغيل"</string>
+	<!---->
+	<string name="pref_video_quality_title">"جودة الفيديو"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"مرتفع"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"منخفض"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"تسجيل اللقطات المتتابعة"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"إعدادات الكاميرا"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"إعدادات كاميرا الفيديو"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"حجم الصورة"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13 ميجابكسل"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8 ميجا بكسل"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5 ميجابكسل"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4 ميجابكسل"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3 ميجابكسل"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2 ميجابكسل"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2 ميجابكسل (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1.3 ميجابكسل"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1 ميجابكسل"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"وضع البؤرة"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"تلقائي"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"بلا نهاية"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"قريب"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"تلقائي"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"الوضع البعيد"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"القالب"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"وضع الفلاش"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"وضع الفلاش"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"تلقائي"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"تشغيل"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"إيقاف"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"فلاش تلقائي"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"تشغيل الفلاش"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"إيقاف تشغيل الفلاش"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"موازنة اللون الأبيض"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"موازنة اللون الأبيض"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"تلقائي"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"ساطع"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"ضوء النهار"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"فلورسنت"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"غائم"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"تلقائي"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"ساطع"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"ضوء النهار"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"فلورسنت"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"غائم"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"وضع المشهد"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"تلقائي"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"حركة"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"ليل"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"غروب"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"حفلة"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"بدون"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"حركة"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"ليل"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"غروب"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"حفلة"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"موقت العد العكسي"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"إيقاف تشغيل الموقت"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"ثانية واحدة"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 ثوانٍ"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 ثوان"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 ثانية"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"لا يمكن تحديده في وضع المشهد."</string>
+	<!---->
+	<string name="pref_exposure_title">"التعريض الضوئي"</string>
+	<!---->
+	<string name="pref_exposure_label">"التعريض الضوئي"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"الكاميرا الأمامية"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"الكاميرا الخلفية"</string>
+	<!---->
+	<string name="dialog_ok">"موافق"</string>
+	<!---->
+	<string name="video_reach_size_limit">"تم الوصول إلى حد الحجم."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"سريع للغاية"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"جارٍ تحضير العرض البانورامي"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"تعذر حفظ بانوراما."</string>
+	<!---->
+	<string name="pano_dialog_title">"عرض بانورامي"</string>
+	<!---->
+	<string name="pano_capture_indication">"جارٍ التقاط عرض بانورامي"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"الانتظار للبانوراما السابقة"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"جارٍ الحفظ\u2026"</string>
+	<!---->
+	<string name="pano_review_rendering">"تقديم البانوراما"</string>
+	<!---->
+	<string name="tap_to_focus">"المس لتركيز البؤرة"</string>
+	<!---->
+	<string name="pref_video_effect_title">"التأثيرات"</string>
+	<!---->
+	<string name="effect_none">"بدون"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"ضغط"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"عيون كبيرة"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"فم كبير"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"فم صغير"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"أنف كبيرة"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"عيون صغيرة"</string>
+	<!---->
+	<string name="effect_backdropper_space">"In space"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"غروب"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"الفيديو الخاص بك"</string>
+	<!---->
+	<string name="bg_replacement_message">"قم بتعيين جهازك.\nقف خارج نطاق العرض للحظة."</string>
+	<!---->
+	<string name="video_snapshot_hint">"المس لالتقاط صورة أثناء التسجيل."</string>
+	<!---->
+	<string name="video_recording_started">"بدء تسجيل الفيديو."</string>
+	<!---->
+	<string name="video_recording_stopped">"توقف تسجيل الفيديو."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"يتم تعطيل لقطة الفيديو عند تشغيل التأثيرات الخاصة."</string>
+	<!---->
+	<string name="clear_effects">"مسح التأثيرات"</string>
+	<!---->
+	<string name="effect_silly_faces">"وجوه مضحكة"</string>
+	<!---->
+	<string name="effect_background">"الخلفية"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"زر المصراع"</string>
+	<!---->
+	<string name="accessibility_menu_button">"زر القائمة"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"أحدث صورة"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"مفتاح التبديل بين الأمام والخلف في الكاميرا"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"محدّد الكاميرا أو الفيديو أو البانوراما"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"مزيد من عناصر التحكم في الإعدادات"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"إغلاق عناصر التحكم في الإعدادات"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"التحكم في التكبير/التصغير"</string>
+	<!---->
+	<string name="accessibility_decrement">"خفض %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"زيادة %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"خانة اختيار %1$s"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"تبديل إلى الصورة"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"تبديل إلى الفيديو"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"التبديل إلى وضع البانوراما"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"تبديل إلى بانوراما جديدة"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"الانتقال إلى Refocus"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"إلغاء الاستعراض"</string>
+	<!---->
+	<string name="accessibility_review_ok">"تمت المراجعة"</string>
+	<!---->
+	<string name="accessibility_review_retake">"إعادة المراجعة"</string>
+	<!---->
+	<string name="accessibility_play_video">"تشغيل الفيديو"</string>
+	<!---->
+	<string name="accessibility_pause_video">"إيقاف الفيديو مؤقتًا"</string>
+	<!---->
+	<string name="accessibility_reload_video">"إعادة تحميل الفيديو"</string>
+	<!---->
+	<string name="accessibility_time_bar">"شريط الوقت لمشغل الفيديو"</string>
+	<!---->
+	<string name="capital_on">"تشغيل"</string>
+	<!---->
+	<string name="capital_off">"إيقاف"</string>
+	<!---->
+	<string name="gif_err">"يتعذر تشغيل صورة gif."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"إيقاف"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0.5 ثانية"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"ثانية واحدة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1.5 ثواني"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"ثانيتان"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2.5 ثواني"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 ثوانٍ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 ثوانٍ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 ثوانٍ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 ثوانٍ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 ثوان"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 ثانية"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 ثانية"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 ثانية"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0.5 دقيقة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"دقيقة واحدة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 دقيقة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 دقيقة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 دقيقة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 دقائق"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 دقائق"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 دقائق"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 دقائق"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 دقائق"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 دقيقة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 دقيقة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 دقيقة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0.5 ساعة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"ساعة واحدة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1.5 ساعة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"ساعتان"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 ساعة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 ساعات"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 ساعات"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 ساعات"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 ساعات"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 ساعات"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 ساعة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 ساعة"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 ساعة"</string>
+	<!---->
+	<string name="time_lapse_seconds">"ثوانٍ"</string>
+	<!---->
+	<string name="time_lapse_minutes">"دقائق"</string>
+	<!---->
+	<string name="time_lapse_hours">"ساعات"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"تم"</string>
+	<!---->
+	<string name="set_time_interval">"تعيين الفاصل الزمني"</string>
+	<!---->
+	<string name="set_time_interval_help">"ميزة تسجيل اللقطات المتتابعة قيد إيقاف التشغيل. قم بتشغيلها لتعيين الفاصل الزمني."</string>
+	<!---->
+	<string name="set_timer_help">"موقت العد العكسي قيد إيقاف التشغيل. قم بتشغيله للعد العكسي قبل التقاط صورة."</string>
+	<!---->
+	<string name="set_duration">"تعيين المدة بالثواني"</string>
+	<!---->
+	<string name="count_down_title_text">"العد العكسي لالتقاط صورة"</string>
+	<!---->
+	<string name="remember_location_title">"هل تريد تذكر مواقع الصور?"</string>
+	<!---->
+	<string name="remember_location_prompt">"حدد علامات جغرافية للمواقع التي تم بها التقاط الصور ومقاطع الفيديو.\n\nيمكن لتطبيقات أخرى الوصول إلى هذه المعلومات إضافة إلى الصور المحفوظة."</string>
+	<!---->
+	<string name="remember_location_no">"لا، شكرًا"</string>
+	<!---->
+	<string name="remember_location_yes">"نعم"</string>
+	<!---->
+	<string name="menu_camera">"الكاميرا"</string>
+	<!---->
+	<string name="menu_search">"بحث"</string>
+	<!---->
+	<string name="tab_photos">"الصور"</string>
+	<!---->
+	<string name="tab_albums">"ألبومات"</string>
+	<!---->
+	<string name="camera_menu_more_label">"خيارات أكثر"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"الإعدادات"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d صورة"</item>
+		<item quantity="other">"%1$d من الصور"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"ترجمة مصاحبة"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"عذرًا، هذا الفيديو غير صالح للبث على هذا الجهاز."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"لا يمكنك تشغيل هذا الفيديو."</string>
+	<!---->
+	<string name="VideoView_error_button">"موافق"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"هذا الفيديو غير مدعوم"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"يتعذر الاتصال. حاول إعادة الاتصال بـ %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"يتم الآن الاتصال..."</string>
+	<!---->
+	<string name="media_controller_buffering">"جاري التخزين المؤقت %d\u200f%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"لا يمكن الاتصال بالخادم"</string>
+	<!---->
+	<string name="media_controller_live">"مباشر"</string>
+	<!---->
+	<string name="media_controller_playing">"جاري التشغيل"</string>
+	<!---->
+	<string name="notify_photo_text">"وحدة التحكم في معرض الصور"</string>
+	<!---->
+	<string name="notify_video_text">"وحدة التحكم في معرض الصور"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"تم تمكين عرض الشرائح في جهاز عرض بتقنية Wi-Fi"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"تم تمكين الفيديو في جهاز عرض بتقنية Wi-Fi"</string>
+	<!---->
+	<string name="wfd_alert">"تنبيه"</string>
+	<!---->
+	<string name="wfd_change_message">"سيتم استبدال الفيديو."</string>
+	<!---->
+	<string name="wfd_change_button">"نعم"</string>
+	<!---->
+	<string name="wfd_not_change_button">"لا"</string>
+	<!---->
+	<string name="wfd_show">"جهاز عرض بتقنية Wi-Fi"</string>
+	<!---->
+	<string name="wfd_show_on">"تشغيل جهاز عرض بتقنية Wi-Fi"</string>
+	<!---->
+	<string name="wfd_show_off">"إيقاف تشغيل جهاز عرض بتقنية Wi-Fi"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"اسحب الملف للمستطيل الأصفر لمشاركة الشاشة."</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"هذا النوع غير مدعوم"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"تحذير"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"جميع الملفات المحمية ضد النسخ مخفية بسبب توصيل جهاز عرض بتقنية Wi-Fi."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"إيقاف تشغيل جهاز عرض بتقنية Wi-Fi"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"متابعة"</string>
+	<!---->
+	<string name="tv_link_close">"تم إغلاق جهاز عرض بتقنية Wi-Fi"</string>
+	<!---->
+	<string name="drm_no_valid_right">"لا يتوفر للملف تصريح DRM صالح"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">"انتهت صلاحية ملف DRM "%s". حذفه؟"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"انتهت صلاحية ملف DRM "%s". فتح قفله؟"</string>
+	<!---->
+	<string name="unlimited_usage">"استخدام غير محدود"</string>
+	<!---->
+	<string name="not_available">"غير متاح"</string>
+	<!---->
+	<string name="use_times">"استخدام %s مرة"</string>
+	<!---->
+	<string name="valid_after">"صالح بعد"</string>
+	<!---->
+	<string name="valid_until">"صالح حتى"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"انقر نقرًا مزدوجًا وقم بالتمرير للتكبير/التصغير في الكاميرا"</string>
+	<!---->
+	<string name="tips_done">"تم"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"انقر نقرًا مزدوجًا وقم بالتمرير للتكبير/التصغير في معرض الصور"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"تعرّف على التكبير/التصغير بإصبع واحد"</string>
+	<!---->
+	<string name="drm_current_right">"القيد الحالي"</string>
+	<!---->
+	<string name="right_url">"تراخيص"</string>
+	<!---->
+	<string name="vendor">"البائع:"</string>
+	<!---->
+	<string name="stop">"إيقاف"</string>
+	<!---->
+	<string name="selectRenderer">"حدد مشغل"</string>
+	<!---->
+	<string name="noRenderer">"تعذر إيجاد أي جهاز معالج"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"هل تريد إيقاف تشغيل الفيديو في التلفزيون؟"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"هل تريد إيقاف تشغيل الصور في التلفزيون؟"</string>
+	<!---->
+	<string name="play_video">"تشغيل الفيديو"</string>
+	<!---->
+	<string name="shake_video_text">"قم بهز هاتفك في صفحة الفيديو لتشغيله في التلفزيون"</string>
+	<!---->
+	<string name="shake_picture_text">"لتشغيله على التلفزيون، هز الهاتف على صفحة الصورة."</string>
+	<!---->
+	<string name="wait_dialog">"يرجى الانتظار..."</string>
+	<!---->
+	<string name="toast_nostop">"لإيقاف التشغيل على التلفزيون، حدد مشغلاً محليًا."</string>
+	<!---->
+	<string name="dlna_format_not_support">"تنسيق الملف غير مدعوم."</string>
+	<!---->
+	<string name="left_title_camera_roll">"لفة الكاميرا"</string>
+	<!---->
+	<string name="left_title_timeline">"الوقت"</string>
+	<!---->
+	<string name="left_title_albums">"ألبومات"</string>
+	<!---->
+	<string name="left_title_videos">"فيديوهات"</string>
+	<!---->
+	<string name="left_title_location">"المواقع"</string>
+	<!---->
+	<string name="drawer_open">"فتح لائحة التنقل"</string>
+	<!---->
+	<string name="drawer_close">"غلق لائحة التنقل"</string>
+	<!---->
+	<string name="photo_share">"المشاركة مع"</string>
+	<!---->
+	<string name="filtershow_save">"حفظ"</string>
+	<!---->
+	<string name="filtershow_none">"بدون"</string>
+	<!---->
+	<string name="filtershow_frame">"إطار"</string>
+	<!---->
+	<string name="drm_no_crop">"لا يُسمح باقتصاص الملف "%s" نظرًا لحمايته بموجب إدارة الحقوق الرقمية (DRM)."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"لا يُسمح بضبط الملف "%s" كرمز جهة اتصال نظرًا لحمايته بموجب إدارة الحقوق الرقمية (DRM)."</string>
+	<!---->
+	<string name="never_tip">"إظهار التلميحات عند بدء التشغيل"</string>
+	<!---->
+	<string name="three_finger_tips0">"ضع ثلاثة أصابع على الشاشة."</string>
+	<!---->
+	<string name="three_finger_tips1">"اسحب الملف إلى المنطقة الصفراء."</string>
+	<!---->
+	<string name="three_finger_tips2">"عندما يصبح لون المنطقة أصفر، فهذا يعني أن المشاركة تمت بنجاح."</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"يجب ألا يتم عرض ملف DRM عبر شاشة Wi-Fi!"</string>
+	<!---->
+	<string name="filtershow_save_title">"حفظ التغييرات"</string>
+	<!---->
+	<string name="filtershow_save_message">"هل تود حفظ نسخة من الصورة الأصلية أو استبدالها؟"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"لا تسألني مرة أخرى"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"حفظ كنسخة"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"استبدال الأصل"</string>
+	<!---->
+	<string name="lock_video">"مقفل"</string>
+	<!---->
+	<string name="unlock_video">"ملغي القفل"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"انتهت صلاحية ترخيص DRM."</string>
+	<!---->
+	<string name="drm_protection_status">"حالة الحماية"</string>
+	<!---->
+	<string name="drm_can_forward">"يمكن إعادة التوجيه."</string>
+	<!---->
+	<string name="drm_can_not_forward">"لا يمكن إعادة التوجيه."</string>
+	<!---->
+	<string name="drm_no_license">"لا يتوفر ترخيص لإدارة الحقوق الرقمية (DRM)."</string>
+	<!---->
+	<string name="drm_begin">"بدء:"</string>
+	<!---->
+	<string name="drm_no_limitation">"بدون حصر."</string>
+	<!---->
+	<string name="drm_end">"إنهاء:"</string>
+	<!---->
+	<string name="drm_use_left">"العدد المتبقي:"</string>
+	<!---->
+	<string name="date_taken">"تاريخ الالتقاط"</string>
+	<!---->
+	<string name="modified_time">"وقت التعديل"</string>
+	<!---->
+	<string name="fast_forward">"تقديم سريع %ds"</string>
+	<!---->
+	<string name="fast_backward">"ترجيع سريع %ds"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"تمت إعادة الاتصال بالشبكة، هل تريد متابعة التشغيل؟"</string>
+	<!---->
+	<string name="polaroid_action_open">"فتح"</string>
+	<!---->
+	<string name="polaroid_action_save">"حفظ"</string>
+	<!---->
+	<string name="polaroid_action_send">"إرسال"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"فلنتعانق"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"جارٍ حفظ الصورة..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"محرر Polaroid"</string>
+	<!---->
+	<string name="editor_select_filtershow">"محرر (افتراضي)"</string>
+	<!---->
+	<string name="date_tag">"التاريخ"</string>
+	<!---->
+	<string name="location_tag">"الموقع"</string>
+	<!---->
+	<string name="slogan_tag">"شعار"</string>
+	<!---->
+	<string name="polaroid_no_location">"لا موقع"</string>
+	<!---->
+	<string name="save_iamge_compelete">"تم حفظ الصورة في المعرض."</string>
+	<!---->
+	<string name="save_image_error">"فشل حفظ الملف."</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"الصورة صغيرة جدًا"</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"الحد الأدنى 320 × 320 بكسل."</string>
+	<!---->
+	<string name="open_with">"فتح باستخدام"</string>
+	<!---->
+	<string name="moments_month_view">"طريقة عرض الأشهر"</string>
+	<!---->
+	<string name="moments_day_view">"طريقة عرض الأيام"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"الكل"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"صورة"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"الفيديو"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"يحتوي هذا التسلسل المتتالي على %s من الصور. هل تريد حذفها جميعًا؟"</string>
+	<!---->
+	<string name="burst_mode_save_message">"هل تريد استبدال اللقطات المتتالية أو حفظها كصور فردية؟"</string>
+	<!---->
+	<string name="burst_overwrite">"استبدال"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"حفظ كصور فردية"</string>
+	<!---->
+	<string name="burst_cancel">"إلغاء"</string>
+	<!---->
+	<string name="burst_delete">"حذف"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"المفضلة"</string>
+	<!---->
+	<string name="select">"تحديد"</string>
+	<!---->
+	<string name="getstarted">"جار بدء التشغيل"</string>
+	<!---->
+	<string name="gotit">"تم الحصول عليه"</string>
+	<!---->
+	<string name="faceshow_start">"يظل التعجب الفعلي قائمًا حتى تصل إلى مقدار معين من الصور الذاتية. ابدأ رحلتك الآن!"</string>
+	<!---->
+	<string name="faceshow_takemore">"تحتاج إلى مزيد من الصور الذاتية لإنشاء معرض الوجوه الخاص بك."</string>
+	<!---->
+	<string name="selfies">"صورة ذاتية"</string>
+	<!---->
+	<string name="parallax">"اختلاف المنظر"</string>
+	<!---->
+	<string name="trim_title">"تجاهل التغييرات؟"</string>
+	<!---->
+	<string name="trim_message">"لم يتم حفظ تغييراتك"</string>
+	<!---->
+	<string name="trim_discard">"تجاهل"</string>
+	<!---->
+	<string name="main_tab_moments">"اللحظات"</string>
+	<!---->
+	<string name="moments_show">"إظهار"</string>
+	<!---->
+	<string name="illegal_image_format">"تنسيق صورة غير قانوني، يتعذر التحرير."</string>
+	<!---->
+	<string name="exporting_video">"تصدير الفيديو"</string>
+	<!---->
+	<string name="exporting_message">"قد يستغرق هذا الأمر بضع ثوانٍ، انتظر لحظة..."</string>
+	<!---->
+	<string name="share_save_video">"جارٍ حفظ الفيديو إلى المعرض..."</string>
+	<!---->
+	<string name="share_saved">"تم حفظ الفيديو إلى المعرض"</string>
+	<!---->
+	<string name="share_save_image">"جارٍ حفظ الصورة إلى المعرض..."</string>
+	<!---->
+	<string name="share_image_saved">"تم حفظ الصورة إلى المعرض"</string>
+	<!---->
+	<string name="location_permission_toast_text">"لا توجد بيانات موقع من الكاميرا"</string>
+	<!---->
+	<string name="no_internet_contect_text">"لا يوجد اتصال إنترنت"</string>
+	<!---->
+	<string name="more">"المزيد"</string>
+	<!---->
+	<string name="moment_album_today">"هذا اليوم"</string>
+	<!---->
+	<string name="moment_album_yesterday">"أمس"</string>
+	<!---->
+	<string name="location_destination_text">"فرز الصور ومقاطع الفيديو بحسب الموقع في لحظات"</string>
+	<string-array name="month">
+		<item>"يناير"</item>
+		<item>"فبراير"</item>
+		<item>"مارس"</item>
+		<item>"أبريل"</item>
+		<item>"مايو"</item>
+		<item>"يونيو"</item>
+		<item>"يوليو"</item>
+		<item>"أغسطس"</item>
+		<item>"سبتمبر"</item>
+		<item>"أكتوبر"</item>
+		<item>"نوفمبر"</item>
+		<item>"ديسمبر"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"لفرز الصور ومقاطع الفيديو بحسب الموقع، امنح المعرض الإذن بالوصول إلى الموقع."</string>
+	<!---->
+	<string name="permission_location_settings">"الإعدادات"</string>
+	<!---->
+	<string name="boom_key_tip_1">"عرض الصور في تجميعات مذهلة ومختلفة"</string>
+	<!---->
+	<string name="boom_key_tip_2">"بدء عرض الصور بواسطة مفتاح Boom"</string>
+	<!---->
+	<string name="boom_key_tip_3">"تشغيل إظهار تجميع الصور من الألبومات"</string>
+	<!---->
+	<string name="boom_key_tip_4">"تشغيل إظهار تجميع الصور من معاينة الصور"</string>
+	<!---->
+	<string name="tx_skip">"تخطٍ"</string>
+	<!---->
+	<string name="tx_done">"تم"</string>
+	<!---->
+	<string name="boom_key">"مفتاح الجرار"</string>
+	<!---->
+	<string name="press">"الضغط"</string>
+	<!---->
+	<string name="not_support_parallax_share">"لا يمكن مشاركة تطبيق Fyuse من Moments"</string>
+	<!---->
+	<string name="permissions_hi">"مرحبًا!"</string>
+	<!---->
+	<string name="not_support_video_edit">"تنسيق الفيديو غير مدعوم."</string>
+</resources>

@@ -1,0 +1,60 @@
+<!--
+| ********** |**********************|**********************|*********************************************************|
+| 12/11/2015 |     su.jiang         |FR898084              |[Android5.1][Gallery_v5.2.3.1.0311.0][Force close]Gallery|
+|            |                      |                      |force close when save burst shot photo                   |
+| ********** |**********************|**********************|*********************************************************|
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp"
+        android:background="@android:color/black"
+        android:orientation="vertical" >
+
+        <!--//[BUGFIX]-Add by TCTNJ,su.jiang, 2015-11-12,PR898084 begin -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.tct.gallery3d.app.view.BurstShotView
+                android:id="@+id/gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false" />
+
+            <!--//[BUGFIX]-Modify by TCTNJ,su.jiang, 2016-03-09,PR1761738 begin -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/loading_layout"
+                android:gravity="center"
+                android:clickable="true"
+                android:visibility="gone">
+
+                <ProgressBar
+                    android:id="@+id/burstshot_loading"
+                    style="@android:style/Widget.Holo.ProgressBar.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:indeterminate="true"
+                    android:indeterminateOnly="true"/>
+            </RelativeLayout>
+            <!--//[BUGFIX]-Modify by TCTNJ,su.jiang, 2016-03-09,PR1761738 begin -->
+        </FrameLayout>
+        <!--//[BUGFIX]-Add by TCTNJ,su.jiang, 2015-11-12,PR898084 end -->
+
+        <com.tct.gallery3d.app.view.BurstShotView
+            android:id="@+id/thumbnailgallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+
+</RelativeLayout>

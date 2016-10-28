@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202020"
+    android:fitsSystemWindows="true" >
+
+    <ImageView
+        android:id="@+id/main_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editor_main_top_bar" />
+
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-07-08,PR1026718 Begin -->
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-07-08,PR1049341 Begin -->
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/main_top_bar"
+        android:background="@color/polaroid_main_background"
+        android:scrollbars="none" >
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-07-08,PR1049341 End -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/layout_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/polaroid_content_height"
+                android:background="@color/polaroid_background"
+                android:padding="5dp" >
+
+                <com.tct.gallery3d.polaroid.view.CropImageView
+                    android:id="@+id/cropview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="5dp" />
+
+                <com.tct.gallery3d.polaroid.view.PolaroidView
+                    android:id="@+id/polaroid"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="5dp"
+                    android:visibility="gone" />
+
+                <ProgressBar
+                    android:id="@+id/saveProgress"
+                    style="@android:style/Widget.Holo.ProgressBar.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@android:color/transparent"
+                    android:indeterminate="true"
+                    android:indeterminateOnly="true"
+                    android:visibility="gone" />
+
+                <ViewFlipper
+                    android:id="@+id/viewFlipper"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_centerInParent="true"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="50dp"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/effect_name_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|top"
+                        android:text="View 1"
+                        android:textColor="#4d3e3e"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/effect_name_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|top"
+                        android:text="View 2"
+                        android:textColor="#4d3e3e"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </ViewFlipper>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/toolbar"
+                android:layout_width="fill_parent"
+                android:layout_height="54dp"
+                android:background="@color/polaroid_toolbar_color"
+                android:orientation="horizontal"
+                android:padding="0dp" >
+
+                <ImageButton
+                    android:id="@+id/filters_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/polaroid_toolbar_filters_bg" />
+
+                <ImageButton
+                    android:id="@+id/frames_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/polaroid_toolbar_frames_bg" />
+
+                <ImageButton
+                    android:id="@+id/font_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/polaroid_toolbar_fonts_bg" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/toolbar_options"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/polaroid_toolbox_option_height"
+                android:layout_margin="0dp"
+                android:background="@color/polaroid_toolbar_color"
+                android:elevation="10dp"
+                android:padding="0dp" >
+
+                <HorizontalScrollView
+                    android:id="@+id/filter_options"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/filter_tiles"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/polaroid_toolbar_color"
+                        android:orientation="horizontal" />
+                </HorizontalScrollView>
+
+                <HorizontalScrollView
+                    android:id="@+id/frame_options"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/frame_tiles"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/polaroid_toolbar_color"
+                        android:orientation="horizontal" />
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:id="@+id/tag_tiles"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0dp"
+                    android:background="#E5E77336"
+                    android:orientation="horizontal"
+                    android:padding="0dp" >
+
+                    <ImageButton
+                        android:id="@+id/date_tag_button"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:background="#E77336"
+                        android:contentDescription="@string/date_tag"
+                        android:focusable="true"
+                        android:src="@drawable/polaroid_assets_date_tag_off" />
+
+                    <ImageButton
+                        android:id="@+id/location_tag_button"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#E77336"
+                        android:contentDescription="@string/location_tag"
+                        android:focusable="true"
+                        android:src="@drawable/polaroid_assets_location_tag_off" />
+
+                    <ImageButton
+                        android:id="@+id/slogan_tag_button"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:layout_weight="1"
+                        android:background="#E77336"
+                        android:contentDescription="@string/slogan_tag"
+                        android:focusable="true"
+                        android:src="@drawable/polaroid_assets_slogan_tag_off" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-07-08,PR1026718 End -->
+
+</RelativeLayout>

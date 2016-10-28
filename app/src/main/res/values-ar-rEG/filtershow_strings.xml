@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"محرر الصور"</string>
+	<!---->
+	<string name="cannot_load_image">"تعذر تحميل الصورة"</string>
+	<!---->
+	<string name="cannot_edit_original">"لا يمكن تحرير النسخة الأصلية"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"تعيين خلفية الشاشة"</string>
+	<!---->
+	<string name="download_failure">"تعذر تنزيل الصورة. الشبكة غير متاحة."</string>
+	<!---->
+	<string name="original">"أصلي"</string>
+	<!---->
+	<string name="borders">"الحدود"</string>
+	<!---->
+	<string name="custom_border">"مخصص"</string>
+	<!---->
+	<string name="filtershow_undo">"تراجع"</string>
+	<!---->
+	<string name="filtershow_redo">"إعادة"</string>
+	<!---->
+	<string name="show_imagestate_panel">"عرض الآثار المطبقة"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"إخفاء الآثار المطبقة"</string>
+	<!---->
+	<string name="export_image">"تصدير"</string>
+	<!---->
+	<string name="print_image">"طباعة"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"التحرير التلقائي"</string>
+	<!---->
+	<string name="export_flattened">"تصدير صورة مسطحة"</string>
+	<!---->
+	<string name="select_output_settings">"سيتم نسخ الصورة التي تم تصديرها دون تحرير محفوظاتها."</string>
+	<!---->
+	<string name="quality">"الجودة"</string>
+	<!---->
+	<string name="size">"الحجم"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"الإعدادات"</string>
+	<!---->
+	<string name="unsaved">"هناك تغييرات غير محفوظة في الصورة."</string>
+	<!---->
+	<string name="save_before_exit">"حفظ قبل الخروج؟"</string>
+	<!---->
+	<string name="save_and_exit">"الحفظ والخروج"</string>
+	<!---->
+	<string name="save_and_processing">"جارٍ معالجة صورة كاملة الدقة..."</string>
+	<!---->
+	<string name="exit">"خروج"</string>
+	<!---->
+	<string name="history">"المحفوظات"</string>
+	<!---->
+	<string name="reset">"إعادة ضبط"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"الآثار المطبقة"</string>
+	<!---->
+	<string name="compare_original">"مقارنة"</string>
+	<!---->
+	<string name="apply_effect">"تطبيق"</string>
+	<!---->
+	<string name="reset_effect">"إعادة ضبط"</string>
+	<!---->
+	<string name="aspect">"الواجهة"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"بدون"</string>
+	<!---->
+	<string name="aspectCustom_effect">"مخصص"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"ثابت"</string>
+	<!---->
+	<string name="tinyplanet">"كوكب صغير"</string>
+	<!---->
+	<string name="exposure">"التعريض الضوئي"</string>
+	<!---->
+	<string name="sharpness">"الوضوح"</string>
+	<!---->
+	<string name="contrast">"التباين"</string>
+	<!---->
+	<string name="vibrance">"اهتزاز"</string>
+	<!---->
+	<string name="saturation">"تشبع اللون"</string>
+	<!---->
+	<string name="bwfilter">"مرشح BW"</string>
+	<!---->
+	<string name="wbalance">"لون تلقائي"</string>
+	<!---->
+	<string name="hue">"التدرج"</string>
+	<!---->
+	<string name="shadow_recovery">"ظلال"</string>
+	<!---->
+	<string name="highlight_recovery">"لمحات"</string>
+	<!---->
+	<string name="curvesRGB">"منحنيات"</string>
+	<!---->
+	<string name="vignette">"نقوش صورة نصفية"</string>
+	<!---->
+	<string name="vignette_main">"نقوش صورة نصفية"</string>
+	<!---->
+	<string name="vignette_exposure">"التعريض الضوئي"</string>
+	<!---->
+	<string name="vignette_saturation">"تشبع اللون"</string>
+	<!---->
+	<string name="vignette_contrast">"التباين"</string>
+	<!---->
+	<string name="vignette_falloff">"Falloff"</string>
+	<!---->
+	<string name="redeye">"العين الحمراء"</string>
+	<!---->
+	<string name="imageDraw">"رسم"</string>
+	<!---->
+	<string name="straighten">"تسوية"</string>
+	<!---->
+	<string name="crop">"اقتصاص"</string>
+	<!---->
+	<string name="rotate">"تدوير"</string>
+	<!---->
+	<string name="mirror">"مرآة"</string>
+	<!---->
+	<string name="negative">"سلبي"</string>
+	<!---->
+	<string name="none">"بدون"</string>
+	<!---->
+	<string name="edge">"حواف"</string>
+	<!---->
+	<string name="kmeans">"تتالٍ"</string>
+	<!---->
+	<string name="downsample">"تقليل معدل العينات"</string>
+	<!---->
+	<string name="grad">"متخرج"</string>
+	<!---->
+	<string name="editor_grad_brightness">"السطوع"</string>
+	<!---->
+	<string name="editor_grad_contrast">"التباين"</string>
+	<!---->
+	<string name="editor_grad_saturation">"تشبع اللون"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"الرئيسي"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"أحمر"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"أصفر"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"أخضر"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"سماوي"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"أزرق"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"أرجواني"</string>
+	<!---->
+	<string name="editor_grad_style">"النمط"</string>
+	<!---->
+	<string name="editor_grad_new">"جديد"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"أحمر"</string>
+	<!---->
+	<string name="curves_channel_green">"أخضر"</string>
+	<!---->
+	<string name="curves_channel_blue">"أزرق"</string>
+	<!---->
+	<string name="draw_style">"النمط"</string>
+	<!---->
+	<string name="draw_size">"الحجم"</string>
+	<!---->
+	<string name="draw_hue">"التدرج"</string>
+	<!---->
+	<string name="draw_saturation">"تشبع اللون"</string>
+	<!---->
+	<string name="draw_value">"السطوع"</string>
+	<!---->
+	<string name="draw_color">"اللون"</string>
+	<!---->
+	<string name="draw_style_line">"خطوط"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"علامة"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"انتشار"</string>
+	<!---->
+	<string name="draw_clear">"مسح"</string>
+	<!---->
+	<string name="color_border_size">"السمك"</string>
+	<!---->
+	<string name="color_border_corner_size">"حجم الزاوية"</string>
+	<!---->
+	<string name="color_border_color">"اللون"</string>
+	<!---->
+	<string name="color_border_clear">"مسح"</string>
+	<!---->
+	<string name="color_pick_select">"اختر لونًا مخصصًا"</string>
+	<!---->
+	<string name="color_pick_title">"حدد اللون"</string>
+	<!---->
+	<string name="draw_size_title">"حدد الحجم"</string>
+	<!---->
+	<string name="draw_size_accept">"موافق"</string>
+	<!---->
+	<string name="state_panel_original">"أصلي"</string>
+	<!---->
+	<string name="state_panel_result">"النتيجة"</string>
+	<!---->
+	<string name="filtershow_notification_label">"حفظ الصورة"</string>
+	<!---->
+	<string name="filtershow_notification_message">"جارٍ المعالجة..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"حفظ العناصر الحالية المحددة سابقًا"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"إدارة عناصر المستخدم المحددة سابقًا"</string>
+	<!---->
+	<string name="filtershow_new_preset">"عناصر جديدة محددة سابقًا"</string>
+	<!---->
+	<string name="filtershow_preset_name">"اسم محدد سابقًا"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"المعلومات"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"اسم الصورة"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"حجم الصورة"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"مدرج تكراري"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"بيانات EXIF"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"محدد سابقًا"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"الإصدار"</string>
+	<!---->
+	<string name="filtershow_version_original">"أصلي"</string>
+	<!---->
+	<string name="filtershow_version_current">"حالي"</string>
+	<!---->
+	<string name="filtershow_exif_model">"الطراز"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"فتحة العدسة"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"البعد البؤري"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"سرعة ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"بُعد الموضوع"</string>
+	<!---->
+	<string name="filtershow_exif_date">"تاريخ الالتقاط"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"إيقاف البؤرة"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"مدة التعرض للضوء"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"حقوق النشر"</string>
+</resources>

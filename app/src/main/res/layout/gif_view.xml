@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+===============================================================================
+|                                                              Date:03/08/2013 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+|  This material is company confidential, cannot be reproduced in any form     |
+|  without the written permission of TCL Communication Technology Holdings     |
+|  Limited.                                                                    |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  anshu.zhou                                                       |
+|  Email  :  anshu.zhou@tcl.com                                            |
+|  Role   :  Gallery2                                                          |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     :../res/layout/gif_view.xml                                        |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+|                                                                              |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|     date   |        Author        |         Key          |     comment       |
+| ***********|**********************|**********************|****************** |
+|  08/23/2013|anshu.zhou            |FR-467310             |support gif        |
+| **************************************************************************** |
+===============================================================================
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gif_view_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+
+</LinearLayout>

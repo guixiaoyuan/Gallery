@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Theme.GalleryBase"></declare-styleable>
+
+    <declare-styleable name="CameraPreference"></declare-styleable>
+    <declare-styleable name="ListPreference">
+        <attr name="key" format="string" />
+        <attr name="defaultValue" format="string|reference" />
+        <attr name="entryValues" format="reference" />
+        <attr name="entries" format="reference" />
+        <attr name="labelList" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="IconIndicator">
+        <attr name="icons" format="reference" />
+        <attr name="modes" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="IconListPreference">
+        <!-- If a preference does not have individual icons for each entry, it can has a single icon to represent it. -->
+        <attr name="singleIcon" format="reference" />
+        <attr name="icons" />
+        <attr name="largeIcons" format="reference" />
+        <attr name="images" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="SubsamplingScaleImageView">
+        <attr name="src" format="reference" />
+        <attr name="assetName" format="string" />
+        <attr name="panEnabled" format="boolean" />
+        <attr name="zoomEnabled" format="boolean" />
+        <attr name="quickScaleEnabled" format="boolean" />
+        <attr name="tileBackgroundColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="FastScrollRecyclerView">
+        <attr name="fastScrollThumbColor" format="reference|color" />
+        <attr name="fastScrollTrackColor" format="reference|color" />
+        <attr name="fastScrollPopupBgColor" format="reference|color" />
+        <attr name="fastScrollPopupTextColor" format="reference|color" />
+        <attr name="fastScrollAutoHide" format="reference|boolean" />
+        <attr name="fastScrollAutoHideDelay" format="reference|integer" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomNavigationBehavior_Params">
+        <attr name="tabLayoutId" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="DragSelectRecyclerView">
+        <attr name="dsrv_autoScrollHotspotHeight" format="dimension" />
+        <attr name="dsrv_autoScrollEnabled" format="boolean" />
+        <attr name="dsrv_autoScrollHotspot_offsetTop" format="dimension" />
+        <attr name="dsrv_autoScrollHotspot_offsetBottom" format="dimension" />
+    </declare-styleable>
+</resources>

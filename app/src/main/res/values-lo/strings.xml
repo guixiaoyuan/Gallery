@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for gadget_title -->
+	<skip />
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!-- no translation found for movie_view_label -->
+	<skip />
+	<!-- no translation found for loading_video -->
+	<skip />
+	<!-- no translation found for loading_image -->
+	<skip />
+	<!-- no translation found for loading_account -->
+	<skip />
+	<!-- no translation found for resume_playing_title -->
+	<skip />
+	<!-- no translation found for resume_playing_message -->
+	<skip />
+	<!-- no translation found for resume_playing_resume -->
+	<skip />
+	<!-- no translation found for loading -->
+	<skip />
+	<!-- no translation found for fail_to_load -->
+	<skip />
+	<!-- no translation found for fail_trim -->
+	<skip />
+	<!-- no translation found for fail_to_load_image -->
+	<skip />
+	<!-- no translation found for no_thumbnail -->
+	<skip />
+	<!-- no translation found for resume_playing_restart -->
+	<skip />
+	<!-- no translation found for crop_save_text -->
+	<skip />
+	<!-- no translation found for ok -->
+	<skip />
+	<!-- no translation found for multiface_crop_help -->
+	<skip />
+	<!-- no translation found for saving_image -->
+	<skip />
+	<!-- no translation found for filtershow_saving_image -->
+	<skip />
+	<!-- no translation found for save_error -->
+	<skip />
+	<!-- no translation found for crop_label -->
+	<skip />
+	<!-- no translation found for trim_label -->
+	<skip />
+	<!-- no translation found for select_image -->
+	<skip />
+	<!-- no translation found for select_video -->
+	<skip />
+	<!-- no translation found for select_item -->
+	<skip />
+	<!-- no translation found for select_album -->
+	<skip />
+	<!-- no translation found for select_group -->
+	<skip />
+	<!-- no translation found for set_image -->
+	<skip />
+	<!-- no translation found for set_wallpaper -->
+	<skip />
+	<!-- no translation found for wallpaper -->
+	<skip />
+	<!-- no translation found for camera_setas_wallpaper -->
+	<skip />
+	<!---->
+	<string name="delete">"ລຶບ"</string>
+	<!---->
+	<string name="deleting">"ກຳລັງລຶບ"</string>
+	<!-- no translation found for delete_selection -->
+	<skip />
+	<!-- no translation found for confirm -->
+	<skip />
+	<!-- no translation found for cancel -->
+	<skip />
+	<!-- no translation found for share -->
+	<skip />
+	<!-- no translation found for share_panorama -->
+	<skip />
+	<!-- no translation found for share_as_photo -->
+	<skip />
+	<!-- no translation found for deleted -->
+	<skip />
+	<!-- no translation found for undo -->
+	<skip />
+	<!-- no translation found for select_all -->
+	<skip />
+	<!-- no translation found for deselect_all -->
+	<skip />
+	<!-- no translation found for slideshow -->
+	<skip />
+	<!-- no translation found for details -->
+	<skip />
+	<!-- no translation found for details_title -->
+	<skip />
+	<!-- no translation found for close -->
+	<skip />
+	<!-- no translation found for switch_to_camera -->
+	<skip />
+	<!-- no translation found for number_of_items_selected -->
+	<skip />
+	<!-- no translation found for number_of_albums_selected -->
+	<skip />
+	<!-- no translation found for number_of_groups_selected -->
+	<skip />
+	<!-- no translation found for show_on_map -->
+	<skip />
+	<!-- no translation found for rotate_left -->
+	<skip />
+	<!-- no translation found for rotate_right -->
+	<skip />
+	<!-- no translation found for no_such_item -->
+	<skip />
+	<!-- no translation found for edit -->
+	<skip />
+	<!-- no translation found for mix_video -->
+	<skip />
+	<!-- no translation found for simple_edit -->
+	<skip />
+	<!-- no translation found for process_caching_requests -->
+	<skip />
+	<!-- no translation found for caching_label -->
+	<skip />
+	<!-- no translation found for crop_action -->
+	<skip />
+	<!-- no translation found for trim_action -->
+	<skip />
+	<!-- no translation found for mute_action -->
+	<skip />
+	<!-- no translation found for set_as -->
+	<skip />
+	<!-- no translation found for video_mute_err -->
+	<skip />
+	<!-- no translation found for video_err -->
+	<skip />
+	<!-- no translation found for group_by_location -->
+	<skip />
+	<!-- no translation found for group_by_time -->
+	<skip />
+	<!-- no translation found for group_by_tags -->
+	<skip />
+	<!-- no translation found for group_by_faces -->
+	<skip />
+	<!-- no translation found for group_by_album -->
+	<skip />
+	<!-- no translation found for group_by_size -->
+	<skip />
+	<!-- no translation found for untagged -->
+	<skip />
+	<!-- no translation found for no_location -->
+	<skip />
+	<!-- no translation found for no_connectivity -->
+	<skip />
+	<!-- no translation found for sync_album_error -->
+	<skip />
+	<!-- no translation found for show_images_only -->
+	<skip />
+	<!-- no translation found for show_videos_only -->
+	<skip />
+	<!-- no translation found for show_all -->
+	<skip />
+	<!-- no translation found for appwidget_title -->
+	<skip />
+	<!-- no translation found for appwidget_empty_text -->
+	<skip />
+	<!-- no translation found for crop_saved -->
+	<skip />
+	<!-- no translation found for no_albums_alert -->
+	<skip />
+	<!-- no translation found for empty_album -->
+	<skip />
+	<!-- no translation found for picasa_posts -->
+	<skip />
+	<!-- no translation found for make_available_offline -->
+	<skip />
+	<!-- no translation found for sync_picasa_albums -->
+	<skip />
+	<!-- no translation found for done -->
+	<skip />
+	<!-- no translation found for sequence_in_set -->
+	<skip />
+	<!-- no translation found for title -->
+	<skip />
+	<!-- no translation found for description -->
+	<skip />
+	<!-- no translation found for time -->
+	<skip />
+	<!-- no translation found for location -->
+	<skip />
+	<!-- no translation found for path -->
+	<skip />
+	<!-- no translation found for width -->
+	<skip />
+	<!-- no translation found for height -->
+	<skip />
+	<!-- no translation found for orientation -->
+	<skip />
+	<!-- no translation found for duration -->
+	<skip />
+	<!-- no translation found for mimetype -->
+	<skip />
+	<!-- no translation found for file_size -->
+	<skip />
+	<!-- no translation found for maker -->
+	<skip />
+	<!-- no translation found for model -->
+	<skip />
+	<!-- no translation found for flash -->
+	<skip />
+	<!-- no translation found for aperture -->
+	<skip />
+	<!-- no translation found for focal_length -->
+	<skip />
+	<!-- no translation found for white_balance -->
+	<skip />
+	<!-- no translation found for exposure_time -->
+	<skip />
+	<!-- no translation found for iso -->
+	<skip />
+	<!-- no translation found for unit_mm -->
+	<skip />
+	<!-- no translation found for manual -->
+	<skip />
+	<!-- no translation found for auto -->
+	<skip />
+	<!-- no translation found for flash_on -->
+	<skip />
+	<!-- no translation found for flash_off -->
+	<skip />
+	<!-- no translation found for unknown -->
+	<skip />
+	<!-- no translation found for ffx_original -->
+	<skip />
+	<!-- no translation found for ffx_vintage -->
+	<skip />
+	<!-- no translation found for ffx_instant -->
+	<skip />
+	<!-- no translation found for ffx_bleach -->
+	<skip />
+	<!-- no translation found for ffx_blue_crush -->
+	<skip />
+	<!-- no translation found for ffx_bw_contrast -->
+	<skip />
+	<!-- no translation found for ffx_punch -->
+	<skip />
+	<!-- no translation found for ffx_x_process -->
+	<skip />
+	<!-- no translation found for ffx_washout -->
+	<skip />
+	<!-- no translation found for ffx_washout_color -->
+	<skip />
+	<!-- no translation found for make_albums_available_offline -->
+	<skip />
+	<!-- no translation found for try_to_set_local_album_available_offline -->
+	<skip />
+	<!-- no translation found for set_label_all_albums -->
+	<skip />
+	<!-- no translation found for set_label_local_albums -->
+	<skip />
+	<!-- no translation found for set_label_mtp_devices -->
+	<skip />
+	<!-- no translation found for set_label_picasa_albums -->
+	<skip />
+	<!-- no translation found for free_space_format -->
+	<skip />
+	<!-- no translation found for size_below -->
+	<skip />
+	<!-- no translation found for size_above -->
+	<skip />
+	<!-- no translation found for size_between -->
+	<skip />
+	<!-- no translation found for Import -->
+	<skip />
+	<!-- no translation found for import_complete -->
+	<skip />
+	<!-- no translation found for import_fail -->
+	<skip />
+	<!-- no translation found for camera_connected -->
+	<skip />
+	<!-- no translation found for camera_disconnected -->
+	<skip />
+	<!-- no translation found for click_import -->
+	<skip />
+	<!-- no translation found for widget_type_album -->
+	<skip />
+	<!-- no translation found for widget_type_shuffle -->
+	<skip />
+	<!-- no translation found for widget_type_photo -->
+	<skip />
+	<!-- no translation found for widget_type -->
+	<skip />
+	<!-- no translation found for slideshow_dream_name -->
+	<skip />
+	<!-- no translation found for albums -->
+	<skip />
+	<!-- no translation found for times -->
+	<skip />
+	<!-- no translation found for locations -->
+	<skip />
+	<!-- no translation found for people -->
+	<skip />
+	<!-- no translation found for tags -->
+	<skip />
+	<!-- no translation found for group_by -->
+	<skip />
+	<!-- no translation found for settings -->
+	<skip />
+	<!-- no translation found for add_account -->
+	<skip />
+	<!-- no translation found for folder_camera -->
+	<skip />
+	<!-- no translation found for folder_download -->
+	<skip />
+	<!-- no translation found for folder_edited_online_photos -->
+	<skip />
+	<!-- no translation found for folder_imported -->
+	<skip />
+	<!-- no translation found for folder_screenshot -->
+	<skip />
+	<!-- no translation found for help -->
+	<skip />
+	<!-- no translation found for no_external_storage_title -->
+	<skip />
+	<!-- no translation found for no_external_storage -->
+	<skip />
+	<!-- no translation found for switch_photo_filmstrip -->
+	<skip />
+	<!-- no translation found for switch_photo_grid -->
+	<skip />
+	<!-- no translation found for switch_photo_fullscreen -->
+	<skip />
+	<!-- no translation found for trimming -->
+	<skip />
+	<!-- no translation found for muting -->
+	<skip />
+	<!-- no translation found for please_wait -->
+	<skip />
+	<!-- no translation found for save_into -->
+	<skip />
+	<!-- no translation found for trim_save_into -->
+	<skip />
+	<!-- no translation found for mute_save_into -->
+	<skip />
+	<!-- no translation found for trim_too_short -->
+	<skip />
+	<!-- no translation found for mute_nosupport -->
+	<skip />
+	<!-- no translation found for pano_progress_text -->
+	<skip />
+	<!-- no translation found for save -->
+	<skip />
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!-- no translation found for ingest_scanning -->
+	<skip />
+	<!-- no translation found for ingest_number_of_items_scanned -->
+	<skip />
+	<!-- no translation found for ingest_number_of_items_selected -->
+	<skip />
+	<!-- no translation found for ingest_sorting -->
+	<skip />
+	<!-- no translation found for ingest_scanning_done -->
+	<skip />
+	<!-- no translation found for ingest_importing -->
+	<skip />
+	<!-- no translation found for ingest_empty_device -->
+	<skip />
+	<!-- no translation found for ingest_no_device -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!-- no translation found for camera_error_title -->
+	<skip />
+	<!-- no translation found for cannot_connect_camera -->
+	<skip />
+	<!-- no translation found for camera_disabled -->
+	<skip />
+	<!-- no translation found for camera_label -->
+	<skip />
+	<!-- no translation found for wait -->
+	<skip />
+	<!-- no translation found for review_cancel -->
+	<skip />
+	<!-- no translation found for review_ok -->
+	<skip />
+	<!-- no translation found for time_lapse_title -->
+	<skip />
+	<!-- no translation found for pref_camera_id_title -->
+	<skip />
+	<!-- no translation found for pref_camera_id_entry_back -->
+	<skip />
+	<!-- no translation found for pref_camera_id_entry_front -->
+	<skip />
+	<!-- no translation found for pref_camera_recordlocation_title -->
+	<skip />
+	<!-- no translation found for pref_camera_location_label -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_title -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_entry -->
+	<skip />
+	<!-- no translation found for pref_camera_timer_sound_title -->
+	<skip />
+	<!-- no translation found for setting_off -->
+	<skip />
+	<!-- no translation found for setting_on -->
+	<skip />
+	<!-- no translation found for pref_video_quality_title -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_high -->
+	<skip />
+	<!-- no translation found for pref_video_quality_entry_low -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_title -->
+	<skip />
+	<!-- no translation found for pref_camera_settings_category -->
+	<skip />
+	<!-- no translation found for pref_camcorder_settings_category -->
+	<skip />
+	<!-- no translation found for pref_camera_picturesize_title -->
+	<skip />
+	<!-- no translation found for pref_camera_picturesize_entry_13mp -->
+	<skip />
+	<!-- no translation found for pref_camera_picturesize_entry_8mp -->
+	<skip />
+	<!-- no translation found for pref_camera_picturesize_entry_5mp -->
+	<skip />
+	<!-- no translation found for pref_camera_picturesize_entry_4mp -->
+	<skip />
+	<!-- no translation found for pref_camera_picturesize_entry_3mp -->
+	<skip />
+	<!-- no translation found for pref_camera_picturesize_entry_2mp -->
+	<skip />
+	<!-- no translation found for pref_camera_picturesize_entry_2mp_wide -->
+	<skip />
+	<!-- no translation found for pref_camera_picturesize_entry_1_3mp -->
+	<skip />
+	<!-- no translation found for pref_camera_picturesize_entry_1mp -->
+	<skip />
+	<!-- no translation found for pref_camera_picturesize_entry_vga -->
+	<skip />
+	<!-- no translation found for pref_camera_picturesize_entry_qvga -->
+	<skip />
+	<!-- no translation found for pref_camera_focusmode_title -->
+	<skip />
+	<!-- no translation found for pref_camera_focusmode_entry_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_focusmode_entry_infinity -->
+	<skip />
+	<!-- no translation found for pref_camera_focusmode_entry_macro -->
+	<skip />
+	<!-- no translation found for pref_camera_focusmode_label_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_focusmode_label_infinity -->
+	<skip />
+	<!-- no translation found for pref_camera_focusmode_label_macro -->
+	<skip />
+	<!-- no translation found for pref_camera_flashmode_title -->
+	<skip />
+	<!-- no translation found for pref_camera_flashmode_label -->
+	<skip />
+	<!-- no translation found for pref_camera_flashmode_entry_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_flashmode_entry_on -->
+	<skip />
+	<!-- no translation found for pref_camera_flashmode_entry_off -->
+	<skip />
+	<!-- no translation found for pref_camera_flashmode_label_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_flashmode_label_on -->
+	<skip />
+	<!-- no translation found for pref_camera_flashmode_label_off -->
+	<skip />
+	<!-- no translation found for pref_camera_whitebalance_title -->
+	<skip />
+	<!-- no translation found for pref_camera_whitebalance_label -->
+	<skip />
+	<!-- no translation found for pref_camera_whitebalance_entry_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_whitebalance_entry_incandescent -->
+	<skip />
+	<!-- no translation found for pref_camera_whitebalance_entry_daylight -->
+	<skip />
+	<!-- no translation found for pref_camera_whitebalance_entry_fluorescent -->
+	<skip />
+	<!-- no translation found for pref_camera_whitebalance_entry_cloudy -->
+	<skip />
+	<!-- no translation found for pref_camera_whitebalance_label_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_whitebalance_label_incandescent -->
+	<skip />
+	<!-- no translation found for pref_camera_whitebalance_label_daylight -->
+	<skip />
+	<!-- no translation found for pref_camera_whitebalance_label_fluorescent -->
+	<skip />
+	<!-- no translation found for pref_camera_whitebalance_label_cloudy -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_title -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_hdr -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_action -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_night -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_sunset -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_entry_party -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_auto -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_action -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_night -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_sunset -->
+	<skip />
+	<!-- no translation found for pref_camera_scenemode_label_party -->
+	<skip />
+	<!-- no translation found for pref_camera_countdown_label -->
+	<skip />
+	<!-- no translation found for pref_camera_countdown_label_off -->
+	<skip />
+	<!-- no translation found for pref_camera_countdown_label_one -->
+	<skip />
+	<!-- no translation found for pref_camera_countdown_label_three -->
+	<skip />
+	<!-- no translation found for pref_camera_countdown_label_ten -->
+	<skip />
+	<!-- no translation found for pref_camera_countdown_label_fifteen -->
+	<skip />
+	<!-- no translation found for not_selectable_in_scene_mode -->
+	<skip />
+	<!-- no translation found for pref_exposure_title -->
+	<skip />
+	<!-- no translation found for pref_exposure_label -->
+	<skip />
+	<!-- no translation found for pref_camera_hdr_label -->
+	<skip />
+	<!-- no translation found for pref_camera_id_label_back -->
+	<skip />
+	<!-- no translation found for pref_camera_id_label_front -->
+	<skip />
+	<!-- no translation found for dialog_ok -->
+	<skip />
+	<!-- no translation found for video_reach_size_limit -->
+	<skip />
+	<!-- no translation found for pano_too_fast_prompt -->
+	<skip />
+	<!-- no translation found for pano_dialog_prepare_preview -->
+	<skip />
+	<!-- no translation found for pano_dialog_panorama_failed -->
+	<skip />
+	<!-- no translation found for pano_dialog_title -->
+	<skip />
+	<!-- no translation found for pano_capture_indication -->
+	<skip />
+	<!-- no translation found for pano_dialog_waiting_previous -->
+	<skip />
+	<!-- no translation found for pano_review_saving_indication_str -->
+	<skip />
+	<!-- no translation found for pano_review_rendering -->
+	<skip />
+	<!-- no translation found for tap_to_focus -->
+	<skip />
+	<!-- no translation found for pref_video_effect_title -->
+	<skip />
+	<!-- no translation found for effect_none -->
+	<skip />
+	<!-- no translation found for effect_goofy_face_squeeze -->
+	<skip />
+	<!-- no translation found for effect_goofy_face_big_eyes -->
+	<skip />
+	<!-- no translation found for effect_goofy_face_big_mouth -->
+	<skip />
+	<!-- no translation found for effect_goofy_face_small_mouth -->
+	<skip />
+	<!-- no translation found for effect_goofy_face_big_nose -->
+	<skip />
+	<!-- no translation found for effect_goofy_face_small_eyes -->
+	<skip />
+	<!-- no translation found for effect_backdropper_space -->
+	<skip />
+	<!-- no translation found for effect_backdropper_sunset -->
+	<skip />
+	<!-- no translation found for effect_backdropper_gallery -->
+	<skip />
+	<!-- no translation found for bg_replacement_message -->
+	<skip />
+	<!-- no translation found for video_snapshot_hint -->
+	<skip />
+	<!-- no translation found for video_recording_started -->
+	<skip />
+	<!-- no translation found for video_recording_stopped -->
+	<skip />
+	<!-- no translation found for disable_video_snapshot_hint -->
+	<skip />
+	<!-- no translation found for clear_effects -->
+	<skip />
+	<!-- no translation found for effect_silly_faces -->
+	<skip />
+	<!-- no translation found for effect_background -->
+	<skip />
+	<!-- no translation found for accessibility_shutter_button -->
+	<skip />
+	<!-- no translation found for accessibility_menu_button -->
+	<skip />
+	<!-- no translation found for accessibility_review_thumbnail -->
+	<skip />
+	<!-- no translation found for accessibility_camera_picker -->
+	<skip />
+	<!-- no translation found for accessibility_mode_picker -->
+	<skip />
+	<!-- no translation found for accessibility_second_level_indicators -->
+	<skip />
+	<!-- no translation found for accessibility_back_to_first_level -->
+	<skip />
+	<!-- no translation found for accessibility_zoom_control -->
+	<skip />
+	<!-- no translation found for accessibility_decrement -->
+	<skip />
+	<!-- no translation found for accessibility_increment -->
+	<skip />
+	<!-- no translation found for accessibility_check_box -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_camera -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_video -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_panorama -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_new_panorama -->
+	<skip />
+	<!-- no translation found for accessibility_switch_to_refocus -->
+	<skip />
+	<!-- no translation found for accessibility_review_cancel -->
+	<skip />
+	<!-- no translation found for accessibility_review_ok -->
+	<skip />
+	<!-- no translation found for accessibility_review_retake -->
+	<skip />
+	<!-- no translation found for accessibility_play_video -->
+	<skip />
+	<!-- no translation found for accessibility_pause_video -->
+	<skip />
+	<!-- no translation found for accessibility_reload_video -->
+	<skip />
+	<!-- no translation found for accessibility_time_bar -->
+	<skip />
+	<!-- no translation found for capital_on -->
+	<skip />
+	<!-- no translation found for capital_off -->
+	<skip />
+	<!-- no translation found for gif_err -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_off -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_500 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_1000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_1500 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_2000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_2500 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_3000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_4000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_5000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_6000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_10000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_12000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_15000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_24000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_30000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_60000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_90000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_120000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_150000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_180000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_240000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_300000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_360000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_600000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_720000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_900000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_1440000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_1800000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_3600000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_5400000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_7200000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_9000000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_10800000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_14400000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_18000000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_21600000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_36000000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_43200000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_54000000 -->
+	<skip />
+	<!-- no translation found for pref_video_time_lapse_frame_interval_86400000 -->
+	<skip />
+	<!-- no translation found for time_lapse_seconds -->
+	<skip />
+	<!-- no translation found for time_lapse_minutes -->
+	<skip />
+	<!-- no translation found for time_lapse_hours -->
+	<skip />
+	<!-- no translation found for time_lapse_interval_set -->
+	<skip />
+	<!-- no translation found for set_time_interval -->
+	<skip />
+	<!-- no translation found for set_time_interval_help -->
+	<skip />
+	<!-- no translation found for set_timer_help -->
+	<skip />
+	<!-- no translation found for set_duration -->
+	<skip />
+	<!-- no translation found for count_down_title_text -->
+	<skip />
+	<!-- no translation found for remember_location_title -->
+	<skip />
+	<!-- no translation found for remember_location_prompt -->
+	<skip />
+	<!-- no translation found for remember_location_no -->
+	<skip />
+	<!-- no translation found for remember_location_yes -->
+	<skip />
+	<!-- no translation found for menu_camera -->
+	<skip />
+	<!-- no translation found for menu_search -->
+	<skip />
+	<!-- no translation found for tab_photos -->
+	<skip />
+	<!-- no translation found for tab_albums -->
+	<skip />
+	<!-- no translation found for camera_menu_more_label -->
+	<skip />
+	<!-- no translation found for camera_menu_settings_label -->
+	<skip />
+	<!-- no translation found for number_of_photos -->
+	<skip />
+	<!-- no translation found for subtitle -->
+	<skip />
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"ວິດີໂອນີ້ບໍ່ຖືກຕ້ອງສຳລັບການສະແດງໃນອຸປະກອນນີ້."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"ບໍ່ສາມາດຫຼິ້ນວິດີໂອນີ້ໄດ້."</string>
+	<!-- no translation found for VideoView_error_button -->
+	<skip />
+	<!-- no translation found for videoView_info_text_video_not_supported -->
+	<skip />
+	<!-- no translation found for videoView_error_text_cannot_connect_retry -->
+	<skip />
+	<!-- no translation found for media_controller_connecting -->
+	<skip />
+	<!-- no translation found for media_controller_buffering -->
+	<skip />
+	<!-- no translation found for VideoView_error_text_cannot_connect_to_server -->
+	<skip />
+	<!-- no translation found for media_controller_live -->
+	<skip />
+	<!-- no translation found for media_controller_playing -->
+	<skip />
+	<!-- no translation found for notify_photo_text -->
+	<skip />
+	<!-- no translation found for notify_video_text -->
+	<skip />
+	<!-- no translation found for notify_ticker_forwfd_photo -->
+	<skip />
+	<!-- no translation found for notify_ticker_forwfd_video -->
+	<skip />
+	<!-- no translation found for wfd_alert -->
+	<skip />
+	<!-- no translation found for wfd_change_message -->
+	<skip />
+	<!-- no translation found for wfd_change_button -->
+	<skip />
+	<!-- no translation found for wfd_not_change_button -->
+	<skip />
+	<!-- no translation found for wfd_show -->
+	<skip />
+	<!-- no translation found for wfd_show_on -->
+	<skip />
+	<!-- no translation found for wfd_show_off -->
+	<skip />
+	<!-- no translation found for wifi_gesture_tip -->
+	<skip />
+	<!-- no translation found for popupvideo_notsupport_message -->
+	<skip />
+	<!-- no translation found for drm_wifidisplay_title -->
+	<skip />
+	<!-- no translation found for drm_wifidisplay_message -->
+	<skip />
+	<!-- no translation found for drm_wifidisplay_cancel -->
+	<skip />
+	<!-- no translation found for drm_wifidisplay_continue -->
+	<skip />
+	<!-- no translation found for tv_link_close -->
+	<skip />
+	<!-- no translation found for drm_no_valid_right -->
+	<skip />
+	<!-- no translation found for drm_delete_invalid_content -->
+	<skip />
+	<!-- no translation found for drm_unlock_invalid_content -->
+	<skip />
+	<!-- no translation found for unlimited_usage -->
+	<skip />
+	<!---->
+	<string name="not_available">"ບໍ່ສາມາດໄຊ້ໄດ້"</string>
+	<!-- no translation found for use_times -->
+	<skip />
+	<!-- no translation found for valid_after -->
+	<skip />
+	<!-- no translation found for valid_until -->
+	<skip />
+	<!-- no translation found for onef_inger_zoomer_tips_camera -->
+	<skip />
+	<!---->
+	<string name="tips_done">"ສໍາເລັດ"</string>
+	<!-- no translation found for onef_inger_zoomer_tips -->
+	<skip />
+	<!-- no translation found for onef_inger_zoomer_tips_title -->
+	<skip />
+	<!-- no translation found for drm_current_right -->
+	<skip />
+	<!-- no translation found for right_url -->
+	<skip />
+	<!-- no translation found for vendor -->
+	<skip />
+	<!---->
+	<string name="stop">"ຢຸດ"</string>
+	<!-- no translation found for selectRenderer -->
+	<skip />
+	<!-- no translation found for noRenderer -->
+	<skip />
+	<!-- no translation found for stop_playing_video_on_tv -->
+	<skip />
+	<!-- no translation found for stop_playing_picture_on_tv -->
+	<skip />
+	<!-- no translation found for play_video -->
+	<skip />
+	<!-- no translation found for shake_video_text -->
+	<skip />
+	<!-- no translation found for shake_picture_text -->
+	<skip />
+	<!---->
+	<string name="wait_dialog">"ກະລຸນາລໍ..."</string>
+	<!-- no translation found for toast_nostop -->
+	<skip />
+	<!-- no translation found for dlna_format_not_support -->
+	<skip />
+	<!-- no translation found for left_title_camera_roll -->
+	<skip />
+	<!-- no translation found for left_title_timeline -->
+	<skip />
+	<!-- no translation found for left_title_albums -->
+	<skip />
+	<!-- no translation found for left_title_videos -->
+	<skip />
+	<!-- no translation found for left_title_location -->
+	<skip />
+	<!-- no translation found for drawer_open -->
+	<skip />
+	<!-- no translation found for drawer_close -->
+	<skip />
+	<!-- no translation found for photo_share -->
+	<skip />
+	<!-- no translation found for filtershow_save -->
+	<skip />
+	<!---->
+	<string name="filtershow_none">"ບໍ່ມີ"</string>
+	<!-- no translation found for filtershow_frame -->
+	<skip />
+	<!-- no translation found for drm_no_crop -->
+	<skip />
+	<!-- no translation found for drm_no_contact_icon -->
+	<skip />
+	<!-- no translation found for never_tip -->
+	<skip />
+	<!-- no translation found for three_finger_tips0 -->
+	<skip />
+	<!-- no translation found for three_finger_tips1 -->
+	<skip />
+	<!-- no translation found for three_finger_tips2 -->
+	<skip />
+	<!-- no translation found for drm_not_support_wifidisplay -->
+	<skip />
+	<!-- no translation found for filtershow_save_title -->
+	<skip />
+	<!-- no translation found for filtershow_save_message -->
+	<skip />
+	<!-- no translation found for filtershow_save_no_ask -->
+	<skip />
+	<!-- no translation found for filtershow_save_button_copy -->
+	<skip />
+	<!-- no translation found for filtershow_save_button_overwrite -->
+	<skip />
+	<!-- no translation found for lock_video -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!-- no translation found for drm_toast_license_expired -->
+	<skip />
+	<!-- no translation found for drm_protection_status -->
+	<skip />
+	<!-- no translation found for drm_can_forward -->
+	<skip />
+	<!-- no translation found for drm_can_not_forward -->
+	<skip />
+	<!-- no translation found for drm_no_license -->
+	<skip />
+	<!-- no translation found for drm_begin -->
+	<skip />
+	<!-- no translation found for drm_no_limitation -->
+	<skip />
+	<!-- no translation found for drm_end -->
+	<skip />
+	<!-- no translation found for drm_use_left -->
+	<skip />
+	<!-- no translation found for date_taken -->
+	<skip />
+	<!-- no translation found for modified_time -->
+	<skip />
+	<!-- no translation found for fast_forward -->
+	<skip />
+	<!-- no translation found for fast_backward -->
+	<skip />
+	<!-- no translation found for network_reconnected_when_playing -->
+	<skip />
+	<!-- no translation found for polaroid_action_open -->
+	<skip />
+	<!-- no translation found for polaroid_action_save -->
+	<skip />
+	<!-- no translation found for polaroid_action_send -->
+	<skip />
+	<!-- no translation found for polaroid_default_slogan -->
+	<skip />
+	<!-- no translation found for polaroid_saving_picture -->
+	<skip />
+	<!-- no translation found for editor_select_polaroid -->
+	<skip />
+	<!-- no translation found for editor_select_filtershow -->
+	<skip />
+	<!-- no translation found for date_tag -->
+	<skip />
+	<!-- no translation found for location_tag -->
+	<skip />
+	<!-- no translation found for slogan_tag -->
+	<skip />
+	<!-- no translation found for polaroid_no_location -->
+	<skip />
+	<!-- no translation found for save_iamge_compelete -->
+	<skip />
+	<!-- no translation found for save_image_error -->
+	<skip />
+	<!-- no translation found for dialog_min_image_save_title -->
+	<skip />
+	<!-- no translation found for dialog_min_image_save_message -->
+	<skip />
+	<!-- no translation found for open_with -->
+	<skip />
+	<!-- no translation found for moments_month_view -->
+	<skip />
+	<!-- no translation found for moments_day_view -->
+	<skip />
+	<!-- no translation found for actionbar_menu_text_all -->
+	<skip />
+	<!-- no translation found for actionbar_menu_text_photo -->
+	<skip />
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!-- no translation found for actionbar_menu_text_video -->
+	<skip />
+	<!-- no translation found for actionbar_menu_text_fyuse -->
+	<skip />
+	<!-- no translation found for burst_mode_delete_message -->
+	<skip />
+	<!-- no translation found for burst_mode_save_message -->
+	<skip />
+	<!---->
+	<string name="burst_overwrite">"ຂຽນທັບ"</string>
+	<!-- no translation found for burst_save_as_individual_images -->
+	<skip />
+	<!-- no translation found for burst_cancel -->
+	<skip />
+	<!-- no translation found for burst_delete -->
+	<skip />
+	<!-- no translation found for face_show -->
+	<skip />
+	<!-- no translation found for favorite -->
+	<skip />
+	<!-- no translation found for select -->
+	<skip />
+	<!-- no translation found for getstarted -->
+	<skip />
+	<!-- no translation found for gotit -->
+	<skip />
+	<!-- no translation found for faceshow_start -->
+	<skip />
+	<!-- no translation found for faceshow_takemore -->
+	<skip />
+	<!-- no translation found for selfies -->
+	<skip />
+	<!-- no translation found for parallax -->
+	<skip />
+	<!-- no translation found for trim_title -->
+	<skip />
+	<!-- no translation found for trim_message -->
+	<skip />
+	<!-- no translation found for trim_discard -->
+	<skip />
+	<!-- no translation found for main_tab_moments -->
+	<skip />
+	<!-- no translation found for moments_show -->
+	<skip />
+	<!-- no translation found for illegal_image_format -->
+	<skip />
+	<!-- no translation found for exporting_video -->
+	<skip />
+	<!-- no translation found for exporting_message -->
+	<skip />
+	<!-- no translation found for share_save_video -->
+	<skip />
+	<!-- no translation found for share_saved -->
+	<skip />
+	<!-- no translation found for share_save_image -->
+	<skip />
+	<!-- no translation found for share_image_saved -->
+	<skip />
+	<!-- no translation found for location_permission_toast_text -->
+	<skip />
+	<!-- no translation found for no_internet_contect_text -->
+	<skip />
+	<!-- no translation found for more -->
+	<skip />
+	<!-- no translation found for moment_album_today -->
+	<skip />
+	<!-- no translation found for moment_album_yesterday -->
+	<skip />
+	<!-- no translation found for location_destination_text -->
+	<skip />
+	<string-array name="month">
+		<!--inherit from default language-->
+		<item>"January"</item>
+		<!--inherit from default language-->
+		<item>"February"</item>
+		<!--inherit from default language-->
+		<item>"March"</item>
+		<!--inherit from default language-->
+		<item>"April"</item>
+		<!--inherit from default language-->
+		<item>"May"</item>
+		<!--inherit from default language-->
+		<item>"June"</item>
+		<!--inherit from default language-->
+		<item>"July"</item>
+		<!--inherit from default language-->
+		<item>"August"</item>
+		<!--inherit from default language-->
+		<item>"September"</item>
+		<!--inherit from default language-->
+		<item>"October"</item>
+		<!--inherit from default language-->
+		<item>"November"</item>
+		<!--inherit from default language-->
+		<item>"December"</item>
+	</string-array>
+	<!-- no translation found for permission_location_text -->
+	<skip />
+	<!-- no translation found for permission_location_settings -->
+	<skip />
+	<!-- no translation found for boom_key_tip_1 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_2 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_3 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_4 -->
+	<skip />
+	<!-- no translation found for tx_skip -->
+	<skip />
+	<!-- no translation found for tx_done -->
+	<skip />
+	<!-- no translation found for boom_key -->
+	<skip />
+	<!-- no translation found for press -->
+	<skip />
+	<!-- no translation found for not_support_parallax_share -->
+	<skip />
+	<!-- no translation found for permissions_hi -->
+	<skip />
+	<!-- no translation found for not_support_video_edit -->
+	<skip />
+</resources>

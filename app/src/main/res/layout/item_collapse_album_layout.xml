@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/album_margin"
+                android:background="@color/albumset_background"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="1dp">
+
+            <com.tct.gallery3d.app.view.AlbumView
+                android:id="@+id/collapse_album_cover_first"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingEnd="1dp"
+                android:scaleType="centerCrop"/>
+
+            <com.tct.gallery3d.app.view.AlbumView
+                android:id="@+id/collapse_album_cover_second"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <com.tct.gallery3d.app.view.AlbumView
+                android:id="@+id/collapse_album_cover_third"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingEnd="1dp"
+                android:scaleType="centerCrop"/>
+
+            <com.tct.gallery3d.app.view.AlbumView
+                android:id="@+id/collapse_album_cover_forth"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/album_background"
+        android:minHeight="@dimen/album_shadow_size"></RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/albumset_padding_bottom">
+
+        <ImageView
+            android:id="@+id/collapse_album_type"
+            android:layout_width="@dimen/album_type_size"
+            android:layout_height="@dimen/album_type_size"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/album_type_margin"
+            android:layout_marginStart="@dimen/album_type_margin"
+            android:contentDescription="@string/album_type"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_folder"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/album_text_margin"
+            android:layout_marginEnd="@dimen/album_text_margin"
+            android:layout_marginStart="@dimen/album_text_margin_start"
+            android:layout_toEndOf="@+id/collapse_album_type"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/collapse_album_item_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="sans-serif"
+                android:gravity="bottom"
+                android:text="@string/default_album_count"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/collapse_album_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/collapse_album_item_count"
+                android:layout_marginBottom="1dp"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="bottom"
+                android:lines="2"
+                android:text="@string/collapse_albums"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

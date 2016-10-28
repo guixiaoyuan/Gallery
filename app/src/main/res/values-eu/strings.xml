@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Galeria"</string>
+	<!---->
+	<string name="gadget_title">"Argazkiaren markoa"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"Bideo-erreproduzigailua"</string>
+	<!---->
+	<string name="loading_video">"Bideoa kargatzen\u2026"</string>
+	<!---->
+	<string name="loading_image">"Irudia kargatzen\u2026"</string>
+	<!---->
+	<string name="loading_account">"Kontua kargatzen\u2026"</string>
+	<!---->
+	<string name="resume_playing_title">"Berrekin bideoari"</string>
+	<!---->
+	<string name="resume_playing_message">"%s erreproduzitzen jarraitu?"</string>
+	<!---->
+	<string name="resume_playing_resume">"Berrekin"</string>
+	<!---->
+	<string name="loading">"Kargatzen\u2026"</string>
+	<!---->
+	<string name="fail_to_load">"Ezin izan da kargatu"</string>
+	<!---->
+	<string name="fail_trim">"Ezin da bideo-fitxategia moztu."</string>
+	<!---->
+	<string name="fail_to_load_image">"Ezin da irudia kargatu"</string>
+	<!---->
+	<string name="no_thumbnail">"Ez dago miniaturarik"</string>
+	<!---->
+	<string name="resume_playing_restart">"Hasi berriro"</string>
+	<!---->
+	<string name="crop_save_text">"Ados"</string>
+	<!---->
+	<string name="ok">"Ados"</string>
+	<!---->
+	<string name="multiface_crop_help">"Sakatu aurpegi bat hasteko"</string>
+	<!---->
+	<string name="saving_image">"Argazkia gordetzen\u2026"</string>
+	<!---->
+	<string name="filtershow_saving_image">"Irudia <xliff:g id="album_name">%1$s</xliff:g> albumean gordetzen\u2026"</string>
+	<!---->
+	<string name="save_error">"Ezin izan da moztutako irudia gorde."</string>
+	<!---->
+	<string name="crop_label">"Moztu argazkia"</string>
+	<!---->
+	<string name="trim_label">"Moztu bideoa"</string>
+	<!---->
+	<string name="select_image">"Hautatu argazkia"</string>
+	<!---->
+	<string name="select_video">"Hautatu bideoa"</string>
+	<!---->
+	<string name="select_item">"Hautatu elementua"</string>
+	<!---->
+	<string name="select_album">"Hautatu albuma"</string>
+	<!---->
+	<string name="select_group">"Hautatu taldea"</string>
+	<!---->
+	<string name="set_image">"Ezarri honela…"</string>
+	<!---->
+	<string name="set_wallpaper">"Ezarri horma-papera"</string>
+	<!---->
+	<string name="wallpaper">"Horma-papera ezartzen\u2026"</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"Horma-papera"</string>
+	<!---->
+	<string name="delete">"Ezabatu"</string>
+	<!---->
+	<string name="deleting">"Ezabatzen"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"Hautatutako elementua ezabatu?"</item>
+		<item quantity="other">"Hautatutako elementuak ezabatu?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"Berretsi"</string>
+	<!---->
+	<string name="cancel">"Utzi"</string>
+	<!---->
+	<string name="share">"Partekatu"</string>
+	<!---->
+	<string name="share_panorama">"Partekatu panoramika"</string>
+	<!---->
+	<string name="share_as_photo">"Partekatu argazki gisa"</string>
+	<!---->
+	<string name="deleted">"Ezabatutakoak"</string>
+	<!---->
+	<string name="undo">"DESEGIN"</string>
+	<!---->
+	<string name="select_all">"Hautatu guztiak"</string>
+	<!---->
+	<string name="deselect_all">"Desautatu guztiak"</string>
+	<!---->
+	<string name="slideshow">"Diapositiba"</string>
+	<!---->
+	<string name="details">"Xehetasunak"</string>
+	<!---->
+	<string name="details_title">"%1$d/%2$d elementu:"</string>
+	<!---->
+	<string name="close">"Itxi"</string>
+	<!---->
+	<string name="switch_to_camera">"Joan kamerara"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d hautatu da"</item>
+		<item quantity="one">"%1$d hautatu da"</item>
+		<item quantity="other">"%1$d hautatu da"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d hautatu da"</item>
+		<item quantity="one">"%1$d hautatu da"</item>
+		<item quantity="other">"%1$d hautatu da"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d hautatu da"</item>
+		<item quantity="one">"%1$d hautatu da"</item>
+		<item quantity="other">"%1$d hautatu da"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"Erakutsi mapan"</string>
+	<!---->
+	<string name="rotate_left">"Biratu ezkerrera"</string>
+	<!---->
+	<string name="rotate_right">"Biratu eskuinera"</string>
+	<!---->
+	<string name="no_such_item">"Ezin izan da elementua aurkitu."</string>
+	<!---->
+	<string name="edit">"Editatu"</string>
+	<!---->
+	<string name="mix_video">"Nahastu"</string>
+	<!---->
+	<string name="simple_edit">"Editatze sinplea"</string>
+	<!---->
+	<string name="process_caching_requests">"Cachearen eskaerak prozesatzen"</string>
+	<!---->
+	<string name="caching_label">"Cachean gordetzen\u2026"</string>
+	<!---->
+	<string name="crop_action">"Moztu"</string>
+	<!---->
+	<string name="trim_action">"Moztu"</string>
+	<!---->
+	<string name="mute_action">"Desaktibatu audioa"</string>
+	<!---->
+	<string name="set_as">"Ezarri honela:"</string>
+	<!---->
+	<string name="video_mute_err">"Ezin da bideoaren audioa desaktibatu."</string>
+	<!---->
+	<string name="video_err">"Ezin da bideoa erreproduzitu."</string>
+	<!---->
+	<string name="group_by_location">"Kokalekuaren arabera"</string>
+	<!---->
+	<string name="group_by_time">"Orduaren arabera"</string>
+	<!---->
+	<string name="group_by_tags">"Etiketen arabera"</string>
+	<!---->
+	<string name="group_by_faces">"Jendearen arabera"</string>
+	<!---->
+	<string name="group_by_album">"Albumaren arabera"</string>
+	<!---->
+	<string name="group_by_size">"Tamainaren arabera"</string>
+	<!---->
+	<string name="untagged">"Etiketatu gabeak"</string>
+	<!---->
+	<string name="no_location">"Ez dago kokalekurik"</string>
+	<!---->
+	<string name="no_connectivity">"Ezin izan dira zenbait kokaleku identifikatu sareko arazoak direla-eta."</string>
+	<!---->
+	<string name="sync_album_error">"Ezin izan dira albumeko argazkiak deskargatu. Saiatu berriro geroago."</string>
+	<!---->
+	<string name="show_images_only">"Irudiak soilik"</string>
+	<!---->
+	<string name="show_videos_only">"Videos only"</string>
+	<!---->
+	<string name="show_all">"Irudiak eta bideoak"</string>
+	<!---->
+	<string name="appwidget_title">"Argazki-galeria"</string>
+	<!---->
+	<string name="appwidget_empty_text">"No photos."</string>
+	<!---->
+	<string name="crop_saved">"Moztutako irudiak <xliff:g id="folder_name">%s</xliff:g> atalean gorde dira."</string>
+	<!---->
+	<string name="no_albums_alert">"Ez dago albumik erabilgarri"</string>
+	<!---->
+	<string name="empty_album">"Ez dago irudirik edo bideorik erabilgarri"</string>
+	<!---->
+	<string name="picasa_posts">"Mezuak"</string>
+	<!---->
+	<string name="make_available_offline">"Jarri erabilgarri lineaz kanpo"</string>
+	<!---->
+	<string name="sync_picasa_albums">"Freskatu"</string>
+	<!---->
+	<string name="done">"Eginda"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d/%2$d elementu:"</string>
+	<!---->
+	<string name="title">"Izenburua"</string>
+	<!---->
+	<string name="description">"Azalpena"</string>
+	<!---->
+	<string name="time">"Ordua"</string>
+	<!---->
+	<string name="location">"Kokalekua"</string>
+	<!---->
+	<string name="path">"Bide-izena"</string>
+	<!---->
+	<string name="width">"Zabalera"</string>
+	<!---->
+	<string name="height">"Altuera"</string>
+	<!---->
+	<string name="orientation">"Orientazioa"</string>
+	<!---->
+	<string name="duration">"Iraupena"</string>
+	<!---->
+	<string name="mimetype">"MIME mota"</string>
+	<!---->
+	<string name="file_size">"Fitxategiaren tamaina"</string>
+	<!---->
+	<string name="maker">"Egilea"</string>
+	<!---->
+	<string name="model">"Modeloa"</string>
+	<!---->
+	<string name="flash">"Flasha"</string>
+	<!---->
+	<string name="aperture">"Irekidura"</string>
+	<!---->
+	<string name="focal_length">"Luzera fokala"</string>
+	<!---->
+	<string name="white_balance">"Zurien balantzea"</string>
+	<!---->
+	<string name="exposure_time">"Esposizio-denbora"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"mm"</string>
+	<!---->
+	<string name="manual">"Eskuz"</string>
+	<!---->
+	<string name="auto">"Auto."</string>
+	<!---->
+	<string name="flash_on">"Flasha erabili da"</string>
+	<!---->
+	<string name="flash_off">"Flashik ez"</string>
+	<!---->
+	<string name="unknown">"Ezezaguna"</string>
+	<!---->
+	<string name="ffx_original">"Jatorrizkoa"</string>
+	<!---->
+	<string name="ffx_vintage">"Vintage-a"</string>
+	<!---->
+	<string name="ffx_instant">"Istantekoa"</string>
+	<!---->
+	<string name="ffx_bleach">"Zuritu"</string>
+	<!---->
+	<string name="ffx_blue_crush">"Urdina"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"Zuri-beltza"</string>
+	<!---->
+	<string name="ffx_punch">"Pontxea"</string>
+	<!---->
+	<string name="ffx_x_process">"Prozesatze gurutzatua"</string>
+	<!---->
+	<string name="ffx_washout">"Kafea"</string>
+	<!---->
+	<string name="ffx_washout_color">"Litografia"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"Albuma lineaz kanpo erabilgarri jartzen."</item>
+		<item quantity="other">"Albumak lineaz kanpo erabilgarri jartzen."</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Elementu hau tokian dago gordeta eta lineaz kanpo dago erabilgarri."</string>
+	<!---->
+	<string name="set_label_all_albums">"Album guztiak"</string>
+	<!---->
+	<string name="set_label_local_albums">"Tokiko albumak"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"MTP gailuak"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Picasa albumak"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="bytes">%s</xliff:g> doan"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="size">%1$s</xliff:g> edo gutxiago"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="size">%1$s</xliff:g> edo gehiago"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="min_size">%1$s</xliff:g> - <xliff:g id="max_size">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"Inportatu"</string>
+	<!---->
+	<string name="import_complete">"Inportazioa osatu da"</string>
+	<!---->
+	<string name="import_fail">"Inportazioak huts egin du"</string>
+	<!---->
+	<string name="camera_connected">"Kamera konektatu da."</string>
+	<!---->
+	<string name="camera_disconnected">"Kamera deskonektatu da."</string>
+	<!---->
+	<string name="click_import">"Sakatu hau inportatzeko"</string>
+	<!---->
+	<string name="widget_type_album">"Aukeratu albuma"</string>
+	<!---->
+	<string name="widget_type_shuffle">"Erakutsi ausaz irudi guztiak"</string>
+	<!---->
+	<string name="widget_type_photo">"Aukeratu irudia"</string>
+	<!---->
+	<string name="widget_type">"Aukeratu irudiak"</string>
+	<!---->
+	<string name="slideshow_dream_name">"Diapositiba"</string>
+	<!---->
+	<string name="albums">"Albumak"</string>
+	<!---->
+	<string name="times">"Orduak"</string>
+	<!---->
+	<string name="locations">"Kokalekuak"</string>
+	<!---->
+	<string name="people">"Jendea"</string>
+	<!---->
+	<string name="tags">"Etiketak"</string>
+	<!---->
+	<string name="group_by">"Elkartu honela:"</string>
+	<!---->
+	<string name="settings">"Ezarpenak"</string>
+	<!---->
+	<string name="add_account">"Gehitu kontua"</string>
+	<!---->
+	<string name="folder_camera">"Kamera"</string>
+	<!---->
+	<string name="folder_download">"Deskargak"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"Interneteko argazkiak editatu dira"</string>
+	<!---->
+	<string name="folder_imported">"Inportatuak"</string>
+	<!---->
+	<string name="folder_screenshot">"Pantaila-argazkia"</string>
+	<!---->
+	<string name="help">"Laguntza"</string>
+	<!---->
+	<string name="no_external_storage_title">"Ez dago biltegirik"</string>
+	<!---->
+	<string name="no_external_storage">"Ez dago kanpoko memoriarik erabilgarri"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Film-banden ikuspegia"</string>
+	<!---->
+	<string name="switch_photo_grid">"Sareta-ikuspegia"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"Pantaila osoko ikuspegia"</string>
+	<!---->
+	<string name="trimming">"Mozten"</string>
+	<!---->
+	<string name="muting">"Audioa desaktibatzen"</string>
+	<!---->
+	<string name="please_wait">"Itxaron, mesedez"</string>
+	<!---->
+	<string name="save_into">"Bideoa <xliff:g id="album_name">%1$s</xliff:g> albumean gordetzen \u2026"</string>
+	<!---->
+	<string name="trim_save_into">"Moztutako fitxategia <xliff:g id="album_name">%1$s</xliff:g> albumean gordeko da"</string>
+	<!---->
+	<string name="mute_save_into">"Ezkutatutako fitxategia <xliff:g id="album_name">%1$s</xliff:g> albumean gordeko da"</string>
+	<!---->
+	<string name="trim_too_short">"Ezin da moztu: xede-bideoa laburregia da"</string>
+	<!---->
+	<string name="mute_nosupport">"Ezin da audioa desaktibatu: bideoa ez da onartzen"</string>
+	<!---->
+	<string name="pano_progress_text">"Panoramika errendatzen"</string>
+	<!---->
+	<string name="save">"GORDE"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"Edukian bilatzen..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d elementutan egin dira bilaketak"</item>
+		<item quantity="one">"%1$d elementutan egin dira bilaketak"</item>
+		<item quantity="other">"%1$d elementutan egin dira bilaketak"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"%1$d elementu hautatu dira"</item>
+		<item quantity="one">"%1$d elementu hautatu da"</item>
+		<item quantity="other">"%1$d elementu hautatu dira"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"Ordenatzen..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"Bilaketa amaitu da"</string>
+	<!---->
+	<string name="ingest_importing">"Inportatzen..."</string>
+	<!---->
+	<string name="ingest_empty_device">"Ez dago inportatzeko edukirik gailuan."</string>
+	<!---->
+	<string name="ingest_no_device">"Ez dago MTP gailurik konektatuta"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"Kameraren errorea"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Ezin da kamerara konektatu."</string>
+	<!---->
+	<string name="camera_disabled">"Kamera desgaitu da segurtasun-gidalerroak direla-eta."</string>
+	<!---->
+	<string name="camera_label">"Kamera"</string>
+	<!---->
+	<string name="wait">"Itxaron, mesedez\u2026"</string>
+	<!---->
+	<string name="review_cancel">"CANCEL"</string>
+	<!---->
+	<string name="review_ok">"Ados"</string>
+	<!---->
+	<string name="time_lapse_title">"Grabaketaren denbora-tartea"</string>
+	<!---->
+	<string name="pref_camera_id_title">"Aukeratu kamera"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Atzera"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Aurrekoa"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"Biltegia"</string>
+	<!---->
+	<string name="pref_camera_location_label">"Kokalekua"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"Kronometroa"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 segundo"</item>
+		<item quantity="other">"%d segundo"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Egin bip atzerako kontaketan"</string>
+	<!---->
+	<string name="setting_off">"Des."</string>
+	<!---->
+	<string name="setting_on">"Aktibatuta"</string>
+	<!---->
+	<string name="pref_video_quality_title">"Bideoaren kalitatea"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Handia"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Txikia"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"Denbora-tartea"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"Kameraren ezarpenak"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Bideokameraren ezarpenak"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Tamaina"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13 megapixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8 Mpx"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5 megapixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4 megapixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3 megapixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2 megapixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2 megapixel (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1,3 megapixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1 megapixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Fokatze modua"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Automatikoa"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Desaktibatuta"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Makroa"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"AUTO."</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"INFINITUA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"MAKROA"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Flash modua"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"Flash modua"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Automatikoa"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Aktibatuta"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Desaktibatuta"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"FLASH AUTOMATIKOA"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"FLASHA AKTIBATUTA"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"FLASHA DESAKTIBATUTA"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Zurien balantzea"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Zurien balantzea"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Automatikoa"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Goria"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Egun-argia"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Fluoreszentea"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Lainotua"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"AUTO."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Goria"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Egun-argia"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Fluoreszentea"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Lainotuta"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Eszena modua"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Automatikoa"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Ekintza"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Gaua"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Ilunabarra"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Festa"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"Bat ere ez"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"Ekintza"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"Gaua"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"Ilunabarra"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"Festa"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"KRONOMETROA"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"KRONOMETROA DESAKTIBATUTA"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 segundo"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 segundo"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 s"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 segundo"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Ezin da hautatu eszena moduan."</string>
+	<!---->
+	<string name="pref_exposure_title">"Esposizioa"</string>
+	<!---->
+	<string name="pref_exposure_label">"Esposizioa"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"AURREALDEKO KAMERA"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"ATZEALDEKO KAMERA"</string>
+	<!---->
+	<string name="dialog_ok">"Ados"</string>
+	<!---->
+	<string name="video_reach_size_limit">"Tamaina-mugara iritsi da."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Bizkorregi"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Panoramikoa prestatzen"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Ezin izan da irudi panoramikoa gorde."</string>
+	<!---->
+	<string name="pano_dialog_title">"Panoramikoa"</string>
+	<!---->
+	<string name="pano_capture_indication">"Panoramikoa sortzen"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Aurreko irudi panoramikoaren zain"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Gordetzen\u2026"</string>
+	<!---->
+	<string name="pano_review_rendering">"Panoramika errendatzen"</string>
+	<!---->
+	<string name="tap_to_focus">"Ukitu fokatzeko"</string>
+	<!---->
+	<string name="pref_video_effect_title">"Efektuak"</string>
+	<!---->
+	<string name="effect_none">"Bat ere ez"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Estutu"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Begi handiak"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Aho handia"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Aho txikia"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Sudur handia"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Begi txikiak"</string>
+	<!---->
+	<string name="effect_backdropper_space">"Espazioan"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Ilunabarra"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Zure bideoa"</string>
+	<!---->
+	<string name="bg_replacement_message">"Jarri gailua behera begira.\nKendu ikuspegitik une batez."</string>
+	<!---->
+	<string name="video_snapshot_hint">"Ukitu grabatu bitartean argazkiak ateratzeko."</string>
+	<!---->
+	<string name="video_recording_started">"Bideoa grabatzen hasi da."</string>
+	<!---->
+	<string name="video_recording_stopped">"Bideoa grabatzen gelditu da."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"Bideo-argazkiak desgaituta daude efektu bereziak aktibatuta daudela."</string>
+	<!---->
+	<string name="clear_effects">"Clear effects"</string>
+	<!---->
+	<string name="effect_silly_faces">"ERGEL-AURPEGIAK"</string>
+	<!---->
+	<string name="effect_background">"ATZEKO PLANOA"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"Kliskagailua"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Menua botoia"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"Azken argazkia"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"Aurreko eta atzeko kameraren kommutadorea"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"Kamera, bideo edo panoramaren hautatzailea"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"Ezarpenen kontrol gehiago"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"Itxi ezarpenaren kontrolak"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"Zoomaren kontrola"</string>
+	<!---->
+	<string name="accessibility_decrement">"Txikitu %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"Areagotu %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s kontrol-laukia"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Aldatu argazki modura"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Aldatu bideo modura"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Aldatu panoramika modura"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"Aldatu modu panoramiko berrira"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Aldatu Birfokatzeko aukerara"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"Berrikuspena utzi da"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Berrikuspena osatu da"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Berrikuspenari berrekin zaio"</string>
+	<!---->
+	<string name="accessibility_play_video">"Erreproduzitu bideoa"</string>
+	<!---->
+	<string name="accessibility_pause_video">"Pausatu bideoa"</string>
+	<!---->
+	<string name="accessibility_reload_video">"Kargatu bideoa berriro"</string>
+	<!---->
+	<string name="accessibility_time_bar">"Bideo-erreproduzigailuaren denbora-barra"</string>
+	<!---->
+	<string name="capital_on">"AKTIBATUTA"</string>
+	<!---->
+	<string name="capital_off">"DESAKTIBATUTA"</string>
+	<!---->
+	<string name="gif_err">"Ezin da gif fitxategia erreproduzitu."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Desaktibatuta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0,5 segundo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 segundo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 segundo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 segundo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 segundo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 segundo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 segundo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 segundo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 segundo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 s"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 segundo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 segundo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 segundo"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0,5 minutu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 minutu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1,5 minutu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 minutu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2,5 minutu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 minutu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 minutu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 minutu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 minutu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 minutu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 minutu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 minutu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 minutu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0,5 ordu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 ordu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1,5 ordu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 ordu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2,5 ordu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 ordu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 ordu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 ordu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 ordu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 ordu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 ordu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 ordu"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 ordu"</string>
+	<!---->
+	<string name="time_lapse_seconds">"segundo"</string>
+	<!---->
+	<string name="time_lapse_minutes">"minutu"</string>
+	<!---->
+	<string name="time_lapse_hours">"ordu"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"Eginda"</string>
+	<!---->
+	<string name="set_time_interval">"Ezarri denbora-tartea"</string>
+	<!---->
+	<string name="set_time_interval_help">"Denbora-tartearen eginbidea desaktibatuta dago. Aktiba ezazu denbora-tartea ezartzeko."</string>
+	<!---->
+	<string name="set_timer_help">"Kronometroa desaktibatuta dago. Aktiba ezazu argazkiak ateratzeko atzerako kontaketa aktiba dadin."</string>
+	<!---->
+	<string name="set_duration">"Ezarri iraupena segundotan"</string>
+	<!---->
+	<string name="count_down_title_text">"Argazkia ateratzeko atzerako kontaketa"</string>
+	<!---->
+	<string name="remember_location_title">"Argazkiaren kokapena gogoratzen al duzu?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Etiketatu argazkiak eta bideoak horiek egindako tokiarekin.\n\nBeste aplikazioek informazio hori atzi dezakete, gordetako irudiekin batera."</string>
+	<!---->
+	<string name="remember_location_no">"Ez, eskerrik asko"</string>
+	<!---->
+	<string name="remember_location_yes">"Yes"</string>
+	<!---->
+	<string name="menu_camera">"Kamera"</string>
+	<!---->
+	<string name="menu_search">"Bilatu"</string>
+	<!---->
+	<string name="tab_photos">"Argazkiak"</string>
+	<!---->
+	<string name="tab_albums">"Albumak"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Aukera gehiago"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"Ezarpenak"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d argazki"</item>
+		<item quantity="other">"%1$d argazki"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"Azpititulua"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"Bideoa ezin da gailuan erreproduzitu."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"Ezin da bideoa erreproduzitu."</string>
+	<!---->
+	<string name="VideoView_error_button">"Ados"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"Ez da bideoa onartzen"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"Ezin izan da konektatu. Saiatu %1$d konektatzen berriro..."</string>
+	<!---->
+	<string name="media_controller_connecting">"Konektatzen…"</string>
+	<!---->
+	<string name="media_controller_buffering">"Buferreratzen, %% %d…"</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"Ezin da zerbitzarira konektatu"</string>
+	<!---->
+	<string name="media_controller_live">"Zuzenean"</string>
+	<!---->
+	<string name="media_controller_playing">"Erreproduzitzen"</string>
+	<!---->
+	<string name="notify_photo_text">"Galeria-kontrolagailua"</string>
+	<!---->
+	<string name="notify_video_text">"Galeria-kontrolagailua"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"Wi-Fi pantailaren diapositiba-aurkezpena gaituta"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"Wi-Fi pantailaren bideoa gaituta"</string>
+	<!---->
+	<string name="wfd_alert">"Alerta"</string>
+	<!---->
+	<string name="wfd_change_message">"Bideoa ordeztu egingo da."</string>
+	<!---->
+	<string name="wfd_change_button">"Bai"</string>
+	<!---->
+	<string name="wfd_not_change_button">"Ez"</string>
+	<!---->
+	<string name="wfd_show">"Wi-Fi pantaila"</string>
+	<!---->
+	<string name="wfd_show_on">"Aktibatu Wi-Fi pantaila"</string>
+	<!---->
+	<string name="wfd_show_off">"Desaktibatu Wi-Fi pantaila"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"Arrastatu fitxategia laukizuzen horira pantaila partekatzeko."</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"Mota ez da onartzen"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Abisua"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Kopien aurka babestutako fitxategiak ezkutatuta daude, Wi-Fi pantaila konektatuta dagoelako."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"Desaktibatu Wi-Fi pantaila"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"Jarraitu"</string>
+	<!---->
+	<string name="tv_link_close">"Wi-Fi pantaila itxi da"</string>
+	<!---->
+	<string name="drm_no_valid_right">"Fitxategiak ez du baliozko DRM autoritaterik"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">""%s" DRM fitxategia iraungi da. Ezabatu?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">""%s" DRM fitxategia iraungi da. Desblokeatu?"</string>
+	<!---->
+	<string name="unlimited_usage">"Erabilera mugagabea"</string>
+	<!---->
+	<string name="not_available">"Ez dago erabilgarri"</string>
+	<!---->
+	<string name="use_times">"Erabili %s aldiz"</string>
+	<!---->
+	<string name="valid_after">"Balio-adiaren hasiera:"</string>
+	<!---->
+	<string name="valid_until">"Balio-adiaren amaiera:"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"Sakatu birritan eta lerratu kameran zooma erabiltzeko"</string>
+	<!---->
+	<string name="tips_done">"Eginda"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"Sakatu birritan eta lerratu Galerian zooma erabiltzeko"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"Lortu informazio gehiago zooma hatz bakarrarekin erabiltzeari buruz"</string>
+	<!---->
+	<string name="drm_current_right">"Uneko murriztapena"</string>
+	<!---->
+	<string name="right_url">"Lizentziak"</string>
+	<!---->
+	<string name="vendor">"Saltzailea:"</string>
+	<!---->
+	<string name="stop">"Gelditu"</string>
+	<!---->
+	<string name="selectRenderer">"Hautatu erreproduzigailua"</string>
+	<!---->
+	<string name="noRenderer">"Ezin da gailu errendatzailea aurkitu"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"Telebistan bideoa erreproduzitzeari utzi?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"Telebistan irudiak erreproduzitzeari utzi?"</string>
+	<!---->
+	<string name="play_video">"Erreproduzitu bideoa"</string>
+	<!---->
+	<string name="shake_video_text">"Astindu telefonoa bideoaren orrian, telebistan erreproduzitzeko"</string>
+	<!---->
+	<string name="shake_picture_text">"Telebistan erreproduzitzeko, astindu telefonoa irudien orrian."</string>
+	<!---->
+	<string name="wait_dialog">"Itxaron, mesedez…"</string>
+	<!---->
+	<string name="toast_nostop">"Telebista erreproduzitzeari uzteko, hautatu tokiko erreproduzigailu bat."</string>
+	<!---->
+	<string name="dlna_format_not_support">"Ez da fitxategi-formatua onartzen."</string>
+	<!---->
+	<string name="left_title_camera_roll">"Argazki-filma"</string>
+	<!---->
+	<string name="left_title_timeline">"Ordua"</string>
+	<!---->
+	<string name="left_title_albums">"Albumak"</string>
+	<!---->
+	<string name="left_title_videos">"Bideoak"</string>
+	<!---->
+	<string name="left_title_location">"Kokalekuak"</string>
+	<!---->
+	<string name="drawer_open">"Ireki nabigazio-menu lerrakorra"</string>
+	<!---->
+	<string name="drawer_close">"Itxi nabigazio-menu lerrakorra"</string>
+	<!---->
+	<string name="photo_share">"Partekatu hemen"</string>
+	<!---->
+	<string name="filtershow_save">"GORDE"</string>
+	<!---->
+	<string name="filtershow_none">"Bat ere ez"</string>
+	<!---->
+	<string name="filtershow_frame">"Markoa"</string>
+	<!---->
+	<string name="drm_no_crop">"%s fitxategiak ez du mozteko baimenik, fitxategia DRM bidez babestuta dagoelako."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"%s fitxategiak ez du kontaktu-ikono gisa ezartzeko baimenik, fitxategia DRM bidez babestuta dagoelako."</string>
+	<!---->
+	<string name="never_tip">"Erakutsi aholkuak abiaraztean"</string>
+	<!---->
+	<string name="three_finger_tips0">"Ezarri hiru hatz pantailan."</string>
+	<!---->
+	<string name="three_finger_tips1">"Arrastatu fitxategia eremu horira."</string>
+	<!---->
+	<string name="three_finger_tips2">"Eremua horia bada, behar bezala partekatu da."</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"DRM fitxategia ez da bistaratu behar Wi-Fi pantailan!"</string>
+	<!---->
+	<string name="filtershow_save_title">"Gorde aldaketak"</string>
+	<!---->
+	<string name="filtershow_save_message">"Kopia bat gorde edo jatorrizko irudia gainidatzi nahi duzu?"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"Ez galdetu berriro"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"GORDE KOPIA BAT"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"GAINIDATZI JATORRIZKOA"</string>
+	<!---->
+	<string name="lock_video">"Blokeatuta"</string>
+	<!---->
+	<string name="unlock_video">"Desblokeatuta"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM lizentzia iraungi egin da."</string>
+	<!---->
+	<string name="drm_protection_status">"Babesaren egoera:"</string>
+	<!---->
+	<string name="drm_can_forward">"Ezin da desbideratu."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Ezin da desbideratu."</string>
+	<!---->
+	<string name="drm_no_license">"Ez dago DRM lizentziarik erabilgarri."</string>
+	<!---->
+	<string name="drm_begin">"Hasiera:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Mugagabea."</string>
+	<!---->
+	<string name="drm_end">"Amaiera:"</string>
+	<!---->
+	<string name="drm_use_left">"Geratzen direnak"</string>
+	<!---->
+	<string name="date_taken">"Ateratze-data"</string>
+	<!---->
+	<string name="modified_time">"Aldatze-ordua"</string>
+	<!---->
+	<string name="fast_forward">"Aurreratu %ds"</string>
+	<!---->
+	<string name="fast_backward">"Atzeratu %ds"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"Berriro konektatu da sarera. Erreproduzitzen jarraitu?"</string>
+	<!---->
+	<string name="polaroid_action_open">"Ireki"</string>
+	<!---->
+	<string name="polaroid_action_save">"Gorde"</string>
+	<!---->
+	<string name="polaroid_action_send">"Bidali"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"Eman besarkada bat"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"Argazkia gordetzen..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"Polaroid editorea"</string>
+	<!---->
+	<string name="editor_select_filtershow">"Editorea (lehenetsia)"</string>
+	<!---->
+	<string name="date_tag">"Data"</string>
+	<!---->
+	<string name="location_tag">"Kokapena"</string>
+	<!---->
+	<string name="slogan_tag">"leloa"</string>
+	<!---->
+	<string name="polaroid_no_location">"Ez dago kokalekurik"</string>
+	<!---->
+	<string name="save_iamge_compelete">"Argazkia galerian gorde da."</string>
+	<!---->
+	<string name="save_image_error">"Ezin izan da fitxategia gorde."</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"Irudia txikiegia da."</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"Gutxieneko tamaina: 320 x 320 pixel."</string>
+	<!---->
+	<string name="open_with">"Ireki honekin"</string>
+	<!---->
+	<string name="moments_month_view">"Hilabete-ikuspegia"</string>
+	<!---->
+	<string name="moments_day_view">"Egun-ikuspegia"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"Guztiak"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"Argazkia"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"Bideoa"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"Segidak %s argazki ditu. Guztiak ezabatu nahi dituzu?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"Argazki-segidak gainidatzi edo banako irudi gisa gorde nahi dituzu?"</string>
+	<!---->
+	<string name="burst_overwrite">"Gainidatzi"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"Gorde banako irudi gisa"</string>
+	<!---->
+	<string name="burst_cancel">"CANCEL"</string>
+	<!---->
+	<string name="burst_delete">"EZABATU"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"gogokoa"</string>
+	<!---->
+	<string name="select">"Hautatu"</string>
+	<!---->
+	<string name="getstarted">"Eman lehen urratsak"</string>
+	<!---->
+	<string name="gotit">"Ados"</string>
+	<!---->
+	<string name="faceshow_start">"Autoargazki kopuru jakin batera iristen zarenean, oparitxo bat eskuratuko duzu. Ekin bidaiari!"</string>
+	<!---->
+	<string name="faceshow_takemore">"Autoargazki gehiago behar dituzu zeure aurpegiaren diaporama sortzeko."</string>
+	<!---->
+	<string name="selfies">"Autorretratua"</string>
+	<!---->
+	<string name="parallax">"Paralaxia"</string>
+	<!---->
+	<string name="trim_title">"Aldaketak baztertu nahi dituzu?"</string>
+	<!---->
+	<string name="trim_message">"Ez dira gorde aldaketak"</string>
+	<!---->
+	<string name="trim_discard">"Baztertu"</string>
+	<!---->
+	<string name="main_tab_moments">"Uneak"</string>
+	<!---->
+	<string name="moments_show">"Erakutsi"</string>
+	<!---->
+	<string name="illegal_image_format">"Irudi formatuak ez du balio, eta ezin da editatu."</string>
+	<!---->
+	<string name="exporting_video">"Bideoa esportatzen"</string>
+	<!---->
+	<string name="exporting_message">"Segundo batzuk behar izan daitezke, itxaron..."</string>
+	<!---->
+	<string name="share_save_video">"Bideoa Galerian gordetzen..."</string>
+	<!---->
+	<string name="share_saved">"Bideoa Galerian gorde da"</string>
+	<!---->
+	<string name="share_save_image">"Irudia Galerian gordetzen..."</string>
+	<!---->
+	<string name="share_image_saved">"Irudia Galerian gorde da"</string>
+	<!---->
+	<string name="location_permission_toast_text">"Ez da kokapen-daturik aurkitu Kamera eginbidean"</string>
+	<!---->
+	<string name="no_internet_contect_text">"Ez dago Interneteko konexiorik"</string>
+	<!---->
+	<string name="more">"Gehiago"</string>
+	<!---->
+	<string name="moment_album_today">"Gaur"</string>
+	<!---->
+	<string name="moment_album_yesterday">"atzo"</string>
+	<!---->
+	<string name="location_destination_text">"Ordenatu argazkiak eta bideoak kokapenaren arabera Uneak atalean"</string>
+	<string-array name="month">
+		<item>"Urtarrila"</item>
+		<item>"Otsaila"</item>
+		<item>"Martxoa"</item>
+		<item>"Apirila"</item>
+		<item>"Maiatza"</item>
+		<item>"Ekaina"</item>
+		<item>"Uztaila"</item>
+		<item>"Abuztua"</item>
+		<item>"Iraila"</item>
+		<item>"Urria"</item>
+		<item>"Azaroa"</item>
+		<item>"Abendua"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"Argazkiak eta bideoak kokapenaren arabera ordenatzeko, eman Galeriari Kokapena atzitzeko baimena."</string>
+	<!---->
+	<string name="permission_location_settings">"Ezarpenak"</string>
+	<!---->
+	<string name="boom_key_tip_1">"Aurkeztu argazkiak hainbat collage zoragarritan"</string>
+	<!---->
+	<string name="boom_key_tip_2">"Hasi collage-aurkezpena Boom tekla erabilita"</string>
+	<!---->
+	<string name="boom_key_tip_3">"Albumak atalean, abiarazi collage-aurkezpena"</string>
+	<!---->
+	<string name="boom_key_tip_4">"Argazkien aurrebistan, abiarazi collage-aurkezpena"</string>
+	<!---->
+	<string name="tx_skip">"Saltatu"</string>
+	<!---->
+	<string name="tx_done">"Eginda"</string>
+	<!---->
+	<string name="boom_key">"Boom tekla"</string>
+	<!---->
+	<string name="press">"Sakatu"</string>
+	<!---->
+	<string name="not_support_parallax_share">"Ezin da partekatu "Uneak" ataleko Fyuse"</string>
+	<!---->
+	<string name="permissions_hi">"KAIXO!"</string>
+	<!---->
+	<string name="not_support_video_edit">"Bideo-formatua ez da bateragarria."</string>
+</resources>

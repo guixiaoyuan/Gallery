@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 Google Inc.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--
+===============================================================================
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|     date   |        Author        |         Key          |     comment       |
+| ***********|**********************|**********************|****************** |
+| 26/01/2015 |dongliang.feng        |PR912432              |[MMS]The phone will flash |
+|            |                      |                      |back when click "Subtitle" |
+|            |                      |                      |in video playing screen |
+| ********** |**********************|**********************|*******************|
+| 03/02/2015 |jian.pan1             |PR923105              |should not support |
+|            |                      |                      |wifi_display extend mode|
+| ********** |**********************|**********************|*******************|
+| 09/19/2015 |su.jiang              |FR-730221             |[Android 5.1][Gallery_v5.2.0.1.1.0306.0]|
+|            |                      |                      |There is a lock icon on .gif files interface|
+| ***********|**********************|**********************|*******************|
+===============================================================================
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- [FEATURE]-Add-BEGIN by NJHR(chengqun.sun), 2014/11/20, FR-826631 Multi screen interaction -->
+    <item android:id="@+id/action_dlna"
+            android:enabled="true"
+            android:showAsAction="ifRoom"
+            android:icon="@drawable/ic_menu_screen_normal_holo_dark"
+            android:visible="false"/>
+    <!-- [FEATURE]-Add-END by NJHR(chengqun.sun), 2014/11/20, FR-826631 Multi screen interaction -->
+    <!-- [FEATURE]-Add-BEGIN by TCTNB(Haoli Zhang), 2014/11/7, FR-830600 TV Link -->
+           <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-02-03,PR923105 Begin -->
+<!--     <item android:id="@+id/forwfdshow"
+            android:icon="@drawable/wfd_em_off"
+            android:title="@string/wfd_show"
+            android:visible="false"
+            android:showAsAction="ifRoom"/> -->
+       <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-02-03,PR923105 End -->
+    <!-- [FEATURE]-Add-END by TCTNB(Haoli Zhang), 2014/11/7, FR-830600 TV Link -->
+<!--     <item android:id="@+id/action_share"
+            android:icon="@drawable/ic_menu_share_holo_light"
+            android:title="@string/share"
+            android:enabled="true"
+            android:actionProviderClass="android.widget.ShareActionProvider"
+            android:showAsAction="ifRoom" /> -->
+    <!-- [FEATURE]-add-BEGIN by jian.pan1, 11/05/2014, For FR824779 Video Subtitle -->
+    <!-- [FEATURE]-Add-BEGIN by TCTNB(Haoli Zhang), 2014/11/5, FR-824326 No WiFi Display Extension Mode -->
+    <!-- [FEATURE]-MOD-BEGIN by TCTNB(Haoli Zhang), 2014/11/7, FR-830600 TV Link -->
+    <!-- <item android:id="@+id/forwfdshow"
+            android:title="@string/wfd_show"
+            android:showAsAction="never"/>-->
+    <!-- [FEATURE]-MOD-END by TCTNB(Haoli Zhang), 2014/11/7, FR-830600 TV Link -->
+    <!-- [FEATURE]-Add-END by TCTNB(Haoli Zhang), 2014/11/5, FR-824326 No WiFi Display Extension Mode -->
+    <group
+        android:id="@+id/subtitle_checkable"
+        android:checkableBehavior="all">
+        <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-07-23,PR1050312 Begin -->
+<!--         <item
+            android:id="@+id/subtitle"
+            android:title="@string/subtitle"
+            android:showAsAction="never" /> -->
+<!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-07-23,PR1050312 End -->
+    </group>
+    <!-- [FEATURE]-mod-end by jian.pan1 -->
+    <!-- [BUGFIX]-Add-BEGIN by TCTNJ.hongda.zhu,03/26/2014,617210 -->
+     <!-- [BUGFIX]-Add-BEGIN by NJTS.Peng.Tian,12/28/2014,886211 -->
+    <group
+        android:id="@+id/set_as"
+        android:checkableBehavior="none"
+        android:visible="false">
+     <!-- [BUGFIX]-END-BEGIN by NJTS.Peng.Tian-->
+        <item
+            android:id="@+id/setAs"
+            android:title="@string/set_image"
+            android:showAsAction="never"
+            android:checkable="false"/>
+    </group>
+    <!-- [BUGFIX]-Add-END by TCTNJ.hongda.zhu,03/26/2014,617210 -->
+    <!--//[BUGFIX]-Modify by TCTNJ,su.jiang, 2015-09-19,PR730221 Begin -->
+    <!--//[BUGFIX]-Modify by TCTNJ,caihong.gu-nb, 2016/01/26,PR1507936 begin -->
+    <item
+        android:id="@+id/video_detail"
+        android:title="@string/details"
+        android:showAsAction="never"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/video_wifidisplay"
+        android:title="@string/wfd_show"
+        android:showAsAction="never"
+        android:visible="false"
+        />
+    <item
+        android:id="@+id/lockmode"
+        android:title="@string/lock_video"
+        android:icon="@drawable/ic_video_unlock"
+        android:showAsAction="always"
+        android:visible="false"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/video_delete"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_remove"
+        android:showAsAction="always"
+        android:checkable="false"
+        android:visible="false"
+        />
+    <!--//[BUGFIX]-Modify by TCTNJ,su.jiang, 2015-09-19,PR730221 End -->
+    <!--//[BUGFIX]-Modify by TCTNJ,caihong.gu-nb, 2016/01/26,PR1507936 end -->
+</menu>

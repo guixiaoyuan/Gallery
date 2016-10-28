@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+===============================================================================
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|     date   |        Author        |         Key          |     comment       |
+| ***********|**********************|**********************|****************** |
+| 12/10/2013 |     chengqun.sun     |FR826631              |Multi screen       |
+|            |                      |                      |interaction        |
+| ********** |**********************|**********************|*******************|
+| ***********|**********************|**********************|****************** |
+| 18/12/2013 |     qiang.ding1      |TR874021              |CTS DebugAble      |
+| ********** |**********************|**********************|*******************|
+| 17/01/2015 |     jian.pan1        |FR901946              | MMS]The screen dis
+|            |                      |                      |play abnormal when view GIF Picture|
+| ********** |**********************|**********************|*******************|
+| 19/01/2015 |     jian.pan1        |FR894293              |[Gallery]Unable to |
+|            |                      |                      | add photo Gallery widget
+| ********** |**********************|**********************|*******************|
+| 22/01/2015 |dongliang.feng        |PR908048              |[Android5.0][Gallery_v5.1.4.1.0106.0][UI] |
+|            |                      |                      |The title of 'Trim video' is wrong |
+| ********** |**********************|**********************|*******************|
+| 03/03/2015|ye.chen               |CR938507              |video full screen as default
+|********** |**********************|**********************|*******************|
+| 10/03/2015 |dongliang.feng        |PR945739              |[Android5.0][Camera_v5.1.9.0123.0] |
+|            |                      |                      |Edit with edit/photos in camera |
+| ********** |**********************|**********************|*******************|
+| 30/03/2015 |dongliang.feng        |CR962977              |add 3D Audio function to movie player |
+| ********** |**********************|**********************|*******************|
+|************|**********************|**********************|*******************/
+| 07/21/2015 |       su.jiang       |       PR1047890      |[GAPP][Gallery][Video Player]Tip unsupported|
+|            |                      |                      |format video still can play|
+|************|**********************|**********************|*******************/
+| 25/08/2015 |dongliang.feng        |PR525345              |[Android 5.1][Gallery_v5.1.13.1.0219.0][REG][Force close]Gallery pop |
+|            |                      |                      |up Force Close when opening it by recent key after rotating MS screen |
+| ********** |**********************|**********************|*******************|
+| 23/09/2015 |dongliang.feng        |FR1092180             |<13289Track><40.9><CDR-SEC-1320>Device wipe accounts for removable storage |
+| ********** |**********************|**********************|*******************|
+|************|**********************|**********************|*******************|
+| 10/26/2015 |       su.jiang       |       FR-788215      |open a  share interface for Muvee*|
+|************|**********************|**********************|*******************|
+| 12/15/2015 |dongliang.feng        |ALM-1132465           |[Gallery]Play videos from file manager,pop up gallery stopped |
+| ********** |**********************|**********************|*******************|
+===============================================================================
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tct.gallery3d"
+    >
+
+    <original-package android:name="com.tct.gallery3d" />
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="24" />
+
+    <permission
+        android:name="com.tct.gallery3d.permission.GALLERY_PROVIDER"
+        android:protectionLevel="signatureOrSystem" />
+
+    <!-- [ALM][BUGFIX]-Add by TCTNJ,jun.xie-nb, 2015-3-18,ALM-1840441 begin -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+    <!-- [ALM][BUGFIX]-Add by TCTNJ,jun.xie-nb, 2015-3-18,ALM-1840441 end -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- //[BUGFIX]-Modify by TCTNJ,caihong.gu-nb, 2016/03/09,PR1746175 begin -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- //[BUGFIX]-Modify by TCTNJ,caihong.gu-nb, 2016/03/09,PR1746175 end -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="com.tct.gallery3d.permission.GALLERY_PROVIDER" />
+    <!-- //[BUGFIX]-Add by TCTNJ,qiang.ding1, 2014-11-13,PR836648 Begin -->
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <!-- //[BUGFIX]-Add by TCTNJ,qiang.ding1, 2014-11-13,PR836648 Begin -->
+
+
+    <!-- //[BUGFIX]-Add by TCTNJ,ye.chen, 2014-11-21,PR836910 Begin -->
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <!-- //[BUGFIX]-Add by TCTNJ,ye.chen, 2014-11-21,PR836910 End -->
+
+
+    <!-- [FEATURE]-Add-BEGIN by TCTNB(Haoli Zhang), 2014/11/5, FR-824326 No WiFi Display Extension Mode -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <!-- [FEATURE]-Add-END by TCTNB(Haoli Zhang), 2014/11/5, FR-824326 No WiFi Display Extension Mode -->
+
+
+    <!-- //[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-23,PR904541 Begin -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- //[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-23,PR904541 End -->
+
+
+    <!-- [FEATURE]-Modify by TCTNJ, dongliang.feng, 2015-03-30, CR962977 begin -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- [FEATURE]-Modify by TCTNJ, dongliang.feng, 2015-03-30, CR962977 end -->
+    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false" />
+    <!-- [BUGFIX]-Add by TCTNJ,qiang.ding1, 2014-12-18,TR874021 begin -->
+    <application
+        android:name="com.tct.gallery3d.app.GalleryAppImpl"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/gallery"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:logo="@drawable/gallery"
+        android:restoreAnyVersion="true"
+        android:supportsRtl="true"
+        android:uiOptions="splitActionBarWhenNarrow" >
+        <!-- [BUGFIX]-Add by TCTNJ,qiang.ding1, 2014-12-18,TR874021 end -->
+        <uses-library
+            android:name="com.google.android.media.effects"
+            android:required="false" />
+
+        <!-- [BUGFIX]-Modify by TCTNJ, dongliang.feng, 2015-12-15, ALM-1132465 begin -->
+        <!-- [BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-03,CR938507 Begin -->
+        <!-- //[BUGFIX]-Modify by TCTNJ,caihong.gu-nb, 2016/01/29,PR1241018 begin -->
+        <activity
+            android:name="com.tct.gallery3d.app.MoviePermissionActivity"
+            android:label="@string/movie_view_label"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Permission" >
+
+            <!-- [BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-03,CR938507 Begin -->
+            <!-- //[BUGFIX]-Modify by TCTNJ,caihong.gu-nb, 2016/01/29,PR1241018 end -->
+            <!-- [FEATURE]-Add-BEGIN by NJHR(chengqun.sun), 2014/11/20, FR-826631 Multi screen interaction -->
+            <intent-filter>
+                <action android:name="com.android.gallery3d.app.toMovieActivity" />
+                <action android:name="android.intent.action.DLNA_START" />
+                <action android:name="android.intent.action.DLNA_STOP" />
+                <action android:name="android.intent.device_add" />
+                <action android:name="android.intent.android.intent.device_remove" />
+                <action android:name="android.intent.action.shared_inner_stop" />
+            </intent-filter>
+            <!-- [FEATURE]-Add-END by NJHR(chengqun.sun), 2014/11/20, FR-826631 Multi screen interaction -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="rtsp" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:scheme="rtsp" />
+                <data android:mimeType="video/mpeg4" />
+                <data android:mimeType="video/mp4" />
+                <data android:mimeType="video/3gp" />
+                <data android:mimeType="video/3gpp" />
+                <data android:mimeType="video/3gpp2" />
+                <data android:mimeType="video/webm" />
+                <!-- //[BUGFIX]-Add by TCTNJ,su.jiang, 2015-07-21,PR1047890 Begin -->
+                <data android:mimeType="video/flv" />
+                <!-- //[BUGFIX]-Add by TCTNJ,su.jiang, 2015-07-21,PR1047890 end -->
+                <!-- //[BUGFIX]-Add by TCTNJ,jian.pan1, 2014-12-05,PR861230 Begin -->
+                <data android:mimeType="video/quicktime" />
+                <!-- //[BUGFIX]-Add by TCTNJ,jian.pan1, 2014-12-05,PR861230 end -->
+                <data android:mimeType="video/avi" />
+                <!-- //[BUGFIX]-Add by TCTNJ,jian.pan1, 2014-11-19,PR843066 Begin -->
+                <data android:mimeType="video/x-msvideo" />
+                <!-- //[BUGFIX]-Add by TCTNJ,jian.pan1, 2014-11-19,PR843066 end -->
+                <!-- //[BUGFIX]-Add by TCTNJ,ye.chen, 2014-11-26,PR956637 Begin -->
+                <data android:mimeType="video/x-matroska" />
+                <!-- //[BUGFIX]-Add by TCTNJ,ye.chen, 2014-11-26,PR956637 end -->
+                <data android:mimeType="application/sdp" />
+                <!-- //[BUGFIX]-Add by TCTNJ,jian.pan1, 2016-02-04,PR1430509 Begin -->
+                <data android:mimeType="video/x-flv" />
+                <data android:mimeType="video/x-ms-wmv" />
+                <!-- //[BUGFIX]-Add by TCTNJ,jian.pan1, 2016-02-04,PR1430509 End -->
+            </intent-filter>
+            <intent-filter>
+
+                <!-- HTTP live support -->
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:mimeType="audio/x-mpegurl" />
+                <data android:mimeType="audio/mpegurl" />
+                <data android:mimeType="application/vnd.apple.mpegurl" />
+                <data android:mimeType="application/x-mpegurl" />
+                <data android:mimeType="application/dash+xml" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.tct.gallery3d.collage.CollageProcessActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Permission">
+        </activity>
+
+        <activity
+            android:name="com.tct.gallery3d.app.MovieActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/movie_view_label"
+            android:theme="@style/Theme.MovieActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <!-- [BUGFIX]-Modify by TCTNJ, dongliang.feng, 2015-12-15, ALM-1132465 end -->
+
+        <activity
+            android:name="com.tct.gallery3d.app.PermissionActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Permission" >
+
+            <!-- //[ALM][BUGFIX]-Add by TCTNJ,jun.xie-nb, 2015-2-18,ALM-1555498 begin -->
+            <intent-filter android:priority="1" >
+
+                <!-- //[ALM][BUGFIX]-Add by TCTNJ,jun.xie-nb, 2015-2-18,ALM-1555498 end -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.APP_GALLERY" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <!--
+                 We do NOT support the PICK intent, we add these intent-filter for
+                 backward compatibility. Handle it as GET_CONTENT.
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+                <data android:mimeType="vnd.android.cursor.dir/video" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+                <data android:mimeType="vnd.android.cursor.dir/video" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="com.android.camera.action.REVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="image/bmp" />
+                <data android:mimeType="image/jpeg" />
+                <data android:mimeType="image/gif" />
+                <data android:mimeType="image/png" />
+                <data android:mimeType="image/webp" />
+                <data android:mimeType="image/x-ms-bmp" />
+                <data android:mimeType="image/vnd.wap.wbmp" />
+                <data android:mimeType="application/vnd.google.panorama360+jpg" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.camera.action.REVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="video/mpeg4" />
+                <data android:mimeType="video/mp4" />
+                <data android:mimeType="video/3gp" />
+                <data android:mimeType="video/3gpp" />
+                <data android:mimeType="video/3gpp2" />
+                <data android:mimeType="application/sdp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tct.gallery3d.app.GalleryActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Gallery.Activity" >
+        </activity>
+        <activity
+            android:name="com.tct.gallery3d.app.AlbumActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Gallery.Activity" >
+        </activity>
+        <activity
+            android:name="com.tct.gallery3d.app.AlbumSelectActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Gallery.Activity" >
+        </activity>
+        <activity
+            android:name="com.tct.gallery3d.app.NewAlbumSelectActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Gallery.Activity" >
+        </activity>
+        <!--
+             This activity acts as a trampoline to the new Gallery activity,
+             so that existing shortcuts are preserved.
+        -->
+        <activity
+            android:name="com.tct.gallery3d.app.Gallery"
+            android:theme="@style/android:Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.tct.gallery3d.app.CollapseAlbumsManageActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Gallery.Activity" >
+        </activity>
+
+        <activity
+            android:name="com.tct.gallery3d.app.CollapseAlbumsActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Gallery.Activity"
+            >
+        </activity>
+
+
+        <!-- we add this activity-alias for shortcut backward compatibility -->
+        <!-- Note: The alias must put after the target activity -->
+        <activity-alias
+            android:name="com.cooliris.media.Gallery"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:targetActivity="com.tct.gallery3d.app.GalleryActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity-alias>
+
+        <!--
+             This activity acts as a trampoline to the new Camera activity
+             in com.android.camera2 package, so that existing shortcuts
+             are preserved.
+        -->
+
+
+        <!-- //[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-04-02,PR965291 Begin -->
+        <!--
+        <activity android:name="com.android.camera.CameraActivity"
+            android:icon="@mipmap/ic_launcher_camera"
+            android:label="@string/camera_label"
+            android:taskAffinity="com.android.camera.CameraActivity"
+            android:theme="@style/android:Theme.NoDisplay" />
+        <activity-alias android:name="com.android.camera.CameraLauncher"
+            android:label="@string/camera_label"
+            android:targetActivity="com.android.camera.CameraActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        -->
+        <!-- //[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-04-02,PR965291 End -->
+
+
+        <!--
+         This activity receives USB_DEVICE_ATTACHED intents and allows importing
+         media from attached MTP devices, like cameras and camera phones
+        -->
+        <activity
+            android:name="com.tct.gallery3d.ingest.IngestActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+
+        <service android:name="com.tct.gallery3d.ingest.IngestService" />
+
+        <activity
+            android:name="com.tct.gallery3d.app.Wallpaper"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/android:Theme.Translucent.NoTitleBar" >
+            <intent-filter android:label="@string/camera_setas_wallpaper" >
+                <action android:name="android.intent.action.ATTACH_DATA" />
+
+                <data android:mimeType="image/*" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.wallpaper.preview"
+                android:resource="@xml/wallpaper_picker_preview" />
+        </activity>
+        <!-- [BUGFIX]-Modify by TCTNJ, dongliang.feng, 2015-01-22, PR908048 begin -->
+        <!-- [BUGFIX]-Modify by TCTNJ,qiang.ding1, 2015-03-18, PR952509 begin -->
+        <activity
+            android:name="com.tct.gallery3d.app.view.TrimVideo"
+            android:configChanges="orientation|screenSize|smallestScreenSize"
+            android:label="@string/trim_action"
+            android:theme="@style/Theme.MovieActivity" >
+            <intent-filter android:label="@string/crop_label" >
+                <action android:name="com.android.camera.action.TRIM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity>
+        <!-- [BUGFIX]-Modify by TCTNJ, qiang.ding1, 2015-03-18, PR952509 end -->
+        <!-- [BUGFIX]-Modify by TCTNJ, dongliang.feng, 2015-01-18, PR908048 end -->
+
+        <permission
+            android:name="com.tct.gallery3d.filtershow.permission.READ"
+            android:protectionLevel="signature" />
+        <permission
+            android:name="com.tct.gallery3d.filtershow.permission.WRITE"
+            android:protectionLevel="signature" />
+
+        <provider
+            android:name="com.tct.gallery3d.filtershow.provider.SharedImageProvider"
+            android:authorities="com.tct.gallery3d.filtershow.provider.SharedImageProvider"
+            android:grantUriPermissions="true"
+            android:readPermission="com.tct.gallery3d.filtershow.permission.READ"
+            android:writePermission="com.tct.gallery3d.filtershow.permission.WRITE" />
+
+        <service
+            android:name=".filtershow.pipeline.ProcessingService"
+            android:exported="false" />
+
+        <!-- [BUGFIX]-Modify by TCTNJ, dongliang.feng, 2015-03-10, PR945739 begin -->
+        <!-- //[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-22,PR907825 Begin -->
+        <!-- //[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-08-03,PR1056946 Begin -->
+        <!-- [BUGFIX]-Modify by TCTNJ, dongliang.feng, 2015-08-25, PR525345 begin -->
+        <!-- //[BUGFIX]-Modify by TCTNJ,caihong.gu-nb, 2016/01/22,PR1356306 begin -->
+        <activity
+            android:name="com.tct.gallery3d.filtershow.FilterShowActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:label="@string/edit"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.FilterShow" >
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="action_nextgen_edit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="action_gallery_edit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <!-- [BUGFIX]-Modify by TCTNJ, dongliang.feng, 2015-08-25, PR525345 end -->
+        <!-- //[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-08-03,PR1056946 End -->
+        <!-- //[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-22,PR907825 End -->
+        <!-- [BUGFIX]-Modify by TCTNJ, dongliang.feng, 2015-03-10, PR945739 end -->
+        <!-- //[BUGFIX]-Modify by TCTNJ,caihong.gu-nb, 2016/01/22,PR1356306 end -->
+
+        <activity
+            android:name="com.tct.gallery3d.filtershow.crop.CropActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/crop"
+            android:theme="@style/Theme.Crop" >
+            <intent-filter android:label="@string/crop_label" >
+                <action android:name="com.android.camera.action.CROP" />
+
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="image/*" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.ALTERNATIVE" />
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.tct.gallery3d.settings.GallerySettings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.Gallery" />
+
+        <provider
+            android:name="com.tct.gallery3d.provider.GalleryProvider"
+            android:authorities="com.tct.gallery3d.provider"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:permission="com.tct.gallery3d.permission.GALLERY_PROVIDER"
+            android:syncable="false" />
+        <provider
+            android:name="com.android.photos.data.PhotoProvider"
+            android:authorities="com.tct.gallery3d.photoprovider"
+            android:exported="false"
+            android:syncable="false" />
+        <provider
+            android:name="com.tct.gallery3d.provider.GalleryFavouriteProvider"
+            android:authorities="com.tct.gallery.favourite.provider"
+            android:exported="true"
+            android:grantUriPermissions="true" />
+
+        <activity android:name="com.tct.gallery3d.gadget.WidgetClickHandler" />
+        <activity
+            android:name="com.tct.gallery3d.app.DialogPicker"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/DialogPickerTheme" />
+        <activity
+            android:name="com.tct.gallery3d.app.AlbumPicker"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/DialogPickerTheme" />
+        <activity
+            android:name="com.tct.gallery3d.gadget.WidgetTypeChooser"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/Theme.Gallery.Dialog" />
+
+        <!-- //[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-19,PR894293 Begin -->
+        <!--
+             <receiver android:name="com.tct.gallery3d.gadget.PhotoAppWidgetProvider"
+                android:label="@string/appwidget_title">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                    android:resource="@xml/widget_info" />
+        </receiver>
+        -->
+        <!-- //[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-19,PR894293 end -->
+        <receiver android:name="com.tct.gallery3d.app.PackagesMonitor" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.tct.gallery3d.app.PackagesMonitor$AsyncService" />
+        <service
+            android:name="com.tct.gallery3d.gadget.WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <activity
+            android:name="com.tct.gallery3d.gadget.WidgetConfigure"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/android:Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.tct.gallery3d.app.BatchService" />
+
+        <!-- [FEATURE]-Modify by TCTNJ, dongliang.feng, 2015-09-23, FR1092180 begin -->
+        <receiver android:name="com.tct.gallery3d.app.GalleryResetReceiver" >
+            <intent-filter android:priority="85" >
+                <action android:name="android.intent.action.LAUNCH_DEVICE_RESET" />
+            </intent-filter>
+        </receiver>
+        <!-- [FEATURE]-Modify by TCTNJ, dongliang.feng, 2015-09-23, FR1092180 begin -->
+
+
+        <!-- //[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-07-16,PR1044581 Begin -->
+        <!--
+        <receiver android:name="com.android.camera.DisableCameraReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        -->
+        <!-- //[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-07-16,PR1044581 End -->
+
+
+        <!-- [FEATURE]-Add-BEGIN by TCTNB(Haoli Zhang), 2014/11/5, FR-824326 No WiFi Display Extension Mode -->
+        <receiver android:name="com.android.gallery3d.app.GalleryReceiver" >
+            <intent-filter>
+                <action android:name="com.android.music.forpresentation" />
+                <action android:name="com.android.gallery.video" />
+                <action android:name="com.android.gallery.slideshow" />
+            </intent-filter>
+        </receiver>
+        <!-- [FEATURE]-Add-END by TCTNB(Haoli Zhang), 2014/11/5, FR-824326 No WiFi Display Extension Mode -->
+        <!-- [FEATURE]-Add-BEGIN by NJHR.chengqun.sun For PR826943——2014.11.04 -->
+        <!-- //[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-17,PR901946 Begin -->
+        <activity
+            android:name="com.android.gallery3d.gif.GifActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MovieActivity" >
+        </activity>
+        <!-- //[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-01-17,PR901946 end -->
+        <!-- [FEATURE]-Add-END by NJHR.chengqun.sun For PR826943——2014.11.04 -->
+        <!-- [FEATURE]-Add-BEGIN by NJHR(chengqun.sun), 2014/11/20, FR-826631 Multi screen interaction -->
+        <service
+            android:name="com.android.gallery3d.app.DlnaService"
+            android:permission="com.tct.gallery2.permission.ACCESS_PROVIDER" />
+
+        <intent-filter>
+            <action android:name="com.android.gallery3d.app.StopShare" />
+            <action android:name="android.intent.action.DLNA_START" />
+            <action android:name="android.intent.action.DLNA_STOP" />
+            <action android:name="android.intent.device_add" />
+            <action android:name="android.intent.android.intent.device_remove" />
+            <action android:name="android.intent.action.shared_inner_stop" />
+        </intent-filter>
+        <!-- [FEATURE]-Add-END by NJHR(chengqun.sun), 2014/11/20, FR-826631 Multi screen interaction -->
+        <service
+            android:name="com.tct.gallery3d.picturegrouping.AddressPrefetchService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Address prefetch Service" >
+        </service>
+        <service
+            android:name="com.tct.gallery3d.picturegrouping.ExifInfoPrefetchService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Exif Info prefetch Service" >
+        </service>
+        <service
+            android:name="com.tct.gallery3d.picturegrouping.PrefetchService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="prefetch Service" >
+        </service>
+
+        <receiver
+            android:name="com.tct.gallery3d.picturegrouping.BootCompletedBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:label="Boot Completed Broadcast Receiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.tct.gallery3d.picturegrouping.NewPictureBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.hardware.action.NEW_PICTURE" />
+                <action android:name="com.android.camera.NEW_PICTURE" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.action.NEW_VIDEO" />
+                <action android:name="com.android.camera.NEW_VIDEO" />
+
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.tct.gallery3d.app.BurstShotActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:theme="@style/Theme.BurstShot" >
+
+            <!-- //[BUGFIX]-Add by TCTNJ,su.jiang, 2016-01-29,PR1537109 begin -->
+            <intent-filter>
+                <action android:name="com.android.gallery.action.BurstShot" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!-- //[BUGFIX]-Add by TCTNJ,su.jiang, 2016-01-29,PR1537109 end -->
+        </activity>
+        <activity
+            android:name="com.tct.gallery3d.app.FaceShowActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.FaceShow" >
+        </activity>
+        <activity
+            android:name="com.tct.gallery3d.app.ShareDefaultPage"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.FaceShow" >
+
+            <!-- //[BUGFIX]-Add by TCTNJ,su.jiang, 2015-10-26,PR788215 Begin -->
+            <intent-filter>
+                <action android:name="com.android.gallery.action.Share" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <!-- //[BUGFIX]-Add by TCTNJ,su.jiang, 2015-10-26,PR788215 End -->
+        </activity>
+        <activity
+            android:name=".app.BoomKeyTipsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".app.NewAlbumDialogActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.DialogActivity">
+        </activity>
+    </application>
+
+</manifest>

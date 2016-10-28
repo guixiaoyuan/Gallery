@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"แกลเลอรี"</string>
+	<!---->
+	<string name="gadget_title">"กรอบภาพ"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"โปรแกรมเล่นวิดีโอ"</string>
+	<!---->
+	<string name="loading_video">"กำลังโหลดวิดีโอ..."</string>
+	<!---->
+	<string name="loading_image">"กำลังโหลดภาพ..."</string>
+	<!---->
+	<string name="loading_account">"กำลังดาวน์โหลดบัญชี…"</string>
+	<!---->
+	<string name="resume_playing_title">"เริ่มเล่นวิดีโอต่อ"</string>
+	<!---->
+	<string name="resume_playing_message">"เริ่มเล่นต่อจาก %s ?"</string>
+	<!---->
+	<string name="resume_playing_resume">"เริ่มเล่นต่อ"</string>
+	<!---->
+	<string name="loading">"กำลังโหลด…"</string>
+	<!---->
+	<string name="fail_to_load">"ไม่สามารถโหลด"</string>
+	<!---->
+	<string name="fail_trim">"ไม่สามารถตัดแต่งไฟล์วิดีโอได้"</string>
+	<!---->
+	<string name="fail_to_load_image">"ไม่สามารถโหลดภาพ"</string>
+	<!---->
+	<string name="no_thumbnail">"ไม่มีภาพขนาดย่อ"</string>
+	<!---->
+	<string name="resume_playing_restart">"เริ่มใหม่"</string>
+	<!---->
+	<string name="crop_save_text">"ตกลง"</string>
+	<!---->
+	<string name="ok">"ตกลง"</string>
+	<!---->
+	<string name="multiface_crop_help">"แตะใบหน้าเพื่อเริ่มต้น"</string>
+	<!---->
+	<string name="saving_image">"กำลังบันทึกภาพ..."</string>
+	<!---->
+	<string name="filtershow_saving_image">"กำลังบันทึกภาพไปยัง <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="save_error">"ไม่สามารถบันทึกภาพที่ตัดได้"</string>
+	<!---->
+	<string name="crop_label">"ตัดภาพ"</string>
+	<!---->
+	<string name="trim_label">"ตัดทอนวิดีโอ"</string>
+	<!---->
+	<string name="select_image">"เลือกรูปภาพ"</string>
+	<!---->
+	<string name="select_video">"เลือกวิดีโอ"</string>
+	<!---->
+	<string name="select_item">"เลือกรายการ"</string>
+	<!---->
+	<string name="select_album">"เลือกอัลบั้ม"</string>
+	<!---->
+	<string name="select_group">"เลือกกลุ่ม"</string>
+	<!---->
+	<string name="set_image">"ตั้งค่าเป็น..."</string>
+	<!---->
+	<string name="set_wallpaper">"ตั้งค่าวอลเปเปอร์"</string>
+	<!---->
+	<string name="wallpaper">"กำลังตั้งค่าวอลเปเปอร์..."</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"วอลเปเปอร์"</string>
+	<!---->
+	<string name="delete">"ลบ"</string>
+	<!---->
+	<string name="deleting">"กำลังลบ"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"ลบรายการที่เลือกหรือไม?่"</item>
+		<item quantity="other">"ลบรายการที่เลือกหรือไม่?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"ยืนยัน"</string>
+	<!---->
+	<string name="cancel">"ยกเลิก"</string>
+	<!---->
+	<string name="share">"แบ่งปัน"</string>
+	<!---->
+	<string name="share_panorama">"แบ่งปันภาพพาโนรามา"</string>
+	<!---->
+	<string name="share_as_photo">"แบ่งปันเป็นภาพ"</string>
+	<!---->
+	<string name="deleted">"ลบแล้ว"</string>
+	<!---->
+	<string name="undo">"เลิกทำ"</string>
+	<!---->
+	<string name="select_all">"เลือกทั้งหมด"</string>
+	<!---->
+	<string name="deselect_all">"ยกเลิกการเลือกทั้งหมด"</string>
+	<!---->
+	<string name="slideshow">"การนำเสนอภาพนิ่ง"</string>
+	<!---->
+	<string name="details">"รายละเอียด"</string>
+	<!---->
+	<string name="details_title">"%1$d จาก %2$d รายการ:"</string>
+	<!---->
+	<string name="close">"ปิด"</string>
+	<!---->
+	<string name="switch_to_camera">"สลับเป็นกล้องถ่ายรูป"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"เลือกไว้ %1$d"</item>
+		<item quantity="one">"เลือกไว้ %1$d"</item>
+		<item quantity="other">"เลือกไว้ %1$d"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"เลือกไว้ %1$d"</item>
+		<item quantity="one">"เลือกไว้ %1$d"</item>
+		<item quantity="other">"เลือกไว้ %1$d"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"เลือกไว้ %1$d"</item>
+		<item quantity="one">"เลือกไว้ %1$d"</item>
+		<item quantity="other">"เลือกไว้ %1$d"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"แสดงบนแผนที่"</string>
+	<!---->
+	<string name="rotate_left">"หมุนไปทางซ้าย"</string>
+	<!---->
+	<string name="rotate_right">"หมุนไปทางขวา"</string>
+	<!---->
+	<string name="no_such_item">"ไม่พบรายการ"</string>
+	<!---->
+	<string name="edit">"แก้ไข"</string>
+	<!---->
+	<string name="mix_video">"ผสม"</string>
+	<!---->
+	<string name="simple_edit">"แก้ไขอย่างง่าย"</string>
+	<!---->
+	<string name="process_caching_requests">"กำลังประมวลผลคำขอให้แคช"</string>
+	<!---->
+	<string name="caching_label">"กำลังแคช..."</string>
+	<!---->
+	<string name="crop_action">"ตัด"</string>
+	<!---->
+	<string name="trim_action">"ตัดทอน"</string>
+	<!---->
+	<string name="mute_action">"ปิดเสียง"</string>
+	<!---->
+	<string name="set_as">"ตั้งค่าเป็น"</string>
+	<!---->
+	<string name="video_mute_err">"ไม่สามารถปิดเสียงวิดีโอ"</string>
+	<!---->
+	<string name="video_err">"ไม่สามารถเล่นวิดีโอ"</string>
+	<!---->
+	<string name="group_by_location">"ตามตำแหน่ง"</string>
+	<!---->
+	<string name="group_by_time">"ตามเวลา"</string>
+	<!---->
+	<string name="group_by_tags">"ตามแท็ก"</string>
+	<!---->
+	<string name="group_by_faces">"จัดกลุ่มตามใบหน้าบุคคล"</string>
+	<!---->
+	<string name="group_by_album">"ตามอัลบั้ม"</string>
+	<!---->
+	<string name="group_by_size">"ตามขนาด"</string>
+	<!---->
+	<string name="untagged">"ยกเลิกการติดแท็ก"</string>
+	<!---->
+	<string name="no_location">"ไม่มีสถานที่"</string>
+	<!---->
+	<string name="no_connectivity">"ไม่สามารถระบุบางตำแหน่งได้เนื่องจากปัญหาเกี่ยวกับเครือข่าย"</string>
+	<!---->
+	<string name="sync_album_error">"ไม่สามารถดาวน์โหลดรูปภาพในอัลบั้มนี้  โปรดลองอีกครั้งในภายหลัง"</string>
+	<!---->
+	<string name="show_images_only">"เฉพาะภาพ"</string>
+	<!---->
+	<string name="show_videos_only">"เฉพาะวิดีโอ"</string>
+	<!---->
+	<string name="show_all">"ภาพ &amp; วีดีโอ"</string>
+	<!---->
+	<string name="appwidget_title">"แกลเลอรีรูปภาพ"</string>
+	<!---->
+	<string name="appwidget_empty_text">"ไม่มีรูปภาพ"</string>
+	<!---->
+	<string name="crop_saved">"บันทึกภาพที่ครอบตัดไว้ที่ <xliff:g id="FOLDER_NAME">%s</xliff:g>"</string>
+	<!---->
+	<string name="no_albums_alert">"ไม่มีอัลบั้ม"</string>
+	<!---->
+	<string name="empty_album">"ไม่มีภาพ/วิดีโอ"</string>
+	<!---->
+	<string name="picasa_posts">"โพสต์"</string>
+	<!---->
+	<string name="make_available_offline">"ทำให้ใช้งานได้แบบออฟไลน์"</string>
+	<!---->
+	<string name="sync_picasa_albums">"รีเฟรช"</string>
+	<!---->
+	<string name="done">"เสร็จสิ้น"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d จาก %2$d รายการ:"</string>
+	<!---->
+	<string name="title">"ชื่อ"</string>
+	<!---->
+	<string name="description">"คำอธิบาย"</string>
+	<!---->
+	<string name="time">"เวลา"</string>
+	<!---->
+	<string name="location">"สถานที่"</string>
+	<!---->
+	<string name="path">"เส้นทาง"</string>
+	<!---->
+	<string name="width">"ความกว้าง"</string>
+	<!---->
+	<string name="height">"ความสูง"</string>
+	<!---->
+	<string name="orientation">"การวางแนว"</string>
+	<!---->
+	<string name="duration">"ระยะเวลา"</string>
+	<!---->
+	<string name="mimetype">"ประเภท MIME"</string>
+	<!---->
+	<string name="file_size">"ขนาดไฟล์"</string>
+	<!---->
+	<string name="maker">"ยี่ห้อ"</string>
+	<!---->
+	<string name="model">"รุ่น"</string>
+	<!---->
+	<string name="flash">"แฟลช"</string>
+	<!---->
+	<string name="aperture">"รูรับแสง"</string>
+	<!---->
+	<string name="focal_length">"ระยะโฟกัส"</string>
+	<!---->
+	<string name="white_balance">"สมดุลแสงขาว"</string>
+	<!---->
+	<string name="exposure_time">"เวลารับแสง"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"มม."</string>
+	<!---->
+	<string name="manual">"ปรับเอง"</string>
+	<!---->
+	<string name="auto">"อัตโนมัติ"</string>
+	<!---->
+	<string name="flash_on">"แฟลชทำงาน"</string>
+	<!---->
+	<string name="flash_off">"ไม่เปิดแฟลช"</string>
+	<!---->
+	<string name="unknown">"ไม่รู้จัก"</string>
+	<!---->
+	<string name="ffx_original">"ต้นฉบับ"</string>
+	<!---->
+	<string name="ffx_vintage">"วินเทจ"</string>
+	<!---->
+	<string name="ffx_instant">"ทันใจ"</string>
+	<!---->
+	<string name="ffx_bleach">"ทำให้สีซีด"</string>
+	<!---->
+	<string name="ffx_blue_crush">"น้ำเงิน"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"ขาวดำ"</string>
+	<!---->
+	<string name="ffx_punch">"พันช์"</string>
+	<!---->
+	<string name="ffx_x_process">"ครอสโพรเซส"</string>
+	<!---->
+	<string name="ffx_washout">"ลาเต้"</string>
+	<!---->
+	<string name="ffx_washout_color">"หิน"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"กำลังทำให้ใช้งานอัลบั้มแบบออฟไลน์ได้"</item>
+		<item quantity="other">"กำลังทำให้ใช้งานอัลบั้มแบบออฟไลน์ได้"</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"รายการนี้จัดเก็บภายในเครื่องและสามารถใช้งานแบบออฟไลน์"</string>
+	<!---->
+	<string name="set_label_all_albums">"อัลบั้มทั้งหมด"</string>
+	<!---->
+	<string name="set_label_local_albums">"อัลบั้มในเครื่อง"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"อุปกรณ์ MTP"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"อัลบั้มใน Picasa"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="BYTES">%s</xliff:g> ว่าง"</string>
+	<!---->
+	<string name="size_below">"ไม่เกิน <xliff:g id="SIZE">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="SIZE">%1$s</xliff:g> ขึ้นไป"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> ถึง <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"นำเข้า"</string>
+	<!---->
+	<string name="import_complete">"นำเข้าเสร็จสมบูรณ์"</string>
+	<!---->
+	<string name="import_fail">"นำเข้าไม่สำเร็จ"</string>
+	<!---->
+	<string name="camera_connected">"เชื่อมต่อกล้องถ่ายรูปแล้ว"</string>
+	<!---->
+	<string name="camera_disconnected">"หยุดการเชื่อมต่อกล้อง"</string>
+	<!---->
+	<string name="click_import">"แตะที่นี่เพื่อนำเข้า"</string>
+	<!---->
+	<string name="widget_type_album">"เลือกอัลบั้ม"</string>
+	<!---->
+	<string name="widget_type_shuffle">"สุ่มภาพทั้งหมด"</string>
+	<!---->
+	<string name="widget_type_photo">"เลือกภาพ"</string>
+	<!---->
+	<string name="widget_type">"เลือกภาพ"</string>
+	<!---->
+	<string name="slideshow_dream_name">"สไลด์โชว์"</string>
+	<!---->
+	<string name="albums">"อัลบั้ม"</string>
+	<!---->
+	<string name="times">"เวลา"</string>
+	<!---->
+	<string name="locations">"สถานที่"</string>
+	<!---->
+	<string name="people">"บุคคล"</string>
+	<!---->
+	<string name="tags">"แท็ก"</string>
+	<!---->
+	<string name="group_by">"จัดกลุ่มตาม"</string>
+	<!---->
+	<string name="settings">"การตั้งค่า"</string>
+	<!---->
+	<string name="add_account">"เพิ่มบัญชี"</string>
+	<!---->
+	<string name="folder_camera">"กล้องถ่ายรูป"</string>
+	<!---->
+	<string name="folder_download">"ดาวน์โหลด"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"ภาพออนไลน์ตัดแต่ง"</string>
+	<!---->
+	<string name="folder_imported">"นำเข้าแล้ว"</string>
+	<!---->
+	<string name="folder_screenshot">"ภาพหน้าจอ"</string>
+	<!---->
+	<string name="help">"วิธีใช้"</string>
+	<!---->
+	<string name="no_external_storage_title">"ไม่มีที่จัดเก็บ"</string>
+	<!---->
+	<string name="no_external_storage">"ไม่มีสื่อบันทึกข้อมูลต่อพ่วงสำหรับใช้งาน"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"มุมมองแผ่นฟิล์ม"</string>
+	<!---->
+	<string name="switch_photo_grid">"มุมมองตาราง"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"มุมมองเต็มจอ"</string>
+	<!---->
+	<string name="trimming">"ตัดทอน"</string>
+	<!---->
+	<string name="muting">"ปิดเสียง"</string>
+	<!---->
+	<string name="please_wait">"โปรดรอ"</string>
+	<!---->
+	<string name="save_into">"กำลังบันทึกวิดีโอไปยัง <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="trim_save_into">"บันทึกไฟล์ที่ตัดแต่งแล้วไปที่ <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"บันทึกไฟล์ที่ปิดเสียงแล้วไปที่ <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="trim_too_short">"ไม่สามารถตัดต่อ:วิดีโอเป้าหมายสั้นเกินไป"</string>
+	<!---->
+	<string name="mute_nosupport">"ไม่สามารถปิดเสียง : วิดีโอไม่รองรับ"</string>
+	<!---->
+	<string name="pano_progress_text">"กำลังเรนเดอร์ภาพพาโนราม่า"</string>
+	<!---->
+	<string name="save">"บันทึก"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"กำลังสแกนเนื้อหา..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"สแกนแล้ว %1$d รายการ"</item>
+		<item quantity="one">"สแกนแล้ว %1$d รายการ"</item>
+		<item quantity="other">"สแกนแล้ว %1$d รายการ"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"%1$dรายการถูกเลือกแล้ว"</item>
+		<item quantity="one">"%1$d รายการถูกเลือกแล้ว"</item>
+		<item quantity="other">"%1$dรายการถูกเลือกแล้ว"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"กำลังเรียงลำดับ..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"การสแกนเสร็จสิ้น"</string>
+	<!---->
+	<string name="ingest_importing">"กำลังนำเข้า..."</string>
+	<!---->
+	<string name="ingest_empty_device">"ไม่มีข้อมูลสำหรับนำเข้าไปยังอุปกรณ์นี้"</string>
+	<!---->
+	<string name="ingest_no_device">"ไม่มีอุปกรณ์ MTP เชื่อมต่ออยู่"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"ข้อผิดพลาดกล้องถ่ายรูป"</string>
+	<!---->
+	<string name="cannot_connect_camera">"ไม่สามารถเชื่อมต่อกับกล้องถ่ายรูป"</string>
+	<!---->
+	<string name="camera_disabled">"กล้องถ่ายรูปถูกปิดใช้งานเนื่องจากนโยบายด้านความปลอดภัย"</string>
+	<!---->
+	<string name="camera_label">"กล้องถ่ายรูป"</string>
+	<!---->
+	<string name="wait">"โปรดรอสักครู่..."</string>
+	<!---->
+	<string name="review_cancel">"ยกเลิก"</string>
+	<!---->
+	<string name="review_ok">"เสร็จสิ้น"</string>
+	<!---->
+	<string name="time_lapse_title">"การบันทึกเป็นช่วงเวลา"</string>
+	<!---->
+	<string name="pref_camera_id_title">"เลือกกล้องถ่ายรูป"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"ย้อนกลับ"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"ด้านหน้า"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"สถานที่จัดเก็บ"</string>
+	<!---->
+	<string name="pref_camera_location_label">"สถานที่"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"ตัวนับถอยหลัง"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 วินาที"</item>
+		<item quantity="other">"%d วินาที"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"ดังระหว่างนับถอยหลัง"</string>
+	<!---->
+	<string name="setting_off">"ปิด"</string>
+	<!---->
+	<string name="setting_on">"เปิด"</string>
+	<!---->
+	<string name="pref_video_quality_title">"คุณภาพวิดีโอ"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"สูง"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"ต่ำ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"เวลาที่ผ่านไป"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"การตั้งค่ากล้องถ่ายรูป"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"การตั้งค่ากล้องวิดีโอ"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"ขนาดภาพ"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13 ล้านพิกเซล"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8M พิกเซล"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5 ล้านพิกเซล"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4 ล้านพิกเซล"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3 ล้านพิกเซล"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2 ล้านพิกเซล"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2 ล้านพิกเซล (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1.3 ล้านพิกเซล"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1 ล้านพิกเซล"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"โหมดโฟกัส"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"ออโต้"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"ไม่มีที่สิ้ินสุด"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"มาโคร"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"อัตโนมัติ"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"อนันต์"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"มาโคร"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"โหมดแฟลช"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"โหมดแฟลช"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"ออโต้"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"เปิด"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"ปิด"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"แฟลชอัตโนมัติ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"เปิดแฟลช"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"ปิดแฟลช"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"สมดุลแสงขาว"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"สมดุลแสงขาว"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"ออโต้"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"หลอดไส้"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"กลางวัน"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"ฟลูออเรสเซนต์"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"เมฆมาก"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"อัตโนมัติ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"หลอดไส้"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"กลางวัน"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"ฟลูออเรสเซนต์"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"มีเมฆเป็นส่วนมาก"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"โหมดฉาก"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"ออโต้"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"ถ่ายภาพ"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"กลางคืน"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"ตะวันตกดิน"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"งานเลี้ยง"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"ไม่มี"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"ถ่ายภาพ"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"กลางคืน"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"ตะวันตกดิน"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"งานเลี้ยง"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"ระบบนับเวลาถอยหลัง"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"ปิดระบบจับเวลา"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 วินาที"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 วินาที"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 วินาที"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 วินาที"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"ไม่สามารถเลือกได้ในโหมดสำเร็จรูป"</string>
+	<!---->
+	<string name="pref_exposure_title">"การรับแสง"</string>
+	<!---->
+	<string name="pref_exposure_label">"การรับแสง"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"กล้องหน้า"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"กล้องหลัง"</string>
+	<!---->
+	<string name="dialog_ok">"ตกลง"</string>
+	<!---->
+	<string name="video_reach_size_limit">"ขนาดถึงขีดจำกัดแล้ว"</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"เร็วเกินไป"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"กำลังสร้างพาโนรามา"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"ไม่สามารถบันทึกภาพพาโนรามา"</string>
+	<!---->
+	<string name="pano_dialog_title">"พาโนรามา"</string>
+	<!---->
+	<string name="pano_capture_indication">"กำลังจับภาพพาโนรามา"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"กำลังรอภาพพาโนรามาก่อนหน้า"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"บันทึก..."</string>
+	<!---->
+	<string name="pano_review_rendering">"กำลังแสดงภาพพาโนรามา"</string>
+	<!---->
+	<string name="tap_to_focus">"แตะเพื่อโฟกัส"</string>
+	<!---->
+	<string name="pref_video_effect_title">"เอฟเฟ็กต์"</string>
+	<!---->
+	<string name="effect_none">"ไม่มี"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"บีบ"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"ตาโต"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"ปากใหญ่"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"ปากเล็ก"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"จมูกโต"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"ตาเล็ก"</string>
+	<!---->
+	<string name="effect_backdropper_space">"ในอวกาศ"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"ตะวันตกดิน"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"วิดีโอของคุณ"</string>
+	<!---->
+	<string name="bg_replacement_message">"พักอุปกรณ์ของคุณ"\n"ออกจากการแสดงผลเป็นเวลาสักครู่หนึ่ง"</string>
+	<!---->
+	<string name="video_snapshot_hint">"แตะเพื่อถ่ายภาพในขณะบันทึก"</string>
+	<!---->
+	<string name="video_recording_started">"เริ่มการบันทึกวิดีโอแล้ว"</string>
+	<!---->
+	<string name="video_recording_stopped">"หยุดการบันทึกวิดีโอแล้ว"</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"การจับภาพวิดีโอจะถูกปิดใช้งานเมื่อเปิดใช้เอฟเฟ็กต์พิเศษ"</string>
+	<!---->
+	<string name="clear_effects">"ล้างเอฟเฟ็กต์"</string>
+	<!---->
+	<string name="effect_silly_faces">"หน้าตลก"</string>
+	<!---->
+	<string name="effect_background">"พื้นหลัง"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"ปุ่มชัตเตอร์"</string>
+	<!---->
+	<string name="accessibility_menu_button">"ปุ่มเมนู"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"ภาพล่าสุด"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"สลับระหว่างกล้องด้านหน้าและด้านหลัง"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"ตัวเลือกกล้องถ่ายรูป, วิดีโอ, หรือภาพพาโนรามา"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"การควบคุมการตั้งค่าเพิ่มเติม"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"ปิดการควบคุมการตั้งค่า"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"การควบคุมการย่อ/ขยาย"</string>
+	<!---->
+	<string name="accessibility_decrement">"ลดลง %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"เพิ่มขึ้น %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"ช่องทำเครื่องหมาย %1$s"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"เปลี่ยนเป็นภาพถ่าย"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"เปลี่ยนเป็นวิดีโอ"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"เปลี่ยนไปยังโหมดพาโนรามา"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"เปลี่ยนเป็นภาพพาโนรามาใหม่"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"เปลี่ยนเป็นการโฟกัสใหม่"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"ไม่ผ่านการตรวจสอบ"</string>
+	<!---->
+	<string name="accessibility_review_ok">"พิจารณาทบทวนเสร็จสิ้น"</string>
+	<!---->
+	<string name="accessibility_review_retake">"ทดสอบอีกครั้ง"</string>
+	<!---->
+	<string name="accessibility_play_video">"เล่นวิดีโอ"</string>
+	<!---->
+	<string name="accessibility_pause_video">"หยุดวิดีโอชั่วคราว"</string>
+	<!---->
+	<string name="accessibility_reload_video">"โหลดวิดีโออีกครั้ง"</string>
+	<!---->
+	<string name="accessibility_time_bar">"แถบเวลาเครื่องเล่นวิดีโอ"</string>
+	<!---->
+	<string name="capital_on">"เปิด"</string>
+	<!---->
+	<string name="capital_off">"ปิด"</string>
+	<!---->
+	<string name="gif_err">"ไม่สามารถเล่น gif ได้"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"ปิด"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0.5 วินาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 วินาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 วินาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 วินาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 วินาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 วินาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 วินาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 วินาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 วินาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 วินาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 วินาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 วินาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 วินาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0.5 นาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 นาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 นาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 นาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 นาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 นาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 นาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 นาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 นาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 นาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 นาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 นาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 นาที"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0.5 ชั่วโมง"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 ชั่วโมง"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1.5 ชั่วโมง"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 ชั่วโมง"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 ชั่วโมง"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 ชั่วโมง"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 ชั่วโมง"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 ชั่วโมง"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 ชั่วโมง"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 ชั่วโมง"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 ชั่วโมง"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 ชั่วโมง"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 ชั่วโมง"</string>
+	<!---->
+	<string name="time_lapse_seconds">"วินาที"</string>
+	<!---->
+	<string name="time_lapse_minutes">"นาที"</string>
+	<!---->
+	<string name="time_lapse_hours">"ชั่วโมง"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"เสร็จสิ้น"</string>
+	<!---->
+	<string name="set_time_interval">"กำหนดช่วงเวลา"</string>
+	<!---->
+	<string name="set_time_interval_help">"ปิดคุณสมบัติจับเวลา เปิดเพื่อกำหนดการจับเวลา"</string>
+	<!---->
+	<string name="set_timer_help">"ปิดการนับเวลาถอยหลังไว้ เปิดเพื่อนับเวลาถอยหลังก่อนถ่ายภาพ"</string>
+	<!---->
+	<string name="set_duration">"ตั้งค่าระยะเวลาเป็นวินาที"</string>
+	<!---->
+	<string name="count_down_title_text">"นับถอยหลังเพื่อถ่ายภาพ"</string>
+	<!---->
+	<string name="remember_location_title">"จำตำแหน่งภาพถ่ายหรือไม่?"</string>
+	<!---->
+	<string name="remember_location_prompt">"ทำหมายเหตุกำกับภาพและวิดีโอพร้อมสถานที่ที่ถ่าย\n\nแอพอื่น ๆ สามารถสืบค้นข้อมูลนี้ได้พร้อมกับภาพที่คุณบันทึกไว้"</string>
+	<!---->
+	<string name="remember_location_no">"ไม่ล่ะ ขอบคุณ"</string>
+	<!---->
+	<string name="remember_location_yes">"ใช่"</string>
+	<!---->
+	<string name="menu_camera">"กล้องถ่ายรูป"</string>
+	<!---->
+	<string name="menu_search">"ค้นหา"</string>
+	<!---->
+	<string name="tab_photos">"รูปภาพ"</string>
+	<!---->
+	<string name="tab_albums">"อัลบั้ม"</string>
+	<!---->
+	<string name="camera_menu_more_label">"ตัวเลือกเพิ่มเติม"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"การตั้งค่า"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"รูปภาพ %1$d ภาพ"</item>
+		<item quantity="other">"รูปภาพ %1$d ภาพ"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"คำบรรยาย"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"วิดีโอนี้ไม่สามารถสตรีมไปยังอุปกรณ์นี้"</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"ไม่สามารถเล่นวิดีโอนี้"</string>
+	<!---->
+	<string name="VideoView_error_button">"ตกลง"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"ไม่รองรับวีดีโอนี้"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"ไม่สามารถเชื่อมต่อได้ พยายามเชื่อมต่อใหม่ %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"กำลังเชื่อมต่อ..."</string>
+	<!---->
+	<string name="media_controller_buffering">"กำลังบัฟเฟอร์ %d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์"</string>
+	<!---->
+	<string name="media_controller_live">"สด"</string>
+	<!---->
+	<string name="media_controller_playing">"กำลังเล่น"</string>
+	<!---->
+	<string name="notify_photo_text">"ตัวควบคุมแกลเลอรี่"</string>
+	<!---->
+	<string name="notify_video_text">"ตัวควบคุมแกลเลอรี่"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"เปิดใช้งานสไลด์โชว์ Wi-Fi Display"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"เปิดใช้งานวิดีโอ Wi-Fi Display"</string>
+	<!---->
+	<string name="wfd_alert">"การเตือน"</string>
+	<!---->
+	<string name="wfd_change_message">"วิดีโอจะถูกแทนที่"</string>
+	<!---->
+	<string name="wfd_change_button">"ใช่"</string>
+	<!---->
+	<string name="wfd_not_change_button">"ไม่ใช่"</string>
+	<!---->
+	<string name="wfd_show">"Wi-Fi Display"</string>
+	<!---->
+	<string name="wfd_show_on">"เปิด Wi-Fi Display"</string>
+	<!---->
+	<string name="wfd_show_off">"ปิด Wi-Fi Display"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"ลากไฟล์ไปยังสี่เหลี่ยมสีเหลืองเพื่อแชร์หน้าจอของคุณ"</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"ไม่รองรับประเภทนี้"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"คำเตือน"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"ไฟล์ที่ป้องกันการคัดลอกทั้งหมดจะถูกซ่อนเนื่องจากการเชื่อมต่อกับ Wi-Fi Display"</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"ปิด Wi-Fi Display"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"ดำเนินการต่อ"</string>
+	<!---->
+	<string name="tv_link_close">"Wi-Fi Display ปิดทำงานแล้ว"</string>
+	<!---->
+	<string name="drm_no_valid_right">"ไฟล์ไม่มีการรับรอง DRM ที่ถูกต้อง"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">"ไฟล์ DRM "%s" หมดอายุแล้ว ลบ?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"ไฟล์ DRM "%s" หมดอายุแล้ว ปลดล็อค?"</string>
+	<!---->
+	<string name="unlimited_usage">"การใช้แบบไม่จำกัด"</string>
+	<!---->
+	<string name="not_available">"ไม่พร้อมใช้งาน"</string>
+	<!---->
+	<string name="use_times">"ใช้ %s ครั้ง"</string>
+	<!---->
+	<string name="valid_after">"ใช้ได้หลังจาก"</string>
+	<!---->
+	<string name="valid_until">"ใช้ได้จนถึง"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"แตะสองครั้งและเลื่อนเพื่อสั่งให้กล้องถ่ายรูปซูมเข้า/ซูมออก"</string>
+	<!---->
+	<string name="tips_done">"เสร็จสิ้น"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"แตะสองครั้งและเลื่อนเพื่อซูมเข้า/ซูมออกภาพในแกลลอรี่"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"เรียนรู้เกี่ยวกับการซูมด้วยนิ้วเดียว"</string>
+	<!---->
+	<string name="drm_current_right">"ข้อจำกัดปัจจุบัน"</string>
+	<!---->
+	<string name="right_url">"ใบอนุญาต"</string>
+	<!---->
+	<string name="vendor">"ผู้ขาย:"</string>
+	<!---->
+	<string name="stop">"หยุด"</string>
+	<!---->
+	<string name="selectRenderer">"เลือกโปรแกรมเล่น"</string>
+	<!---->
+	<string name="noRenderer">"ไม่พบอุปกรณ์ตัวแสดงใดๆ"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"หยุดการเล่นวิดีโอบนทีวีหรือไม่"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"หยุดการเล่นภาพบนทีวีหรือไม่"</string>
+	<!---->
+	<string name="play_video">"เล่นวิดีโอ"</string>
+	<!---->
+	<string name="shake_video_text">"เขย่าโทรศัพท์ของคุณบนหน้าเพจวิดีโอเพื่อเล่นวิดีโอบนทีวี"</string>
+	<!---->
+	<string name="shake_picture_text">"หากต้องการเล่นบนโทรทัศน์ ให้เขย่าโทรศัพท์ของคุณที่หน้ารูปภาพ"</string>
+	<!---->
+	<string name="wait_dialog">"โปรดรอ..."</string>
+	<!---->
+	<string name="toast_nostop">"หากต้องการหยุดเล่นบนโทรทัศน์ ให้เลือกเครื่องเล่นภายในเครื่อง"</string>
+	<!---->
+	<string name="dlna_format_not_support">"ไม่สนับสนุนรูปแบบไฟล์"</string>
+	<!---->
+	<string name="left_title_camera_roll">"ม้วนฟิล์ม"</string>
+	<!---->
+	<string name="left_title_timeline">"เวลา"</string>
+	<!---->
+	<string name="left_title_albums">"อัลบั้ม"</string>
+	<!---->
+	<string name="left_title_videos">"วิดีโอ"</string>
+	<!---->
+	<string name="left_title_location">"สถานที่"</string>
+	<!---->
+	<string name="drawer_open">"เปิดช่องการนำทาง"</string>
+	<!---->
+	<string name="drawer_close">"ปิดช่องการนำทาง"</string>
+	<!---->
+	<string name="photo_share">"แชร์ไปยัง"</string>
+	<!---->
+	<string name="filtershow_save">"บันทึก"</string>
+	<!---->
+	<string name="filtershow_none">"ไม่มี"</string>
+	<!---->
+	<string name="filtershow_frame">"เฟรม"</string>
+	<!---->
+	<string name="drm_no_crop">"ไม่อนุญาตให้ตัดไฟล์ "%s" เพราะไฟล์มีการป้องกันด้วย DRM."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"ไม่อนุญาตให้ตั้งค่าไฟล์ "%s" เป็นไอคอนรายชื่อได้เนื่องจากไฟล์นี้ได้รับการปกป้องด้วย DRM."</string>
+	<!---->
+	<string name="never_tip">"แสดงเคล็ดลับเมื่อเมต้น"</string>
+	<!---->
+	<string name="three_finger_tips0">"วางสามนิ้วที่หน้าจอ"</string>
+	<!---->
+	<string name="three_finger_tips1">"ลากไฟล์ไปยังพื้นที่สีเหลือง"</string>
+	<!---->
+	<string name="three_finger_tips2">"เมื่อเป็นสีเหลือง แสดงว่าการแชร์เสร็จสิ้น"</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"ไฟล์ DRM ไม่ควรปรากฏขึ้นผ่าน Wi-Fi Display!"</string>
+	<!---->
+	<string name="filtershow_save_title">"บันทึกการเปลี่ยนแปลง"</string>
+	<!---->
+	<string name="filtershow_save_message">"คุณต้องการบันทึกเป็นสำเนาหรือเขียนทับรูปภาพเดิม?"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"ไม่ต้องถามอีก"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"บันทึกเป็นสำเนา"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"เขียนทับต้นฉบับ"</string>
+	<!---->
+	<string name="lock_video">"ล็อกแล้ว"</string>
+	<!---->
+	<string name="unlock_video">"ปลดล็อกแล้ว"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"ใบอนุญาต DRM หมดอายุ"</string>
+	<!---->
+	<string name="drm_protection_status">"สถานะการป้องกัน:"</string>
+	<!---->
+	<string name="drm_can_forward">"สามารถส่งต่อได้"</string>
+	<!---->
+	<string name="drm_can_not_forward">"ไม่สามารถส่งต่อได้"</string>
+	<!---->
+	<string name="drm_no_license">"ไม่มีใบอนุญาต DRM ที่ใช้ได้"</string>
+	<!---->
+	<string name="drm_begin">"เริ่มต้น:"</string>
+	<!---->
+	<string name="drm_no_limitation">"ไม่จำกัด"</string>
+	<!---->
+	<string name="drm_end">"สิ้นสุด:"</string>
+	<!---->
+	<string name="drm_use_left">"เหลือ"</string>
+	<!---->
+	<string name="date_taken">"วันที่ถ่าย:"</string>
+	<!---->
+	<string name="modified_time">"เวลาที่แก้ไข"</string>
+	<!---->
+	<string name="fast_forward">"ไปข้างหน้าเร็ว %ds"</string>
+	<!---->
+	<string name="fast_backward">"ย้อนกลับเร็ว %ds"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"เชื่อมต่อเครือข่ายใหม่แล้ว เล่นต่อหรือไม่"</string>
+	<!---->
+	<string name="polaroid_action_open">"เปิด"</string>
+	<!---->
+	<string name="polaroid_action_save">"บันทึก"</string>
+	<!---->
+	<string name="polaroid_action_send">"ส่ง"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"กอดฉันหน่อยสิ"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"กำลังบันทึกภาพ..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"ตัวแก้ไขโพลารอยด์"</string>
+	<!---->
+	<string name="editor_select_filtershow">"ตัวแก้ไข (ค่าเริ่มต้น)"</string>
+	<!---->
+	<string name="date_tag">"วันที่"</string>
+	<!---->
+	<string name="location_tag">"ตำแหน่ง"</string>
+	<!---->
+	<string name="slogan_tag">"สโลแกน"</string>
+	<!---->
+	<string name="polaroid_no_location">"ไม่มีสถานที่"</string>
+	<!---->
+	<string name="save_iamge_compelete">"ภาพได้ัรับการบันทึกในแกลอรี่แล้ว"</string>
+	<!---->
+	<string name="save_image_error">"ล้มเหลวในการบันทึกไฟล์"</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"ภาพเล็กเกินไป"</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"ขนาดเล็กสุดคือ 320 x 320 พิกเซล"</string>
+	<!---->
+	<string name="open_with">"เปิดด้วย"</string>
+	<!---->
+	<string name="moments_month_view">"ดูแบบเดือน"</string>
+	<!---->
+	<string name="moments_day_view">"ดูแบบวัน"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"ทั้งหมด"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"รูปภาพ"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"วิดีโอ"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"ฟายยูส"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"ภาพถ่ายแบบรัวนี้มีจำนวน %s ภาพ ลบทั้งหมดหรือไม่"</string>
+	<!---->
+	<string name="burst_mode_save_message">"เขียนทับภาพถ่ายแบบรัวหรือจัดเก็บเป็นภาพแยกต่างหาก"</string>
+	<!---->
+	<string name="burst_overwrite">"เขียนทับ"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"จัดเก็บเป็นภาพแยกต่างหาก"</string>
+	<!---->
+	<string name="burst_cancel">"ยกเลิก"</string>
+	<!---->
+	<string name="burst_delete">"ลบ"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"รายการโปรด"</string>
+	<!---->
+	<string name="select">"เลือก"</string>
+	<!---->
+	<string name="getstarted">"เริ่มต้นใช้งาน"</string>
+	<!---->
+	<string name="gotit">"เข้าใจแล้ว"</string>
+	<!---->
+	<string name="faceshow_start">"มีสิ่งประหลาดใจจริงๆ รอคุณอยู่ เมื่อคุณถ่ายภาพเซลฟี่ได้ถึงจำนวนหนึ่ง มาเริ่มต้นการเดินทางของคุณกันเถอะ!"</string>
+	<!---->
+	<string name="faceshow_takemore">"คุณต้องมีเซลฟีมากกว่านี้เพื่อสร้างเฟสโชว์ของคุณเอง"</string>
+	<!---->
+	<string name="selfies">"เซลฟี่"</string>
+	<!---->
+	<string name="parallax">"Parallax"</string>
+	<!---->
+	<string name="trim_title">"ยกเลิกการเปลี่ยนแปลง?"</string>
+	<!---->
+	<string name="trim_message">"การเปลี่ยนแปลงของคุณไม่ถูกบันทึก"</string>
+	<!---->
+	<string name="trim_discard">"ยกเลิก"</string>
+	<!---->
+	<string name="main_tab_moments">"ช่วงเวลาประทับใจ"</string>
+	<!---->
+	<string name="moments_show">"แสดง"</string>
+	<!---->
+	<string name="illegal_image_format">"รูปแบบรูปภาพผิดกฎหมาย ไม่สามารถแก้ไขได้"</string>
+	<!---->
+	<string name="exporting_video">"กำลังส่งออกวิดีโอ"</string>
+	<!---->
+	<string name="exporting_message">"การดำเนินการนี้อาจใช้เวลาสองถึงสามนาที โปรดรอสักครู่..."</string>
+	<!---->
+	<string name="share_save_video">"กำลังบันทึกวิดีโอไปยังแกลเลอรี่..."</string>
+	<!---->
+	<string name="share_saved">"บันทึกวิดีโอไปยังแกลเลอรี่แล้ว"</string>
+	<!---->
+	<string name="share_save_image">"กำลังบันทึกภาพไปยังแกลเลอรี่..."</string>
+	<!---->
+	<string name="share_image_saved">"บันทึกภาพไปยังแกลเลอรี่แล้ว"</string>
+	<!---->
+	<string name="location_permission_toast_text">"ไม่มีข้อมูลการระบุตำแหน่งจากกล้อง"</string>
+	<!---->
+	<string name="no_internet_contect_text">"ไม่มีการเชื่อมต่ออินเทอร์เน็ต"</string>
+	<!---->
+	<string name="more">"เพิ่มเติม"</string>
+	<!---->
+	<string name="moment_album_today">"วันนี้"</string>
+	<!---->
+	<string name="moment_album_yesterday">"เมื่อวานนี้"</string>
+	<!---->
+	<string name="location_destination_text">"จัดเรียงรูปและวิดีโอตามตำแหน่งใน Moments"</string>
+	<string-array name="month">
+		<item>"มกราคม"</item>
+		<item>"กุมภาพันธ์"</item>
+		<item>"มีนาคม"</item>
+		<item>"เมษายน"</item>
+		<item>"พฤษภาคม"</item>
+		<item>"มิถุนายน"</item>
+		<item>"กรกฎาคม"</item>
+		<item>"สิงหาคม"</item>
+		<item>"กันยายน"</item>
+		<item>"ตุลาคม"</item>
+		<item>"พฤศจิกายน"</item>
+		<item>"ธันวาคม"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"หากต้องการจัดเรียงรูปภาพและวิดีโอตามตำแหน่ง ให้อนุญาตสิทธิ์แกลลอรีเข้าถึงตำแหน่ง"</string>
+	<!---->
+	<string name="permission_location_settings">"การตั้งค่า"</string>
+	<!---->
+	<string name="boom_key_tip_1">"นำเสนอภาพถ่ายเป็นภาพตัดปะที่แตกต่างกันและสวยงาม"</string>
+	<!---->
+	<string name="boom_key_tip_2">"เริ่มต้นการแสดงภาพคอลลาจโดยใช้ปุ่มบูม"</string>
+	<!---->
+	<string name="boom_key_tip_3">"ทริกเกอร์การแสดงภาพตัดปะจากอัลบัม"</string>
+	<!---->
+	<string name="boom_key_tip_4">"ทริกเกอร์การแสดงภาพตัดปะจากตัวอย่างภาพถ่าย"</string>
+	<!---->
+	<string name="tx_skip">"ข้าม"</string>
+	<!---->
+	<string name="tx_done">"เสร็จสิ้น"</string>
+	<!---->
+	<string name="boom_key">"แป้นบูม"</string>
+	<!---->
+	<string name="press">"กด"</string>
+	<!---->
+	<string name="not_support_parallax_share">"ไม่สามารถแชร์ Fyuse จาก Moments ได้"</string>
+	<!---->
+	<string name="permissions_hi">"สวัสดี!"</string>
+	<!---->
+	<string name="not_support_video_edit">"ไม่รองรับรูปแบบวิดีโอนี้"</string>
+</resources>

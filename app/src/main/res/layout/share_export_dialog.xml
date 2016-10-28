@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="24dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    >
+
+    <TextView
+        android:id="@+id/exporting_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exporting_video"
+        android:textColor="#87000000"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/exporting_message"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exporting_title"
+        android:layout_marginTop="20dp"
+        android:text="@string/exporting_message"
+        android:textColor="#54000000"
+        android:textSize="16sp" />
+
+    <ProgressBar
+        android:id="@+id/exporting_progressbar"
+        android:layout_marginTop="20dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/exporting_message"
+        />
+
+    <TextView
+        android:layout_below="@id/exporting_progressbar"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/exporting_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:textColor="#00B4CB"/>
+
+</RelativeLayout>

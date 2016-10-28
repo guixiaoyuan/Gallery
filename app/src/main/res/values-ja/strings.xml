@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"ギャラリー"</string>
+	<!---->
+	<string name="gadget_title">"写真フレーム"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"動画プレーヤー"</string>
+	<!---->
+	<string name="loading_video">"動画を読み込み中..."</string>
+	<!---->
+	<string name="loading_image">"画像を読み込み中..."</string>
+	<!---->
+	<string name="loading_account">"アカウントを読み込み中..."</string>
+	<!---->
+	<string name="resume_playing_title">"ビデオを再開する"</string>
+	<!---->
+	<string name="resume_playing_message">"%sから再生を再開しますか？"</string>
+	<!---->
+	<string name="resume_playing_resume">"再生を再開する"</string>
+	<!---->
+	<string name="loading">"読み込み中..."</string>
+	<!---->
+	<string name="fail_to_load">"読み込めませんでした"</string>
+	<!---->
+	<string name="fail_trim">"ビデオファイルはトリミングできません。"</string>
+	<!---->
+	<string name="fail_to_load_image">"画像を読み込めませんでした"</string>
+	<!---->
+	<string name="no_thumbnail">"サムネイルなし"</string>
+	<!---->
+	<string name="resume_playing_restart">"再出発"</string>
+	<!---->
+	<string name="crop_save_text">"OK"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="multiface_crop_help">"始めるには顔をタップします"</string>
+	<!---->
+	<string name="saving_image">"写真を保存中…"</string>
+	<!---->
+	<string name="filtershow_saving_image">"画像を <xliff:g id="album_name">%1$s</xliff:g> に保存中\u2026"</string>
+	<!---->
+	<string name="save_error">"トリミングした画像を保存できません。"</string>
+	<!---->
+	<string name="crop_label">"トリミング"</string>
+	<!---->
+	<string name="trim_label">"動画のトリム"</string>
+	<!---->
+	<string name="select_image">"写真を選択"</string>
+	<!---->
+	<string name="select_video">"動画を選択"</string>
+	<!---->
+	<string name="select_item">"項目を選択"</string>
+	<!---->
+	<string name="select_album">"アルバムを選択"</string>
+	<!---->
+	<string name="select_group">"グループの選択"</string>
+	<!---->
+	<string name="set_image">"名前を付けて設定する..."</string>
+	<!---->
+	<string name="set_wallpaper">"壁紙に設定"</string>
+	<!---->
+	<string name="wallpaper">"壁紙を設定しています..."</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"壁紙"</string>
+	<!---->
+	<string name="delete">"削除"</string>
+	<!---->
+	<string name="deleting">"削除する"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"選択したアイテムを削除しますか？"</item>
+		<item quantity="other">"選択したアイテムを削除しますか？"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"確認"</string>
+	<!---->
+	<string name="cancel">"キャンセル"</string>
+	<!---->
+	<string name="share">"共有"</string>
+	<!---->
+	<string name="share_panorama">"パノラマのシェア"</string>
+	<!---->
+	<string name="share_as_photo">"写真としてシェア"</string>
+	<!---->
+	<string name="deleted">"削除済み"</string>
+	<!---->
+	<string name="undo">"元に戻す"</string>
+	<!---->
+	<string name="select_all">"すべて選択"</string>
+	<!---->
+	<string name="deselect_all">"選択をすべて解除"</string>
+	<!---->
+	<string name="slideshow">"スライドショー"</string>
+	<!---->
+	<string name="details">"詳細情報"</string>
+	<!---->
+	<string name="details_title">"%1$d/%2$d件のアイテム:"</string>
+	<!---->
+	<string name="close">"閉じる"</string>
+	<!---->
+	<string name="switch_to_camera">"カメラに切り替え"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d件選択済み"</item>
+		<item quantity="one">"%1$d件選択済み"</item>
+		<item quantity="other">"%1$d件選択済み"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d件選択済み"</item>
+		<item quantity="one">"%1$d件選択済み"</item>
+		<item quantity="other">"%1$d件選択済み"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d件選択済み"</item>
+		<item quantity="one">"%1$d件選択済み"</item>
+		<item quantity="other">"%1$d件選択済み"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"地図に表示"</string>
+	<!---->
+	<string name="rotate_left">"左に回転"</string>
+	<!---->
+	<string name="rotate_right">"右に回転"</string>
+	<!---->
+	<string name="no_such_item">"アイテムが見つかりませんでした。"</string>
+	<!---->
+	<string name="edit">"編集"</string>
+	<!---->
+	<string name="mix_video">"Mix"</string>
+	<!---->
+	<string name="simple_edit">"簡単編集"</string>
+	<!---->
+	<string name="process_caching_requests">"キャッシュリクエストを処理しています"</string>
+	<!---->
+	<string name="caching_label">"キャッシュ中..."</string>
+	<!---->
+	<string name="crop_action">"トリミング"</string>
+	<!---->
+	<string name="trim_action">"トリム"</string>
+	<!---->
+	<string name="mute_action">"ミュート"</string>
+	<!---->
+	<string name="set_as">"登録"</string>
+	<!---->
+	<string name="video_mute_err">"動画の音声をオフにできません。"</string>
+	<!---->
+	<string name="video_err">"動画を再生できません。"</string>
+	<!---->
+	<string name="group_by_location">"地域別"</string>
+	<!---->
+	<string name="group_by_time">"時間別"</string>
+	<!---->
+	<string name="group_by_tags">"タグ別"</string>
+	<!---->
+	<string name="group_by_faces">"人物別"</string>
+	<!---->
+	<string name="group_by_album">"アルバム別"</string>
+	<!---->
+	<string name="group_by_size">"サイズ別"</string>
+	<!---->
+	<string name="untagged">"タグなし"</string>
+	<!---->
+	<string name="no_location">"位置情報なし"</string>
+	<!---->
+	<string name="no_connectivity">"ネットワークの問題により一部の位置情報を特定できませんでした。"</string>
+	<!---->
+	<string name="sync_album_error">"このアルバムの画像をダウンロードできませんでした。しばらくしてからもう一度お試しください。"</string>
+	<!---->
+	<string name="show_images_only">"画像のみ"</string>
+	<!---->
+	<string name="show_videos_only">"動画のみ"</string>
+	<!---->
+	<string name="show_all">"画像と動画"</string>
+	<!---->
+	<string name="appwidget_title">"フォトギャラリー"</string>
+	<!---->
+	<string name="appwidget_empty_text">"画像がありません。"</string>
+	<!---->
+	<string name="crop_saved">"トリミングした画像を<xliff:g id="FOLDER_NAME">%s</xliff:g>に保存しました。"</string>
+	<!---->
+	<string name="no_albums_alert">"使用できるアルバムはありません"</string>
+	<!---->
+	<string name="empty_album">"使用できる画像/ビデオがありません"</string>
+	<!---->
+	<string name="picasa_posts">"投稿"</string>
+	<!---->
+	<string name="make_available_offline">"オフラインで使用する"</string>
+	<!---->
+	<string name="sync_picasa_albums">"再読み込み"</string>
+	<!---->
+	<string name="done">"完了"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d/%2$d件:"</string>
+	<!---->
+	<string name="title">"タイトル"</string>
+	<!---->
+	<string name="description">"説明"</string>
+	<!---->
+	<string name="time">"時刻"</string>
+	<!---->
+	<string name="location">"場所"</string>
+	<!---->
+	<string name="path">"パス"</string>
+	<!---->
+	<string name="width">"幅"</string>
+	<!---->
+	<string name="height">"高さ"</string>
+	<!---->
+	<string name="orientation">"画面の向き"</string>
+	<!---->
+	<string name="duration">"長さ"</string>
+	<!---->
+	<string name="mimetype">"MIMEタイプ"</string>
+	<!---->
+	<string name="file_size">"ファイルサイズ"</string>
+	<!---->
+	<string name="maker">"メーカー"</string>
+	<!---->
+	<string name="model">"モデル"</string>
+	<!---->
+	<string name="flash">"フラッシュ"</string>
+	<!---->
+	<string name="aperture">"絞り"</string>
+	<!---->
+	<string name="focal_length">"レンズ焦点距離"</string>
+	<!---->
+	<string name="white_balance">"ホワイトバランス"</string>
+	<!---->
+	<string name="exposure_time">"露出時間"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"mm"</string>
+	<!---->
+	<string name="manual">"マニュアル"</string>
+	<!---->
+	<string name="auto">"オート"</string>
+	<!---->
+	<string name="flash_on">"フラッシュON"</string>
+	<!---->
+	<string name="flash_off">"フラッシュOFF"</string>
+	<!---->
+	<string name="unknown">"通知不可能"</string>
+	<!---->
+	<string name="ffx_original">"オリジナル"</string>
+	<!---->
+	<string name="ffx_vintage">"ビンテージ"</string>
+	<!---->
+	<string name="ffx_instant">"インスタント"</string>
+	<!---->
+	<string name="ffx_bleach">"ブリーチ"</string>
+	<!---->
+	<string name="ffx_blue_crush">"青"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"モノクロ"</string>
+	<!---->
+	<string name="ffx_punch">"パンチ"</string>
+	<!---->
+	<string name="ffx_x_process">"X プロセス"</string>
+	<!---->
+	<string name="ffx_washout">"ラテ"</string>
+	<!---->
+	<string name="ffx_washout_color">"リトグラフ"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"アルバムをオフラインで利用できるようにしています。"</item>
+		<item quantity="other">"アルバムをオフラインで利用できるようにしています。"</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"このアイテムは端末に保存され、オフラインで利用できます。"</string>
+	<!---->
+	<string name="set_label_all_albums">"すべてのアルバム"</string>
+	<!---->
+	<string name="set_label_local_albums">"ローカルアルバム"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"MTPデバイス"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Picasaのアルバム"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="BYTES">%s</xliff:g>空き"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="SIZE">%1$s</xliff:g>以下"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="SIZE">%1$s</xliff:g>以上"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="MIN_SIZE">%1$s</xliff:g>～<xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"インポート"</string>
+	<!---->
+	<string name="import_complete">"インポート完了"</string>
+	<!---->
+	<string name="import_fail">"インポートできません"</string>
+	<!---->
+	<string name="camera_connected">"カメラが接続されました。"</string>
+	<!---->
+	<string name="camera_disconnected">"カメラの接続が解除されました。"</string>
+	<!---->
+	<string name="click_import">"インポートするにはここをタップします"</string>
+	<!---->
+	<string name="widget_type_album">"アルバムを選択"</string>
+	<!---->
+	<string name="widget_type_shuffle">"すべての画像をシャッフル"</string>
+	<!---->
+	<string name="widget_type_photo">"画像を選択"</string>
+	<!---->
+	<string name="widget_type">"画像の選択"</string>
+	<!---->
+	<string name="slideshow_dream_name">"スライドショー"</string>
+	<!---->
+	<string name="albums">"アルバム"</string>
+	<!---->
+	<string name="times">"時間"</string>
+	<!---->
+	<string name="locations">"ロケーション"</string>
+	<!---->
+	<string name="people">"人物"</string>
+	<!---->
+	<string name="tags">"タグ"</string>
+	<!---->
+	<string name="group_by">"グループ化"</string>
+	<!---->
+	<string name="settings">"設定"</string>
+	<!---->
+	<string name="add_account">"アカウントを追加"</string>
+	<!---->
+	<string name="folder_camera">"カメラ"</string>
+	<!---->
+	<string name="folder_download">"ダウンロード"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"編集されたオンラインの写真"</string>
+	<!---->
+	<string name="folder_imported">"インポート済み"</string>
+	<!---->
+	<string name="folder_screenshot">"スクリーンショット"</string>
+	<!---->
+	<string name="help">"ヘルプ"</string>
+	<!---->
+	<string name="no_external_storage_title">"ストレージなし"</string>
+	<!---->
+	<string name="no_external_storage">"利用可能な外部ストレージがありません"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"フィルムストリップ表示"</string>
+	<!---->
+	<string name="switch_photo_grid">"グリッド表示"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"フルスクリーン表示"</string>
+	<!---->
+	<string name="trimming">"トリム中"</string>
+	<!---->
+	<string name="muting">"音声をオフにしています"</string>
+	<!---->
+	<string name="please_wait">"お待ちください"</string>
+	<!---->
+	<string name="save_into">"動画を <xliff:g id="album_name">%1$s</xliff:g> に保存中\u2026"</string>
+	<!---->
+	<string name="trim_save_into">"<xliff:g id="album_name">%1$s</xliff:g>にトリミングしたファイルを保存"</string>
+	<!---->
+	<string name="mute_save_into">"<xliff:g id="album_name">%1$s</xliff:g>にミュートしたファイルを保存"</string>
+	<!---->
+	<string name="trim_too_short">"トリムできません：指定された動画の尺が短かすぎます"</string>
+	<!---->
+	<string name="mute_nosupport">"音声をオフにできません。動画がサポートされていません"</string>
+	<!---->
+	<string name="pano_progress_text">"パノラマをレンダリング中"</string>
+	<!---->
+	<string name="save">"保存"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"コンテンツをスキャン中..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d 個のアイテムをスキャンしました"</item>
+		<item quantity="one">"%1$d 個のアイテムをスキャンしました"</item>
+		<item quantity="other">"%1$d 個のアイテムをスキャンしました"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"%1$d 件のアイテムが選択されました"</item>
+		<item quantity="one">"%1$d 件のアイテムが選択されました"</item>
+		<item quantity="other">"%1$d 件のアイテムが選択されました"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"並び替え中..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"スキャンが完了しました"</string>
+	<!---->
+	<string name="ingest_importing">"インポート中..."</string>
+	<!---->
+	<string name="ingest_empty_device">"このデバイスにインポート可能なコンテンツがありません。"</string>
+	<!---->
+	<string name="ingest_no_device">"接続されている MTP デバイスがありません"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"カメラエラー"</string>
+	<!---->
+	<string name="cannot_connect_camera">"カメラに接続できません。"</string>
+	<!---->
+	<string name="camera_disabled">"カメラはセキュリティポリシーにより無効になっています。"</string>
+	<!---->
+	<string name="camera_label">"カメラ"</string>
+	<!---->
+	<string name="wait">"お待ちください..."</string>
+	<!---->
+	<string name="review_cancel">"キャンセル"</string>
+	<!---->
+	<string name="review_ok">"OK"</string>
+	<!---->
+	<string name="time_lapse_title">"低速度撮影"</string>
+	<!---->
+	<string name="pref_camera_id_title">"カメラを選択"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"戻る"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"正面"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"位置情報を記録する"</string>
+	<!---->
+	<string name="pref_camera_location_label">"場所"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"カウントダウン タイマー"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1秒"</item>
+		<item quantity="other">"%d 秒"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"カウントダウン中ビープする"</string>
+	<!---->
+	<string name="setting_off">"OFF"</string>
+	<!---->
+	<string name="setting_on">"オン"</string>
+	<!---->
+	<string name="pref_video_quality_title">"ビデオ品質"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"高"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"低"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"インターバル撮影"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"カメラ設定"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"ビデオ録画設定"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"表示サイズ"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13M ピクセル"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8Mピクセル"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5メガピクセル"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4M ピクセル"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3メガピクセル"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2メガピクセル"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2M ピクセル (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1.3メガピクセル"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1メガピクセル"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"フォーカスモード"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"オート"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"無限遠"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"マクロ"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"オート"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"無限遠"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"マクロ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"フラッシュモード"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"フラッシュモード"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"オート"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"オン"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"オフ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"フラッシュ自動"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"フラッシュ オン"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"フラッシュ オフ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"ホワイトバランス"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"ホワイトバランス"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"オート"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"白熱灯"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"昼光"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"蛍光灯"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"曇り"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"オート"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"白熱灯"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"昼光"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"蛍光灯"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"曇り"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"シーンモード"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"オート"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"操作"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"夜景"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"夕日"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"関係者"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"なし"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"操作"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"夜景"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"夕日"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"関係者"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"カウントダウン タイマー"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"タイマー オフ"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1秒"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3秒"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"<xliff:g id="DURATION">%1$d</xliff:g>秒（MMS）"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15秒"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"撮影モードでは選択できません。"</string>
+	<!---->
+	<string name="pref_exposure_title">"露出"</string>
+	<!---->
+	<string name="pref_exposure_label">"露出"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"フロント カメラ"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"バック カメラ"</string>
+	<!---->
+	<string name="dialog_ok">"OK"</string>
+	<!---->
+	<string name="video_reach_size_limit">"サイズ制限に達しました。"</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"速すぎます"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"パノラマを準備しています"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"パノラマを保存できませんでした。"</string>
+	<!---->
+	<string name="pano_dialog_title">"パノラマ"</string>
+	<!---->
+	<string name="pano_capture_indication">"パノラマを撮影中"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"前のパノラマを待機中"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"保存中..."</string>
+	<!---->
+	<string name="pano_review_rendering">"パノラマをレンダリング中"</string>
+	<!---->
+	<string name="tap_to_focus">"タップしてフォーカスします"</string>
+	<!---->
+	<string name="pref_video_effect_title">"効果"</string>
+	<!---->
+	<string name="effect_none">"なし"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"絞る"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"大きな目"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"大きな口"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"小さな口"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"大きな鼻"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"小さな目"</string>
+	<!---->
+	<string name="effect_backdropper_space">"スペースで"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"夕日"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"ビデオ"</string>
+	<!---->
+	<string name="bg_replacement_message">"端末をセッティングします。"\n"少しの間フレームの外に出ます。"</string>
+	<!---->
+	<string name="video_snapshot_hint">"録音・録画中に写真を撮影するにはタップします。"</string>
+	<!---->
+	<string name="video_recording_started">"録画を開始しました。"</string>
+	<!---->
+	<string name="video_recording_stopped">"録画を停止しました。"</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"動画スナップショットは特殊効果がONのときは無効です。"</string>
+	<!---->
+	<string name="clear_effects">"効果設定をクリア"</string>
+	<!---->
+	<string name="effect_silly_faces">"変顔"</string>
+	<!---->
+	<string name="effect_background">"背景"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"シャッターボタン"</string>
+	<!---->
+	<string name="accessibility_menu_button">"メニューボタン"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"最近の写真"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"前後カメラの切り替え"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"カメラ、ビデオ、パノラマの切り替え"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"その他の設定コントロール"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"設定コントロールを閉じる"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"ズームコントロール"</string>
+	<!---->
+	<string name="accessibility_decrement">"-%1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"+%1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s チェックボックス"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"カメラに切り替え"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"動画に切り替え"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"パノラマモードに切り替える"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"新しいパノラマに切り替える"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"再フォーカスに切り替える"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"レビュー - キャンセル"</string>
+	<!---->
+	<string name="accessibility_review_ok">"評価完了"</string>
+	<!---->
+	<string name="accessibility_review_retake">"評価やり直し"</string>
+	<!---->
+	<string name="accessibility_play_video">"動画の再生"</string>
+	<!---->
+	<string name="accessibility_pause_video">"動画の停止"</string>
+	<!---->
+	<string name="accessibility_reload_video">"動画の再読込み"</string>
+	<!---->
+	<string name="accessibility_time_bar">"動画 プレイヤー タイムバー"</string>
+	<!---->
+	<string name="capital_on">"オン"</string>
+	<!---->
+	<string name="capital_off">"オフ"</string>
+	<!---->
+	<string name="gif_err">"gif を再生できません。"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"オフ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0.5 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1.5 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2.5 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"<xliff:g id="DURATION">%1$d</xliff:g>秒（MMS）"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 秒"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0.5 分"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1分"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 分"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2分"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 分"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3分"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 分"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5分"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 分"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10分"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 分"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15分"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 分"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0.5 時間"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1時間"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1.5 時間"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2時間"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 時間"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3時間"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 時間"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 時間"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6時間"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 時間"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12時間"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 時間"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24時間"</string>
+	<!---->
+	<string name="time_lapse_seconds">"秒"</string>
+	<!---->
+	<string name="time_lapse_minutes">"分"</string>
+	<!---->
+	<string name="time_lapse_hours">"時間"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"完了"</string>
+	<!---->
+	<string name="set_time_interval">"タイムインターバルの設定"</string>
+	<!---->
+	<string name="set_time_interval_help">"タイムラプス機能がオフです。タイムインターバルを設定するにはオンにします。"</string>
+	<!---->
+	<string name="set_timer_help">"カウントダウン タイマーがオフです。写真を撮影する際にカウントダウンするにはオンにします。"</string>
+	<!---->
+	<string name="set_duration">"時間を秒で設定"</string>
+	<!---->
+	<string name="count_down_title_text">"写真撮影までのカウントダウンを実行中"</string>
+	<!---->
+	<string name="remember_location_title">"写真を撮った場所を覚えていますか？"</string>
+	<!---->
+	<string name="remember_location_prompt">"写真や動画に撮った場所のタグを付けます。\n\nその他のアプリも、保存された画像とともに、この情報にアクセスできます。"</string>
+	<!---->
+	<string name="remember_location_no">"必要ありません。"</string>
+	<!---->
+	<string name="remember_location_yes">"はい"</string>
+	<!---->
+	<string name="menu_camera">"カメラ"</string>
+	<!---->
+	<string name="menu_search">"検索"</string>
+	<!---->
+	<string name="tab_photos">"画像"</string>
+	<!---->
+	<string name="tab_albums">"アルバム"</string>
+	<!---->
+	<string name="camera_menu_more_label">"その他のオプション"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"設定"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d 枚の写真"</item>
+		<item quantity="other">"%1$d 枚の写真"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"サブタイトル"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"この動画はこの端末にストリーミングできません。"</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"この動画を再生できません。"</string>
+	<!---->
+	<string name="VideoView_error_button">"OK"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"このビデオはサポートされていません"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"接続できません。%1$dを再接続してください…"</string>
+	<!---->
+	<string name="media_controller_connecting">"接続しています..."</string>
+	<!---->
+	<string name="media_controller_buffering">"「%d%%をバッファーリング中...」"</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"サーバーに接続できません"</string>
+	<!---->
+	<string name="media_controller_live">"「ライブ」"</string>
+	<!---->
+	<string name="media_controller_playing">"「再生」"</string>
+	<!---->
+	<string name="notify_photo_text">"ギャラリーコントローラー"</string>
+	<!---->
+	<string name="notify_video_text">"ギャラリーコントローラー"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"Wi-Fi ディスプレイスライドショーが有効です"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"Wi-Fi ディスプレイ動画が有効です"</string>
+	<!---->
+	<string name="wfd_alert">"アラート"</string>
+	<!---->
+	<string name="wfd_change_message">"動画は置き換えられます。"</string>
+	<!---->
+	<string name="wfd_change_button">"はい"</string>
+	<!---->
+	<string name="wfd_not_change_button">"いいえ"</string>
+	<!---->
+	<string name="wfd_show">"Wi-Fi ディスプレイ"</string>
+	<!---->
+	<string name="wfd_show_on">"Wi-Fi ディスプレイをオンにする"</string>
+	<!---->
+	<string name="wfd_show_off">"Wi-Fi ディスプレイをオフにする"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"画面を共有するにはファイルを黄色の囲みにッドラッグします。"</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"指定されたタイプはサポートされていません"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"警告"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Wi-Fi ディスプレイが接続されているため、著作権保護されたファイルは非表示にされています。"</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"Wi-Fi ディスプレイをオフにする"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"次へ"</string>
+	<!---->
+	<string name="tv_link_close">"Wi-Fi ディスプレイを終了しました"</string>
+	<!---->
+	<string name="drm_no_valid_right">"ファイルには有効なDRM権限がありません。"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">"DRM ファイル "%s" の有効期限が切れました。削除しますか？"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"DRM ファイル "%s" の有効期限が切れました。ロック解除しますか？"</string>
+	<!---->
+	<string name="unlimited_usage">"無制限"</string>
+	<!---->
+	<string name="not_available">"該当なし"</string>
+	<!---->
+	<string name="use_times">"%s回使用"</string>
+	<!---->
+	<string name="valid_after">"以下から有効："</string>
+	<!---->
+	<string name="valid_until">"以下まで有効："</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"カメラ内でズームイン/ アウトするにはダブルタップしてスライド"</string>
+	<!---->
+	<string name="tips_done">"完了"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"ダブルタップしてスライドするとギャラリー内でズームイン/ アウト可能"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"1 本指ズームについて"</string>
+	<!---->
+	<string name="drm_current_right">"保護有効"</string>
+	<!---->
+	<string name="right_url">"ライセンス"</string>
+	<!---->
+	<string name="vendor">"ベンダー："</string>
+	<!---->
+	<string name="stop">"停止"</string>
+	<!---->
+	<string name="selectRenderer">"プレイヤーの選択"</string>
+	<!---->
+	<string name="noRenderer">"レンダリング デバイスが見つかりません"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"TV で動画を再生するのを中止しますか？"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"TV で画像を再生するのを中止しますか？"</string>
+	<!---->
+	<string name="play_video">"動画の再生"</string>
+	<!---->
+	<string name="shake_video_text">"TVで再生するには、ビデオページ上で電話をシェイクします。"</string>
+	<!---->
+	<string name="shake_picture_text">"TVで再生するには、画像ページ上で電話をシェイクします。"</string>
+	<!---->
+	<string name="wait_dialog">"プログラムが設定されるまでお待ちください。"</string>
+	<!---->
+	<string name="toast_nostop">"TVでの再生を停止するにはローカルプレイヤーを選択します"</string>
+	<!---->
+	<string name="dlna_format_not_support">"ファイルフォーマットはサポートされていません。"</string>
+	<!---->
+	<string name="left_title_camera_roll">"カメラロール"</string>
+	<!---->
+	<string name="left_title_timeline">"時間"</string>
+	<!---->
+	<string name="left_title_albums">"アルバム"</string>
+	<!---->
+	<string name="left_title_videos">"動画"</string>
+	<!---->
+	<string name="left_title_location">"ロケーション"</string>
+	<!---->
+	<string name="drawer_open">"ナビゲーションドロワーを起動します。"</string>
+	<!---->
+	<string name="drawer_close">"ナビゲーションドロワーを閉めます。"</string>
+	<!---->
+	<string name="photo_share">"共有先"</string>
+	<!---->
+	<string name="filtershow_save">"保存"</string>
+	<!---->
+	<string name="filtershow_none">"なし"</string>
+	<!---->
+	<string name="filtershow_frame">"フレーム"</string>
+	<!---->
+	<string name="drm_no_crop">"ファイル「%s」はDRMで保護されているため、トリミングできません。"</string>
+	<!---->
+	<string name="drm_no_contact_icon">"ファイル "%s"はDRM保護されているためアイコンを作成できません。"</string>
+	<!---->
+	<string name="never_tip">"起動時にヒントを表示"</string>
+	<!---->
+	<string name="three_finger_tips0">"画面に 3 本指を置きます。"</string>
+	<!---->
+	<string name="three_finger_tips1">"ファイルを黄色のエリアにドラッグします。"</string>
+	<!---->
+	<string name="three_finger_tips2">"エリアが黄色で記入されている場合、共有は成功です。"</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"drm file should not display through wifidisplay!"</string>
+	<!---->
+	<string name="filtershow_save_title">"変更を保存"</string>
+	<!---->
+	<string name="filtershow_save_message">"コピーとして保存するかオリジナルの画像を上書きしますか？"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"次回から表示しない"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"コピーを保存する"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"オリジナルを上書きする"</string>
+	<!---->
+	<string name="lock_video">"ロックされています"</string>
+	<!---->
+	<string name="unlock_video">"ロック解除されています"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRMライセンスの有効期限が切れています。"</string>
+	<!---->
+	<string name="drm_protection_status">"保護状態："</string>
+	<!---->
+	<string name="drm_can_forward">"転送できます。"</string>
+	<!---->
+	<string name="drm_can_not_forward">"転送できません。"</string>
+	<!---->
+	<string name="drm_no_license">"使用できるDRMライセンスがありません。"</string>
+	<!---->
+	<string name="drm_begin">"開始："</string>
+	<!---->
+	<string name="drm_no_limitation">"制限はありません。"</string>
+	<!---->
+	<string name="drm_end">"終了："</string>
+	<!---->
+	<string name="drm_use_left">"残り"</string>
+	<!---->
+	<string name="date_taken">"撮影日付"</string>
+	<!---->
+	<string name="modified_time">"変更時間"</string>
+	<!---->
+	<string name="fast_forward">"早送り%ds"</string>
+	<!---->
+	<string name="fast_backward">"巻き戻し%ds"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"ネットワークが再接続されました。再生を続行しますか？"</string>
+	<!---->
+	<string name="polaroid_action_open">"開く"</string>
+	<!---->
+	<string name="polaroid_action_save">"保存"</string>
+	<!---->
+	<string name="polaroid_action_send">"送信"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"ハグして"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"画像を保存しています..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"ポラロイドエディタ"</string>
+	<!---->
+	<string name="editor_select_filtershow">"エディタ（デフォルト）"</string>
+	<!---->
+	<string name="date_tag">"日付"</string>
+	<!---->
+	<string name="location_tag">"場所"</string>
+	<!---->
+	<string name="slogan_tag">"スローガン"</string>
+	<!---->
+	<string name="polaroid_no_location">"位置情報なし"</string>
+	<!---->
+	<string name="save_iamge_compelete">"写真はギャラリーに保存されました。"</string>
+	<!---->
+	<string name="save_image_error">"ファイルの保存に失敗しました。"</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"画像が小さすぎる"</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"最小サイズは320×320ピクセルです。"</string>
+	<!---->
+	<string name="open_with">"開く"</string>
+	<!---->
+	<string name="moments_month_view">"1 か月表示"</string>
+	<!---->
+	<string name="moments_day_view">"1 日表示"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"すべて"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"写真"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"動画"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"このバーストシーケンスには%s枚の写真が含まれています。すべて削除しますか?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"バーストショットを上書きしますか?それとも画像を個別に保存しますか?"</string>
+	<!---->
+	<string name="burst_overwrite">"上書き保存"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"画像を個別に保存"</string>
+	<!---->
+	<string name="burst_cancel">"キャンセル"</string>
+	<!---->
+	<string name="burst_delete">"Del"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"お気に入り"</string>
+	<!---->
+	<string name="select">"選択"</string>
+	<!---->
+	<string name="getstarted">"開始しています"</string>
+	<!---->
+	<string name="gotit">"了解"</string>
+	<!---->
+	<string name="faceshow_start">"自撮り画像が特定の枚数に達したら自撮り画像ショーを作成できます。"</string>
+	<!---->
+	<string name="faceshow_takemore">"自撮り画像ショーを作成するには、自撮り画像の枚数が足りません。"</string>
+	<!---->
+	<string name="selfies">"セルフィー"</string>
+	<!---->
+	<string name="parallax">"Parallax"</string>
+	<!---->
+	<string name="trim_title">"変更を破棄しますか?"</string>
+	<!---->
+	<string name="trim_message">"変更は保存されていません"</string>
+	<!---->
+	<string name="trim_discard">"破棄"</string>
+	<!---->
+	<string name="main_tab_moments">"Moments"</string>
+	<!---->
+	<string name="moments_show">"表示"</string>
+	<!---->
+	<string name="illegal_image_format">"不正な画像形式です。編集できません。"</string>
+	<!---->
+	<string name="exporting_video">"ビデオをエクスポートしています"</string>
+	<!---->
+	<string name="exporting_message">"これには数秒かかることがあります。お待ちください…"</string>
+	<!---->
+	<string name="share_save_video">"ビデオをギャラリーに保存しています…"</string>
+	<!---->
+	<string name="share_saved">"ビデオをギャラリーに保存しました。"</string>
+	<!---->
+	<string name="share_save_image">"画像をギャラリーに保存しています…"</string>
+	<!---->
+	<string name="share_image_saved">"画像をギャラリーに保存しました。"</string>
+	<!---->
+	<string name="location_permission_toast_text">"カメラからの位置情報がありません"</string>
+	<!---->
+	<string name="no_internet_contect_text">"インターネット未接続"</string>
+	<!---->
+	<string name="more">"その他"</string>
+	<!---->
+	<string name="moment_album_today">"今日"</string>
+	<!---->
+	<string name="moment_album_yesterday">"昨日"</string>
+	<!---->
+	<string name="location_destination_text">"Momentsの位置情報を条件に写真や動画を並べ替える"</string>
+	<string-array name="month">
+		<item>"1 月"</item>
+		<item>"2 月"</item>
+		<item>"3 月"</item>
+		<item>"4 月"</item>
+		<item>"5 月"</item>
+		<item>"6 月"</item>
+		<item>"7 月"</item>
+		<item>"8 月"</item>
+		<item>"9 月"</item>
+		<item>"10 月"</item>
+		<item>"11 月"</item>
+		<item>"12 月"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"位置情報を条件に写真や動画を並べ替えるには、ギャラリーによる位置情報へのアクセスを許可してください。"</string>
+	<!---->
+	<string name="permission_location_settings">"設定"</string>
+	<!---->
+	<string name="boom_key_tip_1">"コラージュで写真を表示"</string>
+	<!---->
+	<string name="boom_key_tip_2">"ブームキーを使ってコラージュショーを開始"</string>
+	<!---->
+	<string name="boom_key_tip_3">"アルバムからのコラージュショーを開始"</string>
+	<!---->
+	<string name="boom_key_tip_4">"写真プレビューからのコラージュショーを開始"</string>
+	<!---->
+	<string name="tx_skip">"スキップ"</string>
+	<!---->
+	<string name="tx_done">"完了"</string>
+	<!---->
+	<string name="boom_key">"Boom Key"</string>
+	<!---->
+	<string name="press">"押す"</string>
+	<!---->
+	<string name="not_support_parallax_share">"モーメンツから Fyuse を共有できません"</string>
+	<!---->
+	<string name="permissions_hi">"こんにちは"</string>
+	<!---->
+	<string name="not_support_video_edit">"ビデオフォーマットには対応していません。"</string>
+</resources>

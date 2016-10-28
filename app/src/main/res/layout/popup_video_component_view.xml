@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_view_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:padding="2dp" >
+
+    <com.android.gallery3d.popupvideo.TctPopupVideoView android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView android:id="@+id/audio_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/popup_video_audio_cover"
+        android:visibility="invisible" />
+
+    <ImageButton android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/popup_video_close"
+        android:layout_gravity="top|right"
+        android:background="@android:color/transparent"
+        android:visibility="visible" />
+</FrameLayout>

@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"গ্যালারি"</string>
+	<!---->
+	<string name="gadget_title">"ছবির ফ্রেম"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"ভিডিও প্লেয়ার"</string>
+	<!---->
+	<string name="loading_video">"\u2026 ভিডিও লোড করা"</string>
+	<!---->
+	<string name="loading_image">"ইমেজ লোড করা হচ্ছে\u2026"</string>
+	<!---->
+	<string name="loading_account">"একাউন্ট লোড করা\u2026"</string>
+	<!---->
+	<string name="resume_playing_title">"ভিডিও পুনরায় চালু করা"</string>
+	<!---->
+	<string name="resume_playing_message">"%s থেকে ভিডিও পুনরায় চালু করব ?"</string>
+	<!---->
+	<string name="resume_playing_resume">"প্লে পুনরায় চালু করা"</string>
+	<!---->
+	<string name="loading">"লোড হচ্ছে\u2026"</string>
+	<!---->
+	<string name="fail_to_load">"না পারে \ \' টি চাহিদার"</string>
+	<!-- no translation found for fail_trim -->
+	<skip />
+	<!---->
+	<string name="fail_to_load_image">"না পারে \ \' টি ইমেজ লোড"</string>
+	<!---->
+	<string name="no_thumbnail">"কোন থাম্বনেইল নেই"</string>
+	<!---->
+	<string name="resume_playing_restart">"চালু করা"</string>
+	<!---->
+	<string name="crop_save_text">"ঠিকআছে"</string>
+	<!---->
+	<string name="ok">"ক্রপ করুন"</string>
+	<!---->
+	<string name="multiface_crop_help">"শুরু করার জন্য একটি ফেস স্পর্শ করুন।"</string>
+	<!---->
+	<string name="saving_image">"ছবি সংরক্ষণ করা হচ্ছে\u2026"</string>
+	<!---->
+	<string name="filtershow_saving_image">"<xliff:g id="album_name">%1$s</xliff:g> \u2026 - তে ছবি সংরক্ষণ করা হচ্ছে"</string>
+	<!---->
+	<string name="save_error">"ক্রপ করা ছবি সংরক্ষণ করতে পারেনি।"</string>
+	<!---->
+	<string name="crop_label">"ছবি ক্রপ করুন"</string>
+	<!---->
+	<string name="trim_label">"ভিডিও ছাঁটাই করুন"</string>
+	<!---->
+	<string name="select_image">"ছবি নির্বাচন করুন"</string>
+	<!---->
+	<string name="select_video">"ভিডিও নির্বাচন করুন"</string>
+	<!---->
+	<string name="select_item">"আইটেম নির্বাচন করুন"</string>
+	<!---->
+	<string name="select_album">"অ্যালবাম নির্বাচন করুন"</string>
+	<!---->
+	<string name="select_group">"গ্রুপ নির্বাচন করুন"</string>
+	<!---->
+	<string name="set_image">"সেট করুন এই রূপে..."</string>
+	<!---->
+	<string name="set_wallpaper">"ওয়ালপেপার সেট করুন"</string>
+	<!---->
+	<string name="wallpaper">"ওয়ালপেপার সেট করছে\u2026"</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"ওয়ালপেপার"</string>
+	<!---->
+	<string name="delete">"মুছুন"</string>
+	<!---->
+	<string name="deleting">"মুছে ফেলা হচ্ছে"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"নির্বাচিত আইটেম মুছে ফেলতে চান?"</item>
+		<item quantity="other">"নির্বাচিত আইটেম মুছে ফেলতে চান?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"ঠিক আছে"</string>
+	<!---->
+	<string name="cancel">"বাতিল করুন"</string>
+	<!---->
+	<string name="share">"শেয়ার করুন"</string>
+	<!---->
+	<string name="share_panorama">"বিস্তৃত দৃশ্যাবলী শেয়ার করুন"</string>
+	<!---->
+	<string name="share_as_photo">"ছবি হিসাবে শেয়ার করুন"</string>
+	<!---->
+	<string name="deleted">"মুছে ফেলা হয়েছে"</string>
+	<!---->
+	<string name="undo">"আনডু"</string>
+	<!---->
+	<string name="select_all">"সব নির্বাচন করুন"</string>
+	<!---->
+	<string name="deselect_all">"সব নির্বাচনমুক্ত করুন"</string>
+	<!---->
+	<string name="slideshow">"স্লাইড শো"</string>
+	<!---->
+	<string name="details">"বিস্তারিত"</string>
+	<!---->
+	<string name="details_title">"%2$d আইটেমের %1$d:"</string>
+	<!---->
+	<string name="close">"বন্ধ করুন"</string>
+	<!---->
+	<string name="switch_to_camera">"ক্যামেরাতে যান"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d নির্বাচিত"</item>
+		<item quantity="one">"%1$d নির্বাচিত"</item>
+		<item quantity="other">"%1$d নির্বাচিত"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d নির্বাচিত"</item>
+		<item quantity="one">"%1$d নির্বাচিত"</item>
+		<item quantity="other">"%1$d নির্বাচিত"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d নির্বাচিত"</item>
+		<item quantity="one">"%1$d নির্বাচিত"</item>
+		<item quantity="other">"%1$d নির্বাচিত"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"মানচিত্রে দেখান"</string>
+	<!---->
+	<string name="rotate_left">"বাঁদিক দিয়ে ঘুরান"</string>
+	<!---->
+	<string name="rotate_right">"ডানদিক দিয়ে ঘুরান"</string>
+	<!---->
+	<string name="no_such_item">"আইটেম পায়নি।"</string>
+	<!---->
+	<string name="edit">"সম্পাদনা করুন"</string>
+	<!-- no translation found for mix_video -->
+	<skip />
+	<!---->
+	<string name="simple_edit">"সরল সম্পাদনা"</string>
+	<!---->
+	<string name="process_caching_requests">"ক্যাশে রাখা অনুরোধ প্রক্রিয়াকরণ করা"</string>
+	<!---->
+	<string name="caching_label">"ক্যাশে রাখা\u2026"</string>
+	<!---->
+	<string name="crop_action">"ক্রপ করুন"</string>
+	<!---->
+	<string name="trim_action">"ছাঁটাই"</string>
+	<!---->
+	<string name="mute_action">"নিঃশব্দ"</string>
+	<!---->
+	<string name="set_as">"সেট করুন"</string>
+	<!---->
+	<string name="video_mute_err">"টি নিঃশব্দ ভিডিও \ পারি ."</string>
+	<!---->
+	<string name="video_err">"ভিডিও প্লে করতে পারছেন না ."</string>
+	<!---->
+	<string name="group_by_location">"লোকেশন অনুসারে"</string>
+	<!---->
+	<string name="group_by_time">"সময় অনুসারে"</string>
+	<!---->
+	<string name="group_by_tags">"ট্যাগ অনুসারে"</string>
+	<!---->
+	<string name="group_by_faces">"মানুষ অনুসারে"</string>
+	<!---->
+	<string name="group_by_album">"অ্যালবাম অনুসারে"</string>
+	<!---->
+	<string name="group_by_size">"আয়তন অনুসারে"</string>
+	<!---->
+	<string name="untagged">"ট্যাগ ছাড়া"</string>
+	<!---->
+	<string name="no_location">"কোন লোকেশন নেই"</string>
+	<!---->
+	<string name="no_connectivity">"নেটওয়ার্কের সমস্যার জন্য কিছু লোকেশন চিহ্নিত করা যায়নি।"</string>
+	<!---->
+	<string name="sync_album_error">"এই অ্যালবামে ছবিগুলি ডাউনলোড করা যায়নি। পরে আবার চেষ্টা করুন।"</string>
+	<!---->
+	<string name="show_images_only">"কেবল ছবি"</string>
+	<!---->
+	<string name="show_videos_only">"কেবল ভিডিও"</string>
+	<!---->
+	<string name="show_all">"ছবি এবং ভিডিও"</string>
+	<!---->
+	<string name="appwidget_title">"ছবির গ্যালারি"</string>
+	<!---->
+	<string name="appwidget_empty_text">"কোন ছবি নেই।"</string>
+	<!---->
+	<string name="crop_saved">"ছাঁটাই করা চিত্র সংরক্ষিত হয়েছে <xliff:g id="folder_name">%s</xliff:g> - তে"</string>
+	<!---->
+	<string name="no_albums_alert">"কোন অ্যালবাম নেই।"</string>
+	<!-- no translation found for empty_album -->
+	<skip />
+	<!---->
+	<string name="picasa_posts">"পোস্ট"</string>
+	<!---->
+	<string name="make_available_offline">"অফলাইনে পাওয়ার ব্যবস্থা করুন"</string>
+	<!---->
+	<string name="sync_picasa_albums">"রিফ্রেশ করুন"</string>
+	<!---->
+	<string name="done">"সম্পন্ন"</string>
+	<!---->
+	<string name="sequence_in_set">"%2$d আইটেমের %1$d:"</string>
+	<!---->
+	<string name="title">"শিরোনাম"</string>
+	<!---->
+	<string name="description">"বর্ণনা"</string>
+	<!---->
+	<string name="time">"সময়"</string>
+	<!---->
+	<string name="location">"লোকেশন"</string>
+	<!---->
+	<string name="path">"পাথ"</string>
+	<!---->
+	<string name="width">"প্রস্থ"</string>
+	<!---->
+	<string name="height">"দৈর্ঘ্য"</string>
+	<!---->
+	<string name="orientation">"পরিচিতি"</string>
+	<!---->
+	<string name="duration">"ব্যাপ্তিকাল"</string>
+	<!---->
+	<string name="mimetype">"এমআইএমই ধরন"</string>
+	<!---->
+	<string name="file_size">"ফাইলের আয়তন"</string>
+	<!---->
+	<string name="maker">"মেকার"</string>
+	<!---->
+	<string name="model">"মডেল"</string>
+	<!---->
+	<string name="flash">"ফ্ল্যাশ"</string>
+	<!---->
+	<string name="aperture">"অ্যাপারচার"</string>
+	<!---->
+	<string name="focal_length">"ফোকাল দৈর্ঘ্য"</string>
+	<!---->
+	<string name="white_balance">"হোয়াইট ব্যালেন্স"</string>
+	<!---->
+	<string name="exposure_time">"এক্সপোজার টাইম"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"এমএম"</string>
+	<!---->
+	<string name="manual">"ম্যানুয়েল"</string>
+	<!---->
+	<string name="auto">"স্বয়ংক্রিয়"</string>
+	<!---->
+	<string name="flash_on">"ফ্ল্যাশ ফায়ারর্ড"</string>
+	<!---->
+	<string name="flash_off">"কোন ফ্ল্যাশ ছাড়া"</string>
+	<!---->
+	<string name="unknown">"অপরিচিত"</string>
+	<!---->
+	<string name="ffx_original">"মূল"</string>
+	<!---->
+	<string name="ffx_vintage">"সাবেকী"</string>
+	<!---->
+	<string name="ffx_instant">"তাৎক্ষণিক"</string>
+	<!---->
+	<string name="ffx_bleach">"ব্লীচ"</string>
+	<!---->
+	<string name="ffx_blue_crush">"নীল"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"B/W"</string>
+	<!---->
+	<string name="ffx_punch">"মুষ্টি"</string>
+	<!---->
+	<string name="ffx_x_process">"X প্রক্রিয়া"</string>
+	<!---->
+	<string name="ffx_washout">"লেটে"</string>
+	<!---->
+	<string name="ffx_washout_color">"লিথো"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"অফলাইনে অ্যালবাম পাবার ব্যবস্থা করুন।"</item>
+		<item quantity="other">"অফলাইনে অ্যালবাম পাবার ব্যবস্থা করুন।"</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"এই আইটেমটি স্থানীয়ভাবে সংরক্ষণ করা হয়েছে এবং অফলাইনে পাওয়া যায়।"</string>
+	<!---->
+	<string name="set_label_all_albums">"সব অ্যালবাম"</string>
+	<!---->
+	<string name="set_label_local_albums">"স্থানীয় অ্যালবাম"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"এমটিপি ডিভাইস"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"পিকাসা অ্যালবাম"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="bytes">%s</xliff:g> ফ্রি"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="size">%1$s</xliff:g> বা তার কম"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="size">%1$s</xliff:g> বা তার বেশি"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="min_size">%1$s</xliff:g> to <xliff:g id="max_size">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"আমদানি করুন"</string>
+	<!---->
+	<string name="import_complete">"আমদানি সম্পন্ন"</string>
+	<!---->
+	<string name="import_fail">"Import unsuccessful"</string>
+	<!---->
+	<string name="camera_connected">"ক্যামেরা সংযুক্ত।"</string>
+	<!---->
+	<string name="camera_disconnected">"ক্যামেরা বিচ্ছিন্ন।"</string>
+	<!---->
+	<string name="click_import">"আমদানি করার জন্য এখানে স্পর্শ করুন"</string>
+	<!---->
+	<string name="widget_type_album">"একটি অ্যালবাম বাছাই করুন"</string>
+	<!---->
+	<string name="widget_type_shuffle">"সব ছবি অদল-বদল করুন"</string>
+	<!---->
+	<string name="widget_type_photo">"একটি ছবি বাছাই করুন"</string>
+	<!---->
+	<string name="widget_type">"ছবি বাছাই করুন"</string>
+	<!---->
+	<string name="slideshow_dream_name">"স্লাইডশো"</string>
+	<!---->
+	<string name="albums">"অ্যালবাম"</string>
+	<!---->
+	<string name="times">"সময়"</string>
+	<!---->
+	<string name="locations">"লোকেশন"</string>
+	<!---->
+	<string name="people">"মানুষ"</string>
+	<!---->
+	<string name="tags">"ট্যাগ"</string>
+	<!---->
+	<string name="group_by">"গ্রুপ অনুসারে"</string>
+	<!---->
+	<string name="settings">"সেটিং"</string>
+	<!---->
+	<string name="add_account">"একাউন্ট যোগ করুন"</string>
+	<!---->
+	<string name="folder_camera">"ক্যামেরা"</string>
+	<!---->
+	<string name="folder_download">"ডাউনলোড"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"অনলাইন ছবিসমূহ সম্পাদন করুন"</string>
+	<!---->
+	<string name="folder_imported">"আমদানি করা হয়েছে"</string>
+	<!---->
+	<string name="folder_screenshot">"স্ক্রিনশট"</string>
+	<!---->
+	<string name="help">"সাহায্য করুন"</string>
+	<!---->
+	<string name="no_external_storage_title">"স্টোরেজ নেই"</string>
+	<!---->
+	<string name="no_external_storage">"কোনও বাহ্যিক স্টোরেজ লভ্য নেই"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"ফিল্মস্ট্রিপ প্রদর্শন"</string>
+	<!---->
+	<string name="switch_photo_grid">"গ্রিড প্রদর্শন"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"স্ক্রীন জুড়ে প্রদর্শন দেখুন"</string>
+	<!---->
+	<string name="trimming">"ছাঁটাই চলছে"</string>
+	<!---->
+	<string name="muting">"muting"</string>
+	<!---->
+	<string name="please_wait">"অনুগ্রহ করে অপেক্ষা করুন"</string>
+	<!---->
+	<string name="save_into">"অ্যালবামে ছাঁটাই করা ভিডিও সংরক্ষণ করুন:"</string>
+	<!-- no translation found for trim_save_into -->
+	<skip />
+	<!-- no translation found for mute_save_into -->
+	<skip />
+	<!---->
+	<string name="trim_too_short">"ছাঁটাই করা যায় না : উদ্দিষ্ট ভিডিও খুব ছোট"</string>
+	<!---->
+	<string name="mute_nosupport">"নীরব করতে পারবেন সমর্থিত নয় ভিডিও"</string>
+	<!---->
+	<string name="pano_progress_text">"বিস্তৃত দৃশ্যাবলী রূপান্তরণ"</string>
+	<!---->
+	<string name="save">"সংরক্ষণ করুন"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"সামগ্রী স্ক্যান হচ্ছে ..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"স্ক্যান %1$d আইটেম"</item>
+		<item quantity="one">"%1$d আইটেম স্ক্যান করা"</item>
+		<item quantity="other">"স্ক্যান %1$d আইটেম"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"% 1 $ d টি আইটেম নির্বাচিত"</item>
+		<item quantity="one">"% 1 $ d টি আইটেম নির্বাচিত"</item>
+		<item quantity="other">"% 1 $ d টি আইটেম নির্বাচিত"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"বাছাই ..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"স্ক্যান সম্পন্ন"</string>
+	<!---->
+	<string name="ingest_importing">"আমদানি হচ্ছে ..."</string>
+	<!---->
+	<string name="ingest_empty_device">"এই ডিভাইসে আমদানি নেওয়া কোনো বিষয়বস্তু নেই ."</string>
+	<!---->
+	<string name="ingest_no_device">"ছিলেন কোন MTP ডিভাইসের নেই"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"ক্যামেরা ত্রুটি"</string>
+	<!---->
+	<string name="cannot_connect_camera">"ক্যামেরার সাথে সংযোগ করতে পারছে না।"</string>
+	<!---->
+	<string name="camera_disabled">"নিরাপত্তা নীতির কারণে ক্যামেরা নিষ্ক্রিয় করা আছে।"</string>
+	<!---->
+	<string name="camera_label">"ক্যামেরা"</string>
+	<!---->
+	<string name="wait">"অপেক্ষা করুন\u2026"</string>
+	<!---->
+	<string name="review_cancel">"বাতিল করুন"</string>
+	<!---->
+	<string name="review_ok">"সম্পন্ন"</string>
+	<!---->
+	<string name="time_lapse_title">"টাইম ল্যাপস রেকর্ডিং"</string>
+	<!---->
+	<string name="pref_camera_id_title">"ক্যামেরা পছন্দ করুন"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"পেছনে"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"সামনে"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"লোকেশন সংরক্ষণ করুন"</string>
+	<!---->
+	<string name="pref_camera_location_label">"লোকেশন"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"সূচনা সময় হুইসেল"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 সেকেন্ড"</item>
+		<item quantity="other">"%d সেকেন্ডের"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"স্কিন টোন উন্নত বৈশিষ্ট্য"</string>
+	<!---->
+	<string name="setting_off">"বন্ধ"</string>
+	<!---->
+	<string name="setting_on">"চালু"</string>
+	<!---->
+	<string name="pref_video_quality_title">"ভিডিও\'র গুণগতমান"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"উচ্চ"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"নিম্ন"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"টাইম ল্যাপস রেকর্ডিং"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"ক্যামেরা সেটিং"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"ক্যামকর্ডার সেটিং"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"ছবির সাইজ"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13M পিক্সেল"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"৮এম পিক্সেল"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"৫এম পিক্সেল"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4M পিক্সেল"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"৩এম পিক্সল"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"২এম পিক্সল"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2M পিক্সেল ( 16:9 )"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1.3M পিক্সেল"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1M পিক্সেল"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"ফোকাস মোড"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"স্বয়ংক্রিয়"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"ইনফিনিটি"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"ম্যাক্রো"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"স্বয়ংক্রিয়"</string>
+	<!-- no translation found for pref_camera_focusmode_label_infinity -->
+	<skip />
+	<!-- no translation found for pref_camera_focusmode_label_macro -->
+	<skip />
+	<!---->
+	<string name="pref_camera_flashmode_title">"ফ্ল্যাশ মোড"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"ফ্ল্যাশ মোড"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"স্বয়ংক্রিয়"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"চালু"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"বন্ধ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"ফ্ল্যাশ অটো"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"ফ্ল্যাশ উপর"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"ফ্ল্যাশ বন্ধ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"হোয়াইট ব্যালেন্স"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"হোয়াইট ব্যালেন্স"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"স্বয়ংক্রিয়"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"ইনক্যানডিসেন্ট"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"দিনের আলো"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"প্রতিপ্রভ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"মেঘলা"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"স্বয়ংক্রিয়"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"ইনক্যানডিসেন্ট"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"দিনের আলো"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"প্রতিপ্রভ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"মেঘলা"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"দৃশ্য মোড"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"স্বয়ংক্রিয়"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"অ্যাকশন"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"রাত"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"সূর্যাস্ত"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"পার্টি"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"কখনও নয়"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"অ্যাকশন"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"রাত"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"সূর্যাস্ত"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"পার্টি"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"গণণা টাইমার"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"টাইমার বন্ধ"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 সেকেন্ড"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"৩ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"১০ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"১৫ সেকেন্ড"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"দৃশ্য মোডে নির্বাচনযোগ্য নয়।"</string>
+	<!---->
+	<string name="pref_exposure_title">"উন্মোচন"</string>
+	<!---->
+	<string name="pref_exposure_label">"উন্মোচন"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"সামনের ক্যামেরা"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"পিছনে ক্যামেরা"</string>
+	<!---->
+	<string name="dialog_ok">"ঠিক আছে"</string>
+	<!---->
+	<string name="video_reach_size_limit">"আয়তন সীমায় পৌঁছে গেছে।"</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"অতি দ্রুত"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"বিস্তৃত দৃশ্যপট তৈরি করছে"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"বিস্তৃত দৃশ্যপট সংরক্ষণ করা যাচ্ছে না।"</string>
+	<!---->
+	<string name="pano_dialog_title">"বিস্তৃত দৃশ্যাবলী"</string>
+	<!---->
+	<string name="pano_capture_indication">"বিস্তৃত দৃশপটের ছবি নিচ্ছে"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"পূর্ববর্তী পরিদৃশ্য জন্য অপেক্ষা করা"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"সংরক্ষণ করা হচ্ছে\u2026"</string>
+	<!---->
+	<string name="pano_review_rendering">"বিস্তৃত দৃশ্যাবলী রূপান্তরণ"</string>
+	<!---->
+	<string name="tap_to_focus">"ফোকাস করতে স্পর্শ করুন"</string>
+	<!---->
+	<string name="pref_video_effect_title">"ইফেক্ট"</string>
+	<!---->
+	<string name="effect_none">"কখনও নয়"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"চেপে ধরুন"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"বড় চোখ"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"বড় মুখ"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"ছোট মুখ"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"বড় নাক"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"ছোট চোখ"</string>
+	<!---->
+	<string name="effect_backdropper_space">"ইন স্পেস"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"সূর্যাস্ত"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"আপনার ভিডিও"</string>
+	<!---->
+	<string name="bg_replacement_message">"আপনার ডিভাইস নিচে সেট করুন. \ NStep দেখুন আউট একটি মুহূর্ত জন্য ."</string>
+	<!---->
+	<string name="video_snapshot_hint">"রেকর্ড করার সময় ছবি তুলতে স্পর্শ করুন"</string>
+	<!---->
+	<string name="video_recording_started">"ভিডিও রেকর্ডিং শুরু হয়েছে ."</string>
+	<!---->
+	<string name="video_recording_stopped">"ভিডিও রেকর্ডিং করা বন্ধ করে দিয়েছে ."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"বিশেষ প্রভাব চালু অবস্থায় ভিডিও স্ন্যাপশট নিষ্ক্রিয় থাকে।"</string>
+	<!---->
+	<string name="clear_effects">"প্রভাব মুছে ফেলুন"</string>
+	<!---->
+	<string name="effect_silly_faces">"বোকাটে চেহারা"</string>
+	<!---->
+	<string name="effect_background">"ব্যাকগ্রাউন্ড"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"শাটার বাটন"</string>
+	<!---->
+	<string name="accessibility_menu_button">"মেনু বাটন"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"সর্বসাম্প্রতিক ছবি"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"সামনের ও পেছনের ক্যামেরার সুইচ"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"ক্যামেরা, ভিডিও, বা বিস্তৃত দৃশ্যপট নির্বাচক"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"আরো সেটিং নিয়ন্ত্রণ"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"সেটিং নিয়ন্ত্রণ বন্ধ করুন"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"জুম নিয়ন্ত্রণ"</string>
+	<!---->
+	<string name="accessibility_decrement">"কমান %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"বাড়ান %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s গুলি চেক বক্স"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"ছবির পরিবর্তন করুন"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"ভিডিওতে যান"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"বিস্তৃত দৃশ্যাবলী মোডে যান"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"নতুন পরিদৃশ্য পরিবর্তন করুন"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Refocus বাছাই করুন"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"পর্যালোচনা বাতিল"</string>
+	<!---->
+	<string name="accessibility_review_ok">"পর্যালোচনা সম্পন্ন"</string>
+	<!---->
+	<string name="accessibility_review_retake">"পর্যালোচনা RETAKE"</string>
+	<!---->
+	<string name="accessibility_play_video">"ভিডিও প্লে"</string>
+	<!---->
+	<string name="accessibility_pause_video">"ভিডিও বিরাম"</string>
+	<!---->
+	<string name="accessibility_reload_video">"ভিডিও পুনরায় লোড করুন"</string>
+	<!---->
+	<string name="accessibility_time_bar">"ভিডিও প্লেয়ার সময় বার"</string>
+	<!---->
+	<string name="capital_on">"চালু"</string>
+	<!---->
+	<string name="capital_off">"বন্ধ"</string>
+	<!---->
+	<string name="gif_err">"\ \' টি GIF চালাতে পারবেন না ."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"বন্ধ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0.5 দ্বিতীয়"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1.5  সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"২ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2.5 সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"৩ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"৪ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"৫ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"৬ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"১০ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 সেকেন্ডের"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"১৫ সেকেন্ড"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 সেকেন্ডের"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0.5 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"২ মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"৫ মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"১০ মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"১৫ মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 মিনিট"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0.5 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1.5 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"২ ঘণ্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"৩ ঘণ্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 ঘন্টা"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"২৪ ঘণ্টা"</string>
+	<!---->
+	<string name="time_lapse_seconds">"সেকেন্ডের"</string>
+	<!---->
+	<string name="time_lapse_minutes">"মিনিট"</string>
+	<!---->
+	<string name="time_lapse_hours">"ঘণ্টা"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"সম্পন্ন"</string>
+	<!---->
+	<string name="set_time_interval">"সময়ের ব্যবধান সেট করুন"</string>
+	<!---->
+	<string name="set_time_interval_help">"সময় ভ্রষ্টতা বৈশিষ্ট্য বন্ধ. সময়ের ব্যবধান সেট করতে এটি চালু করুন ."</string>
+	<!---->
+	<string name="set_timer_help">"গণণা টাইমার বন্ধ. একটি ছবি গ্রহণ করার আগে নিচে গণনা করতে এটি চালু করুন ."</string>
+	<!---->
+	<string name="set_duration">"সেকেন্ডের মধ্যে সময়কাল সেট করুন"</string>
+	<!---->
+	<string name="count_down_title_text">"একটি ছবির নিতে নিচে বেড়ে চলেছে"</string>
+	<!---->
+	<string name="remember_location_title">"ছবির অবস্থানের মনে রাখুন?"</string>
+	<!---->
+	<string name="remember_location_prompt">"তারা নেয়া হয় যেখানে অবস্থানের সঙ্গে আপনার ফটো এবং ভিডিও ট্যাগ. \ N \ n nother অ্যাপ্লিকেশান আপনার সংরক্ষিত ইমেজ বরাবর এই তথ্য ব্যবহার করতে পারবেন."</string>
+	<!---->
+	<string name="remember_location_no">"না ধন্যবাদ"</string>
+	<!---->
+	<string name="remember_location_yes">"হ্যা"</string>
+	<!---->
+	<string name="menu_camera">"ক্যামেরা"</string>
+	<!---->
+	<string name="menu_search">"অনুসন্ধান করুন"</string>
+	<!---->
+	<string name="tab_photos">"ছবি"</string>
+	<!---->
+	<string name="tab_albums">"অ্যালবাম"</string>
+	<!---->
+	<string name="camera_menu_more_label">"আরো অপশন"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"সেটিং"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d ফটো"</item>
+		<item quantity="other">"%1$d ছবি"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"সাবটাইটেল"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"এই ডিভাইসে চালানোর জন্য এই ভিডিও অকার্যকর।"</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"এই ভিডিও চালানো যাবে না।"</string>
+	<!---->
+	<string name="VideoView_error_button">"ঠিক আছে"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"এই ভিডিও সমর্থিত নয়।"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"সংযোগ ব্যর্থ, পুনরায় সংযোগের চেষ্টা করুন %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"সংযুক্ত হচ্ছে..."</string>
+	<!---->
+	<string name="media_controller_buffering">"বাফার হচ্ছে %d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"সার্ভারের সাথে সংযুক্ত হচ্ছে না"</string>
+	<!---->
+	<string name="media_controller_live">"সরাসরি"</string>
+	<!---->
+	<string name="media_controller_playing">"প্লে করছে"</string>
+	<!-- no translation found for notify_photo_text -->
+	<skip />
+	<!---->
+	<string name="notify_video_text">"ভিডিও কন্ট্রোলার"</string>
+	<!-- no translation found for notify_ticker_forwfd_photo -->
+	<skip />
+	<!-- no translation found for notify_ticker_forwfd_video -->
+	<skip />
+	<!---->
+	<string name="wfd_alert">"সজাগ করুন"</string>
+	<!---->
+	<string name="wfd_change_message">"ভিডিও প্রতিস্থাপন করা হবে ."</string>
+	<!---->
+	<string name="wfd_change_button">"হ্যা"</string>
+	<!---->
+	<string name="wfd_not_change_button">"না"</string>
+	<!-- no translation found for wfd_show -->
+	<skip />
+	<!-- no translation found for wfd_show_on -->
+	<skip />
+	<!---->
+	<string name="wfd_show_off">"ওয়াই ফাই প্রদর্শন বন্ধ করুন"</string>
+	<!-- no translation found for wifi_gesture_tip -->
+	<skip />
+	<!---->
+	<string name="popupvideo_notsupport_message">"টাইপ সমর্থিত নয়"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"সতর্কীকরণ মোড"</string>
+	<!-- no translation found for drm_wifidisplay_message -->
+	<skip />
+	<!---->
+	<string name="drm_wifidisplay_cancel">"টিভি লিংক বন্ধ করুন"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"অব্যাহত করুন"</string>
+	<!-- no translation found for tv_link_close -->
+	<skip />
+	<!-- no translation found for drm_no_valid_right -->
+	<skip />
+	<!---->
+	<string name="drm_delete_invalid_content">"DRM ফাইলটি "%s" মেয়াদ শেষ . আপনি এটি মুছে ফেলতে চান?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"DRM ফাইলটি  "%s" মেয়াদ শেষ . আপনি এটি আনলক করতে চান?"</string>
+	<!---->
+	<string name="unlimited_usage">"অজানা লাইসেন্স"</string>
+	<!---->
+	<string name="not_available">"লভ্য নয়"</string>
+	<!---->
+	<string name="use_times">"%s বার ব্যবহার করুন"</string>
+	<!---->
+	<string name="valid_after">"পরে বৈধ"</string>
+	<!---->
+	<string name="valid_until">"যতক্ষণ বৈধ"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"ডাবল ট্যাপ এবং স্লাইড ক্যামেরা ইন / আউট জুম"</string>
+	<!---->
+	<string name="tips_done">"সম্পন্ন"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"ডাবল ট্যাপ এবং গ্যালারি এ / জুম আউট স্লাইড"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"এক আঙুল জুম সম্পর্কে জানুন"</string>
+	<!---->
+	<string name="drm_current_right">"বর্তমান সীমাবদ্ধতা"</string>
+	<!---->
+	<string name="right_url">"ইস্যুকারী URL টি লাইসেন্স :"</string>
+	<!---->
+	<string name="vendor">"ভেন্ডার:"</string>
+	<!---->
+	<string name="stop">"বন্ধ করুন"</string>
+	<!---->
+	<string name="selectRenderer">"একটি প্লেয়ার নির্বাচন করুন"</string>
+	<!---->
+	<string name="noRenderer">"কোনো উপস্থাপন ডিভাইস খুঁজে পাওয়া যাবে না"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"টিভি ভিডিও বাজানো থামান ?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"টিভিতে ছবি বাজানো থামান ?"</string>
+	<!---->
+	<string name="play_video">"ভিডিও প্লে"</string>
+	<!---->
+	<string name="shake_video_text">"আপনার টিভি বাজাতে আপনার ফোন শেক করছে"</string>
+	<!---->
+	<string name="shake_picture_text">"আপনার টিভি উপর এটি খেলতে ছবি পৃষ্ঠাতে আপনার ফোন শেক করছে"</string>
+	<!---->
+	<string name="wait_dialog">"অনুগ্রহ করে অপেক্ষা করুন ..."</string>
+	<!---->
+	<string name="toast_nostop">"যদি আপনি টিভিতে বাজানো বন্ধ করতে চান তাহলে দুঃখিত , আপনি লোকাল প্লেয়ার নির্বাচন করা আবশ্যক।"</string>
+	<!---->
+	<string name="dlna_format_not_support">"ফাইল ফরম্যাট সমর্থন করছে না।"</string>
+	<!-- no translation found for left_title_camera_roll -->
+	<skip />
+	<!-- no translation found for left_title_timeline -->
+	<skip />
+	<!---->
+	<string name="left_title_albums">"অ্যালবাম"</string>
+	<!-- no translation found for left_title_videos -->
+	<skip />
+	<!---->
+	<string name="left_title_location">"অবস্থান"</string>
+	<!---->
+	<string name="drawer_open">"ওপেন ড্রয়ারের পরিভ্রমন"</string>
+	<!---->
+	<string name="drawer_close">"বন্ধ ড্রয়ারের পরিভ্রমন"</string>
+	<!---->
+	<string name="photo_share">"সেয়ার"</string>
+	<!---->
+	<string name="filtershow_save">"সংরক্ষণ করুন"</string>
+	<!---->
+	<string name="filtershow_none">"একটিও নয়"</string>
+	<!---->
+	<string name="filtershow_frame">"কাঠামো"</string>
+	<!---->
+	<string name="drm_no_crop">"ফাইল  "%s" ফাইল DRM সুরক্ষিত কারণ ক্রপ করার অনুমতি নেই ."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"ফাইল  "%s" জন্য DRM সুরক্ষিত ফাইল হিসাবে পরিচিতি আইকন হিসেবে সেট করার অনুমতি নেই ."</string>
+	<!-- no translation found for never_tip -->
+	<skip />
+	<!-- no translation found for three_finger_tips0 -->
+	<skip />
+	<!-- no translation found for three_finger_tips1 -->
+	<skip />
+	<!-- no translation found for three_finger_tips2 -->
+	<skip />
+	<!---->
+	<string name="drm_not_support_wifidisplay">"DRM ফাইল ওয়াই ফাই প্রদর্শনের মাধ্যমে প্রদর্শন করা উচিত নয় !"</string>
+	<!-- no translation found for filtershow_save_title -->
+	<skip />
+	<!-- no translation found for filtershow_save_message -->
+	<skip />
+	<!---->
+	<string name="filtershow_save_no_ask">"আবার জিজ্ঞেস করবেন না"</string>
+	<!-- no translation found for filtershow_save_button_copy -->
+	<skip />
+	<!-- no translation found for filtershow_save_button_overwrite -->
+	<skip />
+	<!-- no translation found for lock_video -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!-- no translation found for drm_toast_license_expired -->
+	<skip />
+	<!---->
+	<string name="drm_protection_status">"সুরক্ষা অবস্থা:"</string>
+	<!---->
+	<string name="drm_can_forward">"ফরোয়ার্ড করা যাবে না."</string>
+	<!---->
+	<string name="drm_can_not_forward">"ফরোয়ার্ড করা যাবে না."</string>
+	<!---->
+	<string name="drm_no_license">"কোন উপলব্ধ জন্য DRM লাইসেন্স."</string>
+	<!---->
+	<string name="drm_begin">"শুরু:"</string>
+	<!---->
+	<string name="drm_no_limitation">"কোন সীমাবদ্ধতা."</string>
+	<!---->
+	<string name="drm_end">"শেষ:"</string>
+	<!-- no translation found for drm_use_left -->
+	<skip />
+	<!---->
+	<string name="date_taken">"তারিখ নিয়ে যাওয়া"</string>
+	<!-- no translation found for modified_time -->
+	<skip />
+	<!-- no translation found for fast_forward -->
+	<skip />
+	<!-- no translation found for fast_backward -->
+	<skip />
+	<!-- no translation found for network_reconnected_when_playing -->
+	<skip />
+	<!---->
+	<string name="polaroid_action_open">"খোলা"</string>
+	<!---->
+	<string name="polaroid_action_save">"সংরক্ষণ করুন"</string>
+	<!---->
+	<string name="polaroid_action_send">"প্রেরণ"</string>
+	<!-- no translation found for polaroid_default_slogan -->
+	<skip />
+	<!-- no translation found for polaroid_saving_picture -->
+	<skip />
+	<!-- no translation found for editor_select_polaroid -->
+	<skip />
+	<!-- no translation found for editor_select_filtershow -->
+	<skip />
+	<!---->
+	<string name="date_tag">"তারিখ"</string>
+	<!-- no translation found for location_tag -->
+	<skip />
+	<!-- no translation found for slogan_tag -->
+	<skip />
+	<!---->
+	<string name="polaroid_no_location">"কোনও অঞ্চল নেই"</string>
+	<!-- no translation found for save_iamge_compelete -->
+	<skip />
+	<!-- no translation found for save_image_error -->
+	<skip />
+	<!-- no translation found for dialog_min_image_save_title -->
+	<skip />
+	<!-- no translation found for dialog_min_image_save_message -->
+	<skip />
+	<!---->
+	<string name="open_with">"সঙ্গে খোলা"</string>
+	<!---->
+	<string name="moments_month_view">"মাসের প্রদর্শন"</string>
+	<!---->
+	<string name="moments_day_view">"দিনের প্রদর্শন"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"সব"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"ছবি"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"ভিডিও"</string>
+	<!-- no translation found for actionbar_menu_text_fyuse -->
+	<skip />
+	<!---->
+	<string name="burst_mode_delete_message">"এই বিস্ফোরিত ক্রম %s ছবি রয়েছে. তাদের সব মুছে?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"বিস্ফোরিত শট মুছে যাবে বা পৃথক ইমেজ সংরক্ষণ?"</string>
+	<!---->
+	<string name="burst_overwrite">"ওভাররাইট করুন"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"যেমন ব্যক্তিগত ইমেজ সংরক্ষণ করুন"</string>
+	<!---->
+	<string name="burst_cancel">"বাতিল করুন"</string>
+	<!---->
+	<string name="burst_delete">"বিলোপ"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"প্রিয়"</string>
+	<!---->
+	<string name="select">"নির্বাচন করুন"</string>
+	<!---->
+	<string name="getstarted">"শুরু করতে"</string>
+	<!---->
+	<string name="gotit">"বুঝেছি"</string>
+	<!---->
+	<string name="faceshow_start">"আপনি selfies একটি নির্দিষ্ট পরিমাণ পর্যন্ত পৌঁছানোর যখন একটি বাস্তব মার্ভেল awaits. এখন আপনার যাত্রা শুরু!"</string>
+	<!---->
+	<string name="faceshow_takemore">"তুমি তোমার নিজের মুখ দেখাতে তৈরি করতে আরো selfies প্রয়োজন."</string>
+	<!---->
+	<string name="selfies">"Selfie"</string>
+	<!---->
+	<string name="parallax">"লম্বন"</string>
+	<!---->
+	<string name="trim_title">"মেইল দিন সিঙ্ক?"</string>
+	<!---->
+	<string name="trim_message">"আপনার পরিবর্তনগুলি সংরক্ষণ করা হয় না"</string>
+	<!---->
+	<string name="trim_discard">"বাতিল করুন"</string>
+	<!---->
+	<string name="main_tab_moments">"মারার"</string>
+	<!---->
+	<string name="moments_show">"প্রদর্শনী"</string>
+	<!---->
+	<string name="illegal_image_format">"অবৈধ ইমেজ ফরম্যাট, সম্পাদনা করতে পারবেন না."</string>
+	<!-- no translation found for exporting_video -->
+	<skip />
+	<!-- no translation found for exporting_message -->
+	<skip />
+	<!-- no translation found for share_save_video -->
+	<skip />
+	<!-- no translation found for share_saved -->
+	<skip />
+	<!-- no translation found for share_save_image -->
+	<skip />
+	<!-- no translation found for share_image_saved -->
+	<skip />
+	<!-- no translation found for location_permission_toast_text -->
+	<skip />
+	<!---->
+	<string name="no_internet_contect_text">"ইন্টারনেট সংযোগ নেই"</string>
+	<!---->
+	<string name="more">"আরো"</string>
+	<!---->
+	<string name="moment_album_today">"আজ"</string>
+	<!---->
+	<string name="moment_album_yesterday">"গতকাল"</string>
+	<!-- no translation found for location_destination_text -->
+	<skip />
+	<string-array name="month">
+		<item>"জানুয়ারী"</item>
+		<item>"ফেব্রুয়ারি"</item>
+		<item>"মার্চ"</item>
+		<item>"এপ্রিল"</item>
+		<item>"মে"</item>
+		<item>"জুন"</item>
+		<item>"জুলাই"</item>
+		<item>"অগাস্ট"</item>
+		<item>"সেপ্টেম্বর"</item>
+		<item>"অক্টোবর"</item>
+		<item>"নভেম্বর"</item>
+		<item>"ডিসেম্বর"</item>
+	</string-array>
+	<!-- no translation found for permission_location_text -->
+	<skip />
+	<!---->
+	<string name="permission_location_settings">"সেটিংস"</string>
+	<!-- no translation found for boom_key_tip_1 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_2 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_3 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_4 -->
+	<skip />
+	<!---->
+	<string name="tx_skip">"স্কিপ করুন"</string>
+	<!---->
+	<string name="tx_done">"সম্পন্ন"</string>
+	<!-- no translation found for boom_key -->
+	<skip />
+	<!-- no translation found for press -->
+	<skip />
+	<!-- no translation found for not_support_parallax_share -->
+	<skip />
+	<!-- no translation found for permissions_hi -->
+	<skip />
+	<!-- no translation found for not_support_video_edit -->
+	<skip />
+</resources>

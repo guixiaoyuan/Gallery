@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 Google Inc.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- Copyright 2012 TCL Communication Technology Holdings Limited.
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |     author     |     Key      |            comment               |
+| **********|****************|**************|********************************* |
+| 5/11/2014 |    Haoli Zhang |  FR-824326   |No WiFi Display Extension Mode    |
+| **********|****************|**************|********************************* |
+| 7/11/2014 |   Haoli Zhang  |  FR-830600   |TV Link                           |
+| **********|****************|**************|********************************* |
+| 3/02/2015 |   jian.pan1    |  FR-923105   |should not support wifi_display extend mode|
+| **********|****************|**************|********************************* |
+| 4/22/2015 |   jian.pan1    |  FR-979686   |picture preview overflow menu not according to ergo|
+| **********|****************|**************|********************************* |
+================================================================================
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- [FEATURE]-Add-BEGIN by NJHR(chengqun.sun), 2014/11/20, FR-826631 Multi screen interaction -->
+	<item android:id="@+id/action_dlna"
+            android:enabled="true"
+            android:visible="false"
+            android:icon="@drawable/ic_menu_screen_normal_holo_dark_small"
+            android:showAsAction="ifRoom" />
+     <!-- [FEATURE]-Add-END by NJHR(chengqun.sun), 2014/11/20, FR-826631 Multi screen interaction -->
+    <!-- <item android:id="@+id/action_import"
+            android:title="@string/Import"
+            android:icon="@drawable/ic_menu_ptp_holo_light"
+            android:showAsAction="always|withText"
+            android:visible="false" /> -->
+    <!-- [FEATURE]-Add-BEGIN by TCTNB(Haoli Zhang), 2014/11/7, FR-830600 TV Link -->
+            <!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-26,PR905471 Begin -->
+            <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-02-03,PR923105 Begin -->
+<!--             <item android:id="@+id/wfdshow"
+            android:icon="@drawable/wfd_em_off"
+            android:title="@string/wfd_show"
+            android:showAsAction="always"/> -->
+            <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-02-03,PR923105 End -->
+            <!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-26,PR905471 End -->
+    <!-- [FEATURE]-MOD-END by TCTNB(Haoli Zhang), 2014/11/7, FR-830600 TV Link -->
+    <item android:id="@+id/action_slideshow"
+            android:icon="@drawable/ic_menu_slideshow_holo_light"
+            android:title="@string/slideshow"
+            android:showAsAction="never" />
+    <item android:id="@+id/action_setas"
+            android:title="@string/set_image"
+            android:showAsAction="never" />
+     <item android:id="@+id/action_delete"
+            android:icon="@drawable/ic_remove"
+            android:title="@string/delete"
+            android:visible="false"
+            android:showAsAction="always"/>
+     <item android:id="@+id/action_details"
+            android:title="@string/details"
+            android:showAsAction="never" />
+     <item android:id="@+id/print"
+            android:title="@string/print_image"
+            android:showAsAction="never" />
+<!--     <item android:id="@+id/action_edit"
+          android:icon="@drawable/ic_menu_edit_holo_dark"
+            android:title="@string/edit"
+            android:showAsAction="always"
+            android:visible="false" /> -->
+    <item android:id="@+id/action_simple_edit"
+            android:title="@string/simple_edit"
+            android:showAsAction="never"
+            android:visible="false" />
+    <!-- <item android:id="@+id/action_rotate_ccw"
+            android:showAsAction="never"
+            android:title="@string/rotate_left" />
+    <item android:id="@+id/action_rotate_cw"
+            android:showAsAction="never"
+            android:title="@string/rotate_right" /> -->
+    <item android:id="@+id/action_crop"
+            android:title="@string/crop_action"
+            android:showAsAction="never" />
+    <!-- <item android:id="@+id/action_trim"
+            android:title="@string/trim_action"
+            android:showAsAction="never" />
+    <item android:id="@+id/action_mute"
+            android:title="@string/mute_action"
+            android:showAsAction="never" /> -->
+    <item android:id="@+id/action_show_on_map"
+            android:title="@string/show_on_map"
+            android:showAsAction="never" />
+    <!-- [FEATURE]-Add-BEGIN by TCTNB(Haoli Zhang), 2014/11/5, FR-824326 No WiFi Display Extension Mode -->
+    <!-- [FEATURE]-MOD-BEGIN by TCTNB(Haoli Zhang), 2014/11/7, FR-830600 TV Link -->
+    <!-- <item android:id="@+id/wfdshow"
+            android:title="@string/wfd_show"
+            android:showAsAction="never"/>-->
+    <!-- [FEATURE]-MOD-END by TCTNB(Haoli Zhang), 2014/11/7, FR-830600 TV Link -->
+    <!-- [FEATURE]-Add-END by TCTNB(Haoli Zhang), 2014/11/5, FR-824326 No WiFi Display Extension Mode -->
+    <!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-23,PR904541 Begin -->
+    <item android:id="@+id/action_wifi_display"
+        android:title="@string/wfd_show"
+        android:showAsAction="never"
+        android:visible="false" />
+    <!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-23,PR904541 End -->
+</menu>

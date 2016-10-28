@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/************|**********************|**********************|*******************/
+/* 18/06/2014|     jialiang.ren     |       FR-1026487     |[Android 5.1][Gallery_v5.1.13.1.0209.0][Monitor]The buttons will disappeared in landscape mode*/
+/************|**********************|**********************|*******************/
+-->
+<!--
+/************|**********************|**********************|*******************/
+/* 02/07/2014|     jialiang.ren     |       PR-1034747     |[Android 5.1][Gallery_v5.1.13.1.0211.0_polaroid][REG]The edit bar is disappear in picture preview interface*/
+/************|**********************|**********************|*******************/
+-->
+<!--
+/************|**********************|**********************|*******************/
+/* 09/19/2015|       su.jiang       |       FR-735704      |[Android 5.1][Gallery_v5.2.3.1.1.0306.0][GD]Edit icon and share icon location not same as GD*/
+/************|**********************|**********************|*******************/
+-->
+<!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-27,PR901717 Begin -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/photopage_bottom_controls"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:alpha="0"
+        android:gravity="center_vertical" >
+
+    <!--//[BUGFIX]-Modify by TCTNJ,su.jiang, 2015-09-19,PR735704 Begin -->
+    <RelativeLayout
+        android:id="@+id/photopage_bottom_control_share"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_marginRight="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:visibility="gone"
+        android:background="@drawable/selector_bottom_btn">
+        <ImageView
+            android:src="@drawable/ic_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_centerInParent="true"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/photopage_bottom_control_edit"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_marginRight="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:visibility="gone"
+        android:background="@drawable/selector_bottom_btn">
+        <ImageView
+            android:src="@drawable/ic_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_centerInParent="true"
+            android:clickable="false" />
+    </RelativeLayout>
+    <!--//[BUGFIX]-Modify by TCTNJ,su.jiang, 2015-09-19,PR735704 End -->
+
+    <RelativeLayout
+        android:id="@+id/photopage_bottom_control_video_edit"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_marginRight="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:visibility="visible"
+        android:background="@drawable/selector_bottom_btn">
+        <ImageView
+            android:src="@drawable/ic_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_centerInParent="true"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/photopage_bottom_control_trim"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_marginRight="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:visibility="visible"
+        android:background="@drawable/selector_bottom_btn">
+        <ImageView
+            android:id="@+id/photopage_trim"
+            android:src="@drawable/ic_scissors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_centerInParent="true"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/photopage_bottom_control_tap_to_edit"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_marginRight="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:visibility="gone"
+        android:background="@drawable/selector_bottom_btn">
+        <ImageView
+            android:id="@+id/photopage_tap_to_edit"
+            android:src="@drawable/slow_motion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_centerInParent="true"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/photopage_bottom_control_favourite"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_marginRight="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:visibility="gone"
+        android:background="@drawable/selector_bottom_btn">
+        <ImageView
+            android:id="@+id/photopage_favourite"
+            android:src="@drawable/ic_fav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_centerInParent="true"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/photopage_bottom_control_delete"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_marginRight="@dimen/photopage_bottom_icon_bg_margin"
+        android:layout_weight="1"
+        android:background="@drawable/selector_bottom_btn"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/photopage_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:src="@drawable/ic_remove"
+            android:visibility="visible" />
+    </RelativeLayout>
+</LinearLayout>
+<!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-27,PR901717 End -->

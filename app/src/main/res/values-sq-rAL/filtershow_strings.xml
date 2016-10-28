@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Modifikimi i imazhit"</string>
+	<!---->
+	<string name="cannot_load_image">"Nuk mund të ngarkohet imazhi"</string>
+	<!---->
+	<string name="cannot_edit_original">"Nuk mund të redaktojë origjinalin"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Konfigurim sfondi"</string>
+	<!---->
+	<string name="download_failure">"Nuk mund të shkarkoni fotografi. Rrjet i pa-disponueshëm."</string>
+	<!---->
+	<string name="original">"Origjinal"</string>
+	<!---->
+	<string name="borders">"Kufijt"</string>
+	<!---->
+	<string name="custom_border">"Personalizuar"</string>
+	<!---->
+	<string name="filtershow_undo">"mbrapa"</string>
+	<!---->
+	<string name="filtershow_redo">"ribëj"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Shfaq efektet e aplikuara"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Fshih efektet e aplikuara"</string>
+	<!---->
+	<string name="export_image">"Eksporto"</string>
+	<!---->
+	<string name="print_image">"Printo"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Auto-modifikoni"</string>
+	<!---->
+	<string name="export_flattened">"Eksporto imazhin e shtypur"</string>
+	<!---->
+	<string name="select_output_settings">"Imazhi i eksportuar do të jetë një kopje pa histori redaktimi."</string>
+	<!---->
+	<string name="quality">"Cilësi"</string>
+	<!---->
+	<string name="size">"Madhësia"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"konfigurimet"</string>
+	<!---->
+	<string name="unsaved">"Ka ndryshime të paruajtura të këtij imazhi."</string>
+	<!---->
+	<string name="save_before_exit">"Regjistroni para se të dilni?"</string>
+	<!---->
+	<string name="save_and_exit">"Ruaj dhe dil"</string>
+	<!---->
+	<string name="save_and_processing">"Duke përpunuar imazhin me rezolucion të plotë..."</string>
+	<!---->
+	<string name="exit">"Dil"</string>
+	<!---->
+	<string name="history">"Historiku"</string>
+	<!---->
+	<string name="reset">"Rivendos"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Statusi i imazhit në momentin"</string>
+	<!---->
+	<string name="compare_original">"Krahaso"</string>
+	<!---->
+	<string name="apply_effect">"Zbato"</string>
+	<!---->
+	<string name="reset_effect">"Rivendos"</string>
+	<!---->
+	<string name="aspect">"Aspekt"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Nuk ka"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Personale"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"I fiksuar"</string>
+	<!---->
+	<string name="tinyplanet">"Planet i imët"</string>
+	<!---->
+	<string name="exposure">"Ekspozimi"</string>
+	<!---->
+	<string name="sharpness">"Ashpërsi"</string>
+	<!---->
+	<string name="contrast">"Kontrasti"</string>
+	<!---->
+	<string name="vibrance">"Gjallëri e ngjyrës"</string>
+	<!---->
+	<string name="saturation">"Ngopje"</string>
+	<!---->
+	<string name="bwfilter">"Filtri zi e bardhë"</string>
+	<!---->
+	<string name="wbalance">"Ngjyra automatike"</string>
+	<!---->
+	<string name="hue">"Nuancë"</string>
+	<!---->
+	<string name="shadow_recovery">"Hijet"</string>
+	<!---->
+	<string name="highlight_recovery">"Te theksuarat"</string>
+	<!---->
+	<string name="curvesRGB">"Kurba"</string>
+	<!---->
+	<string name="vignette">"Vinjetë"</string>
+	<!---->
+	<string name="vignette_main">"Vinjetë"</string>
+	<!---->
+	<string name="vignette_exposure">"Ekspozimi"</string>
+	<!---->
+	<string name="vignette_saturation">"Ngopje"</string>
+	<!---->
+	<string name="vignette_contrast">"Kontrasti"</string>
+	<!---->
+	<string name="vignette_falloff">"Pakësim"</string>
+	<!---->
+	<string name="redeye">"Sytë e Kuq"</string>
+	<!---->
+	<string name="imageDraw">"Vizatoni"</string>
+	<!---->
+	<string name="straighten">"E drejtë"</string>
+	<!---->
+	<string name="crop">"Pres"</string>
+	<!---->
+	<string name="rotate">"Rrotullo"</string>
+	<!---->
+	<string name="mirror">"Pasqyrë"</string>
+	<!---->
+	<string name="negative">"Negativ"</string>
+	<!---->
+	<string name="none">"Nuk ka"</string>
+	<!---->
+	<string name="edge">"Skaje"</string>
+	<!---->
+	<string name="kmeans">"madhësia e posterit"</string>
+	<!---->
+	<string name="downsample">"Shembull i poshtëm"</string>
+	<!---->
+	<string name="grad">"I diplomuar"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Ndriçimi"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Kontrasti"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Ngopje"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Kryesor"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"I kuq"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"I verdhë"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"I gjelbër"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Vjollcë"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"I kaltër"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"E purpurt"</string>
+	<!---->
+	<string name="editor_grad_style">"Stili"</string>
+	<!---->
+	<string name="editor_grad_new">"I ri"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"I kuq"</string>
+	<!---->
+	<string name="curves_channel_green">"I gjelbër"</string>
+	<!---->
+	<string name="curves_channel_blue">"Kaltër"</string>
+	<!---->
+	<string name="draw_style">"Stili"</string>
+	<!---->
+	<string name="draw_size">"Madhësia"</string>
+	<!---->
+	<string name="draw_hue">"Nuancë"</string>
+	<!---->
+	<string name="draw_saturation">"Ngopje"</string>
+	<!---->
+	<string name="draw_value">"Ndriçimi"</string>
+	<!---->
+	<string name="draw_color">"Ngjyra"</string>
+	<!---->
+	<string name="draw_style_line">"Vizat"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Shënues"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Spërkë"</string>
+	<!---->
+	<string name="draw_clear">"Pastro"</string>
+	<!---->
+	<string name="color_border_size">"Trashësi"</string>
+	<!---->
+	<string name="color_border_corner_size">"Përmasa e këndit"</string>
+	<!---->
+	<string name="color_border_color">"Ngjyra"</string>
+	<!---->
+	<string name="color_border_clear">"Fshij"</string>
+	<!---->
+	<string name="color_pick_select">"Zgjidhni ngjyrën e zakonshme"</string>
+	<!---->
+	<string name="color_pick_title">"Zgjidh ngjyrën"</string>
+	<!---->
+	<string name="draw_size_title">"Zgjidh formatin"</string>
+	<!---->
+	<string name="draw_size_accept">"OK"</string>
+	<!---->
+	<string name="state_panel_original">"Origjinal"</string>
+	<!---->
+	<string name="state_panel_result">"Rezultati"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Duke ruajtur imazhin"</string>
+	<!---->
+	<string name="filtershow_notification_message">"Duke përpunuar..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Ruani të paravendosurat aktuale"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Administroni rregullimin paraprak të përdoruesit"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Rregullim paraprak i ri"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Emri i rregullimit paraprak"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Informacion"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Emri i imazhit"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Madhësia e imazhit"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Histogram"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"Të dhëna EXIF"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Paravendosni"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Versioni"</string>
+	<!---->
+	<string name="filtershow_version_original">"Origjinal"</string>
+	<!---->
+	<string name="filtershow_version_current">"Momentalisht"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Modeli"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Hapje"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Madhësia Fokale"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Distanca e subjektit"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Datë e marrë"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"Ndalesë F"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Kohëzgjatje e ekspozimit"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"E drejta e autorit"</string>
+</resources>

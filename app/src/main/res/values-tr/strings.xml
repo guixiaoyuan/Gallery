@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Galeri"</string>
+	<!---->
+	<string name="gadget_title">"Resim çerçevesi"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"Video oynatıcı"</string>
+	<!---->
+	<string name="loading_video">"Video yükleniyor..."</string>
+	<!---->
+	<string name="loading_image">"Resim yükleniyor…"</string>
+	<!---->
+	<string name="loading_account">"Hesap yükleniyor..."</string>
+	<!---->
+	<string name="resume_playing_title">"Videoyu sürdür"</string>
+	<!---->
+	<string name="resume_playing_message">"Oynatma işlemine %s\'den itibaren devam et?"</string>
+	<!---->
+	<string name="resume_playing_resume">"Oynatmayı sürdür"</string>
+	<!---->
+	<string name="loading">"Yükleniyor…"</string>
+	<!---->
+	<string name="fail_to_load">"Yüklenemedi"</string>
+	<!---->
+	<string name="fail_trim">"Video dosyası işlenemiyor."</string>
+	<!---->
+	<string name="fail_to_load_image">"Resim yüklenemedi"</string>
+	<!---->
+	<string name="no_thumbnail">"Küçük resim yok"</string>
+	<!---->
+	<string name="resume_playing_restart">"Baştan başlat"</string>
+	<!---->
+	<string name="crop_save_text">"TAMAM"</string>
+	<!---->
+	<string name="ok">"Tamam"</string>
+	<!---->
+	<string name="multiface_crop_help">"Başlamak için bir yüze dokunun"</string>
+	<!---->
+	<string name="saving_image">"Resim kaydediliyor..."</string>
+	<!---->
+	<string name="filtershow_saving_image">"Resim <xliff:g id="album_name">%1$s</xliff:g> albümüne kaydediliyor \u2026"</string>
+	<!---->
+	<string name="save_error">"Kırpılmış resim kaydedilemedi."</string>
+	<!---->
+	<string name="crop_label">"Resmi kırp"</string>
+	<!---->
+	<string name="trim_label">"Videoyu kırp"</string>
+	<!---->
+	<string name="select_image">"Fotoğraf seçin"</string>
+	<!---->
+	<string name="select_video">"Video seçin"</string>
+	<!---->
+	<string name="select_item">"Öğe seçin"</string>
+	<!---->
+	<string name="select_album">"Albüm seçin"</string>
+	<!---->
+	<string name="select_group">"Grup seçin"</string>
+	<!---->
+	<string name="set_image">"&#8230;olarak ayarla"</string>
+	<!---->
+	<string name="set_wallpaper">"Duvar kağıdını ayarla"</string>
+	<!---->
+	<string name="wallpaper">"Duvar kağıdı ayarlanıyor..."</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"Duvar Kağıdı"</string>
+	<!---->
+	<string name="delete">"Sil"</string>
+	<!---->
+	<string name="deleting">"Siliniyor"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"Seçili öğe silinsin mi?"</item>
+		<item quantity="other">"Seçili öğeler silinsin mi?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"Onayla"</string>
+	<!---->
+	<string name="cancel">"İptal"</string>
+	<!---->
+	<string name="share">"Paylaş"</string>
+	<!---->
+	<string name="share_panorama">"Panoramayı paylaş"</string>
+	<!---->
+	<string name="share_as_photo">"Fotoğraf olarak paylaş"</string>
+	<!---->
+	<string name="deleted">"Silindi"</string>
+	<!---->
+	<string name="undo">"GERİ AL"</string>
+	<!---->
+	<string name="select_all">"Tümünü seç"</string>
+	<!---->
+	<string name="deselect_all">"Tümünün seçimini kaldır"</string>
+	<!---->
+	<string name="slideshow">"Slayt Gösterisi"</string>
+	<!---->
+	<string name="details">"Ayrıntılar"</string>
+	<!---->
+	<string name="details_title">"%1$d / %2$d öğe:"</string>
+	<!---->
+	<string name="close">"Kapat"</string>
+	<!---->
+	<string name="switch_to_camera">"Kameraya Geç"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d öğe seçildi"</item>
+		<item quantity="one">"%1$d öğe seçildi"</item>
+		<item quantity="other">"%1$d öğe seçildi"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d albüm seçildi"</item>
+		<item quantity="one">"%1$d albüm seçildi"</item>
+		<item quantity="other">"%1$d albüm seçildi"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d grup seçildi"</item>
+		<item quantity="one">"%1$d grup seçildi"</item>
+		<item quantity="other">"%1$d grup seçildi"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"Haritada göster"</string>
+	<!---->
+	<string name="rotate_left">"Sola döndür"</string>
+	<!---->
+	<string name="rotate_right">"Sağa döndür"</string>
+	<!---->
+	<string name="no_such_item">"Öğe bulunamadı."</string>
+	<!---->
+	<string name="edit">"Düzenle"</string>
+	<!---->
+	<string name="mix_video">"Karışık"</string>
+	<!---->
+	<string name="simple_edit">"Basit düzenleme"</string>
+	<!---->
+	<string name="process_caching_requests">"Önbelleğe alma istekleri işleniyor"</string>
+	<!---->
+	<string name="caching_label">"Önbelleğe alınıyor..."</string>
+	<!---->
+	<string name="crop_action">"Kırp"</string>
+	<!---->
+	<string name="trim_action">"Kırp"</string>
+	<!---->
+	<string name="mute_action">"Ses kapalı"</string>
+	<!---->
+	<string name="set_as">"Şu şekilde ayarla:"</string>
+	<!---->
+	<string name="video_mute_err">"Video sesi kapatılamıyor."</string>
+	<!---->
+	<string name="video_err">"Video oynatılamıyor."</string>
+	<!---->
+	<string name="group_by_location">"Konuma göre"</string>
+	<!---->
+	<string name="group_by_time">"Tarihe göre"</string>
+	<!---->
+	<string name="group_by_tags">"Etiketlere göre"</string>
+	<!---->
+	<string name="group_by_faces">"Kişilere göre"</string>
+	<!---->
+	<string name="group_by_album">"Albüme göre"</string>
+	<!---->
+	<string name="group_by_size">"Boyuta göre"</string>
+	<!---->
+	<string name="untagged">"Etiketlenmemiş"</string>
+	<!---->
+	<string name="no_location">"Konum bilgisi yok"</string>
+	<!---->
+	<string name="no_connectivity">"Ağ sorunları nedeniyle bazı konumlar tanımlanamadı."</string>
+	<!---->
+	<string name="sync_album_error">"Bu albümdeki fotoğraflar indirilemedi. Daha sonra yeniden deneyin."</string>
+	<!---->
+	<string name="show_images_only">"Yalnızca resimler"</string>
+	<!---->
+	<string name="show_videos_only">"Yalnızca videolar"</string>
+	<!---->
+	<string name="show_all">"Resimler ve videolar"</string>
+	<!---->
+	<string name="appwidget_title">"Fotoğraf Galerisi"</string>
+	<!---->
+	<string name="appwidget_empty_text">"Fotoğraf yok."</string>
+	<!---->
+	<string name="crop_saved">"Kırpılan resim <xliff:g id="FOLDER_NAME">%s</xliff:g> klasörüne kaydedildi."</string>
+	<!---->
+	<string name="no_albums_alert">"Kullanılabilir albüm yok"</string>
+	<!---->
+	<string name="empty_album">"Kullanılabilir resim/video yok"</string>
+	<!---->
+	<string name="picasa_posts">"Yayınlar"</string>
+	<!---->
+	<string name="make_available_offline">"Çevrimdışı kullanılabilir yap"</string>
+	<!---->
+	<string name="sync_picasa_albums">"Yenile"</string>
+	<!---->
+	<string name="done">"Bitti"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d / %2$d öğe:"</string>
+	<!---->
+	<string name="title">"Başlık"</string>
+	<!---->
+	<string name="description">"Açıklama"</string>
+	<!---->
+	<string name="time">"Saat"</string>
+	<!---->
+	<string name="location">"Konum"</string>
+	<!---->
+	<string name="path">"Yol"</string>
+	<!---->
+	<string name="width">"Genişlik"</string>
+	<!---->
+	<string name="height">"Yükseklik"</string>
+	<!---->
+	<string name="orientation">"Yön"</string>
+	<!---->
+	<string name="duration">"Süre"</string>
+	<!---->
+	<string name="mimetype">"MIME türü"</string>
+	<!---->
+	<string name="file_size">"Dosya boyutu"</string>
+	<!---->
+	<string name="maker">"Yapımcı"</string>
+	<!---->
+	<string name="model">"Model"</string>
+	<!---->
+	<string name="flash">"Flaş"</string>
+	<!---->
+	<string name="aperture">"Diyafram"</string>
+	<!---->
+	<string name="focal_length">"Odak Uzaklığı"</string>
+	<!---->
+	<string name="white_balance">"Beyaz dengesi"</string>
+	<!---->
+	<string name="exposure_time">"Pozlama süresi"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"mm"</string>
+	<!---->
+	<string name="manual">"El ile"</string>
+	<!---->
+	<string name="auto">"Otomatik"</string>
+	<!---->
+	<string name="flash_on">"Flaş patladı"</string>
+	<!---->
+	<string name="flash_off">"Flaş yok"</string>
+	<!---->
+	<string name="unknown">"Bilinmeyen"</string>
+	<!---->
+	<string name="ffx_original">"Orijinal"</string>
+	<!---->
+	<string name="ffx_vintage">"Klasik"</string>
+	<!---->
+	<string name="ffx_instant">"Anlık"</string>
+	<!---->
+	<string name="ffx_bleach">"Beyazlat"</string>
+	<!---->
+	<string name="ffx_blue_crush">"Mavi"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"Siyah beyaz"</string>
+	<!---->
+	<string name="ffx_punch">"Yumruk"</string>
+	<!---->
+	<string name="ffx_x_process">"X süreci"</string>
+	<!---->
+	<string name="ffx_washout">"Latte"</string>
+	<!---->
+	<string name="ffx_washout_color">"Taş baskı"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"Albüm çevrimdışı kullanıma hazırlanıyor."</item>
+		<item quantity="other">"Albümler çevrimdışı kullanıma hazırlanıyor."</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Bu öğe yerel olarak depolandı ve çevrimdışı kullanılabilir."</string>
+	<!---->
+	<string name="set_label_all_albums">"Tüm albümler"</string>
+	<!---->
+	<string name="set_label_local_albums">"Yerel albümler"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"MTP cihazlar"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Picasa albümleri"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="BYTES">%s</xliff:g> boş"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="SIZE">%1$s</xliff:g> veya daha küçük"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="SIZE">%1$s</xliff:g> veya daha büyük"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> - <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"İçe aktar"</string>
+	<!---->
+	<string name="import_complete">"İçe aktrm tamamlandı"</string>
+	<!---->
+	<string name="import_fail">"İçe aktarılamadı"</string>
+	<!---->
+	<string name="camera_connected">"Kamera bağlı."</string>
+	<!---->
+	<string name="camera_disconnected">"Kamera bağlantısı kesildi."</string>
+	<!---->
+	<string name="click_import">"İçe aktarmak için buraya dokunun"</string>
+	<!---->
+	<string name="widget_type_album">"Albüm seçin"</string>
+	<!---->
+	<string name="widget_type_shuffle">"Tüm resimleri karıştır"</string>
+	<!---->
+	<string name="widget_type_photo">"Bir resim seç"</string>
+	<!---->
+	<string name="widget_type">"Resimleri seçin"</string>
+	<!---->
+	<string name="slideshow_dream_name">"Slayt gösterisi"</string>
+	<!---->
+	<string name="albums">"Albümler"</string>
+	<!---->
+	<string name="times">"Saatler"</string>
+	<!---->
+	<string name="locations">"Konumlar"</string>
+	<!---->
+	<string name="people">"Kişiler"</string>
+	<!---->
+	<string name="tags">"Etiketler"</string>
+	<!---->
+	<string name="group_by">"Grupla:"</string>
+	<!---->
+	<string name="settings">"Ayarlar"</string>
+	<!---->
+	<string name="add_account">"Hesap ekle"</string>
+	<!---->
+	<string name="folder_camera">"Kamera"</string>
+	<!---->
+	<string name="folder_download">"İndir"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"Düzenlenmiş çevrimiçi fotoğraflar"</string>
+	<!---->
+	<string name="folder_imported">"İçe aktarıldı"</string>
+	<!---->
+	<string name="folder_screenshot">"Ekran görüntüsü"</string>
+	<!---->
+	<string name="help">"Yrdm"</string>
+	<!---->
+	<string name="no_external_storage_title">"Hafıza yok"</string>
+	<!---->
+	<string name="no_external_storage">"Harici depolama birimi mevcut değil"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Film karesi görünümü"</string>
+	<!---->
+	<string name="switch_photo_grid">"Izgara görünümü"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"Tam ekran görüntüsü"</string>
+	<!---->
+	<string name="trimming">"Kırpılıyor"</string>
+	<!---->
+	<string name="muting">"Sessize alınıyor"</string>
+	<!---->
+	<string name="please_wait">"Lütfen bekleyin"</string>
+	<!---->
+	<string name="save_into">"Video <xliff:g id="album_name">%1$s</xliff:g> albümüne kaydediliyor \u2026"</string>
+	<!---->
+	<string name="trim_save_into">"Kırpılan dosyanın kaydedildiği hedef: <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"Sessize alınan dosyanın kaydedildiği hedef: <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="trim_too_short">"Kırpılamıyor : hedef video çok kısa"</string>
+	<!---->
+	<string name="mute_nosupport">"Sessize alınamıyor: desteklenmeyen video"</string>
+	<!---->
+	<string name="pano_progress_text">"Panorama işleniyor"</string>
+	<!---->
+	<string name="save">"KAYDET"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"İçerik taranıyor..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d öğe tarandı"</item>
+		<item quantity="one">"%1$d öğe tarandı"</item>
+		<item quantity="other">"%1$d öğe tarandı"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"%1$d öğe seçildi"</item>
+		<item quantity="one">"%1$d öğe seçildi"</item>
+		<item quantity="other">"%1$d öğe seçildi"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"Sıralanıyor..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"Tarama tamamlandı"</string>
+	<!---->
+	<string name="ingest_importing">"Aktarılıyor..."</string>
+	<!---->
+	<string name="ingest_empty_device">"Bu cihazda aktarılacak mevcut içerik bulunmuyor."</string>
+	<!---->
+	<string name="ingest_no_device">"Bağlı MTP cihazı yok"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"Kamera hatası"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Kameraya bağlanılamıyor."</string>
+	<!---->
+	<string name="camera_disabled">"Kamera, güvenlik politikaları nedeniyle devre dışı bırakıldı."</string>
+	<!---->
+	<string name="camera_label">"Kamera"</string>
+	<!---->
+	<string name="wait">"Lütfen bekleyin..."</string>
+	<!---->
+	<string name="review_cancel">"İPTAL"</string>
+	<!---->
+	<string name="review_ok">"TAMAMLANDI"</string>
+	<!---->
+	<string name="time_lapse_title">"Zaman atlamalı kayıt"</string>
+	<!---->
+	<string name="pref_camera_id_title">"Kamera seç"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Geri"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Ön"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"Konum kaydet"</string>
+	<!---->
+	<string name="pref_camera_location_label">"Konum"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"Gerisayım zamanlayıcısı"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 saniye"</item>
+		<item quantity="other">"%d saniye"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Gerisayım sırasında bip sesi"</string>
+	<!---->
+	<string name="setting_off">"Kplı"</string>
+	<!---->
+	<string name="setting_on">"Açık"</string>
+	<!---->
+	<string name="pref_video_quality_title">"Video kalitesi"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Yüksek"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Alçak"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"Zaman atlamalı kyt"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"Kamera ayarları"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Camcorder ayarları"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Resim boyutu"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8M Piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2M piksel (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1,3M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1M piksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Fokus modu"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Oto."</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Kapalı"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"OTO."</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"SONSUZ"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"MAKRO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Flaş modu"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"Flaş modu"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Oto."</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Açık"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Kapalı"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"FLAŞ OTO."</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"FLAŞ AÇIK"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"FLAŞ KAPALI"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Beyaz dengesi"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Beyaz dengesi"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Oto."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Akkor ampul"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Gün ışığı"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Floresan"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Bulutlu"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"OTO."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Akkor ampul"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Gün ışığı"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Floresan"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Bulutlu"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Sahne modu"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Oto."</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Eylem"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Gece"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Gün batımı"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Parti"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"Hiçbiri"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"Eylem"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"Gece"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"Gün batımı"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"Parti"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"GERİSAYIM ZAMANLAYICI"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"ZAMANLAYICI KAPALI"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 saniye"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 saniye"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 saniye"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 saniye"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Sahne modunda seçilemez."</string>
+	<!---->
+	<string name="pref_exposure_title">"Pozlama"</string>
+	<!---->
+	<string name="pref_exposure_label">"Pozlama"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"ÖN KAMERA"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"ARKA KAMERA"</string>
+	<!---->
+	<string name="dialog_ok">"Tamam"</string>
+	<!---->
+	<string name="video_reach_size_limit">"Boyut sınırına gelindi."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Çok hızlı"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Panorama hazırlanıyor"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Panorama kaydedilemedi."</string>
+	<!---->
+	<string name="pano_dialog_title">"Panorama"</string>
+	<!---->
+	<string name="pano_capture_indication">"Panorama kaydediliyor"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Önceki panorama bekleniyor"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Kaydediliyor..."</string>
+	<!---->
+	<string name="pano_review_rendering">"Panorama oluşturuluyor"</string>
+	<!---->
+	<string name="tap_to_focus">"Odaklamak için dokunun"</string>
+	<!---->
+	<string name="pref_video_effect_title">"Efektler"</string>
+	<!---->
+	<string name="effect_none">"Hiçbiri"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Sıkıştır"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Büyük gözler"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Büyük ağız"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Küçük ağız"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Büyük burun"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Küçük gözler"</string>
+	<!---->
+	<string name="effect_backdropper_space">"Uzayda"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Gün batımı"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Videonuz"</string>
+	<!---->
+	<string name="bg_replacement_message">"Cihazınızı yerleştirin."\n"Kısa bir süre için görüntüden çıkın."</string>
+	<!---->
+	<string name="video_snapshot_hint">"Kaydederken fotoğraf çekmek için dokunun."</string>
+	<!---->
+	<string name="video_recording_started">"Video kaydı başladı."</string>
+	<!---->
+	<string name="video_recording_stopped">"Video kaydı durdu."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"Özel efektler açıkken video anlık görüntü yakalama devre dışıdır."</string>
+	<!---->
+	<string name="clear_effects">"Efektleri temizle"</string>
+	<!---->
+	<string name="effect_silly_faces">"KOMİK SURATLAR"</string>
+	<!---->
+	<string name="effect_background">"ARKA PLAN"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"Deklanşör düğmesi"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Menü düğmesi"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"En son fotoğraf"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"Ön/arka kamera anahtarı"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"Kamera, video veya panorama seçici"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"Diğer ayar denetimleri"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"Ayar denetimlerini kapat"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"Zum denetimi"</string>
+	<!---->
+	<string name="accessibility_decrement">"%1$s azalt"</string>
+	<!---->
+	<string name="accessibility_increment">"%1$s artır"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s onay kutusu"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Fotoğrafa geçiş yap"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Videoya geç"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Panorama moduna geç"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"Yeni panoramaya geç"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Refocus\'a geçiş yap"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"Yorumu iptal et"</string>
+	<!---->
+	<string name="accessibility_review_ok">"İnceleme tamamlandı"</string>
+	<!---->
+	<string name="accessibility_review_retake">"İncelemeyi tekrar al"</string>
+	<!---->
+	<string name="accessibility_play_video">"Videoyu oynat"</string>
+	<!---->
+	<string name="accessibility_pause_video">"Videoyu beklet"</string>
+	<!---->
+	<string name="accessibility_reload_video">"Videoyu tekrar yükle"</string>
+	<!---->
+	<string name="accessibility_time_bar">"Video oynatıcı zaman çubuğu"</string>
+	<!---->
+	<string name="capital_on">"AÇIK"</string>
+	<!---->
+	<string name="capital_off">"KAPALI"</string>
+	<!---->
+	<string name="gif_err">"Gif oynatılamıyor."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Kapalı"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0,5 saniye"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 saniye"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 saniye"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 saniye"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 saniye"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 saniye"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 saniye"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 saniye"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 saniye"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 saniye"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 saniye"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 saniye"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 saniye"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0,5 dakika"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 dakika"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1,5 dakika"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 dakika"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2,5 dakika"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 dakika"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 dakika"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 dakika"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 dakika"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 dakika"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 dakika"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 dakika"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 dakika"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0,5 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1,5 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2,5 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 saat"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 saat"</string>
+	<!---->
+	<string name="time_lapse_seconds">"saniye"</string>
+	<!---->
+	<string name="time_lapse_minutes">"dakika"</string>
+	<!---->
+	<string name="time_lapse_hours">"saat"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"Bitti"</string>
+	<!---->
+	<string name="set_time_interval">"Zaman aralığı ayarla"</string>
+	<!---->
+	<string name="set_time_interval_help">"Zaman kaydırma özelliği kapalı Zaman aralığı ayarlamak için bunu açın."</string>
+	<!---->
+	<string name="set_timer_help">"Gerisayım zamanlayıcısı kapalı. Bir resim çekmeden önce geri saymak için bunu açın."</string>
+	<!---->
+	<string name="set_duration">"Saniye olarak süreyi ayarlayın"</string>
+	<!---->
+	<string name="count_down_title_text">"Resim çekmek için geri sayılıyor"</string>
+	<!---->
+	<string name="remember_location_title">"Resim konumları hatırlansın mı?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Resimlerinizi ve videolarınızı çekildikleri yerlerle etiketleyin.\n\nDiğer uygulamalar kaydedilen resimlerinizle birlikte bu bilgilere erişebilir."</string>
+	<!---->
+	<string name="remember_location_no">"Hayır teşekkürler."</string>
+	<!---->
+	<string name="remember_location_yes">"Evet"</string>
+	<!---->
+	<string name="menu_camera">"Kamera"</string>
+	<!---->
+	<string name="menu_search">"Ara"</string>
+	<!---->
+	<string name="tab_photos">"Fotoğraflar"</string>
+	<!---->
+	<string name="tab_albums">"Albümler"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Diğer seçenekler"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"Ayarlar"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d resim"</item>
+		<item quantity="other">"%1$d resim"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"Altyazı"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"Bu video bu cihazda akış için uygun değil."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"Bu video oynatılamıyor."</string>
+	<!---->
+	<string name="VideoView_error_button">"TAMAM"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"Bu video desteklenmiyor"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"Bağlantı kurulamadı. %1$d ağına yeniden bağlanmayı deneyin..."</string>
+	<!---->
+	<string name="media_controller_connecting">"Bağlanıyor..."</string>
+	<!---->
+	<string name="media_controller_buffering">"Arabelleğe alınıyor %d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"Sunucuya bağlanılamıyor"</string>
+	<!---->
+	<string name="media_controller_live">"Canlı akış"</string>
+	<!---->
+	<string name="media_controller_playing">"Oynatılıyor"</string>
+	<!---->
+	<string name="notify_photo_text">"Galeri kontrolörü"</string>
+	<!---->
+	<string name="notify_video_text">"Galeri kontrolörü"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"Wi-Fi Ekranı slayt gösterisi etkin"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"Wi-Fi Ekranı videosu etkin"</string>
+	<!---->
+	<string name="wfd_alert">"Uyarı"</string>
+	<!---->
+	<string name="wfd_change_message">"Video değiştirilecek."</string>
+	<!---->
+	<string name="wfd_change_button">"Evet"</string>
+	<!---->
+	<string name="wfd_not_change_button">"Hayır"</string>
+	<!---->
+	<string name="wfd_show">"Wi-Fi Ekranı"</string>
+	<!---->
+	<string name="wfd_show_on">"Wi-Fi Ekranını aç"</string>
+	<!---->
+	<string name="wfd_show_off">"Wi-Fi Ekranını kapat"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"Ekranınızı paylaşmak için, dosyayı sarı dikdörtgene sürükleyin."</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"Tür desteklenmiyor"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Uyarı"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Wi-Fi Ekranı bağlantısı nedeniyle tüm kopya korumalı dosyalar gizli."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"Wi-Fi Ekranını Kapat"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"Devam"</string>
+	<!---->
+	<string name="tv_link_close">"Wi-Fi Ekranı kapatıldı"</string>
+	<!---->
+	<string name="drm_no_valid_right">"Dosyanın geçerli DRM yetkisi yok"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">""%s" DRM dosyasının süresi doldu. Silinsin mi?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">""%s" DRM dosyasının süresi doldu. Kilidi kaldırılsın mı?"</string>
+	<!---->
+	<string name="unlimited_usage">"Sınırsız kullanım"</string>
+	<!---->
+	<string name="not_available">"Kullanılamaz"</string>
+	<!---->
+	<string name="use_times">"%s kez kullan"</string>
+	<!---->
+	<string name="valid_after">"Şu tarihten sonra geçerlidir:"</string>
+	<!---->
+	<string name="valid_until">"Şu tarihe kadar geçerlidir:"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"Kamerayı yakınlaştırmak/uzaklaştırmak için iki kez dokunun ve kaydırın"</string>
+	<!---->
+	<string name="tips_done">"Bitti"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"Galeride yakınlaştırmak/uzaklaştırmak için iki kez dokunun ve kaydırın"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"Tek parmaklı yakınlaştırma/uzaklaştırma hakkında bilgi alın"</string>
+	<!---->
+	<string name="drm_current_right">"Mevcut Kısıtlama"</string>
+	<!---->
+	<string name="right_url">"Lisanslar"</string>
+	<!---->
+	<string name="vendor">"Satıcı:"</string>
+	<!---->
+	<string name="stop">"Durdur"</string>
+	<!---->
+	<string name="selectRenderer">"Bir oynatıcı seçin"</string>
+	<!---->
+	<string name="noRenderer">"Herhangi bir oluşturucu cihaz bulunamıyor"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"TV\'de video oynatma durdurulsun mu?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"TV\'de resim oynatma durdurulsun mu?"</string>
+	<!---->
+	<string name="play_video">"Video oynat"</string>
+	<!---->
+	<string name="shake_video_text">"TV\'de oynatmak için video sayfasında telefonunuzu sallayın"</string>
+	<!---->
+	<string name="shake_picture_text">"Televizyonda oynatmak için, resim sayfasında telefonunuzu sallayın."</string>
+	<!---->
+	<string name="wait_dialog">"Lütfen bekleyin..."</string>
+	<!---->
+	<string name="toast_nostop">"Televizyonda oynatmayı durdurmak için yerel bir oynatıcı seçin."</string>
+	<!---->
+	<string name="dlna_format_not_support">"Dosya biçimi desteklenmiyor."</string>
+	<!---->
+	<string name="left_title_camera_roll">"Film Makarası"</string>
+	<!---->
+	<string name="left_title_timeline">"Saat"</string>
+	<!---->
+	<string name="left_title_albums">"Albümler"</string>
+	<!---->
+	<string name="left_title_videos">"Videolar"</string>
+	<!---->
+	<string name="left_title_location">"Konumlar"</string>
+	<!---->
+	<string name="drawer_open">"Gezinme menüsünü aç"</string>
+	<!---->
+	<string name="drawer_close">"Gezinme menüsünü kapat"</string>
+	<!---->
+	<string name="photo_share">"Paylaşılacak hedef"</string>
+	<!---->
+	<string name="filtershow_save">"KAYDET"</string>
+	<!---->
+	<string name="filtershow_none">"Hiçbiri"</string>
+	<!---->
+	<string name="filtershow_frame">"Çerçeve"</string>
+	<!---->
+	<string name="drm_no_crop">"%s dosyası DRM korumalı olduğundan kesilemez."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"%s" dosyasının, DRM koruması olduğu için kişi simgesi olarak ayarlanmasına izin verilmiyor."</string>
+	<!---->
+	<string name="never_tip">"Başlangıçta ipuçlarını göster"</string>
+	<!---->
+	<string name="three_finger_tips0">"Ekran üzerine üç parmağınızı koyun."</string>
+	<!---->
+	<string name="three_finger_tips1">"Dosyayı sarı alana sürükleyin."</string>
+	<!---->
+	<string name="three_finger_tips2">"Alan sarı renkli olduğunda paylaşım başarılı olmuş demektir."</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"DRM dosyası, Wi-Fi Ekranından görüntülenmemeli!"</string>
+	<!---->
+	<string name="filtershow_save_title">"Değişiklikleri kaydet"</string>
+	<!---->
+	<string name="filtershow_save_message">"Kopya olarak kaydetmek veya orijinal görüntü üzerine yazdırmak istiyor musunuz?"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"Tekrar sorma"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"KOPYA OLARAK KAYDET"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"ORİJİNALİN ÜZERİNE YAZDIR"</string>
+	<!---->
+	<string name="lock_video">"Kilitli"</string>
+	<!---->
+	<string name="unlock_video">"Kilit açıldı"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM lisansı süresi doldu."</string>
+	<!---->
+	<string name="drm_protection_status">"Koruma durumu:"</string>
+	<!---->
+	<string name="drm_can_forward">"İletilebilir."</string>
+	<!---->
+	<string name="drm_can_not_forward">"İletilemez."</string>
+	<!---->
+	<string name="drm_no_license">"Kullanılabilir DRM lisansı yok."</string>
+	<!---->
+	<string name="drm_begin">"Başlangıç:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Sınırlama yok."</string>
+	<!---->
+	<string name="drm_end">"Bitiş:"</string>
+	<!---->
+	<string name="drm_use_left">"Kalanlar"</string>
+	<!---->
+	<string name="date_taken">"Çekim tarihi"</string>
+	<!---->
+	<string name="modified_time">"Değiştirilme saati"</string>
+	<!---->
+	<string name="fast_forward">"Hızlı ileri al %ds"</string>
+	<!---->
+	<string name="fast_backward">"Hızlı geri al %ds"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"Ağ tekrar bağlandı, oynatma devam edilsin mi?"</string>
+	<!---->
+	<string name="polaroid_action_open">"Aç"</string>
+	<!---->
+	<string name="polaroid_action_save">"Kaydet"</string>
+	<!---->
+	<string name="polaroid_action_send">"Gndr"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"Sarıl bana"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"Resim kaydediliyor..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"Polaroid düzenleyici"</string>
+	<!---->
+	<string name="editor_select_filtershow">"Düzenleyici (Varsayılan)"</string>
+	<!---->
+	<string name="date_tag">"Tarih"</string>
+	<!---->
+	<string name="location_tag">"Konum"</string>
+	<!---->
+	<string name="slogan_tag">"slogan"</string>
+	<!---->
+	<string name="polaroid_no_location">"Konum bilgisi yok"</string>
+	<!---->
+	<string name="save_iamge_compelete">"Fotoğra Galeriye kaydedildi."</string>
+	<!---->
+	<string name="save_image_error">"Dosya kaydedilemedi."</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"Resim çok küçük"</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"Minimum boyut 320 x 320 pikseldir."</string>
+	<!---->
+	<string name="open_with">"Şununla aç:"</string>
+	<!---->
+	<string name="moments_month_view">"Ay görünümü"</string>
+	<!---->
+	<string name="moments_day_view">"Gün görünümü"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"Tümü"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"Fotoğraf"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"Video"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"Bu seri çekim dizisi %s fotoğraf içeriyor. Tümü silinsin mi?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"Seri çekimler üzerine yazılsın veya ayrı görüntüler olarak kaydedilsin mi?"</string>
+	<!---->
+	<string name="burst_overwrite">"Üstüne yaz"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"Ayrı görüntüler olarak kaydet"</string>
+	<!---->
+	<string name="burst_cancel">"İPTAL"</string>
+	<!---->
+	<string name="burst_delete">"SİL"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"Favori"</string>
+	<!---->
+	<string name="select">"Seç"</string>
+	<!---->
+	<string name="getstarted">"Başla"</string>
+	<!---->
+	<string name="gotit">"Anlaşıldı"</string>
+	<!---->
+	<string name="faceshow_start">"Belirli bir selfie sayısına ulaştığınızda gerçek bir sürpriz sizi bekliyor. Yolculuğunuza şimdi başlayın!"</string>
+	<!---->
+	<string name="faceshow_takemore">"Kendi yüz gösterinizi oluşturmak için daha fazla selfie\'ye ihtiyacınız var."</string>
+	<!---->
+	<string name="selfies">"Selfie"</string>
+	<!---->
+	<string name="parallax">"Paralaks"</string>
+	<!---->
+	<string name="trim_title">"Değişiklikler silinsin mi?"</string>
+	<!---->
+	<string name="trim_message">"Değişiklikleriniz kaydedilemedi"</string>
+	<!---->
+	<string name="trim_discard">"Sil"</string>
+	<!---->
+	<string name="main_tab_moments">"Anlar"</string>
+	<!---->
+	<string name="moments_show">"Göster"</string>
+	<!---->
+	<string name="illegal_image_format">"Desteklenmeyen resim biçimi, düzenlenemiyor."</string>
+	<!---->
+	<string name="exporting_video">"Video dışa aktarılıyor"</string>
+	<!---->
+	<string name="exporting_message">"Bu işlem birkaç saniye sürebilir, lütfen bekleyin..."</string>
+	<!---->
+	<string name="share_save_video">"Video Galeriye kaydediliyor..."</string>
+	<!---->
+	<string name="share_saved">"Video Galeriye kaydedildi"</string>
+	<!---->
+	<string name="share_save_image">"Resim Galeriye kaydediliyor ..."</string>
+	<!---->
+	<string name="share_image_saved">"Resim Galeriye kaydedildi"</string>
+	<!---->
+	<string name="location_permission_toast_text">"Kameradan gelen konum verisi yok"</string>
+	<!---->
+	<string name="no_internet_contect_text">"İnternet bağlantısı yok"</string>
+	<!---->
+	<string name="more">"Daha fazla"</string>
+	<!---->
+	<string name="moment_album_today">"Bugün"</string>
+	<!---->
+	<string name="moment_album_yesterday">"dün"</string>
+	<!---->
+	<string name="location_destination_text">"Anlar\'da fotoğrafları ve videoları konuma göre sıralayın"</string>
+	<string-array name="month">
+		<item>"Ocak"</item>
+		<item>"Şubat"</item>
+		<item>"Mart"</item>
+		<item>"Nisan"</item>
+		<item>"Mayıs"</item>
+		<item>"Haziran"</item>
+		<item>"Temmuz"</item>
+		<item>"Ağustos"</item>
+		<item>"Eylül"</item>
+		<item>"Ekim"</item>
+		<item>"Kasım"</item>
+		<item>"Aralık"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"Fotoğrafları ve videoları konuma göre sıralamak için, Galeri için Konum\'a erişim izni verin."</string>
+	<!---->
+	<string name="permission_location_settings">"Ayarlar"</string>
+	<!---->
+	<string name="boom_key_tip_1">"Resimleri farklı ve inanılmaz kolajlarla sunun"</string>
+	<!---->
+	<string name="boom_key_tip_2">"Boom tuşuyla kolaj gösterisi başlat"</string>
+	<!---->
+	<string name="boom_key_tip_3">"Albümler\'den kolaj gösterisi tetikle"</string>
+	<!---->
+	<string name="boom_key_tip_4">"Resim önizlemeden kolaj gösterisi tetikle"</string>
+	<!---->
+	<string name="tx_skip">"Atla"</string>
+	<!---->
+	<string name="tx_done">"Bitti"</string>
+	<!---->
+	<string name="boom_key">"Boom tuşu"</string>
+	<!---->
+	<string name="press">"Bas"</string>
+	<!---->
+	<string name="not_support_parallax_share">"Anlar\'dan Fyuse paylaşılamıyor"</string>
+	<!---->
+	<string name="permissions_hi">"Merhaba!"</string>
+	<!---->
+	<string name="not_support_video_edit">"Video biçimi desteklenmiyor."</string>
+</resources>

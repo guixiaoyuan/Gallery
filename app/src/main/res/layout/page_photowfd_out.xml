@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--=========================================================================================
+ *                              EDIT HISTORY FOR MODULE
+ *
+ * This section contains comments describing changes made to the module.
+ * Notice that changes are listed in reverse chronological order.
+ *
+ *  when     who        what, where, why
+ *=========================================================================================
+ *14/11/5 | Haoli Zhang | FR-824326, No WiFi Display Extension Mode
+ ==========================================================================================-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

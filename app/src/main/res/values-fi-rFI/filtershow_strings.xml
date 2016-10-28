@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Valokuvaeditori"</string>
+	<!---->
+	<string name="cannot_load_image">"Kuvan lataaminen ei onnistu"</string>
+	<!---->
+	<string name="cannot_edit_original">"Alkuperäistä ei voi muokata"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Taustakuvan asettaminen"</string>
+	<!---->
+	<string name="download_failure">"Valokuvan lataus epäonnistui. Verkko ei saatavilla."</string>
+	<!---->
+	<string name="original">"Alkuper."</string>
+	<!---->
+	<string name="borders">"Rajat"</string>
+	<!---->
+	<string name="custom_border">"Oma"</string>
+	<!---->
+	<string name="filtershow_undo">"Kumoa"</string>
+	<!---->
+	<string name="filtershow_redo">"Tee uudelleen"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Näytä kuvan tila"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Piilota kuvan tilatiedot"</string>
+	<!---->
+	<string name="export_image">"Vie"</string>
+	<!---->
+	<string name="print_image">"Tulosta"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Automaattinen muokkaus"</string>
+	<!---->
+	<string name="export_flattened">"Vie yhdistetty kuva"</string>
+	<!---->
+	<string name="select_output_settings">"Viety kuva on kopio ilman muokkaushistoriaa."</string>
+	<!---->
+	<string name="quality">"Laatu"</string>
+	<!---->
+	<string name="size">"Koko"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Asetukset"</string>
+	<!---->
+	<string name="unsaved">"Tähän kuvaan on tehty tallentamattomia muutoksia."</string>
+	<!---->
+	<string name="save_before_exit">"Tallennetaanko ennen poistumista?"</string>
+	<!---->
+	<string name="save_and_exit">"Tallenna ja lopeta"</string>
+	<!---->
+	<string name="save_and_processing">"Käsitellään täyden tarkkuuden kuvaa..."</string>
+	<!---->
+	<string name="exit">"Lopeta"</string>
+	<!---->
+	<string name="history">"Historia"</string>
+	<!---->
+	<string name="reset">"Nollaa"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Kuvan nykyinen tila"</string>
+	<!---->
+	<string name="compare_original">"Vertaa"</string>
+	<!---->
+	<string name="apply_effect">"Käytä"</string>
+	<!---->
+	<string name="reset_effect">"Nollaa"</string>
+	<!---->
+	<string name="aspect">"Aspekti"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Ei mitään"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Oma"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Kiinteä"</string>
+	<!---->
+	<string name="tinyplanet">"Pieni planeetta"</string>
+	<!---->
+	<string name="exposure">"Valotus"</string>
+	<!---->
+	<string name="sharpness">"Terävyys"</string>
+	<!---->
+	<string name="contrast">"Kontrasti"</string>
+	<!---->
+	<string name="vibrance">"Eloisuus"</string>
+	<!---->
+	<string name="saturation">"Värikylläisyys"</string>
+	<!---->
+	<string name="bwfilter">"MV-suodatin"</string>
+	<!---->
+	<string name="wbalance">"Automaattinen väri"</string>
+	<!---->
+	<string name="hue">"Värisävy"</string>
+	<!---->
+	<string name="shadow_recovery">"Varjostus"</string>
+	<!---->
+	<string name="highlight_recovery">"Korostus"</string>
+	<!---->
+	<string name="curvesRGB">"Kaaret"</string>
+	<!---->
+	<string name="vignette">"Vinjetti"</string>
+	<!---->
+	<string name="vignette_main">"Vinjetti"</string>
+	<!---->
+	<string name="vignette_exposure">"Valotus"</string>
+	<!---->
+	<string name="vignette_saturation">"Värikylläisyys"</string>
+	<!---->
+	<string name="vignette_contrast">"Kontrasti"</string>
+	<!---->
+	<string name="vignette_falloff">"Vinjetointi"</string>
+	<!---->
+	<string name="redeye">"Punasilmäisyys"</string>
+	<!---->
+	<string name="imageDraw">"Piirrä"</string>
+	<!---->
+	<string name="straighten">"Suorista"</string>
+	<!---->
+	<string name="crop">"Rajaa"</string>
+	<!---->
+	<string name="rotate">"Kierrä"</string>
+	<!---->
+	<string name="mirror">"Peili"</string>
+	<!---->
+	<string name="negative">"Negatiivinen"</string>
+	<!---->
+	<string name="none">"Ei mitään"</string>
+	<!---->
+	<string name="edge">"Reunat"</string>
+	<!---->
+	<string name="kmeans">"Posterisaatio"</string>
+	<!---->
+	<string name="downsample">"Tarkkuuden pienennys"</string>
+	<!---->
+	<string name="grad">"Asteittainen"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Kirkkaus"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Kontrasti"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Värikylläisyys"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Ensisijainen"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Punainen"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Keltainen"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Vihreä"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Turkoosi"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Sininen"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Magenta"</string>
+	<!---->
+	<string name="editor_grad_style">"Tyyli"</string>
+	<!---->
+	<string name="editor_grad_new">"Uusi"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Punainen"</string>
+	<!---->
+	<string name="curves_channel_green">"Vihreä"</string>
+	<!---->
+	<string name="curves_channel_blue">"Sininen"</string>
+	<!---->
+	<string name="draw_style">"Tyyli"</string>
+	<!---->
+	<string name="draw_size">"Koko"</string>
+	<!---->
+	<string name="draw_hue">"Värisävy"</string>
+	<!---->
+	<string name="draw_saturation">"Värikylläisyys"</string>
+	<!---->
+	<string name="draw_value">"Kirkkaus"</string>
+	<!---->
+	<string name="draw_color">"Väri"</string>
+	<!---->
+	<string name="draw_style_line">"Viivat"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Tussi"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Pirskotus"</string>
+	<!---->
+	<string name="draw_clear">"Tyhjennä"</string>
+	<!---->
+	<string name="color_border_size">"Paksuus"</string>
+	<!---->
+	<string name="color_border_corner_size">"Kulman koko"</string>
+	<!---->
+	<string name="color_border_color">"Väri"</string>
+	<!---->
+	<string name="color_border_clear">"Tyhjennä"</string>
+	<!---->
+	<string name="color_pick_select">"Valitse mukautettu väri"</string>
+	<!---->
+	<string name="color_pick_title">"Valitse väri"</string>
+	<!---->
+	<string name="draw_size_title">"Valitse koko"</string>
+	<!---->
+	<string name="draw_size_accept">"OK"</string>
+	<!---->
+	<string name="state_panel_original">"Alkuperäinen"</string>
+	<!---->
+	<string name="state_panel_result">"Tulos"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Tallennetaan kuvaa"</string>
+	<!---->
+	<string name="filtershow_notification_message">"Käsitellään..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Tallenna nykyinen esiasetus"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Käyttäjän esiasetusten hallinta"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Uusi esiasetus"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Esiasetuksen nimi"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Tiedot"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Kuvan nimi"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Kuvan koko"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Pylväskaavio"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"EXIF-tiedot"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Esiasetus"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Versio"</string>
+	<!---->
+	<string name="filtershow_version_original">"Alkuper."</string>
+	<!---->
+	<string name="filtershow_version_current">"Nykyinen"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Malli"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Aukko"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Polttoväli"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Kohteen etäisyys"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Kuvauspäivä"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F-aukko"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Valotusaika"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Tekijänoikeudet"</string>
+</resources>

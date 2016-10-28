@@ -1,0 +1,32 @@
+<!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-21,PR901941 Begin -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:background="@drawable/selector_list_item">
+
+    <ImageView
+        android:id="@+id/ic"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_menu_camera"
+        android:layout_marginLeft="16.5dp" />
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ic"
+        android:layout_marginLeft="@dimen/drawlayout_item_left"
+        android:fontFamily="sans-medium"
+        android:layout_centerVertical="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:alpha="0.87"/>
+</RelativeLayout>
+<!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-01-21,PR901941 End -->

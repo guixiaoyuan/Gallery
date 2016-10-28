@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"វិចិត្រសាល"</string>
+	<!---->
+	<string name="gadget_title">"ក្របរូបថត"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"អ្នកចាក់វីដេអូ"</string>
+	<!---->
+	<string name="loading_video">"កំពុងឡូតវីដេអូ\u2026"</string>
+	<!---->
+	<string name="loading_image">"កំពុងឡូតរូបភាព\u2026"</string>
+	<!---->
+	<string name="loading_account">"កំពុងឡូតគណនី\u2026"</string>
+	<!---->
+	<string name="resume_playing_title">"លេងវីដេអូបន្ត"</string>
+	<!---->
+	<string name="resume_playing_message">"លេងបន្តពី %s ឬទេ?"</string>
+	<!---->
+	<string name="resume_playing_resume">"លេងបន្ត"</string>
+	<!---->
+	<string name="loading">"កំពុងឡូត\u2026"</string>
+	<!---->
+	<string name="fail_to_load">"មិនអាចផ្ទុក"</string>
+	<!-- no translation found for fail_trim -->
+	<skip />
+	<!---->
+	<string name="fail_to_load_image">"មិនអាចផ្ទុករូបភាព។"</string>
+	<!---->
+	<string name="no_thumbnail">"រូបភាពទំហំតូច"</string>
+	<!---->
+	<string name="resume_playing_restart">"ចាប់ផ្តើមឡើងវិញ"</string>
+	<!---->
+	<string name="crop_save_text">"យល់ព្រម"</string>
+	<!---->
+	<string name="ok">"យល់ព្រម"</string>
+	<!---->
+	<string name="multiface_crop_help">"យកម្រាមដៃប៉ះមុខ ដើម្បីចាប់ផ្តើម"</string>
+	<!---->
+	<string name="saving_image">"កំពុងរក្សាទុករូបភាព\u2026"</string>
+	<!---->
+	<string name="filtershow_saving_image">"ការរក្សាទុករូបភាពទៅនឹង <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="save_error">"មិ\នអាចរក្សាទុករូបភាពដែលបានកាត់តម្រឹមឡើយ ។"</string>
+	<!---->
+	<string name="crop_label">"កាត់តម្រឹមរូបភាព"</string>
+	<!---->
+	<string name="trim_label">"កាត់តម្រឹមវីដេអូ"</string>
+	<!---->
+	<string name="select_image">"ជ្រើសរើសរូបថត"</string>
+	<!---->
+	<string name="select_video">"ជ្រើសរើសវីដេអូ"</string>
+	<!---->
+	<string name="select_item">"ជ្រើសរើសវត្ថុ"</string>
+	<!---->
+	<string name="select_album">"ជ្រើសរើសអាល់ប៊ុម"</string>
+	<!---->
+	<string name="select_group">"ជ្រើសរើសក្រុម"</string>
+	<!---->
+	<string name="set_image">"កំណត់ជា ..."</string>
+	<!---->
+	<string name="set_wallpaper">"សិតផ្ទៃជញ្ជាំង"</string>
+	<!---->
+	<string name="wallpaper">"ការសិតផ្ទៃជញ្ជាំង\u2026"</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"ផ្ទៃជញ្ជាំង"</string>
+	<!---->
+	<string name="delete">"លុបចោល"</string>
+	<!---->
+	<string name="deleting">"កំពុងលុបចោល"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"លុបវត្ថុដែលបានជ្រើសរើសចោលទេ?"</item>
+		<item quantity="other">"លុបវត្ថុដែលបានជ្រើសរើសចោលទេ?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"បញ្ជាក់"</string>
+	<!---->
+	<string name="cancel">"លើកលែង"</string>
+	<!---->
+	<string name="share">"ចែករំលែក"</string>
+	<!---->
+	<string name="share_panorama">"ចែករំលែកទេសភាព"</string>
+	<!---->
+	<string name="share_as_photo">"ចែករំលែករូបភាព"</string>
+	<!---->
+	<string name="deleted">"បានលុបចោល"</string>
+	<!---->
+	<string name="undo">"កុំធ្វើ"</string>
+	<!---->
+	<string name="select_all">"ជ្រើសយកទាំងអស់"</string>
+	<!---->
+	<string name="deselect_all">"មិនជ្រើសរើសទាំងអស់"</string>
+	<!---->
+	<string name="slideshow">"បង្ហាញស្លាយ"</string>
+	<!---->
+	<string name="details">"ព័ត៌មានលំអិត"</string>
+	<!---->
+	<string name="details_title">"%1$d of %2$d វត្ថុ ៖"</string>
+	<!---->
+	<string name="close">"បិទ"</string>
+	<!---->
+	<string name="switch_to_camera">"ដូរទៅកាមេរ៉ា"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d បានជ្រើសរើស"</item>
+		<item quantity="one">"%1$d បានជ្រើសរើស"</item>
+		<item quantity="other">"%1$d បានជ្រើសរើស"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d បានជ្រើសរើស"</item>
+		<item quantity="one">"%1$d បានជ្រើសរើស"</item>
+		<item quantity="other">"%1$d បានជ្រើសរើស"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d បានជ្រើសរើស"</item>
+		<item quantity="one">"%1$d បានជ្រើសរើស"</item>
+		<item quantity="other">"%1$d បានជ្រើសរើស"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"បង្ហាញលើផែនទី"</string>
+	<!---->
+	<string name="rotate_left">"បង្វិលទៅឆ្វេង"</string>
+	<!---->
+	<string name="rotate_right">"បង្វិលទៅស្តាំ"</string>
+	<!---->
+	<string name="no_such_item">"មិ\នអាចរកវត្ថុឃើញទេ ។"</string>
+	<!---->
+	<string name="edit">"កែសម្រួល"</string>
+	<!-- no translation found for mix_video -->
+	<skip />
+	<!---->
+	<string name="simple_edit">"កែសម្រួល សាមញ្ញ"</string>
+	<!---->
+	<string name="process_caching_requests">"កំពុងដំណើរការស្នើសុំខេច"</string>
+	<!---->
+	<string name="caching_label">"កំពុងខេច\u2026"</string>
+	<!---->
+	<string name="crop_action">"កាត់តម្រឹម"</string>
+	<!---->
+	<string name="trim_action">"កាត់តម្រឹម"</string>
+	<!---->
+	<string name="mute_action">"គ"</string>
+	<!---->
+	<string name="set_as">"សិតជា"</string>
+	<!---->
+	<string name="video_mute_err">"មិនអាចគ្មានសម្លេងវីដេអូ ។"</string>
+	<!---->
+	<string name="video_err">"មិ\នអាចលេងវីដេអូ ។"</string>
+	<!---->
+	<string name="group_by_location">"តាមទីតាំង"</string>
+	<!---->
+	<string name="group_by_time">"តាមម៉ោង"</string>
+	<!---->
+	<string name="group_by_tags">"តាមស្លាក"</string>
+	<!---->
+	<string name="group_by_faces">"តាមមនុស្ស"</string>
+	<!---->
+	<string name="group_by_album">"តាមអាល់ប៊ុម"</string>
+	<!---->
+	<string name="group_by_size">"តាមទំហំ"</string>
+	<!---->
+	<string name="untagged">"មិនបានដាក់ស្លាក"</string>
+	<!---->
+	<string name="no_location">"មិនមានទីតាំង"</string>
+	<!---->
+	<string name="no_connectivity">"ទីតាំងខ្លះមិ\នអាចកំណត់បានដោយសារបញ្ហាបណ្តាញ ។"</string>
+	<!---->
+	<string name="sync_album_error">"មិ\នអាចទាញយករូបថតនៅក្នុងអាល់ប៊ុមនេះបានទេ ។ សាកល្បងនាពេលក្រោយ ។"</string>
+	<!---->
+	<string name="show_images_only">"តែរូបភាពទេ"</string>
+	<!---->
+	<string name="show_videos_only">"តែវីដេអូទេ"</string>
+	<!---->
+	<string name="show_all">"រូបភាព &amp; វីដេអូ"</string>
+	<!---->
+	<string name="appwidget_title">"វិចិត្រសាលរូបថត"</string>
+	<!---->
+	<string name="appwidget_empty_text">"មិនមានរូបថតទេ ។"</string>
+	<!---->
+	<string name="crop_saved">"រូបភាពដែលបានកាត់តម្រឹមបានរក្សាទុកក្នុង <xliff:g id="folder_name">%s</xliff:g> ។"</string>
+	<!---->
+	<string name="no_albums_alert">"មិនមានអាល់ប៊ុមទេ ។"</string>
+	<!-- no translation found for empty_album -->
+	<skip />
+	<!---->
+	<string name="picasa_posts">"បិទផ្សាយ"</string>
+	<!---->
+	<string name="make_available_offline">"ធ្វើឲ្យមានពេលអហ្វឡាញ"</string>
+	<!---->
+	<string name="sync_picasa_albums">"ធ្វើឲ្យស្រស់បស់ឡើងវិញ"</string>
+	<!---->
+	<string name="done">"បានធ្វើរួច"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d of %2$d វត្ថុ ៖"</string>
+	<!---->
+	<string name="title">"ចំណងជើង"</string>
+	<!---->
+	<string name="description">"ការពណ៌នា"</string>
+	<!---->
+	<string name="time">"ម៉ោង"</string>
+	<!---->
+	<string name="location">"ទីតាំង"</string>
+	<!---->
+	<string name="path">"ផ្លូវ"</string>
+	<!---->
+	<string name="width">"ទទឹង"</string>
+	<!---->
+	<string name="height">"កំពស់"</string>
+	<!---->
+	<string name="orientation">"ការណែនាំ"</string>
+	<!---->
+	<string name="duration">"រយៈពេល"</string>
+	<!---->
+	<string name="mimetype">"ប្រភេទ MIME"</string>
+	<!---->
+	<string name="file_size">"ទំហំឯកសារ"</string>
+	<!---->
+	<string name="maker">"អ្នកធ្វើ"</string>
+	<!---->
+	<string name="model">"ម៉ូដែល"</string>
+	<!---->
+	<string name="flash">"ហ្វ្លាស់"</string>
+	<!---->
+	<string name="aperture">"ទីចំហ"</string>
+	<!---->
+	<string name="focal_length">"ប្រវែងនៃចំណុចរួមពន្លឺ"</string>
+	<!---->
+	<string name="white_balance">"សមតុល្សពណ៌ស"</string>
+	<!---->
+	<string name="exposure_time">"ពេលថត"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"mm"</string>
+	<!---->
+	<string name="manual">"ដោយដៃ"</string>
+	<!---->
+	<string name="auto">"ស្វ័យប្រវត្តិ"</string>
+	<!---->
+	<string name="flash_on">"លោតភ្លើងភ្លាមៗ"</string>
+	<!---->
+	<string name="flash_off">"មិនមានហ្វ្លាស់ទេ"</string>
+	<!---->
+	<string name="unknown">"មិនស្គាល់"</string>
+	<!---->
+	<string name="ffx_original">"សំណៅដើម"</string>
+	<!---->
+	<string name="ffx_vintage">"ពេលវេលាបានបង្កើត"</string>
+	<!---->
+	<string name="ffx_instant">"ភ្លាមៗ"</string>
+	<!---->
+	<string name="ffx_bleach">"ធ្វើ​ឱ្យពណ៌ស"</string>
+	<!---->
+	<string name="ffx_blue_crush">"ខៀវ"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"B/W"</string>
+	<!---->
+	<string name="ffx_punch">"ចុចប៊ូតុង"</string>
+	<!---->
+	<string name="ffx_x_process">"ដំណើរការ X"</string>
+	<!---->
+	<string name="ffx_washout">"ទម្រង់ខ្លីៗ Latte"</string>
+	<!---->
+	<string name="ffx_washout_color">"ការបោះពុម្ពដោយប្រើថ្ម Litho"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"ធ្វើឲ្យអាល់ប៊ុមមានពេលអហ្វឡាញ ។"</item>
+		<item quantity="other">"ធ្វើឲ្យអាល់ប៊ុមមានពេលអហ្វឡាញ ។"</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"របស់នេះបានផ្ទុកនៅក្នុងឧបករណ៍ ហើយអាចបើកមើលបានក្នុងសភាពអហ្វឡាញ ។"</string>
+	<!---->
+	<string name="set_label_all_albums">"អាល់ប៊ុមទាំងអស់"</string>
+	<!---->
+	<string name="set_label_local_albums">"អាល់ប៊ុមនៅក្នុងឧបករណ៍"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"ឧបករណ៍ MTP"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"អាល់ប៊ុម Picasa"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="bytes">%s</xliff:g> ទំនេរ"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="size">%1$s</xliff:g> ឬខាងក្រោម"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="size">%1$s</xliff:g> ឬខាងលើ"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="min_size">%1$s</xliff:g> ទៅ <xliff:g id="max_size">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"នាំចូល"</string>
+	<!---->
+	<string name="import_complete">"នាំចូលរួចរាល់"</string>
+	<!---->
+	<string name="import_fail">"នាំចូលមិនបានជោគជ័យ"</string>
+	<!---->
+	<string name="camera_connected">"បានតភ្ជាប់កាមេរ៉ា ។"</string>
+	<!---->
+	<string name="camera_disconnected">"បានផ្តាច់ការតភ្ជាប់កាមេរ៉ា ។"</string>
+	<!---->
+	<string name="click_import">"ប៉ះត្រង់នេះ ដើម្បីនាំចូល"</string>
+	<!---->
+	<string name="widget_type_album">"ជ្រើសរើសអាល់ប៊ុមមួយ"</string>
+	<!---->
+	<string name="widget_type_shuffle">"សាប់រូបភាពទាំងអស់"</string>
+	<!---->
+	<string name="widget_type_photo">"ជ្រើសរើសរូបភាពមួយ"</string>
+	<!---->
+	<string name="widget_type">"ជ្រើសរើសរូបភាព"</string>
+	<!---->
+	<string name="slideshow_dream_name">"បង្ហាញស្លាយ"</string>
+	<!---->
+	<string name="albums">"អាល់ប៊ុម"</string>
+	<!---->
+	<string name="times">"ដង"</string>
+	<!---->
+	<string name="locations">"ទីតាំង"</string>
+	<!---->
+	<string name="people">"មនុស្ស"</string>
+	<!---->
+	<string name="tags">"ស្លាក"</string>
+	<!---->
+	<string name="group_by">"រៀបជាក្រុមតាម"</string>
+	<!---->
+	<string name="settings">"ការកំណត់"</string>
+	<!---->
+	<string name="add_account">"បន្ថែមគណនី"</string>
+	<!---->
+	<string name="folder_camera">"កាមេរ៉ា"</string>
+	<!---->
+	<string name="folder_download">"ទាញយក"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"រូបថតលើបណ្តាញអេឡិកត្រូនិកដែលបានកែតម្រូវ"</string>
+	<!---->
+	<string name="folder_imported">"បាននាំចូល"</string>
+	<!---->
+	<string name="folder_screenshot">"ថតអេក្រង់"</string>
+	<!---->
+	<string name="help">"ជំនួយ"</string>
+	<!---->
+	<string name="no_external_storage_title">"មិនមានការផ្ទុកឯកសារទេ"</string>
+	<!---->
+	<string name="no_external_storage">"ពុំមានការរក្សាទុកផ្នែកខាងក្នុងអាចប្រព្រឹត្តទៅបានឡើយ"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"ពិនិត្យស៊េរីភាពយន្ត"</string>
+	<!---->
+	<string name="switch_photo_grid">"ពិនិត្យក្រឡា"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"ទិដ្ឋភាព ពេញអេក្រង់"</string>
+	<!---->
+	<string name="trimming">"ការកាត់តម្រឹម"</string>
+	<!---->
+	<string name="muting">"គ្មានសម្លេង"</string>
+	<!---->
+	<string name="please_wait">"សូមរង់ចាំ"</string>
+	<!---->
+	<string name="save_into">"ការរក្សាទុកវីដេអូដែលបានកាត់តម្រឹមដាក់ក្នុងអាល់ប៊ូម៖"</string>
+	<!-- no translation found for trim_save_into -->
+	<skip />
+	<!-- no translation found for mute_save_into -->
+	<skip />
+	<!---->
+	<string name="trim_too_short">"tមិនអាចកាត់តម្រឹម៖ វីដេអូដែលកំណត់ ខ្លីពេក"</string>
+	<!---->
+	<string name="mute_nosupport">"មិនអាច គ្មានសម្លេង : វីដេអូ មិនត្រូវបានគាំទ្រ"</string>
+	<!---->
+	<string name="pano_progress_text">"ការទទួលទេសភាព"</string>
+	<!---->
+	<string name="save">"រក្សាទុក"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"ការស្កេន មាតិកា ..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d ធាតុដែលស្កេន"</item>
+		<item quantity="one">"%1$d ធាតុដែលស្កេន"</item>
+		<item quantity="other">"%1$d ធាតុដែលស្កេន"</item>
+	</plurals>
+	<!-- no translation found for ingest_number_of_items_selected -->
+	<skip />
+	<!---->
+	<string name="ingest_sorting">"ការតម្រៀប ..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"ការស្កេន បានធ្វើហើយ"</string>
+	<!---->
+	<string name="ingest_importing">"កំពុងទាញចូល ..."</string>
+	<!---->
+	<string name="ingest_empty_device">"មិនមានមាតិកា ដែលអាចទាញចូល លើឧបករណ៍ នេះ។"</string>
+	<!---->
+	<string name="ingest_no_device">"មិនមាន ឧបករណ៍ MTP បានតភ្ជាប់"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"កំហុសកាមេរ៉ា"</string>
+	<!---->
+	<string name="cannot_connect_camera">"មិនអាចភ្ជាប់ម៉ាស៊ីនថត។"</string>
+	<!---->
+	<string name="camera_disabled">"កាមេរ៉ាត្រូវបានធ្វើឲ្យអសកម្ម ដោយសារគោលនយោបាយសុវត្ថិភាព ។"</string>
+	<!---->
+	<string name="camera_label">"កាមេរ៉ា"</string>
+	<!---->
+	<string name="wait">"សូមរង់ចាំ\u2026"</string>
+	<!---->
+	<string name="review_cancel">"លើកលែង"</string>
+	<!---->
+	<string name="review_ok">"បានធ្វើរួច"</string>
+	<!---->
+	<string name="time_lapse_title">"ពេលវេលានៃការថតកន្លងផុត"</string>
+	<!---->
+	<string name="pref_camera_id_title">"ជ្រើស ម៉ាស៊ីនថត"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"ត្រឡប់ក្រោយ"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"មុខ"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"កន្លែងផ្ទុក"</string>
+	<!---->
+	<string name="pref_camera_location_label">"ទីតាំង"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"កម្មវិធីកំណត់រាប់ពេលវេលា"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 វិនាទី"</item>
+		<item quantity="other">"%d វិនាទី"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"សម្លេងប៊ីប ក្នុងអំឡុងពេលរាប់ពេលវេលា"</string>
+	<!---->
+	<string name="setting_off">"បិទ"</string>
+	<!---->
+	<string name="setting_on">"បើក"</string>
+	<!---->
+	<string name="pref_video_quality_title">"គុណភាពវីដេអូ"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"ខ្ពស់"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"ទាប"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"ម៉ោង​កន្លង​ផុត។"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"ការសិតកាមេរ៉ា"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"ការសិតកូនកាមេរ៉ាវីដេអូ"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"ទំហំរូបភាព"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"ភីកសែល13លាន"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8M ភិចសែល"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5M ភិចសែល"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4M ភិចសែល"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3M ភិចសែល"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2M ភិចសែល"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"ភីកសែល 2 លាន ( 16:9 )"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1.3M ភិកសែល"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1M ភិចសែល"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"ម៉ូដផ្ចង់"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"ស្វ័យប្រវត្តិ"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"អនន្តភាព"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"ម៉ាក្រូ"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"ស្វ័យប្រវត្តិ"</string>
+	<!-- no translation found for pref_camera_focusmode_label_infinity -->
+	<skip />
+	<!-- no translation found for pref_camera_focusmode_label_macro -->
+	<skip />
+	<!---->
+	<string name="pref_camera_flashmode_title">"ម៉ូដលោតភ្លើងសញ្ញា"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"ម៉ូដលោតភ្លើងសញ្ញា"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"ស្វ័យប្រវត្តិ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"បើក"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"បិទ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"ភ្លើងហ្វាស្វ័យប្រវត្តិ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"ភ្លើងហ្វាបើក"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"ភ្លើងហ្វាបិទ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"សមតុល្សពណ៌ស"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"សមតុល្សពណ៌ស"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"ស្វ័យប្រវត្តិ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"ដែលក្តៅឡើងស"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"ពន្លឺពេលថ្ងៃ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"ពន្លឺចាំង"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"ពពកច្រើន"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"ស្វ័យប្រវត្តិ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"ដែលក្តៅឡើងស"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"ពន្លឺពេលថ្ងៃ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"ពន្លឺចាំង"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"ពពកច្រើន"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"ម៉ូដទេសភាព"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"ស្វ័យប្រវត្តិ"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"សកម្មភាព"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"យប់"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"ថ្ងៃលិច"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"ជប់លៀង"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"គ្មាន"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"សកម្មភាព"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"យប់"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"ថ្ងៃលិច"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"ជប់លៀង"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"ឧបករណ៍កំណត់ពេលវេលា"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"ឧបករណ៍កំណត់ពេលវេលា បិទ"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 វិនាទី"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 វិនាទី"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 វិនាទី"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 វិនាទី"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"មិនអាចជ្រើសរើសបានទេ ក្នុងម៉ូដទេសភាព ។"</string>
+	<!---->
+	<string name="pref_exposure_title">"ការប៉ះពន្លឺ"</string>
+	<!---->
+	<string name="pref_exposure_label">"ការប៉ះពន្លឺ"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"កាមេរ៉ាខាងមុខ"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"កាមេរ៉ាខាងក្រោយ"</string>
+	<!---->
+	<string name="dialog_ok">"យល់ព្រម"</string>
+	<!---->
+	<string name="video_reach_size_limit">"បានឈានចូលដល់ដែនកំណត់ទំហំ ។"</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"លឿនពេក"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"កំពុងរៀបចំការមើលសព្វទស្សន៍"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"មិ\នអាចរក្សាទុករូបភាពសព្វទស្សន៍បានទេ ។"</string>
+	<!---->
+	<string name="pano_dialog_title">"សព្វទស្សន៍"</string>
+	<!---->
+	<string name="pano_capture_indication">"កំពុងថតរូបសព្វទស្សន៍"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"រង់ចាំទស្សននីយភាពពីមុនៗ"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"កំពុងរក្សាទុក\u2026"</string>
+	<!---->
+	<string name="pano_review_rendering">"ការទទួលទេសភាព"</string>
+	<!---->
+	<string name="tap_to_focus">"យកម្រាមដៃប៉ះដើម្បីផ្ចង់ ។"</string>
+	<!---->
+	<string name="pref_video_effect_title">"អានុភាព"</string>
+	<!---->
+	<string name="effect_none">"គ្មាន"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"រឹត"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"ភ្នែកធំ"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"មាត់ធំ"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"មាត់តូច"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"ច្រមុះធំ"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"ភ្នែកតូច"</string>
+	<!---->
+	<string name="effect_backdropper_space">"ក្នុងលំហ"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"ថ្ងៃលិច"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"វីដេអូ​របស់​អ្នក"</string>
+	<!---->
+	<string name="bg_replacement_message">"កំណត់ឧបករណ៍របស់អ្នក ឱ្យចុះក្រោម។\nកំណត់មើលមួយរយៈពេល។"</string>
+	<!---->
+	<string name="video_snapshot_hint">"យកម្រាមដៃប៉ះ ដើម្បីថតរូប ពេលអ្នកកំពុងថតវីដេអូ ។"</string>
+	<!---->
+	<string name="video_recording_started">"ថតវីដេអូ បានចាប់ផ្តើម ។"</string>
+	<!---->
+	<string name="video_recording_stopped">"ថតវីដេអូ បាន បញ្ឈប់។"</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"ការថតដោយមិនបានរៀបចំទុកមុន ត្រូវអសកម្ម ពេលអនុភាពពិសេសត្រូវបើក ។"</string>
+	<!---->
+	<string name="clear_effects">"សំអាតអនុភាព"</string>
+	<!---->
+	<string name="effect_silly_faces">"មុខផ្តេសផ្តាស"</string>
+	<!---->
+	<string name="effect_background">"ផ្ទៃខាងក្រោយ"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"ប៊ូតុងបិទ"</string>
+	<!---->
+	<string name="accessibility_menu_button">"ប៊ូតុង ម៉ឺនុយ"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"រូបថតថ្មីៗបំផុត"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"កុងតាក់ខាងមុខ និងខាងក្រោយកាមេរ៉ា"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"អ្នកជ្រើសរើសកាមេរ៉ា វីដេអូ ឬរូបភាពសព្វទស្សន៍"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"មុខងារគ្រប់គ្រងការសិតបន្ថែម"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"បិទមុខងារគ្រប់គ្រងការសិតបន្ថែម"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"មុខងារគ្រប់គ្រងការពង្រីក"</string>
+	<!---->
+	<string name="accessibility_decrement">"បន្ថយ %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"តម្លើង %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s ប្រអប់គូស"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"ប្ដូរទៅរូបថត"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"ប្តូរទៅវីដេអូ"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"ប្តូរទៅកាន់ម៉ូដសព្វទស្សន៍"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"ប្តូរទៅទស្សននីយភាពថ្មី"</string>
+	<!-- no translation found for accessibility_switch_to_refocus -->
+	<skip />
+	<!---->
+	<string name="accessibility_review_cancel">"បោះបង់ចោលការពិនិត្យមើលឡើងវិញ"</string>
+	<!---->
+	<string name="accessibility_review_ok">"ពិនិត្យបានធ្វើហើយ"</string>
+	<!---->
+	<string name="accessibility_review_retake">"ពិនិត្យធ្វើឡើងវិញ"</string>
+	<!---->
+	<string name="accessibility_play_video">"ចាក់មើលវីដេអូ"</string>
+	<!---->
+	<string name="accessibility_pause_video">"ផ្អាក វីដេអូ"</string>
+	<!---->
+	<string name="accessibility_reload_video">"បញ្ចូល វីដេអូ"</string>
+	<!---->
+	<string name="accessibility_time_bar">"របារពេលវេលា ឧបករណ៍ចាក់វីដេអូ"</string>
+	<!---->
+	<string name="capital_on">"បើក"</string>
+	<!---->
+	<string name="capital_off">"បិទ"</string>
+	<!---->
+	<string name="gif_err">"មិនអាចលេង gif ។"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"បិទ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0.5 វិនាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 វិនាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 វិនាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 វិនាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 វិនាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 វិនាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 វិនាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 វិនាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 វិនាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 វិនាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 វិនាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 វិនាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 វិនាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0.5 នាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 នាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 នាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 នាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 នាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 នាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 នាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 នាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 នាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 នាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 នាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 នាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 នាទី"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0.5 ម៉ោង"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 ម៉ោង"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1.5 ម៉ោង"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 ម៉ោង"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 ម៉ោង"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 ម៉ោង"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 ម៉ោង"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 ម៉ោង"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 ម៉ោង"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 ម៉ោង"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 ម៉ោង"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 ម៉ោង"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 ម៉ោង"</string>
+	<!---->
+	<string name="time_lapse_seconds">"វិនាទី"</string>
+	<!---->
+	<string name="time_lapse_minutes">"នាទី"</string>
+	<!---->
+	<string name="time_lapse_hours">"ម៉ោង"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"បានធ្វើរួច"</string>
+	<!---->
+	<string name="set_time_interval">"កំណត់ ពេលវេលា ចន្លោះពេល"</string>
+	<!---->
+	<string name="set_time_interval_help">"លក្ខណៈពិសេសម៉ោងដើរត្រូវបានបិទ ។ បើក វាដើម្បីកំណត់ ចន្លោះពេល ។"</string>
+	<!---->
+	<string name="set_timer_help">"ឧបករណ៍កំណត់ពេលវេលាត្រូវបានបិទ។ បើកវាមុនពេលថតរូបភាព។"</string>
+	<!---->
+	<string name="set_duration">"កំណត់ រយៈពេល ជាវិនាទី"</string>
+	<!---->
+	<string name="count_down_title_text">"រាប់ដើម្បីថតរូបភាព"</string>
+	<!---->
+	<string name="remember_location_title">"ចងចាំ ទីតាំង រូបថត ?"</string>
+	<!---->
+	<string name="remember_location_prompt">"ភ្ជាប់រូបថតនិង វីដេអូ របស់អ្នកជាមួយនឹងទីតាំង ដែលបានថត ។ .\n\nOther កម្មវិធីផ្សេងទៀតអាចចូលដំណើរការព័ត៌មាននេះ រួមជាមួយនឹងរូបភាពរបស់អ្នកដែលបានរក្សាទុក ។"</string>
+	<!---->
+	<string name="remember_location_no">"ទេ អរគុណ"</string>
+	<!---->
+	<string name="remember_location_yes">"បាទ"</string>
+	<!---->
+	<string name="menu_camera">"កាមេរ៉ា"</string>
+	<!---->
+	<string name="menu_search">"រាវរក"</string>
+	<!---->
+	<string name="tab_photos">"រូបថត"</string>
+	<!---->
+	<string name="tab_albums">"អាល់ប៊ុម"</string>
+	<!---->
+	<string name="camera_menu_more_label">"ជម្រើសច្រើនថែមទៀត"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"ការកំណត់"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d រូបថត"</item>
+		<item quantity="other">"%1$d រូបថត"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"ចំណងជើងរង"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"វីដេអូ​នេះ​មិន​ត្រឹមត្រូវ​សម្រាប់​​ចរន្ត​ចូល​ឧបករណ៍​នេះ។"</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"មិន​អាច​ចាក់​វីដេអូ​នេះ។"</string>
+	<!---->
+	<string name="VideoView_error_button">"យល់ព្រម"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"វីដេអូនេះមិនអាចលេងបានឡើយ ។"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"បរាជ័យក្នុងការតភ្ជាប់ សាកល្បងតភ្ជាប់ %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"កំពុងតភ្ជាប់ ..."</string>
+	<!---->
+	<string name="media_controller_buffering">"កំពុងខាត់ %d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"មិន\អាចភ្ជាប់ទៅកាន់ម៉ាស៊ីនមប្រើបាន ។"</string>
+	<!---->
+	<string name="media_controller_live">"ផ្ទាល់"</string>
+	<!---->
+	<string name="media_controller_playing">"កំពុងលេង"</string>
+	<!-- no translation found for notify_photo_text -->
+	<skip />
+	<!---->
+	<string name="notify_video_text">"ឧបករណ៍គ្រប់គ្រងវីដេអូ"</string>
+	<!-- no translation found for notify_ticker_forwfd_photo -->
+	<skip />
+	<!-- no translation found for notify_ticker_forwfd_video -->
+	<skip />
+	<!---->
+	<string name="wfd_alert">"ដាស់អារម្មណ៍"</string>
+	<!---->
+	<string name="wfd_change_message">"វីដេអូ នឹងត្រូវដាក់ជំនួស។"</string>
+	<!---->
+	<string name="wfd_change_button">"បាទ"</string>
+	<!---->
+	<string name="wfd_not_change_button">"ទេ"</string>
+	<!-- no translation found for wfd_show -->
+	<skip />
+	<!-- no translation found for wfd_show_on -->
+	<skip />
+	<!-- no translation found for wfd_show_off -->
+	<skip />
+	<!-- no translation found for wifi_gesture_tip -->
+	<skip />
+	<!---->
+	<string name="popupvideo_notsupport_message">"ប្រភេទនេះមិនត្រូវបានការគាំទ្រទេ។"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"ម៉ូដព្រមាន"</string>
+	<!-- no translation found for drm_wifidisplay_message -->
+	<skip />
+	<!---->
+	<string name="drm_wifidisplay_cancel">"បិទគេហទំព័រភ្ជាប់ទូរទស្ស"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"បន្ត"</string>
+	<!-- no translation found for tv_link_close -->
+	<skip />
+	<!-- no translation found for drm_no_valid_right -->
+	<skip />
+	<!---->
+	<string name="drm_delete_invalid_content">"ឯកសារ DRM  "%s" ផុតកំណត់។ តើ​អ្នក​ចង់លុបវា?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"ហ្វៃល៍ DRM "%s" បានផុតសុពលភាព។ តើលោកអ្នកចង់ដោះសោវាឬទេ?"</string>
+	<!---->
+	<string name="unlimited_usage">"ការប្រើមិនកំណត់"</string>
+	<!-- no translation found for not_available -->
+	<skip />
+	<!---->
+	<string name="use_times">"ប្រើប្រាស់ %s ដង"</string>
+	<!---->
+	<string name="valid_after">"មានសុពលភាពក្រោយពី"</string>
+	<!---->
+	<string name="valid_until">"មានសុពលភាពរហូតដល់"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"ការដកឃ្លាពីរដង និងអូស ដើម្បីពង្រីក ឬបង្រួបនៅក្នុង ម៉ាស៊ីនថត"</string>
+	<!---->
+	<string name="tips_done">"បានធ្វើរួចរាល់"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"ដកឃ្លាពីរដង ហើយអូសដើម្បីពង្រីក/ពង្រួមនៅក្នុងវិចិត្រសាល"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"រៀនអំពីការពង្រីកប្រើម្រាមដៃ មួយ"</string>
+	<!---->
+	<string name="drm_current_right">"ឧបសគ្គនាពេលបច្ចុប្បន្ន"</string>
+	<!---->
+	<string name="right_url">"អ្នកចេញអាជ្ញាប័ណ្ណ URL៖"</string>
+	<!---->
+	<string name="vendor">"អ្នកលក់:"</string>
+	<!---->
+	<string name="stop">"ឈប់"</string>
+	<!---->
+	<string name="selectRenderer">"ជ្រើសរើសម៉ាស៊ីនចាក់"</string>
+	<!---->
+	<string name="noRenderer">"មិនអាចស្វែងរកឧបករណ៍ផ្សាយ"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"ឈប់ចាក់វីដេអូនៅលើទូរទស្សន៍?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"ឈប់ចាក់មើលរូបភាពនៅលើទូរទស្សន៍?"</string>
+	<!---->
+	<string name="play_video">"ចាក់មើលវីដេអូ"</string>
+	<!---->
+	<string name="shake_video_text">"ក្រឡុកទូរស័ព្ទរបស់អ្នក នៅលើទំព័រវីដេអូ ដើម្បីចាក់វានៅលើទូរទស្សន៍"</string>
+	<!---->
+	<string name="shake_picture_text">"ក្រឡុកទូរស័ព្ទរបស់អ្នក នៅលើទំព័ររូបភាព ដើម្បីចាក់វានៅលើទូរទស្សន៍"</string>
+	<!---->
+	<string name="wait_dialog">"សូមរង់ចាំ"</string>
+	<!---->
+	<string name="toast_nostop">"សូមទោស បើសិនជាលោកអ្នក ចង់ចាក់នៅលើទូរទស្សន៍ លោកអ្នកគួរជ្រើសរើសម៉ាស៊ីនខាងក្នុង។"</string>
+	<!---->
+	<string name="dlna_format_not_support">"ទ្រង់ទ្រាយរបស់ឯកសារមិនអាចប្រើបានទេ ។"</string>
+	<!-- no translation found for left_title_camera_roll -->
+	<skip />
+	<!-- no translation found for left_title_timeline -->
+	<skip />
+	<!---->
+	<string name="left_title_albums">"អាល់ប៊ុម"</string>
+	<!-- no translation found for left_title_videos -->
+	<skip />
+	<!---->
+	<string name="left_title_location">"ទីតាំង"</string>
+	<!-- no translation found for drawer_open -->
+	<skip />
+	<!-- no translation found for drawer_close -->
+	<skip />
+	<!-- no translation found for photo_share -->
+	<skip />
+	<!---->
+	<string name="filtershow_save">"រក្សាទុក"</string>
+	<!---->
+	<string name="filtershow_none">"គ្មាន"</string>
+	<!---->
+	<string name="filtershow_frame">"ស៊ុម"</string>
+	<!---->
+	<string name="drm_no_crop">"ឯកសារ %s មិន​ទទួល​ការអនុញ្ញាត​ឲ្យ​ច្រឹប​ឡើយ ដោយសារ​ឯកសារ​នេះ​ត្រូវ​បាន​ការពារ​ដោយ DRM."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"ហ្វៃល៍ "%s" មិនត្រូវបានអនុញ្ញាតឱ្យកំណត់ជាអៃខុនទំនាក់ទំនង ដែលជាហ្វៃល៍ DRM ត្រូវបានការពារ."</string>
+	<!-- no translation found for never_tip -->
+	<skip />
+	<!-- no translation found for three_finger_tips0 -->
+	<skip />
+	<!-- no translation found for three_finger_tips1 -->
+	<skip />
+	<!-- no translation found for three_finger_tips2 -->
+	<skip />
+	<!---->
+	<string name="drm_not_support_wifidisplay">"ហ្វៃល៍ DRM មិនត្រូវបង្ហាញតាមការបង្ហាញ Wi-Fi ឡើយ!"</string>
+	<!-- no translation found for filtershow_save_title -->
+	<skip />
+	<!-- no translation found for filtershow_save_message -->
+	<skip />
+	<!---->
+	<string name="filtershow_save_no_ask">"កុំ\សួរម្តងទៀត"</string>
+	<!-- no translation found for filtershow_save_button_copy -->
+	<skip />
+	<!-- no translation found for filtershow_save_button_overwrite -->
+	<skip />
+	<!-- no translation found for lock_video -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="drm_toast_license_expired">"អាជ្ញាប័ណ្ណ DRM បានផុតកំណត់ហើយ ។"</string>
+	<!-- no translation found for drm_protection_status -->
+	<skip />
+	<!-- no translation found for drm_can_forward -->
+	<skip />
+	<!-- no translation found for drm_can_not_forward -->
+	<skip />
+	<!-- no translation found for drm_no_license -->
+	<skip />
+	<!-- no translation found for drm_begin -->
+	<skip />
+	<!-- no translation found for drm_no_limitation -->
+	<skip />
+	<!-- no translation found for drm_end -->
+	<skip />
+	<!-- no translation found for drm_use_left -->
+	<skip />
+	<!-- no translation found for date_taken -->
+	<skip />
+	<!-- no translation found for modified_time -->
+	<skip />
+	<!-- no translation found for fast_forward -->
+	<skip />
+	<!-- no translation found for fast_backward -->
+	<skip />
+	<!-- no translation found for network_reconnected_when_playing -->
+	<skip />
+	<!---->
+	<string name="polaroid_action_open">"បើក"</string>
+	<!---->
+	<string name="polaroid_action_save">"រក្សាទុក"</string>
+	<!---->
+	<string name="polaroid_action_send">"ផ្ញើចេញ"</string>
+	<!-- no translation found for polaroid_default_slogan -->
+	<skip />
+	<!-- no translation found for polaroid_saving_picture -->
+	<skip />
+	<!-- no translation found for editor_select_polaroid -->
+	<skip />
+	<!-- no translation found for editor_select_filtershow -->
+	<skip />
+	<!---->
+	<string name="date_tag">"កាលបរិច្ឆេទ"</string>
+	<!-- no translation found for location_tag -->
+	<skip />
+	<!-- no translation found for slogan_tag -->
+	<skip />
+	<!---->
+	<string name="polaroid_no_location">"មិនមានទីតាំង"</string>
+	<!-- no translation found for save_iamge_compelete -->
+	<skip />
+	<!-- no translation found for save_image_error -->
+	<skip />
+	<!-- no translation found for dialog_min_image_save_title -->
+	<skip />
+	<!-- no translation found for dialog_min_image_save_message -->
+	<skip />
+	<!---->
+	<string name="open_with">"បើក​ជា​មួយ"</string>
+	<!-- no translation found for moments_month_view -->
+	<skip />
+	<!-- no translation found for moments_day_view -->
+	<skip />
+	<!-- no translation found for actionbar_menu_text_all -->
+	<skip />
+	<!-- no translation found for actionbar_menu_text_photo -->
+	<skip />
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"វីដេអូ"</string>
+	<!-- no translation found for actionbar_menu_text_fyuse -->
+	<skip />
+	<!-- no translation found for burst_mode_delete_message -->
+	<skip />
+	<!-- no translation found for burst_mode_save_message -->
+	<skip />
+	<!---->
+	<string name="burst_overwrite">"សរសេរជាន់ពីលើ"</string>
+	<!-- no translation found for burst_save_as_individual_images -->
+	<skip />
+	<!---->
+	<string name="burst_cancel">"លើកលែង"</string>
+	<!---->
+	<string name="burst_delete">"លុបចោល"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"ការចូលចិត្ត"</string>
+	<!---->
+	<string name="select">"សូមជ្រើសរើស"</string>
+	<!---->
+	<string name="getstarted">"ចាប់ផ្ដើម"</string>
+	<!-- no translation found for gotit -->
+	<skip />
+	<!-- no translation found for faceshow_start -->
+	<skip />
+	<!-- no translation found for faceshow_takemore -->
+	<skip />
+	<!-- no translation found for selfies -->
+	<skip />
+	<!-- no translation found for parallax -->
+	<skip />
+	<!-- no translation found for trim_title -->
+	<skip />
+	<!-- no translation found for trim_message -->
+	<skip />
+	<!---->
+	<string name="trim_discard">"បោះបង់ចោល"</string>
+	<!-- no translation found for main_tab_moments -->
+	<skip />
+	<!-- no translation found for moments_show -->
+	<skip />
+	<!-- no translation found for illegal_image_format -->
+	<skip />
+	<!-- no translation found for exporting_video -->
+	<skip />
+	<!-- no translation found for exporting_message -->
+	<skip />
+	<!-- no translation found for share_save_video -->
+	<skip />
+	<!-- no translation found for share_saved -->
+	<skip />
+	<!-- no translation found for share_save_image -->
+	<skip />
+	<!-- no translation found for share_image_saved -->
+	<skip />
+	<!-- no translation found for location_permission_toast_text -->
+	<skip />
+	<!---->
+	<string name="no_internet_contect_text">"មិនមានការតភ្ជាប់អ៊ិនថឺណិតទេ"</string>
+	<!---->
+	<string name="more">"ច្រើន"</string>
+	<!---->
+	<string name="moment_album_today">"ថ្ងៃនេះ"</string>
+	<!---->
+	<string name="moment_album_yesterday">"ម្សិលមិញ"</string>
+	<!-- no translation found for location_destination_text -->
+	<skip />
+	<string-array name="month">
+		<!--inherit from default language-->
+		<item>"January"</item>
+		<!--inherit from default language-->
+		<item>"February"</item>
+		<!--inherit from default language-->
+		<item>"March"</item>
+		<!--inherit from default language-->
+		<item>"April"</item>
+		<!--inherit from default language-->
+		<item>"May"</item>
+		<!--inherit from default language-->
+		<item>"June"</item>
+		<!--inherit from default language-->
+		<item>"July"</item>
+		<!--inherit from default language-->
+		<item>"August"</item>
+		<!--inherit from default language-->
+		<item>"September"</item>
+		<!--inherit from default language-->
+		<item>"October"</item>
+		<!--inherit from default language-->
+		<item>"November"</item>
+		<!--inherit from default language-->
+		<item>"December"</item>
+	</string-array>
+	<!-- no translation found for permission_location_text -->
+	<skip />
+	<!-- no translation found for permission_location_settings -->
+	<skip />
+	<!-- no translation found for boom_key_tip_1 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_2 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_3 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_4 -->
+	<skip />
+	<!---->
+	<string name="tx_skip">"រំលង"</string>
+	<!---->
+	<string name="tx_done">"ធ្វើ​រួច"</string>
+	<!-- no translation found for boom_key -->
+	<skip />
+	<!-- no translation found for press -->
+	<skip />
+	<!-- no translation found for not_support_parallax_share -->
+	<skip />
+	<!-- no translation found for permissions_hi -->
+	<skip />
+	<!-- no translation found for not_support_video_edit -->
+	<skip />
+</resources>

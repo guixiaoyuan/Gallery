@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-03-06,PR929635 Begin -->
+    <gradient android:startColor="#00bcd4" android:endColor="#00bcd4"/>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-03-06,PR929635 End -->
+
+</shape>

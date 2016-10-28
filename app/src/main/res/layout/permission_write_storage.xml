@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/permission_write_storage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00B4CB" >
+
+    <TextView
+        android:id="@+id/grant_access_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="68dp"
+        android:text="Grant access"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/grant_access_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grant_access_title"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="40dp"
+        android:text="Change permission in your device’s app settings. Give Gallery access to Storage."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/grant_access_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grant_access_des"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:contentDescription="grant_access_img"
+        android:src="@drawable/ic_permission_2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:orientation="horizontal">
+        <Button 
+            android:id="@+id/permission_exit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="EXIT"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"/>
+        <Button 
+            android:id="@+id/permission_settings"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="SETTINGS"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"/>
+        
+    </LinearLayout>
+
+</RelativeLayout>

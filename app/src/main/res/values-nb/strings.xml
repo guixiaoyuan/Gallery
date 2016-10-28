@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>    <!--
+		this file is built by arct v:froyo_2011-03-23, Thu Apr 02 14:48:29 GMT+08:00 2015
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!---->
+    <string name="app_name">"Galleri"</string>
+    <!---->
+    <string name="gadget_title">"Bilderamme"</string>
+    <!-- no translation found for details_ms -->
+    <skip />
+    <!-- no translation found for details_hms -->
+    <skip />
+    <!---->
+    <string name="movie_view_label">"Videospiller"</string>
+    <!---->
+    <string name="loading_video">"Laster inn video\u2026"</string>
+    <!---->
+    <string name="loading_image">"Laster inn bilde\u2026"</string>
+    <!---->
+    <string name="loading_account">"Laster inn konto\u2026"</string>
+    <!---->
+    <string name="resume_playing_title">"Fortsett video"</string>
+    <!---->
+    <string name="resume_playing_message">"Fortsette å spille av fra %s ?"</string>
+    <!---->
+    <string name="resume_playing_resume">"Fortsett avspilling"</string>
+    <!---->
+    <string name="loading">"Laster inn\u2026"</string>
+    <!---->
+    <string name="fail_to_load">"Kan ikke laste inn"</string>
+    <!---->
+    <string name="fail_trim">"Denne videofilen kan dessverre ikke beskjæres."</string>
+    <!---->
+    <string name="fail_to_load_image">"Kunne ikke laste inn bildet"</string>
+    <!---->
+    <string name="no_thumbnail">"Miniatyrbilde mangler"</string>
+    <!---->
+    <string name="resume_playing_restart">"Begynn på nytt"</string>
+    <!---->
+    <string name="crop_save_text">"OK"</string>
+    <!---->
+    <string name="ok">"OK"</string>
+    <!---->
+    <string name="multiface_crop_help">"Ta på et ansikt for å begynne"</string>
+    <!---->
+    <string name="saving_image">"Lagrer bilde\u2026"</string>
+    <!---->
+    <string name="filtershow_saving_image">"Lagrer bildet i <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+    <!---->
+    <string name="save_error">"Kan ikke lagre beskåret bilde."</string>
+    <!---->
+    <string name="crop_label">"Beskjær bilde"</string>
+    <!---->
+    <string name="trim_label">"Klipp video"</string>
+    <!---->
+    <string name="select_image">"Velg bilde"</string>
+    <!---->
+    <string name="select_video">"Velg video"</string>
+    <!---->
+    <string name="select_item">"Velg element"</string>
+    <!---->
+    <string name="select_album">"Velg galleri"</string>
+    <!---->
+    <string name="select_group">"Velg gruppe"</string>
+    <!---->
+    <string name="set_image">"Angi bilde som"</string>
+    <!---->
+    <string name="set_wallpaper">"endre bakgrunnsbilde"</string>
+    <!---->
+    <string name="wallpaper">"Angir bakgrunn\u2026"</string>
+    <!---->
+    <string name="camera_setas_wallpaper">"Bakgrunn"</string>
+    <!---->
+    <string name="delete">"Slett"</string>
+    <!---->
+    <string name="deleting">"Sletter"</string>
+    <plurals name="delete_selection">
+        <item quantity="one">"Slette valgt element?"</item>
+        <item quantity="other">"Slette valgte elementer?"</item>
+    </plurals>
+    <!---->
+    <string name="confirm">"Bekreft"</string>
+    <!---->
+    <string name="cancel">"Avbryt"</string>
+    <!---->
+    <string name="share">"Del"</string>
+    <!---->
+    <string name="share_panorama">"Del panorama"</string>
+    <!---->
+    <string name="share_as_photo">"Del som bilde"</string>
+    <!---->
+    <string name="deleted">"Slettet"</string>
+    <!---->
+    <string name="undo">"ANGRE"</string>
+    <!---->
+    <string name="select_all">"Velg alle"</string>
+    <!---->
+    <string name="deselect_all">"Opphev alle valg"</string>
+    <!---->
+    <string name="slideshow">"Lysbildevisning"</string>
+    <!---->
+    <string name="details">"Detaljer"</string>
+    <!---->
+    <string name="details_title">"%1$d av %2$d elementer:"</string>
+    <!---->
+    <string name="close">"Lukk"</string>
+    <!---->
+    <string name="switch_to_camera">"Bytt til kamera"</string>
+    <plurals name="number_of_items_selected">
+        <item quantity="zero">"%1$d valgt"</item>
+        <item quantity="one">"%1$d valgt"</item>
+        <item quantity="other">"%1$d valgt"</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="zero">"%1$d valgt"</item>
+        <item quantity="one">"%1$d valgt"</item>
+        <item quantity="other">"%1$d valgt"</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="zero">"%1$d valgt"</item>
+        <item quantity="one">"%1$d valgt"</item>
+        <item quantity="other">"%1$d valgt"</item>
+    </plurals>
+    <!---->
+    <string name="show_on_map">"Vis på kart"</string>
+    <!---->
+    <string name="rotate_left">"Roter mot venstre"</string>
+    <!---->
+    <string name="rotate_right">"Roter mot høyre"</string>
+    <!---->
+    <string name="no_such_item">"Finner ikke elementet."</string>
+    <!---->
+    <string name="edit">"Rediger"</string>
+    <!---->
+    <string name="mix_video">"Miks"</string>
+    <!---->
+    <string name="simple_edit">"Enkel redigering"</string>
+    <!---->
+    <string name="process_caching_requests">"Behandler forespørsler om bufring"</string>
+    <!---->
+    <string name="caching_label">"Bufrer\u2026"</string>
+    <!---->
+    <string name="crop_action">"Beskjær"</string>
+    <!---->
+    <string name="trim_action">"Klipp"</string>
+    <!---->
+    <string name="mute_action">"Ignorer"</string>
+    <!---->
+    <string name="set_as">"Angi som"</string>
+    <!---->
+    <string name="video_mute_err">"Kan ikke dempe video"</string>
+    <!---->
+    <string name="video_err">"Kan ikke spille video"</string>
+    <!---->
+    <string name="group_by_location">"Etter sted"</string>
+    <!---->
+    <string name="group_by_time">"Etter tidspunkt"</string>
+    <!---->
+    <string name="group_by_tags">"Etter kategori"</string>
+    <!---->
+    <string name="group_by_faces">"Etter personer"</string>
+    <!---->
+    <string name="group_by_album">"Etter album"</string>
+    <!---->
+    <string name="group_by_size">"Etter størrelse"</string>
+    <!---->
+    <string name="untagged">"Uten kategori"</string>
+    <!---->
+    <string name="no_location">"Ingen steder"</string>
+    <!---->
+    <string name="no_connectivity">"Kan ikke identifisere enkelte steder på grunn av nettverksproblemer."</string>
+    <!---->
+    <string name="sync_album_error">"Kunne ikke laste ned bildene i dette albumet. Prøv igjen senere."</string>
+    <!---->
+    <string name="show_images_only">"Bare bilder"</string>
+    <!---->
+    <string name="show_videos_only">"Bare videoer"</string>
+    <!---->
+    <string name="show_all">"Bilder og videoer"</string>
+    <!---->
+    <string name="appwidget_title">"Fotogalleri"</string>
+    <!---->
+    <string name="appwidget_empty_text">"Ingen bilder."</string>
+    <!---->
+    <string name="crop_saved">"Beskåret bilde lagret i <xliff:g id="folder_name">%s</xliff:g>."</string>
+    <!---->
+    <string name="no_albums_alert">"Ingen tilgjengelige album"</string>
+    <!---->
+    <string name="empty_album">"Ingen tilgjengelige bilder/videoer"</string>
+    <!---->
+    <string name="picasa_posts">"Innlegg"</string>
+    <!---->
+    <string name="make_available_offline">"Gjør tilgj. i frakoblet modus"</string>
+    <!---->
+    <string name="sync_picasa_albums">"Oppdater"</string>
+    <!---->
+    <string name="done">"Fullført"</string>
+    <!---->
+    <string name="sequence_in_set">"%1$d av %2$d elementer:"</string>
+    <!---->
+    <string name="title">"Tittel"</string>
+    <!---->
+    <string name="description">"Beskrivelse"</string>
+    <!---->
+    <string name="time">"Klokkeslett"</string>
+    <!---->
+    <string name="location">"Sted"</string>
+    <!---->
+    <string name="path">"Bane"</string>
+    <!---->
+    <string name="width">"Bredde"</string>
+    <!---->
+    <string name="height">"Høyde"</string>
+    <!---->
+    <string name="orientation">"Retning"</string>
+    <!---->
+    <string name="duration">"Varighet"</string>
+    <!---->
+    <string name="mimetype">"MIME-type"</string>
+    <!---->
+    <string name="file_size">"Filstørrelse"</string>
+    <!---->
+    <string name="maker">"Skaper"</string>
+    <!---->
+    <string name="model">"Modell"</string>
+    <!---->
+    <string name="flash">"Blits"</string>
+    <!---->
+    <string name="aperture">"Blender"</string>
+    <!---->
+    <string name="focal_length">"Brennvidde"</string>
+    <!---->
+    <string name="white_balance">"Hvitbalanse"</string>
+    <!---->
+    <string name="exposure_time">"Eksp.tid"</string>
+    <!---->
+    <string name="iso">"ISO"</string>
+    <!---->
+    <string name="unit_mm">"mm"</string>
+    <!---->
+    <string name="manual">"Manuell"</string>
+    <!---->
+    <string name="auto">"Auto"</string>
+    <!---->
+    <string name="flash_on">"Blits brukt"</string>
+    <!---->
+    <string name="flash_off">"Ingen blits"</string>
+    <!---->
+    <string name="unknown">"Ukjent"</string>
+    <!---->
+    <string name="ffx_original">"Original"</string>
+    <!---->
+    <string name="ffx_vintage">"Vintage"</string>
+    <!---->
+    <string name="ffx_instant">"Øyeblikk"</string>
+    <!---->
+    <string name="ffx_bleach">"Bleking"</string>
+    <!---->
+    <string name="ffx_blue_crush">"Blå"</string>
+    <!---->
+    <string name="ffx_bw_contrast">"S/HV"</string>
+    <!---->
+    <string name="ffx_punch">"Punch"</string>
+    <!---->
+    <string name="ffx_x_process">"X-prosess"</string>
+    <!---->
+    <string name="ffx_washout">"Latte"</string>
+    <!---->
+    <string name="ffx_washout_color">"Litho"</string>
+    <plurals name="make_albums_available_offline">
+        <item quantity="one">"Gjør album tilgjengelig i frakoblet modus."</item>
+        <item quantity="other">"Gjør album tilgjengelige i frakoblet modus."</item>
+    </plurals>
+    <!---->
+    <string name="try_to_set_local_album_available_offline">"Dette elementet er lagret lokalt og tilgjengelig i frakoblet modus."</string>
+    <!---->
+    <string name="set_label_all_albums">"Alle album"</string>
+    <!---->
+    <string name="set_label_local_albums">"Lokale album"</string>
+    <!---->
+    <string name="set_label_mtp_devices">"MTP-enheter"</string>
+    <!---->
+    <string name="set_label_picasa_albums">"Picasa-album"</string>
+    <!---->
+    <string name="free_space_format">"<xliff:g id="bytes">%s</xliff:g> gratis"</string>
+    <!---->
+    <string name="size_below">"<xliff:g id="size">%1$s</xliff:g> eller mindre"</string>
+    <!---->
+    <string name="size_above">"<xliff:g id="size">%1$s</xliff:g> eller mer"</string>
+    <!---->
+    <string name="size_between">"<xliff:g id="min_size">%1$s</xliff:g> til <xliff:g id="max_size">%2$s</xliff:g>"</string>
+    <!---->
+    <string name="Import">"Importer"</string>
+    <!---->
+    <string name="import_complete">"Import fullført"</string>
+    <!---->
+    <string name="import_fail">"Import mislyktes"</string>
+    <!---->
+    <string name="camera_connected">"Kamera tilkoblet."</string>
+    <!---->
+    <string name="camera_disconnected">"Kamera frakoblet."</string>
+    <!---->
+    <string name="click_import">"Trykk her for å importere"</string>
+    <!---->
+    <string name="widget_type_album">"Velg et album"</string>
+    <!---->
+    <string name="widget_type_shuffle">"Tilfeldig rekkefølge på bilder"</string>
+    <!---->
+    <string name="widget_type_photo">"Velg et bilde"</string>
+    <!---->
+    <string name="widget_type">"Velg bilder"</string>
+    <!---->
+    <string name="slideshow_dream_name">"Lysbildevisning"</string>
+    <!---->
+    <string name="albums">"Album"</string>
+    <!---->
+    <string name="times">"Klokkeslett"</string>
+    <!---->
+    <string name="locations">"Steder"</string>
+    <!---->
+    <string name="people">"Personer"</string>
+    <!---->
+    <string name="tags">"Kategorier"</string>
+    <!---->
+    <string name="group_by">"Grupper etter"</string>
+    <!---->
+    <string name="settings">"Innstillinger"</string>
+    <!---->
+    <string name="add_account">"Legg til konto"</string>
+    <!---->
+    <string name="folder_camera">"Kamera"</string>
+    <!---->
+    <string name="folder_download">"Last ned"</string>
+    <!---->
+    <string name="folder_edited_online_photos">"Redigerte nettbilder"</string>
+    <!---->
+    <string name="folder_imported">"Importert"</string>
+    <!---->
+    <string name="folder_screenshot">"Skjermbilde"</string>
+    <!---->
+    <string name="help">"Hjelp"</string>
+    <!---->
+    <string name="no_external_storage_title">"Ingen lagring"</string>
+    <!---->
+    <string name="no_external_storage">"Ingen ekstern lagring tilgjengelig"</string>
+    <!---->
+    <string name="switch_photo_filmstrip">"Filmstripevisning"</string>
+    <!---->
+    <string name="switch_photo_grid">"Rutenettvisning"</string>
+    <!---->
+    <string name="switch_photo_fullscreen">"Fullskjermsvisning"</string>
+    <!---->
+    <string name="trimming">"Klipping"</string>
+    <!---->
+    <string name="muting">"Demper"</string>
+    <!---->
+    <string name="please_wait">"Vent litt"</string>
+    <!---->
+    <string name="save_into">"Lagrer beskåret video i album:"</string>
+    <!---->
+    <string name="trim_save_into">"Beskåret fil lagret i <xliff:g id="album_name">%1$s</xliff:g>"</string>
+    <!---->
+    <string name="mute_save_into">"Dempet fil lagret i <xliff:g id="album_name">%1$s</xliff:g>"</string>
+    <!---->
+    <string name="trim_too_short">"Kan ikke klippe: målvideoen er for kort"</string>
+    <!---->
+    <string name="mute_nosupport">"Kan ikke dempe: video støttes ikke"</string>
+    <!---->
+    <string name="pano_progress_text">"Gjengir panorama"</string>
+    <!---->
+    <string name="save">"LAGRE"</string>
+    <!-- no translation found for ingest_import -->
+    <skip />
+    <!-- no translation found for ingest_import_complete -->
+    <skip />
+    <!---->
+    <string name="ingest_scanning">"Søker gjennom innhold..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="zero">"Søkt gjennom %1$d elementer"</item>
+        <item quantity="one">"Søkt gjennom %1$d elemente"</item>
+        <item quantity="other">"Søkt gjennom %1$d elementer"</item>
+    </plurals>
+    <!-- no translation found for ingest_number_of_items_selected -->
+    <skip />
+    <!---->
+    <string name="ingest_sorting">"Sorterer..."</string>
+    <!---->
+    <string name="ingest_scanning_done">"Søk utført"</string>
+    <!---->
+    <string name="ingest_importing">"Importerer..."</string>
+    <!---->
+    <string name="ingest_empty_device">"Det er ikke noe innhold tilgjengelig for import på denne enheten."</string>
+    <!---->
+    <string name="ingest_no_device">"Ingen MTP-enhet er koblet til"</string>
+    <!-- no translation found for ingest_switch_photo_grid -->
+    <skip />
+    <!-- no translation found for ingest_switch_photo_fullscreen -->
+    <skip />
+    <!---->
+    <string name="camera_error_title">"Kamerafeil"</string>
+    <!---->
+    <string name="cannot_connect_camera">"Kan ikke koble til kamera."</string>
+    <!---->
+    <string name="camera_disabled">"Kameraet er deaktivert på grunn av retningslinjer for sikkerhet."</string>
+    <!---->
+    <string name="camera_label">"Kamera"</string>
+    <!---->
+    <string name="wait">"Vent litt ..."</string>
+    <!---->
+    <!---->
+    <string name="no_storage" product="default">"Sett inn et SD-kort før du bruker kameraet."</string>
+    <!---->
+    <!---->
+    <string name="preparing_sd" product="default">"Forbereder minnekort…"</string>
+    <!---->
+    <!---->
+    <string name="access_sd_fail" product="default">"Får ikke tilgang til SD-kort."</string>
+    <!---->
+    <string name="review_cancel">"Avbryt"</string>
+    <!---->
+    <string name="review_ok">"OK"</string>
+    <!---->
+    <string name="time_lapse_title">"Opptak med tidsforsinkelse"</string>
+    <!---->
+    <string name="pref_camera_id_title">"Velg kamera"</string>
+    <!---->
+    <string name="pref_camera_id_entry_back">"Tilbake"</string>
+    <!---->
+    <string name="pref_camera_id_entry_front">"Foran"</string>
+    <!---->
+    <string name="pref_camera_recordlocation_title">"Lagre sted"</string>
+    <!---->
+    <string name="pref_camera_location_label">"Sted"</string>
+    <!---->
+    <string name="pref_camera_timer_title">"Nedtellingstidtaker"</string>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="one">"1 sekund"</item>
+        <item quantity="other">"%d sekunder"</item>
+    </plurals>
+    <!---->
+    <string name="pref_camera_timer_sound_title">"Pipetone under nedtelling"</string>
+    <!---->
+    <string name="setting_off">"Av"</string>
+    <!---->
+    <string name="setting_on">"På"</string>
+    <!---->
+    <string name="pref_video_quality_title">"Videokvalitet"</string>
+    <!---->
+    <string name="pref_video_quality_entry_high">"Høy"</string>
+    <!---->
+    <string name="pref_video_quality_entry_low">"Lav"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_title">"Tidsforsinkelse"</string>
+    <!---->
+    <string name="pref_camera_settings_category">"Kamerainnstillinger"</string>
+    <!---->
+    <string name="pref_camcorder_settings_category">"Videoinnstillinger"</string>
+    <!---->
+    <string name="pref_camera_picturesize_title">"Bildestørrelse"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_13mp">"13 M piksler"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_8mp">"8 MP"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_5mp">"5M (2592x1936)"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_4mp">"4 MP"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_3mp">"3M (2048x1536)"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_2mp">"2M (1600x1200)"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_2mp_wide">"2 M piksler(16:9)"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_1_3mp">"1,3 megapiksler"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_1mp">"1M (1024x768)"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+    <!---->
+    <string name="pref_camera_focusmode_title">"Fokusmodus"</string>
+    <!---->
+    <string name="pref_camera_focusmode_entry_auto">"Autofokus"</string>
+    <!---->
+    <string name="pref_camera_focusmode_entry_infinity">"Uendelig"</string>
+    <!---->
+    <string name="pref_camera_focusmode_entry_macro">"Makro"</string>
+    <!---->
+    <string name="pref_camera_focusmode_label_auto">"AUTO"</string>
+    <!---->
+    <string name="pref_camera_focusmode_label_infinity">"UENDELIG"</string>
+    <!---->
+    <string name="pref_camera_focusmode_label_macro">"MAKRO"</string>
+    <!---->
+    <string name="pref_camera_flashmode_title">"Blitzmodus"</string>
+    <!---->
+    <string name="pref_camera_flashmode_label">"Blitzmodus"</string>
+    <!---->
+    <string name="pref_camera_flashmode_entry_auto">"Autofokus"</string>
+    <!---->
+    <string name="pref_camera_flashmode_entry_on">"På"</string>
+    <!---->
+    <string name="pref_camera_flashmode_entry_off">"Av"</string>
+    <!---->
+    <string name="pref_camera_flashmode_label_auto">"BLITS AUTO"</string>
+    <!---->
+    <string name="pref_camera_flashmode_label_on">"BLITS PÅ"</string>
+    <!---->
+    <string name="pref_camera_flashmode_label_off">"BLITS AV"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_title">"Hvitbalanse"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_label">"Hvitbalanse"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_entry_auto">"Autofokus"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_entry_incandescent">"Flamme"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_entry_daylight">"Dagslys"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_entry_fluorescent">"Lysstoffrør"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_entry_cloudy">"Overskyet"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_label_auto">"AUTO"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_label_incandescent">"Flamme"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_label_daylight">"Dagslys"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_label_fluorescent">"Lysstoffrør"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_label_cloudy">"Overskyet"</string>
+    <!---->
+    <string name="pref_camera_scenemode_title">"Velg scenemodus"</string>
+    <!---->
+    <string name="pref_camera_scenemode_entry_auto">"Autofokus"</string>
+    <!---->
+    <string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+    <!---->
+    <string name="pref_camera_scenemode_entry_action">"Action"</string>
+    <!---->
+    <string name="pref_camera_scenemode_entry_night">"Natt"</string>
+    <!---->
+    <string name="pref_camera_scenemode_entry_sunset">"Solnedgang"</string>
+    <!---->
+    <string name="pref_camera_scenemode_entry_party">"Fest"</string>
+    <!---->
+    <string name="pref_camera_scenemode_label_auto">"Ingen"</string>
+    <!---->
+    <string name="pref_camera_scenemode_label_action">"Action"</string>
+    <!---->
+    <string name="pref_camera_scenemode_label_night">"Natt"</string>
+    <!---->
+    <string name="pref_camera_scenemode_label_sunset">"Solnedgang"</string>
+    <!---->
+    <string name="pref_camera_scenemode_label_party">"Fest"</string>
+    <!---->
+    <string name="pref_camera_countdown_label">"NEDTELLINGSTIDTAKER"</string>
+    <!---->
+    <string name="pref_camera_countdown_label_off">"TIDTAKER AV"</string>
+    <!---->
+    <string name="pref_camera_countdown_label_one">"1 sekund"</string>
+    <!---->
+    <string name="pref_camera_countdown_label_three">"3 sekunder"</string>
+    <!---->
+    <string name="pref_camera_countdown_label_ten">"10 sek."</string>
+    <!---->
+    <string name="pref_camera_countdown_label_fifteen">"15 sekunder"</string>
+    <!---->
+    <string name="not_selectable_in_scene_mode">"Kan ikke velges i scenemodus"</string>
+    <!---->
+    <string name="pref_exposure_title">"Eksponering"</string>
+    <!---->
+    <string name="pref_exposure_label">"Eksponering"</string>
+    <!---->
+    <string name="pref_camera_hdr_label">"HDR"</string>
+    <!---->
+    <string name="pref_camera_id_label_back">"KAMERA PÅ FREMSIDEN"</string>
+    <!---->
+    <string name="pref_camera_id_label_front">"KAMERA PÅ BAKSIDEN"</string>
+    <!---->
+    <string name="dialog_ok">"OK"</string>
+    <!---->
+    <!---->
+    <string name="spaceIsLow_content" product="default">"SD-kortet er snart oppbrukt. Endre kvalitetsinnstillingen eller slett noen bilder eller andre filer."</string>
+    <!---->
+    <string name="video_reach_size_limit">"Videoen ble for stor."</string>
+    <!---->
+    <string name="pano_too_fast_prompt">"For raskt"</string>
+    <!---->
+    <string name="pano_dialog_prepare_preview">"Forbereder panorama"</string>
+    <!---->
+    <string name="pano_dialog_panorama_failed">"Kan ikke lagre panorama."</string>
+    <!---->
+    <string name="pano_dialog_title">"Panorama"</string>
+    <!---->
+    <string name="pano_capture_indication">"Fotograferer panorama"</string>
+    <!---->
+    <string name="pano_dialog_waiting_previous">"Venter på forrige panorama"</string>
+    <!---->
+    <string name="pano_review_saving_indication_str">"Lagrer\u2026"</string>
+    <!---->
+    <string name="pano_review_rendering">"Gjengir panorama"</string>
+    <!---->
+    <string name="tap_to_focus">"Trykk for å fokusere"</string>
+    <!---->
+    <string name="pref_video_effect_title">"Effekter"</string>
+    <!---->
+    <string name="effect_none">"Ingen"</string>
+    <!---->
+    <string name="effect_goofy_face_squeeze">"Klem"</string>
+    <!---->
+    <string name="effect_goofy_face_big_eyes">"Store øyne"</string>
+    <!---->
+    <string name="effect_goofy_face_big_mouth">"Stor munn"</string>
+    <!---->
+    <string name="effect_goofy_face_small_mouth">"Liten munn"</string>
+    <!---->
+    <string name="effect_goofy_face_big_nose">"Stor nese"</string>
+    <!---->
+    <string name="effect_goofy_face_small_eyes">"Små øyne"</string>
+    <!---->
+    <string name="effect_backdropper_space">"I rommet"</string>
+    <!---->
+    <string name="effect_backdropper_sunset">"Solnedgang"</string>
+    <!---->
+    <string name="effect_backdropper_gallery">"Din video"</string>
+    <!---->
+    <string name="bg_replacement_message">"Plasser enheten på et støtt underlag og kontroller at det ikke er bevegelse i forhåndsvisningen.\nNår live-effekter vises i forhåndsvisningen, kan du spille inn video."</string>
+    <!---->
+    <string name="video_snapshot_hint">"Trykk for å ta bilde under opptak."</string>
+    <!---->
+    <string name="video_recording_started">"Videoopptaket har startet"</string>
+    <!---->
+    <string name="video_recording_stopped">"Videoopptaket har stoppet"</string>
+    <!---->
+    <string name="disable_video_snapshot_hint">"Videostillbilde er deaktivert når spesialeffekter er aktivert."</string>
+    <!---->
+    <string name="clear_effects">"Fjern effekter"</string>
+    <!---->
+    <string name="effect_silly_faces">"RARE ANSIKTER"</string>
+    <!---->
+    <string name="effect_background">"BAKGRUNN"</string>
+    <!---->
+    <string name="accessibility_shutter_button">"Lukkerknapp"</string>
+    <!---->
+    <string name="accessibility_menu_button">"Menyknapp"</string>
+    <!---->
+    <string name="accessibility_review_thumbnail">"Nyeste bilde"</string>
+    <!---->
+    <string name="accessibility_camera_picker">"Bryter for forside-/baksidekamera"</string>
+    <!---->
+    <string name="accessibility_mode_picker">"Kamera-, video- eller panoramavelger"</string>
+    <!---->
+    <string name="accessibility_second_level_indicators">"Flere innstillingskontroller"</string>
+    <!---->
+    <string name="accessibility_back_to_first_level">"Lukk innstillingskontrollene"</string>
+    <!---->
+    <string name="accessibility_zoom_control">"Zoomekontroll"</string>
+    <!---->
+    <string name="accessibility_decrement">"Reduser %1$s"</string>
+    <!---->
+    <string name="accessibility_increment">"Øk %1$s"</string>
+    <!---->
+    <string name="accessibility_check_box">"Avmerkingsboks for %1$s"</string>
+    <!---->
+    <string name="accessibility_switch_to_camera">"Bytt til bilde"</string>
+    <!---->
+    <string name="accessibility_switch_to_video">"Bytt til video"</string>
+    <!---->
+    <string name="accessibility_switch_to_panorama">"Bytt til panoramamodus"</string>
+    <!---->
+    <string name="accessibility_switch_to_new_panorama">"Bytt til nytt panorama"</string>
+    <!---->
+    <string name="accessibility_switch_to_refocus">"Bytt for å endre fokus"</string>
+    <!---->
+    <string name="accessibility_review_cancel">"Avbryt gjennomgang"</string>
+    <!---->
+    <string name="accessibility_review_ok">"Gjennomgang utført"</string>
+    <!---->
+    <string name="accessibility_review_retake">"Ny gjennomgang"</string>
+    <!---->
+    <string name="accessibility_play_video">"Spill av video"</string>
+    <!---->
+    <string name="accessibility_pause_video">"Sett video på pause"</string>
+    <!---->
+    <string name="accessibility_reload_video">"Last inn video på nytt"</string>
+    <!---->
+    <string name="accessibility_time_bar">"Tidslinje for videospiller"</string>
+    <!---->
+    <string name="capital_on">"PÅ"</string>
+    <!---->
+    <string name="capital_off">"AV"</string>
+    <!---->
+    <string name="gif_err">"Kan ikke spille av gif."</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_off">"Av"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_500">"0,5 sekund"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_1000">"1 sekund"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_1500">"1,5 sekunder"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_2000">"2 sekunder"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_2500">"2,5 sekunder"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_3000">"3 sekunder"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_4000">"4 sekunder"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_5000">"5 sekunder"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_6000">"6 sekunder"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_10000">"10 sek."</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_12000">"12 sekunder"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_15000">"15 sekunder"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_24000">"24 sekunder"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_30000">"0,5 minutt"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_60000">"1 minutt"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_90000">"1,5 minutter"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_120000">"2 minutter"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_150000">"2,5 minutter"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_180000">"3 minutter"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_240000">"4 minutter"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_300000">"5 minutter"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_360000">"6 minutter"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_600000">"10 minutter"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_720000">"12 minutter"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_900000">"15 minutter"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_1440000">"24 minutter"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_1800000">"0,5 time"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_3600000">"1 time"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_5400000">"1,5 timer"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_7200000">"2 timer"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_9000000">"2,5 timer"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_10800000">"3 timer"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_14400000">"4 timer"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_18000000">"5 timer"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_21600000">"6 timer"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_36000000">"10 timer"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_43200000">"12 timer"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_54000000">"15 timer"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_86400000">"24 timer"</string>
+    <!---->
+    <string name="time_lapse_seconds">"sekunder"</string>
+    <!---->
+    <string name="time_lapse_minutes">"minutter"</string>
+    <!---->
+    <string name="time_lapse_hours">"timer"</string>
+    <!---->
+    <string name="time_lapse_interval_set">"Fullført"</string>
+    <!---->
+    <string name="set_time_interval">"Angi tidsintervall"</string>
+    <!---->
+    <string name="set_time_interval_help">"Tidsforløpfunksjonen er av. Slå den på for å angi tidsintervall."</string>
+    <!---->
+    <string name="set_timer_help">"Nedtellingstidtaker er av. Slå den på for å telle ned før du tar bilde."</string>
+    <!---->
+    <string name="set_duration">"Angi varighet i sekunder"</string>
+    <!---->
+    <string name="count_down_title_text">"Teller ned for å ta et bilde"</string>
+    <!---->
+    <string name="remember_location_title">"Husker du hvor bildet er tatt?"</string>
+    <!---->
+    <string name="remember_location_prompt">"Merk bildene og videoene med stedene der de ble tatt.\n\nAndre apper kan få tilgang til denne informasjonen sammen med de lagrede bildene."</string>
+    <!---->
+    <string name="remember_location_no">"Nei takk"</string>
+    <!---->
+    <string name="remember_location_yes">"Ja"</string>
+    <!---->
+    <string name="menu_camera">"Kamera"</string>
+    <!---->
+    <string name="menu_search">"Søk"</string>
+    <!---->
+    <string name="tab_photos">"Bilder"</string>
+    <!---->
+    <string name="tab_albums">"Album"</string>
+    <!---->
+    <string name="camera_menu_more_label">"Flere alternativer"</string>
+    <!---->
+    <string name="camera_menu_settings_label">"Innstillinger"</string>
+    <plurals name="number_of_photos">
+        <item quantity="one">"%1$d bilde"</item>
+        <item quantity="other">"%1$d bilder"</item>
+    </plurals>
+    <!---->
+    <string name="subtitle">"Teksting"</string>
+    <!---->
+    <string name="VideoView_error_text_invalid_progressive_playback">"Denne videoen er ikke gyldig for avspilling på denne enheten."</string>
+    <!---->
+    <string name="VideoView_error_text_unknown">"Denne videoen kan ikke spilles av."</string>
+    <!---->
+    <string name="VideoView_error_button">"OK"</string>
+    <!---->
+    <string name="videoView_info_text_video_not_supported">"Denne videoen støttes ikke"</string>
+    <!---->
+    <string name="videoView_error_text_cannot_connect_retry">"Tilkobling mislyktes. Prøver å koble til %1$d på nytt..."</string>
+    <!---->
+    <string name="media_controller_connecting">"Kobler til ..."</string>
+    <!---->
+    <string name="media_controller_buffering">"Bufrer %d%%..."</string>
+    <!---->
+    <string name="VideoView_error_text_cannot_connect_to_server">"Kan ikke koble til tjeneren"</string>
+    <!---->
+    <string name="media_controller_live">"Direkte"</string>
+    <!---->
+    <string name="media_controller_playing">"Spiller av"</string>
+    <!---->
+    <string name="notify_photo_text">"Galleri-kontroll"</string>
+    <!---->
+    <string name="notify_video_text">"Galleri-kontroll"</string>
+    <!---->
+    <string name="notify_ticker_forwfd_photo">"Lysbildevisning via Wi-Fi-skjerm er aktivert"</string>
+    <!---->
+    <string name="notify_ticker_forwfd_video">"Video via Wi-Fi-skjerm er aktivert"</string>
+    <!---->
+    <string name="wfd_alert">"Varsel"</string>
+    <!---->
+    <string name="wfd_change_message">"Videoen vil bli erstattet."</string>
+    <!---->
+    <string name="wfd_change_button">"Ja"</string>
+    <!---->
+    <string name="wfd_not_change_button">"Nei"</string>
+    <!---->
+    <string name="wfd_show">"Wi-Fi-skjerm"</string>
+    <!---->
+    <string name="wfd_show_on">"Slå på Wi-Fi-skjerm"</string>
+    <!---->
+    <string name="wfd_show_off">"Slå av Wi-Fi-skjerm"</string>
+    <!---->
+    <string name="wifi_gesture_tip">"Dra filen til den gule firkanten for å dele skjermbildet ditt."</string>
+    <!---->
+    <string name="popupvideo_notsupport_message">"Typen støttes ikke"</string>
+    <!---->
+    <string name="drm_wifidisplay_title">"Advarsel"</string>
+    <!---->
+    <string name="drm_wifidisplay_message">"Alle kopibeskyttede filer er skjult på grunn av Wi-Fi-skjermtilkobling."</string>
+    <!---->
+    <string name="drm_wifidisplay_cancel">"Slå av Wi-Fi-skjerm"</string>
+    <!---->
+    <string name="drm_wifidisplay_continue">"Fortsett"</string>
+    <!---->
+    <string name="tv_link_close">"Wi-Fi-skjerm er lukket"</string>
+    <!---->
+    <string name="drm_no_valid_right">"Filen har ingen gyldig DRM-autoritet"</string>
+    <!---->
+    <string name="drm_delete_invalid_content">"DRM-filen "%s" har utløpt. Vil du slette den?"</string>
+    <!---->
+    <string name="drm_unlock_invalid_content">"DRM-filen "%s" har utløpt. Vil du låse den opp?"</string>
+    <!---->
+    <string name="unlimited_usage">"Ubegrenset bruk"</string>
+    <!---->
+    <string name="not_available">"Ikke tilgjengelig"</string>
+    <!---->
+    <string name="use_times">"Bruk %s ganger"</string>
+    <!---->
+    <string name="valid_after">"Gyldig etter"</string>
+    <!---->
+    <string name="valid_until">"Gyldig til"</string>
+    <!---->
+    <string name="onef_inger_zoomer_tips_camera">"Trykk lett to ganger og skyv for å zoome inn/ut i Kamera"</string>
+    <!---->
+    <string name="tips_done">"Ferdig"</string>
+    <!---->
+    <string name="onef_inger_zoomer_tips">"Trykk lett to ganger og skyv for å zoome inn/ut i Galleri"</string>
+    <!---->
+    <string name="onef_inger_zoomer_tips_title">"Lær mer om enfingerzoom"</string>
+    <!---->
+    <string name="drm_current_right">"Gjeldende begrensning"</string>
+    <!---->
+    <string name="right_url">"URL til lisensutsteder:"</string>
+    <!---->
+    <string name="vendor">"Leverandør:"</string>
+    <!---->
+    <string name="stop">"Avbryt"</string>
+    <!---->
+    <string name="selectRenderer">"Velg en spiller"</string>
+    <!---->
+    <string name="noRenderer">"Finner ingen avspillingsenhet"</string>
+    <!---->
+    <string name="stop_playing_video_on_tv">"Vil du slutte å spille av video på TV-en?"</string>
+    <!---->
+    <string name="stop_playing_picture_on_tv">"Vil du slutte å spille av bilder på TV-en?"</string>
+    <!---->
+    <string name="play_video">"Spill av video"</string>
+    <!---->
+    <string name="shake_video_text">"Rist telefonen på videosiden for å spille av video på TV-en"</string>
+    <!---->
+    <string name="shake_picture_text">"Rist telefonen på bildesiden for å spille av bildet på TV-en"</string>
+    <!---->
+    <string name="wait_dialog">"Vent mens telefonen programmeres."</string>
+    <!---->
+    <string name="toast_nostop">"Beklager, hvis du vil slutte å spille av på TV-en, må du velge en lokal spiller."</string>
+    <!---->
+    <string name="dlna_format_not_support">"Filformatet støttes ikke."</string>
+    <!---->
+    <string name="left_title_camera_roll">"Kameraopptak"</string>
+    <!---->
+    <string name="left_title_timeline">"Tid"</string>
+    <!---->
+    <string name="left_title_albums">"Album"</string>
+    <!---->
+    <string name="left_title_videos">"Videoer"</string>
+    <!---->
+    <string name="left_title_location">"Steder"</string>
+    <!-- no translation found for drawer_open -->
+    <skip />
+    <!-- no translation found for drawer_close -->
+    <skip />
+    <!---->
+    <string name="photo_share">"Del til"</string>
+    <!-- no translation found for filtershow_save -->
+    <skip />
+    <!---->
+    <string name="filtershow_none">"Ingen"</string>
+    <!---->
+    <string name="filtershow_frame">"Ramme"</string>
+    <!---->
+    <string name="drm_no_crop">"Filen "%s" kan ikke beskjæres fordi den er DRM-beskyttet."</string>
+    <!---->
+    <string name="drm_no_contact_icon">"Filen "%s" kan ikke angis som kontaktikon fordi den er DRM-beskyttet."</string>
+    <!-- no translation found for never_tip -->
+    <skip />
+    <!-- no translation found for three_finger_tips0 -->
+    <skip />
+    <!-- no translation found for three_finger_tips1 -->
+    <skip />
+    <!-- no translation found for three_finger_tips2 -->
+    <skip />
+    <!-- no translation found for drm_not_support_wifidisplay -->
+    <skip />
+    <!---->
+    <string name="filtershow_save_title">"Lagre endringer"</string>
+    <!---->
+    <string name="filtershow_save_message">"Vil du lagre som kopi eller skrive over originalbildet?"</string>
+    <!---->
+    <string name="filtershow_save_no_ask">"Ikke spør igjen"</string>
+    <!---->
+    <string name="filtershow_save_button_copy">"LAGRE SOM KOPI"</string>
+    <!---->
+    <string name="filtershow_save_button_overwrite">"SKRIV OVER ORIGINAL"</string>
+    <!---->
+    <string name="lock_video">"Låst"</string>
+    <!---->
+    <string name="unlock_video">"Ulåst"</string>
+</resources>

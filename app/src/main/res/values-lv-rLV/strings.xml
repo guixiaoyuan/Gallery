@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Galerija"</string>
+	<!---->
+	<string name="gadget_title">"Attēla rāmis"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"Video atskaņotājs"</string>
+	<!---->
+	<string name="loading_video">"Tiek ielādēts videoklips\u2026"</string>
+	<!---->
+	<string name="loading_image">"Tiek ielādēts attēls\u2026"</string>
+	<!---->
+	<string name="loading_account">"Tiek ielādēts konts\u2026"</string>
+	<!---->
+	<string name="resume_playing_title">"Videoklipa atskaņošanas atsākšana"</string>
+	<!---->
+	<string name="resume_playing_message">"Vai atsākt atskaņošanu no: %s?"</string>
+	<!---->
+	<string name="resume_playing_resume">"Atsākt atskaņošanu"</string>
+	<!---->
+	<string name="loading">"Įkeliama\u2026"</string>
+	<!---->
+	<string name="fail_to_load">"Nevarēja ielādēt"</string>
+	<!---->
+	<string name="fail_trim">"Nevar apgriezt video failu."</string>
+	<!---->
+	<string name="fail_to_load_image">"Nevarēja ielādēt attēlu"</string>
+	<!---->
+	<string name="no_thumbnail">"Nav neviena sīktēla."</string>
+	<!---->
+	<string name="resume_playing_restart">"Pradėti iš naujo"</string>
+	<!---->
+	<string name="crop_save_text">"Labi"</string>
+	<!---->
+	<string name="ok">"Labi"</string>
+	<!---->
+	<string name="multiface_crop_help">"Lai sāktu, pieskarieties kādai sejai"</string>
+	<!---->
+	<string name="saving_image">"Tiek saglabāts attēls\u2026"</string>
+	<!---->
+	<string name="filtershow_saving_image">"Notiek attēla saglabāšana šeit: <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="save_error">"Nevarēja saglabāt apgriezto attēlu."</string>
+	<!---->
+	<string name="crop_label">"Apgriezt attēlu"</string>
+	<!---->
+	<string name="trim_label">"Apgriezt video"</string>
+	<!---->
+	<string name="select_image">"Pasirinkti nuotrauką"</string>
+	<!---->
+	<string name="select_video">"Atlasiet videoklipu"</string>
+	<!---->
+	<string name="select_item">"Atlasiet vienumu"</string>
+	<!---->
+	<string name="select_album">"Atlasīt albumu"</string>
+	<!---->
+	<string name="select_group">"Atlasiet grupu"</string>
+	<!---->
+	<string name="set_image">"Iestatīt kā..."</string>
+	<!---->
+	<string name="set_wallpaper">"nustatyti darbalaukio foną"</string>
+	<!---->
+	<string name="wallpaper">"Tiek iestatīta fona tapete\u2026"</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"Ekrano fonas"</string>
+	<!---->
+	<string name="delete">"Izdzēst"</string>
+	<!---->
+	<string name="deleting">"Ištrinama"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"Vai dzēst atlasīto vienumu?"</item>
+		<item quantity="other">"Vai dzēst atlasītos vienumus?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"Patvirtinti"</string>
+	<!---->
+	<string name="cancel">"Atcelt"</string>
+	<!---->
+	<string name="share">"Bendrinti"</string>
+	<!---->
+	<string name="share_panorama">"Kopīgot panorāmu"</string>
+	<!---->
+	<string name="share_as_photo">"Kopīgot kā fotoattēlu"</string>
+	<!---->
+	<string name="deleted">"Ištrinta"</string>
+	<!---->
+	<string name="undo">"ATSAUKT"</string>
+	<!---->
+	<string name="select_all">"Pasirinkti visus"</string>
+	<!---->
+	<string name="deselect_all">"Panaikinti visus žymėjim."</string>
+	<!---->
+	<string name="slideshow">"Slaidu demonstrācija"</string>
+	<!---->
+	<string name="details">"Sīkāka informācija"</string>
+	<!---->
+	<string name="details_title">"%1$d. no %2$d vienumiem:"</string>
+	<!---->
+	<string name="close">"Uždaryti"</string>
+	<!---->
+	<string name="switch_to_camera">"Pārslēgties uz kameru"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d atlasīts(-i)"</item>
+		<item quantity="one">"%1$d atlasīts(-i)"</item>
+		<item quantity="other">"%1$d atlasīts(-i)"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d atlasīts(-i)"</item>
+		<item quantity="one">"%1$d atlasīts(-i)"</item>
+		<item quantity="other">"%1$d atlasīts(-i)"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d atlasīts(-i)"</item>
+		<item quantity="one">"%1$d atlasīts(-i)"</item>
+		<item quantity="other">"%1$d atlasīts(-i)"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"Rādīt kartē"</string>
+	<!---->
+	<string name="rotate_left">"Pagriezt pa kreisi"</string>
+	<!---->
+	<string name="rotate_right">"Pagriezt pa labi"</string>
+	<!---->
+	<string name="no_such_item">"Nevarēja atrast vienumu."</string>
+	<!---->
+	<string name="edit">"Redaguoti"</string>
+	<!---->
+	<string name="mix_video">"Kombinētais ieskaņojums"</string>
+	<!---->
+	<string name="simple_edit">"Vienkārša rediģēšana"</string>
+	<!---->
+	<string name="process_caching_requests">"Kešdarbes pieprasījumu apstrāde"</string>
+	<!---->
+	<string name="caching_label">"Kešdarbe\u2026"</string>
+	<!---->
+	<string name="crop_action">"Izgriezt"</string>
+	<!---->
+	<string name="trim_action">"Izgriezt"</string>
+	<!---->
+	<string name="mute_action">"Izslēgt skaņu"</string>
+	<!---->
+	<string name="set_as">"Nustatyti kaip"</string>
+	<!---->
+	<string name="video_mute_err">"Nevar izslēgt video skaņu."</string>
+	<!---->
+	<string name="video_err">"Nevar demonstrēt video."</string>
+	<!---->
+	<string name="group_by_location">"Pēc atrašanās vietas"</string>
+	<!---->
+	<string name="group_by_time">"Pēc laika"</string>
+	<!---->
+	<string name="group_by_tags">"Pēc atzīmēm"</string>
+	<!---->
+	<string name="group_by_faces">"Pēc personām"</string>
+	<!---->
+	<string name="group_by_album">"Pēc albuma"</string>
+	<!---->
+	<string name="group_by_size">"Pagal dydį"</string>
+	<!---->
+	<string name="untagged">"Bez atzīmēm"</string>
+	<!---->
+	<string name="no_location">"Nav atrašanās vietas"</string>
+	<!---->
+	<string name="no_connectivity">"Tīkla kļūmju dēļ nevarēja noteikt dažas atrašanās vietas."</string>
+	<!---->
+	<string name="sync_album_error">"Nevarēja lejupielādēt šā albuma fotoattēlus. Vēlāk mēģiniet vēlreiz."</string>
+	<!---->
+	<string name="show_images_only">"Tikai attēli"</string>
+	<!---->
+	<string name="show_videos_only">"Tikai videoklipi"</string>
+	<!---->
+	<string name="show_all">"Attēli un videoklipi"</string>
+	<!---->
+	<string name="appwidget_title">"Fotoattēlu galerija"</string>
+	<!---->
+	<string name="appwidget_empty_text">"Nav fotoattēlu."</string>
+	<!---->
+	<string name="crop_saved">"Apgrieztais attēls ir saglabāts mapē <xliff:g id="folder_name">%s</xliff:g>."</string>
+	<!---->
+	<string name="no_albums_alert">"Nav pieejams neviens albums"</string>
+	<!---->
+	<string name="empty_album">"Nav pieejams neviens attēls un video"</string>
+	<!---->
+	<string name="picasa_posts">"Publicētie fotoattēli"</string>
+	<!---->
+	<string name="make_available_offline">"Padarīt pieejamu bezsaistē"</string>
+	<!---->
+	<string name="sync_picasa_albums">"Atjaunināt"</string>
+	<!---->
+	<string name="done">"Atlikta"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d. no %2$d vienumiem:"</string>
+	<!---->
+	<string name="title">"Pavadinimas"</string>
+	<!---->
+	<string name="description">"Aprašas"</string>
+	<!---->
+	<string name="time">"Laiks"</string>
+	<!---->
+	<string name="location">"Vietovė"</string>
+	<!---->
+	<string name="path">"Kelias"</string>
+	<!---->
+	<string name="width">"Plotis"</string>
+	<!---->
+	<string name="height">"Aukštis"</string>
+	<!---->
+	<string name="orientation">"Orientacija"</string>
+	<!---->
+	<string name="duration">"Trukmė"</string>
+	<!---->
+	<string name="mimetype">"MIME tipas"</string>
+	<!---->
+	<string name="file_size">"Failo dydis"</string>
+	<!---->
+	<string name="maker">"Kūrėjas"</string>
+	<!---->
+	<string name="model">"Modelis"</string>
+	<!---->
+	<string name="flash">"Blykstė"</string>
+	<!---->
+	<string name="aperture">"Diafragma"</string>
+	<!---->
+	<string name="focal_length">"Židinio nuot."</string>
+	<!---->
+	<string name="white_balance">"Baltos sp. bal."</string>
+	<!---->
+	<string name="exposure_time">"Ekspoz. laiks"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"mm"</string>
+	<!---->
+	<string name="manual">"Rankiniu būdu"</string>
+	<!---->
+	<string name="auto">"Automātiski"</string>
+	<!---->
+	<string name="flash_on">"Zibsp. iedegās"</string>
+	<!---->
+	<string name="flash_off">"Bez zibsp."</string>
+	<!---->
+	<string name="unknown">"Nežinoma"</string>
+	<!---->
+	<string name="ffx_original">"Originalas"</string>
+	<!---->
+	<string name="ffx_vintage">"Veclaicīgs"</string>
+	<!---->
+	<string name="ffx_instant">"Tūlītējs"</string>
+	<!---->
+	<string name="ffx_bleach">"Balināšana"</string>
+	<!---->
+	<string name="ffx_blue_crush">"Mėlyna"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"Melnbalts"</string>
+	<!---->
+	<string name="ffx_punch">"Punšs"</string>
+	<!---->
+	<string name="ffx_x_process">"X process"</string>
+	<!---->
+	<string name="ffx_washout">"Latte"</string>
+	<!---->
+	<string name="ffx_washout_color">"Litho"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"Albums tiek padarīts par pieejamu bezsaistē."</item>
+		<item quantity="other">"Albumi tiek padarīti par pieejamiem bezsaistē."</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Šis vienums tiek glabāts lokāli un ir pieejams bezsaistē."</string>
+	<!---->
+	<string name="set_label_all_albums">"Visi albumi"</string>
+	<!---->
+	<string name="set_label_local_albums">"Vietējie albumi"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"MTP ierīces"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Picasa albumi"</string>
+	<!---->
+	<string name="free_space_format">"Brīva vieta: <xliff:g id="bytes">%s</xliff:g>"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="size">%1$s</xliff:g> vai mazāk"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="size">%1$s</xliff:g> vai vairāk"</string>
+	<!---->
+	<string name="size_between">"No <xliff:g id="min_size">%1$s</xliff:g> līdz <xliff:g id="max_size">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"Importuoti"</string>
+	<!---->
+	<string name="import_complete">"Importēšana pabeigta"</string>
+	<!---->
+	<string name="import_fail">"Importēšana neizdevās."</string>
+	<!---->
+	<string name="camera_connected">"Kamera ir pievienota."</string>
+	<!---->
+	<string name="camera_disconnected">"Kamera ir atvienota."</string>
+	<!---->
+	<string name="click_import">"Pieskarieties šeit, lai importētu."</string>
+	<!---->
+	<string name="widget_type_album">"Izvēlēties albumu"</string>
+	<!---->
+	<string name="widget_type_shuffle">"Sajaukt visus attēlus"</string>
+	<!---->
+	<string name="widget_type_photo">"Izvēlēties attēlu"</string>
+	<!---->
+	<string name="widget_type">"Attēlu izvēle"</string>
+	<!---->
+	<string name="slideshow_dream_name">"Skaidrių demonstracija"</string>
+	<!---->
+	<string name="albums">"Albumi"</string>
+	<!---->
+	<string name="times">"Reizes"</string>
+	<!---->
+	<string name="locations">"Atr. vietas"</string>
+	<!---->
+	<string name="people">"Žmonės"</string>
+	<!---->
+	<string name="tags">"Žymos"</string>
+	<!---->
+	<string name="group_by">"Pēc atrašanās vietas"</string>
+	<!---->
+	<string name="settings">"Nustatymai"</string>
+	<!---->
+	<string name="add_account">"Pridėti paskyrą"</string>
+	<!---->
+	<string name="folder_camera">"Fotoaparatas"</string>
+	<!---->
+	<string name="folder_download">"Atsisisųti"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"Rediģēti tiešsaistes fotoattēli"</string>
+	<!---->
+	<string name="folder_imported">"Importētie"</string>
+	<!---->
+	<string name="folder_screenshot">"Ekrānuzņēmums"</string>
+	<!---->
+	<string name="help">"Pagalba"</string>
+	<!---->
+	<string name="no_external_storage_title">"Nav krātuves"</string>
+	<!---->
+	<string name="no_external_storage">"Nav pieejamas ārējās krātuves"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Diafilmas skats"</string>
+	<!---->
+	<string name="switch_photo_grid">"Tinklelio rodinys"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"Pilnekrāna skats"</string>
+	<!---->
+	<string name="trimming">"Apgriešana"</string>
+	<!---->
+	<string name="muting">"Skaņas izslēgšana"</string>
+	<!---->
+	<string name="please_wait">"Lūdzu, uzgaidiet"</string>
+	<!---->
+	<string name="save_into">"Saglabā video albumā <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="trim_save_into">"Apgrieztais fails saglabāts albumā <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"Fails ar izslēgto skaņu saglabāts albumā <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="trim_too_short">"Nevar apgriezt: mērķa video ir par īsu"</string>
+	<!---->
+	<string name="mute_nosupport">"Nevar izslēgt skaņu: video netiek atbalstīts"</string>
+	<!---->
+	<string name="pano_progress_text">"Kuriama panorama"</string>
+	<!---->
+	<string name="save">"Išsaugoti"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"Notiek satura meklēšana..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"Sameklēti %1$d vienumi"</item>
+		<item quantity="one">"Sameklēts %1$d vienums"</item>
+		<item quantity="other">"Sameklēti %1$d vienumi"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"Atlasīti %1$d vienumi."</item>
+		<item quantity="one">"Atlasīts %1$d vienums."</item>
+		<item quantity="other">"Atlasīti %1$d vienumi."</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"Notiek kārtošana..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"Meklēšana pabeigta"</string>
+	<!---->
+	<string name="ingest_importing">"Notiek importēšana..."</string>
+	<!---->
+	<string name="ingest_empty_device">"Nav šajā ierīcē importējama satura."</string>
+	<!---->
+	<string name="ingest_no_device">"Nav pievienota neviena MTP ierīce"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"Fotoaparato klaida"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Nepavyksta prisijungti prie fotoaparato."</string>
+	<!---->
+	<string name="camera_disabled">"Dėl saugumo politikos fotoaparatas buvo išjungtas."</string>
+	<!---->
+	<string name="camera_label">"Fotoaparatas"</string>
+	<!---->
+	<string name="wait">"Lūdzu, uzgaidiet\u2026"</string>
+	<!---->
+	<string name="review_cancel">"Atcelt"</string>
+	<!---->
+	<string name="review_ok">"Atlikta"</string>
+	<!---->
+	<string name="time_lapse_title">"Laiko tarpo įrašymas"</string>
+	<!---->
+	<string name="pref_camera_id_title">"Pasirinkite fotoaparatą"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Atgal"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Šriftas"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"Išsaugoti vietą"</string>
+	<!---->
+	<string name="pref_camera_location_label">"Vietovė"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"Atvirkštinio skaičiavimo laikmatis"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 sek."</item>
+		<item quantity="other">"%d sek."</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Pypsėjimas per atvirkštinį skaičiavimą"</string>
+	<!---->
+	<string name="setting_off">"Izsl."</string>
+	<!---->
+	<string name="setting_on">"Ieslēgts"</string>
+	<!---->
+	<string name="pref_video_quality_title">"Vaizdo įr. kokybė"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Aukšta"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Žemas"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"Intervāla fotografēšana"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"Fotoaparato nustatymai"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Vaizdo kam. nust."</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Paveikslėlio dydis"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"1,3 megapiks."</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8 megapikseļi"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5 mln. pikselių"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4 megapiks."</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3 mln. pikselių"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2 mln. pikselių"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2 megapiks. (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1,3 mln. pikselių"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1 mln. pikselių"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Fokusavimo režimas"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"AUTOM."</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Begalybė"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"„Makro“"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"AUTOM."</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"Begalybė"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"MAKRO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Blykstės režimas"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"Blykstės režimas"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Automātiski"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Ieslēgts"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Izsl."</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"AUTOMATINĖ BLYKSTĖ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"BLYKSTĖ ĮJUNGTA"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"BLYKSTĖ IŠJUNGTA"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Baltos sp. bal."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Baltos sp. bal."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Automātiski"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Akinančiai skaistus"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Dienos šviesa"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Liuminesc. lempa"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Debesuota"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"AUTOM."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Akinančiai skaistus"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Dienos šviesa"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Liuminesc. lempa"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Debesuota"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Scenų režimas"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"AUTOM."</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Veiksmas"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Naktis"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Saulėlydis"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Vakarėlis"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"Nėra"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"Veiksmas"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"Naktis"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"Saulėlydis"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"Vakarėlis"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"Atvirkštinio skaičiavimo laikmatis"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"TAIMERIS IZSLĒGTS"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 sek."</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 sek."</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 sek."</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 sek."</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Negalima pasirinkti, kai veikia scenos režimas."</string>
+	<!---->
+	<string name="pref_exposure_title">"Išlaikymas"</string>
+	<!---->
+	<string name="pref_exposure_label">"Išlaikymas"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"PRIEKINĖ VAIZDO KAMERA"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"AIZMUGURĒJĀ KAMERA"</string>
+	<!---->
+	<string name="dialog_ok">"Labi"</string>
+	<!---->
+	<string name="video_reach_size_limit">"Pasiekta dydžio riba."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Per greitai"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Ruošiama panorama"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Nepavyko išsaugoti panoramos."</string>
+	<!---->
+	<string name="pano_dialog_title">"Panorama"</string>
+	<!---->
+	<string name="pano_capture_indication">"Fiksuojama panorama"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Laukiama ankstesnės panoramos"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Saglabā\u2026"</string>
+	<!---->
+	<string name="pano_review_rendering">"Kuriama panorama"</string>
+	<!---->
+	<string name="tap_to_focus">"Palieskite, kad fokusuotumėte."</string>
+	<!---->
+	<string name="pref_video_effect_title">"Efektai"</string>
+	<!---->
+	<string name="effect_none">"Nėra"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Suspausti"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Didelės akys"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Didelė burna"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Maža burna"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Didelė nosis"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Mažos akys"</string>
+	<!---->
+	<string name="effect_backdropper_space">"Kosmose"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Saulėlydis"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Pasirinkite savo"</string>
+	<!---->
+	<string name="bg_replacement_message">"Nolieciet ierīci.\nUz mirkli aizejiet."</string>
+	<!---->
+	<string name="video_snapshot_hint">"Palieskite, jei norite nufotografuoti įrašydami."</string>
+	<!---->
+	<string name="video_recording_started">"Vaizdo įrašymas paleistas."</string>
+	<!---->
+	<string name="video_recording_stopped">"Vaizdo įrašymas sustabdytas."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"Kad ir ieslēgti īpašie efekti, video momentuzņēmums ir atspējots."</string>
+	<!---->
+	<string name="clear_effects">"Išvalyti efektus"</string>
+	<!---->
+	<string name="effect_silly_faces">"JUOKINGI VEIDAI"</string>
+	<!---->
+	<string name="effect_background">"FONS"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"Aizvara poga"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Izvēlnes poga"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"Jaunākais fotoattēls"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"Priekšējās un aizmugurējās kameras slēdzis"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"Kameras, video vai panorāmas atlasīšana"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"Citas iestatījumu vadīklas"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"Aizvērt iestatījumu vadīklas"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"Tālummaiņas vadīkla"</string>
+	<!---->
+	<string name="accessibility_decrement">"Samazināt: %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"Palielināt: %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s izvēles rūtiņa"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Perjungti į fotografiją"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Pārslēgt uz video režīmu"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Pārslēgt panorāmas režīmā"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"Pārslēgt uz jaunu panorāmu"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Pārslēgt uz atkārtotu fokusēšanu"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"Pārskatīšana atcelta"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Peržiūra baigta"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Peržiūrėti pakartotinį fotografavimą"</string>
+	<!---->
+	<string name="accessibility_play_video">"Demonstrēt video"</string>
+	<!---->
+	<string name="accessibility_pause_video">"Pristabdyti vaizdo įrašą"</string>
+	<!---->
+	<string name="accessibility_reload_video">"Atkārtoti ielādēt video"</string>
+	<!---->
+	<string name="accessibility_time_bar">"Video atskaņotāja laika josla"</string>
+	<!---->
+	<string name="capital_on">"ĮJ."</string>
+	<!---->
+	<string name="capital_off">"IŠJ."</string>
+	<!---->
+	<string name="gif_err">"Nevar atskaņot gif failu."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Izsl."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0,5 sekunde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 sek."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 sekundės"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 sek."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 sekundės"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 sek."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 sek."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 sek."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 sek."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 sek."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 sekundžių"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 sek."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 sekundės"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0,5 minūte"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 min."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1,5 minutės"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 min."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2,5 minutės"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 minutės"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 minutės"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 min."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 minutės"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 min."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 minučių"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 min."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 minutės"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0,5 stunda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 val."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1,5 stundas"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 val."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2,5 val."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 val."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 val."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 val."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 val."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 val."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 val."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 val."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 val."</string>
+	<!---->
+	<string name="time_lapse_seconds">"sek."</string>
+	<!---->
+	<string name="time_lapse_minutes">"min."</string>
+	<!---->
+	<string name="time_lapse_hours">"val."</string>
+	<!---->
+	<string name="time_lapse_interval_set">"Atlikta"</string>
+	<!---->
+	<string name="set_time_interval">"Nustatyti laiko intervalą"</string>
+	<!---->
+	<string name="set_time_interval_help">"Sulėtinto judesio funkcija išjungta. Įjunkite norėdami nustatyti laiko intervalą."</string>
+	<!---->
+	<string name="set_timer_help">"Laika atskaites taimeris ir izslēgts. Ieslēdziet to, lai veiktu laika atskaiti pirms attēla uzņemšanas."</string>
+	<!---->
+	<string name="set_duration">"Nustatykite trukmę sekundėmis"</string>
+	<!---->
+	<string name="count_down_title_text">"Atvirkštinis skaičiavimas fotografuojant"</string>
+	<!---->
+	<string name="remember_location_title">"Ar atsimenate fotografavimo vietas?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Pažymėkite savo nuotraukas ir vaizdo įrašus nurodydami vietas, kuriose jie buvo sukurti.\n\nKitos programėlės gali pasiekti šią informaciją kartu su jūsų išsaugotais vaizdais."</string>
+	<!---->
+	<string name="remember_location_no">"Ne, ačiū"</string>
+	<!---->
+	<string name="remember_location_yes">"Taip"</string>
+	<!---->
+	<string name="menu_camera">"Fotoaparatas"</string>
+	<!---->
+	<string name="menu_search">"Ieškoti"</string>
+	<!---->
+	<string name="tab_photos">"Fotoattēli"</string>
+	<!---->
+	<string name="tab_albums">"Albumi"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Daugiau parinkčių"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"Nustatymai"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d fotoattēls"</item>
+		<item quantity="other">"%1$d fotoattēli"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"Subtitrs"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"Šis vaizdo įrašas netinkamas srautiniu būdu perduoti į šį įrenginį."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"Negalima paleisti šio vaizdo įrašo."</string>
+	<!---->
+	<string name="VideoView_error_button">"Labi"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"Video netiek atbalstīts"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"Nevarēja izveidot savienojumu. Mēģiniet atkārtoti izveidot savienojumu ar %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"Jungiama..."</string>
+	<!---->
+	<string name="media_controller_buffering">"Notiek ievietošana buferī %d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"Nevar izveidot savienojumu ar serveri"</string>
+	<!---->
+	<string name="media_controller_live">"Tiešraide"</string>
+	<!---->
+	<string name="media_controller_playing">"Notiek atskaņošana"</string>
+	<!---->
+	<string name="notify_photo_text">"Galerijas vadības ierīce"</string>
+	<!---->
+	<string name="notify_video_text">"Galerijas vadības ierīce"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"Ir iespējota Wi-Fi displeja slīdrāde"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"Ir iespējots Wi-Fi displeja video"</string>
+	<!---->
+	<string name="wfd_alert">"Įspėjimas"</string>
+	<!---->
+	<string name="wfd_change_message">"Video tiks aizstāts."</string>
+	<!---->
+	<string name="wfd_change_button">"Taip"</string>
+	<!---->
+	<string name="wfd_not_change_button">"Ne"</string>
+	<!---->
+	<string name="wfd_show">"„Wi-Fi“ displejs"</string>
+	<!---->
+	<string name="wfd_show_on">"Ieslēgt Wi-Fi displeju"</string>
+	<!---->
+	<string name="wfd_show_off">"Izslēgt Wi-Fi rādījumu"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"Velciet failu uz dzeltenās krāsas taisnstūri, lai kopīgotu savu ekrānu."</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"Veids netiek atbalstīts"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Įspėjimas"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Visi pret kopēšanu aizsargātie faili ir paslēpti Wi-Fi displeja savienojuma dēļ."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"Izslēgt Wi-Fi rādījumu"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"Tęsti"</string>
+	<!---->
+	<string name="tv_link_close">"Wi-Fi displejs ir aizvērts"</string>
+	<!---->
+	<string name="drm_no_valid_right">"Nėra tinkamos failo DRM įstaigos"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">"DRM failas „%s“ nebegalioja. Ar norite jį ištrinti?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"DRM failas „%s“ nebegalioja. Ar norite jį atrakinti?"</string>
+	<!---->
+	<string name="unlimited_usage">"Neierobežots lietošanas apjoms"</string>
+	<!---->
+	<string name="not_available">"Nav pieejams"</string>
+	<!---->
+	<string name="use_times">"Lietojiet %s reizes"</string>
+	<!---->
+	<string name="valid_after">"Derīgs pēc:"</string>
+	<!---->
+	<string name="valid_until">"Derīgs līdz:"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"Veiciet dubultskārienu un bīdiet, lai kamerā tuvinātu vai tālinātu."</string>
+	<!---->
+	<string name="tips_done">"Atlikta"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"Veiciet dubultskārienu un bīdiet, lai galerijā tuvinātu vai tālinātu"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"Sužinokite apie priartinimą vienu pirštu"</string>
+	<!---->
+	<string name="drm_current_right">"Esamas ribojimas"</string>
+	<!---->
+	<string name="right_url">"Licences"</string>
+	<!---->
+	<string name="vendor">"Pardavėjas:"</string>
+	<!---->
+	<string name="stop">"Apturēt"</string>
+	<!---->
+	<string name="selectRenderer">"Atlasīt atskaņotāju"</string>
+	<!---->
+	<string name="noRenderer">"Nevar atrast nevienu atveidošanas ierīci"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"Vai pārtraukt video demonstrēšanu televizorā?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"Vai pārtraukt attēlu rādīšanu televizorā?"</string>
+	<!---->
+	<string name="play_video">"Demonstrēt video"</string>
+	<!---->
+	<string name="shake_video_text">"Lai demonstrētu to televizorā, pakratiet tālruni video lapā."</string>
+	<!---->
+	<string name="shake_picture_text">"Lai demonstrētu to televizorā, pakratiet tālruni attēlu lapā."</string>
+	<!---->
+	<string name="wait_dialog">"Lūdzu, uzgaidiet..."</string>
+	<!---->
+	<string name="toast_nostop">"Lai apturētu demonstrēšanu televizorā, atlasiet ierīces atskaņotāju."</string>
+	<!---->
+	<string name="dlna_format_not_support">"Faila formāts netiek atbalstīts."</string>
+	<!---->
+	<string name="left_title_camera_roll">"Fotoattēli no kameras"</string>
+	<!---->
+	<string name="left_title_timeline">"Laiks"</string>
+	<!---->
+	<string name="left_title_albums">"Albumi"</string>
+	<!---->
+	<string name="left_title_videos">"Video klipi"</string>
+	<!---->
+	<string name="left_title_location">"Atr. vietas"</string>
+	<!---->
+	<string name="drawer_open">"Atvērt navigācijas atvilktni"</string>
+	<!---->
+	<string name="drawer_close">"Aizvērt navigācijas atvilktni"</string>
+	<!---->
+	<string name="photo_share">"Kopīgot ar"</string>
+	<!---->
+	<string name="filtershow_save">"SAGLABĀT"</string>
+	<!---->
+	<string name="filtershow_none">"Nėra"</string>
+	<!---->
+	<string name="filtershow_frame">"Rāmis"</string>
+	<!---->
+	<string name="drm_no_crop">"Failo „%s“ apkarpyti negalima, nes jis apsaugotas DRM apsauga!"</string>
+	<!---->
+	<string name="drm_no_contact_icon">"Failo „%s“ nustatyti kaip adresato piktogramos negalima, nes jis apsaugotas DRM apsauga!"</string>
+	<!---->
+	<string name="never_tip">"Rādīt padomus startējot"</string>
+	<!---->
+	<string name="three_finger_tips0">"Pieskarieties ekrānam ar trim pirkstiem."</string>
+	<!---->
+	<string name="three_finger_tips1">"Velciet failu uz dzelteno apgabalu."</string>
+	<!---->
+	<string name="three_finger_tips2">"Kad apgabala krāsa kļūs dzeltena, kopīgošana būs veiksmīgi pabeigta."</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"DRM failu nevajadzētu parādīt, izmantojot Wi-Fi displeju!"</string>
+	<!---->
+	<string name="filtershow_save_title">"Saglabāt izmaiņas"</string>
+	<!---->
+	<string name="filtershow_save_message">"Vai vēlaties saglabāt kā kopiju vai pārrakstīt oriģinālo attēlu?"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"Daugiau neklausti"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"SAGLABĀT KĀ KOPIJU"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"PĀRRAKSTĪT ORIĢINĀLU"</string>
+	<!---->
+	<string name="lock_video">"Bloķēts"</string>
+	<!---->
+	<string name="unlock_video">"Atbloķēts"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Beidzies DRM licences derīguma termiņš."</string>
+	<!---->
+	<string name="drm_protection_status">"Aizsardzības statuss:"</string>
+	<!---->
+	<string name="drm_can_forward">"Var pārsūtīt."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Nevar pārsūtīt."</string>
+	<!---->
+	<string name="drm_no_license">"DRM licence nav pieejama."</string>
+	<!---->
+	<string name="drm_begin">"Sākums:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Bez ierobežojumiem."</string>
+	<!---->
+	<string name="drm_end">"Beigas:"</string>
+	<!---->
+	<string name="drm_use_left">"Atlicis:"</string>
+	<!---->
+	<string name="date_taken">"Uzņemšanas datums"</string>
+	<!---->
+	<string name="modified_time">"Modificēšanas laiks"</string>
+	<!---->
+	<string name="fast_forward">"Ātri attīt uz priekšu %ds"</string>
+	<!---->
+	<string name="fast_backward">"Ātri attīt atpakaļ %ds"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"Tīkla savienojums ir atjaunots. Vai turpināt atskaņošanu?"</string>
+	<!---->
+	<string name="polaroid_action_open">"Atvērt"</string>
+	<!---->
+	<string name="polaroid_action_save">"Saglabāt"</string>
+	<!---->
+	<string name="polaroid_action_send">"Sūtīt"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"Apskauj mani"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"Attēls tiek saglabāts..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"Polaroīda stikla redaktors"</string>
+	<!---->
+	<string name="editor_select_filtershow">"Redaktors (noklusējuma iestatījums)"</string>
+	<!---->
+	<string name="date_tag">"Datums"</string>
+	<!---->
+	<string name="location_tag">"novietojums"</string>
+	<!---->
+	<string name="slogan_tag">"sauklis"</string>
+	<!---->
+	<string name="polaroid_no_location">"Nav atrašanās vietas"</string>
+	<!---->
+	<string name="save_iamge_compelete">"Fotoattēls ir saglabāts galerijā."</string>
+	<!---->
+	<string name="save_image_error">"Neizdevās saglabāt failu."</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"Attēls pārāk mazs."</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"Minimālais lielums ir 320 x 320 pikseļi."</string>
+	<!---->
+	<string name="open_with">"Atvērt, izmantojot"</string>
+	<!---->
+	<string name="moments_month_view">"Mēneša skatījums"</string>
+	<!---->
+	<string name="moments_day_view">"Dienas skatījums"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"Visi"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"Fotoattēls"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"Video"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"Šajā sērijveida secībā ir %s fotogrāfijas. Vai izdzēst visas?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"Pārrakstīt sērijveida uzņēmumus vai saglabāt kā atsevišķus attēlus?"</string>
+	<!---->
+	<string name="burst_overwrite">"Pārrakstīt"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"Saglabāt kā atsevišķus attēlus"</string>
+	<!---->
+	<string name="burst_cancel">"Atcelt"</string>
+	<!---->
+	<string name="burst_delete">"Dzēst"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"Izlase"</string>
+	<!---->
+	<string name="select">"Atlasīt"</string>
+	<!---->
+	<string name="getstarted">"Sākt darbu"</string>
+	<!---->
+	<string name="gotit">"Sapratu"</string>
+	<!---->
+	<string name="faceshow_start">"Jūs sagaida īsts brīnums, kad sasniegsiet noteiktu pašfoto skaitu. Dodieties šajā ceļojumā!"</string>
+	<!---->
+	<string name="faceshow_takemore">"Lai izveidotu sejas skati, jums vajag vairāk pašfoto."</string>
+	<!---->
+	<string name="selfies">"Pašbilde"</string>
+	<!---->
+	<string name="parallax">"Paralakse"</string>
+	<!---->
+	<string name="trim_title">"Vai atmest izmaiņas?"</string>
+	<!---->
+	<string name="trim_message">"Izmaiņas netika saglabātas"</string>
+	<!---->
+	<string name="trim_discard">"Atmest"</string>
+	<!---->
+	<string name="main_tab_moments">"Mirkļi"</string>
+	<!---->
+	<string name="moments_show">"Rādīt"</string>
+	<!---->
+	<string name="illegal_image_format">"Neatļauts attēla formāts, nav iespējams rediģēt."</string>
+	<!---->
+	<string name="exporting_video">"Notiek video eksportēšana"</string>
+	<!---->
+	<string name="exporting_message">"Tas var ilgt vairākas sekundes, mirkli uzgaidiet..."</string>
+	<!---->
+	<string name="share_save_video">"Notiek video saglabāšana Galerijā..."</string>
+	<!---->
+	<string name="share_saved">"Video ir saglabāts Galerijā"</string>
+	<!---->
+	<string name="share_save_image">"Notiek attēla saglabāšana Galerijā..."</string>
+	<!---->
+	<string name="share_image_saved">"Attēls ir saglabāts Galerijā"</string>
+	<!---->
+	<string name="location_permission_toast_text">"Kamera nesniedz atrašanās vietas datus"</string>
+	<!---->
+	<string name="no_internet_contect_text">"Nav interneta savien."</string>
+	<!---->
+	<string name="more">"Vairāk"</string>
+	<!---->
+	<string name="moment_album_today">"Šodien"</string>
+	<!---->
+	<string name="moment_album_yesterday">"Vakar"</string>
+	<!---->
+	<string name="location_destination_text">"Kārtot fotoattēlus un video pēc atrašanās vietas Momentos"</string>
+	<string-array name="month">
+		<item>"Janvāris"</item>
+		<item>"Februāris"</item>
+		<item>"Marts"</item>
+		<item>"Aprīlis"</item>
+		<item>"Maijs"</item>
+		<item>"Jūnijs"</item>
+		<item>"Jūlijs"</item>
+		<item>"Augusts"</item>
+		<item>"Septembris"</item>
+		<item>"Oktobris"</item>
+		<item>"Novembris"</item>
+		<item>"Decembris"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"Lai kārtoto fotoattēlus un video pēc atrašanās vietas, piešķiriet Galerijai atļauju piekļūt Atrašanās vietas noteikšanai."</string>
+	<!---->
+	<string name="permission_location_settings">"Iestatījumi"</string>
+	<!---->
+	<string name="boom_key_tip_1">"Prezentējiet fotoattēlus dažādās un neatkārtojamās kolāžās"</string>
+	<!---->
+	<string name="boom_key_tip_2">"Sākt kolāžas skatījumu, nospiežot Boom taustiņu"</string>
+	<!---->
+	<string name="boom_key_tip_3">"Aktivizējiet kolāžu rādīšanu Albumos"</string>
+	<!---->
+	<string name="boom_key_tip_4">"Aktivizējiet kolāžu rādīšanu foto priekšskatījumā"</string>
+	<!---->
+	<string name="tx_skip">"Izlaist"</string>
+	<!---->
+	<string name="tx_done">"Gatavs"</string>
+	<!---->
+	<string name="boom_key">"Boom taustiņš"</string>
+	<!---->
+	<string name="press">"Nospiest"</string>
+	<!---->
+	<string name="not_support_parallax_share">"Nevar kopīgot Fyuse attēlu no momentiem"</string>
+	<!---->
+	<string name="permissions_hi">"ČAU!"</string>
+	<!---->
+	<string name="not_support_video_edit">"Video formāts netiek atbalstīts."</string>
+</resources>

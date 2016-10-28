@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+|                                                                 Date:12/2013 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  xihe.lu                                                           |
+|  Email  :  xihe.lu@tcl.com                                                   |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     :                                                                  |
+|  Labels   : OneFingerZoomer                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 12/20/2013|       xihe.lu        |       CR566425       |One finger zoom     |
+| **********|**********************|**********************|******************* |
+| 06/06/2014|       yuan.cao       |       PR683184       |One finger zoom     |
+|           |                      |                      |image is wrong      |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/tips"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#99000000" >
+
+<!--[BUGFIX]-Mod-BEGIN by TCTNJ.jiao.yang,02/18/2014,603761-->
+  <TextView
+    android:id="@+id/tips_title"
+    style="@style/TipsTitleText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_gravity="center_vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="70dp"
+    android:text="@string/onef_inger_zoomer_tips_title" />
+<!--[BUGFIX]-Mod-END by TCTNJ.jiao.yang-->
+
+  <TextView
+    android:id="@+id/tips_content"
+    style="@style/TipsText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tips_title"
+    android:layout_gravity="center_vertical"
+    android:layout_marginLeft="10dp"
+    android:text="@string/onef_inger_zoomer_tips" />
+
+<!--[BUGFIX]-Mod-BEGIN by TCTNJ.yuan.cao,05/26/2014,PR-683184,-->
+  <ImageView
+    android:id="@+id/one_finger"
+    android:layout_below="@+id/tips_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+<!-- [BUGFIX]-Mod-END by TCTNJ.yuan.cao -->
+
+  <Button
+    android:id="@+id/done"
+    style="@style/TipsButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="15dp" />
+
+</RelativeLayout>

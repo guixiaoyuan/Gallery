@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Thư viện"</string>
+	<!---->
+	<string name="gadget_title">"Khung ảnh"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"Xem phim"</string>
+	<!---->
+	<string name="loading_video">"Đang tải video..."</string>
+	<!---->
+	<string name="loading_image">"Đang tải ảnh…"</string>
+	<!---->
+	<string name="loading_account">"Đang tải tài khoản…"</string>
+	<!---->
+	<string name="resume_playing_title">"Phát tiếp video"</string>
+	<!---->
+	<string name="resume_playing_message">"Tiếp tục phát từ %s ?"</string>
+	<!---->
+	<string name="resume_playing_resume">"Tiếp tục phát"</string>
+	<!---->
+	<string name="loading">"Đang tải…"</string>
+	<!---->
+	<string name="fail_to_load">"Không thể tải"</string>
+	<!---->
+	<string name="fail_trim">"K\hông thể cắt tập tin video."</string>
+	<!---->
+	<string name="fail_to_load_image">"Không thể tải hình ảnh"</string>
+	<!---->
+	<string name="no_thumbnail">"Không có hình thu nhỏ"</string>
+	<!---->
+	<string name="resume_playing_restart">"Bắt đầu lại"</string>
+	<!---->
+	<string name="crop_save_text">"OK"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="multiface_crop_help">"Chạm vào một khuôn mặt để bắt đầu"</string>
+	<!---->
+	<string name="saving_image">"Đang lưu ảnh…"</string>
+	<!---->
+	<string name="filtershow_saving_image">"Đang lưu hình vào <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="save_error">"Không thể lưu hình ảnh được cắt."</string>
+	<!---->
+	<string name="crop_label">"Cắt ảnh"</string>
+	<!---->
+	<string name="trim_label">"Cắt video"</string>
+	<!---->
+	<string name="select_image">"Chọn ảnh"</string>
+	<!---->
+	<string name="select_video">"Chọn video"</string>
+	<!---->
+	<string name="select_item">"Chọn mục"</string>
+	<!---->
+	<string name="select_album">"Chọn album"</string>
+	<!---->
+	<string name="select_group">"Chọn nhóm"</string>
+	<!---->
+	<string name="set_image">"Đặt làm..."</string>
+	<!---->
+	<string name="set_wallpaper">"Đặt hình nền"</string>
+	<!---->
+	<string name="wallpaper">"Đang đặt hình nền..."</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"Hình nền"</string>
+	<!---->
+	<string name="delete">"Xóa"</string>
+	<!---->
+	<string name="deleting">"Đang xóa"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"Xóa mục được chọn?"</item>
+		<item quantity="other">"Xóa các mục được chọn?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"Xác nhận"</string>
+	<!---->
+	<string name="cancel">"Hủy"</string>
+	<!---->
+	<string name="share">"Chia sẻ"</string>
+	<!---->
+	<string name="share_panorama">"Chia sẻ toàn cảnh"</string>
+	<!---->
+	<string name="share_as_photo">"Chia sẻ dạng ảnh"</string>
+	<!---->
+	<string name="deleted">"Đã xóa"</string>
+	<!---->
+	<string name="undo">"HOÀN TÁC"</string>
+	<!---->
+	<string name="select_all">"Chọn tất cả"</string>
+	<!---->
+	<string name="deselect_all">"Bỏ chọn tất cả"</string>
+	<!---->
+	<string name="slideshow">"Trình chiếu"</string>
+	<!---->
+	<string name="details">"Chi tiết"</string>
+	<!---->
+	<string name="details_title">"%1$d trong tổng số %2$d mục:"</string>
+	<!---->
+	<string name="close">"Đóng"</string>
+	<!---->
+	<string name="switch_to_camera">"Chuyển sang máy ảnh"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d mục được chọn"</item>
+		<item quantity="one">"%1$d mục được chọn"</item>
+		<item quantity="other">"%1$d mục được chọn"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d được chọn"</item>
+		<item quantity="one">"%1$d được chọn"</item>
+		<item quantity="other">"%1$d được chọn"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d nhóm được chọn"</item>
+		<item quantity="one">"%1$d nhóm được chọn"</item>
+		<item quantity="other">"%1$d nhóm được chọn"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"Hiển thị trên bản đồ"</string>
+	<!---->
+	<string name="rotate_left">"Xoay trái"</string>
+	<!---->
+	<string name="rotate_right">"Xoay phải"</string>
+	<!---->
+	<string name="no_such_item">"Không thể tìm thấy mục."</string>
+	<!---->
+	<string name="edit">"Chỉnh sửa"</string>
+	<!---->
+	<string name="mix_video">"Hỗn hợp"</string>
+	<!---->
+	<string name="simple_edit">"Chỉnh sửa đơn giản"</string>
+	<!---->
+	<string name="process_caching_requests">"Đang xử lý yêu cầu lưu vào bộ nhớ cache"</string>
+	<!---->
+	<string name="caching_label">"Đang lưu tạm..."</string>
+	<!---->
+	<string name="crop_action">"Cắt"</string>
+	<!---->
+	<string name="trim_action">"Cắt"</string>
+	<!---->
+	<string name="mute_action">"Tắt tiếng"</string>
+	<!---->
+	<string name="set_as">"Đặt làm"</string>
+	<!---->
+	<string name="video_mute_err">"Không thể tắt tiếng video."</string>
+	<!---->
+	<string name="video_err">"Không thể phát video."</string>
+	<!---->
+	<string name="group_by_location">"Theo vị trí"</string>
+	<!---->
+	<string name="group_by_time">"Theo thời gian"</string>
+	<!---->
+	<string name="group_by_tags">"Theo thẻ"</string>
+	<!---->
+	<string name="group_by_faces">"Theo người"</string>
+	<!---->
+	<string name="group_by_album">"Theo album"</string>
+	<!---->
+	<string name="group_by_size">"Theo kích thước"</string>
+	<!---->
+	<string name="untagged">"Chưa gắn thẻ"</string>
+	<!---->
+	<string name="no_location">"Không có vị trí nào"</string>
+	<!---->
+	<string name="no_connectivity">"Không thể xác định một số vị trí do sự cố mạng."</string>
+	<!---->
+	<string name="sync_album_error">"Không thể tải về ảnh trong album. Hãy thử lại."</string>
+	<!---->
+	<string name="show_images_only">"Chỉ hình ảnh"</string>
+	<!---->
+	<string name="show_videos_only">"Chỉ video"</string>
+	<!---->
+	<string name="show_all">"Hình ảnh &amp; video"</string>
+	<!---->
+	<string name="appwidget_title">"Thư viện ảnh"</string>
+	<!---->
+	<string name="appwidget_empty_text">"Không có ảnh."</string>
+	<!---->
+	<string name="crop_saved">"Đã lưu hình ảnh được cắt vào <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+	<!---->
+	<string name="no_albums_alert">"Không có album nào"</string>
+	<!---->
+	<string name="empty_album">"Không sẵn có hình ảnh/video"</string>
+	<!---->
+	<string name="picasa_posts">"Bài đăng"</string>
+	<!---->
+	<string name="make_available_offline">"Làm cho sẵn có khi ngoại tuyến"</string>
+	<!---->
+	<string name="sync_picasa_albums">"Làm mới"</string>
+	<!---->
+	<string name="done">"Xong"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d/%2$d mục:"</string>
+	<!---->
+	<string name="title">"Tiêu đề"</string>
+	<!---->
+	<string name="description">"Mô tả"</string>
+	<!---->
+	<string name="time">"Thời gian"</string>
+	<!---->
+	<string name="location">"Vị trí"</string>
+	<!---->
+	<string name="path">"Đường dẫn"</string>
+	<!---->
+	<string name="width">"Chiều rộng"</string>
+	<!---->
+	<string name="height">"Chiều cao"</string>
+	<!---->
+	<string name="orientation">"Định hướng"</string>
+	<!---->
+	<string name="duration">"Thời lượng"</string>
+	<!---->
+	<string name="mimetype">"Loại MIME"</string>
+	<!---->
+	<string name="file_size">"Kích thước tập tin"</string>
+	<!---->
+	<string name="maker">"Trình tạo"</string>
+	<!---->
+	<string name="model">"Mẫu"</string>
+	<!---->
+	<string name="flash">"Flash"</string>
+	<!---->
+	<string name="aperture">"Khẩu độ"</string>
+	<!---->
+	<string name="focal_length">"Tiêu cự"</string>
+	<!---->
+	<string name="white_balance">"Cân bằng trắng"</string>
+	<!---->
+	<string name="exposure_time">"Thời gian phơi sáng"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"mm"</string>
+	<!---->
+	<string name="manual">"Thủ công"</string>
+	<!---->
+	<string name="auto">"Tự động"</string>
+	<!---->
+	<string name="flash_on">"Sử dụng flash"</string>
+	<!---->
+	<string name="flash_off">"Không có flash"</string>
+	<!---->
+	<string name="unknown">"Không xác định"</string>
+	<!---->
+	<string name="ffx_original">"Nguyên gốc"</string>
+	<!---->
+	<string name="ffx_vintage">"Rượu nho"</string>
+	<!---->
+	<string name="ffx_instant">"Chốc lát"</string>
+	<!---->
+	<string name="ffx_bleach">"Tẩy trắng"</string>
+	<!---->
+	<string name="ffx_blue_crush">"Xanh dương"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"Trắng/đen"</string>
+	<!---->
+	<string name="ffx_punch">"Hùng hồn"</string>
+	<!---->
+	<string name="ffx_x_process">"Xử lý X"</string>
+	<!---->
+	<string name="ffx_washout">"Latte"</string>
+	<!---->
+	<string name="ffx_washout_color">"Litho"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"Đặt album khả dụng ở chế độ ngoại tuyến."</item>
+		<item quantity="other">"Đặt album khả dụng ở chế độ ngoại tuyến."</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Mục này được lưu cục bộ và khả dụng ngoại tuyến."</string>
+	<!---->
+	<string name="set_label_all_albums">"Tất cả album"</string>
+	<!---->
+	<string name="set_label_local_albums">"Album cục bộ"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"Thiết bị MTP"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Album Picasa"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="BYTES">%s</xliff:g> trống"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="SIZE">%1$s</xliff:g> trở xuống"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="SIZE">%1$s</xliff:g> hoặc cao hơn"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> tới <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"Nhập"</string>
+	<!---->
+	<string name="import_complete">"Nhập xong"</string>
+	<!---->
+	<string name="import_fail">"Nhập không thành công"</string>
+	<!---->
+	<string name="camera_connected">"Đã kết nối máy ảnh."</string>
+	<!---->
+	<string name="camera_disconnected">"Đã ngắt kết nối máy ảnh."</string>
+	<!---->
+	<string name="click_import">"Chạm vào đây để nhập"</string>
+	<!---->
+	<string name="widget_type_album">"Chọn album"</string>
+	<!---->
+	<string name="widget_type_shuffle">"Hiển thị ngẫu nhiên tất cả hình ảnh"</string>
+	<!---->
+	<string name="widget_type_photo">"Chọn ảnh"</string>
+	<!---->
+	<string name="widget_type">"Chọn hình ảnh"</string>
+	<!---->
+	<string name="slideshow_dream_name">"Trình chiếu"</string>
+	<!---->
+	<string name="albums">"Album"</string>
+	<!---->
+	<string name="times">"Lần"</string>
+	<!---->
+	<string name="locations">"Vị trí"</string>
+	<!---->
+	<string name="people">"Danh bạ"</string>
+	<!---->
+	<string name="tags">"Thẻ"</string>
+	<!---->
+	<string name="group_by">"Nhóm theo"</string>
+	<!---->
+	<string name="settings">"Cài đặt"</string>
+	<!---->
+	<string name="add_account">"Thêm tài khoản"</string>
+	<!---->
+	<string name="folder_camera">"Camera"</string>
+	<!---->
+	<string name="folder_download">"Tải xuống"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"Ảnh trực tuyến đã sửa"</string>
+	<!---->
+	<string name="folder_imported">"Đã nhập"</string>
+	<!---->
+	<string name="folder_screenshot">"Ảnh chụp màn hình"</string>
+	<!---->
+	<string name="help">"Trợ giúp"</string>
+	<!---->
+	<string name="no_external_storage_title">"Không có bộ nhớ"</string>
+	<!---->
+	<string name="no_external_storage">"Không có bộ nhớ ngoài"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Xem cuộn phim"</string>
+	<!---->
+	<string name="switch_photo_grid">"Xem dạng ô"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"Xem toàn màn hình"</string>
+	<!---->
+	<string name="trimming">"Đang cắt"</string>
+	<!---->
+	<string name="muting">"Tắt tiếng"</string>
+	<!---->
+	<string name="please_wait">"Hãy chờ"</string>
+	<!---->
+	<string name="save_into">"Đang lưu video vào <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="trim_save_into">"Tập tin đã cắt bớt được lưu vào <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"Tập tin đã tắt tiếng được lưu vào <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="trim_too_short">"Không thể cắt: video đích quá ngắn"</string>
+	<!---->
+	<string name="mute_nosupport">"Không thể tắt tiếng: video không được hỗ trợ"</string>
+	<!---->
+	<string name="pano_progress_text">"Trình diễn toàn cảnh"</string>
+	<!---->
+	<string name="save">"LƯU"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"Đang quét nội dung..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d mục được quét"</item>
+		<item quantity="one">"%1$d mục được quét"</item>
+		<item quantity="other">"%1$d mục được quét"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"%1$d mục đã chọn"</item>
+		<item quantity="one">"%1$d mục đã chọn"</item>
+		<item quantity="other">"%1$d mục đã chọn"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"Đang sắp xếp..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"Quét xong"</string>
+	<!---->
+	<string name="ingest_importing">"Đang nhập..."</string>
+	<!---->
+	<string name="ingest_empty_device">"Không có nội dung nào khả dụng để nhập vào trên thiết bị này."</string>
+	<!---->
+	<string name="ingest_no_device">"Không có thiết bị MTP nào được kết nối"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"Lỗi máy ảnh"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Không thể kết nối với máy ảnh."</string>
+	<!---->
+	<string name="camera_disabled">"Máy ảnh đã bị tắt do chính sách bảo mật."</string>
+	<!---->
+	<string name="camera_label">"Máy ảnh"</string>
+	<!---->
+	<string name="wait">"Vui lòng đợi..."</string>
+	<!---->
+	<string name="review_cancel">"HỦY"</string>
+	<!---->
+	<string name="review_ok">"Hoàn tất"</string>
+	<!---->
+	<string name="time_lapse_title">"Thời gian đã ghi"</string>
+	<!---->
+	<string name="pref_camera_id_title">"Chọn máy ảnh"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Quay lại"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Trước"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"Vị trí lưu trữ"</string>
+	<!---->
+	<string name="pref_camera_location_label">"Vị trí"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"Bộ hẹn giờ đếm ngược"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 giây"</item>
+		<item quantity="other">"%d giây"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Kêu bíp khi đếm ngược"</string>
+	<!---->
+	<string name="setting_off">"Tắt"</string>
+	<!---->
+	<string name="setting_on">"Bật"</string>
+	<!---->
+	<string name="pref_video_quality_title">"Chất lượng video"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Cao"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Thấp"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"Thời gian đã ghi"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"Cài đặt máy ảnh"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Cài đặt máy quay phim"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Cỡ ảnh"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13M pixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8M Pixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5M pixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4M pixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3M pixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2M pixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2M pixel (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1,3M pixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1M pixel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"C.độ lấy tiêu cự"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Tự động"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Tắt"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Macro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"TỰ ĐỘNG"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"VÔ CỰC"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"MACRO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Chế độ flash"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"Chế độ flash"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Tự động"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Bật"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Tắt"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"ĐÈN FLASH TỰ ĐỘNG"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"ĐÈN FLASH BẬT"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"ĐÈN FLASH TẮT"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Cân bằng trắng"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Cân bằng trắng"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Tự động"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Sáng chói"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Ban ngày"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Huỳnh quang"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Nhiều mây"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"TỰ ĐỘNG"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Sáng chói"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Ban ngày"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Huỳnh quang"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Có mây"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Chế độ cảnh"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Tự động"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Hành động"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Đêm"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Hoàng hôn"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Tiệc"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"Không có"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"Hành động"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"Đêm"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"Hoàng hôn"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"Tiệc"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"BỘ HẸN GIỜ ĐẾM NGƯỢC"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"BỘ HẸN GIỜ TẮT"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 giây"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 giây"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 giây"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 giây"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Không thể chọn trong chế độ cảnh."</string>
+	<!---->
+	<string name="pref_exposure_title">"Độ phơi sáng"</string>
+	<!---->
+	<string name="pref_exposure_label">"Độ phơi sáng"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"MÁY ẢNH TRƯỚC"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"MÁY ẢNH SAU"</string>
+	<!---->
+	<string name="dialog_ok">"OK"</string>
+	<!---->
+	<string name="video_reach_size_limit">"Đã đạt đến giới hạn kích thước."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Quá nhanh"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Đang tạo xem trước toàn cảnh"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Không thể lưu toàn cảnh."</string>
+	<!---->
+	<string name="pano_dialog_title">"Toàn cảnh"</string>
+	<!---->
+	<string name="pano_capture_indication">"Đang chụp toàn cảnh"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Đang đợi ảnh toàn cảnh trước đó"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Đang lưu…"</string>
+	<!---->
+	<string name="pano_review_rendering">"Đang hiển thị ảnh toàn cảnh"</string>
+	<!---->
+	<string name="tap_to_focus">"Chạm để lấy tiêu cự"</string>
+	<!---->
+	<string name="pref_video_effect_title">"Hiệu ứng"</string>
+	<!---->
+	<string name="effect_none">"Không có"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Bóp méo"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Mắt lớn"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Mồm to"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Mồm nhỏ"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Mũi to"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Mắt nhỏ"</string>
+	<!---->
+	<string name="effect_backdropper_space">"Không gian"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Hoàng hôn"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Video"</string>
+	<!---->
+	<string name="bg_replacement_message">"Dừng thiết bị của bạn."\n"Thoát khỏi chế độ xem trong giây lát."</string>
+	<!---->
+	<string name="video_snapshot_hint">"Chạm để chụp hình trong khi quay phim."</string>
+	<!---->
+	<string name="video_recording_started">"Quay video đã bắt đầu."</string>
+	<!---->
+	<string name="video_recording_stopped">"Quay video đã dừng lại."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"Chụp nhanh video bị vô hiệu khi các hiệu ứng đặc biệt được bật."</string>
+	<!---->
+	<string name="clear_effects">"Xóa hiệu ứng"</string>
+	<!---->
+	<string name="effect_silly_faces">"MẶT XẤU"</string>
+	<!---->
+	<string name="effect_background">"MÀU NỀN"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"Nút chụp"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Nút menu"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"Ảnh gần đây nhất"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"Chuyển đổi giữa máy ảnh trước và sau"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"Bộ chọn chế độ máy ảnh, video hoặc toàn cảnh"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"Kiểm soát cài đặt khác"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"Đóng kiểm soát cài đặt"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"Điều khiển thu phóng"</string>
+	<!---->
+	<string name="accessibility_decrement">"Giảm %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"Tăng %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s hộp kiểm"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Chuyển sang ảnh"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Chuyển sang video"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Chuyển sang chế độ toàn cảnh"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"Chuyển sang chế độ toàn cảnh mới"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Chuyển sang Refocus"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"Hủy bài đánh giá"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Xem xét xong"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Xem xét lại"</string>
+	<!---->
+	<string name="accessibility_play_video">"Phát video"</string>
+	<!---->
+	<string name="accessibility_pause_video">"Tạm dừng video"</string>
+	<!---->
+	<string name="accessibility_reload_video">"Tải lại video"</string>
+	<!---->
+	<string name="accessibility_time_bar">"Thanh thời gian trình phát video"</string>
+	<!---->
+	<string name="capital_on">"BẬT"</string>
+	<!---->
+	<string name="capital_off">"TẮT"</string>
+	<!---->
+	<string name="gif_err">"Không thể phát gif."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Tắt"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0,5 giây"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 giây"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 giây"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 giây"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 giây"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 giây"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 giây"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 giây"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 giây"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 giây"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 giây"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 giây"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 giây"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0,5 phút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 phút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1,5 phút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 phút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2,5 phút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 phút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 phút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 phút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 phút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 phút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 phút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 phút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 phút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0,5 giờ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 giờ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1,5 giờ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 giờ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2,5 giờ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 giờ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 giờ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 giờ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 giờ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 giờ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 giờ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 giờ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 giờ"</string>
+	<!---->
+	<string name="time_lapse_seconds">"giây"</string>
+	<!---->
+	<string name="time_lapse_minutes">"phút"</string>
+	<!---->
+	<string name="time_lapse_hours">"giờ"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"Xong"</string>
+	<!---->
+	<string name="set_time_interval">"Cài quãng thời gian"</string>
+	<!---->
+	<string name="set_time_interval_help">"Tính năng thời gian trôi qua đang tắt. Hãy bật lên để cài quãng thời gian."</string>
+	<!---->
+	<string name="set_timer_help">"Bộ hẹn giờ đếm ngược đang tắt. Hãy bật nó lên để đếm ngược trước khi chụp ảnh."</string>
+	<!---->
+	<string name="set_duration">"Cài thời lượng theo giây"</string>
+	<!---->
+	<string name="count_down_title_text">"Đếm ngược để chụp ảnh"</string>
+	<!---->
+	<string name="remember_location_title">"Ghi nhớ vị trí ảnh chụp?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Gắn thẻ các ảnh chụp và video của bạn với các vị trí chúng được chụp.\n\nCác ứng dụng khác có thể truy cập thông tin này cùng với hình ảnh bạn đã lưu."</string>
+	<!---->
+	<string name="remember_location_no">"Không, xin cảm ơn"</string>
+	<!---->
+	<string name="remember_location_yes">"Có"</string>
+	<!---->
+	<string name="menu_camera">"Camera"</string>
+	<!---->
+	<string name="menu_search">"Tìm kiếm"</string>
+	<!---->
+	<string name="tab_photos">"Ảnh"</string>
+	<!---->
+	<string name="tab_albums">"Album"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Tùy chọn khác"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"Cài đặt"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d ảnh"</item>
+		<item quantity="other">"%1$d ảnh"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"Phụ đề"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"Video này không hợp lệ để phát trực tuyến đến thiết bị này."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"Không thể phát video này."</string>
+	<!---->
+	<string name="VideoView_error_button">"OK"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"Video này không được hổ trợ"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"K\hông thể kết nối. Cố gắng kết nối lại %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"Đang kết nối..."</string>
+	<!---->
+	<string name="media_controller_buffering">"Đang đệm %d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"Không thể kết nối với máy chủ"</string>
+	<!---->
+	<string name="media_controller_live">"Trực tiếp"</string>
+	<!---->
+	<string name="media_controller_playing">"Đang phát"</string>
+	<!---->
+	<string name="notify_photo_text">"Điều khiển bộ sưu tập"</string>
+	<!---->
+	<string name="notify_video_text">"Điều khiển bộ sưu tập"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"Trình chiếu Màn hình Wi-Fi đã được bật"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"Video Màn hình Wi-Fi đã được bật"</string>
+	<!---->
+	<string name="wfd_alert">"Thông báo"</string>
+	<!---->
+	<string name="wfd_change_message">"Video sẽ bị thay thế."</string>
+	<!---->
+	<string name="wfd_change_button">"Yes"</string>
+	<!---->
+	<string name="wfd_not_change_button">"No"</string>
+	<!---->
+	<string name="wfd_show">"Màn hình hiển thị Wi-Fi"</string>
+	<!---->
+	<string name="wfd_show_on">"Bật Màn hình Wi-Fi"</string>
+	<!---->
+	<string name="wfd_show_off">"Tắt Màn hình Wi-Fi"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"Kéo tập tin đến hình chữ nhật màu vàng để chia sẻ màn hình của bạn."</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"Loại này không được hỗ trợ"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Cảnh báo"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Mọi tập tin được chống sao chép sẽ bị ẩn do đang kết nối chế độ Màn hình Wi-Fi."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"Tắt Màn hình Wi-Fi"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"Tiếp tục"</string>
+	<!---->
+	<string name="tv_link_close">"Màn hình Wi-Fi đã bị đóng"</string>
+	<!---->
+	<string name="drm_no_valid_right">"Tập tin không có quyền DRM hợp lệ"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">"Tập tin DRM "%s" đã hết hạn. Xóa nó?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"Tập tin DRM "%s" đã hết hạn. Mở khóa tập tin?"</string>
+	<!---->
+	<string name="unlimited_usage">"Sử dụng không giới hạn"</string>
+	<!---->
+	<string name="not_available">"Không có"</string>
+	<!---->
+	<string name="use_times">"Sử dụng %s lần"</string>
+	<!---->
+	<string name="valid_after">"Có hiệu lực sau"</string>
+	<!---->
+	<string name="valid_until">"Có hiệu lực tới"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"Nhấn đúp và trượt để phóng to/thu nhỏ trong Camera"</string>
+	<!---->
+	<string name="tips_done">"Xong"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"Nhấn đúp và trượt để phóng to/thu nhỏ trong Bộ sưu tập"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"Tìm hiểu về thu phóng bằng một ngón tay"</string>
+	<!---->
+	<string name="drm_current_right">"Giới hạn hiện tại"</string>
+	<!---->
+	<string name="right_url">"Giấy phép"</string>
+	<!---->
+	<string name="vendor">"Nhà cung cấp:"</string>
+	<!---->
+	<string name="stop">"Dừng"</string>
+	<!---->
+	<string name="selectRenderer">"Chọn một máy phát"</string>
+	<!---->
+	<string name="noRenderer">"Không thể tìm thấy bất cứ thiết bị dựng hình nào"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"Dừng phát video trên TV?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"Dừng phát hình ảnh trên TV?"</string>
+	<!---->
+	<string name="play_video">"Phát video"</string>
+	<!---->
+	<string name="shake_video_text">"Lắc điện thoại của bạn trên trang video để phát trên TV"</string>
+	<!---->
+	<string name="shake_picture_text">"Để phát trên tivi, lắc điện thoại của bạn trên trang ảnh."</string>
+	<!---->
+	<string name="wait_dialog">"Vui lòng đợi..."</string>
+	<!---->
+	<string name="toast_nostop">"Để dừng phát trên tivi, chọn một trình phát cục bộ."</string>
+	<!---->
+	<string name="dlna_format_not_support">"Định dạng tập tin không được hổ trợ."</string>
+	<!---->
+	<string name="left_title_camera_roll">"Cuộn Camera"</string>
+	<!---->
+	<string name="left_title_timeline">"Thời gian"</string>
+	<!---->
+	<string name="left_title_albums">"Anbom"</string>
+	<!---->
+	<string name="left_title_videos">"Video"</string>
+	<!---->
+	<string name="left_title_location">"Vị trí"</string>
+	<!---->
+	<string name="drawer_open">"Mở ngăn kéo điều hướng"</string>
+	<!---->
+	<string name="drawer_close">"Đóng ngăn kéo điều hướng"</string>
+	<!---->
+	<string name="photo_share">"Chia sẻ"</string>
+	<!---->
+	<string name="filtershow_save">"LƯU"</string>
+	<!---->
+	<string name="filtershow_none">"Không có"</string>
+	<!---->
+	<string name="filtershow_frame">"Khung"</string>
+	<!---->
+	<string name="drm_no_crop">"Không cho phép cắt tập tin "%s" vì tập tin được bảo vệ theo DRM."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"Không được phép đặt tập tin "%s" làm biểu tượng liên hệ vì tập tin này được bảo vệ DRM."</string>
+	<!---->
+	<string name="never_tip">"Hiển thị mẹo khi khởi động"</string>
+	<!---->
+	<string name="three_finger_tips0">"Đặt ba ngón tay lên màn hình."</string>
+	<!---->
+	<string name="three_finger_tips1">"Kéo tập tin đến vùng màu vàng."</string>
+	<!---->
+	<string name="three_finger_tips2">"Khi vùng này đầy màu vàng thì việc chia sẻ thành công."</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"Tập tin DRM không thể hiển thị qua tính năng Wi-Fi Display!"</string>
+	<!---->
+	<string name="filtershow_save_title">"Lưu thay đổi"</string>
+	<!---->
+	<string name="filtershow_save_message">"Bạn có muốn lưu làm bản sao hay ghi đè lên ảnh gốc?"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"Không hỏi lại"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"LƯU LÀM BẢN SAO"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"GHI ĐÈ LÊN ẢNH GỐC"</string>
+	<!---->
+	<string name="lock_video">"Đã khóa"</string>
+	<!---->
+	<string name="unlock_video">"Đã mở khóa"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Giấy phép DRM đã hết hạn."</string>
+	<!---->
+	<string name="drm_protection_status">"Trạng thái bảo vệ:"</string>
+	<!---->
+	<string name="drm_can_forward">"Có thể chuyển tiếp."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Không thể chuyển tiếp."</string>
+	<!---->
+	<string name="drm_no_license">"Không có giấy phép DRM."</string>
+	<!---->
+	<string name="drm_begin">"Bắt đầu:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Không có giới hạn."</string>
+	<!---->
+	<string name="drm_end">"Kết thúc:"</string>
+	<!---->
+	<string name="drm_use_left">"Còn lại"</string>
+	<!---->
+	<string name="date_taken">"Ngày chụp"</string>
+	<!---->
+	<string name="modified_time">"Thời gian được sửa đổi"</string>
+	<!---->
+	<string name="fast_forward">"Tiến nhanh %ds"</string>
+	<!---->
+	<string name="fast_backward">"Lùi nhanh %ds"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"Mạng được kết nối lại, tiếp tục phát?"</string>
+	<!---->
+	<string name="polaroid_action_open">"Mở"</string>
+	<!---->
+	<string name="polaroid_action_save">"Lưu"</string>
+	<!---->
+	<string name="polaroid_action_send">"Gửi"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"Hãy ôm tôi đi"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"Đang lưu ảnh…"</string>
+	<!---->
+	<string name="editor_select_polaroid">"Trình chỉnh sửa Polaroid"</string>
+	<!---->
+	<string name="editor_select_filtershow">"Trình chỉnh sửa (Mặc định)"</string>
+	<!---->
+	<string name="date_tag">"Ngày"</string>
+	<!---->
+	<string name="location_tag">"Vị trí"</string>
+	<!---->
+	<string name="slogan_tag">"khẩu hiệu"</string>
+	<!---->
+	<string name="polaroid_no_location">"Không có vị trí nào"</string>
+	<!---->
+	<string name="save_iamge_compelete">"Ảnh đã được lưu vào Thư viện."</string>
+	<!---->
+	<string name="save_image_error">"Không lưu được tập tin."</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"Hình ảnh quá nhỏ"</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"Kích thước tối thiểu là 320 x 320 pixel."</string>
+	<!---->
+	<string name="open_with">"Mở bằng"</string>
+	<!---->
+	<string name="moments_month_view">"Xem tháng"</string>
+	<!---->
+	<string name="moments_day_view">"Xem ngày"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"Tất cả"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"Ảnh"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"Video"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"Chuỗi liên tiếp này chứa %s ảnh. Xóa tất cả?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"Ghi đè lên ảnh chụp liên tiếp hay lưu dưới dạng ảnh đơn lẻ?"</string>
+	<!---->
+	<string name="burst_overwrite">"Ghi đè"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"Lưu dưới dạng ảnh đơn lẻ"</string>
+	<!---->
+	<string name="burst_cancel">"HỦY"</string>
+	<!---->
+	<string name="burst_delete">"XÓA"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"Yêu thích"</string>
+	<!---->
+	<string name="select">"Chọn"</string>
+	<!---->
+	<string name="getstarted">"Hãy bắt đầu"</string>
+	<!---->
+	<string name="gotit">"Đã xong"</string>
+	<!---->
+	<string name="faceshow_start">"Một điều kỳ diệu thực sự đang chờ đợi khi bạn đạt đến số lượng ảnh tự sướng nhất định. Bắt đầu cuộc hành trình của bạn ngay bây giờ!"</string>
+	<!---->
+	<string name="faceshow_takemore">"Bạn cần thêm ảnh tự sướng để tạo trình diễn khuôn mặt riêng của bạn."</string>
+	<!---->
+	<string name="selfies">"Chụp ảnh tự sướng"</string>
+	<!---->
+	<string name="parallax">"Thị sai"</string>
+	<!---->
+	<string name="trim_title">"Hủy thay đổi?"</string>
+	<!---->
+	<string name="trim_message">"Các thay đổi của bạn không được lưu"</string>
+	<!---->
+	<string name="trim_discard">"Hủy bỏ"</string>
+	<!---->
+	<string name="main_tab_moments">"Thời điểm"</string>
+	<!---->
+	<string name="moments_show">"hiển thị"</string>
+	<!---->
+	<string name="illegal_image_format">"Định dạng hình ảnh không hợp kệ, không thể chỉnh sửa."</string>
+	<!---->
+	<string name="exporting_video">"Đang xuất video"</string>
+	<!---->
+	<string name="exporting_message">"Điều này có thể mất một vài giây, vui lòng đợi trong giây lát..."</string>
+	<!---->
+	<string name="share_save_video">"Đang lưu video vào Thư viện..."</string>
+	<!---->
+	<string name="share_saved">"Video đã được lưu vào Thư viện"</string>
+	<!---->
+	<string name="share_save_image">"Đang lưu ảnh vào Thư viện ..."</string>
+	<!---->
+	<string name="share_image_saved">"Ảnh đã được lưu vào Thư viện"</string>
+	<!---->
+	<string name="location_permission_toast_text">"Không có dữ liệu về vị trí từ Máy ảnh"</string>
+	<!---->
+	<string name="no_internet_contect_text">"Không có kết nối Internet"</string>
+	<!---->
+	<string name="more">"Thêm"</string>
+	<!---->
+	<string name="moment_album_today">"Hôm nay"</string>
+	<!---->
+	<string name="moment_album_yesterday">"hôm qua"</string>
+	<!---->
+	<string name="location_destination_text">"Sắp xếp ảnh và video theo vị trí trong Khoảnh khắc"</string>
+	<string-array name="month">
+		<item>"Tháng 1"</item>
+		<item>"Tháng 2"</item>
+		<item>"Tháng 3"</item>
+		<item>"Tháng 4"</item>
+		<item>"Tháng 5"</item>
+		<item>"Tháng 6"</item>
+		<item>"Tháng 7"</item>
+		<item>"Tháng 8"</item>
+		<item>"Tháng 9"</item>
+		<item>"Tháng 10"</item>
+		<item>"Tháng 11"</item>
+		<item>"Tháng 12"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"Để sắp xếp ảnh và video theo vị trí, cho phép Thư viện truy cập Vị trí."</string>
+	<!---->
+	<string name="permission_location_settings">"Cài đặt"</string>
+	<!---->
+	<string name="boom_key_tip_1">"Hiển thị ảnh dưới dạng nhiều ảnh cắt dán khác nhau tuyệt đẹp"</string>
+	<!---->
+	<string name="boom_key_tip_2">"Bắt đầu chương trình ghép ảnh bằng phím Boom"</string>
+	<!---->
+	<string name="boom_key_tip_3">"Kích hoạt cắt dán ảnh từ Albums (Album)"</string>
+	<!---->
+	<string name="boom_key_tip_4">"Kích hoạt cắt dán ảnh từ xem trước ảnh"</string>
+	<!---->
+	<string name="tx_skip">"Bỏ qua"</string>
+	<!---->
+	<string name="tx_done">"Xong"</string>
+	<!---->
+	<string name="boom_key">"Phím Boom"</string>
+	<!---->
+	<string name="press">"Nhấn"</string>
+	<!---->
+	<string name="not_support_parallax_share">"Không thể chia sẻ Fyuse từ Moments"</string>
+	<!---->
+	<string name="permissions_hi">"XIN CHÀO!"</string>
+	<!---->
+	<string name="not_support_video_edit">"Định dạng video không được hỗ trợ."</string>
+</resources>

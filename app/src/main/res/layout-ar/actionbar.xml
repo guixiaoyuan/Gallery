@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionbar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/actionbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/actionbar_title_magin"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/actionbar_title_color"
+        android:textSize="@dimen/actionbar_title_size"
+        android:textStyle="bold" />
+    <!-- [FEATURE]-Modify by TCTNJ, cuihua.yang, 2015-12-19, PR1175788 begin -->
+     <View
+        android:id="@+id/actionbar_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+     <!-- [FEATURE]-Modify by TCTNJ, cuihua.yang, 2015-12-19, PR1175788 begin -->
+
+</RelativeLayout>

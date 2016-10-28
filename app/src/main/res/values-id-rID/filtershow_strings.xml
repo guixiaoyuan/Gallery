@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Apr 02 14:48:29 GMT+08:00 2015
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Pengedit foto"</string>
+	<!---->
+	<string name="cannot_load_image">"Tidak bisa memuat gambar"</string>
+	<!---->
+	<string name="cannot_edit_original">"Tidak dapat mengedit gambar asli"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Mengatur wallpaper"</string>
+	<!---->
+	<string name="download_failure">"Tidak dapat mengunduh foto. Jaringan tidak tersedia."</string>
+	<!---->
+	<string name="original">"Original"</string>
+	<!---->
+	<string name="borders">"Batas"</string>
+	<!---->
+	<string name="custom_border">"Ubahsuaian"</string>
+	<!---->
+	<string name="filtershow_undo">"Urungkan"</string>
+	<!---->
+	<string name="filtershow_redo">"Ulangi"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Tampilkan efek yang ditetapkan"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Sembunyikan efek yang ditetapkan"</string>
+	<!---->
+	<string name="export_image">"ekspor"</string>
+	<!---->
+	<string name="print_image">"Cetak"</string>
+	<!---->
+	<string name="export_flattened">"Ekspor gambar polos"</string>
+	<!---->
+	<string name="select_output_settings">"Gambar yang diekspor akan berbentuk salinan tanpa riwayat pengeditan."</string>
+	<!---->
+	<string name="quality">"Kualitas"</string>
+	<!---->
+	<string name="size">"Ukuran"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Pengaturan"</string>
+	<!---->
+	<string name="unsaved">"Ada perubahan yang belum disimpan di gambar ini."</string>
+	<!---->
+	<string name="save_before_exit">"Simpan sebelum keluar?"</string>
+	<!---->
+	<string name="save_and_exit">"Simpan dan keluar"</string>
+	<!---->
+	<string name="save_and_processing">"Memproses gambar resolusi penuh..."</string>
+	<!---->
+	<string name="exit">"Keluar"</string>
+	<!---->
+	<string name="history">"Riwayat"</string>
+	<!---->
+	<string name="reset">"Reset"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Efek yang ditetapkan"</string>
+	<!---->
+	<string name="compare_original">"Bandingkan"</string>
+	<!---->
+	<string name="apply_effect">"Terapkan"</string>
+	<!---->
+	<string name="reset_effect">"Reset"</string>
+	<!---->
+	<string name="aspect">"Aspek"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Tidak ada"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Ubahsuaian"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Tetap"</string>
+	<!---->
+	<string name="tinyplanet">"Planet Kecil"</string>
+	<!---->
+	<string name="exposure">"Pencahayaan"</string>
+	<!---->
+	<string name="sharpness">"Ketajaman"</string>
+	<!---->
+	<string name="contrast">"Kontras"</string>
+	<!---->
+	<string name="vibrance">"Getaran"</string>
+	<!---->
+	<string name="saturation">"Saturasi"</string>
+	<!---->
+	<string name="bwfilter">"Filter BW"</string>
+	<!---->
+	<string name="wbalance">"Warna auto"</string>
+	<!---->
+	<string name="hue">"Hue"</string>
+	<!---->
+	<string name="shadow_recovery">"Bayangan"</string>
+	<!---->
+	<string name="highlight_recovery">"Sorot"</string>
+	<!---->
+	<string name="curvesRGB">"Kurva"</string>
+	<!---->
+	<string name="vignette">"Vignet"</string>
+	<!---->
+	<string name="vignette_main">"Vignet"</string>
+	<!---->
+	<string name="vignette_exposure">"Pencahayaan"</string>
+	<!---->
+	<string name="vignette_saturation">"Saturasi"</string>
+	<!---->
+	<string name="vignette_contrast">"Kontras"</string>
+	<!---->
+	<string name="vignette_falloff">"Jatuh"</string>
+	<!---->
+	<string name="redeye">"Mata Merah"</string>
+	<!---->
+	<string name="imageDraw">"Gambar"</string>
+	<!---->
+	<string name="straighten">"Luruskan"</string>
+	<!---->
+	<string name="crop">"Pangkas"</string>
+	<!---->
+	<string name="rotate">"Putar"</string>
+	<!---->
+	<string name="mirror">"Cermn"</string>
+	<!---->
+	<string name="negative">"Negatif"</string>
+	<!---->
+	<string name="none">"Tidak ada"</string>
+	<!---->
+	<string name="edge">"Tepi"</string>
+	<!---->
+	<string name="kmeans">"Posterissi"</string>
+	<!---->
+	<string name="downsample">"Downsample"</string>
+	<!---->
+	<string name="grad">"Lulus"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Kecerahan"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Kontras"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Saturasi"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Utama"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Merah"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Kuning"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Hijau"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Sian"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Biru"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Magenta"</string>
+	<!---->
+	<string name="editor_grad_style">"Gaya"</string>
+	<!---->
+	<string name="editor_grad_new">"Baru"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Merah"</string>
+	<!---->
+	<string name="curves_channel_green">"Hijau"</string>
+	<!---->
+	<string name="curves_channel_blue">"Biru"</string>
+	<!---->
+	<string name="draw_style">"Gaya"</string>
+	<!---->
+	<string name="draw_size">"Ukuran"</string>
+	<!---->
+	<string name="draw_hue">"Hue"</string>
+	<!---->
+	<string name="draw_saturation">"Saturasi"</string>
+	<!---->
+	<string name="draw_value">"Kecerahan"</string>
+	<!---->
+	<string name="draw_color">"Warna"</string>
+	<!---->
+	<string name="draw_style_line">"Garis"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Penanda"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Percikan"</string>
+	<!---->
+	<string name="draw_clear">"Hapus"</string>
+	<!---->
+	<string name="color_border_size">"Ketebalan"</string>
+	<!---->
+	<string name="color_border_corner_size">"Ukuran sudut"</string>
+	<!---->
+	<string name="color_border_color">"Warna"</string>
+	<!---->
+	<string name="color_border_clear">"Hapus"</string>
+	<!---->
+	<string name="color_pick_select">"Pilih warna kustom"</string>
+	<!---->
+	<string name="color_pick_title">"Pilih warna"</string>
+	<!---->
+	<string name="draw_size_title">"Pilih ukuran"</string>
+	<!---->
+	<string name="draw_size_accept">"OK"</string>
+	<!---->
+	<string name="state_panel_original">"Original"</string>
+	<!---->
+	<string name="state_panel_result">"Hasil"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Menyimpan gambar"</string>
+	<!---->
+	<string name="filtershow_notification_message">"Memproses..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Simpan prasetel saat ini"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Kelola prasetel pengguna"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Prasetel baru"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Nama prasetel"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Informasi"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Nama gambar"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Ukuran gambar"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Histogram"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"Data EXIF"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Prasetel"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Versi"</string>
+	<!---->
+	<string name="filtershow_version_original">"Original"</string>
+	<!---->
+	<string name="filtershow_version_current">"saat ini"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Model"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Apertur"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Panjang Fokal"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Jarak subjek"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Tanggal diambil"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F Stop"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Waktu pencahayaan"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Copyright"</string>
+</resources>

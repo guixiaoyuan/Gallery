@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"フォト エディター"</string>
+	<!---->
+	<string name="cannot_load_image">"イメージを読み込めません"</string>
+	<!---->
+	<string name="cannot_edit_original">"オリジナルを編集できません"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"壁紙を設定中"</string>
+	<!---->
+	<string name="download_failure">"写真をダウンロードできません。ネットワークが利用できません。"</string>
+	<!---->
+	<string name="original">"オリジナル"</string>
+	<!---->
+	<string name="borders">"境界線"</string>
+	<!---->
+	<string name="custom_border">"カスタム"</string>
+	<!---->
+	<string name="filtershow_undo">"元に戻す"</string>
+	<!---->
+	<string name="filtershow_redo">"やり直し"</string>
+	<!---->
+	<string name="show_imagestate_panel">"イメージのエフェクトを表示する"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"イメージのエフェクトを隠されている。"</string>
+	<!---->
+	<string name="export_image">"エクスポート"</string>
+	<!---->
+	<string name="print_image">"印刷"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"自動編集"</string>
+	<!---->
+	<string name="export_flattened">"平坦な画像をエキスポートします"</string>
+	<!---->
+	<string name="select_output_settings">"エクスポートされた画像は、編集履歴のないコピーとなります。"</string>
+	<!---->
+	<string name="quality">"画質"</string>
+	<!---->
+	<string name="size">"サイズ"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"設定"</string>
+	<!---->
+	<string name="unsaved">"このイメージへの変更は保存されていません。"</string>
+	<!---->
+	<string name="save_before_exit">"既存の前に保存しますか？"</string>
+	<!---->
+	<string name="save_and_exit">"保存して終了"</string>
+	<!---->
+	<string name="save_and_processing">"フル解像度のイメージを処理してます..."</string>
+	<!---->
+	<string name="exit">"終了"</string>
+	<!---->
+	<string name="history">"履歴"</string>
+	<!---->
+	<string name="reset">"リセット"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"適用済みエフェクト"</string>
+	<!---->
+	<string name="compare_original">"比較"</string>
+	<!---->
+	<string name="apply_effect">"適用"</string>
+	<!---->
+	<string name="reset_effect">"リセット"</string>
+	<!---->
+	<string name="aspect">"アスペクト"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"なし"</string>
+	<!---->
+	<string name="aspectCustom_effect">"カスタム"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"固定"</string>
+	<!---->
+	<string name="tinyplanet">"小さな惑星"</string>
+	<!---->
+	<string name="exposure">"露出"</string>
+	<!---->
+	<string name="sharpness">"シャープネス"</string>
+	<!---->
+	<string name="contrast">"コントラスト"</string>
+	<!---->
+	<string name="vibrance">"自然な彩度"</string>
+	<!---->
+	<string name="saturation">"彩度"</string>
+	<!---->
+	<string name="bwfilter">"BWフィルター"</string>
+	<!---->
+	<string name="wbalance">"自動カラー"</string>
+	<!---->
+	<string name="hue">"色合い"</string>
+	<!---->
+	<string name="shadow_recovery">"シャドウ"</string>
+	<!---->
+	<string name="highlight_recovery">"ハイライト"</string>
+	<!---->
+	<string name="curvesRGB">"カーブ"</string>
+	<!---->
+	<string name="vignette">"周辺減光"</string>
+	<!---->
+	<string name="vignette_main">"周辺減光"</string>
+	<!---->
+	<string name="vignette_exposure">"露出"</string>
+	<!---->
+	<string name="vignette_saturation">"彩度"</string>
+	<!---->
+	<string name="vignette_contrast">"コントラスト"</string>
+	<!---->
+	<string name="vignette_falloff">"減少"</string>
+	<!---->
+	<string name="redeye">"赤目処理"</string>
+	<!---->
+	<string name="imageDraw">"描画"</string>
+	<!---->
+	<string name="straighten">"傾き調整"</string>
+	<!---->
+	<string name="crop">"トリミング"</string>
+	<!---->
+	<string name="rotate">"回転"</string>
+	<!---->
+	<string name="mirror">"ミラー"</string>
+	<!---->
+	<string name="negative">"白黒反転"</string>
+	<!---->
+	<string name="none">"なし"</string>
+	<!---->
+	<string name="edge">"エッジ"</string>
+	<!---->
+	<string name="kmeans">"ポスタライズ"</string>
+	<!---->
+	<string name="downsample">"ダウンサンプル"</string>
+	<!---->
+	<string name="grad">"段階分け済み"</string>
+	<!---->
+	<string name="editor_grad_brightness">"画面の明るさ"</string>
+	<!---->
+	<string name="editor_grad_contrast">"コントラスト"</string>
+	<!---->
+	<string name="editor_grad_saturation">"彩度"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"メイン"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"赤"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"黄色"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"緑"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"シアン"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"青"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"マジェンタ"</string>
+	<!---->
+	<string name="editor_grad_style">"スタイル"</string>
+	<!---->
+	<string name="editor_grad_new">"新規"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"赤"</string>
+	<!---->
+	<string name="curves_channel_green">"緑"</string>
+	<!---->
+	<string name="curves_channel_blue">"青"</string>
+	<!---->
+	<string name="draw_style">"スタイル"</string>
+	<!---->
+	<string name="draw_size">"サイズ"</string>
+	<!---->
+	<string name="draw_hue">"色合い"</string>
+	<!---->
+	<string name="draw_saturation">"彩度"</string>
+	<!---->
+	<string name="draw_value">"画面の明るさ"</string>
+	<!---->
+	<string name="draw_color">"色"</string>
+	<!---->
+	<string name="draw_style_line">"線"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"マーカー"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"霧吹き"</string>
+	<!---->
+	<string name="draw_clear">"消去"</string>
+	<!---->
+	<string name="color_border_size">"厚さ"</string>
+	<!---->
+	<string name="color_border_corner_size">"コーナーサイズ"</string>
+	<!---->
+	<string name="color_border_color">"色"</string>
+	<!---->
+	<string name="color_border_clear">"クリア"</string>
+	<!---->
+	<string name="color_pick_select">"カスタムカラーの選択"</string>
+	<!---->
+	<string name="color_pick_title">"色の選択"</string>
+	<!---->
+	<string name="draw_size_title">"サイズの選択"</string>
+	<!---->
+	<string name="draw_size_accept">"OK"</string>
+	<!---->
+	<string name="state_panel_original">"オリジナル"</string>
+	<!---->
+	<string name="state_panel_result">"結果"</string>
+	<!---->
+	<string name="filtershow_notification_label">"イメージを保存中"</string>
+	<!---->
+	<string name="filtershow_notification_message">"処理中..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"現在のプリセットを保存"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"ユーザー事前設定を管理する"</string>
+	<!---->
+	<string name="filtershow_new_preset">"新しいプリセット"</string>
+	<!---->
+	<string name="filtershow_preset_name">"”プリセットの名前""</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"情報"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"画像名称"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"画像サイズ"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"ヒストグラム"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"EXIF データ"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"プリセット"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"バージョン"</string>
+	<!---->
+	<string name="filtershow_version_original">"オリジナル"</string>
+	<!---->
+	<string name="filtershow_version_current">"現在"</string>
+	<!---->
+	<string name="filtershow_exif_model">"モデル"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"絞り"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"レンズ焦点距離"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"被写体距離"</string>
+	<!---->
+	<string name="filtershow_exif_date">"撮影日"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F ストップ"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"露出時間"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"著作権"</string>
+</resources>

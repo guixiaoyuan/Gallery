@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <VideoView
+            android:id="@+id/video_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00bcd4"
+            android:backgroundTintMode="src_over"
+            android:layout_centerInParent="true"/>
+
+</RelativeLayout>

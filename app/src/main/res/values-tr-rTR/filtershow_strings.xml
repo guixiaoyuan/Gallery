@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Fotoğraf düzenleyici"</string>
+	<!---->
+	<string name="cannot_load_image">"Resim yüklenemiyor"</string>
+	<!---->
+	<string name="cannot_edit_original">"Orijinal düzenlenemez"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Duvar kağıdı ayarlanıyor"</string>
+	<!---->
+	<string name="download_failure">"Resim indirilemedi. Ağ kullanılamıyor."</string>
+	<!---->
+	<string name="original">"Orijinal"</string>
+	<!---->
+	<string name="borders">"Sınırlar"</string>
+	<!---->
+	<string name="custom_border">"Özel"</string>
+	<!---->
+	<string name="filtershow_undo">"Geri Al"</string>
+	<!---->
+	<string name="filtershow_redo">"Yeniden uygula"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Uygulanan efektleri göster"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Uygulanan efektleri gizle"</string>
+	<!---->
+	<string name="export_image">"Dışa aktar"</string>
+	<!---->
+	<string name="print_image">"Yazdır"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Otomatik düzenle"</string>
+	<!---->
+	<string name="export_flattened">"Düz resmi dışa aktar"</string>
+	<!---->
+	<string name="select_output_settings">"Dışa aktarılan resim, düzenleme geçmişi olmayan bir kopya olacak."</string>
+	<!---->
+	<string name="quality">"Kalite"</string>
+	<!---->
+	<string name="size">"Boyut"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Ayarlar"</string>
+	<!---->
+	<string name="unsaved">"Bu resimde kaydedilmemiş değişiklikler var."</string>
+	<!---->
+	<string name="save_before_exit">"Çıkmadan önce kaydedilsin mi?"</string>
+	<!---->
+	<string name="save_and_exit">"Kaydet ve çık"</string>
+	<!---->
+	<string name="save_and_processing">"Tam çözünürlüklü resim işleniyor..."</string>
+	<!---->
+	<string name="exit">"Çıkş"</string>
+	<!---->
+	<string name="history">"Geçmiş"</string>
+	<!---->
+	<string name="reset">"Sıfırla"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Uygulanan efektler"</string>
+	<!---->
+	<string name="compare_original">"Karşılaştır"</string>
+	<!---->
+	<string name="apply_effect">"Uygula"</string>
+	<!---->
+	<string name="reset_effect">"Sıfırla"</string>
+	<!---->
+	<string name="aspect">"Görünüş"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Hiçbiri"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Özel"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Sabit"</string>
+	<!---->
+	<string name="tinyplanet">"Küçük gezegen"</string>
+	<!---->
+	<string name="exposure">"Pozlama"</string>
+	<!---->
+	<string name="sharpness">"Keskinlik"</string>
+	<!---->
+	<string name="contrast">"Kontrast"</string>
+	<!---->
+	<string name="vibrance">"Titreşim"</string>
+	<!---->
+	<string name="saturation">"Doygunluk"</string>
+	<!---->
+	<string name="bwfilter">"S/B Filtresi"</string>
+	<!---->
+	<string name="wbalance">"Otomatik renklendir"</string>
+	<!---->
+	<string name="hue">"Renk tonu"</string>
+	<!---->
+	<string name="shadow_recovery">"Gölgeler"</string>
+	<!---->
+	<string name="highlight_recovery">"Parlak noktalar"</string>
+	<!---->
+	<string name="curvesRGB">"Eğriler"</string>
+	<!---->
+	<string name="vignette">"Vinyet"</string>
+	<!---->
+	<string name="vignette_main">"Vinyet"</string>
+	<!---->
+	<string name="vignette_exposure">"Pozlama"</string>
+	<!---->
+	<string name="vignette_saturation">"Doygunluk"</string>
+	<!---->
+	<string name="vignette_contrast">"Kontrast"</string>
+	<!---->
+	<string name="vignette_falloff">"Falloff"</string>
+	<!---->
+	<string name="redeye">"Kırmızı Göz"</string>
+	<!---->
+	<string name="imageDraw">"Çizim"</string>
+	<!---->
+	<string name="straighten">"Düzelt"</string>
+	<!---->
+	<string name="crop">"Kırp"</string>
+	<!---->
+	<string name="rotate">"Döndür"</string>
+	<!---->
+	<string name="mirror">"Ayna"</string>
+	<!---->
+	<string name="negative">"Negatif"</string>
+	<!---->
+	<string name="none">"Hiçbiri"</string>
+	<!---->
+	<string name="edge">"Kenarlar"</string>
+	<!---->
+	<string name="kmeans">"Poster Efkt Uyg"</string>
+	<!---->
+	<string name="downsample">"Çözünürlük düşür"</string>
+	<!---->
+	<string name="grad">"Dereceli"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Parlaklık"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Kontrast"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Doygunluk"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Ana"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Kırmızı"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Sarı"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Yeşil"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Açık mavi"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Mavi"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Eflatun"</string>
+	<!---->
+	<string name="editor_grad_style">"Stil"</string>
+	<!---->
+	<string name="editor_grad_new">"Yeni"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Kırmızı"</string>
+	<!---->
+	<string name="curves_channel_green">"Yeşil"</string>
+	<!---->
+	<string name="curves_channel_blue">"Mavi"</string>
+	<!---->
+	<string name="draw_style">"Stil"</string>
+	<!---->
+	<string name="draw_size">"Boyut"</string>
+	<!---->
+	<string name="draw_hue">"Renk tonu"</string>
+	<!---->
+	<string name="draw_saturation">"Doygunluk"</string>
+	<!---->
+	<string name="draw_value">"Parlaklık"</string>
+	<!---->
+	<string name="draw_color">"Renk"</string>
+	<!---->
+	<string name="draw_style_line">"Çizgiler"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"İşaretleyici"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Damlalık"</string>
+	<!---->
+	<string name="draw_clear">"Temizle"</string>
+	<!---->
+	<string name="color_border_size">"Kalınlık"</string>
+	<!---->
+	<string name="color_border_corner_size">"Köşe boyutu"</string>
+	<!---->
+	<string name="color_border_color">"Renk"</string>
+	<!---->
+	<string name="color_border_clear">"Temizle"</string>
+	<!---->
+	<string name="color_pick_select">"Özel renk seç"</string>
+	<!---->
+	<string name="color_pick_title">"Renk seç"</string>
+	<!---->
+	<string name="draw_size_title">"Boyut seç"</string>
+	<!---->
+	<string name="draw_size_accept">"Tamam"</string>
+	<!---->
+	<string name="state_panel_original">"Orijinal"</string>
+	<!---->
+	<string name="state_panel_result">"Sonuç"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Resim kaydediliyor"</string>
+	<!---->
+	<string name="filtershow_notification_message">"İşleniyor..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Geçerli önayarı kaydet"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Kullanıcı önayarlarını yönet"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Yeni önayar"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Önayar adı"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Bilgi"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Resim adı"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Resim boyutu"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Histogram"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"EXIF Verisi"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Önayar"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Sürüm"</string>
+	<!---->
+	<string name="filtershow_version_original">"Orijinal"</string>
+	<!---->
+	<string name="filtershow_version_current">"Mevcut"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Model"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Diyafram"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Odak Uzaklığı"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Konu mesafesi"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Çekilme Tarihi"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F Stop"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Pozlama süresi"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Telif Hakkı"</string>
+</resources>

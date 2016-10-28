@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/permission_location"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00B4CB" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/location_img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="24dp"
+                android:padding="0dp"
+                android:contentDescription="location_img1"
+                android:src="@drawable/ic_permission_3" />
+        </RelativeLayout>
+
+        <RelativeLayout 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/location_img2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="24dp"
+                android:padding="0dp"
+                android:contentDescription="location_img2"
+                android:src="@drawable/ic_permission_4" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <!-- //[BUGFIX]-Add by TCTNJ,yuanxi.jiang-nb, 2015/01/12,PR1394356  begin -->
+    <TextView
+        android:id="@+id/location_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="@string/location_destination_text"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+<!-- //[BUGFIX]-Add by TCTNJ,yuanxi.jiang-nb, 2015/01/12,PR1394356  end -->
+
+</RelativeLayout>

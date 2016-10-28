@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Kihariri picha"</string>
+	<!---->
+	<string name="cannot_load_image">"Haiwezi kupakia picha"</string>
+	<!---->
+	<string name="cannot_edit_original">"Haiwezi kuhariri asili"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Inaweka mandhari"</string>
+	<!---->
+	<string name="download_failure">"Haikuweza kupakua picha. Mtandao haupatikani."</string>
+	<!---->
+	<string name="original">"Asili"</string>
+	<!---->
+	<string name="borders">"Mipaka"</string>
+	<!---->
+	<string name="custom_border">"Maalum"</string>
+	<!---->
+	<string name="filtershow_undo">"Funyua"</string>
+	<!---->
+	<string name="filtershow_redo">"Rudia"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Onyesha matokeo yanayotumika"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Ficha matokeo yanayotumika"</string>
+	<!---->
+	<string name="export_image">"Hamisha"</string>
+	<!---->
+	<string name="print_image">"Chapisha"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Hariri oto"</string>
+	<!---->
+	<string name="export_flattened">"Hamisha picha tambarare"</string>
+	<!---->
+	<string name="select_output_settings">"Picha iliyohamishwa itakuwa nakala bila historia ya kuhariri."</string>
+	<!---->
+	<string name="quality">"Ubora"</string>
+	<!---->
+	<string name="size">"Ukubwa"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Mipangilio"</string>
+	<!---->
+	<string name="unsaved">"Kuna mabadiliko ambayo hayajahifadhiwa kwenye picha hii."</string>
+	<!---->
+	<string name="save_before_exit">"Je, ungependa kuhifadhi kabla ya kutoka?"</string>
+	<!---->
+	<string name="save_and_exit">"Hifadhi na utoke"</string>
+	<!---->
+	<string name="save_and_processing">"Inachakata picha ya msongo kamili..."</string>
+	<!---->
+	<string name="exit">"Toka"</string>
+	<!---->
+	<string name="history">"Historia"</string>
+	<!---->
+	<string name="reset">"Weka upya"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Matokeo yaliyotumika"</string>
+	<!---->
+	<string name="compare_original">"Linganisha"</string>
+	<!---->
+	<string name="apply_effect">"Tumia"</string>
+	<!---->
+	<string name="reset_effect">"Weka upya"</string>
+	<!---->
+	<string name="aspect">"Kigezo"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Hakuna"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Maalum"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Imerekebishwa"</string>
+	<!---->
+	<string name="tinyplanet">"Sayari ndogo"</string>
+	<!---->
+	<string name="exposure">"Mfichuo"</string>
+	<!---->
+	<string name="sharpness">"Ukali"</string>
+	<!---->
+	<string name="contrast">"Ulinganifu"</string>
+	<!---->
+	<string name="vibrance">"Mtetemeko"</string>
+	<!---->
+	<string name="saturation">"Ukolevu"</string>
+	<!---->
+	<string name="bwfilter">"Kichujio cha BW"</string>
+	<!---->
+	<string name="wbalance">"Rango otomatiki"</string>
+	<!---->
+	<string name="hue">"Rangi"</string>
+	<!---->
+	<string name="shadow_recovery">"Vivuli"</string>
+	<!---->
+	<string name="highlight_recovery">"Vidokezo"</string>
+	<!---->
+	<string name="curvesRGB">"Mizingo"</string>
+	<!---->
+	<string name="vignette">"Nakshi"</string>
+	<!---->
+	<string name="vignette_main">"Nakshi"</string>
+	<!---->
+	<string name="vignette_exposure">"Mfichuo"</string>
+	<!---->
+	<string name="vignette_saturation">"Ukolevu"</string>
+	<!---->
+	<string name="vignette_contrast">"Ulinganifu"</string>
+	<!---->
+	<string name="vignette_falloff">"Punguzo"</string>
+	<!---->
+	<string name="redeye">"Jicho Jekundu"</string>
+	<!---->
+	<string name="imageDraw">"Chora"</string>
+	<!---->
+	<string name="straighten">"Nyorosha"</string>
+	<!---->
+	<string name="crop">"Pogoa"</string>
+	<!---->
+	<string name="rotate">"Zungusha"</string>
+	<!---->
+	<string name="mirror">"Kioo"</string>
+	<!---->
+	<string name="negative">"Asi"</string>
+	<!---->
+	<string name="none">"Hakuna"</string>
+	<!---->
+	<string name="edge">"Kingo"</string>
+	<!---->
+	<string name="kmeans">"Mkao"</string>
+	<!---->
+	<string name="downsample">"Punguza ukubwa"</string>
+	<!---->
+	<string name="grad">"Iliyohitimu"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Uangavu"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Ulinganifu"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Ukolevu"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Kuu"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Wekundu"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Njano"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Kijani"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Samawati"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Bluu"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Majenta"</string>
+	<!---->
+	<string name="editor_grad_style">"Staili"</string>
+	<!---->
+	<string name="editor_grad_new">"Mpya"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Wekundu"</string>
+	<!---->
+	<string name="curves_channel_green">"Kijani"</string>
+	<!---->
+	<string name="curves_channel_blue">"Bluu"</string>
+	<!---->
+	<string name="draw_style">"Staili"</string>
+	<!---->
+	<string name="draw_size">"Ukubwa"</string>
+	<!---->
+	<string name="draw_hue">"Rangi"</string>
+	<!---->
+	<string name="draw_saturation">"Ukolevu"</string>
+	<!---->
+	<string name="draw_value">"Uangavu"</string>
+	<!---->
+	<string name="draw_color">"Rangi"</string>
+	<!---->
+	<string name="draw_style_line">"Laini"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Kiweka alama"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Mnyunyizio"</string>
+	<!---->
+	<string name="draw_clear">"Ondoa"</string>
+	<!---->
+	<string name="color_border_size">"Unene"</string>
+	<!---->
+	<string name="color_border_corner_size">"Ukubwa wa kona"</string>
+	<!---->
+	<string name="color_border_color">"Rangi"</string>
+	<!---->
+	<string name="color_border_clear">"Ondoa"</string>
+	<!---->
+	<string name="color_pick_select">"Chagua rangi kaida"</string>
+	<!---->
+	<string name="color_pick_title">"Chagua rangi"</string>
+	<!---->
+	<string name="draw_size_title">"Chagua ukubwa"</string>
+	<!---->
+	<string name="draw_size_accept">"SAWA"</string>
+	<!---->
+	<string name="state_panel_original">"Asili"</string>
+	<!---->
+	<string name="state_panel_result">"Matokeo"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Kuhifadhi picha"</string>
+	<!---->
+	<string name="filtershow_notification_message">"Inachakata..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Hifadhi uwekaji upya wa sasa"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Dhibiti uwekaji upya wa mtumiaji"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Uwekaji mpya wa kabla"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Weka jina kabla"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Taarifa"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Jina la picha"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Ukubwa wa taswira"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Histogramu"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"Data ya EXIF"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Weka upya"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Toleo"</string>
+	<!---->
+	<string name="filtershow_version_original">"Asili"</string>
+	<!---->
+	<string name="filtershow_version_current">"Ya sasa"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Aina"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Kitundu"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Urefu wa Fokasi"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Umbali wa kipengele"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Tarehe Iliyopigwa"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"Simamisha kwa F"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Muda ambao kitundu cha kamera kinakaa wazi"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Hakimiliki"</string>
+</resources>

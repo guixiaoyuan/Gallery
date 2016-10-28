@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Bilderedigering"</string>
+	<!---->
+	<string name="cannot_load_image">"Kan ikke laste inn bildet"</string>
+	<!---->
+	<string name="cannot_edit_original">"Kan ikke redigere original"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Angir bakgrunnsbilde"</string>
+	<!---->
+	<string name="download_failure">"Kan ikke laste ned bilde. Nettverk utilgjengelig."</string>
+	<!---->
+	<string name="original">"Original"</string>
+	<!---->
+	<string name="borders">"Kantlinjer"</string>
+	<!---->
+	<string name="custom_border">"Egendefinert…"</string>
+	<!---->
+	<string name="filtershow_undo">"Angre"</string>
+	<!---->
+	<string name="filtershow_redo">"Gjør om"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Vis bildestatus"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Skjul bildestatus"</string>
+	<!---->
+	<string name="export_image">"Eksporter"</string>
+	<!---->
+	<string name="print_image">"Skriv ut"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Autoendring"</string>
+	<!---->
+	<string name="export_flattened">"Eksporter utflatet bilde"</string>
+	<!---->
+	<string name="select_output_settings">"Det eksporterte bildet er en kopi uten redigeringshistorikk."</string>
+	<!---->
+	<string name="quality">"Kvalitet"</string>
+	<!---->
+	<string name="size">"Størrelse"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Innstillinger"</string>
+	<!---->
+	<string name="unsaved">"Det finnes endringer som ikke er lagret i dette bildet."</string>
+	<!---->
+	<string name="save_before_exit">"Lagre før du avslutter?"</string>
+	<!---->
+	<string name="save_and_exit">"Lagre og avslutt"</string>
+	<!---->
+	<string name="save_and_processing">"Behandler bilde i full oppløsning ..."</string>
+	<!---->
+	<string name="exit">"Avslutt"</string>
+	<!---->
+	<string name="history">"Logg"</string>
+	<!---->
+	<string name="reset">"Tilbakestill"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Gjeldende bildestatus"</string>
+	<!---->
+	<string name="compare_original">"Sammenligne"</string>
+	<!---->
+	<string name="apply_effect">"Bruk"</string>
+	<!---->
+	<string name="reset_effect">"Tilbakestill"</string>
+	<!---->
+	<string name="aspect">"Aspekt"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Ingen"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Egendefinert…"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Fast"</string>
+	<!---->
+	<string name="tinyplanet">"Liten planet"</string>
+	<!---->
+	<string name="exposure">"Eksponering"</string>
+	<!---->
+	<string name="sharpness">"Skarphet"</string>
+	<!---->
+	<string name="contrast">"Kontrast"</string>
+	<!---->
+	<string name="vibrance">"Glød"</string>
+	<!---->
+	<string name="saturation">"Metning"</string>
+	<!---->
+	<string name="bwfilter">"Svart-hvitt"</string>
+	<!---->
+	<string name="wbalance">"Autofarge"</string>
+	<!---->
+	<string name="hue">"Fargetone"</string>
+	<!---->
+	<string name="shadow_recovery">"Skygger"</string>
+	<!---->
+	<string name="highlight_recovery">"Høylys"</string>
+	<!---->
+	<string name="curvesRGB">"Kurver"</string>
+	<!---->
+	<string name="vignette">"Vignett"</string>
+	<!---->
+	<string name="vignette_main">"Vignett"</string>
+	<!---->
+	<string name="vignette_exposure">"Eksponering"</string>
+	<!---->
+	<string name="vignette_saturation">"Metning"</string>
+	<!---->
+	<string name="vignette_contrast">"Kontrast"</string>
+	<!---->
+	<string name="vignette_falloff">"Fall"</string>
+	<!---->
+	<string name="redeye">"Røde øyne"</string>
+	<!---->
+	<string name="imageDraw">"Tegn"</string>
+	<!---->
+	<string name="straighten">"Rett opp"</string>
+	<!---->
+	<string name="crop">"Beskjær"</string>
+	<!---->
+	<string name="rotate">"Roter"</string>
+	<!---->
+	<string name="mirror">"Speil"</string>
+	<!---->
+	<string name="negative">"Negativ"</string>
+	<!---->
+	<string name="none">"Ingen"</string>
+	<!---->
+	<string name="edge">"Kanter"</string>
+	<!---->
+	<string name="kmeans">"Posterisering"</string>
+	<!---->
+	<string name="downsample">"Nedsampling"</string>
+	<!---->
+	<string name="grad">"Gradert"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Lysstyrke"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Kontrast"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Metning"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Hoved"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Rød"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Gul"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Grønn"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Cyan"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Blå"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Magenta"</string>
+	<!---->
+	<string name="editor_grad_style">"Stil"</string>
+	<!---->
+	<string name="editor_grad_new">"Ny"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Rød"</string>
+	<!---->
+	<string name="curves_channel_green">"Grønn"</string>
+	<!---->
+	<string name="curves_channel_blue">"Blå"</string>
+	<!---->
+	<string name="draw_style">"Stil"</string>
+	<!---->
+	<string name="draw_size">"Størrelse"</string>
+	<!---->
+	<string name="draw_hue">"Fargetone"</string>
+	<!---->
+	<string name="draw_saturation">"Metning"</string>
+	<!---->
+	<string name="draw_value">"Lysstyrke"</string>
+	<!---->
+	<string name="draw_color">"Farge"</string>
+	<!---->
+	<string name="draw_style_line">"Linjer"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Markør"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Sprut"</string>
+	<!---->
+	<string name="draw_clear">"Tøm"</string>
+	<!---->
+	<string name="color_border_size">"Tykkelse"</string>
+	<!---->
+	<string name="color_border_corner_size">"Hjørnestørrelse"</string>
+	<!---->
+	<string name="color_border_color">"Farge"</string>
+	<!---->
+	<string name="color_border_clear">"Slett"</string>
+	<!---->
+	<string name="color_pick_select">"Velg tilpasset farge"</string>
+	<!---->
+	<string name="color_pick_title">"Velg farge"</string>
+	<!---->
+	<string name="draw_size_title">"Velg størrelse"</string>
+	<!---->
+	<string name="draw_size_accept">"OK"</string>
+	<!---->
+	<string name="state_panel_original">"Original"</string>
+	<!---->
+	<string name="state_panel_result">"Resultat"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Lagrer bilde"</string>
+	<!---->
+	<string name="filtershow_notification_message">"Behandler ..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Lagre gjeldende forhåndsinnstilling"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Administrer brukerforhåndsinnstillinger"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Ny forhåndsinnstilling"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Navn på forhåndsinnstilling"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Informasjon"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Bildenavn"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Bildestørrelse"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Histogram"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"EXIF-data"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Forhåndsinnstilling"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Versjon"</string>
+	<!---->
+	<string name="filtershow_version_original">"Original"</string>
+	<!---->
+	<string name="filtershow_version_current">"Gjeldende"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Modell"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Blender"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Brennvidde"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Avstand til motiv"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Fotograferingsdato"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F-stopp"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Eksp.tid"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Opphavsrett"</string>
+</resources>

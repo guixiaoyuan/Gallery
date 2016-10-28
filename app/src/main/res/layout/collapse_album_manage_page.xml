@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/albumset_background"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar_title_select_more_color"
+        app:navigationIcon="@drawable/ic_arrow_back">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/collapse_albums"
+            android:textColor="@color/actionbar_text_color"
+            android:textSize="20dp"
+            />
+    </android.support.v7.widget.Toolbar>
+
+
+    <include layout="@layout/album_page_layout"/>
+
+</LinearLayout>

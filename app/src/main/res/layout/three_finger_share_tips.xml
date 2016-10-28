@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tips"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/three_fingle_backgroud" >
+
+    <ImageView
+        android:id="@+id/title_bar_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:background="@drawable/title_bar_red"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/hand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:focusable="false"
+        android:src="@drawable/three_finger_hands" />
+
+    <CheckBox
+        android:id="@+id/never"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:checked="true"
+        android:text="@string/never_tip" />
+
+    <Button
+        android:id="@+id/done"
+        style="@style/TipsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/tips_content"
+        style="@style/TipsTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/done"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp" />
+
+</RelativeLayout>

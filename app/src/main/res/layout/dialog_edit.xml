@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/new_album_edittext_layout_height"
+        android:layout_marginEnd="@dimen/new_album_edittext_layout_margin_start"
+        android:layout_marginStart="@dimen/new_album_edittext_layout_margin_start"
+        android:layout_marginTop="@dimen/new_album_edittext_layout_margin_top">
+
+        <EditText
+            android:id="@+id/dialog_edittext"
+            android:layout_width="@dimen/new_album_edittext_width"
+            android:layout_height="@dimen/new_album_edittext_height"
+            android:layout_marginTop="@dimen/new_album_edittext_margin_top"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:hint="@string/create_new_album_dialog_hint"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:textColorHint="@color/new_album_edit_hint"
+            android:textCursorDrawable="@drawable/edittext_cursor"
+            android:textSize="@dimen/new_album_text_size" />
+
+        <View
+            android:id="@+id/dialog_edittext_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/new_album_warning_line_height"
+            android:layout_marginTop="@dimen/new_album_warning_margin_top"
+            android:background="@color/new_album_edit_line" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dialog_warinning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/new_album_warning_text_height"
+        android:layout_marginEnd="@dimen/new_album_edittext_layout_margin_start"
+        android:layout_marginStart="@dimen/new_album_edittext_layout_margin_start"
+        android:layout_marginTop="@dimen/new_album_warining_margin_top"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/album_exists_warning"
+        android:textColor="@color/new_album_edit_warning"
+        android:textSize="@dimen/new_album_warining_text_size"
+        android:visibility="invisible" />
+
+</RelativeLayout>

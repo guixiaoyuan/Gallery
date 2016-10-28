@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.FitWindowsFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/action_bar_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.ContentFrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/gallery_root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/toolbar_layout"/>
+
+            <com.tct.gallery3d.ui.CustomViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+            <com.tct.gallery3d.bottombar.BottomNavigation
+                android:id="@+id/bottom_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/navigation_bar_height"
+                app:layout_scrollFlags="scroll|enterAlways" />
+
+        </android.support.design.widget.CoordinatorLayout>
+
+        <include layout="@layout/photo_page_layout"/>
+
+    </android.support.v7.widget.ContentFrameLayout>
+</android.support.v7.widget.FitWindowsFrameLayout>

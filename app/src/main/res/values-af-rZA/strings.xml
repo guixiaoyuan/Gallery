@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Galery"</string>
+	<!---->
+	<string name="gadget_title">"Prenteraam"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"Videospeler"</string>
+	<!---->
+	<string name="loading_video">"Besig om video te laai\u2026"</string>
+	<!---->
+	<string name="loading_image">"Besig om beeld te laai\u2026"</string>
+	<!---->
+	<string name="loading_account">"Besig om rekening te laai\u2026"</string>
+	<!---->
+	<string name="resume_playing_title">"Hervat video"</string>
+	<!---->
+	<string name="resume_playing_message">"Speel voort vanaf %s ?"</string>
+	<!---->
+	<string name="resume_playing_resume">"Speel voort"</string>
+	<!---->
+	<string name="loading">"Laai tans\u2026"</string>
+	<!---->
+	<string name="fail_to_load">"Kon nie laai nie"</string>
+	<!---->
+	<string name="fail_trim">"Video-lêer kan nie bygesny nie."</string>
+	<!---->
+	<string name="fail_to_load_image">"Kon nie beeld laai nie"</string>
+	<!---->
+	<string name="no_thumbnail">"Geen miniprent nie"</string>
+	<!---->
+	<string name="resume_playing_restart">"Begin van voor af"</string>
+	<!---->
+	<string name="crop_save_text">"Goed"</string>
+	<!---->
+	<string name="ok">"Goed"</string>
+	<!---->
+	<string name="multiface_crop_help">"Raak aan \'n gesig om te begin"</string>
+	<!---->
+	<string name="saving_image">"Stoor tans beeld\u2026"</string>
+	<!---->
+	<string name="filtershow_saving_image">"Stoor beeld tans na <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="save_error">"Kon nie kleingeknipte beeld stoor nie."</string>
+	<!---->
+	<string name="crop_label">"Knip beeld klein"</string>
+	<!---->
+	<string name="trim_label">"Knip video klein"</string>
+	<!---->
+	<string name="select_image">"Kies foto"</string>
+	<!---->
+	<string name="select_video">"Kies video"</string>
+	<!---->
+	<string name="select_item">"Kies item"</string>
+	<!---->
+	<string name="select_album">"Kies album"</string>
+	<!---->
+	<string name="select_group">"Kies groep"</string>
+	<!---->
+	<string name="set_image">"Stel as..."</string>
+	<!---->
+	<string name="set_wallpaper">"Stel as muurpapier"</string>
+	<!---->
+	<string name="wallpaper">"Stel tans muurpapier\u2026"</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"Muurpapier"</string>
+	<!---->
+	<string name="delete">"Skrap"</string>
+	<!---->
+	<string name="deleting">"Besig om te skrap"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"Skrap gekose item?"</item>
+		<item quantity="other">"Skrap gekose items?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"Bevestig"</string>
+	<!---->
+	<string name="cancel">"Kanselleer"</string>
+	<!---->
+	<string name="share">"Deel"</string>
+	<!---->
+	<string name="share_panorama">"Deel panorama"</string>
+	<!---->
+	<string name="share_as_photo">"Deel as foto"</string>
+	<!---->
+	<string name="deleted">"Geskrap"</string>
+	<!---->
+	<string name="undo">"ONTDOEN"</string>
+	<!---->
+	<string name="select_all">"Kies almal"</string>
+	<!---->
+	<string name="deselect_all">"Deselekteer almal"</string>
+	<!---->
+	<string name="slideshow">"Skyfievertoning"</string>
+	<!---->
+	<string name="details">"Besonderhede"</string>
+	<!---->
+	<string name="details_title">"%1$d uit %2$d items:"</string>
+	<!---->
+	<string name="close">"Maak toe"</string>
+	<!---->
+	<string name="switch_to_camera">"Skakel oor na kamera"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d gekies"</item>
+		<item quantity="one">"%1$d gekies"</item>
+		<item quantity="other">"%1$d gekies"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d gekies"</item>
+		<item quantity="one">"%1$d gekies"</item>
+		<item quantity="other">"%1$d gekies"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d gekies"</item>
+		<item quantity="one">"%1$d gekies"</item>
+		<item quantity="other">"%1$d gekies"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"Wys op kaart"</string>
+	<!---->
+	<string name="rotate_left">"Draai links"</string>
+	<!---->
+	<string name="rotate_right">"Draai regs"</string>
+	<!---->
+	<string name="no_such_item">"Kon item nie vind nie."</string>
+	<!---->
+	<string name="edit">"Wysig"</string>
+	<!---->
+	<string name="mix_video">"Meng"</string>
+	<!---->
+	<string name="simple_edit">"Eenvoudige wysiging"</string>
+	<!---->
+	<string name="process_caching_requests">"Verwerk tans kasgeheueversoeke"</string>
+	<!---->
+	<string name="caching_label">"Stoor tans in kasgeheue...\u2026"</string>
+	<!---->
+	<string name="crop_action">"Snoei"</string>
+	<!---->
+	<string name="trim_action">"Kleinknip"</string>
+	<!---->
+	<string name="mute_action">"Demp"</string>
+	<!---->
+	<string name="set_as">"Stel as"</string>
+	<!---->
+	<string name="video_mute_err">"Kan nie video demp nie."</string>
+	<!---->
+	<string name="video_err">"Kan nie die video speel nie."</string>
+	<!---->
+	<string name="group_by_location">"Volgens ligging"</string>
+	<!---->
+	<string name="group_by_time">"Teen tyd"</string>
+	<!---->
+	<string name="group_by_tags">"Volgens etikette"</string>
+	<!---->
+	<string name="group_by_faces">"Volgens mense"</string>
+	<!---->
+	<string name="group_by_album">"Volgens album"</string>
+	<!---->
+	<string name="group_by_size">"Volgens grootte"</string>
+	<!---->
+	<string name="untagged">"Sonder etiket"</string>
+	<!---->
+	<string name="no_location">"Geen ligging nie"</string>
+	<!---->
+	<string name="no_connectivity">"Party liggings kan nie geïndentifiseer word nie weens netwerkprobleme."</string>
+	<!---->
+	<string name="sync_album_error">"Kon nie die foto\'s in hierdie album aflaai nie Probeer later weer."</string>
+	<!---->
+	<string name="show_images_only">"Beelde alleen"</string>
+	<!---->
+	<string name="show_videos_only">"Video\'s alleen"</string>
+	<!---->
+	<string name="show_all">"Beelde en video\'s"</string>
+	<!---->
+	<string name="appwidget_title">"Fotogalery"</string>
+	<!---->
+	<string name="appwidget_empty_text">"Geen foto’s nie"</string>
+	<!---->
+	<string name="crop_saved">"Kleingeknipte beeld gestoor na <xliff:g id="folder_name">%s</xliff:g>."</string>
+	<!---->
+	<string name="no_albums_alert">"Geen albums beskikbaar"</string>
+	<!---->
+	<string name="empty_album">"Geen beeld/video beskikbaar nie"</string>
+	<!---->
+	<string name="picasa_posts">"Plasings"</string>
+	<!---->
+	<string name="make_available_offline">"Maak vanlyn beskikbaar"</string>
+	<!---->
+	<string name="sync_picasa_albums">"Verfris"</string>
+	<!---->
+	<string name="done">"Klaar"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d uit %2$d items:"</string>
+	<!---->
+	<string name="title">"Titel"</string>
+	<!---->
+	<string name="description">"Beskrywing"</string>
+	<!---->
+	<string name="time">"Tyd"</string>
+	<!---->
+	<string name="location">"Ligging"</string>
+	<!---->
+	<string name="path">"Pad"</string>
+	<!---->
+	<string name="width">"Wydte"</string>
+	<!---->
+	<string name="height">"Hoogte"</string>
+	<!---->
+	<string name="orientation">"Oriëntasie"</string>
+	<!---->
+	<string name="duration">"Tydsduur:"</string>
+	<!---->
+	<string name="mimetype">"MIME-tipe"</string>
+	<!---->
+	<string name="file_size">"Lêergrootte"</string>
+	<!---->
+	<string name="maker">"Maker"</string>
+	<!---->
+	<string name="model">"Model"</string>
+	<!---->
+	<string name="flash">"Flits"</string>
+	<!---->
+	<string name="aperture">"Lensopening"</string>
+	<!---->
+	<string name="focal_length">"Fokuslengte"</string>
+	<!---->
+	<string name="white_balance">"Witbalans"</string>
+	<!---->
+	<string name="exposure_time">"Beligtingstyd"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"mm"</string>
+	<!---->
+	<string name="manual">"Handmatig"</string>
+	<!---->
+	<string name="auto">"Outo"</string>
+	<!---->
+	<string name="flash_on">"Flits gevuur"</string>
+	<!---->
+	<string name="flash_off">"Geen flits nie"</string>
+	<!---->
+	<string name="unknown">"Onbekend"</string>
+	<!---->
+	<string name="ffx_original">"Oorspronklik"</string>
+	<!---->
+	<string name="ffx_vintage">"Klassiek"</string>
+	<!---->
+	<string name="ffx_instant">"Onmiddellik"</string>
+	<!---->
+	<string name="ffx_bleach">"Verbleik"</string>
+	<!---->
+	<string name="ffx_blue_crush">"Blou"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"B/W"</string>
+	<!---->
+	<string name="ffx_punch">"Slaan"</string>
+	<!---->
+	<string name="ffx_x_process">"X-proses"</string>
+	<!---->
+	<string name="ffx_washout">"Latte"</string>
+	<!---->
+	<string name="ffx_washout_color">"Litho"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"Maak album vanlyn beskikbaar."</item>
+		<item quantity="other">"Maak albums vanlyn beskikbaar."</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Hierdie item is plaaslik gestoor en vanlyn beskikbaar."</string>
+	<!---->
+	<string name="set_label_all_albums">"Alle albums"</string>
+	<!---->
+	<string name="set_label_local_albums">"Plaaslike albums"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"MTP-toestelle"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Picasa-albums"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="bytes">%s</xliff:g> vry"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="size">%1$s</xliff:g> of kleiner"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="size">%1$s</xliff:g> of groter"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="min_size">%1$s</xliff:g> aan <xliff:g id="max_size">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"Voer in"</string>
+	<!---->
+	<string name="import_complete">"Invoering voltooi"</string>
+	<!---->
+	<string name="import_fail">"Invoer onsuksesvol"</string>
+	<!---->
+	<string name="camera_connected">"Kamera verbind."</string>
+	<!---->
+	<string name="camera_disconnected">"Kamera ontkoppel."</string>
+	<!---->
+	<string name="click_import">"Raak hier om in te voer"</string>
+	<!---->
+	<string name="widget_type_album">"Kies \'n album"</string>
+	<!---->
+	<string name="widget_type_shuffle">"Skommel alle beelde"</string>
+	<!---->
+	<string name="widget_type_photo">"Kies \'n beeld"</string>
+	<!---->
+	<string name="widget_type">"Kies beelde"</string>
+	<!---->
+	<string name="slideshow_dream_name">"Skyfievertoning"</string>
+	<!---->
+	<string name="albums">"Albums"</string>
+	<!---->
+	<string name="times">"Tye"</string>
+	<!---->
+	<string name="locations">"Liggings"</string>
+	<!---->
+	<string name="people">"Mense"</string>
+	<!---->
+	<string name="tags">"Etikette"</string>
+	<!---->
+	<string name="group_by">"Groepeer volgens"</string>
+	<!---->
+	<string name="settings">"Instellings"</string>
+	<!---->
+	<string name="add_account">"Voeg rekening by"</string>
+	<!---->
+	<string name="folder_camera">"Kamera"</string>
+	<!---->
+	<string name="folder_download">"Laai af"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"Bewerkte aanlynfoto\'s"</string>
+	<!---->
+	<string name="folder_imported">"Ingevoer"</string>
+	<!---->
+	<string name="folder_screenshot">"Skermskoot"</string>
+	<!---->
+	<string name="help">"Hulp"</string>
+	<!---->
+	<string name="no_external_storage_title">"Geen stoorruimte nie"</string>
+	<!---->
+	<string name="no_external_storage">"Geen eksterne stoorruimte beskikbaar nie"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Filmstrook-aansig"</string>
+	<!---->
+	<string name="switch_photo_grid">"Roosteraansig"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"Volskerm-aansig"</string>
+	<!---->
+	<string name="trimming">"Besig om klein te knip"</string>
+	<!---->
+	<string name="muting">"Demp"</string>
+	<!---->
+	<string name="please_wait">"Wag asseblief"</string>
+	<!---->
+	<string name="save_into">"Stoor video tans na <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="trim_save_into">"Kleingeknipte lêer gestoor na <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"Gedempte lêer gestoor na <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="trim_too_short">"Kan nie kleinknip nie: teikenvideo is te kort"</string>
+	<!---->
+	<string name="mute_nosupport">"Kan nie demp nie: video word nie gesteun nie"</string>
+	<!---->
+	<string name="pano_progress_text">"Gee tans panorama weer"</string>
+	<!---->
+	<string name="save">"STOOR"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"Besig om inhoud te skandeer..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d items geskandeer"</item>
+		<item quantity="one">"%1$d item geskandeer"</item>
+		<item quantity="other">"%1$d items geskandeer"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"%1$d items gekies"</item>
+		<item quantity="one">"%1$d item gekies"</item>
+		<item quantity="other">"%1$d items gekies"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"Sorteer tans..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"Skandeer voltooi"</string>
+	<!---->
+	<string name="ingest_importing">"Besig om in te voer..."</string>
+	<!---->
+	<string name="ingest_empty_device">"Daar is geen inhoud vir invoer op hierdie toestel nie."</string>
+	<!---->
+	<string name="ingest_no_device">"Daar is geen MTP-toestel verbind nie"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"Kamerafout"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Kan nie aan die kamera koppel nie."</string>
+	<!---->
+	<string name="camera_disabled">"Kamera is gedeaktiveer weens sekuriteitbeleid."</string>
+	<!---->
+	<string name="camera_label">"Kamera"</string>
+	<!---->
+	<string name="wait">"Wag asseblief\u2026"</string>
+	<!---->
+	<string name="review_cancel">"KANSELLEER"</string>
+	<!---->
+	<string name="review_ok">"KLAAR"</string>
+	<!---->
+	<string name="time_lapse_title">"Tydsverloop-opname"</string>
+	<!---->
+	<string name="pref_camera_id_title">"Kies kamera"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Terug"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Voor"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"Stoorligging"</string>
+	<!---->
+	<string name="pref_camera_location_label">"Ligging"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"Aftel-tydhouer"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 sekonde"</item>
+		<item quantity="other">"%d sekondes"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Biep tydens aftelling"</string>
+	<!---->
+	<string name="setting_off">"Af"</string>
+	<!---->
+	<string name="setting_on">"Aan"</string>
+	<!---->
+	<string name="pref_video_quality_title">"Videogehalte"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Hoog"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Laag"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"Tydsverloop"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"Kamera-instellings"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Videokamera-instellings"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Prentgrootte"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13 megapieksels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8 megapieksels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5 megapieksels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4 megapieksels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3 megapieksels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2 megapieksels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2 megapieksels (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1.3 megapieksels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1 megapieksel"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Fokusmodus"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Outo"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Ewigheid"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"OUTO"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"Oneindigheid"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"MAKRO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Flitsmodus"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"Flitsmodus"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Outo"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Aan"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Af"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"FLITS OUTO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"FLITS AAN"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"FLITS AF"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Witbalans"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Witbalans"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Outo"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Gloeiend"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Daglig"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Fluoresserend"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Bewolk"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"OUTO"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Gloeiend"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Daglig"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Fluoresserend"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Bewolk"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Toneelmodus"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Outo"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Aksie"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Nag"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Sonsondergang"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Partytjie"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"Geen"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"Aksie"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"Nag"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"Sonsondergang"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"Partytjie"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"AFTEL-TYDHOUER"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"TYDHOUER AF"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 sekonde"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 sekondes"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 sekondes"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 sekondes"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Kan nie in toneelmodus gekies word nie."</string>
+	<!---->
+	<string name="pref_exposure_title">"Blootstelling"</string>
+	<!---->
+	<string name="pref_exposure_label">"Blootstelling"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"VOORSTE KAMERA"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"AGTERSTE KAMERA"</string>
+	<!---->
+	<string name="dialog_ok">"Goed"</string>
+	<!---->
+	<string name="video_reach_size_limit">"Groottebeperking bereik."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Te vinnig"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Berei tans panorama voor"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Kon nie panorama stoor nie"</string>
+	<!---->
+	<string name="pano_dialog_title">"Panorama"</string>
+	<!---->
+	<string name="pano_capture_indication">"Vang tans panorama vas"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Wag tans vir vorige panorama"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Besig om te stoor\u2026"</string>
+	<!---->
+	<string name="pano_review_rendering">"Gee tans panorama weer"</string>
+	<!---->
+	<string name="tap_to_focus">"Raak om te fokus"</string>
+	<!---->
+	<string name="pref_video_effect_title">"Effekte"</string>
+	<!---->
+	<string name="effect_none">"Geen"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Saamdruk"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Groot oë"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Groot mond"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Klein mond"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Groot neus"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Klein oë"</string>
+	<!---->
+	<string name="effect_backdropper_space">"In die ruimte"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Sonsondergang"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Jou video"</string>
+	<!---->
+	<string name="bg_replacement_message">"Stel jou toestel af.\nStaan vir \'n oomblik buite sig."</string>
+	<!---->
+	<string name="video_snapshot_hint">"Raak om foto tydens opname te neem."</string>
+	<!---->
+	<string name="video_recording_started">"Video-opname het begin."</string>
+	<!---->
+	<string name="video_recording_stopped">"Video-opname het opgehou."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"Video-skermskoot is gedeaktiveer wanneer spesiale effekte aan is."</string>
+	<!---->
+	<string name="clear_effects">"Vee effekte uit"</string>
+	<!---->
+	<string name="effect_silly_faces">"LAWWE GESIGTE"</string>
+	<!---->
+	<string name="effect_background">"AGTERGROND"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"Sluiterknoppie"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Kieslysknoppie"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"Mees onlangse foto"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"Voorste en agterste kamera wissel"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"Kamera, video, of panorama selekteerder"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"Meer instellingskontrole"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"Maak instellingskontrole toe"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"Zoembeheer"</string>
+	<!---->
+	<string name="accessibility_decrement">"Verminder %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"Vermeerder %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s merkblokkie"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Skakel oor na foto"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Skakel oor na video"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Skakel oor na Panorama-modus"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"Skakel oor na nuwe panorama"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Wissel na herfokus"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"Kanselleer hersiening"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Voltooi hersiening"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Neem hersiening weer"</string>
+	<!---->
+	<string name="accessibility_play_video">"Speel video"</string>
+	<!---->
+	<string name="accessibility_pause_video">"Laat video wag"</string>
+	<!---->
+	<string name="accessibility_reload_video">"Herlaai video"</string>
+	<!---->
+	<string name="accessibility_time_bar">"Videospeler-tydbalk"</string>
+	<!---->
+	<string name="capital_on">"AAN"</string>
+	<!---->
+	<string name="capital_off">"AF"</string>
+	<!---->
+	<string name="gif_err">"Kan .gif nie speel nie."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Af"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0.5 sekonde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 sekonde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 sekondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 sekondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 sekondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 sekondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 sekondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 sekondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 sekondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 sekondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 sekondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 sekondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 sekondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0.5 minuut"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 minuut"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1,5 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2,5 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0.5 uur"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 uur"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1.5 ure"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 uur"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2,5 uur"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 ure"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 uur"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 uur"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 uur"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 uur"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 uur"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 uur"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 uur"</string>
+	<!---->
+	<string name="time_lapse_seconds">"sekondes"</string>
+	<!---->
+	<string name="time_lapse_minutes">"minute"</string>
+	<!---->
+	<string name="time_lapse_hours">"ure"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"Klaar"</string>
+	<!---->
+	<string name="set_time_interval">"Stel tydinterval"</string>
+	<!---->
+	<string name="set_time_interval_help">"Tydsverloop-kenmerk is af. Skakel dit aan om tydinterval te stel."</string>
+	<!---->
+	<string name="set_timer_help">"Afteltydhouer is afgeskakel. Skakel dit aan om af te tel voordat jy \'n foto neem"</string>
+	<!---->
+	<string name="set_duration">"Stel tydsduur in sekondes"</string>
+	<!---->
+	<string name="count_down_title_text">"Tel tans af om \'n foto te neem"</string>
+	<!---->
+	<string name="remember_location_title">"Onthou fotoliggings?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Merk jou foto\'s en video\'s met die liggings waar hulle geneem is.\n\nAnder programme kan toegang kry tot hierdie inligting saam met jou gestoorde beelde."</string>
+	<!---->
+	<string name="remember_location_no">"Nee dankie"</string>
+	<!---->
+	<string name="remember_location_yes">"Ja"</string>
+	<!---->
+	<string name="menu_camera">"Kamera"</string>
+	<!---->
+	<string name="menu_search">"Soek"</string>
+	<!---->
+	<string name="tab_photos">"Foto\'s"</string>
+	<!---->
+	<string name="tab_albums">"Albums"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Meer opsies"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"Instellings"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d foto"</item>
+		<item quantity="other">"%1$d foto\'s"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"Subtitel"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"Hierdie video is nie geldig vir stroming na hierdie toestel nie."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"Kan nie hierdie video speel nie."</string>
+	<!---->
+	<string name="VideoView_error_button">"Goed"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"Video word nie ondersteun nie"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"Kon nie verbind nie. Probeer om weer te verbind %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"Besig om te verbind..."</string>
+	<!---->
+	<string name="media_controller_buffering">"Besig om te buffer %d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"Kan nie aan bediener koppel nie"</string>
+	<!---->
+	<string name="media_controller_live">"Lewendig"</string>
+	<!---->
+	<string name="media_controller_playing">"Besig om te speel"</string>
+	<!---->
+	<string name="notify_photo_text">"Galerybeheerder"</string>
+	<!---->
+	<string name="notify_video_text">"Galerybeheerder"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"Wi-Fi-vertoonbeeld-skyfievertoning is geaktiveer"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"Wi-Fi-vertoonbeeld-video is geaktiveer"</string>
+	<!---->
+	<string name="wfd_alert">"Waarskuwing"</string>
+	<!---->
+	<string name="wfd_change_message">"Video sal vervang word."</string>
+	<!---->
+	<string name="wfd_change_button">"Ja"</string>
+	<!---->
+	<string name="wfd_not_change_button">"Nee"</string>
+	<!---->
+	<string name="wfd_show">"Wi-Fi-vertoonbeeld"</string>
+	<!---->
+	<string name="wfd_show_on">"Skakel Wi-Fi-vertoonbeeld aan"</string>
+	<!---->
+	<string name="wfd_show_off">"Skakel Wi-Fi-vertoonbeeld af"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"Sleep die lêer na die geel reghoek om jou skerm te deel."</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"Soort word nie ondersteun nie"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Waarskuwing"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Alle kopiebeskermde lêers is verberg weens verbinding van Wi-Fi-vertoonbeeld."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"Skakel Wi-Fi-vertoonbeeld af"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"Gaan voort"</string>
+	<!---->
+	<string name="tv_link_close">"Wi-Fi-vertoonbeeld is toegemaak"</string>
+	<!---->
+	<string name="drm_no_valid_right">"Lêer het geen geldige DRM-gesag nie"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">"DRM-lêer "%s" het verval. Skrap dit?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"DRM-lêer "%s" het verval. Ontsluit dit?"</string>
+	<!---->
+	<string name="unlimited_usage">"Onbeperkte gebruik"</string>
+	<!---->
+	<string name="not_available">"Nie beskikbaar nie"</string>
+	<!---->
+	<string name="use_times">"Gebruik %s keer"</string>
+	<!---->
+	<string name="valid_after">"Geldig na"</string>
+	<!---->
+	<string name="valid_until">"Geldig tot"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"Dubbeltik en vee na in- en uit-zoem in Galery"</string>
+	<!---->
+	<string name="tips_done">"Klaar"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"Dubbeltik en vee om in- en uit te zoem in Galery"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"Leer oor een-vingerzoem"</string>
+	<!---->
+	<string name="drm_current_right">"Huidige beperking"</string>
+	<!---->
+	<string name="right_url">"Lisensies"</string>
+	<!---->
+	<string name="vendor">"Verkoper:"</string>
+	<!---->
+	<string name="stop">"Stop"</string>
+	<!---->
+	<string name="selectRenderer">"Kies \'n speler"</string>
+	<!---->
+	<string name="noRenderer">"Kan nie enige weergewer-toestel vind nie"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"Hou op om video op TV te speel?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"Hou op om beelde op TV te speel?"</string>
+	<!---->
+	<string name="play_video">"Speel video"</string>
+	<!---->
+	<string name="shake_video_text">"Om dit op jou TV te speel, skud jou foon op die videobladsy."</string>
+	<!---->
+	<string name="shake_picture_text">"Om dit op jou TV te speel, skud jou foon op die prentbladsy."</string>
+	<!---->
+	<string name="wait_dialog">"Wag asseblief …"</string>
+	<!---->
+	<string name="toast_nostop">"Kies \'n plaaslike speler om op te hou speel op TV."</string>
+	<!---->
+	<string name="dlna_format_not_support">"Die lêerformaat word nie gesteun nie."</string>
+	<!---->
+	<string name="left_title_camera_roll">"Kamerarol"</string>
+	<!---->
+	<string name="left_title_timeline">"Tyd"</string>
+	<!---->
+	<string name="left_title_albums">"Albums"</string>
+	<!---->
+	<string name="left_title_videos">"Video’s"</string>
+	<!---->
+	<string name="left_title_location">"Liggings"</string>
+	<!---->
+	<string name="drawer_open">"Maak navigasielaai oop"</string>
+	<!---->
+	<string name="drawer_close">"Sluit navigasielaai toe"</string>
+	<!---->
+	<string name="photo_share">"Deel na"</string>
+	<!---->
+	<string name="filtershow_save">"Stoor"</string>
+	<!---->
+	<string name="filtershow_none">"Geen"</string>
+	<!---->
+	<string name="filtershow_frame">"Raam"</string>
+	<!---->
+	<string name="drm_no_crop">"Lêer %s" is nie toegelaat om kleingeknip te word nie omdat dit DRM-beskermd is."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"Lêer %s" is nie toegelaat om as \'n kontak-ikoon gestel te word nie omdat dit DRM-beskermd is."</string>
+	<!---->
+	<string name="never_tip">"Wys wenke by begin"</string>
+	<!---->
+	<string name="three_finger_tips0">"Sit drie vingers op skerm"</string>
+	<!---->
+	<string name="three_finger_tips1">"Sleep die lêer na die geel gebied"</string>
+	<!---->
+	<string name="three_finger_tips2">"Wanneer die gebied met geel ingevul is, is deling suksesvol."</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"DRM-lêer moet nie deur Wifi-vertoonbeeld vertoon word nie."</string>
+	<!---->
+	<string name="filtershow_save_title">"Stoor veranderinge"</string>
+	<!---->
+	<string name="filtershow_save_message">"Stoor as \'n kopie of skryf oor die oorspronlike beeld?"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"Moenie weer vra nie"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"STOOR AS \'N KOPIE"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"SKRYF OOR OORSPRONKLIKE HEEN"</string>
+	<!---->
+	<string name="lock_video">"Gesluit"</string>
+	<!---->
+	<string name="unlock_video">"Ontgrendel"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"DRM-lisensie is verstreke."</string>
+	<!---->
+	<string name="drm_protection_status">"Beskermingstatus:"</string>
+	<!---->
+	<string name="drm_can_forward">"Kan deurgestuur word."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Kan nie deurgestuur word nie."</string>
+	<!---->
+	<string name="drm_no_license">"Geen beskikbare DRM-lisensie nie."</string>
+	<!---->
+	<string name="drm_begin">"Begin:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Geen beperking nie"</string>
+	<!---->
+	<string name="drm_end">"Einde:"</string>
+	<!---->
+	<string name="drm_use_left">"Bly oor"</string>
+	<!---->
+	<string name="date_taken">"Datum geneem"</string>
+	<!---->
+	<string name="modified_time">"Aangepaste tyd"</string>
+	<!---->
+	<string name="fast_forward">"Vinnig vooruit %ds"</string>
+	<!---->
+	<string name="fast_backward">"Vinnig agteruit %ds"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"Netwerk is herverbind, speel maar voort?"</string>
+	<!---->
+	<string name="polaroid_action_open">"Maak oop"</string>
+	<!---->
+	<string name="polaroid_action_save">"Stoor"</string>
+	<!---->
+	<string name="polaroid_action_send">"Stuur"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"Gee my \'n drukkie ~"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"Stoor tans beeld..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"Polaroid-bewerker"</string>
+	<!---->
+	<string name="editor_select_filtershow">"Redigeerder (Standaard)"</string>
+	<!---->
+	<string name="date_tag">"Datum"</string>
+	<!---->
+	<string name="location_tag">"Ligging"</string>
+	<!---->
+	<string name="slogan_tag">"Slagspreuk"</string>
+	<!---->
+	<string name="polaroid_no_location">"Geen ligging nie"</string>
+	<!---->
+	<string name="save_iamge_compelete">"Foto na Galery gestoor."</string>
+	<!---->
+	<string name="save_image_error">"Kon nie lêer stoor nie."</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"Beeld te klein"</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"Minimumgrootte is 320 x 320 pieksels."</string>
+	<!---->
+	<string name="open_with">"Maak oop met"</string>
+	<!---->
+	<string name="moments_month_view">"Maandaansig"</string>
+	<!---->
+	<string name="moments_day_view">"Dagaansig"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"Almal"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"Foto"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"Video"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"Hierdie multiskoot-reeks bevat %s foto\'s. Skrap hulle almal?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"Skryf oor multiskote heen of stoor as individuele beelde?"</string>
+	<!---->
+	<string name="burst_overwrite">"Skryf oorheen"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"Stoor as individuele beelde"</string>
+	<!---->
+	<string name="burst_cancel">"Kanselleer"</string>
+	<!---->
+	<string name="burst_delete">"Skrap"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"Gunsteling"</string>
+	<!---->
+	<string name="select">"Kies"</string>
+	<!---->
+	<string name="getstarted">"Kom aan die gang"</string>
+	<!---->
+	<string name="gotit">"Het dit"</string>
+	<!---->
+	<string name="faceshow_start">"A ware verrassing wag op jou wanneer \'n sekere aantal selfies bereik. Begin nou met jou reis!"</string>
+	<!---->
+	<string name="faceshow_takemore">"Jy het meer selfies nodig om jou eie gesigsvertoning te skep."</string>
+	<!---->
+	<string name="selfies">"Selfie"</string>
+	<!---->
+	<string name="parallax">"Parallaks"</string>
+	<!---->
+	<string name="trim_title">"Skrap veranderinge?"</string>
+	<!---->
+	<string name="trim_message">"Jou verandering is nie gestoor nie"</string>
+	<!---->
+	<string name="trim_discard">"Skrap"</string>
+	<!---->
+	<string name="main_tab_moments">"Oomblikke"</string>
+	<!---->
+	<string name="moments_show">"Wys"</string>
+	<!---->
+	<string name="illegal_image_format">"Ontoelaatbare beeldformaat, kan nie wysig nie."</string>
+	<!---->
+	<string name="exporting_video">"Voer tans video uit"</string>
+	<!---->
+	<string name="exporting_message">"Dit sal dalk \'n paar sekondes duur, wag \'n oomblik..."</string>
+	<!---->
+	<string name="share_save_video">"Stoor video tans na Galery ..."</string>
+	<!---->
+	<string name="share_saved">"Video is na Galery gestoor"</string>
+	<!---->
+	<string name="share_save_image">"Stoor beeld tans na Galery ..."</string>
+	<!---->
+	<string name="share_image_saved">"Beeld is na Galery gestoor"</string>
+	<!---->
+	<string name="location_permission_toast_text">"Geen liggingsdata van Kamera nie"</string>
+	<!---->
+	<string name="no_internet_contect_text">"Geen internetverbinding nie"</string>
+	<!---->
+	<string name="more">"Meer"</string>
+	<!---->
+	<string name="moment_album_today">"Vandag"</string>
+	<!---->
+	<string name="moment_album_yesterday">"Gister"</string>
+	<!---->
+	<string name="location_destination_text">"Sorteer foto\'s en video\'s volgens ligging in Moments"</string>
+	<string-array name="month">
+		<item>"Januarie"</item>
+		<item>"Februarie"</item>
+		<item>"Maart"</item>
+		<item>"April"</item>
+		<item>"Mei"</item>
+		<item>"Junie"</item>
+		<item>"Julie"</item>
+		<item>"Augustus"</item>
+		<item>"September"</item>
+		<item>"Oktober"</item>
+		<item>"November"</item>
+		<item>"Desember"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"Om foto\'s en video\'s volgens ligging te sorteer, gee galery toestemming om toegang tot Ligging te verkry."</string>
+	<!---->
+	<string name="permission_location_settings">"Instellings"</string>
+	<!---->
+	<string name="boom_key_tip_1">"Vertoon foto\'s in verskillende en ongelooflik collages"</string>
+	<!---->
+	<string name="boom_key_tip_2">"Begin collage-vertoning met Boem-sleutel"</string>
+	<!---->
+	<string name="boom_key_tip_3">"Aktiveer collage-vertoning van Albums"</string>
+	<!---->
+	<string name="boom_key_tip_4">"Aktiveer collage-vertoning van foto-voorskou"</string>
+	<!---->
+	<string name="tx_skip">"Slaan oor"</string>
+	<!---->
+	<string name="tx_done">"Klaar"</string>
+	<!---->
+	<string name="boom_key">"Boem-sleutel"</string>
+	<!---->
+	<string name="press">"Druk"</string>
+	<!---->
+	<string name="not_support_parallax_share">"Kan nie Fyuse deel van Moments nie"</string>
+	<!---->
+	<string name="permissions_hi">"HALLO!"</string>
+	<!---->
+	<string name="not_support_video_edit">"Video-formaat word nie gesteun nie."</string>
+</resources>

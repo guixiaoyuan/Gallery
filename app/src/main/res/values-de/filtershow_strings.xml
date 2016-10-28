@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Fotoeditor"</string>
+	<!---->
+	<string name="cannot_load_image">"Bild kann nicht geladen werden"</string>
+	<!---->
+	<string name="cannot_edit_original">"Das Originalbild kann nicht bearbeitet werden."</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Hintergrund wird festgelegt"</string>
+	<!---->
+	<string name="download_failure">"Foto konnte nicht heruntergeladen werden. Netzwerk nicht verfügbar."</string>
+	<!---->
+	<string name="original">"Original"</string>
+	<!---->
+	<string name="borders">"Rahmen"</string>
+	<!---->
+	<string name="custom_border">"Benutzerdefiniert"</string>
+	<!---->
+	<string name="filtershow_undo">"Rückgängig"</string>
+	<!---->
+	<string name="filtershow_redo">"Wiederholen"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Angewendete Effekte anzeigen"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Angewendete Effekte ausblenden"</string>
+	<!---->
+	<string name="export_image">"Exportieren"</string>
+	<!---->
+	<string name="print_image">"Drucken"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Automatisch bearbeiten"</string>
+	<!---->
+	<string name="export_flattened">"Reduziertes Bild exportieren"</string>
+	<!---->
+	<string name="select_output_settings">"Das exportierte Bild wird als Kopie ohne Bearbeitungsverlauf gespeichert."</string>
+	<!---->
+	<string name="quality">"Qualität"</string>
+	<!---->
+	<string name="size">"Größe"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Einstellungen"</string>
+	<!---->
+	<string name="unsaved">"An diesem Bild sind nicht gespeicherte Änderungen vorhanden."</string>
+	<!---->
+	<string name="save_before_exit">"Vor dem Beenden speichern?"</string>
+	<!---->
+	<string name="save_and_exit">"Speichern und beenden"</string>
+	<!---->
+	<string name="save_and_processing">"Bild mit voller Auflösung wird verarbeitet..."</string>
+	<!---->
+	<string name="exit">"Beenden"</string>
+	<!---->
+	<string name="history">"Verlauf"</string>
+	<!---->
+	<string name="reset">"Zurücksetzen"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Angewendete Effekte"</string>
+	<!---->
+	<string name="compare_original">"Vergleichen"</string>
+	<!---->
+	<string name="apply_effect">"Anwenden"</string>
+	<!---->
+	<string name="reset_effect">"Zurücksetzen"</string>
+	<!---->
+	<string name="aspect">"Aspekt"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Keine"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Benutzerdefiniert"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Fest"</string>
+	<!---->
+	<string name="tinyplanet">"Kleiner Planet"</string>
+	<!---->
+	<string name="exposure">"Belichtung"</string>
+	<!---->
+	<string name="sharpness">"Schärfe"</string>
+	<!---->
+	<string name="contrast">"Kontrast"</string>
+	<!---->
+	<string name="vibrance">"Farbkraft"</string>
+	<!---->
+	<string name="saturation">"Sättigung"</string>
+	<!---->
+	<string name="bwfilter">"SW-Filter"</string>
+	<!---->
+	<string name="wbalance">"Auto-Farbe"</string>
+	<!---->
+	<string name="hue">"Sättigung"</string>
+	<!---->
+	<string name="shadow_recovery">"Schatten"</string>
+	<!---->
+	<string name="highlight_recovery">"Highlights"</string>
+	<!---->
+	<string name="curvesRGB">"Kurven"</string>
+	<!---->
+	<string name="vignette">"Vignettierung"</string>
+	<!---->
+	<string name="vignette_main">"Vignettierung"</string>
+	<!---->
+	<string name="vignette_exposure">"Belichtung"</string>
+	<!---->
+	<string name="vignette_saturation">"Sättigung"</string>
+	<!---->
+	<string name="vignette_contrast">"Kontrast"</string>
+	<!---->
+	<string name="vignette_falloff">"Abnahme"</string>
+	<!---->
+	<string name="redeye">"Rote Augen korrigieren"</string>
+	<!---->
+	<string name="imageDraw">"Zeichnen"</string>
+	<!---->
+	<string name="straighten">"Ausrichten"</string>
+	<!---->
+	<string name="crop">"Zuschneiden"</string>
+	<!---->
+	<string name="rotate">"Drehen"</string>
+	<!---->
+	<string name="mirror">"Spiegeln"</string>
+	<!---->
+	<string name="negative">"Negativ"</string>
+	<!---->
+	<string name="none">"Keine"</string>
+	<!---->
+	<string name="edge">"Kanten"</string>
+	<!---->
+	<string name="kmeans">"Tontrennung"</string>
+	<!---->
+	<string name="downsample">"Herunterrechnen"</string>
+	<!---->
+	<string name="grad">"Abgestuft"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Helligkeit"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Kontrast"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Sättigung"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Hauptnummer"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Rot"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Gelb"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Grün"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Blau"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Blau"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Magenta"</string>
+	<!---->
+	<string name="editor_grad_style">"Stil"</string>
+	<!---->
+	<string name="editor_grad_new">"Neu"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Rot"</string>
+	<!---->
+	<string name="curves_channel_green">"Grün"</string>
+	<!---->
+	<string name="curves_channel_blue">"Blau"</string>
+	<!---->
+	<string name="draw_style">"Stil"</string>
+	<!---->
+	<string name="draw_size">"Größe"</string>
+	<!---->
+	<string name="draw_hue">"Sättigung"</string>
+	<!---->
+	<string name="draw_saturation">"Sättigung"</string>
+	<!---->
+	<string name="draw_value">"Helligkeit"</string>
+	<!---->
+	<string name="draw_color">"Farbe"</string>
+	<!---->
+	<string name="draw_style_line">"Striche"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Markierung"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Spritzer"</string>
+	<!---->
+	<string name="draw_clear">"Klar"</string>
+	<!---->
+	<string name="color_border_size">"Breite"</string>
+	<!---->
+	<string name="color_border_corner_size">"Größe der Ecke"</string>
+	<!---->
+	<string name="color_border_color">"Farbe"</string>
+	<!---->
+	<string name="color_border_clear">"Löschen"</string>
+	<!---->
+	<string name="color_pick_select">"Benutzerdefinierte Farbe auswählen"</string>
+	<!---->
+	<string name="color_pick_title">"Farbe auswählen"</string>
+	<!---->
+	<string name="draw_size_title">"Größe auswählen"</string>
+	<!---->
+	<string name="draw_size_accept">"OK"</string>
+	<!---->
+	<string name="state_panel_original">"Original"</string>
+	<!---->
+	<string name="state_panel_result">"Ergebnis"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Bild wird gespeichert"</string>
+	<!---->
+	<string name="filtershow_notification_message">"Wird verarbeitet..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Aktuelle Voreinstellung speichern"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Benutzerdefinierte Voreinstellungen verwalten"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Neue Voreinstellung"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Voreinstellungsname"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Informationen"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Bildname"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Bildgröße"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Histogramm"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"EXIF-Daten"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Voreinstellung"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Version"</string>
+	<!---->
+	<string name="filtershow_version_original">"Original"</string>
+	<!---->
+	<string name="filtershow_version_current">"Aktuell"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Modell"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Blende"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Brennweite"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Entfernung zum Motiv"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Aufnahmedatum"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F-Stopp"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Einblendungsdauer"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Urheberrecht"</string>
+</resources>

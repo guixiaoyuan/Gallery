@@ -1,0 +1,75 @@
+/* ========================================================================== */
+/* Modifications on Features list / Changes Request / Problems Report         */
+/* -------------------------------------------------------------------------- */
+/* date      | author         | key              | comment (what, where, why) */
+/*-----------|----------------|------------------|--------------------------- */
+/* 03/05/2014|  Wenping.Fu    |PR-610495         |progress bar show           */
+/*           |                |                  |for audio only              */
+/* ----------|----------------|------------------|--------------------------- */
+/* ========================================================================== */
+
+package com.android.gallery3d.ext;
+
+/**
+ * Controller overlay extension interface.
+ */
+public interface IContrllerOverlayExt {
+
+    /**
+     * Show buffering state.
+     * @param fullBuffer
+     * @param percent
+     */
+    void showBuffering(boolean fullBuffer, int percent);
+
+    /**
+     * Clear buffering state.
+     */
+    void clearBuffering();
+
+    /**
+     * Show re-connecting state.
+     * @param times
+     */
+    void showReconnecting(int times);
+
+    /**
+     * Show re-connecting error for connecting fail error.
+     */
+    void showReconnectingError();
+
+    /**
+     * Show playing info or not.
+     * @param liveStreaming true means showing playing info, otherwise doesn't show playing info.
+     */
+    void setPlayingInfo(boolean liveStreaming);
+
+    /**
+     * Indicates whether current video can be paused or not.
+     * @param canPause
+     */
+    void setCanPause(boolean canPause);
+
+    /**
+     * Indicates whether thumb can be scrubbed or not.
+     * @param enable
+     */
+    void setCanScrubbing(boolean enable);
+
+    /**
+     * Always show bottmon panel or not.
+     * @param alwaysShow
+     * @param foreShow
+     */
+    void setBottomPanel(boolean alwaysShow, boolean foreShow);
+
+    /**
+     * Is playing end or not.
+     * @return
+     */
+    boolean isPlayingEnd();
+    //[BUGFIX]-Add by TCTNB.wenping.fu,03/05/2014,610495,
+    //progress bar always show for audioonly
+    void isAudioOnly(boolean isAudioOnly);
+
+}

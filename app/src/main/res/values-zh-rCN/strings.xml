@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>    <!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!---->
+    <string name="app_name">"图库"</string>
+    <!---->
+    <string name="gadget_title">"相框"</string>
+    <!-- no translation found for details_ms -->
+    <skip />
+    <!-- no translation found for details_hms -->
+    <skip />
+    <!---->
+    <string name="movie_view_label">"视频播放器"</string>
+    <!---->
+    <string name="loading_video">"正在载入视频..."</string>
+    <!---->
+    <string name="loading_image">"正在载入图片..."</string>
+    <!---->
+    <string name="loading_account">"正在加载帐户…"</string>
+    <!---->
+    <string name="resume_playing_title">"继续播放视频"</string>
+    <!---->
+    <string name="resume_playing_message">"从 %s 开始继续播放？"</string>
+    <!---->
+    <string name="resume_playing_resume">"继续播放"</string>
+    <!---->
+    <string name="loading">"正在载入..."</string>
+    <!---->
+    <string name="fail_to_load">"无法加载"</string>
+    <!---->
+    <string name="fail_trim">"视频文件不支持剪辑。"</string>
+    <!---->
+    <string name="fail_to_load_image">"无法加载此图片"</string>
+    <!---->
+    <string name="no_thumbnail">"无缩略图"</string>
+    <!---->
+    <string name="resume_playing_restart">"重新开始"</string>
+    <!---->
+    <string name="crop_save_text">"确定"</string>
+    <!---->
+    <string name="ok">"确定"</string>
+    <!---->
+    <string name="multiface_crop_help">"触摸一张脸开始"</string>
+    <!---->
+    <string name="saving_image">"正在保存照片..."</string>
+    <!---->
+    <string name="filtershow_saving_image">"正在将照片保存到<xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+    <!---->
+    <string name="save_error">"无法保存经过裁剪的图片。"</string>
+    <!---->
+    <string name="crop_label">"修剪照片"</string>
+    <!---->
+    <string name="trim_label">"剪辑视频"</string>
+    <!---->
+    <string name="select_image">"选择照片"</string>
+    <!---->
+    <string name="select_video">"选择视频"</string>
+    <!---->
+    <string name="select_item">"选择条目"</string>
+    <!---->
+    <string name="select_album">"选择相册"</string>
+    <!---->
+    <string name="rename_album">"重命名相册"</string>
+    <!---->
+    <string name="delete_album">"删除相册"</string>
+    <!---->
+    <string name="select_group">"选择群组"</string>
+    <!---->
+    <string name="set_image">"设置为"</string>
+    <!---->
+    <string name="set_wallpaper">"设置壁纸"</string>
+    <!---->
+    <string name="wallpaper">"正在设置壁纸..."</string>
+    <!---->
+    <string name="camera_setas_wallpaper">"壁纸"</string>
+    <!---->
+    <string name="delete">"删除"</string>
+    <!---->
+    <string name="deleting">"正在删除"</string>
+    <plurals name="delete_selection">
+        <item quantity="one">"要删除所选内容吗？"</item>
+        <item quantity="other">"要删除所选内容吗？"</item>
+    </plurals>
+    <string name="move">"移动"</string>
+    <!---->
+    <string name="moving">"正在移动"</string>
+    <plurals name="move_selection">
+        <item quantity="one">"要移动所选内容吗？"</item>
+        <item quantity="other">"要移动所选内容吗？"</item>
+    </plurals>
+    <string name="copy">"复制"</string>
+    <!---->
+    <string name="copyng">"正在复制"</string>
+    <plurals name="copy_selection">
+        <item quantity="one">"要复制所选内容吗？"</item>
+        <item quantity="other">"要复制所选内容吗？"</item>
+    </plurals>
+    <!---->
+    <string name="confirm">"确认"</string>
+    <!---->
+    <string name="cancel">"取消"</string>
+    <!---->
+    <string name="share">"分享"</string>
+    <!---->
+    <string name="share_panorama">"分享全景图"</string>
+    <!---->
+    <string name="share_as_photo">"以照片形式分享"</string>
+    <!---->
+    <string name="deleted">"已删除"</string>
+    <!---->
+    <string name="undo">"撤消"</string>
+    <!---->
+    <string name="select_all">"全选"</string>
+    <!---->
+    <string name="deselect_all">"取消全选"</string>
+    <!---->
+    <string name="slideshow">"播放幻灯片"</string>
+    <!---->
+    <string name="details">"详细信息"</string>
+    <!---->
+    <string name="details_title">"第 %1$d 项（共 %2$d 项）："</string>
+    <!---->
+    <string name="close">"关闭"</string>
+    <!---->
+    <string name="switch_to_camera">"切换到相机"</string>
+    <plurals name="number_of_items_selected">
+        <item quantity="zero">"选中了 %1$d 项"</item>
+        <item quantity="one">"选中了 %1$d 项"</item>
+        <item quantity="other">"选中了 %1$d 项"</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="zero">"选中了 %1$d 本相册"</item>
+        <item quantity="one">"选中了 %1$d 本相册"</item>
+        <item quantity="other">"选中了 %1$d 本相册"</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="zero">"选中了 %1$d 组"</item>
+        <item quantity="one">"选中了 %1$d 组"</item>
+        <item quantity="other">"选中了 %1$d 组"</item>
+    </plurals>
+    <!---->
+    <string name="show_on_map">"显示在地图上"</string>
+    <!---->
+    <string name="rotate_left">"向左旋转"</string>
+    <!---->
+    <string name="rotate_right">"向右旋转"</string>
+    <!---->
+    <string name="no_such_item">"找不到指定的项。"</string>
+    <!---->
+    <string name="edit">"编辑"</string>
+    <!---->
+    <string name="mix_video">"混录"</string>
+    <!---->
+    <string name="simple_edit">"简单编辑"</string>
+    <!---->
+    <string name="process_caching_requests">"正在处理缓存请求"</string>
+    <!---->
+    <string name="caching_label">"正在缓存..."</string>
+    <!---->
+    <string name="crop_action">"修剪"</string>
+    <!---->
+    <string name="trim_action">"修剪"</string>
+    <!---->
+    <string name="mute_action">"静音"</string>
+    <!---->
+    <string name="set_as">"设置为"</string>
+    <!---->
+    <string name="video_mute_err">"无法将视频静音。"</string>
+    <!---->
+    <string name="video_err">"无法播放视频。"</string>
+    <!---->
+    <string name="group_by_location">"按位置分组"</string>
+    <!---->
+    <string name="group_by_time">"按时间分组"</string>
+    <!---->
+    <string name="group_by_tags">"按标签分组"</string>
+    <!---->
+    <string name="group_by_faces">"按人物"</string>
+    <!---->
+    <string name="group_by_album">"按相册分组"</string>
+    <!---->
+    <string name="group_by_size">"按大小分组"</string>
+    <!---->
+    <string name="untagged">"未加标签"</string>
+    <!---->
+    <string name="no_location">"无位置信息"</string>
+    <!---->
+    <string name="no_connectivity">"出现网络问题，系统无法识别某些位置。"</string>
+    <!---->
+    <string name="sync_album_error">"无法下载此相册中的照片，请稍后重试。"</string>
+    <!---->
+    <string name="show_images_only">"仅限图片"</string>
+    <!---->
+    <string name="show_videos_only">"仅限视频"</string>
+    <!---->
+    <string name="show_all">"图片和视频"</string>
+    <!---->
+    <string name="appwidget_title">"照片库"</string>
+    <!---->
+    <string name="appwidget_empty_text">"无照片。"</string>
+    <!---->
+    <string name="crop_saved">"经过裁剪的图片已保存至“<xliff:g id="FOLDER_NAME">%s</xliff:g>”。"</string>
+    <!---->
+    <string name="no_albums_alert">"没有可用的相册"</string>
+    <!---->
+    <string name="empty_album">"没有图片/视频"</string>
+    <!---->
+    <string name="picasa_posts">"帖子"</string>
+    <!---->
+    <string name="make_available_offline">"允许离线状态下使用"</string>
+    <!---->
+    <string name="sync_picasa_albums">"刷新"</string>
+    <!---->
+    <string name="done">"完成"</string>
+    <!---->
+    <string name="sequence_in_set">"第 %1$d 个项（共 %2$d 个）："</string>
+    <!---->
+    <string name="title">"标题"</string>
+    <!---->
+    <string name="description">"描述"</string>
+    <!---->
+    <string name="time">"时间"</string>
+    <!---->
+    <string name="location">"地点"</string>
+    <!---->
+    <string name="path">"路径"</string>
+    <!---->
+    <string name="width">"宽度"</string>
+    <!---->
+    <string name="height">"高度"</string>
+    <!---->
+    <string name="orientation">"浏览模式"</string>
+    <!---->
+    <string name="duration">"时长"</string>
+    <!---->
+    <string name="mimetype">"MIME 类型"</string>
+    <!---->
+    <string name="file_size">"文件大小"</string>
+    <!---->
+    <string name="maker">"制造商"</string>
+    <!---->
+    <string name="model">"模型"</string>
+    <!---->
+    <string name="flash">"闪光灯"</string>
+    <!---->
+    <string name="aperture">"光圈"</string>
+    <!---->
+    <string name="focal_length">"焦距"</string>
+    <!---->
+    <string name="white_balance">"白平衡"</string>
+    <!---->
+    <string name="exposure_time">"曝光时间"</string>
+    <!---->
+    <string name="iso">"ISO"</string>
+    <!---->
+    <string name="unit_mm">"mm"</string>
+    <!---->
+    <string name="manual">"手动"</string>
+    <!---->
+    <string name="auto">"自动"</string>
+    <!---->
+    <string name="flash_on">"使用了闪光灯"</string>
+    <!---->
+    <string name="flash_off">"未使用闪光灯"</string>
+    <!---->
+    <string name="unknown">"未知"</string>
+    <!---->
+    <string name="ffx_original">"原始"</string>
+    <!---->
+    <string name="ffx_vintage">"复古"</string>
+    <!---->
+    <string name="ffx_instant">"瞬间"</string>
+    <!---->
+    <string name="ffx_bleach">"漂白"</string>
+    <!---->
+    <string name="ffx_blue_crush">"蓝色"</string>
+    <!---->
+    <string name="ffx_bw_contrast">"黑白"</string>
+    <!---->
+    <string name="ffx_punch">"打孔"</string>
+    <!---->
+    <string name="ffx_x_process">"X 光处理"</string>
+    <!---->
+    <string name="ffx_washout">"拿铁咖啡"</string>
+    <!---->
+    <string name="ffx_washout_color">"版印"</string>
+    <plurals name="make_albums_available_offline">
+        <item quantity="one">"允许离线查看相册。"</item>
+        <item quantity="other">"允许离线查看相册。"</item>
+    </plurals>
+    <!---->
+    <string name="try_to_set_local_album_available_offline">"该项已存储在本地，可在离线状态下使用。"</string>
+    <!---->
+    <string name="set_label_all_albums">"所有相册"</string>
+    <!---->
+    <string name="set_label_local_albums">"本地相册"</string>
+    <!---->
+    <string name="set_label_mtp_devices">"MTP 设备"</string>
+    <!---->
+    <string name="set_label_picasa_albums">"Picasa 相册"</string>
+    <!---->
+    <string name="free_space_format">"可用空间：<xliff:g id="BYTES">%s</xliff:g>"</string>
+    <!---->
+    <string name="size_below">"<xliff:g id="SIZE">%1$s</xliff:g> 或更小"</string>
+    <!---->
+    <string name="size_above">"<xliff:g id="SIZE">%1$s</xliff:g> 或更大"</string>
+    <!---->
+    <string name="size_between">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> 到 <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <!---->
+    <string name="Import">"导入"</string>
+    <!---->
+    <string name="import_complete">"导入已完成"</string>
+    <!---->
+    <string name="import_fail">"导入失败"</string>
+    <!---->
+    <string name="camera_connected">"相机已连接。"</string>
+    <!---->
+    <string name="camera_disconnected">"相机已断开连接。"</string>
+    <!---->
+    <string name="click_import">"触摸此处可导入"</string>
+    <!---->
+    <string name="widget_type_album">"选择相册"</string>
+    <!---->
+    <string name="widget_type_shuffle">"随机显示所有图片"</string>
+    <!---->
+    <string name="widget_type_photo">"选择图片"</string>
+    <!---->
+    <string name="widget_type">"选择图片"</string>
+    <!---->
+    <string name="slideshow_dream_name">"幻灯片"</string>
+    <!---->
+    <string name="albums">"相册"</string>
+    <!---->
+    <string name="times">"时间"</string>
+    <!---->
+    <string name="locations">"地点"</string>
+    <!---->
+    <string name="people">"人物"</string>
+    <!---->
+    <string name="tags">"标签"</string>
+    <!---->
+    <string name="group_by">"分组依据"</string>
+    <!---->
+    <string name="settings">"设置"</string>
+    <!---->
+    <string name="add_account">"添加帐户"</string>
+    <!---->
+    <string name="folder_camera">"相机"</string>
+    <!---->
+    <string name="folder_download">"下载"</string>
+    <!---->
+    <string name="folder_edited_online_photos">"编辑过的在线照片"</string>
+    <!---->
+    <string name="folder_imported">"已导入"</string>
+    <!---->
+    <string name="folder_screenshot">"屏幕截图"</string>
+    <!---->
+    <string name="help">"帮助"</string>
+    <!---->
+    <string name="no_external_storage_title">"无存储"</string>
+    <!---->
+    <string name="no_external_storage">"没有可用的外部存储设备"</string>
+    <!---->
+    <string name="switch_photo_filmstrip">"幻灯片视图"</string>
+    <!---->
+    <string name="switch_photo_grid">"网格视图"</string>
+    <!---->
+    <string name="switch_photo_fullscreen">"全屏视图"</string>
+    <!---->
+    <string name="trimming">"正在剪辑"</string>
+    <!---->
+    <string name="muting">"正在静音"</string>
+    <!---->
+    <string name="please_wait">"请稍候"</string>
+    <!---->
+    <string name="save_into">"正在将视频保存到 <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+    <!---->
+    <string name="trim_save_into">"剪辑视频保存到“<xliff:g id="ALBUM_NAME">%1$s</xliff:g>”"</string>
+    <!---->
+    <string name="mute_save_into">"无声视频保存到“<xliff:g id="ALBUM_NAME">%1$s</xliff:g>”"</string>
+    <!---->
+    <string name="trim_too_short">"无法剪辑：目标视频长度太短"</string>
+    <!---->
+    <string name="mute_nosupport">"不能静音：不支持的视频"</string>
+    <!---->
+    <string name="pano_progress_text">"正在渲染全景图"</string>
+    <!---->
+    <string name="save">"保存"</string>
+    <!-- no translation found for ingest_import -->
+    <skip />
+    <!-- no translation found for ingest_import_complete -->
+    <skip />
+    <!---->
+    <string name="ingest_scanning">"正在扫描内容..."</string>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="zero">"已扫描%1$d项"</item>
+        <item quantity="one">"已扫描%1$d项"</item>
+        <item quantity="other">"已扫描%1$d项"</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">"选中了 %1$d 项"</item>
+        <item quantity="one">"选中了 %1$d 项"</item>
+        <item quantity="other">"选中了 %1$d 项"</item>
+    </plurals>
+    <!---->
+    <string name="ingest_sorting">"正在排序..."</string>
+    <!---->
+    <string name="ingest_scanning_done">"扫描已完成"</string>
+    <!---->
+    <string name="ingest_importing">"正在导入..."</string>
+    <!---->
+    <string name="ingest_empty_device">"这台设备上没有可导入的内容。"</string>
+    <!---->
+    <string name="ingest_no_device">"未连接 MTP 设备"</string>
+    <!-- no translation found for ingest_switch_photo_grid -->
+    <skip />
+    <!-- no translation found for ingest_switch_photo_fullscreen -->
+    <skip />
+    <!---->
+    <string name="camera_error_title">"相机故障"</string>
+    <!---->
+    <string name="cannot_connect_camera">"无法连接到相机。"</string>
+    <!---->
+    <string name="camera_disabled">"由于安全政策的限制，相机已被停用。"</string>
+    <!---->
+    <string name="camera_label">"相机"</string>
+    <!---->
+    <string name="wait">"请稍候..."</string>
+    <!---->
+    <string name="review_cancel">"取消"</string>
+    <!---->
+    <string name="review_ok">"完成"</string>
+    <!---->
+    <string name="time_lapse_title">"延时录制"</string>
+    <!---->
+    <string name="pref_camera_id_title">"选择摄像头"</string>
+    <!---->
+    <string name="pref_camera_id_entry_back">"返回"</string>
+    <!---->
+    <string name="pref_camera_id_entry_front">"前置摄像头"</string>
+    <!---->
+    <string name="pref_camera_recordlocation_title">"存储位置"</string>
+    <!---->
+    <string name="pref_camera_location_label">"地点"</string>
+    <!---->
+    <string name="pref_camera_timer_title">"倒计时器"</string>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="one">"1 秒"</item>
+        <item quantity="other">"%d秒"</item>
+    </plurals>
+    <!---->
+    <string name="pref_camera_timer_sound_title">"倒计时过程中发出提示音"</string>
+    <!---->
+    <string name="setting_off">"关闭"</string>
+    <!---->
+    <string name="setting_on">"打开"</string>
+    <!---->
+    <string name="pref_video_quality_title">"视频画质"</string>
+    <!---->
+    <string name="pref_video_quality_entry_high">"高"</string>
+    <!---->
+    <string name="pref_video_quality_entry_low">"低"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_title">"延时录制"</string>
+    <!---->
+    <string name="pref_camera_settings_category">"相机设置"</string>
+    <!---->
+    <string name="pref_camcorder_settings_category">"摄像机设置"</string>
+    <!---->
+    <string name="pref_camera_picturesize_title">"照片大小"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_13mp">"1300 万像素"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_8mp">"8 百万像素"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_5mp">"5 百万像素"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_4mp">"4 百万像素"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_3mp">"3 百万像素"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_2mp">"2 百万像素"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_2mp_wide">"2 百万像素(16:9)"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_1_3mp">"130 万像素"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_1mp">"1 百万像素"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+    <!---->
+    <string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+    <!---->
+    <string name="pref_camera_focusmode_title">"对焦方式"</string>
+    <!---->
+    <string name="pref_camera_focusmode_entry_auto">"自动"</string>
+    <!---->
+    <string name="pref_camera_focusmode_entry_infinity">"无限远"</string>
+    <!---->
+    <string name="pref_camera_focusmode_entry_macro">"微距"</string>
+    <!---->
+    <string name="pref_camera_focusmode_label_auto">"自动"</string>
+    <!---->
+    <string name="pref_camera_focusmode_label_infinity">"无限远"</string>
+    <!---->
+    <string name="pref_camera_focusmode_label_macro">"微距"</string>
+    <!---->
+    <string name="pref_camera_flashmode_title">"闪光模式"</string>
+    <!---->
+    <string name="pref_camera_flashmode_label">"闪光模式"</string>
+    <!---->
+    <string name="pref_camera_flashmode_entry_auto">"自动"</string>
+    <!---->
+    <string name="pref_camera_flashmode_entry_on">"开"</string>
+    <!---->
+    <string name="pref_camera_flashmode_entry_off">"关"</string>
+    <!---->
+    <string name="pref_camera_flashmode_label_auto">"自动闪光灯"</string>
+    <!---->
+    <string name="pref_camera_flashmode_label_on">"打开闪光灯"</string>
+    <!---->
+    <string name="pref_camera_flashmode_label_off">"关闭闪光灯"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_title">"白平衡"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_label">"白平衡"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_entry_auto">"自动"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_entry_incandescent">"白炽光"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_entry_daylight">"日光"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_entry_fluorescent">"荧光"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_entry_cloudy">"阴天"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_label_auto">"自动"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_label_incandescent">"白炽光"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_label_daylight">"日光"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_label_fluorescent">"荧光"</string>
+    <!---->
+    <string name="pref_camera_whitebalance_label_cloudy">"多云"</string>
+    <!---->
+    <string name="pref_camera_scenemode_title">"取景模式"</string>
+    <!---->
+    <string name="pref_camera_scenemode_entry_auto">"自动"</string>
+    <!---->
+    <string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+    <!---->
+    <string name="pref_camera_scenemode_entry_action">"运动"</string>
+    <!---->
+    <string name="pref_camera_scenemode_entry_night">"夜景"</string>
+    <!---->
+    <string name="pref_camera_scenemode_entry_sunset">"日落"</string>
+    <!---->
+    <string name="pref_camera_scenemode_entry_party">"聚会"</string>
+    <!---->
+    <string name="pref_camera_scenemode_label_auto">"无"</string>
+    <!---->
+    <string name="pref_camera_scenemode_label_action">"运动"</string>
+    <!---->
+    <string name="pref_camera_scenemode_label_night">"夜景"</string>
+    <!---->
+    <string name="pref_camera_scenemode_label_sunset">"日落"</string>
+    <!---->
+    <string name="pref_camera_scenemode_label_party">"聚会"</string>
+    <!---->
+    <string name="pref_camera_countdown_label">"倒计时器"</string>
+    <!---->
+    <string name="pref_camera_countdown_label_off">"关闭倒计时器"</string>
+    <!---->
+    <string name="pref_camera_countdown_label_one">"1 秒"</string>
+    <!---->
+    <string name="pref_camera_countdown_label_three">"3 秒"</string>
+    <!---->
+    <string name="pref_camera_countdown_label_ten">"10 秒"</string>
+    <!---->
+    <string name="pref_camera_countdown_label_fifteen">"15 秒"</string>
+    <!---->
+    <string name="not_selectable_in_scene_mode">"无法在取景模式下选择。"</string>
+    <!---->
+    <string name="pref_exposure_title">"曝光"</string>
+    <!---->
+    <string name="pref_exposure_label">"曝光"</string>
+    <!---->
+    <string name="pref_camera_hdr_label">"HDR"</string>
+    <!---->
+    <string name="pref_camera_id_label_back">"前置摄像头"</string>
+    <!---->
+    <string name="pref_camera_id_label_front">"后置摄像头"</string>
+    <!---->
+    <string name="dialog_ok">"确定"</string>
+    <!---->
+    <string name="video_reach_size_limit">"已达到大小上限。"</string>
+    <!---->
+    <string name="pano_too_fast_prompt">"过快"</string>
+    <!---->
+    <string name="pano_dialog_prepare_preview">"正在生成全景图"</string>
+    <!---->
+    <string name="pano_dialog_panorama_failed">"无法保存全景照片。"</string>
+    <!---->
+    <string name="pano_dialog_title">"全景相片"</string>
+    <!---->
+    <string name="pano_capture_indication">"正在拍摄全景照片"</string>
+    <!---->
+    <string name="pano_dialog_waiting_previous">"正在等待上一幅全景照片处理完毕"</string>
+    <!---->
+    <string name="pano_review_saving_indication_str">"正在保存..."</string>
+    <!---->
+    <string name="pano_review_rendering">"正在渲染全景图"</string>
+    <!---->
+    <string name="tap_to_focus">"触摸对焦"</string>
+    <!---->
+    <string name="pref_video_effect_title">"效果"</string>
+    <!---->
+    <string name="effect_none">"无"</string>
+    <!---->
+    <string name="effect_goofy_face_squeeze">"面部哈哈镜"</string>
+    <!---->
+    <string name="effect_goofy_face_big_eyes">"大眼睛"</string>
+    <!---->
+    <string name="effect_goofy_face_big_mouth">"大嘴巴"</string>
+    <!---->
+    <string name="effect_goofy_face_small_mouth">"小嘴巴"</string>
+    <!---->
+    <string name="effect_goofy_face_big_nose">"大鼻子"</string>
+    <!---->
+    <string name="effect_goofy_face_small_eyes">"小眼睛"</string>
+    <!---->
+    <string name="effect_backdropper_space">"太空背景"</string>
+    <!---->
+    <string name="effect_backdropper_sunset">"日落"</string>
+    <!---->
+    <string name="effect_backdropper_gallery">"您的视频"</string>
+    <!---->
+    <string name="bg_replacement_message">"把设备放好。"\n"离开镜头前片刻。"</string>
+    <!---->
+    <string name="video_snapshot_hint">"在录制视频过程中，轻触一下即可拍一张照片。"</string>
+    <!---->
+    <string name="video_recording_started">"已开始录制视频。"</string>
+    <!---->
+    <string name="video_recording_stopped">"已停止录制视频。"</string>
+    <!---->
+    <string name="disable_video_snapshot_hint">"启用特殊效果时停用视频快照。"</string>
+    <!---->
+    <string name="clear_effects">"清除效果"</string>
+    <!---->
+    <string name="effect_silly_faces">"趣味表情"</string>
+    <!---->
+    <string name="effect_background">"背景"</string>
+    <!---->
+    <string name="accessibility_shutter_button">"“快门”按钮"</string>
+    <!---->
+    <string name="accessibility_menu_button">"菜单按钮"</string>
+    <!---->
+    <string name="accessibility_review_thumbnail">"最新照片"</string>
+    <!---->
+    <string name="accessibility_camera_picker">"前视和后视相机开关"</string>
+    <!---->
+    <string name="accessibility_mode_picker">"相机、视频或全景模式选择器"</string>
+    <!---->
+    <string name="accessibility_second_level_indicators">"更多设置控件"</string>
+    <!---->
+    <string name="accessibility_back_to_first_level">"关闭设置控件"</string>
+    <!---->
+    <string name="accessibility_zoom_control">"缩放控件"</string>
+    <!---->
+    <string name="accessibility_decrement">"减少%1$s"</string>
+    <!---->
+    <string name="accessibility_increment">"增加%1$s"</string>
+    <!---->
+    <string name="accessibility_check_box">"%1$s 复选框"</string>
+    <!---->
+    <string name="accessibility_switch_to_camera">"切换到拍照模式"</string>
+    <!---->
+    <string name="accessibility_switch_to_video">"切换到视频"</string>
+    <!---->
+    <string name="accessibility_switch_to_panorama">"切换到全景模式"</string>
+    <!---->
+    <string name="accessibility_switch_to_new_panorama">"切换到新的全景模式"</string>
+    <!---->
+    <string name="accessibility_switch_to_refocus">"切换为重新聚焦模式"</string>
+    <!---->
+    <string name="accessibility_review_cancel">"取消"</string>
+    <!---->
+    <string name="accessibility_review_ok">"确认完成"</string>
+    <!---->
+    <string name="accessibility_review_retake">"重新确认"</string>
+    <!---->
+    <string name="accessibility_play_video">"播放视频"</string>
+    <!---->
+    <string name="accessibility_pause_video">"暂停视频"</string>
+    <!---->
+    <string name="accessibility_reload_video">"重新加载视频"</string>
+    <!---->
+    <string name="accessibility_time_bar">"视频播放器时间栏"</string>
+    <!---->
+    <string name="capital_on">"打开"</string>
+    <!---->
+    <string name="capital_off">"关闭"</string>
+    <!---->
+    <string name="gif_err">"无法播放 gif. 格式。"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_off">"关闭"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_500">"0.5 秒"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_1000">"1 秒"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_1500">"1.5 秒"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_2000">"2秒"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_2500">"2.5 秒"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_3000">"3 秒"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_4000">"4 秒"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_5000">"5 秒"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_6000">"6 秒"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_10000">"10 秒"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_12000">"12 秒"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_15000">"15 秒"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_24000">"24 秒"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_30000">"0.5 分钟"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_60000">"1 分钟"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_90000">"1.5 分钟"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_120000">"2 分钟"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_150000">"2.5 分钟"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_180000">"3 分钟"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_240000">"4 分钟"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_300000">"5 分钟"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_360000">"6 分钟"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_600000">"10 分钟"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_720000">"12 分钟"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_900000">"15 分钟"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_1440000">"24 分钟"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_1800000">"0.5 小时"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_3600000">"1 小时"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_5400000">"1.5 小时"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_7200000">"2 小时"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_9000000">"2.5 小时"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_10800000">"3 小时"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_14400000">"4 小时"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_18000000">"5 小时"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_21600000">"6小时"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_36000000">"10 小时"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_43200000">"12小时"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_54000000">"15 小时"</string>
+    <!---->
+    <string name="pref_video_time_lapse_frame_interval_86400000">"24 小时"</string>
+    <!---->
+    <string name="time_lapse_seconds">"秒"</string>
+    <!---->
+    <string name="time_lapse_minutes">"分钟"</string>
+    <!---->
+    <string name="time_lapse_hours">"小时"</string>
+    <!---->
+    <string name="time_lapse_interval_set">"完成"</string>
+    <!---->
+    <string name="set_time_interval">"设置时间间隔"</string>
+    <!---->
+    <string name="set_time_interval_help">"延时拍摄功能已关闭，要设置时间间隔，请先开启该功能。"</string>
+    <!---->
+    <string name="set_timer_help">"倒计时器功能目前已关闭。要在拍照前倒计时，请先开启该功能。"</string>
+    <!---->
+    <string name="set_duration">"设置倒数时间（秒）"</string>
+    <!---->
+    <string name="count_down_title_text">"拍照倒计时中"</string>
+    <!---->
+    <string name="remember_location_title">"是否记住照片拍摄地点？"</string>
+    <!---->
+    <string name="remember_location_prompt">"为您的照片和视频标明拍摄地点。"\n\n"其他应用程序在查看您保存的图片时将可以访问这些信息。"</string>
+    <!---->
+    <string name="remember_location_no">"不用了"</string>
+    <!---->
+    <string name="remember_location_yes">"是"</string>
+    <!---->
+    <string name="menu_camera">"相机"</string>
+    <!---->
+    <string name="menu_search">"搜索"</string>
+    <!---->
+    <string name="tab_photos">"照片"</string>
+    <!---->
+    <string name="tab_albums">"相册"</string>
+    <!---->
+    <string name="camera_menu_more_label">"更多选项"</string>
+    <!---->
+    <string name="camera_menu_settings_label">"设置"</string>
+    <plurals name="number_of_photos">
+        <item quantity="one">"%1$d张照片"</item>
+        <item quantity="other">"%1$d张照片"</item>
+    </plurals>
+    <!---->
+    <string name="subtitle">"字幕"</string>
+    <!---->
+    <string name="VideoView_error_text_invalid_progressive_playback">"抱歉，该视频不适合在此设备上播放。"</string>
+    <!---->
+    <string name="VideoView_error_text_unknown">"无法播放此视频。"</string>
+    <!---->
+    <string name="VideoView_error_button">"确定"</string>
+    <!---->
+    <string name="videoView_info_text_video_not_supported">"这个视频不被支持"</string>
+    <!---->
+    <string name="videoView_error_text_cannot_connect_retry">"连接失败，正在尝试第%1$d次重连..."</string>
+    <!---->
+    <string name="media_controller_connecting">"连接中……"</string>
+    <!---->
+    <string name="media_controller_buffering">"正在缓冲 %d%%..."</string>
+    <!---->
+    <string name="VideoView_error_text_cannot_connect_to_server">"无法连接到服务器"</string>
+    <!---->
+    <string name="media_controller_live">"直播"</string>
+    <!---->
+    <string name="media_controller_playing">"正在播放"</string>
+    <!---->
+    <string name="notify_photo_text">"图库控制器"</string>
+    <!---->
+    <string name="notify_video_text">"图库控制器"</string>
+    <!---->
+    <string name="notify_ticker_forwfd_photo">"无线传屏幻灯片可以使用"</string>
+    <!---->
+    <string name="notify_ticker_forwfd_video">"无线传屏视频可以使用"</string>
+    <!---->
+    <string name="wfd_alert">"闹铃"</string>
+    <!---->
+    <string name="wfd_change_message">"视频将会被替换。"</string>
+    <!---->
+    <string name="wfd_change_button">"改变"</string>
+    <!---->
+    <string name="wfd_not_change_button">"不改变"</string>
+    <!---->
+    <string name="wfd_show">"无线传屏"</string>
+    <!---->
+    <string name="wfd_show_on">"开启无线传屏"</string>
+    <!---->
+    <string name="wfd_show_off">"关闭无线传屏"</string>
+    <!---->
+    <string name="wifi_gesture_tip">"拖动文件至黄色区域，以分享屏幕。"</string>
+    <!---->
+    <string name="popupvideo_notsupport_message">"不支持该类型视频"</string>
+    <!---->
+    <string name="drm_wifidisplay_title">"警告"</string>
+    <!---->
+    <string name="drm_wifidisplay_message">"在无线传屏模式下，所有受版权保护的文件会被隐藏。"</string>
+    <!---->
+    <string name="drm_wifidisplay_cancel">"关闭无线传屏"</string>
+    <!---->
+    <string name="drm_wifidisplay_continue">"继续"</string>
+    <!---->
+    <string name="tv_link_close">"无线传屏已经关闭"</string>
+    <!---->
+    <string name="drm_no_valid_right">"文件没有有效的DRM授权"</string>
+    <!---->
+    <string name="drm_delete_invalid_content">"DRM文件"%s"已过期。是否删除？"</string>
+    <!---->
+    <string name="drm_unlock_invalid_content">"DRM文件“%s”过期。是否解锁？"</string>
+    <!---->
+    <string name="unlimited_usage">"无限使用权"</string>
+    <!---->
+    <string name="not_available">"不可用"</string>
+    <!---->
+    <string name="use_times">"使用%s次"</string>
+    <!---->
+    <string name="valid_after">"后有效"</string>
+    <!---->
+    <string name="valid_until">"有效至"</string>
+    <!---->
+    <string name="onef_inger_zoomer_tips_camera">"在相机内双击后直接上下滑动可以放大或缩小"</string>
+    <!---->
+    <string name="tips_done">"完成"</string>
+    <!---->
+    <string name="onef_inger_zoomer_tips">"在图库内双击,然后上下滑动放大或缩小"</string>
+    <!---->
+    <string name="onef_inger_zoomer_tips_title">"了解关于一个手指缩放"</string>
+    <!---->
+    <string name="drm_current_right">"当前限制"</string>
+    <!---->
+    <string name="right_url">"许可证"</string>
+    <!---->
+    <string name="vendor">"提供："</string>
+    <!---->
+    <string name="stop">"停止"</string>
+    <!---->
+    <string name="selectRenderer">"选择一个播放器："</string>
+    <!---->
+    <string name="noRenderer">"不能找到任何渲染设备"</string>
+    <!---->
+    <string name="stop_playing_video_on_tv">"确定停止在电视端的视频播放吗？"</string>
+    <!---->
+    <string name="stop_playing_picture_on_tv">"确定停止在电视端的图片播放吗？"</string>
+    <!---->
+    <string name="play_video">"播放视频"</string>
+    <!---->
+    <string name="shake_video_text">"在视频页面时摇动您的手机，可在电视上进行播放。"</string>
+    <!---->
+    <string name="shake_picture_text">"在图片页面时摇动您的手机，可在电视上进行播放。"</string>
+    <!---->
+    <string name="wait_dialog">"传输中，请稍等 ... ..."</string>
+    <!---->
+    <string name="toast_nostop">"请选择本地播放器以停止在电视上的播放。"</string>
+    <!---->
+    <string name="dlna_format_not_support">"文件格式不支持"</string>
+    <!---->
+    <string name="left_title_camera_roll">"相机"</string>
+    <!---->
+    <string name="left_title_timeline">"时间"</string>
+    <!---->
+    <string name="left_title_albums">"相册"</string>
+    <!---->
+    <string name="left_title_videos">"视频"</string>
+    <!---->
+    <string name="left_title_location">"地点"</string>
+    <!---->
+    <string name="drawer_open">"打开抽屉式导航栏"</string>
+    <!---->
+    <string name="drawer_close">"关闭抽屉式导航栏"</string>
+    <!---->
+    <string name="photo_share">"分享"</string>
+    <!---->
+    <string name="filtershow_save">"保存"</string>
+    <!---->
+    <string name="filtershow_none">"无"</string>
+    <!---->
+    <string name="filtershow_frame">"边框"</string>
+    <!---->
+    <string name="drm_no_crop">"文件“%s”是DRM保护文件，无法剪辑。"</string>
+    <!---->
+    <string name="drm_no_contact_icon">"不允许设置"%s"文件为联系人图标因为该文件受DRM保护。"</string>
+    <!---->
+    <string name="never_tip">"开始时显示提示"</string>
+    <!---->
+    <string name="three_finger_tips0">"把三个手指放在屏幕上。"</string>
+    <!---->
+    <string name="three_finger_tips1">"将文件拖拽到黄色区域。"</string>
+    <!---->
+    <string name="three_finger_tips2">"当区域填充满黄色时，分享成功。"</string>
+    <!---->
+    <string name="drm_not_support_wifidisplay">"DRM文件不会通过无线传屏显示！"</string>
+    <!---->
+    <string name="filtershow_save_title">"保存变更"</string>
+    <!---->
+    <string name="filtershow_save_message">"您想保存副本还是覆盖原始图像？"</string>
+    <!---->
+    <string name="filtershow_save_no_ask">"下次不再询问"</string>
+    <!---->
+    <string name="filtershow_save_button_copy">"保存副本"</string>
+    <!---->
+    <string name="filtershow_save_button_overwrite">"覆盖原图"</string>
+    <!---->
+    <string name="lock_video">"已锁定"</string>
+    <!---->
+    <string name="unlock_video">"已解锁"</string>
+    <!---->
+    <string name="drm_toast_license_expired">"DRM证书已过期。"</string>
+    <!---->
+    <string name="drm_protection_status">"保护状态："</string>
+    <!---->
+    <string name="drm_can_forward">"允许被转发。"</string>
+    <!---->
+    <string name="drm_can_not_forward">"不允许被转发。"</string>
+    <!---->
+    <string name="drm_no_license">"无可用DRM证书。"</string>
+    <!---->
+    <string name="drm_begin">"开始："</string>
+    <!---->
+    <string name="drm_no_limitation">"无限制。"</string>
+    <!---->
+    <string name="drm_end">"结束："</string>
+    <!---->
+    <string name="drm_use_left">"剩余次数"</string>
+    <!---->
+    <string name="date_taken">"拍摄日期"</string>
+    <!---->
+    <string name="modified_time">"修改时间"</string>
+    <!---->
+    <string name="fast_forward">"快进%d秒"</string>
+    <!---->
+    <string name="fast_backward">"快退%d秒"</string>
+    <!---->
+    <string name="network_reconnected_when_playing">"网络重新连接，是否继续播放？"</string>
+    <!---->
+    <string name="polaroid_action_open">"打开"</string>
+    <!---->
+    <string name="polaroid_action_save">"保存"</string>
+    <!---->
+    <string name="polaroid_action_send">"发送"</string>
+    <!---->
+    <string name="polaroid_default_slogan">"给我一个拥抱 ~"</string>
+    <!---->
+    <string name="polaroid_saving_picture">"保存图片..."</string>
+    <!---->
+    <string name="editor_select_polaroid">"宝丽来编辑"</string>
+    <!---->
+    <string name="editor_select_filtershow">"编辑 (默认)"</string>
+    <!---->
+    <string name="date_tag">"日期"</string>
+    <!---->
+    <string name="location_tag">"位置"</string>
+    <!---->
+    <string name="slogan_tag">"标语"</string>
+    <!---->
+    <string name="polaroid_no_location">"无位置信息"</string>
+    <!---->
+    <string name="save_iamge_compelete">"图片已保存到图库。"</string>
+    <!---->
+    <string name="save_image_error">"保存文件失败。"</string>
+    <!---->
+    <string name="dialog_min_image_save_title">"图片太小"</string>
+    <!---->
+    <string name="dialog_min_image_save_message">"最小尺寸为320 x 320像素。"</string>
+    <!---->
+    <string name="open_with">"打开方式"</string>
+    <!---->
+    <string name="moments_month_view">"月视图"</string>
+    <!---->
+    <string name="moments_day_view">"日视图"</string>
+    <string name="moments_staggered_view">"瀑布流视图"</string>
+    <string name="moments_create_collage">"拼图"</string>
+    <!---->
+    <string name="slow_motion">"慢动作"</string>
+    <!---->
+    <string name="actionbar_menu_text_all">"全部"</string>
+    <!---->
+    <string name="actionbar_menu_text_photo">"图片"</string>
+    <!-- no translation found for actionbar_menu_text_parallax -->
+    <skip />
+    <!---->
+    <string name="actionbar_menu_text_video">"视频"</string>
+    <!---->
+    <string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+    <!---->
+    <string name="burst_mode_delete_message">"当前序列包含%s张图片。是否删除所有？"</string>
+    <!---->
+    <string name="burst_mode_save_message">"覆盖图片集或保存为独立的图片集？"</string>
+    <!---->
+    <string name="burst_overwrite">"覆盖"</string>
+    <!---->
+    <string name="burst_save_as_individual_images">"保存为独立的图片集"</string>
+    <!---->
+    <string name="burst_cancel">"取消"</string>
+    <!---->
+    <string name="burst_delete">"删除"</string>
+    <!-- no translation found for face_show -->
+    <skip />
+    <!---->
+    <string name="favorite">"收藏"</string>
+    <!---->
+    <string name="select">"选择"</string>
+    <!---->
+    <string name="getstarted">"开始"</string>
+    <!---->
+    <string name="gotit">"知道了"</string>
+    <!---->
+    <string name="faceshow_start">"一个惊奇的等待当自拍照达到一定数量。现在开始您的旅程吧！"</string>
+    <!---->
+    <string name="faceshow_takemore">"需要更多的自拍照去创建您的人脸视频。"</string>
+    <!---->
+    <string name="selfies">"自拍"</string>
+    <!---->
+    <string name="parallax">"视差效果"</string>
+    <!---->
+    <string name="trim_title">"放弃更改？"</string>
+    <!---->
+    <string name="trim_message">"您的修改未被保存"</string>
+    <!---->
+    <string name="trim_discard">"舍弃"</string>
+    <!---->
+    <string name="main_tab_moments">"时刻"</string>
+    <!---->
+    <string name="moments_show">"显示"</string>
+    <!---->
+    <string name="illegal_image_format">"非法的图片格式，无法编辑。"</string>
+    <!---->
+    <string name="exporting_video">"导出视频"</string>
+    <!---->
+    <string name="exporting_message">"这需要一些时间，请等待..."</string>
+    <!---->
+    <string name="share_save_video">"正在将视频保存到图库中..."</string>
+    <!---->
+    <string name="share_saved">"视频已保存到图库中"</string>
+    <!---->
+    <string name="share_save_image">"正在将图片保存到图库中..."</string>
+    <!---->
+    <string name="share_image_saved">"图片已保存到图库中"</string>
+    <!---->
+    <string name="location_permission_toast_text">"相机里没有位置数据"</string>
+    <!---->
+    <string name="no_internet_contect_text">"未连接互联网"</string>
+    <!---->
+    <string name="more">"更多"</string>
+    <!---->
+    <string name="moment_album_today">"今天"</string>
+    <!---->
+    <string name="moment_album_yesterday">"昨天"</string>
+    <!---->
+    <string name="location_destination_text">"将时刻中的图片和视频按地理位置排序"</string>
+    <string-array name="month">
+        <item>"一月"</item>
+        <item>"二月"</item>
+        <item>"三月"</item>
+        <item>"四月"</item>
+        <item>"五月"</item>
+        <item>"六月"</item>
+        <item>"七月"</item>
+        <item>"八月"</item>
+        <item>"九月"</item>
+        <item>"十月"</item>
+        <item>"十一月"</item>
+        <item>"十二月"</item>
+    </string-array>
+    <!---->
+    <string name="permission_location_text">"为了将图片和视频按地理位置排序，需要同意图库获取定位权限。"</string>
+    <!---->
+    <string name="permission_location_settings">"设置"</string>
+    <!---->
+    <string name="boom_key_tip_1">"将图片展示成不同的奇异拼贴画"</string>
+    <!---->
+    <string name="boom_key_tip_2">"通过小T智键开始展示拼贴画"</string>
+    <!---->
+    <string name="boom_key_tip_3">"在相册界面触发展示拼贴画"</string>
+    <!---->
+    <string name="boom_key_tip_4">"在图片预览界面触发展示拼贴图"</string>
+    <!---->
+    <string name="tx_skip">"略过"</string>
+    <!---->
+    <string name="tx_done">"完成"</string>
+    <!---->
+    <string name="boom_key">"小T智键"</string>
+    <!---->
+    <string name="press">"点击"</string>
+    <!---->
+    <string name="not_support_parallax_share">"在时刻中不能分享 Fyuse"</string>
+    <!---->
+    <string name="permissions_hi">"嗨！"</string>
+    <!---->
+    <string name="not_support_video_edit">"视频格式不支持编辑。"</string>
+    <string name="no_slowmoedit">"SlowmoEdit应用未安装，此功能无法使用！"</string>
+
+    <string name="create_new_album_dialog_title">创建相册</string>
+    <string name="create_new_album_dialog_hint">输入相册名称</string>
+    <string name="album_exists_warning">相册名称已经存在.</string>
+    <string name="create_new_album_confirm">创建</string>
+    <string name="create_new_album_cancel">取消</string>
+    <string name="delete_album_dialog_title">删除这个相册?</string>
+    <string name="delete_album_confirm">删除</string>
+    <string name="delete_album_cancel">取消</string>
+    <string name="create_new_album_fail_warning">创建新相册失败！</string>
+    <string name="new_album_empty_warning">相册名称不能是空</string>
+    <string name="new_album_select_title">在相册中添加</string>
+    <string name="new_album_confirm_title">复制或移动到新的相册？</string>
+    <string name="invalid_char_of_albumname">相册名称包含无效字符！</string>
+    <string name="animator_on">打开动画</string>
+    <string name="animator_off">关闭动画</string>
+    <string name="no_muvee_app_toast">未安装Muvee应用</string>
+
+    <string-array name="album_sort_type">
+        <item>按默认</item>
+        <item>按数量</item>
+        <item>按修改时间</item>
+        <item>按名称</item>
+    </string-array>
+</resources>

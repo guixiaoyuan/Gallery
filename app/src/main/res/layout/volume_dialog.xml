@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+|                                                                 Date:12/2013 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  wen.zhuang                                                        |
+|  Email  :  wen.zhuang@tcl-mobile.com                                         |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     :                                                                  |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 12/10/2013|     wen.zhuang       |FR550507              |Multi screen        |
+|           |                      |                      |interaction         |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dip"
+    android:orientation="horizontal"
+    android:layout_marginTop="8dip"
+    android:layout_marginBottom="8dip"
+    android:background="@drawable/dialog_full_holo_dark"
+    android:gravity="left|center_vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu_tvsound"
+        android:padding="16dip"
+        />
+
+    <SeekBar
+        style="?android:attr/seekBarStyle"
+        android:id="@+id/seekbar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="16dip"
+        android:layout_marginRight="16dip" />
+
+</LinearLayout>

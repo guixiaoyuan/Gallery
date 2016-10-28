@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Fényképszerkesztő"</string>
+	<!---->
+	<string name="cannot_load_image">"A kép nem tölthető be"</string>
+	<!---->
+	<string name="cannot_edit_original">"Az eredeti felvétel szerkesztése nem lehetséges"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Háttérkép beállítása"</string>
+	<!---->
+	<string name="download_failure">"A fénykép letöltése sikertelen. Hálózat nem elérhető."</string>
+	<!---->
+	<string name="original">"Eredeti"</string>
+	<!---->
+	<string name="borders">"Szegélyek"</string>
+	<!---->
+	<string name="custom_border">"Egyéni"</string>
+	<!---->
+	<string name="filtershow_undo">"Visszavonás"</string>
+	<!---->
+	<string name="filtershow_redo">"Ismételt végrehajtás"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Alkalmazott effektusok megjelenítése"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Alkalmazott effektusok elrejtése"</string>
+	<!---->
+	<string name="export_image">"Exportálás"</string>
+	<!---->
+	<string name="print_image">"Nyomtatás"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Automatikus szerkesztés"</string>
+	<!---->
+	<string name="export_flattened">"Összeolvasztott kép exportálása"</string>
+	<!---->
+	<string name="select_output_settings">"Az exportált kép egy szerkesztési előzményekkel nem rendelkező másolat lesz."</string>
+	<!---->
+	<string name="quality">"Minőség"</string>
+	<!---->
+	<string name="size">"Méret"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Beállítások"</string>
+	<!---->
+	<string name="unsaved">"El nem mentett módosítások vannak a képen."</string>
+	<!---->
+	<string name="save_before_exit">"Mentés kilépés előtt?"</string>
+	<!---->
+	<string name="save_and_exit">"Mentés és bezárás"</string>
+	<!---->
+	<string name="save_and_processing">"Teljes felbontású kép feldolgozása folyamatban..."</string>
+	<!---->
+	<string name="exit">"Kilépés"</string>
+	<!---->
+	<string name="history">"Előzmény"</string>
+	<!---->
+	<string name="reset">"Visszaállítás"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Alkalmazott effektusok"</string>
+	<!---->
+	<string name="compare_original">"Összehasonlítás"</string>
+	<!---->
+	<string name="apply_effect">"Alkalmazás"</string>
+	<!---->
+	<string name="reset_effect">"Visszaállítás"</string>
+	<!---->
+	<string name="aspect">"Aspektus"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Semmi."</string>
+	<!---->
+	<string name="aspectCustom_effect">"Egyéni"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Rögzített"</string>
+	<!---->
+	<string name="tinyplanet">"Apró bolygó"</string>
+	<!---->
+	<string name="exposure">"Expozíció"</string>
+	<!---->
+	<string name="sharpness">"Élesség"</string>
+	<!---->
+	<string name="contrast">"Kontraszt"</string>
+	<!---->
+	<string name="vibrance">"Ragyogás"</string>
+	<!---->
+	<string name="saturation">"Telítettség"</string>
+	<!---->
+	<string name="bwfilter">"Fekete-fehér szűrő"</string>
+	<!---->
+	<string name="wbalance">"Automatikus színezés"</string>
+	<!---->
+	<string name="hue">"Színárnyalat"</string>
+	<!---->
+	<string name="shadow_recovery">"Árnyékok"</string>
+	<!---->
+	<string name="highlight_recovery">"Kiemelt részek"</string>
+	<!---->
+	<string name="curvesRGB">"Görbék"</string>
+	<!---->
+	<string name="vignette">"Vignetta"</string>
+	<!---->
+	<string name="vignette_main">"Vignetta"</string>
+	<!---->
+	<string name="vignette_exposure">"Expozíció"</string>
+	<!---->
+	<string name="vignette_saturation">"Telítettség"</string>
+	<!---->
+	<string name="vignette_contrast">"Kontraszt"</string>
+	<!---->
+	<string name="vignette_falloff">"Fényerő csökkentése"</string>
+	<!---->
+	<string name="redeye">"Vörösszem"</string>
+	<!---->
+	<string name="imageDraw">"Rajz"</string>
+	<!---->
+	<string name="straighten">"Kiegyenesítés"</string>
+	<!---->
+	<string name="crop">"Körbevágás"</string>
+	<!---->
+	<string name="rotate">"Forgatás"</string>
+	<!---->
+	<string name="mirror">"Tükrözés"</string>
+	<!---->
+	<string name="negative">"Negatív"</string>
+	<!---->
+	<string name="none">"Semmi."</string>
+	<!---->
+	<string name="edge">"Szélek"</string>
+	<!---->
+	<string name="kmeans">"Poszterizálás"</string>
+	<!---->
+	<string name="downsample">"Méretcsökkentés"</string>
+	<!---->
+	<string name="grad">"Átmenetes"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Fényerő"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Kontraszt"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Telítettség"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Elsődleges"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Piros"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Sárga"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Zöld"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Ciánkék"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Kék"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Bíborszín"</string>
+	<!---->
+	<string name="editor_grad_style">"Stílus"</string>
+	<!---->
+	<string name="editor_grad_new">"Új"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Piros"</string>
+	<!---->
+	<string name="curves_channel_green">"Zöld"</string>
+	<!---->
+	<string name="curves_channel_blue">"Kék"</string>
+	<!---->
+	<string name="draw_style">"Stílus"</string>
+	<!---->
+	<string name="draw_size">"Méret"</string>
+	<!---->
+	<string name="draw_hue">"Színárnyalat"</string>
+	<!---->
+	<string name="draw_saturation">"Telítettség"</string>
+	<!---->
+	<string name="draw_value">"Fényerő"</string>
+	<!---->
+	<string name="draw_color">"Szín"</string>
+	<!---->
+	<string name="draw_style_line">"Vonalak"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Jelölő"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Fröcskölt hatás"</string>
+	<!---->
+	<string name="draw_clear">"Világos"</string>
+	<!---->
+	<string name="color_border_size">"Vastagság"</string>
+	<!---->
+	<string name="color_border_corner_size">"Sarokméret"</string>
+	<!---->
+	<string name="color_border_color">"Szín"</string>
+	<!---->
+	<string name="color_border_clear">"Törlés"</string>
+	<!---->
+	<string name="color_pick_select">"Személyre szabott szín kiválasztása"</string>
+	<!---->
+	<string name="color_pick_title">"Szín kiválasztása"</string>
+	<!---->
+	<string name="draw_size_title">"Méret kiválasztása"</string>
+	<!---->
+	<string name="draw_size_accept">"OK"</string>
+	<!---->
+	<string name="state_panel_original">"Eredeti"</string>
+	<!---->
+	<string name="state_panel_result">"Eredmény"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Kép mentése folyamatban..."</string>
+	<!---->
+	<string name="filtershow_notification_message">"Feldolgozás folyamatban..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Menti az aktuális előbeállítást?"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"A felhasználói előzetes beállítások kezelése"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Új előbeállítás"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Előzetes beállítás neve"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Információ"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Kép neve"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Képméret"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Hisztogram"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"EXIF-adatok"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Előzetes beállítás"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Verzió"</string>
+	<!---->
+	<string name="filtershow_version_original">"Eredeti"</string>
+	<!---->
+	<string name="filtershow_version_current">"Jelenlegi állapot"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Modell"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Rekesz"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Fókusztávolság"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Tárgy távolsága"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Rögzítés időpontja"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F-Stop"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Exponálási idő"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Szerzői jog"</string>
+</resources>

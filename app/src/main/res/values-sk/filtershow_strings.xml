@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Foto editor"</string>
+	<!---->
+	<string name="cannot_load_image">"Obrázok sa nepodarilo načítať"</string>
+	<!---->
+	<string name="cannot_edit_original">"Nie je možné upravovať originál"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Nastavenie tapety"</string>
+	<!---->
+	<string name="download_failure">"Nebolo možné stiahnuť fotografie. Sieť nie je k dispozícii."</string>
+	<!---->
+	<string name="original">"Originál"</string>
+	<!---->
+	<string name="borders">"Ohraničenie"</string>
+	<!---->
+	<string name="custom_border">"Vlastná"</string>
+	<!---->
+	<string name="filtershow_undo">"Späť"</string>
+	<!---->
+	<string name="filtershow_redo">"Vykonať znova"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Zobraziť použité efekty"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Skryť použité efekty"</string>
+	<!---->
+	<string name="export_image">"Exportovať"</string>
+	<!---->
+	<string name="print_image">"Tlač"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Automatická úprava"</string>
+	<!---->
+	<string name="export_flattened">"Exportovať zmenšený obrázok"</string>
+	<!---->
+	<string name="select_output_settings">"Exportovaný obrázok bude kópiou bez zmeny histórie."</string>
+	<!---->
+	<string name="quality">"Kvalita"</string>
+	<!---->
+	<string name="size">"Veľkosť"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Nastavenia"</string>
+	<!---->
+	<string name="unsaved">"Zmeny obrázka neboli uložené."</string>
+	<!---->
+	<string name="save_before_exit">"Uložiť pred ukončením?"</string>
+	<!---->
+	<string name="save_and_exit">"Uložiť a skončiť"</string>
+	<!---->
+	<string name="save_and_processing">"Spracúva sa obrázok v plnom rozlíšení..."</string>
+	<!---->
+	<string name="exit">"Skončiť"</string>
+	<!---->
+	<string name="history">"História"</string>
+	<!---->
+	<string name="reset">"Resetovať"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Použité efekty"</string>
+	<!---->
+	<string name="compare_original">"Porovnať"</string>
+	<!---->
+	<string name="apply_effect">"Použiť"</string>
+	<!---->
+	<string name="reset_effect">"Resetovať"</string>
+	<!---->
+	<string name="aspect">"Pomer strán"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Žiadne"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Vlastné"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Pevné"</string>
+	<!---->
+	<string name="tinyplanet">"Drobná planéta"</string>
+	<!---->
+	<string name="exposure">"Expozícia"</string>
+	<!---->
+	<string name="sharpness">"Ostrosť"</string>
+	<!---->
+	<string name="contrast">"Kontrast"</string>
+	<!---->
+	<string name="vibrance">"Živosť"</string>
+	<!---->
+	<string name="saturation">"Sýtosť"</string>
+	<!---->
+	<string name="bwfilter">"Filter BW"</string>
+	<!---->
+	<string name="wbalance">"Automatické farby"</string>
+	<!---->
+	<string name="hue">"Odtieň"</string>
+	<!---->
+	<string name="shadow_recovery">"Tiene"</string>
+	<!---->
+	<string name="highlight_recovery">"Svetlá"</string>
+	<!---->
+	<string name="curvesRGB">"Krivky"</string>
+	<!---->
+	<string name="vignette">"Vineta"</string>
+	<!---->
+	<string name="vignette_main">"Vineta"</string>
+	<!---->
+	<string name="vignette_exposure">"Expozícia"</string>
+	<!---->
+	<string name="vignette_saturation">"Sýtosť"</string>
+	<!---->
+	<string name="vignette_contrast">"Kontrast"</string>
+	<!---->
+	<string name="vignette_falloff">"Vejár"</string>
+	<!---->
+	<string name="redeye">"Červené oči"</string>
+	<!---->
+	<string name="imageDraw">"Kresliť"</string>
+	<!---->
+	<string name="straighten">"Vyrovnať"</string>
+	<!---->
+	<string name="crop">"Orezať"</string>
+	<!---->
+	<string name="rotate">"Otočiť"</string>
+	<!---->
+	<string name="mirror">"Zrkadlo"</string>
+	<!---->
+	<string name="negative">"Negatív"</string>
+	<!---->
+	<string name="none">"Žiadne"</string>
+	<!---->
+	<string name="edge">"Okraje"</string>
+	<!---->
+	<string name="kmeans">"Posterizácia"</string>
+	<!---->
+	<string name="downsample">"Decimácia"</string>
+	<!---->
+	<string name="grad">"Stupňovanie"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Jas"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Kontrast"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Sýtosť"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Hlavné"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Červená"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Žltá"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Zelená"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Modrozelená"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Modrá"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Magenta"</string>
+	<!---->
+	<string name="editor_grad_style">"Štýl"</string>
+	<!---->
+	<string name="editor_grad_new">"Nový"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Červená"</string>
+	<!---->
+	<string name="curves_channel_green">"Zelená"</string>
+	<!---->
+	<string name="curves_channel_blue">"Modrá"</string>
+	<!---->
+	<string name="draw_style">"Štýl"</string>
+	<!---->
+	<string name="draw_size">"Veľkosť"</string>
+	<!---->
+	<string name="draw_hue">"Odtieň"</string>
+	<!---->
+	<string name="draw_saturation">"Sýtosť"</string>
+	<!---->
+	<string name="draw_value">"Jas"</string>
+	<!---->
+	<string name="draw_color">"Farba"</string>
+	<!---->
+	<string name="draw_style_line">"Riadky"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Zvýraznenie"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Pokropenie"</string>
+	<!---->
+	<string name="draw_clear">"Odstrániť"</string>
+	<!---->
+	<string name="color_border_size">"Hrúbka"</string>
+	<!---->
+	<string name="color_border_corner_size">"Veľkosť rohu"</string>
+	<!---->
+	<string name="color_border_color">"Farba"</string>
+	<!---->
+	<string name="color_border_clear">"Vymazať"</string>
+	<!---->
+	<string name="color_pick_select">"Vyberte ľubovoľnú farbu"</string>
+	<!---->
+	<string name="color_pick_title">"Zvoliť farbu"</string>
+	<!---->
+	<string name="draw_size_title">"Zvoliť veľkosť"</string>
+	<!---->
+	<string name="draw_size_accept">"OK"</string>
+	<!---->
+	<string name="state_panel_original">"Originál"</string>
+	<!---->
+	<string name="state_panel_result">"Výsledok"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Ukladanie obrázoka"</string>
+	<!---->
+	<string name="filtershow_notification_message">"Spracúva sa..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Uložiť aktuálne prednastavenia"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Spravovať používateľské prednastavenia"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Nové prednastavenia"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Názov prednastavení"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Informácie"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Názov obrázka"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Veľkosť obrázka"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Histogram"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"Údaje EXIF"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Súčasná"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Verzia"</string>
+	<!---->
+	<string name="filtershow_version_original">"Originál"</string>
+	<!---->
+	<string name="filtershow_version_current">"Aktuálna"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Model"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Clona"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Ohnisková vzdialenosť"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Vzdialenosť predmetu"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Dátum získania"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F Stop"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Expozičný čas"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Autorské práva"</string>
+</resources>

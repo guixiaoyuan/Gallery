@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2013, The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <dimen name="actionbar_title_size">20sp</dimen>
+    <dimen name="actionbar_title_magin">14dp</dimen>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-03-09,PR916254 Begin -->
+    <dimen name="drawlayout_width">256dp</dimen><!--//[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-06-01,PR1014336 -->
+    <integer name="custom_seekbar_left_deviation">2</integer>
+    <integer name="custom_seekbar_right_deviation">42</integer>
+    <integer name="video_seekbar_thumb_size">12</integer>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-03-18,PR916254 Begin -->
+    <dimen name="bottom_navigation_height">56dp</dimen>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-03-18,PR916254 End -->
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-03-09,PR916254 End -->
+    <dimen name="drawlayout_item_left">29dp</dimen>
+    <dimen name="lock_toast_y_offset">100dp</dimen>
+</resources>

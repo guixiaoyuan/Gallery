@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Фото редактор"</string>
+	<!---->
+	<string name="cannot_load_image">"Не може да се зареди картинката"</string>
+	<!---->
+	<string name="cannot_edit_original">"Оригиналът не може да се промени"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Настройка на тапет"</string>
+	<!---->
+	<string name="download_failure">"Не може да изтеглите снимка. Мрежата е недостъпна."</string>
+	<!---->
+	<string name="original">"Оригинал"</string>
+	<!---->
+	<string name="borders">"Рамки"</string>
+	<!---->
+	<string name="custom_border">"Персонализирано"</string>
+	<!---->
+	<string name="filtershow_undo">"Отмяна"</string>
+	<!---->
+	<string name="filtershow_redo">"Преправяне"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Покажи приложени ефекти"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Скриване приложени ефекти"</string>
+	<!---->
+	<string name="export_image">"Експортиране"</string>
+	<!---->
+	<string name="print_image">"Печат"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Авт. редактиране"</string>
+	<!---->
+	<string name="export_flattened">"Експортиране на повалено изображението"</string>
+	<!---->
+	<string name="select_output_settings">"Експортираната снимка ще бъде копие без изменение на историята."</string>
+	<!---->
+	<string name="quality">"Качество"</string>
+	<!---->
+	<string name="size">"Размер"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Настройки"</string>
+	<!---->
+	<string name="unsaved">"Има незапазени промени в този образ."</string>
+	<!---->
+	<string name="save_before_exit">"Запазване преди изход?"</string>
+	<!---->
+	<string name="save_and_exit">"Запишете и излезте"</string>
+	<!---->
+	<string name="save_and_processing">"Пълна резолюция на изображението се обработва ..."</string>
+	<!---->
+	<string name="exit">"Изход"</string>
+	<!---->
+	<string name="history">"Хронология"</string>
+	<!---->
+	<string name="reset">"Нулиране"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Приложени ефекти"</string>
+	<!---->
+	<string name="compare_original">"Сравнете"</string>
+	<!---->
+	<string name="apply_effect">"Приложи"</string>
+	<!---->
+	<string name="reset_effect">"Нулиране"</string>
+	<!---->
+	<string name="aspect">"Аспект"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Без"</string>
+	<!---->
+	<string name="aspectCustom_effect">"По избор"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Фиксиран"</string>
+	<!---->
+	<string name="tinyplanet">"Малка планета"</string>
+	<!---->
+	<string name="exposure">"Експозиция"</string>
+	<!---->
+	<string name="sharpness">"Острота"</string>
+	<!---->
+	<string name="contrast">"Контраст"</string>
+	<!---->
+	<string name="vibrance">"Вибрация"</string>
+	<!---->
+	<string name="saturation">"Насищане"</string>
+	<!---->
+	<string name="bwfilter">"BW Филтър"</string>
+	<!---->
+	<string name="wbalance">"Автоматичен цвят"</string>
+	<!---->
+	<string name="hue">"Оттенък"</string>
+	<!---->
+	<string name="shadow_recovery">"Засенчване"</string>
+	<!---->
+	<string name="highlight_recovery">"Просветляване"</string>
+	<!---->
+	<string name="curvesRGB">"Криви"</string>
+	<!---->
+	<string name="vignette">"Винетиране"</string>
+	<!---->
+	<string name="vignette_main">"Винетиране"</string>
+	<!---->
+	<string name="vignette_exposure">"Експозиция"</string>
+	<!---->
+	<string name="vignette_saturation">"Насищане"</string>
+	<!---->
+	<string name="vignette_contrast">"Контраст"</string>
+	<!---->
+	<string name="vignette_falloff">"Падане"</string>
+	<!---->
+	<string name="redeye">"Червени очи"</string>
+	<!---->
+	<string name="imageDraw">"Равенство"</string>
+	<!---->
+	<string name="straighten">"Изправяне"</string>
+	<!---->
+	<string name="crop">"Подрязване"</string>
+	<!---->
+	<string name="rotate">"Завъртане"</string>
+	<!---->
+	<string name="mirror">"Огледало"</string>
+	<!---->
+	<string name="negative">"Негатив"</string>
+	<!---->
+	<string name="none">"Без"</string>
+	<!---->
+	<string name="edge">"Ръбове"</string>
+	<!---->
+	<string name="kmeans">"Плакат"</string>
+	<!---->
+	<string name="downsample">"Downsample"</string>
+	<!---->
+	<string name="grad">"Завършва"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Яркост"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Контраст"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Насищане"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Основен"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Червен"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Жълт"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Зелен"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Циан"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Син"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Магента"</string>
+	<!---->
+	<string name="editor_grad_style">"Стил"</string>
+	<!---->
+	<string name="editor_grad_new">"Нова"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Червен"</string>
+	<!---->
+	<string name="curves_channel_green">"Зелен"</string>
+	<!---->
+	<string name="curves_channel_blue">"Син"</string>
+	<!---->
+	<string name="draw_style">"Стил"</string>
+	<!---->
+	<string name="draw_size">"Размер"</string>
+	<!---->
+	<string name="draw_hue">"Оттенък"</string>
+	<!---->
+	<string name="draw_saturation">"Насищане"</string>
+	<!---->
+	<string name="draw_value">"Яркост"</string>
+	<!---->
+	<string name="draw_color">"Цвят"</string>
+	<!---->
+	<string name="draw_style_line">"Линии"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Маркер"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Плискане"</string>
+	<!---->
+	<string name="draw_clear">"Чисто"</string>
+	<!---->
+	<string name="color_border_size">"Дебелина"</string>
+	<!---->
+	<string name="color_border_corner_size">"Ъглов размер"</string>
+	<!---->
+	<string name="color_border_color">"Цвят"</string>
+	<!---->
+	<string name="color_border_clear">"Изчистване"</string>
+	<!---->
+	<string name="color_pick_select">"Изберете цвят по избор"</string>
+	<!---->
+	<string name="color_pick_title">"Избор на цвят"</string>
+	<!---->
+	<string name="draw_size_title">"Изберете размер"</string>
+	<!---->
+	<string name="draw_size_accept">"OK"</string>
+	<!---->
+	<string name="state_panel_original">"Оригинален"</string>
+	<!---->
+	<string name="state_panel_result">"Резултат"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Запаметяване на снимка"</string>
+	<!---->
+	<string name="filtershow_notification_message">"Обработва се ..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Запазване на текущия предварителен"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Управление на потребителските настройки"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Нов предварителен"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Име на предварително определен"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Информация"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Име на снимката"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Размер на снимката"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Хистограма"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"EXIF Данни"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Предварително"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Версия"</string>
+	<!---->
+	<string name="filtershow_version_original">"Оригинал"</string>
+	<!---->
+	<string name="filtershow_version_current">"Текуща"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Модел"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Бленда"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Дълж. на фокус"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Разстояние на обект"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Дата на заснемане"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F Стоп"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Експонация"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Авторски права"</string>
+</resources>

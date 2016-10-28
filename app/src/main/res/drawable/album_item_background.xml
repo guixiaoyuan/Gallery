@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+    <!--<gradient
+    android:startColor="@color/new_album_item_bg"
+    android:endColor="@color/new_album_item_bg" />-->
+    <solid android:color="@color/new_album_item_bg"/>
+    <corners android:radius="@dimen/album_radius"/>
+</shape>

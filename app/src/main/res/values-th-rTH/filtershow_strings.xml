@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"โปรแกรมตัดแต่งภาพ"</string>
+	<!---->
+	<string name="cannot_load_image">"ไม่สามารถโหลดภาพได้"</string>
+	<!---->
+	<string name="cannot_edit_original">"ไม่สามารถแก้ไขต้นฉบับได้"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"การตั้งวอลเปเปอร์"</string>
+	<!---->
+	<string name="download_failure">"ไม่สามารถดาวน์โหลดภาพ เครือข่ายไม่พร้อมใช้งาน"</string>
+	<!---->
+	<string name="original">"ต้นฉบับ"</string>
+	<!---->
+	<string name="borders">"ขอบ"</string>
+	<!---->
+	<string name="custom_border">"กำหนดเอง"</string>
+	<!---->
+	<string name="filtershow_undo">"เลิกทำ"</string>
+	<!---->
+	<string name="filtershow_redo">"ทำซ้ำ"</string>
+	<!---->
+	<string name="show_imagestate_panel">"แสดงเอฟเฟ็กต์ที่ใช้"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"ซ่อนเอฟเฟ็กต์ที่ใช้"</string>
+	<!---->
+	<string name="export_image">"ส่งออก"</string>
+	<!---->
+	<string name="print_image">"พิมพ์"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"แก้ไขอัตโนมัติ"</string>
+	<!---->
+	<string name="export_flattened">"ส่งออกภาพแบบไม่มีการตกแต่งใดๆ"</string>
+	<!---->
+	<string name="select_output_settings">"ภาพที่ส่งออกจะถูกคัดลอกโดยไม่มีประวัติการตกแต่ง"</string>
+	<!---->
+	<string name="quality">"คุณภาพ"</string>
+	<!---->
+	<string name="size">"ขนาด"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"การตั้งค่า"</string>
+	<!---->
+	<string name="unsaved">"มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึกกับรูปภาพนี้"</string>
+	<!---->
+	<string name="save_before_exit">"บันทึกก่อนออก?"</string>
+	<!---->
+	<string name="save_and_exit">"บันทึกและออก"</string>
+	<!---->
+	<string name="save_and_processing">"กำลังประมวลผลภาพเต็มความละเอียด..."</string>
+	<!---->
+	<string name="exit">"ออก"</string>
+	<!---->
+	<string name="history">"ประวัติ"</string>
+	<!---->
+	<string name="reset">"ตั้งค่าใหม่"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"ใช้เอฟเฟ็กต์"</string>
+	<!---->
+	<string name="compare_original">"เปรียบเทียบ"</string>
+	<!---->
+	<string name="apply_effect">"นำไปใช้"</string>
+	<!---->
+	<string name="reset_effect">"ตั้งค่าใหม่"</string>
+	<!---->
+	<string name="aspect">"มุมมอง"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"ไม่มี"</string>
+	<!---->
+	<string name="aspectCustom_effect">"กำหนดเอง"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"แก้ไขแล้ว"</string>
+	<!---->
+	<string name="tinyplanet">"โลกใบเล็ก"</string>
+	<!---->
+	<string name="exposure">"การรับแสง"</string>
+	<!---->
+	<string name="sharpness">"ความคมชัด"</string>
+	<!---->
+	<string name="contrast">"ความคมชัด"</string>
+	<!---->
+	<string name="vibrance">"ชีวิตชีวา"</string>
+	<!---->
+	<string name="saturation">"ความอิ่มตัว"</string>
+	<!---->
+	<string name="bwfilter">"ฟิลเตอร์ขาวดำ"</string>
+	<!---->
+	<string name="wbalance">"สีอัตโนมัติ"</string>
+	<!---->
+	<string name="hue">"ความเข้มของสี"</string>
+	<!---->
+	<string name="shadow_recovery">"เงา"</string>
+	<!---->
+	<string name="highlight_recovery">"ไฮไลต์"</string>
+	<!---->
+	<string name="curvesRGB">"เส้นโค้ง"</string>
+	<!---->
+	<string name="vignette">"วิกเน็ตต์"</string>
+	<!---->
+	<string name="vignette_main">"วิกเน็ตต์"</string>
+	<!---->
+	<string name="vignette_exposure">"การรับแสง"</string>
+	<!---->
+	<string name="vignette_saturation">"ความอิ่มตัว"</string>
+	<!---->
+	<string name="vignette_contrast">"ความคมชัด"</string>
+	<!---->
+	<string name="vignette_falloff">"ไม่ผ่าน"</string>
+	<!---->
+	<string name="redeye">"ตาแดง"</string>
+	<!---->
+	<string name="imageDraw">"วาด"</string>
+	<!---->
+	<string name="straighten">"ทำให้ตรง"</string>
+	<!---->
+	<string name="crop">"ตัด"</string>
+	<!---->
+	<string name="rotate">"หมุน"</string>
+	<!---->
+	<string name="mirror">"กระจก"</string>
+	<!---->
+	<string name="negative">"สีตรงข้าม"</string>
+	<!---->
+	<string name="none">"ไม่มี"</string>
+	<!---->
+	<string name="edge">"เส้นขอบ"</string>
+	<!---->
+	<string name="kmeans">"ลดจำนวนสีในภาพ"</string>
+	<!---->
+	<string name="downsample">"ลดขนาดการสุ่มตัวอย่าง"</string>
+	<!---->
+	<string name="grad">"ผ่าน"</string>
+	<!---->
+	<string name="editor_grad_brightness">"ความสว่าง"</string>
+	<!---->
+	<string name="editor_grad_contrast">"ความคมชัด"</string>
+	<!---->
+	<string name="editor_grad_saturation">"ความอิ่มตัว"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"หมายเลขหลัก"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"แดง"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"เหลือง"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"เขียว"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"ฟ้า"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"น้ำเงิน"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"สีบานเย็น"</string>
+	<!---->
+	<string name="editor_grad_style">"สไตล์"</string>
+	<!---->
+	<string name="editor_grad_new">"ใหม่"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"แดง"</string>
+	<!---->
+	<string name="curves_channel_green">"เขียว"</string>
+	<!---->
+	<string name="curves_channel_blue">"น้ำเงิน"</string>
+	<!---->
+	<string name="draw_style">"สไตล์"</string>
+	<!---->
+	<string name="draw_size">"ขนาด"</string>
+	<!---->
+	<string name="draw_hue">"ความเข้มของสี"</string>
+	<!---->
+	<string name="draw_saturation">"ความอิ่มตัว"</string>
+	<!---->
+	<string name="draw_value">"ความสว่าง"</string>
+	<!---->
+	<string name="draw_color">"สี"</string>
+	<!---->
+	<string name="draw_style_line">"เส้นตรง"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"มาร์กเกอร์"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"สะบัดสี"</string>
+	<!---->
+	<string name="draw_clear">"ล้าง"</string>
+	<!---->
+	<string name="color_border_size">"ความหนา"</string>
+	<!---->
+	<string name="color_border_corner_size">"ขนาดมุม"</string>
+	<!---->
+	<string name="color_border_color">"สี"</string>
+	<!---->
+	<string name="color_border_clear">"ล้าง"</string>
+	<!---->
+	<string name="color_pick_select">"เลือกสีที่กำหนดเอง"</string>
+	<!---->
+	<string name="color_pick_title">"เลือกสี"</string>
+	<!---->
+	<string name="draw_size_title">"เลือกขนาด"</string>
+	<!---->
+	<string name="draw_size_accept">"ตกลง"</string>
+	<!---->
+	<string name="state_panel_original">"ต้นฉบับ"</string>
+	<!---->
+	<string name="state_panel_result">"ผลลัพธ์"</string>
+	<!---->
+	<string name="filtershow_notification_label">"กำลังบันทึกภาพ"</string>
+	<!---->
+	<string name="filtershow_notification_message">"กำลังประมวลผล..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"บันทึกค่าล่วงหน้าที่กำลังใช้อยู่"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"จัดการค่าล่วงหน้าของผู้ใช้"</string>
+	<!---->
+	<string name="filtershow_new_preset">"ค่าล่วงหน้าใหม่"</string>
+	<!---->
+	<string name="filtershow_preset_name">"ชื่อค่าล่วงหน้า"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"ข้อมูล"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"ชื่อภาพ"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"ขนาดภาพ"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"ฮิสโตแกรม"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"ข้อมูล EXIF"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"ค่าล่วงหน้า"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"เวอร์ชั่น"</string>
+	<!---->
+	<string name="filtershow_version_original">"ต้นฉบับ"</string>
+	<!---->
+	<string name="filtershow_version_current">"ปัจจุบัน"</string>
+	<!---->
+	<string name="filtershow_exif_model">"รุ่น"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"รูรับแสง"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"ระยะโฟกัส"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"ระยะห่างของสิ่งที่ถ่าย"</string>
+	<!---->
+	<string name="filtershow_exif_date">"วันที่ถ่าย"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F สตอป"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"เวลารับแสง"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"ลิขสิทธิ์"</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <dimen name="drawlayout_width">338dp</dimen>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-07-08,PR1026718 Begin -->
+    <dimen name="polaroid_content_height">404dp</dimen>
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-07-08,PR1026718 End -->
+</resources>

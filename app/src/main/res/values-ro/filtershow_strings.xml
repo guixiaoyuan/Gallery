@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Editor foto"</string>
+	<!---->
+	<string name="cannot_load_image">"Imaginea nu poate fi încărcată"</string>
+	<!---->
+	<string name="cannot_edit_original">"Modificarea originalului este imposibilă"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"Setarea imaginii de fundal"</string>
+	<!---->
+	<string name="download_failure">"Nu s-a putut descărca imaginea. Reţea indisponibilă."</string>
+	<!---->
+	<string name="original">"Original"</string>
+	<!---->
+	<string name="borders">"Margini"</string>
+	<!---->
+	<string name="custom_border">"Personalizate"</string>
+	<!---->
+	<string name="filtershow_undo">"Anulare"</string>
+	<!---->
+	<string name="filtershow_redo">"Refacere"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Afișați efectele aplicate"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Ascundeți efectele aplicate"</string>
+	<!---->
+	<string name="export_image">"Exportaţi"</string>
+	<!---->
+	<string name="print_image">"Imprimare"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Modificare automată"</string>
+	<!---->
+	<string name="export_flattened">"Exportați imagine simplificată"</string>
+	<!---->
+	<string name="select_output_settings">"Imaginea exportată va fi o copie fără istoricul modificărilor."</string>
+	<!---->
+	<string name="quality">"Calitate"</string>
+	<!---->
+	<string name="size">"Dimensiune"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Setări"</string>
+	<!---->
+	<string name="unsaved">"Există modificări aduse acestei imagini, care nu au fost salvate."</string>
+	<!---->
+	<string name="save_before_exit">"Salvați înainte de a ieși?"</string>
+	<!---->
+	<string name="save_and_exit">"Salvați și ieșiți"</string>
+	<!---->
+	<string name="save_and_processing">"Se procesează imaginea la rezoluție maximă..."</string>
+	<!---->
+	<string name="exit">"Ieşire"</string>
+	<!---->
+	<string name="history">"Istoric"</string>
+	<!---->
+	<string name="reset">"Resetare"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Efecte aplicate"</string>
+	<!---->
+	<string name="compare_original">"Comparare"</string>
+	<!---->
+	<string name="apply_effect">"Aplică"</string>
+	<!---->
+	<string name="reset_effect">"Resetare"</string>
+	<!---->
+	<string name="aspect">"Aspect"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Niciunul"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Personalizată"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Remediat"</string>
+	<!---->
+	<string name="tinyplanet">"Planetă mică"</string>
+	<!---->
+	<string name="exposure">"Expunere"</string>
+	<!---->
+	<string name="sharpness">"Claritate"</string>
+	<!---->
+	<string name="contrast">"Contrast"</string>
+	<!---->
+	<string name="vibrance">"Vibranţă"</string>
+	<!---->
+	<string name="saturation">"Saturaţie"</string>
+	<!---->
+	<string name="bwfilter">"Filtru alb-negru"</string>
+	<!---->
+	<string name="wbalance">"Culoare automată"</string>
+	<!---->
+	<string name="hue">"Nuanţă"</string>
+	<!---->
+	<string name="shadow_recovery">"Umbre"</string>
+	<!---->
+	<string name="highlight_recovery">"Evidenţieri"</string>
+	<!---->
+	<string name="curvesRGB">"Curbe"</string>
+	<!---->
+	<string name="vignette">"Vignetare"</string>
+	<!---->
+	<string name="vignette_main">"Vignetare"</string>
+	<!---->
+	<string name="vignette_exposure">"Expunere"</string>
+	<!---->
+	<string name="vignette_saturation">"Saturaţie"</string>
+	<!---->
+	<string name="vignette_contrast">"Contrast"</string>
+	<!---->
+	<string name="vignette_falloff">"Scăderea luminozității"</string>
+	<!---->
+	<string name="redeye">"Ochi roşii"</string>
+	<!---->
+	<string name="imageDraw">"Trasare"</string>
+	<!---->
+	<string name="straighten">"Îndreptare"</string>
+	<!---->
+	<string name="crop">"Decupaţi"</string>
+	<!---->
+	<string name="rotate">"Rotaţie"</string>
+	<!---->
+	<string name="mirror">"Oglindă"</string>
+	<!---->
+	<string name="negative">"Negativ"</string>
+	<!---->
+	<string name="none">"Niciunul"</string>
+	<!---->
+	<string name="edge">"Margini"</string>
+	<!---->
+	<string name="kmeans">"Posterizare"</string>
+	<!---->
+	<string name="downsample">"Reducere dimensiune"</string>
+	<!---->
+	<string name="grad">"Gradat"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Luminozitate"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Contrast"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Saturaţie"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Principal"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Roşu"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Galben"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Verde"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Bleu"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Albastru"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Magenta"</string>
+	<!---->
+	<string name="editor_grad_style">"Stil"</string>
+	<!---->
+	<string name="editor_grad_new">"Nou"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Roşu"</string>
+	<!---->
+	<string name="curves_channel_green">"Verde"</string>
+	<!---->
+	<string name="curves_channel_blue">"Albastru"</string>
+	<!---->
+	<string name="draw_style">"Stil"</string>
+	<!---->
+	<string name="draw_size">"Dimensiune"</string>
+	<!---->
+	<string name="draw_hue">"Nuanţă"</string>
+	<!---->
+	<string name="draw_saturation">"Saturaţie"</string>
+	<!---->
+	<string name="draw_value">"Luminozitate"</string>
+	<!---->
+	<string name="draw_color">"Culoare"</string>
+	<!---->
+	<string name="draw_style_line">"Linii"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Marcator"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Stropire"</string>
+	<!---->
+	<string name="draw_clear">"Ştergere"</string>
+	<!---->
+	<string name="color_border_size">"Grosime"</string>
+	<!---->
+	<string name="color_border_corner_size">"Dimensiune colț"</string>
+	<!---->
+	<string name="color_border_color">"Culoare"</string>
+	<!---->
+	<string name="color_border_clear">"Goliţi"</string>
+	<!---->
+	<string name="color_pick_select">"Selectați culoarea personalizată"</string>
+	<!---->
+	<string name="color_pick_title">"Selectați culoarea"</string>
+	<!---->
+	<string name="draw_size_title">"Selectaţi dimensiunile"</string>
+	<!---->
+	<string name="draw_size_accept">"OK"</string>
+	<!---->
+	<string name="state_panel_original">"Original"</string>
+	<!---->
+	<string name="state_panel_result">"Rezultat"</string>
+	<!---->
+	<string name="filtershow_notification_label">"Se salvează imaginea"</string>
+	<!---->
+	<string name="filtershow_notification_message">"Se procesează..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Salvați presetarea curentă"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Gestionați presetările utilizatorului"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Presetare nouă"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Nume presetare"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Informații"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Nume imagine"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Dimensiune imagine"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Histogramă"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"Date EXIF"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Presetare"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Versiune"</string>
+	<!---->
+	<string name="filtershow_version_original">"Original"</string>
+	<!---->
+	<string name="filtershow_version_current">"Curentă"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Model"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Diafragmă"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Distanţă focală"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Distanţă față de subiect"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Data realizării"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F Stop"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Timp expunere"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Copyright"</string>
+</resources>

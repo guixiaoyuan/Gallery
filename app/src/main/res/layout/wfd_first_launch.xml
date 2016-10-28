@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--=========================================================================================
+ *                              EDIT HISTORY FOR MODULE
+ *
+ * This section contains comments describing changes made to the module.
+ * Notice that changes are listed in reverse chronological order.
+ *
+ *  when     who        what, where, why
+ *=========================================================================================
+ *14/11/5 | Haoli Zhang | FR-824326, No WiFi Display Extension Mode
+ ==========================================================================================-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:alpha="50"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:src="@drawable/wfd_gesture_tip" />
+
+    <ImageView
+        android:id="@+id/yellow_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_bar_red"
+        android:gravity="top" />
+
+    <TextView
+        android:id="@+id/tip_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="30dip"
+        android:layout_marginTop="140dip"
+        android:gravity="left"
+        android:text="@string/wifi_gesture_tip"
+        android:textColor="#f7b400"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/dismiss_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="35dip"
+        android:layout_marginRight="12dip"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="@string/ok"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>

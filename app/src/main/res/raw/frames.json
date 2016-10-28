@@ -1,0 +1,554 @@
+[
+    {
+        "name": "blank_frmae",
+        "filter": "original",
+        "font": "",
+        "slogan-font-color": "00517C",
+        "slogan-border-color": "FFFFFF",
+        "index": "1",
+        
+        "resources": [
+            {
+                "bg-res-id": "blank_bgframe_1654x1954",
+                "fg-res-id": "blank_fgframe_1654x1954",
+                "target-resolution": { "width": 1654, "height": 1954 },
+                "picture-location": { "left": 107, "top": 122, "right": 1547, "bottom": 1562 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 100.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 55.0
+            },
+            {
+                "bg-res-id": "blank_bgframe_827x977",
+                "fg-res-id": "blank_fgframe_827x977",
+                "target-resolution": { "width": 827, "height": 977 },
+                "picture-location": { "left": 53, "top": 60, "right": 774, "bottom": 782 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 56.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 28.0
+            },
+            {
+                "bg-res-id": "blank_bgframe_165x195",
+                "fg-res-id": "blank_fgframe_165x195",
+                "target-resolution": { "width": 165, "height": 195 },
+                "picture-location": { "left": 10, "top": 12, "right": 155, "bottom": 156 },
+                "slogan-location-center": { "left": 14, "top": 166, "right": 151, "bottom": 183 },
+                "slogan-font-size": 15.0,
+                "slogan-border-size": 0.0
+            }
+        ]
+    },
+
+    {
+        "name": "colorrun",
+        "filter": "original",
+        "font": "",
+        "slogan-font-color": "FFFF00",
+        "slogan-border-color": "808000",
+        "index": "2",
+        
+        "resources": [
+            {
+                "bg-res-id": "colorrun_bgframe_1654x1954",
+                "fg-res-id": "colorrun_fgframe_1654x1954",
+                "target-resolution": { "width": 1654, "height": 1954 },
+                "picture-location": { "left": 107, "top": 122, "right": 1547, "bottom": 1562 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 100.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 55.0
+            },
+            {
+                "bg-res-id": "colorrun_bgframe_827x977",
+                "fg-res-id": "colorrun_fgframe_827x977",
+                "target-resolution": { "width": 827, "height": 977 },
+                "picture-location": { "left": 53, "top": 60, "right": 774, "bottom": 782 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 56.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 28.0
+            },
+            {
+                "bg-res-id": "colorrun_bgframe_165x195",
+                "fg-res-id": "colorrun_fgframe_165x195",
+                "target-resolution": { "width": 165, "height": 195 },
+                "picture-location": { "left": 10, "top": 12, "right": 155, "bottom": 156 },
+                "slogan-location-center": { "left": 14, "top": 166, "right": 151, "bottom": 183 },
+                "slogan-font-size": 15.0,
+                "slogan-border-size": 0.0
+            }
+        ]
+    },
+
+    {
+        "name": "greenpoint",
+        "filter": "original",
+        "font": "samantha_italic_pro",
+        "slogan-font-color": "2F344F",
+        "slogan-border-color": "FFFFFF",
+        "index": "3",
+        
+        "resources": [
+            {
+                "bg-res-id": "greenpoint_bgframe_1654x1954",
+                "fg-res-id": "greenpoint_fgframe_1654x1954",
+                "target-resolution": { "width": 1654, "height": 1954 },
+                "picture-location": { "left": 107, "top": 122, "right": 1547, "bottom": 1562 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 100.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 65.0
+            },
+            {
+                "bg-res-id": "greenpoint_bgframe_827x977",
+                "fg-res-id": "greenpoint_fgframe_827x977",
+                "target-resolution": { "width": 827, "height": 977 },
+                "picture-location": { "left": 53, "top": 60, "right": 774, "bottom": 782 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 56.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 28.0
+            },
+            {
+                "bg-res-id": "greenpoint_bgframe_165x195",
+                "fg-res-id": "greenpoint_fgframe_165x195",
+                "target-resolution": { "width": 165, "height": 195 },
+                "picture-location": { "left": 10, "top": 12, "right": 155, "bottom": 156 },
+                "slogan-font-size": 15.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 9.0
+            }
+        ]
+    },
+
+    {
+        "name": "likeaboss",
+        "filter": "original",
+        "font": "desire_pro",
+        "slogan-font-color": "CE7C0F",
+        "slogan-border-color": "6E460F",
+        "index": "4",
+        
+        "resources": [
+            {
+                "bg-res-id": "likeaboss_bgframe_1654x1954",
+                "fg-res-id": "likeaboss_fgframe_1654x1954",
+                "target-resolution": { "width": 1654, "height": 1954 },
+                "picture-location": { "left": 107, "top": 122, "right": 1547, "bottom": 1562 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size":100.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 65.0
+            },
+            {
+                "bg-res-id": "likeaboss_bgframe_827x977",
+                "fg-res-id": "likeaboss_fgframe_827x977",
+                "target-resolution": { "width": 827, "height": 977 },
+                "picture-location": { "left": 53, "top": 60, "right": 774, "bottom": 782 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 52.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 30.0
+            },
+            {
+                "bg-res-id": "likeaboss_bgframe_165x195",
+                "fg-res-id": "likeaboss_fgframe_165x195",
+                "target-resolution": { "width": 165, "height": 195 },
+                "picture-location": { "left": 10, "top": 12, "right": 155, "bottom": 156 },
+                "slogan-location-center": { "left": 14, "top": 166, "right": 151, "bottom": 183 },
+                "slogan-font-size": 15.0,
+                "slogan-border-size": 0.0
+            }
+        ]
+    }, 
+
+    {
+        "name": "borrego",
+        "filter": "original",
+        "font": "desire_pro",
+        "slogan-font-color": "F2F2F2",
+        "slogan-border-color": "FFFFFF",
+        "index": "5",
+        
+        "resources": [
+            {
+                "bg-res-id": "borrego_bgframe_1654x1954",
+                "fg-res-id": "borrego_fgframe_1654x1954",
+                "target-resolution": { "width": 1654, "height": 1954 },
+                "picture-location": { "left": 107, "top": 122, "right": 1547, "bottom": 1562 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 100.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 65.0
+            },
+            {
+                "bg-res-id": "borrego_bgframe_827x977",
+                "fg-res-id": "borrego_fgframe_827x977",
+                "target-resolution": { "width": 827, "height": 977 },
+                "picture-location": { "left": 53, "top": 60, "right": 774, "bottom": 782 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 52.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 30.0
+            },
+            {
+                "bg-res-id": "borrego_bgframe_165x195",
+                "fg-res-id": "borrego_fgframe_165x195",
+                "target-resolution": { "width": 165, "height": 195 },
+                "picture-location": { "left": 10, "top": 12, "right": 155, "bottom": 156 },
+                "slogan-location-center": { "left": 14, "top": 166, "right": 151, "bottom": 183 },
+                "slogan-font-size": 15.0,
+                "slogan-border-size": 0.0
+            }
+        ]
+    },
+
+    {
+        "name": "trinidad",
+        "filter": "original",
+        "font": "samantha_italic_pro",
+        "slogan-font-color": "3B3634",
+        "slogan-border-color": "FFFFFF",
+        "index": "6",
+        
+        "resources": [
+            {
+                "bg-res-id": "trinidad_bgframe_1654x1954",
+                "fg-res-id": "trinidad_fgframe_1654x1954",
+                "target-resolution": { "width": 1654, "height": 1954 },
+                "picture-location": { "left": 107, "top": 122, "right": 1547, "bottom": 1562 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 100.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 65.0
+            },
+            {
+                "bg-res-id": "trinidad_bgframe_827x977",
+                "fg-res-id": "trinidad_fgframe_827x977",
+                "target-resolution": { "width": 827, "height": 977 },
+                "picture-location": { "left": 53, "top": 60, "right": 774, "bottom": 782 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 56.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 28.0
+            },
+            {
+                "bg-res-id": "trinidad_bgframe_165x195",
+                "fg-res-id": "trinidad_fgframe_165x195",
+                "target-resolution": { "width": 165, "height": 195 },
+                "picture-location": { "left": 10, "top": 12, "right": 155, "bottom": 156 },
+                "slogan-location-center": { "left": 14, "top": 166, "right": 151, "bottom": 183 },
+                "slogan-font-size": 15.0,
+                "slogan-border-size": 0.0
+            }
+        ]
+    },
+
+    {
+        "name": "ruffians",
+        "filter": "original",
+        "font": "desire_pro",
+        "slogan-font-color": "281B13",
+        "slogan-border-color": "FFFFFF",
+        "index": "7",
+        
+        "resources": [
+            {
+                "bg-res-id": "ruffians_bgframe_1654x1954",
+                "fg-res-id": "ruffians_fgframe_1654x1954",
+                "target-resolution": { "width": 1654, "height": 1954 },
+                "picture-location": { "left": 107, "top": 122, "right": 1547, "bottom": 1562 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 100.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 65.0
+            },
+            {
+                "bg-res-id": "ruffians_bgframe_827x977",
+                "fg-res-id": "ruffians_fgframe_827x977",
+                "target-resolution": { "width": 827, "height": 977 },
+                "picture-location": { "left": 53, "top": 60, "right": 774, "bottom": 782 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 52.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 30.0
+            },
+            {
+                "bg-res-id": "ruffians_bgframe_165x195",
+                "fg-res-id": "ruffians_fgframe_165x195",
+                "target-resolution": { "width": 165, "height": 195 },
+                "picture-location": { "left": 10, "top": 12, "right": 155, "bottom": 156 },
+                "slogan-location-center": { "left": 14, "top": 166, "right": 151, "bottom": 183 },
+                "slogan-font-size": 15.0,
+                "slogan-border-size": 0.0
+            }
+        ]
+    },  
+
+    {
+        "name": "bananarama",
+        "filter": "original",
+        "font": "",
+        "slogan-font-color": "473715",
+        "slogan-border-color": "FFFFFF",
+        "index": "8",
+        
+        "resources": [
+            {
+                "bg-res-id": "bananarama_bgframe_1654x1954",
+                "fg-res-id": "bananarama_fgframe_1654x1954",
+                "target-resolution": { "width": 1654, "height": 1954 },
+                "picture-location": { "left": 107, "top": 122, "right": 1547, "bottom": 1562 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 100.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 55.0
+            },
+            {
+                "bg-res-id": "bananarama_bgframe_827x977",
+                "fg-res-id": "bananarama_fgframe_827x977",
+                "target-resolution": { "width": 827, "height": 977 },
+                "picture-location": { "left": 53, "top": 60, "right": 774, "bottom": 782 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 56.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 28.0
+            },
+            {
+                "bg-res-id": "bananarama_bgframe_165x195",
+                "fg-res-id": "bananarama_fgframe_165x195",
+                "target-resolution": { "width": 165, "height": 195 },
+                "picture-location": { "left": 10, "top": 12, "right": 155, "bottom": 156 },
+                "slogan-location-center": { "left": 14, "top": 166, "right": 151, "bottom": 183 },
+                "slogan-font-size": 15.0,
+                "slogan-border-size": 0.0
+            }
+        ]
+    },    
+
+    {
+        "name": "lonepine",
+        "filter": "original",
+        "font": "desire_pro",
+        "slogan-font-color": "67605E",
+        "slogan-border-color": "FFFFFF",
+        "index": "9",
+        
+        "resources": [
+            {
+                "bg-res-id": "lonepine_bgframe_1654x1954",
+                "fg-res-id": "lonepine_fgframe_1654x1954",
+                "target-resolution": { "width": 1654, "height": 1954 },
+                "picture-location": { "left": 107, "top": 122, "right": 1547, "bottom": 1562 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 100.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 65.0
+            },
+            {
+                "bg-res-id": "lonepine_bgframe_827x977",
+                "fg-res-id": "lonepine_fgframe_827x977",
+                "target-resolution": { "width": 827, "height": 977 },
+                "picture-location": { "left": 53, "top": 60, "right": 774, "bottom": 782 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 52.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 30.0
+            },
+            {
+                "bg-res-id": "lonepine_bgframe_165x195",
+                "fg-res-id": "lonepine_fgframe_165x195",
+                "target-resolution": { "width": 165, "height": 195 },
+                "picture-location": { "left": 10, "top": 12, "right": 155, "bottom": 156 },
+                "slogan-location-center": { "left": 14, "top": 166, "right": 151, "bottom": 183 },
+                "slogan-font-size": 15.0,
+                "slogan-border-size": 0.0
+            }
+        ]
+    },
+
+    {
+        "name": "bollocks",
+        "filter": "original",
+        "font": "populaire",
+        "slogan-font-color": "F00067",
+        "slogan-border-color": "FFFFFF",
+        "index": "10",
+        
+        "resources": [
+            {
+                "bg-res-id": "bollocks_bgframe_1654x1954",
+                "fg-res-id": "bollocks_fgframe_1654x1954",
+                "target-resolution": { "width": 1654, "height": 1954 },
+                "picture-location": { "left": 107, "top": 122, "right": 1547, "bottom": 1562 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 100.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 65.0
+            },
+            {
+                "bg-res-id": "bollocks_bgframe_827x977",
+                "fg-res-id": "bollocks_fgframe_827x977",
+                "target-resolution": { "width": 827, "height": 977 },
+                "picture-location": { "left": 53, "top": 60, "right": 774, "bottom": 782 },
+                "slogan-margin": { "left": 5, "top": 20, "right": 5, "bottom": 20 },
+                "slogan-font-size": 56.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 35.0
+            },
+            {
+                "bg-res-id": "bollocks_bgframe_165x195",
+                "fg-res-id": "bollocks_fgframe_165x195",
+                "target-resolution": { "width": 165, "height": 195 },
+                "picture-location": { "left": 10, "top": 12, "right": 155, "bottom": 156 },
+                "slogan-location-center": { "left": 14, "top": 166, "right": 151, "bottom": 183 },
+                "slogan-font-size": 15.0,
+                "slogan-border-size": 0.0
+            }
+        ]
+    },
+
+    {
+        "name": "popart",
+        "filter": "original",
+        "font": "populaire",
+        "slogan-font-color": "262626",
+        "slogan-border-color": "FFFFFF",
+        "index": "11",
+        
+        "resources": [
+            {
+                "bg-res-id": "popart_bgframe_1654x1954",
+                "fg-res-id": "popart_fgframe_1654x1954",
+                "target-resolution": { "width": 1654, "height": 1954 },
+                "picture-location": { "left": 107, "top": 122, "right": 1547, "bottom": 1562 },
+                "slogan-margin": { "left": 20, "top": 105, "right": 20, "bottom": 120 },
+                "slogan-font-size": 90.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 65.0
+            },
+            {
+                "bg-res-id": "popart_bgframe_827x977",
+                "fg-res-id": "popart_fgframe_827x977",
+                "target-resolution": { "width": 827, "height": 977 },
+                "picture-location": { "left": 53, "top": 60, "right": 774, "bottom": 782 },
+                "slogan-margin": { "left": 15, "top": 45, "right": 15, "bottom": 40 },
+                "slogan-font-size": 56.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 35.0
+            },
+            {
+                "bg-res-id": "popart_bgframe_165x195",
+                "fg-res-id": "popart_fgframe_165x195",
+                "target-resolution": { "width": 165, "height": 195 },
+                "picture-location": { "left": 10, "top": 12, "right": 155, "bottom": 156 },
+                "slogan-location-center": { "left": 14, "top": 166, "right": 151, "bottom": 183 },
+                "slogan-font-size": 15.0,
+                "slogan-border-size": 0.0
+            }
+        ]
+    },
+
+    {
+        "name": "hearts",
+        "filter": "original",
+        "font": "samantha_italic_pro",
+        "slogan-font-color": "482207",
+        "slogan-border-color": "FFFFFF",
+        "index": "12",
+        
+        "resources": [
+            {
+                "bg-res-id": "hearts_bgframe_1654x1954",
+                "fg-res-id": "hearts_fgframe_1654x1954",
+                "target-resolution": { "width": 1654, "height": 1954 },
+                "picture-location": { "left": 107, "top": 122, "right": 1547, "bottom": 1562 },
+                "slogan-margin": { "left": 16, "top": 83, "right": 18, "bottom": 105 },
+                "slogan-font-size": 78.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 55.0
+            },
+            {
+                "bg-res-id": "hearts_bgframe_827x977",
+                "fg-res-id": "hearts_fgframe_827x977",
+                "target-resolution": { "width": 827, "height": 977 },
+                "picture-location": { "left": 53, "top": 60, "right": 774, "bottom": 782 },
+                "slogan-margin": { "left": 15, "top": 45, "right": 15, "bottom": 50 },
+                "slogan-font-size": 53.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 28.0
+            },
+            {
+                "bg-res-id": "hearts_bgframe_165x195",
+                "fg-res-id": "hearts_fgframe_165x195",
+                "target-resolution": { "width": 165, "height": 195 },
+                "picture-location": { "left": 10, "top": 12, "right": 155, "bottom": 156 },
+                "slogan-location-center": { "left": 14, "top": 166, "right": 151, "bottom": 183 },
+                "slogan-font-size": 15.0,
+                "slogan-border-size": 0.0
+            }
+        ]
+    },
+
+    {
+        "name": "squarestreet",
+        "filter": "original",
+        "font": "desire_pro",
+        "slogan-font-color": "00517C",
+        "slogan-border-color": "FFFFFF",
+        "index": "13",
+        
+        "resources": [
+            {
+                "bg-res-id": "squarestreet_bgframe_1654x1954",
+                "fg-res-id": "squarestreet_fgframe_1654x1954",
+                "target-resolution": { "width": 1654, "height": 1954 },
+                "picture-location": { "left": 107, "top": 122, "right": 1547, "bottom": 1562 },
+                "slogan-margin": { "left": 15, "top": 80, "right": 15, "bottom": 100 },
+                "slogan-font-size": 100.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 55.0
+            },
+            {
+                "bg-res-id": "squarestreet_bgframe_827x977",
+                "fg-res-id": "squarestreet_fgframe_827x977",
+                "target-resolution": { "width": 827, "height": 977 },
+                "picture-location": { "left": 53, "top": 60, "right": 774, "bottom": 782 },
+                "slogan-margin": { "left": 15, "top": 40, "right": 15, "bottom": 50 },
+                "slogan-font-size": 48.0,
+                "slogan-border-size": 0.0,
+                "tag-font-size": 30.0
+            },
+            {
+                "bg-res-id": "squarestreet_bgframe_165x195",
+                "fg-res-id": "squarestreet_fgframe_165x195",
+                "target-resolution": { "width": 165, "height": 195 },
+                "picture-location": { "left": 10, "top": 12, "right": 155, "bottom": 156 },
+                "slogan-location-center": { "left": 14, "top": 166, "right": 151, "bottom": 183 },
+                "slogan-font-size": 15.0,
+                "slogan-border-size": 0.0
+            }
+        ]
+    },
+
+    {
+        "name": "no_frame",
+        "filter": "original",
+        "font": "",
+        "slogan-font-color": "FFFFFF",
+        "slogan-border-color": "000000",
+        "index": "14",
+        
+        "resources": [
+            {
+                "res-id": "frame_no_frame",
+                "target-resolution": { "width": 900, "height": 900 },
+                "picture-location": { "left": 0, "top": 0, "right": 900, "bottom": 900 },
+                "slogan-font-size": 60.0,
+                "slogan-border-size": 6.0,
+                "tag-font-size": 35.0
+            }
+        ]
+    }
+]

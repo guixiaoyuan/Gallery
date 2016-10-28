@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/no_content_album_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/image_empty_albums"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/img_empty_moments"/>
+
+        <TextView
+            android:id="@+id/text_empty_albums"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_empty_albums"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:alpha="0.38"
+            android:text="@string/no_content"
+            android:textSize="21sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/text_empty_albums"
+            android:layout_marginTop="6dp"
+            android:alpha="0.38"
+            android:text="@string/no_content_description"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/collapse_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/album_margin"
+        android:layout_marginRight="@dimen/album_margin"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+</RelativeLayout>

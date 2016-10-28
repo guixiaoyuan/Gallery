@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"फोटो एडिटर"</string>
+	<!---->
+	<string name="cannot_load_image">"छवि लोड नहीं कर सकता"</string>
+	<!---->
+	<string name="cannot_edit_original">"मूल संपादित नहीं कर सका"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"वॉलपेपर सेट करना"</string>
+	<!---->
+	<string name="download_failure">"फोटो डाउनलोड नहीं कर सका. नेटवर्क अनुपलब्ध."</string>
+	<!---->
+	<string name="original">"मौलिक"</string>
+	<!---->
+	<string name="borders">"बॉर्डर"</string>
+	<!---->
+	<string name="custom_border">"कस्टम"</string>
+	<!---->
+	<string name="filtershow_undo">"पूर्ववत करें"</string>
+	<!---->
+	<string name="filtershow_redo">"फिर से करें"</string>
+	<!---->
+	<string name="show_imagestate_panel">"लागू प्रभावों को दिखाएं"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"लागू प्रभावों को छिपाएं"</string>
+	<!---->
+	<string name="export_image">"निर्यात करें"</string>
+	<!---->
+	<string name="print_image">"प्रिंट करें"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"स्‍वत:-संपादन"</string>
+	<!---->
+	<string name="export_flattened">"फ्लैट की हुई छवि निर्यात करें"</string>
+	<!---->
+	<string name="select_output_settings">"निर्यातित छवि संपादन इतिहास के बिना एक प्रतिलिपि होगी."</string>
+	<!---->
+	<string name="quality">"गुणवत्ता"</string>
+	<!---->
+	<string name="size">"आकार"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"सेटिंग्‍स"</string>
+	<!---->
+	<string name="unsaved">"इस छवि में अनसहेजे बदलाव हैं."</string>
+	<!---->
+	<string name="save_before_exit">"बाहर जाने से पहले सहेजें?"</string>
+	<!---->
+	<string name="save_and_exit">"सहेजें और बाहर जाएं"</string>
+	<!---->
+	<string name="save_and_processing">"पूर्ण रिज़ोल्‍यूशन छवि संसाधित कर रहा..."</string>
+	<!---->
+	<string name="exit">"बाहर जायें"</string>
+	<!---->
+	<string name="history">"इतिहास"</string>
+	<!---->
+	<string name="reset">"रीसेट करें"</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"लागू प्रभाव"</string>
+	<!---->
+	<string name="compare_original">"तुलना करें"</string>
+	<!---->
+	<string name="apply_effect">"लागू करें"</string>
+	<!---->
+	<string name="reset_effect">"रीसेट करें"</string>
+	<!---->
+	<string name="aspect">"आयाम"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"कोई नहीं"</string>
+	<!---->
+	<string name="aspectCustom_effect">"कस्टम"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"निर्धारित"</string>
+	<!---->
+	<string name="tinyplanet">"टाइनी प्‍लैनेट"</string>
+	<!---->
+	<string name="exposure">"एक्‍सपोज़र"</string>
+	<!---->
+	<string name="sharpness">"शार्पनेस"</string>
+	<!---->
+	<string name="contrast">"कंट्रास्‍ट"</string>
+	<!---->
+	<string name="vibrance">"जीवंतता"</string>
+	<!---->
+	<string name="saturation">"सैचुरेशन"</string>
+	<!---->
+	<string name="bwfilter">"BW फिल्‍टर"</string>
+	<!---->
+	<string name="wbalance">"ऑटोकलर"</string>
+	<!---->
+	<string name="hue">"वर्ण"</string>
+	<!---->
+	<string name="shadow_recovery">"छायाएं"</string>
+	<!---->
+	<string name="highlight_recovery">"हाइलाइट"</string>
+	<!---->
+	<string name="curvesRGB">"कर्व"</string>
+	<!---->
+	<string name="vignette">"विन्‍येट"</string>
+	<!---->
+	<string name="vignette_main">"विन्‍येट"</string>
+	<!---->
+	<string name="vignette_exposure">"एक्‍सपोज़र"</string>
+	<!---->
+	<string name="vignette_saturation">"सैचुरेशन"</string>
+	<!---->
+	<string name="vignette_contrast">"कंट्रास्‍ट"</string>
+	<!---->
+	<string name="vignette_falloff">"फॉलऑफ"</string>
+	<!---->
+	<string name="redeye">"रेड आई"</string>
+	<!---->
+	<string name="imageDraw">"बनाएं"</string>
+	<!---->
+	<string name="straighten">"सीधा करें"</string>
+	<!---->
+	<string name="crop">"क्रॉप करें"</string>
+	<!---->
+	<string name="rotate">"घुमाएं"</string>
+	<!---->
+	<string name="mirror">"मिरर"</string>
+	<!---->
+	<string name="negative">"निगेटिव"</string>
+	<!---->
+	<string name="none">"कोई नहीं"</string>
+	<!---->
+	<string name="edge">"किनारे"</string>
+	<!---->
+	<string name="kmeans">"पॉस्‍टेराइज़"</string>
+	<!---->
+	<string name="downsample">"डाउनसैंपल"</string>
+	<!---->
+	<string name="grad">"ग्रेजुएटेड"</string>
+	<!---->
+	<string name="editor_grad_brightness">"स्क्रीन की रोशनी"</string>
+	<!---->
+	<string name="editor_grad_contrast">"कंट्रास्‍ट"</string>
+	<!---->
+	<string name="editor_grad_saturation">"सैचुरेशन"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"मुख्‍य"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"लाल"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"पीला"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"हरा"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"हरिताभ नीला"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"नीला"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"मैजेंटा"</string>
+	<!---->
+	<string name="editor_grad_style">"स्‍टाइल"</string>
+	<!---->
+	<string name="editor_grad_new">"नया"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"लाल"</string>
+	<!---->
+	<string name="curves_channel_green">"हरा"</string>
+	<!---->
+	<string name="curves_channel_blue">"नीला"</string>
+	<!---->
+	<string name="draw_style">"स्‍टाइल"</string>
+	<!---->
+	<string name="draw_size">"आकार"</string>
+	<!---->
+	<string name="draw_hue">"वर्ण"</string>
+	<!---->
+	<string name="draw_saturation">"सैचुरेशन"</string>
+	<!---->
+	<string name="draw_value">"स्क्रीन की रोशनी"</string>
+	<!---->
+	<string name="draw_color">"रंग"</string>
+	<!---->
+	<string name="draw_style_line">"लाइनें"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"मार्कर"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"स्‍पैटर"</string>
+	<!---->
+	<string name="draw_clear">"हटा दें"</string>
+	<!---->
+	<string name="color_border_size">"मोटाई"</string>
+	<!---->
+	<string name="color_border_corner_size">"कॉर्नर का आकार"</string>
+	<!---->
+	<string name="color_border_color">"रंग"</string>
+	<!---->
+	<string name="color_border_clear">"हटा दें"</string>
+	<!---->
+	<string name="color_pick_select">"कस्‍टम रंग चुनें"</string>
+	<!---->
+	<string name="color_pick_title">"रंग चुनें"</string>
+	<!---->
+	<string name="draw_size_title">"आकार चुनें"</string>
+	<!---->
+	<string name="draw_size_accept">"ठीक"</string>
+	<!---->
+	<string name="state_panel_original">"मौलिक"</string>
+	<!---->
+	<string name="state_panel_result">"परिणाम"</string>
+	<!---->
+	<string name="filtershow_notification_label">"छवि सहेज रहा है"</string>
+	<!---->
+	<string name="filtershow_notification_message">"संसाधित कर रहा है..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"वर्तमान प्रीसेट को सहेजें"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"प्रयोक्‍ता प्रीसेट प्रबंधित करें"</string>
+	<!---->
+	<string name="filtershow_new_preset">"नया प्रीसेट"</string>
+	<!---->
+	<string name="filtershow_preset_name">"प्रीसेट नाम"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"सूचना"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"छवि नाम"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"छवि आकार"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"हिस्‍टोग्राम"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"EXIF डेटा"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"प्रीसेट"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"संस्‍करण"</string>
+	<!---->
+	<string name="filtershow_version_original">"मौलिक"</string>
+	<!---->
+	<string name="filtershow_version_current">"वर्तमान"</string>
+	<!---->
+	<string name="filtershow_exif_model">"मॉडल"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"एपर्चर"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"फोकल लेंग्थ"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"विषय की दूरी"</string>
+	<!---->
+	<string name="filtershow_exif_date">"लेने की तिथि"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F रोकें"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"एक्‍सपोज़र समय"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"कॉपीराइट"</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/photo_detail_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:layout_alignParentTop="true"
+        android:elevation="4dp"
+        android:theme="@style/Theme.Gallery.White"
+        android:popupTheme="@android:style/Theme.DeviceDefault.Light.Panel"
+        android:titleTextAppearance="@style/ToolbarTitleAppearance" />
+
+    <com.tct.gallery3d.ui.HackyViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <com.tct.gallery3d.app.view.SmoothImageView
+        android:id="@+id/preview_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_background"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/photopage_actionbar_background"/>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bottom_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/bottom_control_background"
+        android:layout_gravity="center_horizontal|bottom"/>
+
+</FrameLayout>

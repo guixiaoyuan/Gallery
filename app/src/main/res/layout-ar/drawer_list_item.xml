@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+===============================================================================
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|     date   |        Author        |         Key          |     comment       |
+| ***********|**********************|**********************|****************** |
+| 24/1/2015  |     qiang.ding1      |PR907912              |[Arabic][Gallery]Menu display empty.|
+| ********** |**********************|**********************|*******************|
+===============================================================================
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:background="@drawable/selector_list_item">
+
+    <ImageView
+        android:id="@+id/ic"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_menu_camera"
+        android:layout_marginRight="16.5dp" />
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/ic"
+        android:layout_marginRight="33dp"
+        android:fontFamily="sans-medium"
+        android:layout_centerVertical="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:alpha="0.87"/>
+</RelativeLayout>

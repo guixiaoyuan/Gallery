@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"ၿပခန္း"</string>
+	<!---->
+	<string name="gadget_title">"ရုပ်ပုံဘောင်"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"ဗီဒီယိုဖြင့္စက္"</string>
+	<!---->
+	<string name="loading_video">"ဗီဒီယိုဖွင့်နေဆဲ\u2026"</string>
+	<!---->
+	<string name="loading_image">"ရုပ်ပုံဖွင့်နေဆဲ\u2026"</string>
+	<!---->
+	<string name="loading_account">"အကောင့်ဖွင့်နေဆဲ\u2026"</string>
+	<!---->
+	<string name="resume_playing_title">"ဗီဒီယိုေရာက္သည့္ေနရာမွစဖြင့္ပါ"</string>
+	<!---->
+	<string name="resume_playing_message">"%s မွၿပန္ဖြင့္မလား"</string>
+	<!---->
+	<string name="resume_playing_resume">"ၾကည့္ဆဲေနရာမွစဖြင့္ၿခင္း"</string>
+	<!---->
+	<string name="loading">"ဖွင့်နေဆဲ\u2026"</string>
+	<!---->
+	<string name="fail_to_load">"“တင္၍မရႏုိင္ပါ”"</string>
+	<!-- no translation found for fail_trim -->
+	<skip />
+	<!---->
+	<string name="fail_to_load_image">"ရုပ်ပုံကိုမဖွင့်နိုင်ပါ"</string>
+	<!---->
+	<string name="no_thumbnail">"လက်သည်းခွံအရွယ်ရုပ်ပုံမရှိ"</string>
+	<!---->
+	<string name="resume_playing_restart">"အစကၿပန္စပါ"</string>
+	<!---->
+	<string name="crop_save_text">"အိုေက"</string>
+	<!---->
+	<string name="ok">"အုိေက"</string>
+	<!---->
+	<string name="multiface_crop_help">"စတင်ရန် မျက်နှာကို ထိပါ"</string>
+	<!---->
+	<string name="saving_image">"ရုပ်ပုံကို သိမ်းဆည်းနေဆဲ\u2026"</string>
+	<!---->
+	<string name="filtershow_saving_image">"႐ုပ္ပံုကို <xliff:g id="album_name">%1$s</xliff:g> သို႔ သိမ္းေနသည္\u2026"</string>
+	<!---->
+	<string name="save_error">"ဖြတ်တောက်ထားသောရုပ်ပုံကို မသိမ်းဆည်းနိုင်ပါ။"</string>
+	<!---->
+	<string name="crop_label">"ရုပ်ပုံကို ဖြတ်တောက်ပါ"</string>
+	<!---->
+	<string name="trim_label">"ဗီြဒီယိုကို ခ်ဳံ႕ပါ"</string>
+	<!---->
+	<string name="select_image">"ဓာတ်ပုံရွေးချယ်ပါ"</string>
+	<!---->
+	<string name="select_video">"ဗီဒီယိုေရြးခ်ယ္ပါ"</string>
+	<!---->
+	<string name="select_item">"အကြောင်းအရာရွေးချယ်ပါ"</string>
+	<!---->
+	<string name="select_album">"အယ်လ်ဘမ်ရွေးချယ်ပါ"</string>
+	<!---->
+	<string name="select_group">"အုပ္စုေရြးခ်ယ္ပါ"</string>
+	<!---->
+	<string name="set_image">"… အျဖစ္သတ္မွတ္ပါ"</string>
+	<!---->
+	<string name="set_wallpaper">"ဝေါလ်ပေပါအဖြစ်ထားရှိပါ"</string>
+	<!---->
+	<string name="wallpaper">"ဝေါလ်ပေပါအဖြစ်ထားရှိဆဲ\u2026"</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"ဝေါလ်ပေပါ"</string>
+	<!---->
+	<string name="delete">"ဖ်က္ရန္"</string>
+	<!---->
+	<string name="deleting">"ဖျက်နေဆဲ"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"ေရြးခ်ယ္ထားေသာအရာကိုဖ်က္မည္လား?"</item>
+		<item quantity="other">"ေရြးခ်ယ္ထားေသာအရာကိုဖ်က္မည္လား?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"အတည်ပြုရန်"</string>
+	<!---->
+	<string name="cancel">"ပယ္ဖ်က္ရန္"</string>
+	<!---->
+	<string name="share">"မွ်ေ၀ပါ"</string>
+	<!---->
+	<string name="share_panorama">"ျမင္ကြင္းက်ယ္ကို မွ်ေဝပါ"</string>
+	<!---->
+	<string name="share_as_photo">"ဓါတ္ပံုအျဖစ္ မွ်ေဝပါ"</string>
+	<!---->
+	<string name="deleted">"ဖ်က္ရန္"</string>
+	<!---->
+	<string name="undo">"မလုပ်ပါ"</string>
+	<!---->
+	<string name="select_all">"အားလံုးကိုေရြးခ်ယ္ပါ"</string>
+	<!---->
+	<string name="deselect_all">"အားလုံးရွေးချယ်ထားခြင်းကို ပယ်ဖျက်ပါ"</string>
+	<!---->
+	<string name="slideshow">"ဆလိုက္ရိႈး"</string>
+	<!---->
+	<string name="details">"အေသးစိတ္"</string>
+	<!---->
+	<string name="details_title">"အကြောင်းအရာ %2$d ခုရှိ %1$d:"</string>
+	<!---->
+	<string name="close">"ပိတ်ပါ"</string>
+	<!---->
+	<string name="switch_to_camera">"ကင်မရာသို့ပြောင်းပါ"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d ေရြးခ်ယ္ၿပီး"</item>
+		<item quantity="one">"%1$d ေရြးခ်ယ္ၿပီး"</item>
+		<item quantity="other">"%1$d ေရြးခ်ယ္ၿပီး"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d ေရြးခ်ယ္ၿပီး"</item>
+		<item quantity="one">"%1$d ေရြးခ်ယ္ၿပီး"</item>
+		<item quantity="other">"%1$d ေရြးခ်ယ္ၿပီး"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d ေရြးခ်ယ္ၿပီး"</item>
+		<item quantity="one">"%1$d ေရြးခ်ယ္ၿပီး"</item>
+		<item quantity="other">"%1$d ေရြးခ်ယ္ၿပီး"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"မြေပုံတွင်ပြပါ"</string>
+	<!---->
+	<string name="rotate_left">"ဘယ်ဘက်သို့လှည့်ပါ"</string>
+	<!---->
+	<string name="rotate_right">"ညာဘက်သို့လှည့်ပါ"</string>
+	<!---->
+	<string name="no_such_item">"အကြောင်းအရာရှာမတွေ့ပါ။"</string>
+	<!---->
+	<string name="edit">"တည်းဖြတ်ပါ"</string>
+	<!-- no translation found for mix_video -->
+	<skip />
+	<!---->
+	<string name="simple_edit">"သာမန္တည္းျဖတ္"</string>
+	<!---->
+	<string name="process_caching_requests">"ကက်(ရှ်)သိမ်းဆည်းမှုတောင်းဆိုချက်များလုပ်ဆောင်နေဆဲ"</string>
+	<!---->
+	<string name="caching_label">"ကက်(ရှ်)သိမ်းဆည်းနေဆဲ\u2026"</string>
+	<!---->
+	<string name="crop_action">"ဖြတ်တောက်ပါ"</string>
+	<!---->
+	<string name="trim_action">"ခ်ဳံ႕ပါ"</string>
+	<!---->
+	<string name="mute_action">"အသံဖျောက်ပါ"</string>
+	<!---->
+	<string name="set_as">"အဖြစ်ထားရှိပါ"</string>
+	<!---->
+	<string name="video_mute_err">"ဗြီဒီယို အသံပိတ္မရ"</string>
+	<!---->
+	<string name="video_err">"ဗီဒီယိုမဖွင့်နိုင်ပါ။"</string>
+	<!---->
+	<string name="group_by_location">"တည်နေရာအလိုက်"</string>
+	<!---->
+	<string name="group_by_time">"အချိန်အလိုက်"</string>
+	<!---->
+	<string name="group_by_tags">"ပူးတွဲချက်အမည်အလိုက်"</string>
+	<!---->
+	<string name="group_by_faces">"ပုဂ္ဂိုလ်အလိုက်"</string>
+	<!---->
+	<string name="group_by_album">"အယ်လ်ဘမ်အလိုက်"</string>
+	<!---->
+	<string name="group_by_size">"အရွယ်အစားအလိုက်"</string>
+	<!---->
+	<string name="untagged">"ပူးတွဲချက်အမည်မပါသော"</string>
+	<!---->
+	<string name="no_location">"တည်နေရာမရှိ"</string>
+	<!---->
+	<string name="no_connectivity">"အချို့တည်နေရာများကို ကွန်ယက်ပြဿနာများကြောင့် ခွဲခြားသတ်မှတ်၍မရပါ။"</string>
+	<!---->
+	<string name="sync_album_error">"ဤအယ်လ်ဘမ်တွင် ဓာတ်ပုံများ ဒေါင်းလုဒ်လုပ်၍မရပါ။ နောက်မှတစ်ဖန် ကြိုးစားကြည့်ပါ။"</string>
+	<!---->
+	<string name="show_images_only">"ရုပ်ပုံများသာ"</string>
+	<!---->
+	<string name="show_videos_only">"ဗီဒီယိုများသာ"</string>
+	<!---->
+	<string name="show_all">"ရုပ်ပုံနှင့်ဗီဒီယိုများ"</string>
+	<!---->
+	<string name="appwidget_title">"ဓါတ္ပံုၿပခန္း"</string>
+	<!---->
+	<string name="appwidget_empty_text">"ဓါတ္ပံုမရိွပါ"</string>
+	<!---->
+	<string name="crop_saved">"ဖြတ်တောက်ထားသောရုပ်ပုံအား <xliff:g id="folder_name">%s</xliff:g> သို့ သိမ်းဆည်းပြီးဖြစ်သည်။"</string>
+	<!---->
+	<string name="no_albums_alert">"မည်သည့်အယ်လ်ဘမ်မှ မရရှိနိုင်ပါ။"</string>
+	<!-- no translation found for empty_album -->
+	<skip />
+	<!---->
+	<string name="picasa_posts">"တင်ပြချက်များ"</string>
+	<!---->
+	<string name="make_available_offline">"အော့ဖ်လိုင်းတွင်လည်း ရရှိနိုင်စေရန် ပြုလုပ်ပါ"</string>
+	<!---->
+	<string name="sync_picasa_albums">"ပြန်လည်ဆန်းသစ်ပါ"</string>
+	<!---->
+	<string name="done">"ပြီးပြီ"</string>
+	<!---->
+	<string name="sequence_in_set">"အကြောင်းအရာ %2$d ခုရှိ %1$d:"</string>
+	<!---->
+	<string name="title">"ခေါင်းစဉ်"</string>
+	<!---->
+	<string name="description">"ဖော်ပြချက်"</string>
+	<!---->
+	<string name="time">"အချိန်"</string>
+	<!---->
+	<string name="location">"တည်နေရာ"</string>
+	<!---->
+	<string name="path">"လမ်းကြောင်း"</string>
+	<!---->
+	<string name="width">"အကျယ်"</string>
+	<!---->
+	<string name="height">"အမြင့်"</string>
+	<!---->
+	<string name="orientation">"အနေအထား"</string>
+	<!---->
+	<string name="duration">"ကြာချိန်"</string>
+	<!---->
+	<string name="mimetype">"MIME အမျိုးအစား"</string>
+	<!---->
+	<string name="file_size">"ဖိုင်အရွယ်အစား"</string>
+	<!---->
+	<string name="maker">"ပြုလုပ်ချက်"</string>
+	<!---->
+	<string name="model">"မော်ဒယ်"</string>
+	<!---->
+	<string name="flash">"ဖလက်(ရှ်)မီး"</string>
+	<!---->
+	<string name="aperture">"အလင်းဝင်ပေါက်"</string>
+	<!---->
+	<string name="focal_length">"ဆုံချက်အလျား"</string>
+	<!---->
+	<string name="white_balance">"အရှိအတိုင်းအဖြူရောင်အဖြစ်ပေါ်စေခြင်း"</string>
+	<!---->
+	<string name="exposure_time">"အလင်းရောင်နှင့်ထိတွေ့ချိန်"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"မီလီမီတာ"</string>
+	<!---->
+	<string name="manual">"ကိုယ်တိုင်ပြုပြင်ချက်"</string>
+	<!---->
+	<string name="auto">"အလိုအလျောက်"</string>
+	<!---->
+	<string name="flash_on">"ဖလက်(ရှ်)မီးဖွင့်ပြီး"</string>
+	<!---->
+	<string name="flash_off">"ဖလက်(ရှ်)မီးမဖွင့်ထား"</string>
+	<!---->
+	<string name="unknown">"မသိရ"</string>
+	<!---->
+	<string name="ffx_original">"မူလ"</string>
+	<!---->
+	<string name="ffx_vintage">"ဗင္းန္ေတ့ခ်္"</string>
+	<!---->
+	<string name="ffx_instant">"အရန္သင့္"</string>
+	<!---->
+	<string name="ffx_bleach">"အေရာင္ခၽြတ္ထားသည့္ အျဖဴ"</string>
+	<!---->
+	<string name="ffx_blue_crush">"အျပာ"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"B/W"</string>
+	<!---->
+	<string name="ffx_punch">"ေဖာက္ပါ"</string>
+	<!---->
+	<string name="ffx_x_process">"X ျဖစ္စဥ္"</string>
+	<!---->
+	<string name="ffx_washout">"လက္တီ"</string>
+	<!---->
+	<string name="ffx_washout_color">"လစ္တ္ဟို"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"အော့ဖ်လိုင်းတွင်လည်း အယ်လ်ဘမ်ရရှိစေရန် ပြုလုပ်ခြင်း။"</item>
+		<item quantity="other">"အော့ဖ်လိုင်းတွင်လည်း အယ်လ်ဘမ်ရရှိစေရန် ပြုလုပ်ခြင်း။"</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"ဤအကြောင်းအရာအား ဖုန်းတွင်းသိမ်းဆည်းပြီးဖြစ်၍ အော့ဖ်လိုင်းရရှိနိုင်သည်။"</string>
+	<!---->
+	<string name="set_label_all_albums">"အယ်လ်ဘမ်အားလုံး"</string>
+	<!---->
+	<string name="set_label_local_albums">"ဖုန်းတွင်းအယ်လ်ဘမ်များ"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"MTP ပစ္စည်းများ"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Picasa အယ်လ်ဘမ်များ"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="bytes">%s</xliff:g> အလွတ်"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="size">%1$s</xliff:g> သို့မဟုတ် အောက်"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="size">%1$s</xliff:g> သို့မဟုတ် အထက်"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="min_size">%1$s</xliff:g> မှ <xliff:g id="max_size">%2$s</xliff:g> သို့"</string>
+	<!---->
+	<string name="Import">"သွင်းပါ"</string>
+	<!---->
+	<string name="import_complete">"သွင်းခြင်းပြီးဆုံး"</string>
+	<!---->
+	<string name="import_fail">"သွင်းခြင်းမအောင်မြင်ပါ"</string>
+	<!---->
+	<string name="camera_connected">"ကင္မရာခ်ိတ္ဆက္ၿပီး"</string>
+	<!---->
+	<string name="camera_disconnected">"ကင္မရာမခ်ိတ္ဆက္ထားပါ"</string>
+	<!---->
+	<string name="click_import">"သွင်းရန် ဤနေရာကို နှိပ်ပါ"</string>
+	<!---->
+	<string name="widget_type_album">"အယ်လ်ဘမ်ရွေးချယ်ပါ"</string>
+	<!---->
+	<string name="widget_type_shuffle">"ရုပ်ပုံအားလုံးကို ရော၍ဖွင့်ပါ"</string>
+	<!---->
+	<string name="widget_type_photo">"ရုပ်ပုံရွေးချယ်ပါ"</string>
+	<!---->
+	<string name="widget_type">"ရုပ်ပုံများရွေးချယ်ပါ"</string>
+	<!---->
+	<string name="slideshow_dream_name">"ဆလိုက္ရိႈး"</string>
+	<!---->
+	<string name="albums">"အယ်လ်ဘမ်အလိုက်"</string>
+	<!---->
+	<string name="times">"အႀကိမ္"</string>
+	<!---->
+	<string name="locations">"တည်နေရာအလိုက်"</string>
+	<!---->
+	<string name="people">"ပုဂ္ဂိုလ်အလိုက်"</string>
+	<!---->
+	<string name="tags">"ပူးတွဲချက်အမည်အလိုက်"</string>
+	<!---->
+	<string name="group_by">"အုပ်စုဖွဲ့ပါ"</string>
+	<!---->
+	<string name="settings">"အဆင်အပြင်များ"</string>
+	<!---->
+	<string name="add_account">"အကောင်းထပ်ထည့်ရန်"</string>
+	<!---->
+	<string name="folder_camera">"ကင်မရာ"</string>
+	<!---->
+	<string name="folder_download">"ဒေါင်းလုဒ်လုပ်ပါ"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"ျပင္ထားေသာ အြန္လိုင္းဓါတ္ပံုမ်ား"</string>
+	<!---->
+	<string name="folder_imported">"သွင်းပြီး"</string>
+	<!---->
+	<string name="folder_screenshot">"စကရင်အား ဓာတ်ပုံရိုက်ကူးချက်"</string>
+	<!---->
+	<string name="help">"အကူအညီ"</string>
+	<!---->
+	<string name="no_external_storage_title">"မဟုတ္_ျပင္ပ_ေဖာ္ထုတ္ျခင္း_ေခါင္းစဥ္"</string>
+	<!---->
+	<string name="no_external_storage">"အျပင္သိုေလွာင္႐ံုမရႏိုင္ပါ"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"ပုံမ်ားကို ႐ုပ္ရွင္ကဲ့သို႔ျမင္ကြင္း"</string>
+	<!---->
+	<string name="switch_photo_grid">"ဂရစ္ကြက္ျမင္ကြင္း"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"မ်က္ႏွာစာျပည့္ ၾကည့္ျခင္း"</string>
+	<!---->
+	<string name="trimming">"ခ်ဳံ႕ေနသည္"</string>
+	<!---->
+	<string name="muting">"အသံပိတ္ျခင္း"</string>
+	<!---->
+	<string name="please_wait">"ေစာင့္ပါ"</string>
+	<!---->
+	<string name="save_into">"ခ်ဳံ႕ထားေသာဗီြဒီယိုကို အယ္လ္ဘမ္သို႔ သိမ္းေနသည္ -"</string>
+	<!-- no translation found for trim_save_into -->
+	<skip />
+	<!-- no translation found for mute_save_into -->
+	<skip />
+	<!---->
+	<string name="trim_too_short">"မခ်ဳံ႕ႏိုင္ပါ - ရည္ရြယ္ေသာဗြီဒီယိုသည္ အလြန္တိုသည္"</string>
+	<!---->
+	<string name="mute_nosupport">"အသံပိတ္မရ- လက္မခံေသာ ဗြီဒီယို"</string>
+	<!---->
+	<string name="pano_progress_text">"ေပးထားသည့္ ျမင္ကြင္းက်ယ္"</string>
+	<!---->
+	<string name="save">"သိမ်းဆည်းပါ"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"အခ်က္အလက္မ်ား စစ္ေဆး..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d အရာမ်ား စစ္ေဆးၿပီးစီး"</item>
+		<item quantity="one">"%1$d အရာ စစ္ေဆးၿပီးစီး"</item>
+		<item quantity="other">"%1$d အရာမ်ား စစ္ေဆးၿပီးစီး"</item>
+	</plurals>
+	<!-- no translation found for ingest_number_of_items_selected -->
+	<skip />
+	<!---->
+	<string name="ingest_sorting">"ျပန္လည္စီစဥ္…"</string>
+	<!---->
+	<string name="ingest_scanning_done">"စစ္ေဆးမႈၿပီးဆံုး"</string>
+	<!---->
+	<string name="ingest_importing">"သြင္းယူျခင္း…"</string>
+	<!---->
+	<string name="ingest_empty_device">"ဤပစၥည္းသို႔ ထည့္သြင္းႏိုင္ေသာ အေၾကာင္းအရာမ်ား မရွိ။"</string>
+	<!---->
+	<string name="ingest_no_device">"မည္သည့္ MTP ပစၥည္းမွ ခ်ိတ္ဆက္မထား"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"ကင်မရာအမှား"</string>
+	<!---->
+	<string name="cannot_connect_camera">"ကင္မရာကို မခ်ိတ္ဆက္ႏိုင္ပါ။"</string>
+	<!---->
+	<string name="camera_disabled">"လုံခြုံရေးမူဝါဒများကြောင့် ကင်မရာပိတ်ထားသည်။"</string>
+	<!---->
+	<string name="camera_label">"ကင်မရာ"</string>
+	<!---->
+	<string name="wait">"စောင့်ဆိုင်းပါ\u2026"</string>
+	<!---->
+	<string name="review_cancel">"ပယ္ဖ်က္ရန္"</string>
+	<!---->
+	<string name="review_ok">"ပြီးပြီ"</string>
+	<!---->
+	<string name="time_lapse_title">"မွတ္တမ္းတင္ျခင္း ဆိုင္းငံ့သည့္အခ်ိန္"</string>
+	<!---->
+	<string name="pref_camera_id_title">"ကင္မရာေရြးခ်ယ္ပါ"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"ေနာက္သို."</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"အရှေ့"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"သိမ်းဆည်းထားသည့်နေရာ"</string>
+	<!---->
+	<string name="pref_camera_location_label">"တည်နေရာ"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"အၿပီးသတ္ ေရတြက္နာရီ"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"၁ စကၠန္႔"</item>
+		<item quantity="other">"%d စကၠန္႔"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"အၿပီးသတ္ခ်ိန္ ေရတြက္စဥ္ အခ်က္ေပးသံ"</string>
+	<!---->
+	<string name="setting_off">"OFF"</string>
+	<!---->
+	<string name="setting_on">"ON"</string>
+	<!---->
+	<string name="pref_video_quality_title">"ဗီဒီယိုအရည်အသွေး"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"များ"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"နည်း"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"ၾကာခ်ိန္"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"ကင်မရာအဆင်အပြင်များ"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"ကမ္ေကာ္ဒါ ေနရာခ်ထားျခင္းမ်ား"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"ရုပ်ပုံအရွယ်အစား"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"၁၃ မက္ဂါ ဖစ္စယ္"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8M pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5M pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4M pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3M pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2M pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"၂ မက္ဂါ ဖစ္စယ္ (၁၆:၉)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1.3M pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1M pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"ချိန်ရွယ်သည့်ပုံစံ"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"အလိုအလျောက်"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"အဆုံးမရှိ"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"ညွှန်ကြားချက်အစု"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"အလိုအလျောက်"</string>
+	<!-- no translation found for pref_camera_focusmode_label_infinity -->
+	<skip />
+	<!-- no translation found for pref_camera_focusmode_label_macro -->
+	<skip />
+	<!---->
+	<string name="pref_camera_flashmode_title">"ဖလက်ရှ်ပုံစံ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"ဖလက်ရှ်ပုံစံ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"အလိုအလျောက်"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"ON"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"OFF"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"အလင္း အလိုအေလ်ာက္"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"အလင္း ဖြင့္"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"အလင္း ပိတ္"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"အရှိအတိုင်းအဖြူရောင်အဖြစ်ပေါ်စေခြင်း"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"အရှိအတိုင်းအဖြူရောင်အဖြစ်ပေါ်စေခြင်း"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"အလိုအလျောက်"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"အလင္းေရာင္ထြက္ေသာ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"ေန႔အလင္း"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"မီးေခ်ာင္း"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"တိမ်ထူ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"အလိုအလျောက်"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"အလင္းေရာင္ထြက္ေသာ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"ေန႔အလင္း"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"မီးေခ်ာင္း"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"ုတိမ္ထူျခင္း"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"မြင်ကွင်းပုံစံ"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"အလိုအလျောက်"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"လှုပ်ရှားစဉ်"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"ည"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"နေဝင်ချိန်"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"အလင်းမှိန်မှိန်"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"ဘယ်ဟာမျှမဟုတ်ပါ"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"လှုပ်ရှားစဉ်"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"ည"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"နေဝင်ချိန်"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"အလင်းမှိန်မှိန်"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"အၿပီးသတ္ ေရတြက္နာရီ"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"အခ်ိန္ကုန္"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"၁ စကၠန္႔"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 စက္ကန့်"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 စက္ကန့်"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"၁၅စကၠန္."</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"ၿမင္ကြင္းပံုစံတြင္ေရြးခ်ယ္မရပါ"</string>
+	<!---->
+	<string name="pref_exposure_title">"လြန္သြားျခင္း_ေဖာ္ထုတ္ျခင္း_ေခါင္းစဥ္"</string>
+	<!---->
+	<string name="pref_exposure_label">"လြန္သြားျခင္း_ေဖာ္ထုတ္ျခင္း_အညႊန္း"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"ေရွ႕ကင္မရာ"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"ေနာက္ကင္မရာ"</string>
+	<!---->
+	<string name="dialog_ok">"အုိေက"</string>
+	<!---->
+	<string name="video_reach_size_limit">"အရွယ်အစားကန့်သတ်ချက်ပမာဏသို့ ရောက်ရှိ"</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"မြန်လွန်းသည်"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"မြင်ကွင်းကျယ်ပုံစံပြင်ဆင်နေဆဲ"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"မြင်ကွင်းကျယ်ပုံစံသိမ်းဆည်း၍မရပါ။"</string>
+	<!---->
+	<string name="pano_dialog_title">"မြင်ကွင်းကျယ်ပုံစံ"</string>
+	<!---->
+	<string name="pano_capture_indication">"မြင်ကွင်းကျယ်ပုံစံရိုက်ကူးနေဆဲ"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"အေရွ ့တြင္ရိုက္ထားေသာ ပန္ႏုိရားမား ကိုေစာင့္ေနပါသည္။"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"သိမ်းဆည်းနေဆဲ\u2026"</string>
+	<!---->
+	<string name="pano_review_rendering">"ေပးထားသည့္ ျမင္ကြင္းက်ယ္"</string>
+	<!---->
+	<string name="tap_to_focus">"ဆုံချက်ချိန်ရန် ထိပါ"</string>
+	<!---->
+	<string name="pref_video_effect_title">"အထူးပြုလုပ်ချက်များ"</string>
+	<!---->
+	<string name="effect_none">"ဘယ်ဟာမျှမဟုတ်ပါ"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"ကျုံ့စေမည်"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"မ်က္လံုးၾကီး"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"ပါးစပ္ၾကီး"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"ပါးစပ္ေသး"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"ႏွာေခါင္းၾကီး"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"မ်က္္လံုးေသး"</string>
+	<!---->
+	<string name="effect_backdropper_space">"အာကာသထဲ"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"နေဝင်ချိန်"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"သင့္ဗြီဒီယို"</string>
+	<!---->
+	<string name="bg_replacement_message">"စက္ကိုေအာက္သို ့သတ္မွတ္ျခင္း။\nျမင္ကြင္းမွ ေခတၱထြက္ေပးပါ။"</string>
+	<!---->
+	<string name="video_snapshot_hint">"ရိုက်ကူးနေစဉ်ဓာတ်ပုံရိုက်ရန် ထိပါ။"</string>
+	<!---->
+	<string name="video_recording_started">"ဗြီဒီယိုမွတ္တမ္းတင္ စတင္"</string>
+	<!---->
+	<string name="video_recording_stopped">"ဗြီဒီယိုမွတ္တမ္းတင္ ၿပီးဆံုး"</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"အထူးသက်ရောက်မှုများဖွင့်ထားပါက လျှပ်တစ်ပြက်ဗီဒီယိုရိုက်ကူးချက်ကို ပိတ်ထားသည်။"</string>
+	<!---->
+	<string name="clear_effects">"သက်ရောက်မှုများကို ရှင်းလင်းပါ"</string>
+	<!---->
+	<string name="effect_silly_faces">"အူကြောင်ကြောင်မျက်နှာများ"</string>
+	<!---->
+	<string name="effect_background">"နောက်ခံ"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"အလင်းတံခါးခလုတ်"</string>
+	<!---->
+	<string name="accessibility_menu_button">"မီႏူး ခလုတ္"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"နောက်ဆုံးဓာတ်ပုံ"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"ရှေ့နှင့်နောက်ကင်မရာပြောင်းခြင်း"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"ကင်မရာ၊ ဗီဒီယို၊ သို့မဟုတ် မြင်ကွင်းကျယ်ပုံစံရွေးချယ်မှု"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"နောက်ထပ်အဆင်အပြင်ထိန်းချုပ်မှုများ"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"အဆင်အပြင်ထိန်းချုပ်မှုများကို ပိတ်ပါ"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"ချဲ့စက်ထိန်းချုပ်မှု"</string>
+	<!---->
+	<string name="accessibility_decrement">"လျှော့ပါ %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"တိုးပါ %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s စစ္ေဆးမႈ ဇယားကြက္"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"ဓာတ္ပံု သို ့ေျပာင္္းမည္။"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"ဗီြဒီယိုသို႔ ေျပာင္းလဲပါ"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"မြင်ကွင်းကျယ်ပုံစံသို့ ပြောင်းပါ"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"ျမင္ကြင္းက်ယ္ အသစ္သို႔ ေျပာင္းသည္"</string>
+	<!-- no translation found for accessibility_switch_to_refocus -->
+	<skip />
+	<!---->
+	<string name="accessibility_review_cancel">"ဖ်က္ထားျခင္းကို ျပန္ၾကည္႔သည္"</string>
+	<!---->
+	<string name="accessibility_review_ok">"ဆန္းစစ္ျခင္း ၿပီးဆံုး"</string>
+	<!---->
+	<string name="accessibility_review_retake">"ဆန္းစစ္ျခင္း ျပန္လုပ္ေဆာင္"</string>
+	<!---->
+	<string name="accessibility_play_video">"ဗီဒီယိုဖြင့္ပါ"</string>
+	<!---->
+	<string name="accessibility_pause_video">"ဗြီဒီယို ေခတၱရပ္"</string>
+	<!---->
+	<string name="accessibility_reload_video">"ဗြီဒီယို ျပန္စတင္"</string>
+	<!---->
+	<string name="accessibility_time_bar">"ဗြီဒီယိုၾကည့္စက္ အခ်ိန္ဘားတန္း"</string>
+	<!---->
+	<string name="capital_on">"ON"</string>
+	<!---->
+	<string name="capital_off">"OFF"</string>
+	<!---->
+	<string name="gif_err">"gif မျပသႏိုင္ပါ။"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"OFF"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"၀.၅ စကၠန္႔"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"၁ စကၠန္႔"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 စက္ကန့်"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 စက္ကန့်"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 စက္ကန့်"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 စက္ကန့်"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 စက္ကန့်"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 စက္ကန့်"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 စက္ကန့်"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 စက္ကန့်"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"၁၂ စကၠန္႔"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"၁၅စကၠန္."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"၂၄ စကၠန္႔"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"၀.၅ မိနစ္"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"၁ မိနစ္"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"၁.၅ မိနစ္"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"၂မိနစ္"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"၂.၅ မိနစ္"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"၃ မိနစ္"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"၄ မိနစ္"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"၅ မိနစ္"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"၆ မိနစ္"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"၁၀ မိနစ်"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"၁၂ မိနစ္"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"၁၅ မိနစ်"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"၂၄ မိနစ္"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"၀.၅ နာရီ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"၁ နာရီ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"၁.၅ နာရီ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"၂ နာရီ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"၂.၅ နာရီ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"၃ နာရီ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 နာရီ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"၅ နာရီ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 နာရီ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"၁၀ နာရီ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 နာရီ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"၁၅ နာရီ"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"၂၄ နာရီ"</string>
+	<!---->
+	<string name="time_lapse_seconds">"စကၠန္႔"</string>
+	<!---->
+	<string name="time_lapse_minutes">"မိနစ္"</string>
+	<!---->
+	<string name="time_lapse_hours">"နာရီများ"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"ပြီးပြီ"</string>
+	<!---->
+	<string name="set_time_interval">"အခ်ိန္အကြာအေ၀း သတ္မွတ္"</string>
+	<!---->
+	<string name="set_time_interval_help">"အခ်ိန္ပိုင္းျခားမႈ အပိုင္းကို ပိတ္ထား။ အခ်ိန္အကြာအေ၀း သတ္မွတ္ရန္ ၎ကိုဖြင့္ထားပါ။"</string>
+	<!---->
+	<string name="set_timer_help">"အၿပီးသတ္ ေရတြက္နာရီ ပိတ္ထား။ ဓါတ္ပံုမရိုက္မွီ အလိုအေလ်ာက္ အခ်ိန္ေရတြက္ျခင္းကို ဖြင့္ထားပါ။"</string>
+	<!---->
+	<string name="set_duration">"စကၠန္႔ပိုင္း အခ်ိန္အကြာအေ၀း သတ္မွတ္ျခင္း"</string>
+	<!---->
+	<string name="count_down_title_text">"အခ်ိန္အလိုအေလ်ာက္သတ္မွတ္၍ ဓါတ္ပံုရိုက္ျခင္း"</string>
+	<!---->
+	<string name="remember_location_title">"ဓါတ္ပံုတည္ေနရာကို မွတ္မိသလား?"</string>
+	<!---->
+	<string name="remember_location_prompt">"ဓါတ္ပံုမ်ား၊ ဗြီဒီယိုမ်ားကို ရိုက္ကူးခဲ့သည့္ တည္ေနရာမ်ားႏွင့္ စာတန္းထိုးပါ။\n\nသိမ္းဆည္းထားေသာ ရုပ္ပံုမ်ားမွ ၎သတင္းအခ်က္ အလက္တို႔ကို အျခားပရိုဂရမ္မ်ားမွ ျမင္ေတြ႔ႏိုင္သည္။"</string>
+	<!---->
+	<string name="remember_location_no">"မလိုပါ ေက်းဇူး။"</string>
+	<!---->
+	<string name="remember_location_yes">"မှန်"</string>
+	<!---->
+	<string name="menu_camera">"ကင်မရာ"</string>
+	<!---->
+	<string name="menu_search">"ရှာရန်"</string>
+	<!---->
+	<string name="tab_photos">"ဓါတ္ပံုမ်ား"</string>
+	<!---->
+	<string name="tab_albums">"အယ်လ်ဘမ်အလိုက်"</string>
+	<!---->
+	<string name="camera_menu_more_label">"နောက်ထပ်ရွေးစရာများ"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"ဆက္တင္မ်ား"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d ဓါတ္ပံု"</item>
+		<item quantity="other">"%1$d ဓါတ္ပံုမ်ား"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"စာတမ်းထိုးသည်"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"ထိုဗီဒီယိုကို ဤစက်သို့ထုတ်လွှင့်ရန် တရားမဝင်ပါ။"</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"ဤဗီဒီယိုကို မဖွင့်နိုင်ပါ။"</string>
+	<!---->
+	<string name="VideoView_error_button">"အုိေက"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"ဤဗီဒီယိုကို အထောက်အပံ့မပေးပါ။"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"ချိတ်ဆက်မှုမအောင်မြင်ပါ၊ %1$d ကို ပြန်လည်ချိတ်ဆက်ရန် ကြိုးစားပါ…"</string>
+	<!---->
+	<string name="media_controller_connecting">"ချိတ်ဆက်ဆဲ…"</string>
+	<!---->
+	<string name="media_controller_buffering">"ကြားခံထည့်နေသည်%d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"ဆာဗာသို့ မချိတ်ဆက်နိုင်ပါ။"</string>
+	<!---->
+	<string name="media_controller_live">"တိုက်ရိုက်ထုတ်လွှင့်ခြင်း"</string>
+	<!---->
+	<string name="media_controller_playing">"ပြနေသည်"</string>
+	<!-- no translation found for notify_photo_text -->
+	<skip />
+	<!---->
+	<string name="notify_video_text">"ဗီဒီယို ထိန္းခ်ဳပ္စက္"</string>
+	<!-- no translation found for notify_ticker_forwfd_photo -->
+	<skip />
+	<!-- no translation found for notify_ticker_forwfd_video -->
+	<skip />
+	<!---->
+	<string name="wfd_alert">"သတိပေးချက်"</string>
+	<!---->
+	<string name="wfd_change_message">"ဗီဒီယိုု ကို အျခားတစ္ခုျဖင့္ အစားထိုးပါေတာ့မည္။"</string>
+	<!---->
+	<string name="wfd_change_button">"မှန်"</string>
+	<!---->
+	<string name="wfd_not_change_button">"မှား"</string>
+	<!-- no translation found for wfd_show -->
+	<skip />
+	<!-- no translation found for wfd_show_on -->
+	<skip />
+	<!-- no translation found for wfd_show_off -->
+	<skip />
+	<!-- no translation found for wifi_gesture_tip -->
+	<skip />
+	<!---->
+	<string name="popupvideo_notsupport_message">"ပံုစံသည္ အေထာက္အပံ့မျဖစ္ပါ။"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"သတိပေးသည့် ပုံစံ"</string>
+	<!-- no translation found for drm_wifidisplay_message -->
+	<skip />
+	<!---->
+	<string name="drm_wifidisplay_cancel">"တီဗြီလင့္ခ္ ပိတ္ပါ။"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"ဆက်လုပ်ပါ"</string>
+	<!-- no translation found for tv_link_close -->
+	<skip />
+	<!-- no translation found for drm_no_valid_right -->
+	<skip />
+	<!---->
+	<string name="drm_delete_invalid_content">"DRM ဖိုင္ "%s" ကုန္ဆံုးသည္။ ၎ကို ဖ်က္ပစ္ခ်င္ပါသလား။"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"DRM ဖိုင္ "%s" ကုန္ဆံုးသည္။ သင္သည္၎ကိုေသာ့ဖြင့္ခ်င္ပါသလား။"</string>
+	<!---->
+	<string name="unlimited_usage">"အကန္႔အသတ္မရွိသံုးစြဲမႈ"</string>
+	<!-- no translation found for not_available -->
+	<skip />
+	<!---->
+	<string name="use_times">"%s အႀကိမ္မ်ားအသံုးျပဳပါ။"</string>
+	<!---->
+	<string name="valid_after">"ကုန္ဆံုးၿပီးေနာက္"</string>
+	<!---->
+	<string name="valid_until">"တုိင္ေအာင္ၾကာရွည္ခံသည္။"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"ႏွစ္ႀကိမ္ေခါက္၍ ကင္မရာရွိ"</string>
+	<!---->
+	<string name="tips_done">"ပြုလုပ်ပြီးပြီ"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"ဓါတ္ပံုခန္းအတြင္း ျမင္ကြင္း ခ်ဲ႕ရန္/ခ်ဳံ႕ရန္ ႏွစ္ခ်က္တို႔၍ ဆြဲပါ။"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"လက္တစ္ေခ်ာင္းျမင္ကြင္းတစ္ခုအေၾကာင္း ေလ့လာပါ။"</string>
+	<!---->
+	<string name="drm_current_right">"လက္ရိွအကန္႔အသတ္"</string>
+	<!---->
+	<string name="right_url">"URL လိုင္စင္ထုတ္ေပးသူ"</string>
+	<!---->
+	<string name="vendor">"ကုိယ္စားလွယ္-"</string>
+	<!---->
+	<string name="stop">"ရပ်ပါ"</string>
+	<!---->
+	<string name="selectRenderer">"ပေလယာတစ္ခု ေရြးပါ"</string>
+	<!---->
+	<string name="noRenderer">"မည္သည့္ ျပန္လႊဲအပ္သည့္ ကိရိယာမွ် မေတြ႕ႏုိင္"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"TV တြင္ ဗီဒီယို ဖြင့္ျခင္း ရပ္မလား။"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"TV တြင္ ႐ုပ္ပုံ ဖြင့္ျခင္း ရပ္မလား။"</string>
+	<!---->
+	<string name="play_video">"ဗီဒီယိုဖြင့္ပါ"</string>
+	<!---->
+	<string name="shake_video_text">"ဗီဒီယိုမ်က္ႏွာျပင္ကို TV တြင္ ဖြင့္ရန္ သင့္ဖုန္းကို လႈပ္ရမ္းပါ"</string>
+	<!---->
+	<string name="shake_picture_text">"႐ုပ္ပုံမ်က္ႏွာျပင္ကို TV တြင္ ဖြင့္ရန္ သင့္ဖုန္းကို လႈပ္ရမ္းပါ"</string>
+	<!---->
+	<string name="wait_dialog">"ကျေးဇူးပြု၍ စောင့်ပါ"</string>
+	<!---->
+	<string name="toast_nostop">"ဝမ္းနည္းပါတယ္။ TV တြင္ ဖြင့္ျခင္းကို ရပ္လုိပါက သင္သည္ ေဒသတြင္ ပေလယာကို ေရြးသင့္သည္။"</string>
+	<!---->
+	<string name="dlna_format_not_support">"ဖိုင်ပုံစံမှာ အထောက်အပံ့ မပေးထားပါ။"</string>
+	<!-- no translation found for left_title_camera_roll -->
+	<skip />
+	<!-- no translation found for left_title_timeline -->
+	<skip />
+	<!---->
+	<string name="left_title_albums">"အယ်လ်ဘမ်အလိုက်"</string>
+	<!-- no translation found for left_title_videos -->
+	<skip />
+	<!---->
+	<string name="left_title_location">"တည်နေရာအလိုက်"</string>
+	<!-- no translation found for drawer_open -->
+	<skip />
+	<!-- no translation found for drawer_close -->
+	<skip />
+	<!-- no translation found for photo_share -->
+	<skip />
+	<!---->
+	<string name="filtershow_save">"သိမ်းဆည်းပါ"</string>
+	<!---->
+	<string name="filtershow_none">"ဘာမွမရွိ"</string>
+	<!---->
+	<string name="filtershow_frame">"ေဘာင္"</string>
+	<!---->
+	<string name="drm_no_crop">"%s ဖိုင္ကို ျဖတ္ေတာက္ရန္ခြင့္မျပဳပါဘူး။ အဘယ္ေၾကာင့္ဆိုေသာ္ ဖိုင္သည္ DRM ကာကြယ္ထား၍ျဖစ္ပါသည္။."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"ဖိုင္ကို DRM မွ ကာကြယ္ထားေသာေၾကာင့္ ဖိုင္ "%s"ကိုဆက္သြယ္ရန္ အိုင္ကြန္အျဖစ္ တပ္ဆင္ရန္ခြင့္မျပဳပါ။"</string>
+	<!-- no translation found for never_tip -->
+	<skip />
+	<!-- no translation found for three_finger_tips0 -->
+	<skip />
+	<!-- no translation found for three_finger_tips1 -->
+	<skip />
+	<!-- no translation found for three_finger_tips2 -->
+	<skip />
+	<!---->
+	<string name="drm_not_support_wifidisplay">"DRM ဖိုင္(လ္)ကို ဝိုင္-ဖိုင္ ဒစ္(စ္)ပေလး တြင္ မျပသင့္ပါ။"</string>
+	<!-- no translation found for filtershow_save_title -->
+	<skip />
+	<!-- no translation found for filtershow_save_message -->
+	<skip />
+	<!---->
+	<string name="filtershow_save_no_ask">"နောက်တစ်ခါမမေးပါနှင့်"</string>
+	<!-- no translation found for filtershow_save_button_copy -->
+	<skip />
+	<!-- no translation found for filtershow_save_button_overwrite -->
+	<skip />
+	<!-- no translation found for lock_video -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="drm_toast_license_expired">"DRM လိုင်စင် သက်တမ်းကုန်နေပြီ။"</string>
+	<!-- no translation found for drm_protection_status -->
+	<skip />
+	<!-- no translation found for drm_can_forward -->
+	<skip />
+	<!-- no translation found for drm_can_not_forward -->
+	<skip />
+	<!-- no translation found for drm_no_license -->
+	<skip />
+	<!-- no translation found for drm_begin -->
+	<skip />
+	<!-- no translation found for drm_no_limitation -->
+	<skip />
+	<!-- no translation found for drm_end -->
+	<skip />
+	<!-- no translation found for drm_use_left -->
+	<skip />
+	<!-- no translation found for date_taken -->
+	<skip />
+	<!-- no translation found for modified_time -->
+	<skip />
+	<!-- no translation found for fast_forward -->
+	<skip />
+	<!-- no translation found for fast_backward -->
+	<skip />
+	<!-- no translation found for network_reconnected_when_playing -->
+	<skip />
+	<!---->
+	<string name="polaroid_action_open">"ဖွင့်"</string>
+	<!---->
+	<string name="polaroid_action_save">"သိမ်းပါ"</string>
+	<!---->
+	<string name="polaroid_action_send">"ပို့ပါ"</string>
+	<!-- no translation found for polaroid_default_slogan -->
+	<skip />
+	<!-- no translation found for polaroid_saving_picture -->
+	<skip />
+	<!-- no translation found for editor_select_polaroid -->
+	<skip />
+	<!-- no translation found for editor_select_filtershow -->
+	<skip />
+	<!---->
+	<string name="date_tag">"ရက်စွဲ"</string>
+	<!-- no translation found for location_tag -->
+	<skip />
+	<!-- no translation found for slogan_tag -->
+	<skip />
+	<!---->
+	<string name="polaroid_no_location">"တည်နေရာမရှိ"</string>
+	<!-- no translation found for save_iamge_compelete -->
+	<skip />
+	<!-- no translation found for save_image_error -->
+	<skip />
+	<!-- no translation found for dialog_min_image_save_title -->
+	<skip />
+	<!-- no translation found for dialog_min_image_save_message -->
+	<skip />
+	<!-- no translation found for open_with -->
+	<skip />
+	<!-- no translation found for moments_month_view -->
+	<skip />
+	<!-- no translation found for moments_day_view -->
+	<skip />
+	<!-- no translation found for actionbar_menu_text_all -->
+	<skip />
+	<!-- no translation found for actionbar_menu_text_photo -->
+	<skip />
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"ဗီဒီယို"</string>
+	<!-- no translation found for actionbar_menu_text_fyuse -->
+	<skip />
+	<!-- no translation found for burst_mode_delete_message -->
+	<skip />
+	<!-- no translation found for burst_mode_save_message -->
+	<skip />
+	<!---->
+	<string name="burst_overwrite">"ထပ်ရေးရန်"</string>
+	<!-- no translation found for burst_save_as_individual_images -->
+	<skip />
+	<!---->
+	<string name="burst_cancel">"ပယ္ဖ်က္ရန္"</string>
+	<!-- no translation found for burst_delete -->
+	<skip />
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"နှစ်သက်သည်"</string>
+	<!-- no translation found for select -->
+	<skip />
+	<!---->
+	<string name="getstarted">"စတင္ျခင္း"</string>
+	<!-- no translation found for gotit -->
+	<skip />
+	<!-- no translation found for faceshow_start -->
+	<skip />
+	<!-- no translation found for faceshow_takemore -->
+	<skip />
+	<!-- no translation found for selfies -->
+	<skip />
+	<!-- no translation found for parallax -->
+	<skip />
+	<!-- no translation found for trim_title -->
+	<skip />
+	<!-- no translation found for trim_message -->
+	<skip />
+	<!---->
+	<string name="trim_discard">"ဖြတ်ချပါ"</string>
+	<!-- no translation found for main_tab_moments -->
+	<skip />
+	<!-- no translation found for moments_show -->
+	<skip />
+	<!-- no translation found for illegal_image_format -->
+	<skip />
+	<!-- no translation found for exporting_video -->
+	<skip />
+	<!-- no translation found for exporting_message -->
+	<skip />
+	<!-- no translation found for share_save_video -->
+	<skip />
+	<!-- no translation found for share_saved -->
+	<skip />
+	<!-- no translation found for share_save_image -->
+	<skip />
+	<!-- no translation found for share_image_saved -->
+	<skip />
+	<!-- no translation found for location_permission_toast_text -->
+	<skip />
+	<!---->
+	<string name="no_internet_contect_text">"အင်တာနက် ချိတ်ဆက်ခြင်း မရှိပါ"</string>
+	<!---->
+	<string name="more">"နောက်ထပ်"</string>
+	<!-- no translation found for moment_album_today -->
+	<skip />
+	<!---->
+	<string name="moment_album_yesterday">"မနေ့က"</string>
+	<!-- no translation found for location_destination_text -->
+	<skip />
+	<string-array name="month">
+		<!--inherit from default language-->
+		<item>"January"</item>
+		<!--inherit from default language-->
+		<item>"February"</item>
+		<!--inherit from default language-->
+		<item>"March"</item>
+		<!--inherit from default language-->
+		<item>"April"</item>
+		<!--inherit from default language-->
+		<item>"May"</item>
+		<!--inherit from default language-->
+		<item>"June"</item>
+		<!--inherit from default language-->
+		<item>"July"</item>
+		<!--inherit from default language-->
+		<item>"August"</item>
+		<!--inherit from default language-->
+		<item>"September"</item>
+		<!--inherit from default language-->
+		<item>"October"</item>
+		<!--inherit from default language-->
+		<item>"November"</item>
+		<!--inherit from default language-->
+		<item>"December"</item>
+	</string-array>
+	<!-- no translation found for permission_location_text -->
+	<skip />
+	<!-- no translation found for permission_location_settings -->
+	<skip />
+	<!-- no translation found for boom_key_tip_1 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_2 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_3 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_4 -->
+	<skip />
+	<!---->
+	<string name="tx_skip">"ခုန်ကျော်ရန်"</string>
+	<!---->
+	<string name="tx_done">"လုပ်ပြီး"</string>
+	<!-- no translation found for boom_key -->
+	<skip />
+	<!-- no translation found for press -->
+	<skip />
+	<!-- no translation found for not_support_parallax_share -->
+	<skip />
+	<!-- no translation found for permissions_hi -->
+	<skip />
+	<!-- no translation found for not_support_video_edit -->
+	<skip />
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/seekbarvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekbar"
+        android:background="@drawable/seekbar_up_text"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="test"
+        android:textColor="#ffffff" />
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-03-06,PR929635 Begin -->
+    <SeekBar
+        android:id="@+id/seekbar"
+        style="@style/CustomSeekBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="8dp"
+        android:gravity="center" />
+    <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-03-06,PR929635 End -->
+</RelativeLayout>

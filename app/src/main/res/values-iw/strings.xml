@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"גלריה"</string>
+	<!---->
+	<string name="gadget_title">"מסגרת תמונה"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"נגן סרטוני וידאו"</string>
+	<!---->
+	<string name="loading_video">"טוען וידאו…"</string>
+	<!---->
+	<string name="loading_image">"טוען תמונה…"</string>
+	<!---->
+	<string name="loading_account">"טוען חשבון..."</string>
+	<!---->
+	<string name="resume_playing_title">"המשך את הקרנת סרטון הווידאו"</string>
+	<!---->
+	<string name="resume_playing_message">"להמשיך להפעיל מ-%s ?"</string>
+	<!---->
+	<string name="resume_playing_resume">"המשך את ההפעלה"</string>
+	<!---->
+	<string name="loading">"טוען..."</string>
+	<!---->
+	<string name="fail_to_load">"לא ניתן להעלות"</string>
+	<!---->
+	<string name="fail_trim">"לצערנו, לא ניתן לחתוך קובץ וידיאו זה."</string>
+	<!---->
+	<string name="fail_to_load_image">"לא היתה אפשרות לטעון את התמונה"</string>
+	<!---->
+	<string name="no_thumbnail">"ללא תמונה ממוזערת"</string>
+	<!---->
+	<string name="resume_playing_restart">"התחל מחדש"</string>
+	<!---->
+	<string name="crop_save_text">"אישור"</string>
+	<!---->
+	<string name="ok">"אישור"</string>
+	<!---->
+	<string name="multiface_crop_help">"גע בפנים כלשהם כדי להתחיל"</string>
+	<!---->
+	<string name="saving_image">"שומר תמונה..."</string>
+	<!---->
+	<string name="filtershow_saving_image">"שומר תמונה ב-<xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="save_error">"לא ניתן לשמור את התמונה החתוכה."</string>
+	<!---->
+	<string name="crop_label">"חתוך תמונה"</string>
+	<!---->
+	<string name="trim_label">"חיתוך וידאו"</string>
+	<!---->
+	<string name="select_image">"בחר תמונה"</string>
+	<!---->
+	<string name="select_video">"בחר סרטון"</string>
+	<!---->
+	<string name="select_item">"בחר פריט"</string>
+	<!---->
+	<string name="select_album">"בחר אלבום"</string>
+	<!---->
+	<string name="select_group">"בחר קבוצה"</string>
+	<!---->
+	<string name="set_image">"קבע כ&#8230;"</string>
+	<!---->
+	<string name="set_wallpaper">"הגדר טפט"</string>
+	<!---->
+	<string name="wallpaper">"מגדיר טפט..."</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"טפט"</string>
+	<!---->
+	<string name="delete">"מחק"</string>
+	<!---->
+	<string name="deleting">"מוחק"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"האם למחוק את הפריט שנבחר?"</item>
+		<item quantity="other">"האם למחוק את הפריטים שנבחרו?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"אשר"</string>
+	<!---->
+	<string name="cancel">"ביטול"</string>
+	<!---->
+	<string name="share">"שיתוף"</string>
+	<!---->
+	<string name="share_panorama">"שתף פנורמה"</string>
+	<!---->
+	<string name="share_as_photo">"שתף כצילום"</string>
+	<!---->
+	<string name="deleted">"נמחק"</string>
+	<!---->
+	<string name="undo">"בטל פעולה"</string>
+	<!---->
+	<string name="select_all">"בחר הכול"</string>
+	<!---->
+	<string name="deselect_all">"בטל בחירה של הכל"</string>
+	<!---->
+	<string name="slideshow">"מצגת"</string>
+	<!---->
+	<string name="details">"פרטים"</string>
+	<!---->
+	<string name="details_title">"%1$d מתוך %2$d פריטים:"</string>
+	<!---->
+	<string name="close">"סגור"</string>
+	<!---->
+	<string name="switch_to_camera">"עבור למצלמה"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d נבחרו"</item>
+		<item quantity="one">"%1$d נבחר"</item>
+		<item quantity="other">"%1$d נבחרו"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d נבחרו"</item>
+		<item quantity="one">"%1$d נבחר"</item>
+		<item quantity="other">"%1$d נבחרו"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d נבחרו"</item>
+		<item quantity="one">"%1$d נבחרו"</item>
+		<item quantity="other">"%1$d נבחרו"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"הצג במפה"</string>
+	<!---->
+	<string name="rotate_left">"סובב שמאלה"</string>
+	<!---->
+	<string name="rotate_right">"סובב ימינה"</string>
+	<!---->
+	<string name="no_such_item">"הפריט לא נמצא."</string>
+	<!---->
+	<string name="edit">"ערוך"</string>
+	<!-- no translation found for mix_video -->
+	<skip />
+	<!---->
+	<string name="simple_edit">"עריכה פשוטה"</string>
+	<!---->
+	<string name="process_caching_requests">"מעבד בקשות העברה למטמון"</string>
+	<!---->
+	<string name="caching_label">"מעביר למטמון..."</string>
+	<!---->
+	<string name="crop_action">"חתוך"</string>
+	<!---->
+	<string name="trim_action">"חיתוך"</string>
+	<!---->
+	<string name="mute_action">"השתק"</string>
+	<!---->
+	<string name="set_as">"הגדר בתור"</string>
+	<!---->
+	<string name="video_mute_err">"לא ניתן להשתיק את הווידיאו."</string>
+	<!---->
+	<string name="video_err">"לא ניתן להפעיל את סרטון הווידאו."</string>
+	<!---->
+	<string name="group_by_location">"לפי מיקום"</string>
+	<!---->
+	<string name="group_by_time">"לפי שעה"</string>
+	<!---->
+	<string name="group_by_tags">"לפי תגים"</string>
+	<!---->
+	<string name="group_by_faces">"לפי אנשים"</string>
+	<!---->
+	<string name="group_by_album">"לפי אלבום"</string>
+	<!---->
+	<string name="group_by_size">"לפי גודל"</string>
+	<!---->
+	<string name="untagged">"ללא תג"</string>
+	<!---->
+	<string name="no_location">"ללא מיקום"</string>
+	<!---->
+	<string name="no_connectivity">"לא ניתן לזהות מיקומים מסוימים בשל בעיות ברשת."</string>
+	<!---->
+	<string name="sync_album_error">"הורדת התמונות לאלבום זה נכשלה. נסה שוב מאוחר יותר."</string>
+	<!---->
+	<string name="show_images_only">"תמונות בלבד"</string>
+	<!---->
+	<string name="show_videos_only">"סרטונים בלבד"</string>
+	<!---->
+	<string name="show_all">"תמונות וסרטונים"</string>
+	<!---->
+	<string name="appwidget_title">"גלריית תמונות"</string>
+	<!---->
+	<string name="appwidget_empty_text">"אין תמונות."</string>
+	<!---->
+	<string name="crop_saved">"התמונה שנחתכה נשמרה ב-<xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+	<!---->
+	<string name="no_albums_alert">"אין אלבומים זמינים"</string>
+	<!-- no translation found for empty_album -->
+	<skip />
+	<!---->
+	<string name="picasa_posts">"פוסטים"</string>
+	<!---->
+	<string name="make_available_offline">"הפוך לזמין במצב לא מקוון"</string>
+	<!---->
+	<string name="sync_picasa_albums">"רענן"</string>
+	<!---->
+	<string name="done">"סיום"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d מתוך %2$d פריטים:"</string>
+	<!---->
+	<string name="title">"כותרת"</string>
+	<!---->
+	<string name="description">"תיאור"</string>
+	<!---->
+	<string name="time">"שעה"</string>
+	<!---->
+	<string name="location">"מיקום"</string>
+	<!---->
+	<string name="path">"נתיב"</string>
+	<!---->
+	<string name="width">"רוחב"</string>
+	<!---->
+	<string name="height">"גובה"</string>
+	<!---->
+	<string name="orientation">"כיוון"</string>
+	<!---->
+	<string name="duration">"משך"</string>
+	<!---->
+	<string name="mimetype">"סוג MIME"</string>
+	<!---->
+	<string name="file_size">"גודל הקובץ"</string>
+	<!---->
+	<string name="maker">"יוצר"</string>
+	<!---->
+	<string name="model">"דגם"</string>
+	<!---->
+	<string name="flash">"פלאש"</string>
+	<!---->
+	<string name="aperture">"צמצם"</string>
+	<!---->
+	<string name="focal_length">"רוחק מוקד"</string>
+	<!---->
+	<string name="white_balance">"איזון לבן"</string>
+	<!---->
+	<string name="exposure_time">"זמן חשיפה"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"מ\"מ"</string>
+	<!---->
+	<string name="manual">"ידנית"</string>
+	<!---->
+	<string name="auto">"אוטומטי"</string>
+	<!---->
+	<string name="flash_on">"צילום עם פלאש"</string>
+	<!---->
+	<string name="flash_off">"ללא פלאש"</string>
+	<!---->
+	<string name="unknown">"לא ידוע"</string>
+	<!---->
+	<string name="ffx_original">"מקורי"</string>
+	<!---->
+	<string name="ffx_vintage">"ווינטג\'"</string>
+	<!---->
+	<string name="ffx_instant">"מיידי"</string>
+	<!---->
+	<string name="ffx_bleach">"הלבנה"</string>
+	<!---->
+	<string name="ffx_blue_crush">"כחול"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"שחור לבן"</string>
+	<!---->
+	<string name="ffx_punch">"נקב"</string>
+	<!---->
+	<string name="ffx_x_process">"תהליך X"</string>
+	<!---->
+	<string name="ffx_washout">"לטה"</string>
+	<!---->
+	<string name="ffx_washout_color">"ליתו"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"הופך את האלבום לזמין במצב לא מקוון."</item>
+		<item quantity="other">"הופך את האלבומים לזמינים באופן לא מקוון."</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"פריט זה מאוחסן באופן מקומי וזמין במצב לא מקוון."</string>
+	<!---->
+	<string name="set_label_all_albums">"כל האלבומים"</string>
+	<!---->
+	<string name="set_label_local_albums">"אלבומים מקומיים"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"מכשירי MTP"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"אלבומי Google"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="BYTES">%s</xliff:g> של שטח פנוי"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="SIZE">%1$s</xliff:g> ומטה"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="SIZE">%1$s</xliff:g> ומעלה"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> עד <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"ייבא"</string>
+	<!---->
+	<string name="import_complete">"היבוא הושלם"</string>
+	<!---->
+	<string name="import_fail">"הייבוא נכשל"</string>
+	<!---->
+	<string name="camera_connected">"יש מצלמה מחוברת."</string>
+	<!---->
+	<string name="camera_disconnected">"המצלמה מנותקת."</string>
+	<!---->
+	<string name="click_import">"גע כאן כדי לייבא"</string>
+	<!---->
+	<string name="widget_type_album">"בחר אלבום"</string>
+	<!---->
+	<string name="widget_type_shuffle">"ערבב את כל התמונות"</string>
+	<!---->
+	<string name="widget_type_photo">"בחר תמונה"</string>
+	<!---->
+	<string name="widget_type">"בחר תמונות"</string>
+	<!---->
+	<string name="slideshow_dream_name">"מצגת"</string>
+	<!---->
+	<string name="albums">"אלבומים"</string>
+	<!---->
+	<string name="times">"פעמים"</string>
+	<!---->
+	<string name="locations">"מיקומים"</string>
+	<!---->
+	<string name="people">"אנשים"</string>
+	<!---->
+	<string name="tags">"תגים"</string>
+	<!---->
+	<string name="group_by">"קבץ לפי"</string>
+	<!---->
+	<string name="settings">"הגדרות"</string>
+	<!---->
+	<string name="add_account">"הוסף חשבון"</string>
+	<!---->
+	<string name="folder_camera">"מצלמה"</string>
+	<!---->
+	<string name="folder_download">"הורד"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"צילומים ערוכים מקוונים"</string>
+	<!---->
+	<string name="folder_imported">"מיובא"</string>
+	<!---->
+	<string name="folder_screenshot">"לכידת מסך"</string>
+	<!---->
+	<string name="help">"עזרה"</string>
+	<!---->
+	<string name="no_external_storage_title">"אין אחסון"</string>
+	<!---->
+	<string name="no_external_storage">"איחסון חיצוני אינו זמין"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"תצוגת סרט צילום"</string>
+	<!---->
+	<string name="switch_photo_grid">"תצוגת סריג"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"תצוגה על מסך מלא"</string>
+	<!---->
+	<string name="trimming">"חותך"</string>
+	<!---->
+	<string name="muting">"משתיק"</string>
+	<!---->
+	<string name="please_wait">"אנא המתן"</string>
+	<!---->
+	<string name="save_into">"שומר וידיאו ב-<xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!-- no translation found for trim_save_into -->
+	<skip />
+	<!-- no translation found for mute_save_into -->
+	<skip />
+	<!---->
+	<string name="trim_too_short">"לא יכול לחתוך: הוידאו קצר מדי"</string>
+	<!---->
+	<string name="mute_nosupport">"לא ניתן להשתיק: הווידיאו לא נתמך"</string>
+	<!---->
+	<string name="pano_progress_text">"מייצר פנורמה"</string>
+	<!---->
+	<string name="save">"שמור"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"סורק תוכן..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d פריטים נסרקו"</item>
+		<item quantity="one">"פריט %1$d נסרק"</item>
+		<item quantity="other">"%1$d פריטים נסרקו"</item>
+	</plurals>
+	<!-- no translation found for ingest_number_of_items_selected -->
+	<skip />
+	<!---->
+	<string name="ingest_sorting">"ממיין..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"הסריקה הושלמה"</string>
+	<!---->
+	<string name="ingest_importing">"מייבא..."</string>
+	<!---->
+	<string name="ingest_empty_device">"אין תוכן זמין לייבוא במכשיר זה."</string>
+	<!---->
+	<string name="ingest_no_device">"לא מחובר מכשיר MTP"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"שגיאת מצלמה"</string>
+	<!---->
+	<string name="cannot_connect_camera">"לא ניתן להתחבר למצלמה."</string>
+	<!---->
+	<string name="camera_disabled">"המצלמה הושבתה בשל מדיניות אבטחה."</string>
+	<!---->
+	<string name="camera_label">"מצלמה"</string>
+	<!---->
+	<string name="wait">"המתן..."</string>
+	<!---->
+	<string name="review_cancel">"ביטול"</string>
+	<!---->
+	<string name="review_ok">"הסתיים"</string>
+	<!---->
+	<string name="time_lapse_title">"הקלטה של מעבר זמן"</string>
+	<!---->
+	<string name="pref_camera_id_title">"בחר מצלמה"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"חזרה"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"קדמית"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"מיקום אחסון"</string>
+	<!---->
+	<string name="pref_camera_location_label">"מיקום"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"טיימר ספירה לאחור"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"שניה"</item>
+		<item quantity="other">"%d שניות"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"צפצף במהלך הספירה לאחור"</string>
+	<!---->
+	<string name="setting_off">"כבוי"</string>
+	<!---->
+	<string name="setting_on">"פועל"</string>
+	<!---->
+	<string name="pref_video_quality_title">"איכות וידיאו"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"גבוהה"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"נמוכה"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"הקלטה של מעבר זמן"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"הגדרות מצלמה"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"הגדרות מצלמת וידיאו"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"גודל תמונה"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13M פיקסלים"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8 מ.פיקסל"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5 מגה פיקסלים"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4M פיקסל"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3 מגה פיקסלים"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2 מגה פיקסלים"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2M פיקסלים (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1.3 מגה פיקסלים"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"מגה פיקסל אחד"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"מצב מיקוד"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"אוטומטי"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"אינסוף"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"מאקרו"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"אוטומטי"</string>
+	<!-- no translation found for pref_camera_focusmode_label_infinity -->
+	<skip />
+	<!-- no translation found for pref_camera_focusmode_label_macro -->
+	<skip />
+	<!---->
+	<string name="pref_camera_flashmode_title">"מצב Flash"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"מצב Flash"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"אוטומטי"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"פועל"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"כבוי"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"מבזק אוטומטי"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"מבזק מופעל"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"מבזק כבוי"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"איזון לבן"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"איזון לבן"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"אוטומטי"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"להט"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"אור יום"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"פלואורוסצנט"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"מעונן"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"אוטומטי"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"להט"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"אור יום"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"פלואורוסצנט"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"מעונן"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"מצב סצנה"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"אוטומטי"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"פעולה"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"לילה"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"שקיעה"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"מסיבה"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"ללא"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"פעולה"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"לילה"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"שקיעה"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"מסיבה"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"טיימר ספירה לאחור"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"טיימר כבוי"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"שניה"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 שניות"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 שניות"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 שניות"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"לא ניתן לבחירה במצב נוף."</string>
+	<!---->
+	<string name="pref_exposure_title">"חשיפה"</string>
+	<!---->
+	<string name="pref_exposure_label">"חשיפה"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"מצלמה קדמית"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"מצלמה אחורית"</string>
+	<!---->
+	<string name="dialog_ok">"אישור"</string>
+	<!---->
+	<string name="video_reach_size_limit">"הגעה למגבלת הגודל."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"מהר מדי"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"מכין פנורמה"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"לא ניתן לשמור את הפנורמה."</string>
+	<!---->
+	<string name="pano_dialog_title">"פנורמה"</string>
+	<!---->
+	<string name="pano_capture_indication">"מבצע צילום פנורמה"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"ממתין לפנורמה הקודמת"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"שומר…"</string>
+	<!---->
+	<string name="pano_review_rendering">"יוצר פנורמה"</string>
+	<!---->
+	<string name="tap_to_focus">"גע כדי להתמקד"</string>
+	<!---->
+	<string name="pref_video_effect_title">"אפקטים"</string>
+	<!---->
+	<string name="effect_none">"לא"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"לסחוט"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"עיניים גדולות"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"פה גדול"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"פה קטן"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"אף גדול"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"עיניים קטנות"</string>
+	<!---->
+	<string name="effect_backdropper_space">"במקום"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"שקיעה"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"הווידאו שלך"</string>
+	<!---->
+	<string name="bg_replacement_message">"הנח את המכשיר."\n"צא לרגע מהתמונה."</string>
+	<!---->
+	<string name="video_snapshot_hint">"צלם תמונה במהלך הקלטת סרטון וידאו על ידי נגיעה במסך התצוגה המקדימה."</string>
+	<!---->
+	<string name="video_recording_started">"הקלטת וידיאו החלה."</string>
+	<!---->
+	<string name="video_recording_stopped">"הקלטת וידיאו נפסקה."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"האפשרות לצילום תמונה מסרטון וידאו מושבתת כאשר אפקטים מיוחדים מופעלים."</string>
+	<!---->
+	<string name="clear_effects">"נקה אפקטים"</string>
+	<!---->
+	<string name="effect_silly_faces">"פרצופים מצחיקים"</string>
+	<!---->
+	<string name="effect_background">"רקע"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"לחצן הצמצם."</string>
+	<!---->
+	<string name="accessibility_menu_button">"לחצן תפריט"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"התמונה האחרונה"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"מתג המצלמה הקדמית והאחורית"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"בורר מצב מצלמה, וידאו או פנורמה"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"פקדי הגדרות נוספות"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"סגור פקדי הגדרה"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"פקד \'הגדל/הקטן\'"</string>
+	<!---->
+	<string name="accessibility_decrement">"הקטן %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"הגדל %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"תיבת סימון %1$s"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"עבור לצילום תמונות"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"עבור לווידאו"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"עבור למצב פנורמה"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"עבור לפנורמה חדשה"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"עבור למיקוד מחדש"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"ביטול בדיקה"</string>
+	<!---->
+	<string name="accessibility_review_ok">"הסקירה בוצעה"</string>
+	<!---->
+	<string name="accessibility_review_retake">"בצע סקירה מחדש"</string>
+	<!---->
+	<string name="accessibility_play_video">"נגן וידיאו"</string>
+	<!---->
+	<string name="accessibility_pause_video">"השהה וידיאו"</string>
+	<!---->
+	<string name="accessibility_reload_video">"טען וידיאו מחדש"</string>
+	<!---->
+	<string name="accessibility_time_bar">"סרגל זמן של נגן הווידיאו"</string>
+	<!---->
+	<string name="capital_on">"פועל"</string>
+	<!---->
+	<string name="capital_off">"כבוי"</string>
+	<!---->
+	<string name="gif_err">"לא ניתן להציג GIF."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"כבוי"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0.5 שניות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"שניה"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1.5 שניות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 שניות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2.5 שניות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 שניות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 שניות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 שניות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 שניות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 שניות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 שניות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 שניות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 שניות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0.5 דקות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"דקה אחת"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 דקות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 דקות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 דקות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 דקות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 דקות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"חמש דקות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 דקות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"עשר דקות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 דקות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 דקות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 דקות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0.5 שעה"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"שעה"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1.5 שעות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"שעתיים"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 שעות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 שעות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 שעות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 שעות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 שעות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 שעות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 שעות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 שעות"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 שעות"</string>
+	<!---->
+	<string name="time_lapse_seconds">"שניות"</string>
+	<!---->
+	<string name="time_lapse_minutes">"דקות"</string>
+	<!---->
+	<string name="time_lapse_hours">"שעות"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"סיום"</string>
+	<!---->
+	<string name="set_time_interval">"קבע מרווח זמן"</string>
+	<!---->
+	<string name="set_time_interval_help">"תכונת מעבר זמן כבויה. הפעל אותה כדי לקבוע מרווח זמן."</string>
+	<!---->
+	<string name="set_timer_help">"טיימר הספירה לאחור כבוי. הפעל אותו כדי לספור לאחור לפני צילום תמונה."</string>
+	<!---->
+	<string name="set_duration">"קבע משך בשניות"</string>
+	<!---->
+	<string name="count_down_title_text">"סופר לאחור לצילום תמונה"</string>
+	<!---->
+	<string name="remember_location_title">"האם לזכור מיקומי צילום?"</string>
+	<!---->
+	<string name="remember_location_prompt">"תייג את קובצי התמונות והווידיאו שלך במיקומים שבהם צולמו.\n\nיישומים אחרים יכולים לגשת למידע זה יחד עם התמונות השמורות שברשותך."</string>
+	<!---->
+	<string name="remember_location_no">"לא, תודה"</string>
+	<!---->
+	<string name="remember_location_yes">"כן"</string>
+	<!---->
+	<string name="menu_camera">"מצלמה"</string>
+	<!---->
+	<string name="menu_search">"חיפוש"</string>
+	<!---->
+	<string name="tab_photos">"תמונות"</string>
+	<!---->
+	<string name="tab_albums">"אלבומים"</string>
+	<!---->
+	<string name="camera_menu_more_label">"אפשרויות נוספות"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"הגדרות"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"תמונה %1$d"</item>
+		<item quantity="other">"%1$d תמונות"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"כתובית"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"סרטון זה אינו חוקי להעברה כמדיה זורמת למכשיר זה."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"לא ניתן להפעיל סרטון זה."</string>
+	<!---->
+	<string name="VideoView_error_button">"אישור"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"וידיאו זה אינו נתמך"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"החיבור נכשל. מנסה להתחבר שוב ל-%1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"מתחבר..."</string>
+	<!---->
+	<string name="media_controller_buffering">"אוגר %d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"אין אפשרות להתחבר לשרת"</string>
+	<!---->
+	<string name="media_controller_live">"חי"</string>
+	<!---->
+	<string name="media_controller_playing">"משחק"</string>
+	<!---->
+	<string name="notify_photo_text">"בקר וידיאו"</string>
+	<!---->
+	<string name="notify_video_text">"בקר וידיאו"</string>
+	<!-- no translation found for notify_ticker_forwfd_photo -->
+	<skip />
+	<!-- no translation found for notify_ticker_forwfd_video -->
+	<skip />
+	<!---->
+	<string name="wfd_alert">"התראה"</string>
+	<!---->
+	<string name="wfd_change_message">"הווידיאו יוחלף."</string>
+	<!---->
+	<string name="wfd_change_button">"כן"</string>
+	<!---->
+	<string name="wfd_not_change_button">"לא"</string>
+	<!-- no translation found for wfd_show -->
+	<skip />
+	<!-- no translation found for wfd_show_on -->
+	<skip />
+	<!---->
+	<string name="wfd_show_off">"כיבוי קישור TV"</string>
+	<!-- no translation found for wifi_gesture_tip -->
+	<skip />
+	<!---->
+	<string name="popupvideo_notsupport_message">"סוג זה לא נתמך"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"מצב אזהרה"</string>
+	<!-- no translation found for drm_wifidisplay_message -->
+	<skip />
+	<!---->
+	<string name="drm_wifidisplay_cancel">"כיבוי קישור TV"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"המשך"</string>
+	<!-- no translation found for tv_link_close -->
+	<skip />
+	<!-- no translation found for drm_no_valid_right -->
+	<skip />
+	<!---->
+	<string name="drm_delete_invalid_content">"פג תוקפו של קובץ DRM "%s. האם ברצונך למחוק אותו?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"פג תוקפו של קובץ DRM "%s. האם ברצונך לבטל נעילתו?"</string>
+	<!---->
+	<string name="unlimited_usage">"שימוש ללא הגבלה"</string>
+	<!---->
+	<string name="not_available">"לא זמין"</string>
+	<!---->
+	<string name="use_times">"השתמש %s פעמים"</string>
+	<!---->
+	<string name="valid_after">"תקף לאחר"</string>
+	<!---->
+	<string name="valid_until">"תקף עד"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"הקש פעמיים והחלק כדי להגדיל/להקטין במצלמה"</string>
+	<!---->
+	<string name="tips_done">"בוצע"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"הקש פעמיים והחלק כדי להגדיל/להקטין בגלריה"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"למד על זום באצבע אחת"</string>
+	<!---->
+	<string name="drm_current_right">"מגבלה נוכחית"</string>
+	<!---->
+	<string name="right_url">"URL של מנפיק רשיונות"</string>
+	<!---->
+	<string name="vendor">"ספק:"</string>
+	<!---->
+	<string name="stop">"עצור"</string>
+	<!---->
+	<string name="selectRenderer">"בחר נגן"</string>
+	<!---->
+	<string name="noRenderer">"לא ניתן למצוא התקן עיבוד"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"להפסיק להציג וידיאו בטלוויזיה?"</string>
+	<!-- no translation found for stop_playing_picture_on_tv -->
+	<skip />
+	<!---->
+	<string name="play_video">"נגן וידיאו"</string>
+	<!-- no translation found for shake_video_text -->
+	<skip />
+	<!-- no translation found for shake_picture_text -->
+	<skip />
+	<!---->
+	<string name="wait_dialog">"אנא המתן...""</string>
+	<!-- no translation found for toast_nostop -->
+	<skip />
+	<!---->
+	<string name="dlna_format_not_support">"תבנית הקובץ אינה נתמכת."</string>
+	<!-- no translation found for left_title_camera_roll -->
+	<skip />
+	<!---->
+	<string name="left_title_timeline">"שעון"</string>
+	<!---->
+	<string name="left_title_albums">"אלבומים"</string>
+	<!---->
+	<string name="left_title_videos">"סרטונים"</string>
+	<!---->
+	<string name="left_title_location">"מיקומים"</string>
+	<!---->
+	<string name="drawer_open">"פתח את חלונית הניווט"</string>
+	<!---->
+	<string name="drawer_close">"סגור את חלונית הניווט"</string>
+	<!-- no translation found for photo_share -->
+	<skip />
+	<!---->
+	<string name="filtershow_save">"שמור"</string>
+	<!---->
+	<string name="filtershow_none">"ללא"</string>
+	<!---->
+	<string name="filtershow_frame">"מסגרת"</string>
+	<!---->
+	<string name="drm_no_crop">"קובץ "%s" לא מורשה העתקה משום היותו מוגן DRM"</string>
+	<!---->
+	<string name="drm_no_contact_icon">"הקובץ %s לא יכול להיות מוגדר כתמונת מתקשר שכן הוא מוגן DRM."</string>
+	<!-- no translation found for never_tip -->
+	<skip />
+	<!-- no translation found for three_finger_tips0 -->
+	<skip />
+	<!-- no translation found for three_finger_tips1 -->
+	<skip />
+	<!-- no translation found for three_finger_tips2 -->
+	<skip />
+	<!---->
+	<string name="drm_not_support_wifidisplay">"אין להציג קובץ DRM בתצוגת Wi-Fi!"</string>
+	<!-- no translation found for filtershow_save_title -->
+	<skip />
+	<!-- no translation found for filtershow_save_message -->
+	<skip />
+	<!---->
+	<string name="filtershow_save_no_ask">"אל תשאל שוב"</string>
+	<!-- no translation found for filtershow_save_button_copy -->
+	<skip />
+	<!-- no translation found for filtershow_save_button_overwrite -->
+	<skip />
+	<!-- no translation found for lock_video -->
+	<skip />
+	<!-- no translation found for unlock_video -->
+	<skip />
+	<!---->
+	<string name="drm_toast_license_expired">"תוקפו של רישיון ה-DRM פג."</string>
+	<!---->
+	<string name="drm_protection_status">"מצב הגנה:"</string>
+	<!---->
+	<string name="drm_can_forward">"ניתן להעברה."</string>
+	<!-- no translation found for drm_can_not_forward -->
+	<skip />
+	<!---->
+	<string name="drm_no_license">"אין רישיון DRM זמין."</string>
+	<!---->
+	<string name="drm_begin">"התחל:"</string>
+	<!---->
+	<string name="drm_no_limitation">"אין הגבלה."</string>
+	<!---->
+	<string name="drm_end">"סיים:"</string>
+	<!-- no translation found for drm_use_left -->
+	<skip />
+	<!-- no translation found for date_taken -->
+	<skip />
+	<!-- no translation found for modified_time -->
+	<skip />
+	<!-- no translation found for fast_forward -->
+	<skip />
+	<!-- no translation found for fast_backward -->
+	<skip />
+	<!-- no translation found for network_reconnected_when_playing -->
+	<skip />
+	<!---->
+	<string name="polaroid_action_open">"פתח"</string>
+	<!---->
+	<string name="polaroid_action_save">"שמור"</string>
+	<!---->
+	<string name="polaroid_action_send">"שלח"</string>
+	<!-- no translation found for polaroid_default_slogan -->
+	<skip />
+	<!-- no translation found for polaroid_saving_picture -->
+	<skip />
+	<!-- no translation found for editor_select_polaroid -->
+	<skip />
+	<!-- no translation found for editor_select_filtershow -->
+	<skip />
+	<!---->
+	<string name="date_tag">"תאריך"</string>
+	<!---->
+	<string name="location_tag">"מיקום"</string>
+	<!-- no translation found for slogan_tag -->
+	<skip />
+	<!---->
+	<string name="polaroid_no_location">"ללא מיקום"</string>
+	<!-- no translation found for save_iamge_compelete -->
+	<skip />
+	<!-- no translation found for save_image_error -->
+	<skip />
+	<!-- no translation found for dialog_min_image_save_title -->
+	<skip />
+	<!-- no translation found for dialog_min_image_save_message -->
+	<skip />
+	<!---->
+	<string name="open_with">"פתח באמצעות"</string>
+	<!-- no translation found for moments_month_view -->
+	<skip />
+	<!-- no translation found for moments_day_view -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_all">"הכל"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"תמונה"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"וידיאו"</string>
+	<!-- no translation found for actionbar_menu_text_fyuse -->
+	<skip />
+	<!-- no translation found for burst_mode_delete_message -->
+	<skip />
+	<!-- no translation found for burst_mode_save_message -->
+	<skip />
+	<!---->
+	<string name="burst_overwrite">"החלף"</string>
+	<!-- no translation found for burst_save_as_individual_images -->
+	<skip />
+	<!---->
+	<string name="burst_cancel">"ביטול"</string>
+	<!---->
+	<string name="burst_delete">"מחק"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"מועדף"</string>
+	<!---->
+	<string name="select">"בחר"</string>
+	<!---->
+	<string name="getstarted">"צעדים ראשונים"</string>
+	<!-- no translation found for gotit -->
+	<skip />
+	<!-- no translation found for faceshow_start -->
+	<skip />
+	<!-- no translation found for faceshow_takemore -->
+	<skip />
+	<!-- no translation found for selfies -->
+	<skip />
+	<!-- no translation found for parallax -->
+	<skip />
+	<!-- no translation found for trim_title -->
+	<skip />
+	<!-- no translation found for trim_message -->
+	<skip />
+	<!---->
+	<string name="trim_discard">"בטל"</string>
+	<!-- no translation found for main_tab_moments -->
+	<skip />
+	<!-- no translation found for moments_show -->
+	<skip />
+	<!-- no translation found for illegal_image_format -->
+	<skip />
+	<!-- no translation found for exporting_video -->
+	<skip />
+	<!-- no translation found for exporting_message -->
+	<skip />
+	<!-- no translation found for share_save_video -->
+	<skip />
+	<!-- no translation found for share_saved -->
+	<skip />
+	<!-- no translation found for share_save_image -->
+	<skip />
+	<!-- no translation found for share_image_saved -->
+	<skip />
+	<!-- no translation found for location_permission_toast_text -->
+	<skip />
+	<!---->
+	<string name="no_internet_contect_text">"אין חיבור לאינטרנט"</string>
+	<!---->
+	<string name="more">"עוד"</string>
+	<!---->
+	<string name="moment_album_today">"היום"</string>
+	<!---->
+	<string name="moment_album_yesterday">"אתמול"</string>
+	<!-- no translation found for location_destination_text -->
+	<skip />
+	<string-array name="month">
+		<!--inherit from default language-->
+		<item>"January"</item>
+		<!--inherit from default language-->
+		<item>"February"</item>
+		<!--inherit from default language-->
+		<item>"March"</item>
+		<!--inherit from default language-->
+		<item>"April"</item>
+		<!--inherit from default language-->
+		<item>"May"</item>
+		<!--inherit from default language-->
+		<item>"June"</item>
+		<!--inherit from default language-->
+		<item>"July"</item>
+		<!--inherit from default language-->
+		<item>"August"</item>
+		<!--inherit from default language-->
+		<item>"September"</item>
+		<!--inherit from default language-->
+		<item>"October"</item>
+		<!--inherit from default language-->
+		<item>"November"</item>
+		<!--inherit from default language-->
+		<item>"December"</item>
+	</string-array>
+	<!-- no translation found for permission_location_text -->
+	<skip />
+	<!---->
+	<string name="permission_location_settings">"הגדרות"</string>
+	<!-- no translation found for boom_key_tip_1 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_2 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_3 -->
+	<skip />
+	<!-- no translation found for boom_key_tip_4 -->
+	<skip />
+	<!---->
+	<string name="tx_skip">"דלג"</string>
+	<!---->
+	<string name="tx_done">"סיום"</string>
+	<!-- no translation found for boom_key -->
+	<skip />
+	<!-- no translation found for press -->
+	<skip />
+	<!-- no translation found for not_support_parallax_share -->
+	<skip />
+	<!-- no translation found for permissions_hi -->
+	<skip />
+	<!-- no translation found for not_support_video_edit -->
+	<skip />
+</resources>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="title_activity_filter_show">"Editor de fotos"</string>
+	<!---->
+	<string name="cannot_load_image">"No es pot carregar la imatge"</string>
+	<!---->
+	<string name="cannot_edit_original">"No es pot editar l\'original"</string>
+	<!-- no translation found for original_picture_text -->
+	<skip />
+	<!---->
+	<string name="setting_wallpaper">"S\'està establint el fons de pantalla"</string>
+	<!---->
+	<string name="download_failure">"No s\'ha pogut baixar la foto. Xarxa no disponible."</string>
+	<!---->
+	<string name="original">"Original"</string>
+	<!---->
+	<string name="borders">"Vores"</string>
+	<!---->
+	<string name="custom_border">"Personalitzar"</string>
+	<!---->
+	<string name="filtershow_undo">"Desfer"</string>
+	<!---->
+	<string name="filtershow_redo">"Refer"</string>
+	<!---->
+	<string name="show_imagestate_panel">"Mostrar efectes aplicats"</string>
+	<!---->
+	<string name="hide_imagestate_panel">"Ocultar efectes aplicats"</string>
+	<!---->
+	<string name="export_image">"Exportar"</string>
+	<!---->
+	<string name="print_image">"Imprimir"</string>
+	<!---->
+	<string name="filtershow_auto_edit">"Edició automàtica"</string>
+	<!---->
+	<string name="export_flattened">"Exportar imatge aplanada"</string>
+	<!---->
+	<string name="select_output_settings">"La imatge exportada serà una còpia sense historial d\'edició."</string>
+	<!---->
+	<string name="quality">"Qualitat"</string>
+	<!---->
+	<string name="size">"Mida"</string>
+	<!---->
+	<string name="x">"x"</string>
+	<!---->
+	<string name="menu_settings">"Paràmetres"</string>
+	<!---->
+	<string name="unsaved">"Aquesta imatge té canvis sense desar."</string>
+	<!---->
+	<string name="save_before_exit">"Voleu desar abans de sortir?"</string>
+	<!---->
+	<string name="save_and_exit">"Desar i sortir"</string>
+	<!---->
+	<string name="save_and_processing">"S\'està processant la imatge de resolució completa..."</string>
+	<!---->
+	<string name="exit">"Sortir"</string>
+	<!---->
+	<string name="history">"Historial"</string>
+	<!---->
+	<string name="reset">"Rein."</string>
+	<!-- no translation found for history_original -->
+	<skip />
+	<!---->
+	<string name="imageState">"Efectes aplicats"</string>
+	<!---->
+	<string name="compare_original">"Comparar"</string>
+	<!---->
+	<string name="apply_effect">"Aplicar"</string>
+	<!---->
+	<string name="reset_effect">"Rein."</string>
+	<!---->
+	<string name="aspect">"Aspecte"</string>
+	<!-- no translation found for aspect1to1_effect -->
+	<skip />
+	<!-- no translation found for aspect4to3_effect -->
+	<skip />
+	<!-- no translation found for aspect3to4_effect -->
+	<skip />
+	<!-- no translation found for aspect4to6_effect -->
+	<skip />
+	<!-- no translation found for aspect5to7_effect -->
+	<skip />
+	<!-- no translation found for aspect7to5_effect -->
+	<skip />
+	<!-- no translation found for aspect9to16_effect -->
+	<skip />
+	<!-- no translation found for aspect16to9_effect -->
+	<skip />
+	<!---->
+	<string name="aspectNone_effect">"Cap"</string>
+	<!---->
+	<string name="aspectCustom_effect">"Personalitzar"</string>
+	<!-- no translation found for aspectOriginal_effect -->
+	<skip />
+	<!---->
+	<string name="Fixed">"Fix"</string>
+	<!---->
+	<string name="tinyplanet">"Planeta diminut"</string>
+	<!---->
+	<string name="exposure">"Exposició"</string>
+	<!---->
+	<string name="sharpness">"Nitidesa"</string>
+	<!---->
+	<string name="contrast">"Contrast"</string>
+	<!---->
+	<string name="vibrance">"Vibració"</string>
+	<!---->
+	<string name="saturation">"Saturació"</string>
+	<!---->
+	<string name="bwfilter">"Filtre B/W"</string>
+	<!---->
+	<string name="wbalance">"Autocolor"</string>
+	<!---->
+	<string name="hue">"To"</string>
+	<!---->
+	<string name="shadow_recovery">"Ombres"</string>
+	<!---->
+	<string name="highlight_recovery">"Reflexos"</string>
+	<!---->
+	<string name="curvesRGB">"Corbes"</string>
+	<!---->
+	<string name="vignette">"Vinyeta"</string>
+	<!---->
+	<string name="vignette_main">"Vinyeta"</string>
+	<!---->
+	<string name="vignette_exposure">"Exposició"</string>
+	<!---->
+	<string name="vignette_saturation">"Saturació"</string>
+	<!---->
+	<string name="vignette_contrast">"Contrast"</string>
+	<!---->
+	<string name="vignette_falloff">"Caiguda"</string>
+	<!---->
+	<string name="redeye">"Ulls vermells"</string>
+	<!---->
+	<string name="imageDraw">"Dibuixar"</string>
+	<!---->
+	<string name="straighten">"Redreçar"</string>
+	<!---->
+	<string name="crop">"Retallar"</string>
+	<!---->
+	<string name="rotate">"Girar"</string>
+	<!---->
+	<string name="mirror">"Rèplica"</string>
+	<!---->
+	<string name="negative">"Negatiu"</string>
+	<!---->
+	<string name="none">"Cap"</string>
+	<!---->
+	<string name="edge">"Vores"</string>
+	<!---->
+	<string name="kmeans">"Posteritzar"</string>
+	<!---->
+	<string name="downsample">"Submostra"</string>
+	<!---->
+	<string name="grad">"Graduat"</string>
+	<!---->
+	<string name="editor_grad_brightness">"Lluminositat"</string>
+	<!---->
+	<string name="editor_grad_contrast">"Contrast"</string>
+	<!---->
+	<string name="editor_grad_saturation">"Saturació"</string>
+	<!---->
+	<string name="editor_chan_sat_main">"Principal"</string>
+	<!---->
+	<string name="editor_chan_sat_red">"Vermell"</string>
+	<!---->
+	<string name="editor_chan_sat_yellow">"Groc"</string>
+	<!---->
+	<string name="editor_chan_sat_green">"Verd"</string>
+	<!---->
+	<string name="editor_chan_sat_cyan">"Cian"</string>
+	<!---->
+	<string name="editor_chan_sat_blue">"Blau"</string>
+	<!---->
+	<string name="editor_chan_sat_magenta">"Magenta"</string>
+	<!---->
+	<string name="editor_grad_style">"Estil"</string>
+	<!---->
+	<string name="editor_grad_new">"Nova"</string>
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
+	<!---->
+	<string name="curves_channel_red">"Vermell"</string>
+	<!---->
+	<string name="curves_channel_green">"Verd"</string>
+	<!---->
+	<string name="curves_channel_blue">"Blau"</string>
+	<!---->
+	<string name="draw_style">"Estil"</string>
+	<!---->
+	<string name="draw_size">"Mida"</string>
+	<!---->
+	<string name="draw_hue">"To"</string>
+	<!---->
+	<string name="draw_saturation">"Saturació"</string>
+	<!---->
+	<string name="draw_value">"Lluminositat"</string>
+	<!---->
+	<string name="draw_color">"Color"</string>
+	<!---->
+	<string name="draw_style_line">"Línies"</string>
+	<!---->
+	<string name="draw_style_brush_spatter">"Marcador"</string>
+	<!---->
+	<string name="draw_style_brush_marker">"Dispersar"</string>
+	<!---->
+	<string name="draw_clear">"Esborrar"</string>
+	<!---->
+	<string name="color_border_size">"Gruix"</string>
+	<!---->
+	<string name="color_border_corner_size">"Mida de la cantonada"</string>
+	<!---->
+	<string name="color_border_color">"Color"</string>
+	<!---->
+	<string name="color_border_clear">"Esborrar"</string>
+	<!---->
+	<string name="color_pick_select">"Triar color personalitzat"</string>
+	<!---->
+	<string name="color_pick_title">"Seleccionar color"</string>
+	<!---->
+	<string name="draw_size_title">"Seleccionar mida"</string>
+	<!---->
+	<string name="draw_size_accept">"D\'acord"</string>
+	<!---->
+	<string name="state_panel_original">"Original"</string>
+	<!---->
+	<string name="state_panel_result">"Resultat"</string>
+	<!---->
+	<string name="filtershow_notification_label">"S\'està desant la imatge"</string>
+	<!---->
+	<string name="filtershow_notification_message">"S\'està processant..."</string>
+	<!---->
+	<string name="filtershow_save_preset">"Desar el preestablert actual"</string>
+	<!---->
+	<string name="filtershow_manage_preset">"Gestió de preestablerts de l\'usuari"</string>
+	<!---->
+	<string name="filtershow_new_preset">"Preestablert nou"</string>
+	<!---->
+	<string name="filtershow_preset_name">"Nom del preestablert"</string>
+	<!---->
+	<string name="filtershow_show_info_panel">"Informació"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_name">"Nom de la imatge"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_size">"Mida de la imatge"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_histogram">"Histograma"</string>
+	<!---->
+	<string name="filtershow_show_info_panel_exif">"Dades d\'EXIF"</string>
+	<!---->
+	<string name="filtershow_add_button_looks">"Preestablir"</string>
+	<!---->
+	<string name="filtershow_add_button_versions">"Versió"</string>
+	<!---->
+	<string name="filtershow_version_original">"Original"</string>
+	<!---->
+	<string name="filtershow_version_current">"actual"</string>
+	<!---->
+	<string name="filtershow_exif_model">"Model"</string>
+	<!---->
+	<string name="filtershow_exif_aperture">"Obertura"</string>
+	<!---->
+	<string name="filtershow_exif_focal_length">"Distància focal"</string>
+	<!---->
+	<string name="filtershow_exif_iso">"ISO"</string>
+	<!---->
+	<string name="filtershow_exif_subject_distance">"Distància de l\'assumpte"</string>
+	<!---->
+	<string name="filtershow_exif_date">"Data de captura"</string>
+	<!---->
+	<string name="filtershow_exif_f_stop">"F-stop"</string>
+	<!---->
+	<string name="filtershow_exif_exposure_time">"Temps d\'exposició"</string>
+	<!---->
+	<string name="filtershow_exif_copyright">"Drets autor"</string>
+</resources>

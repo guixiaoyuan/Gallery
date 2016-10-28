@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Galéria"</string>
+	<!---->
+	<string name="gadget_title">"Rámček obrázka"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"Videoprehrávač"</string>
+	<!---->
+	<string name="loading_video">"Načítava sa video\u2026"</string>
+	<!---->
+	<string name="loading_image">"Načítava sa obrázok\u2026"</string>
+	<!---->
+	<string name="loading_account">"Načítava sa konto\u2026"</string>
+	<!---->
+	<string name="resume_playing_title">"Pokračovať v prehrávaní videa"</string>
+	<!---->
+	<string name="resume_playing_message">"Pokračovať v prehrávaní od %s ?"</string>
+	<!---->
+	<string name="resume_playing_resume">"Pokračovať v prehrávaní"</string>
+	<!---->
+	<string name="loading">"Načítava sa\u2026"</string>
+	<!---->
+	<string name="fail_to_load">"„Nebolo možné načítať“"</string>
+	<!---->
+	<string name="fail_trim">"Videosúbor nie je možné upraviť."</string>
+	<!---->
+	<string name="fail_to_load_image">"Obrázok sa nepodarilo načítať"</string>
+	<!---->
+	<string name="no_thumbnail">"Žiadna miniatúra"</string>
+	<!---->
+	<string name="resume_playing_restart">"Začať znovu"</string>
+	<!---->
+	<string name="crop_save_text">"OK"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="multiface_crop_help">"Začnite dotykom tváre"</string>
+	<!---->
+	<string name="saving_image">"Ukladá sa fotografia\u2026"</string>
+	<!---->
+	<string name="filtershow_saving_image">"Prebieha ukladanie obrázka do albumu <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="save_error">"Orezaný obrázok sa nepodarilo uložiť"</string>
+	<!---->
+	<string name="crop_label">"Orezať obrázok"</string>
+	<!---->
+	<string name="trim_label">"Orezať video"</string>
+	<!---->
+	<string name="select_image">"Vybrať fotografiu"</string>
+	<!---->
+	<string name="select_video">"Vybrať video"</string>
+	<!---->
+	<string name="select_item">"Vybrať položku"</string>
+	<!---->
+	<string name="select_album">"Vyberte album"</string>
+	<!---->
+	<string name="select_group">"Vybrať skupinu"</string>
+	<!---->
+	<string name="set_image">"Nastaviť ako..."</string>
+	<!---->
+	<string name="set_wallpaper">"Nastaviť tapetu"</string>
+	<!---->
+	<string name="wallpaper">"Nastavuje sa tapeta\u2026"</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"Tapeta"</string>
+	<!---->
+	<string name="delete">"Odstrániť"</string>
+	<!---->
+	<string name="deleting">"Odstraňuje sa"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"Vymazať vybranú položku?"</item>
+		<item quantity="other">"Vymazať vybrané položky?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"Potvrdiť"</string>
+	<!---->
+	<string name="cancel">"Zrušiť"</string>
+	<!---->
+	<string name="share">"Zdieľať"</string>
+	<!---->
+	<string name="share_panorama">"Zdieľať panorámu"</string>
+	<!---->
+	<string name="share_as_photo">"Zdielať ako fotografiu"</string>
+	<!---->
+	<string name="deleted">"Odstránené"</string>
+	<!---->
+	<string name="undo">"SPÄŤ"</string>
+	<!---->
+	<string name="select_all">"Vybrať všetko"</string>
+	<!---->
+	<string name="deselect_all">"Zrušiť výber všetkých"</string>
+	<!---->
+	<string name="slideshow">"Prezentácia"</string>
+	<!---->
+	<string name="details">"Podrobnosti"</string>
+	<!---->
+	<string name="details_title">"%1$d z %2$d položiek:"</string>
+	<!---->
+	<string name="close">"Zatvoriť"</string>
+	<!---->
+	<string name="switch_to_camera">"Prepnúť do režimu fotoaparátu"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"Vybraných: %1$d"</item>
+		<item quantity="one">"Vybraných: %1$d"</item>
+		<item quantity="other">"Vybraných: %1$d"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"Vybraných: %1$d"</item>
+		<item quantity="one">"Vybraných: %1$d"</item>
+		<item quantity="other">"Vybraných: %1$d"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"Vybraných: %1$d"</item>
+		<item quantity="one">"Vybraných: %1$d"</item>
+		<item quantity="other">"Vybraných: %1$d"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"Zobraziť na mape"</string>
+	<!---->
+	<string name="rotate_left">"Otočiť doľava"</string>
+	<!---->
+	<string name="rotate_right">"Otočiť doprava"</string>
+	<!---->
+	<string name="no_such_item">"Nebolo možné nájsť položku."</string>
+	<!---->
+	<string name="edit">"Upraviť"</string>
+	<!---->
+	<string name="mix_video">"Mix"</string>
+	<!---->
+	<string name="simple_edit">"Jednoduchá úprava"</string>
+	<!---->
+	<string name="process_caching_requests">"Spracovávajú sa požiadavky na uloženie do vyrovnávacej pamäte"</string>
+	<!---->
+	<string name="caching_label">"Ukladanie do vyrovnávacej pamäte\u2026"</string>
+	<!---->
+	<string name="crop_action">"Orezať"</string>
+	<!---->
+	<string name="trim_action">"Orezať"</string>
+	<!---->
+	<string name="mute_action">"STÍŠIŤ"</string>
+	<!---->
+	<string name="set_as">"Nastaviť ako"</string>
+	<!---->
+	<string name="video_mute_err">"Video sa nedá stlmiť."</string>
+	<!---->
+	<string name="video_err">"Video sa nedá prehrať."</string>
+	<!---->
+	<string name="group_by_location">"Podľa miesta"</string>
+	<!---->
+	<string name="group_by_time">"Podľa času"</string>
+	<!---->
+	<string name="group_by_tags">"Podľa štítkov"</string>
+	<!---->
+	<string name="group_by_faces">"Podľa ľudí"</string>
+	<!---->
+	<string name="group_by_album">"Podľa albumu"</string>
+	<!---->
+	<string name="group_by_size">"Podľa veľkosti"</string>
+	<!---->
+	<string name="untagged">"Bez štítkov"</string>
+	<!---->
+	<string name="no_location">"Žiadne miesto"</string>
+	<!---->
+	<string name="no_connectivity">"Niektoré lokality sa nedajú identifikovať kvôli problémom so sieťou."</string>
+	<!---->
+	<string name="sync_album_error">"Fotografie z tohto albumu sa nepodarilo prevziať. Skúste to znova neskôr."</string>
+	<!---->
+	<string name="show_images_only">"Len obrázky"</string>
+	<!---->
+	<string name="show_videos_only">"Len videá"</string>
+	<!---->
+	<string name="show_all">"Obrázky a videá"</string>
+	<!---->
+	<string name="appwidget_title">"Galéria fotografií"</string>
+	<!---->
+	<string name="appwidget_empty_text">"Žiadne fotografie"</string>
+	<!---->
+	<string name="crop_saved">"Orezaný obrázok bol uložený do priečinka <xliff:g id="folder_name">%s</xliff:g>."</string>
+	<!---->
+	<string name="no_albums_alert">"K dispozícii nie sú žiadne albumy"</string>
+	<!---->
+	<string name="empty_album">"Nie je dostupný žiaden obrázok/video"</string>
+	<!---->
+	<string name="picasa_posts">"Príspevky"</string>
+	<!---->
+	<string name="make_available_offline">"Sprístupniť v režime offline"</string>
+	<!---->
+	<string name="sync_picasa_albums">"Obnoviť"</string>
+	<!---->
+	<string name="done">"Hotovo"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d z %2$d položiek:"</string>
+	<!---->
+	<string name="title">"Názov"</string>
+	<!---->
+	<string name="description">"Popis"</string>
+	<!---->
+	<string name="time">"Čas"</string>
+	<!---->
+	<string name="location">"Miesto"</string>
+	<!---->
+	<string name="path">"Cesta"</string>
+	<!---->
+	<string name="width">"Šírka"</string>
+	<!---->
+	<string name="height">"Výška"</string>
+	<!---->
+	<string name="orientation">"Orientácia"</string>
+	<!---->
+	<string name="duration">"Trvanie"</string>
+	<!---->
+	<string name="mimetype">"Typ MIME"</string>
+	<!---->
+	<string name="file_size">"Veľkosť súboru"</string>
+	<!---->
+	<string name="maker">"Autor"</string>
+	<!---->
+	<string name="model">"Model"</string>
+	<!---->
+	<string name="flash">"Blesk"</string>
+	<!---->
+	<string name="aperture">"Clona"</string>
+	<!---->
+	<string name="focal_length">"Ohnisková vzdialenosť"</string>
+	<!---->
+	<string name="white_balance">"Vyváženie bielej"</string>
+	<!---->
+	<string name="exposure_time">"Expozičný čas"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"mm"</string>
+	<!---->
+	<string name="manual">"Manuálne"</string>
+	<!---->
+	<string name="auto">"Automaticky"</string>
+	<!---->
+	<string name="flash_on">"S bleskom"</string>
+	<!---->
+	<string name="flash_off">"Bez blesku"</string>
+	<!---->
+	<string name="unknown">"Neznáme"</string>
+	<!---->
+	<string name="ffx_original">"Originál"</string>
+	<!---->
+	<string name="ffx_vintage">"Klasika"</string>
+	<!---->
+	<string name="ffx_instant">"Okamih"</string>
+	<!---->
+	<string name="ffx_bleach">"Vyjasniť"</string>
+	<!---->
+	<string name="ffx_blue_crush">"Modrá"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"Čiernobiele zobrazenie"</string>
+	<!---->
+	<string name="ffx_punch">"Výraz"</string>
+	<!---->
+	<string name="ffx_x_process">"Cross process"</string>
+	<!---->
+	<string name="ffx_washout">"Latte"</string>
+	<!---->
+	<string name="ffx_washout_color">"Litografia"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"Album sa sprístupní v režime offline."</item>
+		<item quantity="other">"Albumy sa sprístupnia v režime offline."</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Táto položka je uložená lokálne a je k dispozícii v režime offline."</string>
+	<!---->
+	<string name="set_label_all_albums">"Všetky albumy"</string>
+	<!---->
+	<string name="set_label_local_albums">"Miestne albumy"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"Zariadenia MTP"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Albumy Picasa"</string>
+	<!---->
+	<string name="free_space_format">"Voľné miesto: <xliff:g id="bytes">%s</xliff:g>"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="size">%1$s</xliff:g> alebo menej"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="size">%1$s</xliff:g> alebo viac"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="min_size">%1$s</xliff:g> až <xliff:g id="max_size">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"Importovať"</string>
+	<!---->
+	<string name="import_complete">"Import sa dokončil"</string>
+	<!---->
+	<string name="import_fail">"Pri importe nastala chyba"</string>
+	<!---->
+	<string name="camera_connected">"Fotoaparát je pripojený."</string>
+	<!---->
+	<string name="camera_disconnected">"Fotoaparát je odpojený."</string>
+	<!---->
+	<string name="click_import">"Ak chcete importovať, dotknite sa tu"</string>
+	<!---->
+	<string name="widget_type_album">"Vyberte album"</string>
+	<!---->
+	<string name="widget_type_shuffle">"Náhodný výber všetkých obrázkov"</string>
+	<!---->
+	<string name="widget_type_photo">"Vyberte obrázok"</string>
+	<!---->
+	<string name="widget_type">"Vyberte obrázky"</string>
+	<!---->
+	<string name="slideshow_dream_name">"Prezentácia"</string>
+	<!---->
+	<string name="albums">"Albumy"</string>
+	<!---->
+	<string name="times">"Časy"</string>
+	<!---->
+	<string name="locations">"Miesta"</string>
+	<!---->
+	<string name="people">"Ľudia"</string>
+	<!---->
+	<string name="tags">"Štítky"</string>
+	<!---->
+	<string name="group_by">"Zoskupiť podľa"</string>
+	<!---->
+	<string name="settings">"Nastavenia"</string>
+	<!---->
+	<string name="add_account">"Pridať konto"</string>
+	<!---->
+	<string name="folder_camera">"Fotoaparát"</string>
+	<!---->
+	<string name="folder_download">"Prevziať"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"Upravené online fotografie"</string>
+	<!---->
+	<string name="folder_imported">"Importované"</string>
+	<!---->
+	<string name="folder_screenshot">"Snímka obrazovky"</string>
+	<!---->
+	<string name="help">"Pomocník"</string>
+	<!---->
+	<string name="no_external_storage_title">"Žiadna pamäť"</string>
+	<!---->
+	<string name="no_external_storage">"Nie je dostupná externá pamäť"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Zobrazenie filmového pásu"</string>
+	<!---->
+	<string name="switch_photo_grid">"Zobrazenie v mriežke"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"Zobrazenie na celú obrazovku"</string>
+	<!---->
+	<string name="trimming">"Prebieha orezávanie"</string>
+	<!---->
+	<string name="muting">"Stlmenie"</string>
+	<!---->
+	<string name="please_wait">"Čakajte, prosím"</string>
+	<!---->
+	<string name="save_into">"Prebieha ukladanie videa do albumu <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="trim_save_into">"Skrátený súbor sa uložil do <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"Stíšený súbor sa uložil do <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="trim_too_short">"Nie je možné orezať: cieľové video je príliš krátke"</string>
+	<!---->
+	<string name="mute_nosupport">"Nie je možné stlmi: nepodporované video"</string>
+	<!---->
+	<string name="pano_progress_text">"Prebieha vytváranie panorámy"</string>
+	<!---->
+	<string name="save">"ULOŽIŤ"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"Prebieha skenovanie obsahu..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d preskenované položky"</item>
+		<item quantity="one">"%1$d preskenovaná položka"</item>
+		<item quantity="other">"%1$d preskenovaných položiek"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"Počet zvolených položiek: %1$d"</item>
+		<item quantity="one">"Počet zvolených položiek: %1$d"</item>
+		<item quantity="other">"Počet zvolených položiek: %1$d"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"Triedenie..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"Skenovanie dokončené"</string>
+	<!---->
+	<string name="ingest_importing">"Prebieha importovanie..."</string>
+	<!---->
+	<string name="ingest_empty_device">"Nie je dostupný žiaden obsah pre import do tohto zariadenia."</string>
+	<!---->
+	<string name="ingest_no_device">"Nie je pripojené žiadne MTP zariadenie"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"Chyba fotoaparátu"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Nie je možné sa pripojiť k fotoaparátu."</string>
+	<!---->
+	<string name="camera_disabled">"Fotoaparát bol z bezpečnostných dôvodov zakázaný."</string>
+	<!---->
+	<string name="camera_label">"Fotoaparát"</string>
+	<!---->
+	<string name="wait">"Čakajte, prosím\u2026"</string>
+	<!---->
+	<string name="review_cancel">"ZRUŠIŤ"</string>
+	<!---->
+	<string name="review_ok">"HOTOVO"</string>
+	<!---->
+	<string name="time_lapse_title">"Časozberný záznam"</string>
+	<!---->
+	<string name="pref_camera_id_title">"Vybrať fotoaparát"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Späť"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Predný"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"Ukladať polohu"</string>
+	<!---->
+	<string name="pref_camera_location_label">"Miesto"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"Odpočítavací časovač"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 sekunda"</item>
+		<item quantity="other">"%d sekúnd"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Pípanie počas odpočítavania"</string>
+	<!---->
+	<string name="setting_off">"Vyp."</string>
+	<!---->
+	<string name="setting_on">"ZAP."</string>
+	<!---->
+	<string name="pref_video_quality_title">"Kvalita videa"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Vysoký"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Nízky"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"Časozberný záznam"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"Nastavenia fotoaparátu"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Nastavenia videokamery"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Veľkosť obr."</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13 Mpix"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8 Mpix"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5 Mpix"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4 Mpix"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3 Mpix"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2 Mpix"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2 Mpix (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1,3 Mpix"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1 Mpix"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Režim zaostr."</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Automat."</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Nekonečno"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Makro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"Automat."</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"NEKONEČNO"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"MAKRO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Režim blesku"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"Režim blesku"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Automat."</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"ZAP."</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"VYP."</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"BLESK AUTOMATIKA"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"BLESK ZAPNÚŤ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"BLESK VYPNÚŤ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Vyváženie bielej"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Vyváženie bielej"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Automat."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Žiarovka"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Denné svetlo"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Žiarivka"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Oblačno"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"Automat."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Žiarovka"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Denné svetlo"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Žiarivka"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Zamračené"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Režim scény"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Automat."</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Akcia"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Noc"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Západ slnka"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Oslava"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"Žiadne"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"Akcia"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"Noc"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"Západ slnka"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"Oslava"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"ODPOČÍTAVACÍ ČASOVAČ"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"ČASOVAČ VYPNUTÝ"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 sekunda"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 sekundy"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 sekúnd"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 sekúnd"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Nastavenie nie je možné vybrať v režime scény."</string>
+	<!---->
+	<string name="pref_exposure_title">"Expozícia"</string>
+	<!---->
+	<string name="pref_exposure_label">"Expozícia"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"ČELNÁ KAMERA"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"ZADNÁ KAMERA"</string>
+	<!---->
+	<string name="dialog_ok">"OK"</string>
+	<!---->
+	<string name="video_reach_size_limit">"Dosiahla sa maximálna veľkosť."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Príliš rýchlo"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Pripravuje sa panoráma"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Panorámu sa nepodarilo uložiť."</string>
+	<!---->
+	<string name="pano_dialog_title">"Panoráma"</string>
+	<!---->
+	<string name="pano_capture_indication">"Sníma sa panoráma"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Čaká sa na predchádzajúcu panorámu"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Ukladá sa\u2026"</string>
+	<!---->
+	<string name="pano_review_rendering">"„Prebieha vytváranie panorámy“"</string>
+	<!---->
+	<string name="tap_to_focus">"Dotykom zaostrite"</string>
+	<!---->
+	<string name="pref_video_effect_title">"Efekty"</string>
+	<!---->
+	<string name="effect_none">"Žiadny"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Stlačiť"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Veľké oči"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Veľké ústa"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Malé ústa"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Veľký nos"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Malé oči"</string>
+	<!---->
+	<string name="effect_backdropper_space">"V kozme"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Západ slnka"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Vaše video"</string>
+	<!---->
+	<string name="bg_replacement_message">"Položte svoje zariadenie."\n"Odstúpte na chvíľu zo zorného poľa."</string>
+	<!---->
+	<string name="video_snapshot_hint">"Dotykom môžete počas nahrávania videozáznamu fotiť."</string>
+	<!---->
+	<string name="video_recording_started">"Záznam videa sa začal."</string>
+	<!---->
+	<string name="video_recording_stopped">"Záznam videa skončil."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"Keď sú zapnuté špeciálne efekty, nie je možné pri natáčaní videa vytvárať fotografie."</string>
+	<!---->
+	<string name="clear_effects">"Vymazať efekty"</string>
+	<!---->
+	<string name="effect_silly_faces">"BLÁZNIVÉ TVÁRE"</string>
+	<!---->
+	<string name="effect_background">"POZADIE"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"Tlačidlo spúšte"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Tlačidlo Menu"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"Najnovšia fotografia"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"Prepínač predného a zadného fotoaparátu"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"Prepínač režimu fotoaparátu, videokamery a panorámy"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"Viac ovládacích prvkov nastavení"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"Zatvoriť ovládacie prvky nastavení"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"Ovládanie priblíženia/oddialenia"</string>
+	<!---->
+	<string name="accessibility_decrement">"Znížiť %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"Zvýšiť %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s začiarkavacie políčko"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Prepnúť na fotoaparát"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Prepnúť do režimu videokamery"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Prepnúť do režimu Panorama"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"„Prepnúť do nového režimu panorámy“"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Prepnúť na opätovné zaostrenie"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"„Zrušenie prezerania“"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Revízia dokončená"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Revízia opakovaného nahrávania"</string>
+	<!---->
+	<string name="accessibility_play_video">"Prehrať video"</string>
+	<!---->
+	<string name="accessibility_pause_video">"Pozastaviť video"</string>
+	<!---->
+	<string name="accessibility_reload_video">"Znova načítať video"</string>
+	<!---->
+	<string name="accessibility_time_bar">"Časová lišta video prehrávača"</string>
+	<!---->
+	<string name="capital_on">"ZAP."</string>
+	<!---->
+	<string name="capital_off">"VYP."</string>
+	<!---->
+	<string name="gif_err">"Súbor vo formáte GIF sa nedá prehrať."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"VYP."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0,5 sekundy"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 sekunda"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 s"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 sekundy"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 s"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 sekundy"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 sekundy"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 sekúnd"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 sekúnd"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 sekúnd"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 sekúnd"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 sekúnd"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 sekúnd"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0,5 minúty"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 minúta"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1,5 minúty"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 minúty"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2,5 minúty"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 minúty"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 minúty"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 minút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 minút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 minút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 minút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 minút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 minút"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0,5 hodiny"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 hodina"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1,5 hodiny"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 hodiny"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2,5 hodiny"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 hodiny"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 hodiny"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 hodín"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 hodín"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 hodín"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 hodín"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 hodín"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 hodín"</string>
+	<!---->
+	<string name="time_lapse_seconds">"sekundy"</string>
+	<!---->
+	<string name="time_lapse_minutes">"minúty"</string>
+	<!---->
+	<string name="time_lapse_hours">"hodiny"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"Hotovo"</string>
+	<!---->
+	<string name="set_time_interval">"Nastaviť časový interval"</string>
+	<!---->
+	<string name="set_time_interval_help">"Funkcia časozberného fotografovania je vypnutá. Zapnúť funkciu pre nastavenie časového intervalu."</string>
+	<!---->
+	<string name="set_timer_help">"Odpočítavací časovač je vypnutý. Pre odpočítavanie pre urobením fotografie ho zapnite."</string>
+	<!---->
+	<string name="set_duration">"Nastavte interval v sekundách"</string>
+	<!---->
+	<string name="count_down_title_text">"Odpočítavanie do urobenia fotografie"</string>
+	<!---->
+	<string name="remember_location_title">"Zapamätať umiestnenia fotografií?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Označte svoje fotografie a videá miestom, kde boli urobené.\n\nOstatné aplikácie môžu mať k týmto údajom spolu s uloženými obrázkami prístup."</string>
+	<!---->
+	<string name="remember_location_no">"Nie, ďakujem"</string>
+	<!---->
+	<string name="remember_location_yes">"Áno"</string>
+	<!---->
+	<string name="menu_camera">"Fotoaparát"</string>
+	<!---->
+	<string name="menu_search">"Hľadať"</string>
+	<!---->
+	<string name="tab_photos">"„Fotografie“"</string>
+	<!---->
+	<string name="tab_albums">"Albumy"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Ďalšie možnosti"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"Nastavenia"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d fotografia"</item>
+		<item quantity="other">"%1$d fotografií"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"Titulky"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"Je nám ľúto, ale toto video sa nedá streamovať do tohto zariadenia."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"Toto video nie je možné prehrať."</string>
+	<!---->
+	<string name="VideoView_error_button">"OK"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"Toto video nie je podporované"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"Nepodarilo sa pripojiť. Pokúste sa znovu pripojiť %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"Pripája sa..."</string>
+	<!---->
+	<string name="media_controller_buffering">"„Ukladanie do medzipamäte %d%%...“"</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"K serveru sa nedá pripojiť"</string>
+	<!---->
+	<string name="media_controller_live">"„Naživo“"</string>
+	<!---->
+	<string name="media_controller_playing">"„Prehráva sa“"</string>
+	<!---->
+	<string name="notify_photo_text">"Ovládač galérie"</string>
+	<!---->
+	<string name="notify_video_text">"Ovládač galérie"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"Prezentácia Wi-Fi Displaya je zapnutá"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"Video Wi-Fi Displaya je zapnuté"</string>
+	<!---->
+	<string name="wfd_alert">"Upozornenie"</string>
+	<!---->
+	<string name="wfd_change_message">"Video sa nahradí."</string>
+	<!---->
+	<string name="wfd_change_button">"Áno"</string>
+	<!---->
+	<string name="wfd_not_change_button">"Nie"</string>
+	<!---->
+	<string name="wfd_show">"Wi-Fi displej"</string>
+	<!---->
+	<string name="wfd_show_on">"Zapnúť Wi-Fi Display"</string>
+	<!---->
+	<string name="wfd_show_off">"Vypnúť Wi-Fi Display"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"Presunutím súboru na žltý obdĺžnik spustíte zdieľanie obrazovky."</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"Typ nie je podporovaný"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Varovanie"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Všetky súbory chránené pred kopírovaním sú skryté, kvôli pripojeniu Wi-Fi Displaya."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"Vypnúť Wi-Fi displej"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"Pokračovať"</string>
+	<!---->
+	<string name="tv_link_close">"Wi-Fi Display bol ukončený"</string>
+	<!---->
+	<string name="drm_no_valid_right">"Súbor nemá platnú autoritu DRM"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">"Platnosť súboru DRM %s uplynula. Odstrániť?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"Platnosť súboru DRM %s uplynula. Odomknúť?"</string>
+	<!---->
+	<string name="unlimited_usage">"Neobmedzené používanie"</string>
+	<!---->
+	<string name="not_available">"Nedostupný údaj"</string>
+	<!---->
+	<string name="use_times">"Použiť %s-krát"</string>
+	<!---->
+	<string name="valid_after">"Platné po"</string>
+	<!---->
+	<string name="valid_until">"Platné do"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"Dvakrát ťuknite a posúvajte prstami na priblíženie/vzdialenie vo fotoaparáte"</string>
+	<!---->
+	<string name="tips_done">"Hotovo"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"Dvakrát ťuknite a posúvajte prsty na priblíženie/vzdialenie v galérii"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"Naučte sa približovať jedným prstom"</string>
+	<!---->
+	<string name="drm_current_right">"Aktuálne obmedzenie"</string>
+	<!---->
+	<string name="right_url">"Licencie"</string>
+	<!---->
+	<string name="vendor">"Predajca:"</string>
+	<!---->
+	<string name="stop">"Zastaviť"</string>
+	<!---->
+	<string name="selectRenderer">"Vyberte prehrávač"</string>
+	<!---->
+	<string name="noRenderer">"Nedá sa nájsť žiadne renderovacie zariadenie"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"Zastaviť prehrávanie videa na TV?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"Zastaviť prehrávanie obrázkov na TV?"</string>
+	<!---->
+	<string name="play_video">"Prehrať video"</string>
+	<!---->
+	<string name="shake_video_text">"Potraste váš telefón na stránke videa, ak ho chcete prehrať na vašom TV"</string>
+	<!---->
+	<string name="shake_picture_text">"Na prehrávanie na televízore potraste telefónom na stránke obrázka."</string>
+	<!---->
+	<string name="wait_dialog">"Čakajte prosím..."</string>
+	<!---->
+	<string name="toast_nostop">"Na zastavenie prehrávania na televízore vyberte miestny prehrávač."</string>
+	<!---->
+	<string name="dlna_format_not_support">"Tento formát súboru nie je podporovaný."</string>
+	<!---->
+	<string name="left_title_camera_roll">"Z fotoaparátu"</string>
+	<!---->
+	<string name="left_title_timeline">"Čas"</string>
+	<!---->
+	<string name="left_title_albums">"Albumy"</string>
+	<!---->
+	<string name="left_title_videos">"Videá"</string>
+	<!---->
+	<string name="left_title_location">"Miesta"</string>
+	<!---->
+	<string name="drawer_open">"Otvoriť priečinok s navigáciou"</string>
+	<!---->
+	<string name="drawer_close">"Zavrieť priečinok s navigáciou"</string>
+	<!---->
+	<string name="photo_share">"Zdieľať s"</string>
+	<!---->
+	<string name="filtershow_save">"ULOŽIŤ"</string>
+	<!---->
+	<string name="filtershow_none">"Žiadne"</string>
+	<!---->
+	<string name="filtershow_frame">"Rámček"</string>
+	<!---->
+	<string name="drm_no_crop">"Súbor „%s“ nie je povolené orezať, pretože je chránený ochranou DRM."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"Súbor "%s" nie je možné nastaviť ako ikonu pre kontakt, pretože je chránený technológiou DRM."</string>
+	<!---->
+	<string name="never_tip">"Zobraziť tipy pri spustení"</string>
+	<!---->
+	<string name="three_finger_tips0">"Na obrazovku umiestnite tri prsty."</string>
+	<!---->
+	<string name="three_finger_tips1">"Súbor presuňte do žltej oblasti."</string>
+	<!---->
+	<string name="three_finger_tips2">"Keď sa oblasť vyplní nažlto, zdieľanie bolo úspešné."</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"Súbor s DRM by sa nemal zobrazovať cez Wi-Fi Displej!"</string>
+	<!---->
+	<string name="filtershow_save_title">"Uložiť zmeny"</string>
+	<!---->
+	<string name="filtershow_save_message">"Želáte si uložiť ako kópiu alebo prepísať pôvodný obrázok?"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"Znovu sa nepýtať"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"ULOŽIŤ AKO KÓPIU"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"PREPÍSAŤ ORIGINÁL"</string>
+	<!---->
+	<string name="lock_video">"Zamknuté"</string>
+	<!---->
+	<string name="unlock_video">"Odomknuté"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Licencia DRM vypršala."</string>
+	<!---->
+	<string name="drm_protection_status">"Stav ochrany:"</string>
+	<!---->
+	<string name="drm_can_forward">"Môžete poslať ďalej."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Nemôžete poslať ďalej."</string>
+	<!---->
+	<string name="drm_no_license">"Žiadna licencia DRM nie je dostupná."</string>
+	<!---->
+	<string name="drm_begin">"Začiatok:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Žiadne obmedzenie."</string>
+	<!---->
+	<string name="drm_end">"Koniec:"</string>
+	<!---->
+	<string name="drm_use_left">"Zostáva"</string>
+	<!---->
+	<string name="date_taken">"Dátum zhotovenia"</string>
+	<!---->
+	<string name="modified_time">"Upravený čas"</string>
+	<!---->
+	<string name="fast_forward">"Posunúť dopredu %ds"</string>
+	<!---->
+	<string name="fast_backward">"Posunúť dozadu %ds"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"Pripojenie k sieti sa obnovilo. Chcete pokračovať v prehrávaní?"</string>
+	<!---->
+	<string name="polaroid_action_open">"Otvoriť"</string>
+	<!---->
+	<string name="polaroid_action_save">"Uložiť"</string>
+	<!---->
+	<string name="polaroid_action_send">"Odoslať"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"Obím ma"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"Ukladanie obrázka..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"Editor Polaroid"</string>
+	<!---->
+	<string name="editor_select_filtershow">"Editor (predvolené)"</string>
+	<!---->
+	<string name="date_tag">"Dátum"</string>
+	<!---->
+	<string name="location_tag">"umiestnenie"</string>
+	<!---->
+	<string name="slogan_tag">"slogan"</string>
+	<!---->
+	<string name="polaroid_no_location">"Žiadne miesto"</string>
+	<!---->
+	<string name="save_iamge_compelete">"Fotografia uložená do Galérie."</string>
+	<!---->
+	<string name="save_image_error">"Nepodarilo sa uložiť súbor."</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"Obrázok je príliš malý"</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"Minimálna veľkosť je 320 x 320 pixelov."</string>
+	<!---->
+	<string name="open_with">"Otvoriť v aplikácii"</string>
+	<!---->
+	<string name="moments_month_view">"Mesačný prehľad"</string>
+	<!---->
+	<string name="moments_day_view">"Denný prehľad"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"Všetko"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"Fotografia"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"Video"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"Táto séria zhlukových snímok obsahuje nasledujúci počet fotografií: %s. Chcete ich všetky vymazať?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"Chcete zhlukové snímky prepísať alebo ich uložiť ako samostatné obrázky?"</string>
+	<!---->
+	<string name="burst_overwrite">"Prepísať"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"Uložiť ako samostatné obrázky"</string>
+	<!---->
+	<string name="burst_cancel">"ZRUŠIŤ"</string>
+	<!---->
+	<string name="burst_delete">"ODSTRÁNIŤ"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"Obľúbené"</string>
+	<!---->
+	<string name="select">"Vybrať"</string>
+	<!---->
+	<string name="getstarted">"Začnite"</string>
+	<!---->
+	<string name="gotit">"Hotovo"</string>
+	<!---->
+	<string name="faceshow_start">"Keď dosiahnete určitý počet snímok selfie, čaká vás naozajstné prekvapenie. Vyskúšajte to teraz!"</string>
+	<!---->
+	<string name="faceshow_takemore">"Na vytvorenie vlastnej prezentácie tvárí potrebujete viac snímok selfie."</string>
+	<!---->
+	<string name="selfies">"Selfie"</string>
+	<!---->
+	<string name="parallax">"Paralaxa"</string>
+	<!---->
+	<string name="trim_title">"Vymazať zmeny?"</string>
+	<!---->
+	<string name="trim_message">"Vaše zmeny sa neuložili"</string>
+	<!---->
+	<string name="trim_discard">"Odstrániť"</string>
+	<!---->
+	<string name="main_tab_moments">"Chvíle"</string>
+	<!---->
+	<string name="moments_show">"Zobraziť"</string>
+	<!---->
+	<string name="illegal_image_format">"Neplatný formát obrázku. Úprava nie je možná."</string>
+	<!---->
+	<string name="exporting_video">"Prebieha export videa"</string>
+	<!---->
+	<string name="exporting_message">"Môže to trvať niekoľko sekúnd, chvíľu počkajte..."</string>
+	<!---->
+	<string name="share_save_video">"Prebieha ukladanie videa do Galérie..."</string>
+	<!---->
+	<string name="share_saved">"Video bolo uložené do Galérie"</string>
+	<!---->
+	<string name="share_save_image">"Fotografia sa ukladá do Galérie..."</string>
+	<!---->
+	<string name="share_image_saved">"Fotografia bola uložená do Galérie"</string>
+	<!---->
+	<string name="location_permission_toast_text">"Žiadne údaje o polohe z Fotoaparátu"</string>
+	<!---->
+	<string name="no_internet_contect_text">"Žiadne pripojenie k internetu"</string>
+	<!---->
+	<string name="more">"Viac"</string>
+	<!---->
+	<string name="moment_album_today">"Dnes"</string>
+	<!---->
+	<string name="moment_album_yesterday">"včera"</string>
+	<!---->
+	<string name="location_destination_text">"V časti Momenty môžete fotografie a videá triediť podľa polohy"</string>
+	<string-array name="month">
+		<item>"Január"</item>
+		<item>"Február"</item>
+		<item>"Marec"</item>
+		<item>"Apríl"</item>
+		<item>"Máj"</item>
+		<item>"Jún"</item>
+		<item>"Júl"</item>
+		<item>"August"</item>
+		<item>"September"</item>
+		<item>"Október"</item>
+		<item>"November"</item>
+		<item>"December"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"Ak chcete fotografie a videá triediť podľa polohy, povoľte aplikácii Galéria prístup k polohe."</string>
+	<!---->
+	<string name="permission_location_settings">"Nastavenia"</string>
+	<!---->
+	<string name="boom_key_tip_1">"Prezentujte fotografie pomocou výnimočných a nevídaných koláží"</string>
+	<!---->
+	<string name="boom_key_tip_2">"Spustiť zobrazenie koláže stlačením tlačidla Boom"</string>
+	<!---->
+	<string name="boom_key_tip_3">"Spustiť zobrazenie koláže z albumov"</string>
+	<!---->
+	<string name="boom_key_tip_4">"Spustiť zobrazenie koláže z náhľadu fotografie"</string>
+	<!---->
+	<string name="tx_skip">"Preskočiť"</string>
+	<!---->
+	<string name="tx_done">"Hotovo"</string>
+	<!---->
+	<string name="boom_key">"Tlačidlo boom"</string>
+	<!---->
+	<string name="press">"Stlačiť"</string>
+	<!---->
+	<string name="not_support_parallax_share">"Z Momentov nie je možné zdieľať fotografie Fyuse"</string>
+	<!---->
+	<string name="permissions_hi">"Ahoj!"</string>
+	<!---->
+	<string name="not_support_video_edit">"Formát videa nie je podporovaný."</string>
+</resources>

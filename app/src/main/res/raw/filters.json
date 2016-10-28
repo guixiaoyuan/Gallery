@@ -1,0 +1,475 @@
+[
+    {
+        "name": "original",
+        "frame": "blank_frmae"
+    },
+
+    {
+        "name": "colorrun",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "colorrun_00_texture_1440x1440", "target-width": 1440, "target-height": 1440 },
+                        { "res-id": "colorrun_00_texture_120x120", "target-width": 120, "target-height": 120 }
+                    ]
+                },
+                 "blend-mode": "softlight",
+                 "opacity": 1.00
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "colorrun_01_texture_120x120", "target-width": 120, "target-height": 120 }, 
+                        { "res-id": "colorrun_01_texture_720x720", "target-width": 720, "target-height": 720 }, 
+                        { "res-id": "colorrun_01_texture_1440x1440", "target-width": 1440, "target-height": 1440 } 
+                    ]
+                },
+                "blend-mode": "softlight",
+                "opacity": 1.00
+            }
+        ]
+    },
+
+    {
+        "name": "greenpoint",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "greenpoint_00_lut_17", "size": 17 },
+                        { "res-id": "greenpoint_00_lut_33", "size": 33 },
+                        { "res-id": "greenpoint_00_lut_65", "size": 65 }
+                    ]
+                }
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "greenpoint_01_texture_120x120", "target-width": 120, "target-height": 120 }, 
+                        { "res-id": "greenpoint_01_texture_1440x1440", "target-width": 1440, "target-height": 1440 } 
+                    ]
+                },
+                "blend-mode": "linear_burn",
+                "opacity": 1.00
+            }
+        ]
+    },
+    
+       {
+        "name": "bollocks",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "bollocks_00_texture_1440x1440", "target-width": 1440, "target-height": 1440 }, 
+                        { "res-id": "bollocks_00_texture_240x240", "target-width": 240, "target-height": 240 } 
+                    ]
+                },
+                "blend-mode": "screen",
+                "opacity": 1.00
+            },
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "bollocks_01_lut_17", "size": 17 },
+                        { "res-id": "bollocks_01_lut_33", "size": 33 },
+                        { "res-id": "bollocks_01_lut_65", "size": 65 }
+                    ]
+                }
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "bollocks_02_texture_1440x1440", "target-width": 1440, "target-height": 1440 }, 
+                        { "res-id": "bollocks_02_texture_240x240", "target-width": 240, "target-height": 240 } 
+                    ]
+                },
+                "blend-mode": "multiply",
+                "opacity": 0.20
+            }
+        ]
+    },
+    
+    
+    {
+        "name": "popart",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "popart_00_lut_17", "size": 17 },
+                        { "res-id": "popart_00_lut_33", "size": 33 },
+                        { "res-id": "popart_00_lut_65", "size": 65 }
+                    ]
+                }
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "popart_01_texture_1440x1440", "target-width": 1440, "target-height": 1440 }, 
+                        { "res-id": "popart_01_texture_240x240", "target-width": 240, "target-height": 240 } 
+                    ]
+                },
+                "blend-mode": "softlight",
+                "opacity": 1.00
+            }
+        ]
+    },
+    
+    {
+        "name": "hearts",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "hearts_00_lut_17", "size": 17 },
+                        { "res-id": "hearts_00_lut_33", "size": 33 },
+                        { "res-id": "hearts_00_lut_65", "size": 65 }
+                    ]
+                }
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "hearts_01_texture_1440x1440", "target-width": 1440, "target-height": 1440 } 
+                    ]
+                },
+                "blend-mode": "linear_burn",
+                "opacity": 1.00
+            }
+        ]
+    },
+    
+    
+    {
+        "name": "squarestreet",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "squarestreet_00_texture_1440x1440", "target-width": 1440, "target-height": 1440 }, 
+                        { "res-id": "squarestreet_00_texture_240x240", "target-width": 240, "target-height": 240 } 
+                    ]
+                },
+                "blend-mode": "multiply",
+                "opacity": 0.60
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "squarestreet_01_texture_1440x1440", "target-width": 1440, "target-height": 1440 }, 
+                        { "res-id": "squarestreet_01_texture_144x144", "target-width": 144, "target-height": 144 } 
+                    ]
+                },
+                "blend-mode": "linear_dodge",
+                "opacity": 1.00
+            },
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "squarestreet_02_lut_17", "size": 17 },
+                        { "res-id": "squarestreet_02_lut_33", "size": 33 },
+                        { "res-id": "squarestreet_02_lut_65", "size": 65 }
+                    ]
+                }
+            }
+        ]
+    },
+    
+    
+    {
+        "name": "beckasweird5_simple",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "beckasweird5_00_lut_17", "size": 17 },
+                        { "res-id": "beckasweird5_00_lut_33", "size": 33 },
+                        { "res-id": "beckasweird5_00_lut_65", "size": 65 }
+                    ]
+                }
+            }
+        ]
+    },
+    
+    {
+        "name": "beckasweird5",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "beckasweird5_00_lut_17", "size": 17 },
+                        { "res-id": "beckasweird5_00_lut_33", "size": 33 },
+                        { "res-id": "beckasweird5_00_lut_65", "size": 65 }
+                    ]
+                }
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "beckasweird5_01_texture_1440x1440", "target-width": 1440, "target-height": 1440 } 
+                    ]
+                },
+                "blend-mode": "screen",
+                "opacity": 0.70
+            },
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "beckasweird5_02_lut_17", "size": 17 },
+                        { "res-id": "beckasweird5_02_lut_33", "size": 33 },
+                        { "res-id": "beckasweird5_02_lut_65", "size": 65 }
+                    ]
+                }
+            }
+        ]
+    },
+    
+    
+    {
+        "name": "borrego",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "borrego_00_lut_17", "size": 17 },
+                        { "res-id": "borrego_00_lut_33", "size": 33 },
+                        { "res-id": "borrego_00_lut_65", "size": 65 }
+                    ]
+                }
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "borrego_01_texture_144x144", "target-width": 144, "target-height": 144 } 
+                    ]
+                },
+                "blend-mode": "softlight",
+                "opacity": 1.00
+            }
+         ]
+    },
+   
+   
+    {
+        "name": "bananarama",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "bananarama_00_lut_17", "size": 17 },
+                        { "res-id": "bananarama_00_lut_33", "size": 33 },
+                        { "res-id": "bananarama_00_lut_65", "size": 65 }
+                    ]
+                }
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "bananarama_01_texture_144x144", "target-width": 144, "target-height": 144 }, 
+                        { "res-id": "bananarama_01_texture_720x720", "target-width": 240, "target-height": 240 }, 
+                        { "res-id": "bananarama_01_texture_1440x1440", "target-width": 1440, "target-height": 1440 } 
+                    ]
+                },
+                "blend-mode": "multiply",
+                "opacity": 1.00
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "bananarama_02_texture_720x720", "target-width": 720, "target-height": 720 }, 
+                        { "res-id": "bananarama_02_texture_1440x1440", "target-width": 1440, "target-height": 1440 } 
+                    ]
+                },
+                "blend-mode": "softlight",
+                "opacity": 1.00
+            }
+        ]
+    },
+    
+    
+    {
+        "name": "fred",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "fred_00_lut_17", "size": 17 },
+                        { "res-id": "fred_00_lut_33", "size": 33 },
+                        { "res-id": "fred_00_lut_65", "size": 65 }
+                    ]
+                }
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "fred_01_texture_1440x1440", "target-width": 1440, "target-height": 1440 } 
+                    ]
+                },
+                "blend-mode": "softlight",
+                "opacity": 1.00
+            }
+        ]
+    },
+    
+    {
+        "name": "lonepine",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "lonepine_00_lut_17", "size": 17 },
+                        { "res-id": "lonepine_00_lut_33", "size": 33 },
+                        { "res-id": "lonepine_00_lut_65", "size": 65 }
+                    ]
+                }
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "lonepine_01_texture_1440x1440", "target-width": 1440, "target-height": 1440 },
+                        { "res-id": "lonepine_01_texture_240x240", "target-width": 240, "target-height": 240 } 
+                    ]
+                },
+                "blend-mode": "multiply",
+                "opacity": 1.00
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "lonepine_02_texture_72x72", "target-width": 72, "target-height": 72 }, 
+                        { "res-id": "lonepine_02_texture_720x720", "target-width": 720, "target-height": 720 }, 
+                        { "res-id": "lonepine_02_texture_1440x1440", "target-width": 1440, "target-height": 1440 } 
+                    ]
+                },
+                "blend-mode": "screen",
+                "opacity": 1.00
+            }
+        ]
+    },
+    
+     
+    
+    
+    {
+        "name": "beckasweird9",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "beckasweird9_00_lut_17", "size": 17 },
+                        { "res-id": "beckasweird9_00_lut_33", "size": 33 },
+                        { "res-id": "beckasweird9_00_lut_65", "size": 65 }
+                    ]
+                }
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "beckasweird9_01_texture_1440x1440", "target-width": 1440, "target-height": 1440 } 
+                    ]
+                },
+                "blend-mode": "screen",
+                "opacity": 1.00
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "name": "likeaboss",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "likeaboss_00_lut_17", "size": 17 },
+                        { "res-id": "likeaboss_00_lut_33", "size": 33 },
+                        { "res-id": "likeaboss_00_lut_65", "size": 65 }
+                    ]
+                }
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "likeaboss_01_texture_1440x1440", "target-width": 1440, "target-height": 1440 } 
+                    ]
+                },
+                "blend-mode": "softlight",
+                "opacity": 1.00
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "name": "ruffians",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "ruffians_00_lut_17", "size": 17 },
+                        { "res-id": "ruffians_00_lut_33", "size": 33 },
+                        { "res-id": "ruffians_00_lut_65", "size": 65 }
+                    ]
+                }
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "ruffians_01_texture_144x144", "target-width": 144, "target-height": 144 }, 
+                        { "res-id": "ruffians_01_texture_240x240", "target-width": 240, "target-height": 240 }, 
+                        { "res-id": "ruffians_01_texture_1440x1440", "target-width": 1440, "target-height": 1440 } 
+                    ]
+                },
+                "blend-mode": "multiply",
+                "opacity": 1.00
+            }
+        ]
+    },
+    
+    
+    {
+        "name": "trinidad",
+        "frame": "blank_frmae",
+        "operations": [
+            {
+                "lut-operation": {
+                    "resources": [
+                        { "res-id": "trinidad_00_lut_17", "size": 17 },
+                        { "res-id": "trinidad_00_lut_33", "size": 33 },
+                        { "res-id": "trinidad_00_lut_65", "size": 65 }
+                    ]
+                }
+            },
+            {
+                "texture-operation": {
+                    "resources": [
+                        { "res-id": "trinidad_01_texture_72x72", "target-width": 72, "target-height": 72 }, 
+                        { "res-id": "trinidad_01_texture_720x720", "target-width": 720, "target-height": 720 }, 
+                        { "res-id": "trinidad_01_texture_1440x1440", "target-width": 1440, "target-height": 1440 }  
+                    ]
+                },
+                "blend-mode": "softlight",
+                "opacity": 1.00
+            }
+        ]
+    }
+]

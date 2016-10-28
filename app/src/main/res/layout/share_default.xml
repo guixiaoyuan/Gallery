@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--//[BUGFIX]-Modify by TCTNJ,su.jiang, 2015-12-09,PR1101300 begin -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridView
+        android:id="@+id/share_apps_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:stretchMode="columnWidth" />
+
+    <LinearLayout
+        android:id="@+id/share_save_video_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ABABAB"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/share_video_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:text="@string/share_save_video"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>
+<!--//[BUGFIX]-Modify by TCTNJ,su.jiang, 2015-12-09,PR1101300 end -->

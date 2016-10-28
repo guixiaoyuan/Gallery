@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--//[BUGFIX]-Modify by TCTNJ,caihong.gu-nb, 2016/02/25,PR1490902 begin -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a0000000"
+    android:clickable="true" >
+
+    <LinearLayout
+        android:id="@+id/tip_firstlauncher_lr"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/firstlaunch_tv_press"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/press"
+                android:layout_gravity="top"
+                android:textColor="#fbfbfb"
+                android:textSize="26sp"
+                android:layout_marginTop="-5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/firstlaunch_tv_boomkey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/boom_key"
+                android:textColor="#fbeb00"
+                android:textSize="16sp"
+                android:layout_gravity="top"
+                android:textStyle="bold"
+                android:layout_marginBottom="-6dp"/>
+        </LinearLayout>
+
+        <com.tct.gallery3d.ui.PressBoomKeyView
+            android:id="@+id/press_boomkey"
+            android:layout_width="48dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
+<!--//[BUGFIX]-Modify by TCTNJ,caihong.gu-nb, 2016/02/25,PR1490902 end -->

@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Галерия"</string>
+	<!---->
+	<string name="gadget_title">"Рамка на снимка"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"Видеоплейър"</string>
+	<!---->
+	<string name="loading_video">"Видеоклипът се зарежда..."</string>
+	<!---->
+	<string name="loading_image">"Изображението се зарежда..."</string>
+	<!---->
+	<string name="loading_account">"Профилът се зарежда…"</string>
+	<!---->
+	<string name="resume_playing_title">"Възобнови видео"</string>
+	<!---->
+	<string name="resume_playing_message">"Възобнови възпроизвеждане от%s?"</string>
+	<!---->
+	<string name="resume_playing_resume">"Възобнови"</string>
+	<!---->
+	<string name="loading">"Зарежда се…"</string>
+	<!---->
+	<string name="fail_to_load">"Не можаха да се заредят"</string>
+	<!---->
+	<string name="fail_trim">"Видео файлът не може да бъде орязан."</string>
+	<!---->
+	<string name="fail_to_load_image">"Изображението не можа да бъде заредено"</string>
+	<!---->
+	<string name="no_thumbnail">"Няма миниизображение"</string>
+	<!---->
+	<string name="resume_playing_restart">"Започни отново"</string>
+	<!---->
+	<string name="crop_save_text">"OK"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="multiface_crop_help">"Докоснете лице за начало"</string>
+	<!---->
+	<string name="saving_image">"Снимката се запазва..."</string>
+	<!---->
+	<string name="filtershow_saving_image">"Запазване на снимката в <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="save_error">"Подрязаното изобр. не можа да се запази."</string>
+	<!---->
+	<string name="crop_label">"Изрязв. на снимка"</string>
+	<!---->
+	<string name="trim_label">"Отрязване на видео"</string>
+	<!---->
+	<string name="select_image">"Избиране на снимка"</string>
+	<!---->
+	<string name="select_video">"Избиране на видеоклип"</string>
+	<!---->
+	<string name="select_item">"Избиране на елемент"</string>
+	<!---->
+	<string name="select_album">"Изберете албум"</string>
+	<!---->
+	<string name="select_group">"Изберете група"</string>
+	<!---->
+	<string name="set_image">"Задаване като..."</string>
+	<!---->
+	<string name="set_wallpaper">"Задаване на тапет"</string>
+	<!---->
+	<string name="wallpaper">"Тапетът се задава..."</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"Тапет"</string>
+	<!---->
+	<string name="delete">"Изтрий"</string>
+	<!---->
+	<string name="deleting">"Изтриване"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"Изтриване на избрания елемент?"</item>
+		<item quantity="other">"Изтриване на избраните елементи?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"Потвърждение"</string>
+	<!---->
+	<string name="cancel">"Отказ"</string>
+	<!---->
+	<string name="share">"Споделяне"</string>
+	<!---->
+	<string name="share_panorama">"Сподели панорама"</string>
+	<!---->
+	<string name="share_as_photo">"Сподели като снимка"</string>
+	<!---->
+	<string name="deleted">"Изтрито"</string>
+	<!---->
+	<string name="undo">"ОТМЕНИ"</string>
+	<!---->
+	<string name="select_all">"Избиране на всички"</string>
+	<!---->
+	<string name="deselect_all">"Премахване на избора"</string>
+	<!---->
+	<string name="slideshow">"Слайдшоу"</string>
+	<!---->
+	<string name="details">"Подробности"</string>
+	<!---->
+	<string name="details_title">"%1$d от %2$d елемента:"</string>
+	<!---->
+	<string name="close">"Затваряне"</string>
+	<!---->
+	<string name="switch_to_camera">"Превключване към камера"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"Избрани: %1$d"</item>
+		<item quantity="one">"Избрани: %1$d"</item>
+		<item quantity="other">"Избрани: %1$d"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"Избрани: %1$d"</item>
+		<item quantity="one">"Избрани: %1$d"</item>
+		<item quantity="other">"Избрани: %1$d"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"Избрани: %1$d"</item>
+		<item quantity="one">"Избрани: %1$d"</item>
+		<item quantity="other">"Избрани: %1$d"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"Показване на карта"</string>
+	<!---->
+	<string name="rotate_left">"Завъртане наляво"</string>
+	<!---->
+	<string name="rotate_right">"Завъртане надясно"</string>
+	<!---->
+	<string name="no_such_item">"Елементът не можа да бъде намерен."</string>
+	<!---->
+	<string name="edit">"Редактиране"</string>
+	<!---->
+	<string name="mix_video">"Смесване"</string>
+	<!---->
+	<string name="simple_edit">"Обикновено редактиране"</string>
+	<!---->
+	<string name="process_caching_requests">"Заявките за кеширане се обработват"</string>
+	<!---->
+	<string name="caching_label">"Кешира се..."</string>
+	<!---->
+	<string name="crop_action">"Подрязване"</string>
+	<!---->
+	<string name="trim_action">"Отрязване"</string>
+	<!---->
+	<string name="mute_action">"Без звук"</string>
+	<!---->
+	<string name="set_as">"Задаване като"</string>
+	<!---->
+	<string name="video_mute_err">"Не може да заглушите видеото."</string>
+	<!---->
+	<string name="video_err">"Видеоклипът не може да се възпроизведе."</string>
+	<!---->
+	<string name="group_by_location">"По местоположение"</string>
+	<!---->
+	<string name="group_by_time">"По време"</string>
+	<!---->
+	<string name="group_by_tags">"По маркери"</string>
+	<!---->
+	<string name="group_by_faces">"По хора"</string>
+	<!---->
+	<string name="group_by_album">"По албум"</string>
+	<!---->
+	<string name="group_by_size">"По размер"</string>
+	<!---->
+	<string name="untagged">"Немаркирани"</string>
+	<!---->
+	<string name="no_location">"Няма местоположение"</string>
+	<!---->
+	<string name="no_connectivity">"Някои местоположения не можаха да бъдат идентифицирани поради проблеми с мрежата."</string>
+	<!---->
+	<string name="sync_album_error">"Снимките не можаха да бъдат изтеглени в този албум. Опитайте отново по-късно."</string>
+	<!---->
+	<string name="show_images_only">"Само изображения"</string>
+	<!---->
+	<string name="show_videos_only">"Само видеоклипове"</string>
+	<!---->
+	<string name="show_all">"Изображения и видеоклипове"</string>
+	<!---->
+	<string name="appwidget_title">"Фотогалерия"</string>
+	<!---->
+	<string name="appwidget_empty_text">"Няма снимки."</string>
+	<!---->
+	<string name="crop_saved">"Подрязаното изображение е запазено в/ъв „<xliff:g id="FOLDER_NAME">%s</xliff:g>“."</string>
+	<!---->
+	<string name="no_albums_alert">"Няма налични албуми"</string>
+	<!---->
+	<string name="empty_album">"Няма снимки/видео на разположение"</string>
+	<!---->
+	<string name="picasa_posts">"Публикации"</string>
+	<!---->
+	<string name="make_available_offline">"Налице офлайн"</string>
+	<!---->
+	<string name="sync_picasa_albums">"Опресняване"</string>
+	<!---->
+	<string name="done">"Готово"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d от %2$d елемента:"</string>
+	<!---->
+	<string name="title">"Заглавие"</string>
+	<!---->
+	<string name="description">"Описание"</string>
+	<!---->
+	<string name="time">"Час"</string>
+	<!---->
+	<string name="location">"Местоположение"</string>
+	<!---->
+	<string name="path">"Път"</string>
+	<!---->
+	<string name="width">"Ширина"</string>
+	<!---->
+	<string name="height">"Височина"</string>
+	<!---->
+	<string name="orientation">"Ориентация"</string>
+	<!---->
+	<string name="duration">"Времетраене"</string>
+	<!---->
+	<string name="mimetype">"Тип MIME"</string>
+	<!---->
+	<string name="file_size">"Файл: Размер"</string>
+	<!---->
+	<string name="maker">"Автор"</string>
+	<!---->
+	<string name="model">"Модел"</string>
+	<!---->
+	<string name="flash">"Светкавица"</string>
+	<!---->
+	<string name="aperture">"Бленда"</string>
+	<!---->
+	<string name="focal_length">"Дълж. на фокус"</string>
+	<!---->
+	<string name="white_balance">"Бяло: Баланс"</string>
+	<!---->
+	<string name="exposure_time">"Експонация"</string>
+	<!---->
+	<string name="iso">"ISO"</string>
+	<!---->
+	<string name="unit_mm">"мм"</string>
+	<!---->
+	<string name="manual">"Ръчно"</string>
+	<!---->
+	<string name="auto">"Авт."</string>
+	<!---->
+	<string name="flash_on">"Със светкавица"</string>
+	<!---->
+	<string name="flash_off">"Без светкавица"</string>
+	<!---->
+	<string name="unknown">"Непознат"</string>
+	<!---->
+	<string name="ffx_original">"Оригинален"</string>
+	<!---->
+	<string name="ffx_vintage">"Винтидж"</string>
+	<!---->
+	<string name="ffx_instant">"Моментален"</string>
+	<!---->
+	<string name="ffx_bleach">"Обезцветяване"</string>
+	<!---->
+	<string name="ffx_blue_crush">"Син"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"Ч/Б"</string>
+	<!---->
+	<string name="ffx_punch">"Пунш"</string>
+	<!---->
+	<string name="ffx_x_process">"X процес"</string>
+	<!---->
+	<string name="ffx_washout">"Лате"</string>
+	<!---->
+	<string name="ffx_washout_color">"Лито"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"Албумът става достъпен офлайн."</item>
+		<item quantity="other">"Албумите стават достъпни офлайн."</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Този елемент се съхранява локално и е налице офлайн."</string>
+	<!---->
+	<string name="set_label_all_albums">"Всички албуми"</string>
+	<!---->
+	<string name="set_label_local_albums">"Местни албуми"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"MTP устройства"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Албуми в Picasa"</string>
+	<!---->
+	<string name="free_space_format">"Свободни: <xliff:g id="BYTES">%s</xliff:g>"</string>
+	<!---->
+	<string name="size_below">"<xliff:g id="SIZE">%1$s</xliff:g> или по-малко"</string>
+	<!---->
+	<string name="size_above">"<xliff:g id="SIZE">%1$s</xliff:g> или повече"</string>
+	<!---->
+	<string name="size_between">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> до <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"Импортиране"</string>
+	<!---->
+	<string name="import_complete">"Импортирането завърши"</string>
+	<!---->
+	<string name="import_fail">"Импортирането не бе успешно"</string>
+	<!---->
+	<string name="camera_connected">"Камерата е включена."</string>
+	<!---->
+	<string name="camera_disconnected">"Камерата е изключена."</string>
+	<!---->
+	<string name="click_import">"Докоснете тук, за да импортирате"</string>
+	<!---->
+	<string name="widget_type_album">"Избор на албум"</string>
+	<!---->
+	<string name="widget_type_shuffle">"Разбъркване на всички"</string>
+	<!---->
+	<string name="widget_type_photo">"Избор на изображение"</string>
+	<!---->
+	<string name="widget_type">"Избор на изображения"</string>
+	<!---->
+	<string name="slideshow_dream_name">"Слайдшоу"</string>
+	<!---->
+	<string name="albums">"Албуми"</string>
+	<!---->
+	<string name="times">"Час"</string>
+	<!---->
+	<string name="locations">"Mестопол."</string>
+	<!---->
+	<string name="people">"Хора"</string>
+	<!---->
+	<string name="tags">"Маркери"</string>
+	<!---->
+	<string name="group_by">"Групиране по"</string>
+	<!---->
+	<string name="settings">"Настройки"</string>
+	<!---->
+	<string name="add_account">"Добавяне на профил"</string>
+	<!---->
+	<string name="folder_camera">"Камера"</string>
+	<!---->
+	<string name="folder_download">"Изтегляне"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"Редактирани онлайн снимки"</string>
+	<!---->
+	<string name="folder_imported">"Импортирани"</string>
+	<!---->
+	<string name="folder_screenshot">"Екранна снимка"</string>
+	<!---->
+	<string name="help">"Помощ"</string>
+	<!---->
+	<string name="no_external_storage_title">"Няма памет"</string>
+	<!---->
+	<string name="no_external_storage">"Няма налична външна памет"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Филмова лента"</string>
+	<!---->
+	<string name="switch_photo_grid">"Табличен вид"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"Оглед на цял екран"</string>
+	<!---->
+	<string name="trimming">"Изрязване"</string>
+	<!---->
+	<string name="muting">"Изключване на звука"</string>
+	<!---->
+	<string name="please_wait">"Моля изчакайте"</string>
+	<!---->
+	<string name="save_into">"Запазване на видео към <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="trim_save_into">"Орязаният файл е запазен в <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"Файлът без звук е запазен в <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="trim_too_short">"Не може да се изреже: избраното видео е прекалено късо"</string>
+	<!---->
+	<string name="mute_nosupport">"Не можете да изключите звука: не поддържа видео"</string>
+	<!---->
+	<string name="pano_progress_text">"Панорама"</string>
+	<!---->
+	<string name="save">"ЗАПАЗВ."</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"Сканиране на съдържание..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d елементи сканирани"</item>
+		<item quantity="one">"%1$d елемент сканиран"</item>
+		<item quantity="other">"%1$d елементи сканирани"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"%1$d елементи избрани"</item>
+		<item quantity="one">"%1$d елемент избран"</item>
+		<item quantity="other">"%1$d елементи избрани"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"Сортиране ..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"Сканиране е готово"</string>
+	<!---->
+	<string name="ingest_importing">"Импортиране ..."</string>
+	<!---->
+	<string name="ingest_empty_device">"Няма съдържание на разположение за импортиране на това устройство."</string>
+	<!---->
+	<string name="ingest_no_device">"Няма свързано MTP устройство"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"Грешка в камерата"</string>
+	<!---->
+	<string name="cannot_connect_camera">"Не може да се осъществи връзка с камерата."</string>
+	<!---->
+	<string name="camera_disabled">"Камерата е деактивирана заради правилата за сигурност."</string>
+	<!---->
+	<string name="camera_label">"Камера"</string>
+	<!---->
+	<string name="wait">"Моля, изчакайте…"</string>
+	<!---->
+	<string name="review_cancel">"Отказ"</string>
+	<!---->
+	<string name="review_ok">"ГОТОВО"</string>
+	<!---->
+	<string name="time_lapse_title">"Запис на цайтрафера"</string>
+	<!---->
+	<string name="pref_camera_id_title">"Избор на камера"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Назад"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Отпред"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"Запази локац."</string>
+	<!---->
+	<string name="pref_camera_location_label">"Местоположение"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"Таймер за обратно отброяване"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 секунда"</item>
+		<item quantity="other">"%d секунди"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Сигнал при отброяването"</string>
+	<!---->
+	<string name="setting_off">"Изкл"</string>
+	<!---->
+	<string name="setting_on">"Включено"</string>
+	<!---->
+	<string name="pref_video_quality_title">"Качество на видео"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Високо"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Ниска"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"Запис цайтрафер"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"Настройки на камера"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Настр. на видеокамера"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Размер на снимка"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13M пиксела"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8М пикс."</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5 мегапиксела"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4М пиксела"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3 мегапиксела"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2 мегапиксела"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2М пиксела (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1,3 мегапиксела"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1 мегапиксел"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Режим Фокус"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Автоматично"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Безкрайност"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Макр"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"АВТОМАТИЧНО"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"БЕЗКРАЙНОСТ"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"MACRO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Светкавица"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"Светкавица"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Автоматично"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Включено"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Изключено"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"ФЛАШ АВТОМАТИЧНО"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"ФЛАШ ВКЛЮЧЕНО"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"ФЛАШ ИЗКЛЮЧЕНО"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Бяло: Баланс"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Бяло: Баланс"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Автоматично"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"нажеж. светл."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Днев. светл."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Флуоресцентен"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Облачно"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"АВТОМАТИЧНО"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"нажеж. светл."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Днев. светл."</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Флуоресцентен"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Облачно"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Режим сцена"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Автоматично"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Действие"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Нощ"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Залез"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Купон"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"Без"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"Действие"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"Нощ"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"Залез"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"Купон"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"таймер за обратно броене"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"ТАЙМЕР ИЗКЛЮЧЕН"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 секунда"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 секунди"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"10 сек."</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 секунди"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Не може да се избира в сценичен режим."</string>
+	<!---->
+	<string name="pref_exposure_title">"Експозиция"</string>
+	<!---->
+	<string name="pref_exposure_label">"Експозиция"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"ПРЕДНА КАМЕРА"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"ЗАДНА КАМЕРА"</string>
+	<!---->
+	<string name="dialog_ok">"OK"</string>
+	<!---->
+	<string name="video_reach_size_limit">"Достигнат е максималният размер."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Твърде бързо"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Панорамата се подготвя"</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Панорамата не можа да бъде запазена."</string>
+	<!---->
+	<string name="pano_dialog_title">"Панорама"</string>
+	<!---->
+	<string name="pano_capture_indication">"Панорамата се заснема"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Изчаква се предишната панорама"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Запазва се..."</string>
+	<!---->
+	<string name="pano_review_rendering">"Панорамата се изобразява"</string>
+	<!---->
+	<string name="tap_to_focus">"Докоснете за фокусиране"</string>
+	<!---->
+	<string name="pref_video_effect_title">"Ефекти"</string>
+	<!---->
+	<string name="effect_none">"Без"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Стискане"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Големи очи"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Голяма уста"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Малка уста"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Голям нос"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Малки очи"</string>
+	<!---->
+	<string name="effect_backdropper_space">"В космоса"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Залез"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Ваше видео"</string>
+	<!---->
+	<string name="bg_replacement_message">"Оставете устройството си."\n"Отдръпнете се от зрителното му поле за момент."</string>
+	<!---->
+	<string name="video_snapshot_hint">"Докоснете, за да направите снимка по време на записа."</string>
+	<!---->
+	<string name="video_recording_started">"Видео записът е започнал."</string>
+	<!---->
+	<string name="video_recording_stopped">"Видеозаписът е спрял."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"Моментните снимки в клиповете са деакт. при вкл. спец. ефекти."</string>
+	<!---->
+	<string name="clear_effects">"Изчистване на ефектите"</string>
+	<!---->
+	<string name="effect_silly_faces">"СМЕШНИ ЛИЦА"</string>
+	<!---->
+	<string name="effect_background">"ФОН"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"Бутон на затвора"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Клавиш Меню"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"Най-скорошна снимка"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"Превключване между предната и задната камера"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"Избор между камера, видеокамера или панорама"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"Още контроли за настройки"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"Затваряне на контролите за настройки"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"Контрола за промяна на мащаба"</string>
+	<!---->
+	<string name="accessibility_decrement">"Намаляване на %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"Увеличаване на %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"%1$s отметка в квадратчето"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Превключване към фотоапарат"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Превключване към видео"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Превключете на режим панорама"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"Превключване към нова панорама"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Включете за префокусиране"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"Анулиране на прегледа"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Преглед направен"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Преглед възвърнат"</string>
+	<!---->
+	<string name="accessibility_play_video">"Възпроизвеждане на видео"</string>
+	<!---->
+	<string name="accessibility_pause_video">"Пауза на видео"</string>
+	<!---->
+	<string name="accessibility_reload_video">"Презареди видео"</string>
+	<!---->
+	<string name="accessibility_time_bar">"Видео плейър лента за време"</string>
+	<!---->
+	<string name="capital_on">"ВКЛЮЧЕНО"</string>
+	<!---->
+	<string name="capital_off">"ИЗКЛЮЧЕНО"</string>
+	<!---->
+	<string name="gif_err">"Не може да се възпроизведе gif."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Изкючено"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0.5 секунда"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 секунда"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1.5 секунди"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 секунди"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2.5 секунди"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 секунди"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 секунди"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 секунди"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 секунди"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"10 сек."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 секунди"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 секунди"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 секунди"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0.5 минута"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 минута"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1.5 минути"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 минути"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2.5 минути"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 минути"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 минути"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 минути"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 минути"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 минути"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 минути"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 минути"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 минути"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0.5 часа"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 час"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1.5 часове"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 часа"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2.5 часове"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 часа"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 часа"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 часове"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 часа"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 часове"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 часа"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 часове"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 часа"</string>
+	<!---->
+	<string name="time_lapse_seconds">"секунди"</string>
+	<!---->
+	<string name="time_lapse_minutes">"минути"</string>
+	<!---->
+	<string name="time_lapse_hours">"часове"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"Готово"</string>
+	<!---->
+	<string name="set_time_interval">"Задайте интервал от време"</string>
+	<!---->
+	<string name="set_time_interval_help">"Функцията интервал от време е забранена. Включете го, за да зададете интервал от време."</string>
+	<!---->
+	<string name="set_timer_help">"Таймера за обратно отброяване е изключен. Включете го да брои, преди да започнете да снимате."</string>
+	<!---->
+	<string name="set_duration">"Задайте продължителност в секунди"</string>
+	<!---->
+	<string name="count_down_title_text">"Обратно броене за да направите снимка"</string>
+	<!---->
+	<string name="remember_location_title">"Запомни фото локацията?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Тагнете вашите снимки и видеоклипове с местата, където са взети.\n\nДругите приложения могат да получат достъп до тази информация заедно със запазените изображения."</string>
+	<!---->
+	<string name="remember_location_no">"Не, благодаря"</string>
+	<!---->
+	<string name="remember_location_yes">"Да"</string>
+	<!---->
+	<string name="menu_camera">"Камера"</string>
+	<!---->
+	<string name="menu_search">"Търсене"</string>
+	<!---->
+	<string name="tab_photos">"Снимки"</string>
+	<!---->
+	<string name="tab_albums">"Албуми"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Още опции"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"Настройки"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d снимка"</item>
+		<item quantity="other">"%1$d снимки"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"Субтитри"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"Този видеоклип не е валиден за поточно предаване към това устройство."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"Този видеоклип не може да се пусне."</string>
+	<!---->
+	<string name="VideoView_error_button">"OK"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"Този видеофайл не се поддържа"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"Не може да се свърже. Опитайте да свържете повторно %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"Свързване ..."</string>
+	<!---->
+	<string name="media_controller_buffering">"„Буфериране на %d%%...“"</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"Не може да се свърже със сървъра"</string>
+	<!---->
+	<string name="media_controller_live">"„На живо“"</string>
+	<!---->
+	<string name="media_controller_playing">"„Възпроизвеждане“"</string>
+	<!---->
+	<string name="notify_photo_text">"Контролер на галерия"</string>
+	<!---->
+	<string name="notify_video_text">"Контролер на галерия"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"Активирано е слайдшоу Wi-Fi Display"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"Активирано е видео Wi-Fi Display"</string>
+	<!---->
+	<string name="wfd_alert">"Сигнал"</string>
+	<!---->
+	<string name="wfd_change_message">"Видеото ще бъде заменено"</string>
+	<!---->
+	<string name="wfd_change_button">"Да"</string>
+	<!---->
+	<string name="wfd_not_change_button">"Не"</string>
+	<!---->
+	<string name="wfd_show">"Wi-Fi дисплей"</string>
+	<!---->
+	<string name="wfd_show_on">"Включване на Wi-Fi Display"</string>
+	<!---->
+	<string name="wfd_show_off">"Изключи Wi-Fi Display"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"Придърпайте файла към жълтия правоъгълник за да споделите екрана."</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"Типът не се поддържа"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Предупреждение"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Всички файлове, защитени срещу копиране, са скрити поради свързване Wi-Fi Display."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"Изключване на Wi-Fi дисплей"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"Продължи"</string>
+	<!---->
+	<string name="tv_link_close">"Wi-Fi Display е затворен"</string>
+	<!---->
+	<string name="drm_no_valid_right">"Файла не разполага с валиден DRM авторитет"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">"DRM файлът "%s" е с изтекъл срок. Изтриване?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"DRM файлът "%s" е с изтекъл срок. Отключване?"</string>
+	<!---->
+	<string name="unlimited_usage">"Неограничено ползване"</string>
+	<!---->
+	<string name="not_available">"Не се предлага"</string>
+	<!---->
+	<string name="use_times">"Използвай %s пъти"</string>
+	<!---->
+	<string name="valid_after">"Валиден след"</string>
+	<!---->
+	<string name="valid_until">"Валидна до"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"Двоен клик и плъзнете за да увеличите/намалите в Камерата"</string>
+	<!---->
+	<string name="tips_done">"ОК"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"Натиснете два пъти и плъзнете, за да приближите/отдалечите в галерия"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"Научете повече за увеличението с един пръст"</string>
+	<!---->
+	<string name="drm_current_right">"Текущо ограничение"</string>
+	<!---->
+	<string name="right_url">"Лицензи"</string>
+	<!---->
+	<string name="vendor">"Продавачът:"</string>
+	<!---->
+	<string name="stop">"Стоп"</string>
+	<!---->
+	<string name="selectRenderer">"Изберете плейър"</string>
+	<!---->
+	<string name="noRenderer">"Не може да се намери рендер устройство"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"Спиране на възпроизвеждане на видео към телевизора?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"Спиране на въпрозвеждането към телевизор?"</string>
+	<!---->
+	<string name="play_video">"Възпроизвеждане на видео"</string>
+	<!---->
+	<string name="shake_video_text">"Разклатете телефона си на страницата на видеото, за да го възпрозиведете на Вашия телевизор"</string>
+	<!---->
+	<string name="shake_picture_text">"За да играете на вашия ТV, разтръскайте вашия телефон на страницата за картина."</string>
+	<!---->
+	<string name="wait_dialog">"Моля, изчакайте ..."</string>
+	<!---->
+	<string name="toast_nostop">"За спиране на игра в ТV изберете локален плейър."</string>
+	<!---->
+	<string name="dlna_format_not_support">"Форматът на файла не се поддържа."</string>
+	<!---->
+	<string name="left_title_camera_roll">"Поредица от снимки"</string>
+	<!---->
+	<string name="left_title_timeline">"Час"</string>
+	<!---->
+	<string name="left_title_albums">"Албуми"</string>
+	<!---->
+	<string name="left_title_videos">"Видеоклипове"</string>
+	<!---->
+	<string name="left_title_location">"Mестопол."</string>
+	<!---->
+	<string name="drawer_open">"Отваряне на слоя за навигация"</string>
+	<!---->
+	<string name="drawer_close">"Затваряне на чекмеджето за навигация"</string>
+	<!---->
+	<string name="photo_share">"Споделяне с"</string>
+	<!---->
+	<string name="filtershow_save">"ЗАПАЗВ."</string>
+	<!---->
+	<string name="filtershow_none">"Без"</string>
+	<!---->
+	<string name="filtershow_frame">"Рамка"</string>
+	<!---->
+	<string name="drm_no_crop">"Не може да отрежете файл "%s", защото има DRM защита."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"Не може да определяте файла "%s " като контактна икона, тъй като има DRM защита."</string>
+	<!---->
+	<string name="never_tip">"Показване на съвети при стартиране"</string>
+	<!---->
+	<string name="three_finger_tips0">"Поставете три пръста върху екрана."</string>
+	<!---->
+	<string name="three_finger_tips1">"Влачете файла към жълтата област."</string>
+	<!---->
+	<string name="three_finger_tips2">"Когато областта е запълнена в жълто, споделянето е успешно."</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"DRM файла не трябва да се показва през Wi-Fi дисплей!"</string>
+	<!---->
+	<string name="filtershow_save_title">"Запазване на промени"</string>
+	<!---->
+	<string name="filtershow_save_message">"Като копие ли искате да запазите или да запишете върху оригиналното изображение?"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"Без повторно питане"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"ЗАПАЗВАНЕ КАТО КОПИЕ"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"ЗАПИСВАНЕ ВЪРХУ ОРИГИНАЛА"</string>
+	<!---->
+	<string name="lock_video">"Заключено"</string>
+	<!---->
+	<string name="unlock_video">"Отключено"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"Лицензът за DRM е изтекъл."</string>
+	<!---->
+	<string name="drm_protection_status">"Състояние на защитата:"</string>
+	<!---->
+	<string name="drm_can_forward">"Може да се препрати."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Не може да се препрати."</string>
+	<!---->
+	<string name="drm_no_license">"Няма достъпен лиценз за DRM."</string>
+	<!---->
+	<string name="drm_begin">"Начало:"</string>
+	<!---->
+	<string name="drm_no_limitation">"Няма ограничение."</string>
+	<!---->
+	<string name="drm_end">"Край:"</string>
+	<!---->
+	<string name="drm_use_left">"Остава"</string>
+	<!---->
+	<string name="date_taken">"Датата е получена"</string>
+	<!---->
+	<string name="modified_time">"Променено време"</string>
+	<!---->
+	<string name="fast_forward">"Бързо превъртане напред d %ds"</string>
+	<!---->
+	<string name="fast_backward">"Бързо превъртане назад d %ds"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"Повторно свързване към мрежата, продължаване на играта?"</string>
+	<!---->
+	<string name="polaroid_action_open">"Отвори"</string>
+	<!---->
+	<string name="polaroid_action_save">"Запазване"</string>
+	<!---->
+	<string name="polaroid_action_send">"Изпрати"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"Прегърни ме"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"Запазване на снимката..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"Редактор на полароид"</string>
+	<!---->
+	<string name="editor_select_filtershow">"Редактор (по подразбиране)"</string>
+	<!---->
+	<string name="date_tag">"Дата"</string>
+	<!---->
+	<string name="location_tag">"местоположение"</string>
+	<!---->
+	<string name="slogan_tag">"слоган"</string>
+	<!---->
+	<string name="polaroid_no_location">"Няма местополож."</string>
+	<!---->
+	<string name="save_iamge_compelete">"Снимката е запазена в галерията."</string>
+	<!---->
+	<string name="save_image_error">"Неуспешно запазване на файл."</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"Изображението е прекалено малко"</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"Минималният размер е 320 х 320 пиксела."</string>
+	<!---->
+	<string name="open_with">"Отваряне чрез"</string>
+	<!---->
+	<string name="moments_month_view">"Месечен преглед"</string>
+	<!---->
+	<string name="moments_day_view">"Дневен преглед"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"Всички"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"Снимка"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"Видео"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"Тази последователност на светкавицата съдържа %s снимки. Изтриване на всички?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"Презапис на снимките със светкавица или запазване като индивидуални изображения?"</string>
+	<!---->
+	<string name="burst_overwrite">"Замяна"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"Запазване като индивидуални изображения"</string>
+	<!---->
+	<string name="burst_cancel">"Отказ"</string>
+	<!---->
+	<string name="burst_delete">"ИЗТРИЙ"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"любимо"</string>
+	<!---->
+	<string name="select">"Избиране"</string>
+	<!---->
+	<string name="getstarted">"Първи стъпки"</string>
+	<!---->
+	<string name="gotit">"Получено"</string>
+	<!---->
+	<string name="faceshow_start">"Очаква ви истинско чудо, когато направите определен брой селфита. Започнете вашето пътешествие сега!"</string>
+	<!---->
+	<string name="faceshow_takemore">"Трябват ви още селфита, за да създадете шоу на вашето собствено лице."</string>
+	<!---->
+	<string name="selfies">"Селфи"</string>
+	<!---->
+	<string name="parallax">"Паралакс"</string>
+	<!---->
+	<string name="trim_title">"Отхвърляне на промените?"</string>
+	<!---->
+	<string name="trim_message">"Вашите промени не са запазени"</string>
+	<!---->
+	<string name="trim_discard">"Премахване"</string>
+	<!---->
+	<string name="main_tab_moments">"Моменти"</string>
+	<!---->
+	<string name="moments_show">"Покажи"</string>
+	<!---->
+	<string name="illegal_image_format">"Невалиден формат на изображение, не може да се редактира."</string>
+	<!---->
+	<string name="exporting_video">"Експортиране на видео"</string>
+	<!---->
+	<string name="exporting_message">"Това може да отнеме няколко секунди, моля изчакайте..."</string>
+	<!---->
+	<string name="share_save_video">"Записване на видеото в галерията..."</string>
+	<!---->
+	<string name="share_saved">"Видеото е записано в галерията"</string>
+	<!---->
+	<string name="share_save_image">"Записване на изображението в галерията"</string>
+	<!---->
+	<string name="share_image_saved">"Изображението е записано в галерията."</string>
+	<!---->
+	<string name="location_permission_toast_text">"Няма данни за местоположението от камерата"</string>
+	<!---->
+	<string name="no_internet_contect_text">"Няма връзка с интернет"</string>
+	<!---->
+	<string name="more">"Повече"</string>
+	<!---->
+	<string name="moment_album_today">"Днес"</string>
+	<!---->
+	<string name="moment_album_yesterday">"вчера"</string>
+	<!---->
+	<string name="location_destination_text">"Подрежда снимки и видеоклипове по местоположение в Моменти"</string>
+	<string-array name="month">
+		<item>"януари"</item>
+		<item>"февруари"</item>
+		<item>"март"</item>
+		<item>"април"</item>
+		<item>"май"</item>
+		<item>"юни"</item>
+		<item>"юли"</item>
+		<item>"август"</item>
+		<item>"септември"</item>
+		<item>"октомври"</item>
+		<item>"ноември"</item>
+		<item>"декември"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"За да подредите снимките и видеоклиповете по местоположение, позволете на Галерията достъп до местоположението."</string>
+	<!---->
+	<string name="permission_location_settings">"Настройки"</string>
+	<!---->
+	<string name="boom_key_tip_1">"Представяте снимки в различни и невероятни колажи"</string>
+	<!---->
+	<string name="boom_key_tip_2">"Започнете колажното шоу с бутона Boom"</string>
+	<!---->
+	<string name="boom_key_tip_3">"Пуска колажно шоу от Албуми"</string>
+	<!---->
+	<string name="boom_key_tip_4">"Пуска колажно шоу от фотопреглед"</string>
+	<!---->
+	<string name="tx_skip">"Пропускане"</string>
+	<!---->
+	<string name="tx_done">"Готово"</string>
+	<!---->
+	<string name="boom_key">"Бутон Boom"</string>
+	<!---->
+	<string name="press">"Натиснете"</string>
+	<!---->
+	<string name="not_support_parallax_share">"Не може да сподели Fyuse от Моменти"</string>
+	<!---->
+	<string name="permissions_hi">"Привет!"</string>
+	<!---->
+	<string name="not_support_video_edit">"Видео форматът не се поддържа."</string>
+</resources>

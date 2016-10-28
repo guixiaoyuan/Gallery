@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Galerie"</string>
+	<!---->
+	<string name="gadget_title">"Cadre d\'image"</string>
+	<!-- no translation found for details_ms -->
+	<skip />
+	<!-- no translation found for details_hms -->
+	<skip />
+	<!---->
+	<string name="movie_view_label">"Lecteur Google Vidéos"</string>
+	<!---->
+	<string name="loading_video">"Chargement de la vidéo..."</string>
+	<!---->
+	<string name="loading_image">"Chargement de l\'image..."</string>
+	<!---->
+	<string name="loading_account">"Chargement du compte\u2026"</string>
+	<!---->
+	<string name="resume_playing_title">"Relancer la vidéo"</string>
+	<!---->
+	<string name="resume_playing_message">"Relancer la lecture depuis %s ?"</string>
+	<!---->
+	<string name="resume_playing_resume">"Relancer la lecture"</string>
+	<!---->
+	<string name="loading">"Chargement…"</string>
+	<!---->
+	<string name="fail_to_load">"Impossible de charger"</string>
+	<!---->
+	<string name="fail_trim">"Impossible de rogner la vidéo."</string>
+	<!---->
+	<string name="fail_to_load_image">"Impossible de charger l\'image."</string>
+	<!---->
+	<string name="no_thumbnail">"Aucune vignette"</string>
+	<!---->
+	<string name="resume_playing_restart">"Recommencer"</string>
+	<!---->
+	<string name="crop_save_text">"OK"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="multiface_crop_help">"Appuyer sur un visage pour commencer"</string>
+	<!---->
+	<string name="saving_image">"Enregistrement de l\'image"</string>
+	<!---->
+	<string name="filtershow_saving_image">"Sauvegarde de l’image dans <xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
+	<!---->
+	<string name="save_error">"Impossible d\'enregistrer l\'image rognée."</string>
+	<!---->
+	<string name="crop_label">"Rogner l\'image"</string>
+	<!---->
+	<string name="trim_label">"Ajuster la vidéo"</string>
+	<!---->
+	<string name="select_image">"Sélectionner photo"</string>
+	<!---->
+	<string name="select_video">"Sélectionnez une vidéo"</string>
+	<!---->
+	<string name="select_item">"Sélectionner élément"</string>
+	<!---->
+	<string name="select_album">"Sélectionnez un album"</string>
+	<!---->
+	<string name="select_group">"Sélectionnez groupe"</string>
+	<!---->
+	<string name="set_image">"Définir en tant que..."</string>
+	<!---->
+	<string name="set_wallpaper">"Configuration du fond d\'écran"</string>
+	<!---->
+	<string name="wallpaper">"Définition du fond d\'écran…"</string>
+	<!---->
+	<string name="camera_setas_wallpaper">"Fond d\'écran"</string>
+	<!---->
+	<string name="delete">"Suppr"</string>
+	<!---->
+	<string name="deleting">"Suppression"</string>
+	<plurals name="delete_selection">
+		<item quantity="one">"Supprimer élément sélectionné ?"</item>
+		<item quantity="other">"Suppr. éléments sélectionnés ?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm">"Confirmer"</string>
+	<!---->
+	<string name="cancel">"Annuler"</string>
+	<!---->
+	<string name="share">"Partager"</string>
+	<!---->
+	<string name="share_panorama">"Partager panorama"</string>
+	<!---->
+	<string name="share_as_photo">"Partager comme photo"</string>
+	<!---->
+	<string name="deleted">"Supprimée"</string>
+	<!---->
+	<string name="undo">"ANNULER"</string>
+	<!---->
+	<string name="select_all">"Tout sélectionner"</string>
+	<!---->
+	<string name="deselect_all">"Tout désélectionner"</string>
+	<!---->
+	<string name="slideshow">"Diaporama"</string>
+	<!---->
+	<string name="details">"Infos"</string>
+	<!---->
+	<string name="details_title">"%1$d élément(s) sur %2$d :"</string>
+	<!---->
+	<string name="close">"Fermer"</string>
+	<!---->
+	<string name="switch_to_camera">"Passer en mode Appareil photo"</string>
+	<plurals name="number_of_items_selected">
+		<item quantity="zero">"%1$d sélectionné"</item>
+		<item quantity="one">"%1$d sélectionné"</item>
+		<item quantity="other">"%1$d sélectionné"</item>
+	</plurals>
+	<plurals name="number_of_albums_selected">
+		<item quantity="zero">"%1$d sélectionné"</item>
+		<item quantity="one">"%1$d sélectionné"</item>
+		<item quantity="other">"%1$d sélectionné"</item>
+	</plurals>
+	<plurals name="number_of_groups_selected">
+		<item quantity="zero">"%1$d sélectionné"</item>
+		<item quantity="one">"%1$d sélectionné"</item>
+		<item quantity="other">"%1$d sélectionné"</item>
+	</plurals>
+	<!---->
+	<string name="show_on_map">"Afficher sur la carte"</string>
+	<!---->
+	<string name="rotate_left">"Faire pivoter à gauche"</string>
+	<!---->
+	<string name="rotate_right">"Faire pivoter à droite"</string>
+	<!---->
+	<string name="no_such_item">"Impossible de trouver l\'élément."</string>
+	<!---->
+	<string name="edit">"Modifier"</string>
+	<!---->
+	<string name="mix_video">"Combiné"</string>
+	<!---->
+	<string name="simple_edit">"Modification simple"</string>
+	<!---->
+	<string name="process_caching_requests">"Traitement demandes de mise en cache"</string>
+	<!---->
+	<string name="caching_label">"Mise en cache…"</string>
+	<!---->
+	<string name="crop_action">"Rogner"</string>
+	<!---->
+	<string name="trim_action">"Ajuster"</string>
+	<!---->
+	<string name="mute_action">"Muet"</string>
+	<!---->
+	<string name="set_as">"Définir comme"</string>
+	<!---->
+	<string name="video_mute_err">"Impossible de désactiver le son de la vidéo."</string>
+	<!---->
+	<string name="video_err">"Échec de la lecture de la vidéo"</string>
+	<!---->
+	<string name="group_by_location">"Par emplacement"</string>
+	<!---->
+	<string name="group_by_time">"Par date"</string>
+	<!---->
+	<string name="group_by_tags">"Par tag"</string>
+	<!---->
+	<string name="group_by_faces">"Par personnes"</string>
+	<!---->
+	<string name="group_by_album">"Par album"</string>
+	<!---->
+	<string name="group_by_size">"Par taille"</string>
+	<!---->
+	<string name="untagged">"Aucun tag"</string>
+	<!---->
+	<string name="no_location">"Aucun lieu"</string>
+	<!---->
+	<string name="no_connectivity">"Certains lieux n\'ont pas pu être identifiés en raison de problèmes réseau."</string>
+	<!---->
+	<string name="sync_album_error">"Impossible de télécharger les photos de cet album. Veuillez réessayer ultérieurement."</string>
+	<!---->
+	<string name="show_images_only">"Images uniquement"</string>
+	<!---->
+	<string name="show_videos_only">"Vidéos uniquement"</string>
+	<!---->
+	<string name="show_all">"Images et vidéos"</string>
+	<!---->
+	<string name="appwidget_title">"Galerie photos"</string>
+	<!---->
+	<string name="appwidget_empty_text">"Aucune photo"</string>
+	<!---->
+	<string name="crop_saved">"Image rognée enregistrée dans <xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
+	<!---->
+	<string name="no_albums_alert">"Aucun album disponible"</string>
+	<!---->
+	<string name="empty_album">"Aucune image/vidéo disponible"</string>
+	<!---->
+	<string name="picasa_posts">"Publications"</string>
+	<!---->
+	<string name="make_available_offline">"Consulter hors connexion"</string>
+	<!---->
+	<string name="sync_picasa_albums">"Actualiser"</string>
+	<!---->
+	<string name="done">"OK"</string>
+	<!---->
+	<string name="sequence_in_set">"%1$d élément(s) sur %2$d :"</string>
+	<!---->
+	<string name="title">"Titre"</string>
+	<!---->
+	<string name="description">"Description"</string>
+	<!---->
+	<string name="time">"Heure"</string>
+	<!---->
+	<string name="location">"Emplacement"</string>
+	<!---->
+	<string name="path">"Chemin d\'accès"</string>
+	<!---->
+	<string name="width">"Largeur"</string>
+	<!---->
+	<string name="height">"Hauteur"</string>
+	<!---->
+	<string name="orientation">"Orientation"</string>
+	<!---->
+	<string name="duration">"Durée"</string>
+	<!---->
+	<string name="mimetype">"Type MIME"</string>
+	<!---->
+	<string name="file_size">"Taille fichier"</string>
+	<!---->
+	<string name="maker">"Auteur"</string>
+	<!---->
+	<string name="model">"Modèle"</string>
+	<!---->
+	<string name="flash">"Flash"</string>
+	<!---->
+	<string name="aperture">"Ouverture"</string>
+	<!---->
+	<string name="focal_length">"Longueur focale"</string>
+	<!---->
+	<string name="white_balance">"Balance des blancs"</string>
+	<!---->
+	<string name="exposure_time">"Durée d\'expo"</string>
+	<!---->
+	<string name="iso">"Sélectionner ISO"</string>
+	<!---->
+	<string name="unit_mm">"mm"</string>
+	<!---->
+	<string name="manual">"Manuel"</string>
+	<!---->
+	<string name="auto">"Automatique"</string>
+	<!---->
+	<string name="flash_on">"Flash déclenché"</string>
+	<!---->
+	<string name="flash_off">"Flash désactivé"</string>
+	<!---->
+	<string name="unknown">"Inconnu"</string>
+	<!---->
+	<string name="ffx_original">"Original"</string>
+	<!---->
+	<string name="ffx_vintage">"Tirage d’époque"</string>
+	<!---->
+	<string name="ffx_instant">"Instantané"</string>
+	<!---->
+	<string name="ffx_bleach">"Décoloration"</string>
+	<!---->
+	<string name="ffx_blue_crush">"Bleu"</string>
+	<!---->
+	<string name="ffx_bw_contrast">"Noir et blanc"</string>
+	<!---->
+	<string name="ffx_punch">"Punch"</string>
+	<!---->
+	<string name="ffx_x_process">"Processus croisé"</string>
+	<!---->
+	<string name="ffx_washout">"Latte"</string>
+	<!---->
+	<string name="ffx_washout_color">"Lithographie"</string>
+	<plurals name="make_albums_available_offline">
+		<item quantity="one">"Activation de consultation d\'album hors connexion."</item>
+		<item quantity="other">"Activation consultation d\'albums hors connexion."</item>
+	</plurals>
+	<!---->
+	<string name="try_to_set_local_album_available_offline">"Cet élément est stocké localement et disponible hors connexion."</string>
+	<!---->
+	<string name="set_label_all_albums">"Tous les albums"</string>
+	<!---->
+	<string name="set_label_local_albums">"Albums en local"</string>
+	<!---->
+	<string name="set_label_mtp_devices">"Appareils MTP"</string>
+	<!---->
+	<string name="set_label_picasa_albums">"Albums Picasa"</string>
+	<!---->
+	<string name="free_space_format">"<xliff:g id="BYTES">%s</xliff:g> disponible(s)"</string>
+	<!---->
+	<string name="size_below">"jusqu\'à <xliff:g id="SIZE">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="size_above">"au-delà de <xliff:g id="SIZE">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="size_between">"de <xliff:g id="MIN_SIZE">%1$s</xliff:g> à <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="Import">"Importer"</string>
+	<!---->
+	<string name="import_complete">"Importation terminée"</string>
+	<!---->
+	<string name="import_fail">"Échec de l\'importation."</string>
+	<!---->
+	<string name="camera_connected">"Appareil photo connecté."</string>
+	<!---->
+	<string name="camera_disconnected">"Appareil photo déconnecté."</string>
+	<!---->
+	<string name="click_import">"Touchez ici pour importer"</string>
+	<!---->
+	<string name="widget_type_album">"Sélectionner un album"</string>
+	<!---->
+	<string name="widget_type_shuffle">"Affichage aléatoire des images"</string>
+	<!---->
+	<string name="widget_type_photo">"Sélectionner une image"</string>
+	<!---->
+	<string name="widget_type">"Sélectionner images"</string>
+	<!---->
+	<string name="slideshow_dream_name">"Diaporama"</string>
+	<!---->
+	<string name="albums">"Albums"</string>
+	<!---->
+	<string name="times">"Heures"</string>
+	<!---->
+	<string name="locations">"Lieux"</string>
+	<!---->
+	<string name="people">"Contacts"</string>
+	<!---->
+	<string name="tags">"Tags"</string>
+	<!---->
+	<string name="group_by">"Regrouper par"</string>
+	<!---->
+	<string name="settings">"Paramètres"</string>
+	<!---->
+	<string name="add_account">"Ajouter un compte"</string>
+	<!---->
+	<string name="folder_camera">"Appareil photo"</string>
+	<!---->
+	<string name="folder_download">"Télécharger"</string>
+	<!---->
+	<string name="folder_edited_online_photos">"Photos en ligne modifiées"</string>
+	<!---->
+	<string name="folder_imported">"Importations"</string>
+	<!---->
+	<string name="folder_screenshot">"Captures d\'écran"</string>
+	<!---->
+	<string name="help">"Aide"</string>
+	<!---->
+	<string name="no_external_storage_title">"Aucun espace de stockage"</string>
+	<!---->
+	<string name="no_external_storage">"Aucun espace de stockage externe"</string>
+	<!---->
+	<string name="switch_photo_filmstrip">"Affichage en mode pellicule"</string>
+	<!---->
+	<string name="switch_photo_grid">"Affichage en mode grille"</string>
+	<!---->
+	<string name="switch_photo_fullscreen">"Mode plein écran"</string>
+	<!---->
+	<string name="trimming">"Ajustement en cours"</string>
+	<!---->
+	<string name="muting">"Désactivation du son"</string>
+	<!---->
+	<string name="please_wait">"Veuillez patienter"</string>
+	<!---->
+	<string name="save_into">"Enregistrement de la vidéo dans <xliff:g id="album_name">%1$s</xliff:g>\u2026"</string>
+	<!---->
+	<string name="trim_save_into">"Fichier rogné enregistré dans <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"Fichier muet enregistré dans <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="trim_too_short">"Impossible d’ajuster : la vidéo cible est trop courte"</string>
+	<!---->
+	<string name="mute_nosupport">"Impossible de désactiver le son : vidéo non prise en charge"</string>
+	<!---->
+	<string name="pano_progress_text">"Panorama rendu"</string>
+	<!---->
+	<string name="save">"ENREGISTRER"</string>
+	<!-- no translation found for ingest_import -->
+	<skip />
+	<!-- no translation found for ingest_import_complete -->
+	<skip />
+	<!---->
+	<string name="ingest_scanning">"Analyse du contenu en cours..."</string>
+	<plurals name="ingest_number_of_items_scanned">
+		<item quantity="zero">"%1$d éléments analysés"</item>
+		<item quantity="one">"%1$d élément analysé"</item>
+		<item quantity="other">"%1$d éléments analysés"</item>
+	</plurals>
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"%1$d éléments sélectionnés"</item>
+		<item quantity="one">"%1$d élément sélectionné"</item>
+		<item quantity="other">"%1$d éléments sélectionnés"</item>
+	</plurals>
+	<!---->
+	<string name="ingest_sorting">"Tri en cours..."</string>
+	<!---->
+	<string name="ingest_scanning_done">"Analyse terminée"</string>
+	<!---->
+	<string name="ingest_importing">"Importation en cours..."</string>
+	<!---->
+	<string name="ingest_empty_device">"Il n\'y a aucun contenu disponible à importer sur cet appareil."</string>
+	<!---->
+	<string name="ingest_no_device">"Aucun périphérique MTP n\'est connecté"</string>
+	<!-- no translation found for ingest_switch_photo_grid -->
+	<skip />
+	<!-- no translation found for ingest_switch_photo_fullscreen -->
+	<skip />
+	<!---->
+	<string name="camera_error_title">"Erreur de l\'appareil photo."</string>
+	<!---->
+	<string name="cannot_connect_camera">"Impossible d\'établir une connexion avec l\'appareil photo."</string>
+	<!---->
+	<string name="camera_disabled">"L\'appareil photo a été désactivé en raison des règles de sécurité."</string>
+	<!---->
+	<string name="camera_label">"Appareil photo"</string>
+	<!---->
+	<string name="wait">"Veuillez patienter..."</string>
+	<!---->
+	<string name="review_cancel">"ANNULER"</string>
+	<!---->
+	<string name="review_ok">"OK"</string>
+	<!---->
+	<string name="time_lapse_title">"Enregistrement mode time lapse"</string>
+	<!---->
+	<string name="pref_camera_id_title">"Sélectionner caméra"</string>
+	<!---->
+	<string name="pref_camera_id_entry_back">"Retour"</string>
+	<!---->
+	<string name="pref_camera_id_entry_front">"Avant"</string>
+	<!---->
+	<string name="pref_camera_recordlocation_title">"Enregistrer la position"</string>
+	<!---->
+	<string name="pref_camera_location_label">"Emplacement"</string>
+	<!---->
+	<string name="pref_camera_timer_title">"Compte à rebours"</string>
+	<plurals name="pref_camera_timer_entry">
+		<item quantity="one">"1 seconde"</item>
+		<item quantity="other">"%d secondes"</item>
+	</plurals>
+	<!---->
+	<string name="pref_camera_timer_sound_title">"Bip durant le compte à rebours"</string>
+	<!---->
+	<string name="setting_off">"Off"</string>
+	<!---->
+	<string name="setting_on">"Activé"</string>
+	<!---->
+	<string name="pref_video_quality_title">"Qualité de la vidéo"</string>
+	<!---->
+	<string name="pref_video_quality_entry_high">"Élevée"</string>
+	<!---->
+	<string name="pref_video_quality_entry_low">"Faible"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_title">"Intervalle"</string>
+	<!---->
+	<string name="pref_camera_settings_category">"Paramètres de l\'appareil photo"</string>
+	<!---->
+	<string name="pref_camcorder_settings_category">"Mode Caméra"</string>
+	<!---->
+	<string name="pref_camera_picturesize_title">"Taille d\'image"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_13mp">"13 MP"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_8mp">"8 M pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_5mp">"5 M pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_4mp">"4 millions de pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_3mp">"3 M pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp">"2 M pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2 M pixels (16:9)"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1_3mp">"1,3 M pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_1mp">"1 M pixels"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
+	<!---->
+	<string name="pref_camera_picturesize_entry_qvga">"QVGA"</string>
+	<!---->
+	<string name="pref_camera_focusmode_title">"Mode de mise au point"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_auto">"Automatique"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_infinity">"Infini"</string>
+	<!---->
+	<string name="pref_camera_focusmode_entry_macro">"Macro"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_auto">"Automatique"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"INFINI"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"MACRO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_title">"Mode Flash"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label">"Mode Flash"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_auto">"Automatique"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_on">"Activé"</string>
+	<!---->
+	<string name="pref_camera_flashmode_entry_off">"Off"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_auto">"FLASH AUTO"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_on">"FLASH ACTIVÉ"</string>
+	<!---->
+	<string name="pref_camera_flashmode_label_off">"FLASH DÉSACTIVÉ"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_title">"Balance des blancs"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label">"Balance des blancs"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_auto">"Automatique"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_incandescent">"Incandescent"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_daylight">"Lumière du jour"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_fluorescent">"Fluorescent"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_entry_cloudy">"Nuageux"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_auto">"Automatique"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_incandescent">"Incandescent"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_daylight">"Lumière du jour"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_fluorescent">"Fluorescent"</string>
+	<!---->
+	<string name="pref_camera_whitebalance_label_cloudy">"Nuageux"</string>
+	<!---->
+	<string name="pref_camera_scenemode_title">"Mode Scène"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_auto">"Automatique"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_hdr">"HDR"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_action">"Action"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_night">"Nuit"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_sunset">"Coucher de soleil"</string>
+	<!---->
+	<string name="pref_camera_scenemode_entry_party">"Fête"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_auto">"Aucun"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_action">"Opération"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_night">"Nuit"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_sunset">"Coucher de soleil"</string>
+	<!---->
+	<string name="pref_camera_scenemode_label_party">"Fête"</string>
+	<!---->
+	<string name="pref_camera_countdown_label">"COMPTE À REBOURS"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_off">"COMPTE À REBOURS DÉSACTIVÉ"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_one">"1 seconde"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_three">"3 secondes"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_ten">"<xliff:g exemple="60" id="durée">%1$d</xliff:g> secondes"</string>
+	<!---->
+	<string name="pref_camera_countdown_label_fifteen">"15 secondes"</string>
+	<!---->
+	<string name="not_selectable_in_scene_mode">"Ce paramètre ne peut pas être sélectionné en mode Scène."</string>
+	<!---->
+	<string name="pref_exposure_title">"Exposition"</string>
+	<!---->
+	<string name="pref_exposure_label">"Exposition"</string>
+	<!---->
+	<string name="pref_camera_hdr_label">"HDR"</string>
+	<!---->
+	<string name="pref_camera_id_label_back">"CAMÉRA AVANT"</string>
+	<!---->
+	<string name="pref_camera_id_label_front">"CAMÉRA ARRIÈRE"</string>
+	<!---->
+	<string name="dialog_ok">"OK"</string>
+	<!---->
+	<string name="video_reach_size_limit">"Taille maximale atteinte."</string>
+	<!---->
+	<string name="pano_too_fast_prompt">"Trop rapide"</string>
+	<!---->
+	<string name="pano_dialog_prepare_preview">"Préparation vue panoramique..."</string>
+	<!---->
+	<string name="pano_dialog_panorama_failed">"Impossible d\'enregistrer le panoramique."</string>
+	<!---->
+	<string name="pano_dialog_title">"Panoramique"</string>
+	<!---->
+	<string name="pano_capture_indication">"Capture vue panoramique…"</string>
+	<!---->
+	<string name="pano_dialog_waiting_previous">"Vue panoramique précédente en attente"</string>
+	<!---->
+	<string name="pano_review_saving_indication_str">"Enreg…"</string>
+	<!---->
+	<string name="pano_review_rendering">"Panorama rendu"</string>
+	<!---->
+	<string name="tap_to_focus">"Appuyez pour mise au point"</string>
+	<!---->
+	<string name="pref_video_effect_title">"Effets"</string>
+	<!---->
+	<string name="effect_none">"Aucun"</string>
+	<!---->
+	<string name="effect_goofy_face_squeeze">"Compresser"</string>
+	<!---->
+	<string name="effect_goofy_face_big_eyes">"Grands yeux"</string>
+	<!---->
+	<string name="effect_goofy_face_big_mouth">"Grande bouche"</string>
+	<!---->
+	<string name="effect_goofy_face_small_mouth">"Petite bouche"</string>
+	<!---->
+	<string name="effect_goofy_face_big_nose">"Gros nez"</string>
+	<!---->
+	<string name="effect_goofy_face_small_eyes">"Petits yeux"</string>
+	<!---->
+	<string name="effect_backdropper_space">"Dans l\'espace"</string>
+	<!---->
+	<string name="effect_backdropper_sunset">"Coucher de soleil"</string>
+	<!---->
+	<string name="effect_backdropper_gallery">"Votre vidéo"</string>
+	<!---->
+	<string name="bg_replacement_message">"Posez votre appareil."\n"Sortez du cadre quelques instants."</string>
+	<!---->
+	<string name="video_snapshot_hint">"Appuyez pour prendre une photo pendant l\'enregistrement"</string>
+	<!---->
+	<string name="video_recording_started">"L\'enregistrement vidéo a débuté."</string>
+	<!---->
+	<string name="video_recording_stopped">"L\'enregistrement vidéo s\'est arrêté."</string>
+	<!---->
+	<string name="disable_video_snapshot_hint">"Instantané vidéo désactivé en cas d\'activation des effets spéciaux."</string>
+	<!---->
+	<string name="clear_effects">"Effacer les effets"</string>
+	<!---->
+	<string name="effect_silly_faces">"DRÔLES DE TÊTES"</string>
+	<!---->
+	<string name="effect_background">"ARRIÈRE-PLAN"</string>
+	<!---->
+	<string name="accessibility_shutter_button">"Bouton de l\'obturateur"</string>
+	<!---->
+	<string name="accessibility_menu_button">"Bouton Menu"</string>
+	<!---->
+	<string name="accessibility_review_thumbnail">"Photo la plus récente"</string>
+	<!---->
+	<string name="accessibility_camera_picker">"Interrupteur des caméras avant et arrière"</string>
+	<!---->
+	<string name="accessibility_mode_picker">"Sélecteur du mode Photo, Vidéo ou Panoramique"</string>
+	<!---->
+	<string name="accessibility_second_level_indicators">"Plus de paramètres"</string>
+	<!---->
+	<string name="accessibility_back_to_first_level">"Fermer les paramètres"</string>
+	<!---->
+	<string name="accessibility_zoom_control">"Contrôle du zoom"</string>
+	<!---->
+	<string name="accessibility_decrement">"Diminuer %1$s"</string>
+	<!---->
+	<string name="accessibility_increment">"Augmenter %1$s"</string>
+	<!---->
+	<string name="accessibility_check_box">"case %1$s"</string>
+	<!---->
+	<string name="accessibility_switch_to_camera">"Mode Appareil photo"</string>
+	<!---->
+	<string name="accessibility_switch_to_video">"Passer en mode vidéo"</string>
+	<!---->
+	<string name="accessibility_switch_to_panorama">"Passer au mode panorama"</string>
+	<!---->
+	<string name="accessibility_switch_to_new_panorama">"Passer en mode panoramique"</string>
+	<!---->
+	<string name="accessibility_switch_to_refocus">"Basculer pour remettre au point"</string>
+	<!---->
+	<string name="accessibility_review_cancel">"Revoir l\'annulation"</string>
+	<!---->
+	<string name="accessibility_review_ok">"Vérification terminée"</string>
+	<!---->
+	<string name="accessibility_review_retake">"Reprendre la vérification"</string>
+	<!---->
+	<string name="accessibility_play_video">"Lire la vidéo"</string>
+	<!---->
+	<string name="accessibility_pause_video">"Mettre la vidéo en pause"</string>
+	<!---->
+	<string name="accessibility_reload_video">"Recharger la vidéo"</string>
+	<!---->
+	<string name="accessibility_time_bar">"Barre temporelle du lecteur vidéo"</string>
+	<!---->
+	<string name="capital_on">"Activé"</string>
+	<!---->
+	<string name="capital_off">"Off"</string>
+	<!---->
+	<string name="gif_err">"Impossible d\'afficher l\'image GIF."</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_off">"Off"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_500">"0,5 seconde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1000">"1 seconde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1500">"1,5 seconde"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2000">"2 secondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_2500">"2,5 secondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3000">"3 secondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_4000">"4 secondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5000">"5 secondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_6000">"6 secondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10000">"<xliff:g exemple="60" id="durée">%1$d</xliff:g> secondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_12000">"12 secondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_15000">"15 secondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_24000">"24 secondes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_30000">"0,5 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_60000">"1 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_90000">"1,5 minute"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_120000">"2 minutes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_150000">"2,5 minutes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_180000">"3 minutes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_240000">"4 minutes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_300000">"5 minutes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_360000">"6 minutes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_600000">"10 minutes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_720000">"12 minutes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_900000">"15 minutes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1440000">"24 minutes"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_1800000">"0,5 heure"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_3600000">"1 heure"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_5400000">"1,5 heure"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_7200000">"2 heures"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_9000000">"2,5 heures"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_10800000">"3 heures"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_14400000">"4 heures"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_18000000">"5 heures"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_21600000">"6 heures"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_36000000">"10 heures"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_43200000">"12 heures"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_54000000">"15 heures"</string>
+	<!---->
+	<string name="pref_video_time_lapse_frame_interval_86400000">"24 heures"</string>
+	<!---->
+	<string name="time_lapse_seconds">"secondes"</string>
+	<!---->
+	<string name="time_lapse_minutes">"minutes"</string>
+	<!---->
+	<string name="time_lapse_hours">"heures"</string>
+	<!---->
+	<string name="time_lapse_interval_set">"OK"</string>
+	<!---->
+	<string name="set_time_interval">"Sélectionnez un intervalle"</string>
+	<!---->
+	<string name="set_time_interval_help">"La fonction Laps de temps est désactivée. Activez-la pour régler l\'intervalle."</string>
+	<!---->
+	<string name="set_timer_help">"Le compte à rebours est désactivé. Activez-le avant de prendre une photo."</string>
+	<!---->
+	<string name="set_duration">"Régler la durée en secondes"</string>
+	<!---->
+	<string name="count_down_title_text">"Compte à rebours en marche pour la prise de photo"</string>
+	<!---->
+	<string name="remember_location_title">"Se souvenir de l\'emplacement de la photo?"</string>
+	<!---->
+	<string name="remember_location_prompt">"Marquez les lieux où vous avez pris vos photos et vidéos.\n\nD\'autres applications peuvent accéder à cette information, de même qu\'à vos images enregistrées."</string>
+	<!---->
+	<string name="remember_location_no">"Non merci"</string>
+	<!---->
+	<string name="remember_location_yes">"Oui"</string>
+	<!---->
+	<string name="menu_camera">"Appareil photo"</string>
+	<!---->
+	<string name="menu_search">"Rechercher"</string>
+	<!---->
+	<string name="tab_photos">"Photos"</string>
+	<!---->
+	<string name="tab_albums">"Albums"</string>
+	<!---->
+	<string name="camera_menu_more_label">"Plus d\'options"</string>
+	<!---->
+	<string name="camera_menu_settings_label">"Paramètres"</string>
+	<plurals name="number_of_photos">
+		<item quantity="one">"%1$d photo"</item>
+		<item quantity="other">"%1$d photos"</item>
+	</plurals>
+	<!---->
+	<string name="subtitle">"Sous-titre"</string>
+	<!---->
+	<string name="VideoView_error_text_invalid_progressive_playback">"Impossible de lire cette vidéo en continu sur cet appareil."</string>
+	<!---->
+	<string name="VideoView_error_text_unknown">"Impossible de lire la vidéo."</string>
+	<!---->
+	<string name="VideoView_error_button">"OK"</string>
+	<!---->
+	<string name="videoView_info_text_video_not_supported">"Cette vidéo n\'est pas prise en charge"</string>
+	<!---->
+	<string name="videoView_error_text_cannot_connect_retry">"Connexion impossible. Tentez de reconnecter %1$d..."</string>
+	<!---->
+	<string name="media_controller_connecting">"Connexion..."</string>
+	<!---->
+	<string name="media_controller_buffering">"Mise en mémoire tampon %d%%..."</string>
+	<!---->
+	<string name="VideoView_error_text_cannot_connect_to_server">"Impossible d\'établir une connexion au serveur"</string>
+	<!---->
+	<string name="media_controller_live">"En direct"</string>
+	<!---->
+	<string name="media_controller_playing">"En cours de lecture"</string>
+	<!---->
+	<string name="notify_photo_text">"Contrôleur de la galerie"</string>
+	<!---->
+	<string name="notify_video_text">"Contrôleur de la galerie"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"Le diaporama pour l\'affichage Wi-Fi est activé"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"La vidéo avec affichage Wi-Fi est activée"</string>
+	<!---->
+	<string name="wfd_alert">"Alerte"</string>
+	<!---->
+	<string name="wfd_change_message">"La vidéo sera remplacée."</string>
+	<!---->
+	<string name="wfd_change_button">"Oui"</string>
+	<!---->
+	<string name="wfd_not_change_button">"Non"</string>
+	<!---->
+	<string name="wfd_show">"Affichage Wi-Fi"</string>
+	<!---->
+	<string name="wfd_show_on">"Activer l\'affichage Wi-Fi"</string>
+	<!---->
+	<string name="wfd_show_off">"Désactiver l\'affichage Wi-Fi"</string>
+	<!---->
+	<string name="wifi_gesture_tip">"Glissez le fichier dans le rectangle jaune pour partager votre écran."</string>
+	<!---->
+	<string name="popupvideo_notsupport_message">"Ce type n\'est pas pris en charge"</string>
+	<!---->
+	<string name="drm_wifidisplay_title">"Avertissement"</string>
+	<!---->
+	<string name="drm_wifidisplay_message">"Tous les fichiers protégés contre la copie sont masqués en raison de la connexion à l\'affichage Wi-Fi."</string>
+	<!---->
+	<string name="drm_wifidisplay_cancel">"Désactiver l\'affichage Wi-Fi"</string>
+	<!---->
+	<string name="drm_wifidisplay_continue">"Continuer"</string>
+	<!---->
+	<string name="tv_link_close">"Affichage Wi-Fi Display a été fermé"</string>
+	<!---->
+	<string name="drm_no_valid_right">"Le fichier n\'a aucune autorisation valide pour la GDN"</string>
+	<!---->
+	<string name="drm_delete_invalid_content">"Le fichier protégé par GDN %s est expiré. Le supprimer?"</string>
+	<!---->
+	<string name="drm_unlock_invalid_content">"Le fichier protégé par GDN %s est expiré. Le déverrouiller?"</string>
+	<!---->
+	<string name="unlimited_usage">"Utilisation illimitée"</string>
+	<!---->
+	<string name="not_available">"Non disponible"</string>
+	<!---->
+	<string name="use_times">"Utiliser %s fois"</string>
+	<!---->
+	<string name="valid_after">"Valide après"</string>
+	<!---->
+	<string name="valid_until">"Valide jusqu\'à"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_camera">"Appuyez deux fois avant de glisser pour faire un zoom avant ou arrière avec la caméra"</string>
+	<!---->
+	<string name="tips_done">"OK"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips">"Double-touchez et faites glisser pour faire un zoom avant/arrière dans la Galerie"</string>
+	<!---->
+	<string name="onef_inger_zoomer_tips_title">"Apprenez comment faire un zoom avec un seul doigt"</string>
+	<!---->
+	<string name="drm_current_right">"Contrainte actuelle"</string>
+	<!---->
+	<string name="right_url">"Licences"</string>
+	<!---->
+	<string name="vendor">"Fournisseur:"</string>
+	<!---->
+	<string name="stop">"Interrompre"</string>
+	<!---->
+	<string name="selectRenderer">"Choisir un lecteur"</string>
+	<!---->
+	<string name="noRenderer">"Le dispositif de moteur de rendu est introuvable"</string>
+	<!---->
+	<string name="stop_playing_video_on_tv">"Interrompre la lecture de vidéos sur le téléviseur?"</string>
+	<!---->
+	<string name="stop_playing_picture_on_tv">"Interrompre la lecture d\'images sur le téléviseur?"</string>
+	<!---->
+	<string name="play_video">"Lire la vidéo"</string>
+	<!---->
+	<string name="shake_video_text">"Secouez votre téléphone sur la page de vidéos pour les lire sur votre téléviseur"</string>
+	<!---->
+	<string name="shake_picture_text">"Pour lire le fichier sur la télé, secouez votre téléphone dans la page de l\'image."</string>
+	<!---->
+	<string name="wait_dialog">"Veuillez patienter pendant la programmation de votre téléphone."</string>
+	<!---->
+	<string name="toast_nostop">"Pour arrêter la lecture sur la télé, sélectionnez un lecteur local."</string>
+	<!---->
+	<string name="dlna_format_not_support">"Format de fichier non pris en charge""</string>
+	<!---->
+	<string name="left_title_camera_roll">"Pellicule"</string>
+	<!---->
+	<string name="left_title_timeline">"Heure"</string>
+	<!---->
+	<string name="left_title_albums">"Albums"</string>
+	<!---->
+	<string name="left_title_videos">"Vidéos"</string>
+	<!---->
+	<string name="left_title_location">"Lieux"</string>
+	<!---->
+	<string name="drawer_open">"Ouvrir le tiroir de navigation"</string>
+	<!---->
+	<string name="drawer_close">"Fermer le tiroir de navigation"</string>
+	<!---->
+	<string name="photo_share">"Partager avec"</string>
+	<!---->
+	<string name="filtershow_save">"ENREGISTRER"</string>
+	<!---->
+	<string name="filtershow_none">"Aucun"</string>
+	<!---->
+	<string name="filtershow_frame">"Cadre"</string>
+	<!---->
+	<string name="drm_no_crop">"Impossible de rogner le fichier "%s", car il comporte une protection GDN ."</string>
+	<!---->
+	<string name="drm_no_contact_icon">"Le fichier "%s" ne peut être défini en tant qu\'icône de contact, car il est protégé par DRM."</string>
+	<!---->
+	<string name="never_tip">"Afficher les conseils au démarrage"</string>
+	<!---->
+	<string name="three_finger_tips0">"Mettre trois doigts sur l’écran."</string>
+	<!---->
+	<string name="three_finger_tips1">"Faire glisser le fichier dans la zone jaune."</string>
+	<!---->
+	<string name="three_finger_tips2">"Lorsque la zone s’affiche en jaune, le partage est réussi."</string>
+	<!---->
+	<string name="drm_not_support_wifidisplay">"Le fichier avec GDN ne devrait pas s\'afficher dans Affichage Wi-Fi!"</string>
+	<!---->
+	<string name="filtershow_save_title">"Enregistrer les modifications"</string>
+	<!---->
+	<string name="filtershow_save_message">"Voulez-vous enregistrer comme copie ou remplacer l\'image originale?"</string>
+	<!---->
+	<string name="filtershow_save_no_ask">"Ne plus demander"</string>
+	<!---->
+	<string name="filtershow_save_button_copy">"ENREGISTRER COMME COPIE"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"REMPLACER L\'ORIGINAL"</string>
+	<!---->
+	<string name="lock_video">"Verrouillé"</string>
+	<!---->
+	<string name="unlock_video">"Déverrouillé"</string>
+	<!---->
+	<string name="drm_toast_license_expired">"La licence DRM a expiré."</string>
+	<!---->
+	<string name="drm_protection_status">"État de la protection :"</string>
+	<!---->
+	<string name="drm_can_forward">"Peut être transféré."</string>
+	<!---->
+	<string name="drm_can_not_forward">"Ne peut pas être transféré."</string>
+	<!---->
+	<string name="drm_no_license">"Aucune licence DRM disponible."</string>
+	<!---->
+	<string name="drm_begin">"Début :"</string>
+	<!---->
+	<string name="drm_no_limitation">"Aucune limitation."</string>
+	<!---->
+	<string name="drm_end">"Fin :"</string>
+	<!---->
+	<string name="drm_use_left">"Reste"</string>
+	<!---->
+	<string name="date_taken">"Date photo"</string>
+	<!---->
+	<string name="modified_time">"Heure de modification"</string>
+	<!---->
+	<string name="fast_forward">"Retour en avant rapide de %ds"</string>
+	<!---->
+	<string name="fast_backward">"Retour en arrière rapide de %ds"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"Réseau reconnecté, poursuivre la lecture?"</string>
+	<!---->
+	<string name="polaroid_action_open">"Ouvrir"</string>
+	<!---->
+	<string name="polaroid_action_save">"ENREGISTRER"</string>
+	<!---->
+	<string name="polaroid_action_send">"Envoyer"</string>
+	<!---->
+	<string name="polaroid_default_slogan">"Fais-moi un câlin"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"Enregistrement de l\'image..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"Éditeur Polaroid"</string>
+	<!---->
+	<string name="editor_select_filtershow">"Éditeur (par défaut)"</string>
+	<!---->
+	<string name="date_tag">"Date"</string>
+	<!---->
+	<string name="location_tag">"emplacement"</string>
+	<!---->
+	<string name="slogan_tag">"slogan"</string>
+	<!---->
+	<string name="polaroid_no_location">"Aucun lieu"</string>
+	<!---->
+	<string name="save_iamge_compelete">"Photo enregistrée dans la galerie."</string>
+	<!---->
+	<string name="save_image_error">"Échec de l\'enregistrement du fichier."</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"Image trop petite"</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"La taille minimale est 320 x 320 pixels."</string>
+	<!---->
+	<string name="open_with">"Ouvrir avec"</string>
+	<!---->
+	<string name="moments_month_view">"Vue Mois"</string>
+	<!---->
+	<string name="moments_day_view">"Vue Jour"</string>
+	<!---->
+	<string name="actionbar_menu_text_all">"Tout"</string>
+	<!---->
+	<string name="actionbar_menu_text_photo">"Photo"</string>
+	<!-- no translation found for actionbar_menu_text_parallax -->
+	<skip />
+	<!---->
+	<string name="actionbar_menu_text_video">"Vidéo"</string>
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"Fyuse"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"Cette séquence de photos en rafale contient %s photos. Voulez-vous toutes les supprimer?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"Remplacer les photos en rafale ou les enregistrer comme images individuelles?"</string>
+	<!---->
+	<string name="burst_overwrite">"Remplacer"</string>
+	<!---->
+	<string name="burst_save_as_individual_images">"Enregistrer comme images individuelles"</string>
+	<!---->
+	<string name="burst_cancel">"ANNULER"</string>
+	<!---->
+	<string name="burst_delete">"SUPPRIMER"</string>
+	<!-- no translation found for face_show -->
+	<skip />
+	<!---->
+	<string name="favorite">"favori"</string>
+	<!---->
+	<string name="select">"Sélectionner"</string>
+	<!---->
+	<string name="getstarted">"Commencer"</string>
+	<!---->
+	<string name="gotit">"Compris"</string>
+	<!---->
+	<string name="faceshow_start">"Une véritable merveille vous attend lorsque vous atteignez un certain nombre d\'égoportraits. Commencez dès maintenant votre aventure!"</string>
+	<!---->
+	<string name="faceshow_takemore">"Vous avez besoin d\'autres égoportraits pour créer votre propre diaporama."</string>
+	<!---->
+	<string name="selfies">"Égoportrait"</string>
+	<!---->
+	<string name="parallax">"Parallaxe"</string>
+	<!---->
+	<string name="trim_title">"Ignorer les modifications?"</string>
+	<!---->
+	<string name="trim_message">"Vos modifications n\'ont pas été enregistrées"</string>
+	<!---->
+	<string name="trim_discard">"Supprimer"</string>
+	<!---->
+	<string name="main_tab_moments">"Moments"</string>
+	<!---->
+	<string name="moments_show">"Afficher"</string>
+	<!---->
+	<string name="illegal_image_format">"Format d\'image illégal, modification impossible."</string>
+	<!---->
+	<string name="exporting_video">"Exportation de la vidéo"</string>
+	<!---->
+	<string name="exporting_message">"Cette opération peut prendre quelques secondes, veuillez patienter…"</string>
+	<!---->
+	<string name="share_save_video">"Enregistrement de la vidéo dans la galerie..."</string>
+	<!---->
+	<string name="share_saved">"Vidéo enregistrée dans la galerie"</string>
+	<!---->
+	<string name="share_save_image">"Enregistrement de l\'image dans la galerie..."</string>
+	<!---->
+	<string name="share_image_saved">"Image enregistrée dans la galerie"</string>
+	<!---->
+	<string name="location_permission_toast_text">"Aucune donnée de localisation de la part de l\'appareil photo"</string>
+	<!---->
+	<string name="no_internet_contect_text">"Aucune connexion Internet"</string>
+	<!---->
+	<string name="more">"Plus"</string>
+	<!---->
+	<string name="moment_album_today">"Aujourd\'hui"</string>
+	<!---->
+	<string name="moment_album_yesterday">"hier"</string>
+	<!---->
+	<string name="location_destination_text">"Trier les photos et les vidéos par emplacement dans Moments"</string>
+	<string-array name="month">
+		<item>"Janvier"</item>
+		<item>"Février"</item>
+		<item>"Mars"</item>
+		<item>"Avril"</item>
+		<item>"Mai"</item>
+		<item>"Juin"</item>
+		<item>"Juillet"</item>
+		<item>"Août"</item>
+		<item>"Septembre"</item>
+		<item>"Octobre"</item>
+		<item>"Novembre"</item>
+		<item>"Décembre"</item>
+	</string-array>
+	<!---->
+	<string name="permission_location_text">"Pour trier les photos et les vidéos par emplacement, autorisez Galerie à accéder à votre position."</string>
+	<!---->
+	<string name="permission_location_settings">"Paramètres"</string>
+	<!---->
+	<string name="boom_key_tip_1">"Présenter les photos sous forme de photomontages originaux et époustouflants"</string>
+	<!---->
+	<string name="boom_key_tip_2">"Appuyez sur la touche Boom pour commencer le diaporama avec collage de photos"</string>
+	<!---->
+	<string name="boom_key_tip_3">"Lancer un photomontage à partir des albums"</string>
+	<!---->
+	<string name="boom_key_tip_4">"Lancer un photomontage à partir de l\'aperçu photo"</string>
+	<!---->
+	<string name="tx_skip">"Ignorer"</string>
+	<!---->
+	<string name="tx_done">"Terminé"</string>
+	<!---->
+	<string name="boom_key">"Touche Boom"</string>
+	<!---->
+	<string name="press">"Appuyer"</string>
+	<!---->
+	<string name="not_support_parallax_share">"Impossible de partager le Fyuse à partir de Moments"</string>
+	<!---->
+	<string name="permissions_hi">"Bonjour!"</string>
+	<!---->
+	<string name="not_support_video_edit">"Le format vidéo n\'est pas pris en charge."</string>
+</resources>
