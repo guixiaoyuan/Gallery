@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Seleccioneu un àlbum."</string>
 	<!---->
+	<string name="rename_album">"Canviar el nom a l\'àlbum"</string>
+	<!---->
+	<string name="delete_album">"Suprimir l’àlbum"</string>
+	<!---->
 	<string name="select_group">"Seleccionar grup"</string>
 	<!---->
 	<string name="set_image">"Definir com a..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Eliminar l\'element seleccionat?"</item>
 		<item quantity="other">"Eliminar elements seleccionats?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Moure"</string>
+	<!---->
+	<string name="moving">"S\'està movent…"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Voleu moure l\'element seleccionat?"</item>
+		<item quantity="other">"Voleu moure els elements seleccionats?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Copiar"</string>
+	<!---->
+	<string name="copying">"S\'està copiant…"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Voleu copiar l\'element seleccionat?"</item>
+		<item quantity="other">"Voleu copiar els elements seleccionats?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Confirmar"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"No hi ha cap àlbum disponible"</string>
 	<!---->
 	<string name="empty_album">"No hi ha imatges/vídeos disponibles"</string>
+	<!---->
+	<string name="slideshow_alert">"No hi ha imatges disponibles."</string>
 	<!---->
 	<string name="picasa_posts">"Publicacions"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Àlbums"</string>
 	<!---->
+	<string name="tab_explore">"Explorar"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Més opcions"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Paràmetres"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Visualització mensual"</string>
 	<!---->
+	<string name="slow_motion">"Càmera lenta"</string>
+	<!---->
+	<string name="move_to_album">"Moure a l\'àlbum"</string>
+	<!---->
+	<string name="copy_to_album">"Copiar a l\'àlbum"</string>
+	<!---->
 	<string name="moments_day_view">"Visualització diària"</string>
+	<!---->
+	<string name="moments_staggered_view">"visualització escalonada"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Tots"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Foto"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Paral·laxi"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Vídeo"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"CANCEL·LAR"</string>
 	<!---->
 	<string name="burst_delete">"ESBORRAR"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"preferit"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Presenteu fotos en diferents collages sorprenents."</string>
 	<!---->
+	<string name="loading_data_message">"S\'estan carregant les dades; espereu un moment."</string>
+	<!---->
 	<string name="boom_key_tip_2">"Iniciar la presentació de collage amb el botó d’accés ràpid"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Activar la presentació de collage des d’Àlbums"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"Hola!"</string>
 	<!---->
 	<string name="not_support_video_edit">"No s\'admet el format de vídeo."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit no està instal·lat; aquesta funció no es pot utilitzar."</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Reduir els àlbums"</string>
+	<!---->
+	<string name="settings_albums">"Paràmetres"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Creeu un àlbum"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Introduïu el nom de l’àlbum"</string>
+	<!---->
+	<string name="album_exists_warning">"El nom de l’àlbum ja existeix."</string>
+	<!---->
+	<string name="create_new_album_confirm">"CREAR"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Revertir"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Voleu suprimir aquest àlbum?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Supr."</string>
+	<!---->
+	<string name="delete_album_cancel">"Revertir"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"El nom de l\'àlbum no pot estar buit."</string>
+	<!---->
+	<string name="new_album_select_title">"Afegiu a un àlbum"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Voleu copiar o moure la foto a un àlbum nou?"</string>
+	<!---->
+	<string name="new_album">"Àlbum nou"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"El nom de l\'àlbum conté un caràcter no vàlid."</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Establir com a privat"</string>
+	<!---->
+	<string name="set_public">"Establir com a públic"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

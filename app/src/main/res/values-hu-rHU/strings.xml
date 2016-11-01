@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Album kiválasztása"</string>
 	<!---->
+	<string name="rename_album">"Album átnevezése"</string>
+	<!---->
+	<string name="delete_album">"Album törlése"</string>
+	<!---->
 	<string name="select_group">"Csoport kiválasztása"</string>
 	<!---->
 	<string name="set_image">"Beállítás..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Törli a kiválasztott elemet?"</item>
 		<item quantity="other">"Törli a kiválasztott elemeket?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Áthelyezés"</string>
+	<!---->
+	<string name="moving">"Áthelyezés folyamatban"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Áthelyezi a kiválasztott elemet?"</item>
+		<item quantity="other">"Áthelyezi a kiválasztott elemeket?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Másolás"</string>
+	<!---->
+	<string name="copying">"Másolás folyamatban"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Átmásolja a kiválasztott elemet?"</item>
+		<item quantity="other">"Átmásolja a kiválasztott elemeket?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Megerősítés"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Nincs elérhető album"</string>
 	<!---->
 	<string name="empty_album">"Nincs elérhető kép/videó"</string>
+	<!---->
+	<string name="slideshow_alert">"Nincs elérhető kép"</string>
 	<!---->
 	<string name="picasa_posts">"Bejegyzések"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Albumok"</string>
 	<!---->
+	<string name="tab_explore">"Tallózás"</string>
+	<!---->
 	<string name="camera_menu_more_label">"További beállítások"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Beállítások"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Havi nézet"</string>
 	<!---->
+	<string name="slow_motion">"Lassú művelet"</string>
+	<!---->
+	<string name="move_to_album">"Áthelyezés az albumba"</string>
+	<!---->
+	<string name="copy_to_album">"Másolás az albumba"</string>
+	<!---->
 	<string name="moments_day_view">"Napi nézet"</string>
+	<!---->
+	<string name="moments_staggered_view">"lépcsős elrendezés"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Összes"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Fénykép"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Parallaxis"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Videofájl"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"MÉGSE"</string>
 	<!---->
 	<string name="burst_delete">"törlés"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"Bemutató"</string>
 	<!---->
 	<string name="favorite">"Kedvenc"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Fényképek megjelenítése káprázatos kollázsok formájában."</string>
 	<!---->
+	<string name="loading_data_message">"Adat betöltése folyamatban, várjon."</string>
+	<!---->
 	<string name="boom_key_tip_2">"A kollázsok megjelenítése a Boom gombbal indítható el."</string>
 	<!---->
 	<string name="boom_key_tip_3">"Kollázs megjelenítés indítása az Albumok nézetből"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"Helló!"</string>
 	<!---->
 	<string name="not_support_video_edit">"A videoformátum nem támogatott."</string>
+	<!---->
+	<string name="no_slowmoedit">"A SlowmoEdit nincs telepítve, így ez a funkció nem használható!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Albumok összecsukása"</string>
+	<!---->
+	<string name="settings_albums">"Beállítások"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Album létrehozása"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Adja meg az album nevét"</string>
+	<!---->
+	<string name="album_exists_warning">"Ez az albumnév már létezik"</string>
+	<!---->
+	<string name="create_new_album_confirm">"LÉTREHOZÁS"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Mégse"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Törli ezt az albumot?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Törlés"</string>
+	<!---->
+	<string name="delete_album_cancel">"Mégse"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Az album nevének fenntartott mező nem maradhat üres"</string>
+	<!---->
+	<string name="new_album_select_title">"Hozzáadás az albumhoz"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Átmásolja vagy áthelyezi az új albumba?"</string>
+	<!---->
+	<string name="new_album">"Új album"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Az album neve nem megengedett karaktereket tartalmaz!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Beállítás privátként"</string>
+	<!---->
+	<string name="set_public">"Beállítás nyilvánosként"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

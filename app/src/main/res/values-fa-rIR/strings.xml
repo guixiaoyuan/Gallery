@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"انتخاب آلبوم"</string>
 	<!---->
+	<string name="rename_album">"تغییرنام آلبوم"</string>
+	<!---->
+	<string name="delete_album">"حذف آلبوم"</string>
+	<!---->
 	<string name="select_group">"انتخاب گروه"</string>
 	<!---->
 	<string name="set_image">"تنظيم بعنوان..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"حذف مورد انتخابي؟"</item>
 		<item quantity="other">"حذف موارد انتخابي؟"</item>
+	</plurals>
+	<!---->
+	<string name="move">"انتقال"</string>
+	<!---->
+	<string name="moving">"در حال انتقال"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"مورد انتخابی منتقل شود؟"</item>
+		<item quantity="other">"موارد انتخابی منتقل شوند؟"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"کپی"</string>
+	<!---->
+	<string name="copying">"در حال کپی کردن"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"مورد انتخابی کپی شود؟"</item>
+		<item quantity="other">"موارد انتخابی کپی شوند؟"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"تأیید"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"آلبومی موجود نیست"</string>
 	<!---->
 	<string name="empty_album">"تصویر/ویدیو موجود نیست"</string>
+	<!---->
+	<string name="slideshow_alert">"تصویری موجود نیست"</string>
 	<!---->
 	<string name="picasa_posts">"پست‌ها"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"آلبوم‌ها"</string>
 	<!---->
+	<string name="tab_explore">"کشف کردن"</string>
+	<!---->
 	<string name="camera_menu_more_label">"گزینه‌های بیشتر"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"تنظیمات"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"نمای ماه"</string>
 	<!---->
+	<string name="slow_motion">"عملکرد آهسته"</string>
+	<!---->
+	<string name="move_to_album">"انتقال به آلبوم"</string>
+	<!---->
+	<string name="copy_to_album">"کپی در آلبوم"</string>
+	<!---->
 	<string name="moments_day_view">"نمای روز"</string>
+	<!---->
+	<string name="moments_staggered_view">"نمای شطرنجی"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"همه"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"عکس"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"اختلاف منظر"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"ویدئو"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"لغو"</string>
 	<!---->
 	<string name="burst_delete">"حذف"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"مورد دلخواه"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"عکس های از قبل ارسال شده در کلاژهای مختلف و باورنکردنی"</string>
 	<!---->
+	<string name="loading_data_message">"در حال بارگیری داده، لطفاً یک لحظه صبر کنيد!"</string>
+	<!---->
 	<string name="boom_key_tip_2">"با Boom key نمایش کلاژ را شروع کنید"</string>
 	<!---->
 	<string name="boom_key_tip_3">"راه اندازی نمایش کلاژ از آلبوم ها"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"سلام!"</string>
 	<!---->
 	<string name="not_support_video_edit">"فرمت ویدیو پشتیبانی نمی‌شود."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit نصب نیست، و این عملکرد قابل استفاده نیست!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"کوچک کردن آلبوم ها"</string>
+	<!---->
+	<string name="settings_albums">"تنظیمات"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"ایجاد آلبوم"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"وارد کردن نام آلبوم"</string>
+	<!---->
+	<string name="album_exists_warning">"نام آلبوم از قبل موجود است"</string>
+	<!---->
+	<string name="create_new_album_confirm">"ایجاد کردن"</string>
+	<!---->
+	<string name="create_new_album_cancel">"لغو"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"حذف این آلبوم؟"</string>
+	<!---->
+	<string name="delete_album_confirm">"حذف"</string>
+	<!---->
+	<string name="delete_album_cancel">"لغو"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"نام آلبوم نمی تواند خالی باشد"</string>
+	<!---->
+	<string name="new_album_select_title">"افزودن به آلبوم"</string>
+	<!---->
+	<string name="new_album_confirm_title">"کپی یا انتقال به آلبوم جدید؟"</string>
+	<!---->
+	<string name="new_album">"آلبوم جدید"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"نام آلبوم دارای نویسه های نامعتبری است!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"تنظيم به عنوان خصوصی"</string>
+	<!---->
+	<string name="set_public">"تنظيم به عنوان عمومی"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

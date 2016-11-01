@@ -4,7 +4,7 @@
     android:id="@+id/photo_slideshow_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent"
+    android:background="@android:color/background_dark"
     android:orientation="vertical" >
 
     <ViewFlipper

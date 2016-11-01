@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Seleccionar álbum"</string>
 	<!---->
+	<string name="rename_album">"Renombrar álbum"</string>
+	<!---->
+	<string name="delete_album">"Eliminar álbum"</string>
+	<!---->
 	<string name="select_group">"Seleccionar grupo"</string>
 	<!---->
 	<string name="set_image">"Establecer como &#8230;"</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"¿Eliminar elemento seleccionado?"</item>
 		<item quantity="other">"¿Eliminar elementos seleccionados?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Mover"</string>
+	<!---->
+	<string name="moving">"Moviendo"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"¿Desea mover el elemento seleccionado?"</item>
+		<item quantity="other">"¿Desea mover los elementos seleccionados?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Copiar"</string>
+	<!---->
+	<string name="copying">"Copiando"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"¿Desea copiar el elemento seleccionado?"</item>
+		<item quantity="other">"¿Desea copiar los elementos seleccionados?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Confirmar"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"No hay álbumes disponibles"</string>
 	<!---->
 	<string name="empty_album">"Ninguna imagen/video disponible"</string>
+	<!---->
+	<string name="slideshow_alert">"No hay ninguna imagen disponible"</string>
 	<!---->
 	<string name="picasa_posts">"Publicaciones"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Álbumes"</string>
 	<!---->
+	<string name="tab_explore">"Explorar"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Más opciones"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Ajustes"</string>
@@ -959,13 +983,13 @@
 	<!---->
 	<string name="filtershow_save_title">"Guardar cambios"</string>
 	<!---->
-	<string name="filtershow_save_message">"¿Desea guardar como copia o sobrescribir la imagen original?"</string>
+	<string name="filtershow_save_message">"¿Desea guardar como copia o reemplazar la imagen original?"</string>
 	<!---->
 	<string name="filtershow_save_no_ask">"No volver a preguntar"</string>
 	<!---->
 	<string name="filtershow_save_button_copy">"GUARDAR COMO COPIA"</string>
 	<!---->
-	<string name="filtershow_save_button_overwrite">"SOBRESCRIBIR ORIGINAL"</string>
+	<string name="filtershow_save_button_overwrite">"REEMPLAZAR ORIGINAL"</string>
 	<!---->
 	<string name="lock_video">"Bloqueado"</string>
 	<!---->
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Vista Mes"</string>
 	<!---->
+	<string name="slow_motion">"Acción lenta"</string>
+	<!---->
+	<string name="move_to_album">"Mover al álbum"</string>
+	<!---->
+	<string name="copy_to_album">"Copiar al álbum"</string>
+	<!---->
 	<string name="moments_day_view">"Vista Día"</string>
+	<!---->
+	<string name="moments_staggered_view">"vista escalonada"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Todo"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"foto(s)"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Parallax"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"video(s)"</string>
 	<!---->
@@ -1047,7 +1079,7 @@
 	<!---->
 	<string name="burst_mode_delete_message">"Esta secuencia de ráfaga contiene %s fotos. ¿Desea eliminarlas todas?"</string>
 	<!---->
-	<string name="burst_mode_save_message">"¿Desea sobrescribir los disparos de ráfaga o guardarlos como imágenes individuales?"</string>
+	<string name="burst_mode_save_message">"¿Desea renombrar los disparos de ráfaga o guardarlos como imágenes individuales?"</string>
 	<!---->
 	<string name="burst_overwrite">"Renombrar"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"CANCELAR"</string>
 	<!---->
 	<string name="burst_delete">"eliminar"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"Favorito"</string>
 	<!---->
@@ -1079,7 +1111,7 @@
 	<!---->
 	<string name="trim_message">"No se han guardado los cambios."</string>
 	<!---->
-	<string name="trim_discard">"Cancelar"</string>
+	<string name="trim_discard">"DESCARTAR"</string>
 	<!---->
 	<string name="main_tab_moments">"Momentos"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Muestre fotos en diferentes e increíbles collages."</string>
 	<!---->
+	<string name="loading_data_message">"Cargando datos; espere un momento."</string>
+	<!---->
 	<string name="boom_key_tip_2">"Iniciar presentación del collage con Boom-Key"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Activar presentación del collage desde Álbumes"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"¡Hola!"</string>
 	<!---->
 	<string name="not_support_video_edit">"No se admite el formato de video."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit no está instalado y no se puede utilizar esta función."</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Minimizar álbumes"</string>
+	<!---->
+	<string name="settings_albums">"Ajustes"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Crear álbum"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Ingresar nombre del álbum"</string>
+	<!---->
+	<string name="album_exists_warning">"El nombre del álbum ya existe."</string>
+	<!---->
+	<string name="create_new_album_confirm">"CREAR"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Cancelar"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"¿Eliminar este álbum?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Eliminar"</string>
+	<!---->
+	<string name="delete_album_cancel">"Cancelar"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"El nombre del álbum no puede estar vacío."</string>
+	<!---->
+	<string name="new_album_select_title">"Añadir al álbum"</string>
+	<!---->
+	<string name="new_album_confirm_title">"¿Copiar o mover al nuevo álbum?"</string>
+	<!---->
+	<string name="new_album">"Nuevo álbum"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"El nombre del álbum contiene caracteres no válidos."</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Establecer como privado"</string>
+	<!---->
+	<string name="set_public">"Establecer como público"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

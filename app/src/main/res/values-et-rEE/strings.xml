@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Albumi valimine"</string>
 	<!---->
+	<string name="rename_album">"Muuda albumi nime"</string>
+	<!---->
+	<string name="delete_album">"Kustuta album"</string>
+	<!---->
 	<string name="select_group">"Rühma valimine"</string>
 	<!---->
 	<string name="set_image">"Seadista kui..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Kas kustutada valitud üksus?"</item>
 		<item quantity="other">"Kas kustutada valitud üksused?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Teisalda"</string>
+	<!---->
+	<string name="moving">"Teisaldamine"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Kas teisaldada valitud fail?"</item>
+		<item quantity="other">"Kas teisaldada valitud failid?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Kopeeri"</string>
+	<!---->
+	<string name="copying">"Kopeerimine"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Kas kopeerida valitud fail?"</item>
+		<item quantity="other">"Kas kopeerida valitud failid?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Kinnita"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Ühtegi albumit pole saadaval"</string>
 	<!---->
 	<string name="empty_album">"Kujutist/videot ei ole saadaval."</string>
+	<!---->
+	<string name="slideshow_alert">"Kujutis ei ole saadaval"</string>
 	<!---->
 	<string name="picasa_posts">"Postitused"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Albumid"</string>
 	<!---->
+	<string name="tab_explore">"Uuri"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Rohkem valikuid"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Seaded"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Kuu vaade"</string>
 	<!---->
+	<string name="slow_motion">"Aegluubis"</string>
+	<!---->
+	<string name="move_to_album">"Teisaldage albumisse"</string>
+	<!---->
+	<string name="copy_to_album">"Kopeerige albumisse"</string>
+	<!---->
 	<string name="moments_day_view">"Päeva vaade"</string>
+	<!---->
+	<string name="moments_staggered_view">"ajatatud vaade"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Kõik"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Foto"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Parallaks"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Video"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"Tühista"</string>
 	<!---->
 	<string name="burst_delete">"Kustuta"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"Tähista tärniga"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Fotode esitamine erinevates ja rabavates kollaažides"</string>
 	<!---->
+	<string name="loading_data_message">"Andmeid laaditakse, oodake hetk!"</string>
+	<!---->
 	<string name="boom_key_tip_2">"Käivita buumiklahvi abil kollaažide näitamine"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Käivita albumitest slaidiesitus"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"Hei!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Video vormingut ei toetata."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit ei ole paigaldatud ja seda funktsiooni ei saa kasutada!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Sule albumid"</string>
+	<!---->
+	<string name="settings_albums">"Seaded"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Loo album"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Sisesta albumi nimi"</string>
+	<!---->
+	<string name="album_exists_warning">"Albumi nimi on juba olemas"</string>
+	<!---->
+	<string name="create_new_album_confirm">"LOO"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Tühista"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Kustutada see album?"</string>
+	<!---->
+	<string name="delete_album_confirm">"kustuta"</string>
+	<!---->
+	<string name="delete_album_cancel">"Tühista"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Albumi nimi ei saa olla tühi"</string>
+	<!---->
+	<string name="new_album_select_title">"Lisa albumisse"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Kas kopeerida või teisaldada uude albumisse?"</string>
+	<!---->
+	<string name="new_album">"Uus album"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Albumi nimi sisaldab valet märki!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Määra privaatseks"</string>
+	<!---->
+	<string name="set_public">"Määra avalikuks"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

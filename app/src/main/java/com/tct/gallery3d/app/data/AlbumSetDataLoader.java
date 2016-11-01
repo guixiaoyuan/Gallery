@@ -262,7 +262,9 @@ public class AlbumSetDataLoader {
                 clearSlot(i % length);
             }
         }
-        mReloadTask.notifyDirty();
+        if (mReloadTask != null) {
+            mReloadTask.notifyDirty();
+        }
     }
 
     public void setActiveWindow(int start, int end) {

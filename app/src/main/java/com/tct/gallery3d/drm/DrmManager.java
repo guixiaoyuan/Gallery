@@ -45,7 +45,10 @@ import android.graphics.BitmapFactory;
 import android.content.ContentResolver;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteException;
+import android.graphics.Canvas;
 import android.graphics.Movie;
+import android.graphics.Paint;
+import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.provider.MediaStore;
 import android.provider.Settings;
@@ -61,17 +64,18 @@ import com.tct.gallery3d.filtershow.cache.ImageLoader;
 import com.tct.gallery3d.ui.Log;
 //[BUGFIX]-ADD-END by NJTS.Peng.Tian
 
-import com.mediatek.omadrm.MtkDrmManager;
+import com.mtk.drm.frameworks.MtkDrmManager;
 import com.tct.drm.api.TctDrmManager;
 
 public class DrmManager {
 
     private static final String TAG = "DrmManager";
-  //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
+    //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
     public static final int NO_DRM = -1;
     public static final int MTK_DRM = 10;
     public static final int QCOM_DRM = 20;
-  //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
+    //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
+    public static final int IS_DRM = 1;
 
     public static final int ACTIONID_NOT_DRM = -1;
     public static final int ACTIONID_INVALID_DRM = -2;
@@ -97,23 +101,26 @@ public class DrmManager {
     public static final String TCT_DRM_VALID = TctDrmManager.TCT_DRM_VALID;
     public static final String DRM_TIME_OUT_ACTION = TctDrmManager.DRM_TIME_OUT_ACTION;
 
-  //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
+    //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
     public static final String TCT_DRM_METHOD = MtkDrmManager.DRM_METHOD;
     public static int mCurrentDrm = NO_DRM;
-  //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
+    //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
     public static boolean isDrmEnable = false;
     private static DrmManager sInstance = new DrmManager();
 
     public TctDrmManager mTctDrmManager = null;
     public MtkDrmManager mMtkDrmManager = null;
     public DrmManagerClient mDrmManagerClient = null;
+    private Bitmap mDrmLock;
+    private Bitmap mDrmUnlock;
+    private Bitmap mEmptyPic;
     private ExecutorService executorService = Executors.newCachedThreadPool();
 
     public static void setScheme() {
         if (isDrmEnable) {
             switch (mCurrentDrm) {
                 case MTK_DRM:
-                  //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
+                    //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
                     DRM_SCHEME_OMA1_FL = MtkDrmManager.DRM_SCHEME_OMA1_FL;
                     DRM_SCHEME_OMA1_CD = MtkDrmManager.DRM_SCHEME_OMA1_CD;
                     DRM_SCHEME_OMA1_SD = MtkDrmManager.DRM_SCHEME_OMA1_SD;
@@ -121,7 +128,7 @@ public class DrmManager {
                     CONSTRAINT_TYPE = TctDrmManager.CONSTRAINT_TYPE;
                     CONTENT_VENDOR = MtkDrmManager.CONTENT_VENDOR;
                     TCT_IS_DRM = MtkDrmManager.TCT_IS_DRM;
-                  //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
+                    //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
                     break;
                 case QCOM_DRM:
                     DRM_SCHEME_OMA1_FL = TctDrmManager.DRM_SCHEME_OMA1_FL;
@@ -161,6 +168,12 @@ public class DrmManager {
                     if (mMtkDrmManager == null) {
                         mMtkDrmManager = MtkDrmManager.getInstance(context);
                     }
+                    mDrmLock = ((BitmapDrawable) context.getDrawable(R.drawable.drm_red_lock)).getBitmap()
+                            .copy(Bitmap.Config.ARGB_8888, false);
+                    mDrmUnlock = ((BitmapDrawable) context.getDrawable(R.drawable.drm_green_lock)).getBitmap()
+                            .copy(Bitmap.Config.ARGB_8888, false);
+                    mEmptyPic = ((BitmapDrawable) context.getDrawable(R.drawable.empty_photo)).getBitmap()
+                            .copy(Bitmap.Config.ARGB_8888, true);
                     break;
                 case QCOM_DRM:
                     if (mTctDrmManager == null) {
@@ -226,14 +239,15 @@ public class DrmManager {
             return NO_DRM;
         }
     }
+
     /**
      * This method gets Bitmap of DRM file. (Draw a little lock icon at
      * right-down part over original icon)
      *
      * @param resources the resource to use
-     * @param path absolute path of the DRM file
-     * @param actionId action ID of the file, which is not unique for DRM file
-     * @param iconId the ID of background icon, which the new icon draws on
+     * @param path      absolute path of the DRM file
+     * @param actionId  action ID of the file, which is not unique for DRM file
+     * @param iconId    the ID of background icon, which the new icon draws on
      * @return Bitmap of the DRM file
      */
     public Bitmap overlayDrmIconSkew(Resources resources, String path, int actionId, int iconId) {
@@ -277,7 +291,7 @@ public class DrmManager {
      *
      * @param path path to the rights-protected content.
      * @return true for having right to transfer, false for not having the
-     *         right.
+     * right.
      */
     public boolean canTransfer(String path) {
         boolean flag = false;
@@ -312,16 +326,16 @@ public class DrmManager {
         try {
             if (isDrmEnable) {
                 switch (mCurrentDrm) {
-                case MTK_DRM:
-                    if (mMtkDrmManager != null) {
-                        flag = mMtkDrmManager.isRightValid(path);
-                    }
-                    break;
-                case QCOM_DRM:
-                    flag = mTctDrmManager.isRightValid(path);
-                    break;
-                default:
-                    break;
+                    case MTK_DRM:
+                        if (mMtkDrmManager != null) {
+                            flag = mMtkDrmManager.isRightValid(path);
+                        }
+                        break;
+                    case QCOM_DRM:
+                        flag = mTctDrmManager.isRightValid(path);
+                        break;
+                    default:
+                        break;
                 }
             }
         } catch (Exception e) {
@@ -383,7 +397,7 @@ public class DrmManager {
                         break;
                     case QCOM_DRM:
                         //[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-07-10,PR1041063 begin
-                        if(mTctDrmManager != null) {
+                        if (mTctDrmManager != null) {
                             flag = new Boolean(mTctDrmManager.isDrm(path));
                         }
                         //[BUGFIX]-Add by TCTNJ,jialiang.ren, 2015-07-10,PR1041063 end
@@ -401,8 +415,20 @@ public class DrmManager {
         if (isDrmEnable) {
             switch (mCurrentDrm) {
                 case MTK_DRM:
-                  //there is no getDrmVideoThumbnail fucntion in mtk platform
+                    //there is no getDrmVideoThumbnail fucntion in mtk platform
                     b = bitmap;//[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
+                    /* MODIFIED-BEGIN by wencan.wu1, 2016-10-29,BUG-3079416*/
+                    if (b == null) {
+                        b = mEmptyPic;
+                    }
+                    Canvas canvas = new Canvas(b);
+                    Paint paint = new Paint();
+                    if (isRightsStatus(filePath)) {
+                        canvas.drawBitmap(mDrmUnlock, b.getWidth() - mDrmUnlock.getWidth(), b.getHeight() - mDrmUnlock.getHeight(), paint);
+                    } else {
+                        canvas.drawBitmap(mDrmLock, b.getWidth() - mDrmLock.getWidth(), b.getHeight() - mDrmLock.getHeight(), paint);
+                    }
+                    /* MODIFIED-END by wencan.wu1,BUG-3079416*/
                     break;
                 case QCOM_DRM:
                     b = TctDrmManager.getDrmVideoThumbnail(bitmap, filePath, size);
@@ -440,6 +466,16 @@ public class DrmManager {
                 case MTK_DRM:
                     if (mMtkDrmManager != null) {
                         b = mMtkDrmManager.getDrmThumbnail(filePath, size);//[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
+                        if (b == null) {
+                            b = mEmptyPic;
+                        }
+                        Canvas canvas = new Canvas(b);
+                        Paint paint = new Paint();
+                        if (isRightsStatus(filePath)) {
+                            canvas.drawBitmap(mDrmUnlock, b.getWidth() - mDrmUnlock.getWidth(), b.getHeight() - mDrmUnlock.getHeight(), paint);
+                        } else {
+                            canvas.drawBitmap(mDrmLock, b.getWidth() - mDrmLock.getWidth(), b.getHeight() - mDrmLock.getHeight(), paint);
+                        }
                     }
                     break;
                 case QCOM_DRM:
@@ -451,7 +487,8 @@ public class DrmManager {
         }
         return b;
     }
-  //[BUGFIX]-Add-BEGIN by TCTNB.ye.chen, 2015/02/15 PR-932969.
+
+    //[BUGFIX]-Add-BEGIN by TCTNB.ye.chen, 2015/02/15 PR-932969.
     public boolean isDrmSDFile(String path) {
         boolean flag = false;
         if (isDrmEnable) {
@@ -489,7 +526,8 @@ public class DrmManager {
         }
         return flag;
     }
-  //[BUGFIX]-Add-BEGIN by TCTNB.ye.chen, 2015/02/15 PR-932969.
+
+    //[BUGFIX]-Add-BEGIN by TCTNB.ye.chen, 2015/02/15 PR-932969.
     public int getDrmScheme(String path) {
         int flag = TctDrmManager.DRM_SCHEME_OMA1_FL;
         if (isDrmEnable) {
@@ -566,8 +604,8 @@ public class DrmManager {
         return flag;
     }
 
-  //[BUGFIX]-Add-BEGIN by NJTS.ye.chen,02/02/2015,PR907464
-    public Bitmap getDrmBitmap(String path){
+    //[BUGFIX]-Add-BEGIN by NJTS.ye.chen,02/02/2015,PR907464
+    public Bitmap getDrmBitmap(String path) {
         Bitmap bitmap = null;
         if (isDrmEnable) {
             switch (mCurrentDrm) {
@@ -577,62 +615,62 @@ public class DrmManager {
                     }
                     break;
                 case QCOM_DRM:
-                    if (mTctDrmManager != null){
+                    if (mTctDrmManager != null) {
                         bitmap = mTctDrmManager.getDrmBitmap2(path);//[BUGFIX]-Add by TCTNJ,su.jiang, 2015-07-13,PR1038196
                     }
                     break;
                 default:
                     break;
-              }
-         }
+            }
+        }
         return bitmap;
     }
-  //[BUGFIX]-Add-BEGIN by NJTS.ye.chen,02/02/2015,PR907464
+    //[BUGFIX]-Add-BEGIN by NJTS.ye.chen,02/02/2015,PR907464
 
     //[BUGFIX]-Add-BEGIN by NJTS.Peng.Tian,12/16/2014,PR835313
-    public Movie getMovie(Uri uri,Context context){
+    public Movie getMovie(Uri uri, Context context) {
         Movie movie = null;
         if (isDrmEnable) {
             switch (mCurrentDrm) {
                 case MTK_DRM:
                     if (mMtkDrmManager != null) {
-                        movie = mMtkDrmManager.getMovie(convertUriToPath(uri,context));//[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
+                        movie = mMtkDrmManager.getMovie(convertUriToPath(uri, context));//[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
                     }
                     break;
                 case QCOM_DRM:
-                    if (mTctDrmManager != null){
+                    if (mTctDrmManager != null) {
                         movie = TctDrmManager.getMovie(uri, context);
                     }
                     break;
                 default:
                     break;
-              }
-         }
-         return movie;
+            }
+        }
+        return movie;
     }
 
-    public Movie getMovie(String path){
+    public Movie getMovie(String path) {
         Movie movie = null;
         if (isDrmEnable) {
             switch (mCurrentDrm) {
                 case MTK_DRM:
                     if (mMtkDrmManager != null) {
                         movie = mMtkDrmManager.getMovie(path);//[BUGFIX]-Add by TCTNJ,ye.chen, 2015-03-10,PR916400
-                     }
+                    }
                     break;
                 case QCOM_DRM:
-                    if (mTctDrmManager != null){
+                    if (mTctDrmManager != null) {
                         movie = TctDrmManager.getMovie(path);
                     }
                     break;
                 default:
                     break;
-             }
-         }
+            }
+        }
         return movie;
     }
 
-   public String convertUriToPath(Uri uri, Context context) {
+    public String convertUriToPath(Uri uri, Context context) {
         String path = null;
         if (null != uri) {
             String scheme = uri.getScheme();
@@ -644,7 +682,7 @@ public class DrmManager {
                 path = uri.toString();
 
             } else if (scheme.equals(ContentResolver.SCHEME_CONTENT)) {
-                String[] projection = new String[] { MediaStore.MediaColumns.DATA };
+                String[] projection = new String[]{MediaStore.MediaColumns.DATA};
                 Cursor cursor = null;
                 try {
                     cursor = context.getContentResolver().query(uri,
@@ -662,7 +700,7 @@ public class DrmManager {
                 } catch (SQLiteException e) {
                     Log.e(Uri.class.getSimpleName(),
                             "Given Uri is not formatted in a way "
-                                   + "so that it can be found in media store.");
+                                    + "so that it can be found in media store.");
                     return null;
                     //[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-02-06,PR925646 begin
                 } catch (IllegalArgumentException e) {
@@ -675,7 +713,7 @@ public class DrmManager {
                     }
                 }
             } else {
-                  Log.e(Uri.class.getSimpleName(),
+                Log.e(Uri.class.getSimpleName(),
                         "Given Uri scheme is not supported");
                 return null;
             }
@@ -684,209 +722,211 @@ public class DrmManager {
     }
 
     //[BUGFIX]-Add-END by NJTS.Peng.Tian
- //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-04-01,PR916400
-   public void activateContent(Context context, String filepath) {
-       if (isDrmEnable) {
-           switch (mCurrentDrm) {
-               case MTK_DRM:
-                   if (mMtkDrmManager != null) {
-                       String drmtoast = context.getResources().getString(R.string.drm_toast_license_expired);
-                       mMtkDrmManager.activateContent(context, filepath,drmtoast);
-                   }
-                   break;
-               case QCOM_DRM:
-                   mTctDrmManager.activateContent(context, filepath);
-                   break;
-               default:
-               break;
-           }
-       }
-   }
+    //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-04-01,PR916400
+    public void activateContent(Context context, String filepath) {
+        if (isDrmEnable) {
+            switch (mCurrentDrm) {
+                case MTK_DRM:
+                    if (mMtkDrmManager != null) {
+                        String drmtoast = context.getResources().getString(R.string.drm_toast_license_expired);
+                        mMtkDrmManager.activateContent(context, filepath, drmtoast);
+                    }
+                    break;
+                case QCOM_DRM:
+                    mTctDrmManager.activateContent(context, filepath);
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
 
-   public boolean hasCountConstraint(String filePath) {
-       boolean flag = false;
-       if (isDrmEnable) {
-           switch (mCurrentDrm) {
-               case MTK_DRM:
-                   if (mMtkDrmManager != null) {
-                       flag = mMtkDrmManager.hasCountConstraint(filePath);
-                   }
-                   break;
-               case QCOM_DRM:
-                   flag = mTctDrmManager.hasCountConstraint(filePath);
-                   break;
-               default:
-                   break;
-           }
-       }
-       return flag;
-   }
+    public boolean hasCountConstraint(String filePath) {
+        boolean flag = false;
+        if (isDrmEnable) {
+            switch (mCurrentDrm) {
+                case MTK_DRM:
+                    if (mMtkDrmManager != null) {
+                        flag = mMtkDrmManager.hasCountConstraint(filePath);
+                    }
+                    break;
+                case QCOM_DRM:
+                    flag = mTctDrmManager.hasCountConstraint(filePath);
+                    break;
+                default:
+                    break;
+            }
+        }
+        return flag;
+    }
 
-   public int checkRightsStatus(String path, int action) {
-       int result = -1;
-       if (isDrmEnable) {
-           switch (mCurrentDrm) {
-               case MTK_DRM:
-                   if (mMtkDrmManager != null) {
-                       result = mMtkDrmManager.checkRightsStatus(path, action);//Task134580 support DRM in mtk platform by fengke at 2015.03.5
-                   }
-                   break;
-               case QCOM_DRM:
-                   result = TctDrmManager.checkRightsStatus(path, action);
-                   break;
-               default:
-                   break;
-           }
-       }
-       return result;
-   }
+    public int checkRightsStatus(String path, int action) {
+        int result = -1;
+        if (isDrmEnable) {
+            switch (mCurrentDrm) {
+                case MTK_DRM:
+                    if (mMtkDrmManager != null) {
+                        result = mMtkDrmManager.checkRightsStatus(path, action);//Task134580 support DRM in mtk platform by fengke at 2015.03.5
+                    }
+                    break;
+                case QCOM_DRM:
+                    result = TctDrmManager.checkRightsStatus(path, action);
+                    break;
+                default:
+                    break;
+            }
+        }
+        return result;
+    }
 
-   public void drmSetWallpaper(Context context, String filepath) {
-       if (isDrmEnable) {
-           switch (mCurrentDrm) {
-               case MTK_DRM:
-                   if (mMtkDrmManager != null) {
-                       if (!mMtkDrmManager.drmSetAsWallpaper(context, filepath)) {
-                           String toastMsg = String.format(context.getResources().getString(R.string.drm_no_crop), filepath);
-                           Toast.makeText(context, toastMsg, Toast.LENGTH_LONG).show();
-                           return;
-                       }
-                       if ((filepath != null) && (!"".equals(filepath)) && (new File(filepath)).exists()) {
-                           Settings.System.putString(context.getContentResolver(), MtkDrmManager.WALLPAPER_FILEPATH, filepath);
-//                           mMtkDrmManager.watchingDrmWallpaperStatus(context, filepath);
-                       }
-                   }
-                   break;
-               case QCOM_DRM:
-                   Settings.System.putString(context.getContentResolver(),mTctDrmManager.NEW_WALLPAPER_DRMPATH,filepath);
-                   break;
-               default:
-                   break;
-           }
-       }
-   }
-   public Bitmap getThumbnailConsume(String path){
-       Bitmap bitmap = null;
-       if (isDrmEnable) {
-           switch (mCurrentDrm) {
-               case MTK_DRM:
-                   if (mMtkDrmManager != null) {
-                       bitmap = mMtkDrmManager.getThumbnailConsume(path, 640);
-                   }
-                   break;
-               case QCOM_DRM:
+    public void drmSetWallpaper(Context context, String filepath) {
+        if (isDrmEnable) {
+            switch (mCurrentDrm) {
+                case MTK_DRM:
+                    if (mMtkDrmManager != null) {
+                        if (!mMtkDrmManager.drmSetAsWallpaper(context, filepath)) {
+                            String toastMsg = String.format(context.getResources().getString(R.string.drm_no_crop), filepath);
+                            Toast.makeText(context, toastMsg, Toast.LENGTH_LONG).show();
+                            return;
+                        }
+                        if ((filepath != null) && (!"".equals(filepath)) && (new File(filepath)).exists()) {
+                            Settings.System.putString(context.getContentResolver(), MtkDrmManager.WALLPAPER_FILEPATH, filepath);
+                            mMtkDrmManager.watchingDrmWallpaperStatus(context, filepath);
+                        }
+                    }
+                    break;
+                case QCOM_DRM:
+                    Settings.System.putString(context.getContentResolver(), mTctDrmManager.NEW_WALLPAPER_DRMPATH, filepath);
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+
+    public Bitmap getThumbnailConsume(String path) {
+        Bitmap bitmap = null;
+        if (isDrmEnable) {
+            switch (mCurrentDrm) {
+                case MTK_DRM:
+                    if (mMtkDrmManager != null) {
+                        bitmap = mMtkDrmManager.getThumbnailConsume(path, 640);
+                    }
+                    break;
+                case QCOM_DRM:
 //                   if (mTctDrmManager != null){
 //                       bitmap = mTctDrmManager.getDrmBitmap(path);
 //                   }
-                   break;
-               default:
-                   break;
-             }
+                    break;
+                default:
+                    break;
+            }
         }
-       return bitmap;
-   }
+        return bitmap;
+    }
 
-   public boolean hasRightsToShow(Context context, String filePath) {
-       boolean result = false;
-       if (isDrmEnable) {
-           switch (mCurrentDrm) {
-               case MTK_DRM:
-                   if (mMtkDrmManager != null) {
-                       result = mMtkDrmManager.hasRightsToShow(context, filePath);
-                   }
-                   break;
-               case QCOM_DRM:
-                   //result = TctDrmManager.checkRightsStatus(path, action);
-                   break;
-               default:
-                   break;
-           }
-       }
-       return result;
-   }
+    public boolean hasRightsToShow(Context context, String filePath) {
+        boolean result = false;
+        if (isDrmEnable) {
+            switch (mCurrentDrm) {
+                case MTK_DRM:
+                    if (mMtkDrmManager != null) {
+                        result = mMtkDrmManager.hasRightsToShow(context, filePath);
+                    }
+                    break;
+                case QCOM_DRM:
+                    //result = TctDrmManager.checkRightsStatus(path, action);
+                    break;
+                default:
+                    break;
+            }
+        }
+        return result;
+    }
 
-//   public Dialog showConsumeDialog(Context context,Uri uri,
-//           DialogInterface.OnClickListener listener) {
-//       Dialog result = null;
-//       if (isDrmEnable) {
-//           switch (mCurrentDrm) {
-//               case MTK_DRM:
-//                   if (mMtkDrmManager != null) {
-//                       mMtkDrmManager.showConsumeDialog(context,mDrmManagerClient,uri,listener);
-//                   }
-//                   break;
-//               case QCOM_DRM:
-//                   break;
-//               default:
-//                   break;
-//           }
-//       }
-//       return result;
-//   }
+    public Dialog showConsumeDialog(Context context,
+                                    DialogInterface.OnClickListener listener,
+                                    DialogInterface.OnDismissListener dismissListener) {
+        Dialog result = null;
+        if (isDrmEnable) {
+            switch (mCurrentDrm) {
+                case MTK_DRM:
+                    if (mMtkDrmManager != null) {
+                        result = mMtkDrmManager.showConsumeDialog(context, listener, dismissListener);
+                    }
+                    break;
+                case QCOM_DRM:
+                    break;
+                default:
+                    break;
+            }
+        }
+        return result;
+    }
 
-//   public Dialog showSecureTimerInvalidDialog(Context context,
-//           DialogInterface.OnClickListener clickListener,
-//           DialogInterface.OnDismissListener dismissListener) {
-//       Dialog result = null;
-//       if (isDrmEnable) {
-//           switch (mCurrentDrm) {
-//               case MTK_DRM:
-//                   if (mMtkDrmManager != null) {
-//                       result = mMtkDrmManager.showSecureTimerInvalidDialog(context, clickListener, dismissListener);
-//                   }
-//                   break;
-//               case QCOM_DRM:
-//                   break;
-//               default:
-//                   break;
-//           }
-//       }
-//       return result;
-//   }
+    public Dialog showSecureTimerInvalidDialog(Context context,
+                                               DialogInterface.OnClickListener clickListener,
+                                               DialogInterface.OnDismissListener dismissListener) {
+        Dialog result = null;
+        if (isDrmEnable) {
+            switch (mCurrentDrm) {
+                case MTK_DRM:
+                    if (mMtkDrmManager != null) {
+                        result = mMtkDrmManager.showSecureTimerInvalidDialog(context, clickListener, dismissListener);
+                    }
+                    break;
+                case QCOM_DRM:
+                    break;
+                default:
+                    break;
+            }
+        }
+        return result;
+    }
 
 
+    public Dialog showRefreshLicenseDialog(Context context, String path) {
+        Dialog result = null;
+        if (isDrmEnable) {
+            switch (mCurrentDrm) {
+                case MTK_DRM:
+                    if (mMtkDrmManager != null) {
+                        result = mMtkDrmManager.showRefreshLicenseDialog(context, path);
+                    }
+                    break;
+                case QCOM_DRM:
+                    break;
+                default:
+                    break;
+            }
+        }
+        return result;
+    }
 
-//   public Dialog showRefreshLicenseDialog(Context context, String path) {
-//       Dialog result = null;
-//       if (isDrmEnable) {
-//           switch (mCurrentDrm) {
-//               case MTK_DRM:
-//                   if (mMtkDrmManager != null) {
-//                       result = mMtkDrmManager.showRefreshLicenseDialog(context, path);
-//                   }
-//                   break;
-//               case QCOM_DRM:
-//                   break;
-//               default:
-//                   break;
-//           }
-//       }
-//       return result;
-//   }
+    public int consumeRights(String path, int action) {
+        int result = mMtkDrmManager.ERROR_UNKNOWN;
+        if (isDrmEnable) {
+            switch (mCurrentDrm) {
+                case MTK_DRM:
+                    if (mMtkDrmManager != null) {
+                        result = mMtkDrmManager.consumeRights(path, action);
+                    }
+                    break;
+                case QCOM_DRM:
+                    break;
+                default:
+                    break;
+            }
+        }
+        return result;
+    }
 
-   public int consumeRights(String path, int action) {
-       int result = mMtkDrmManager.ERROR_UNKNOWN;
-       if (isDrmEnable) {
-           switch (mCurrentDrm) {
-               case MTK_DRM:
-                   if (mMtkDrmManager != null) {
-                       result = mMtkDrmManager.consumeRights(path, action);
-                   }
-                   break;
-               case QCOM_DRM:
-                   break;
-               default:
-                   break;
-           }
-       }
-       return result;
-   }
- //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-04-01,PR916400
- //[ALM][BUGFIX]-Add by TCTNJ,qiang.ding1, 2015-04-23,PR186130 begin
-   public static byte[] forceDecryptFile(String filePath, boolean consume) {
-       return MtkDrmManager.forceDecryptFile(filePath, consume);
-   }
-   //[ALM][BUGFIX]-Add by TCTNJ,qiang.ding1, 2015-04-23,PR186130 end
+    //[BUGFIX]-Add by TCTNJ,ye.chen, 2015-04-01,PR916400
+    //[ALM][BUGFIX]-Add by TCTNJ,qiang.ding1, 2015-04-23,PR186130 begin
+    public static byte[] forceDecryptFile(String filePath, boolean consume) {
+        return MtkDrmManager.forceDecryptFile(filePath, consume);
+    }
+    //[ALM][BUGFIX]-Add by TCTNJ,qiang.ding1, 2015-04-23,PR186130 end
 
     public static boolean checkDrmPlayRight(AbstractGalleryActivity activity, final MediaItem item) {
         final Context context = activity.getAndroidContext();
@@ -905,6 +945,15 @@ public class DrmManager {
             // Check the MediaItem DRM scheme.
             int drmType = DrmManager.getInstance().getDrmScheme(item.getFilePath());
 
+            if (DrmManager.getInstance().mCurrentDrm == DrmManager.MTK_DRM) {
+                if (item instanceof LocalImage) {
+                    if (drmType != DrmManager.DRM_SCHEME_OMA1_FL) {
+                        showMtkDrmDialog(context, item);
+                    }
+                    return false;
+                }
+            }
+
             int title;
             String message;
             DialogInterface.OnClickListener listener;
@@ -918,12 +967,6 @@ public class DrmManager {
                     }
                 };
             } else if (drmType == DrmManager.DRM_SCHEME_OMA1_FL) {
-                if (DrmManager.getInstance().mCurrentDrm == DrmManager.MTK_DRM) {
-                    if (item instanceof LocalImage) {
-//                        showMtkDrmDialog(context, item);
-                        return false;
-                    }
-                }
                 Toast.makeText(context, R.string.drm_no_valid_right, Toast.LENGTH_SHORT).show();
                 return false;
             } else {
@@ -948,22 +991,22 @@ public class DrmManager {
         return true;
     }
 
-//    private static void showMtkDrmDialog(Context context, MediaItem item) {
-//        final LocalImage imageItem = (LocalImage) item;
-//        int rights = DrmManager.getInstance().checkRightsStatus(imageItem.filePath, MtkDrmManager.Action.DISPLAY);
-//        com.tct.gallery3d.app.Log.w(TAG, "DRM showMtkDrmDialog rights= " + rights);
-//
-//        if (MtkDrmManager.RightsStatus.RIGHTS_VALID != rights) {
-//            if (MtkDrmManager.RightsStatus.SECURE_TIMER_INVALID == rights) {
-//                DrmManager.getInstance().showSecureTimerInvalidDialog(context,
-//                        new DialogInterface.OnClickListener() {
-//                            public void onClick(DialogInterface dialog, int which) {
-//                                dialog.dismiss();
-//                            }
-//                        }, null);
-//            } else {
-//                DrmManager.getInstance().showRefreshLicenseDialog(context, imageItem.filePath);
-//            }
-//        }
-//    }
+    private static void showMtkDrmDialog(Context context, MediaItem item) {
+        final LocalImage imageItem = (LocalImage) item;
+        int rights = DrmManager.getInstance().checkRightsStatus(imageItem.filePath, MtkDrmManager.Action.DISPLAY);
+        com.tct.gallery3d.app.Log.w(TAG, "DRM showMtkDrmDialog rights= " + rights);
+
+        if (MtkDrmManager.RightsStatus.RIGHTS_VALID != rights) {
+            if (MtkDrmManager.RightsStatus.SECURE_TIMER_INVALID == rights) {
+                DrmManager.getInstance().showSecureTimerInvalidDialog(context,
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        }, null);
+            } else {
+                DrmManager.getInstance().showRefreshLicenseDialog(context, imageItem.filePath);
+            }
+        }
+    }
 }

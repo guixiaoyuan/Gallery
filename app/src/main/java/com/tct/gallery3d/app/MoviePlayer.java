@@ -1191,6 +1191,7 @@ public class MoviePlayer implements
     public void mPauseVideo4Call() {
         if (mVideoView.isPlaying()) {
             mController.setTimes(mVideoView.getCurrentPosition(), mVideoView.getDuration(), 0 , 0);
+            mVideoPosition = mVideoView.getCurrentPosition();
             pauseVideo();
             mController.unLock();
         }

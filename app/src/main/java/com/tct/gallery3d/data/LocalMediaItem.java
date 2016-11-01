@@ -33,8 +33,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-
-import com.mediatek.omadrm.MtkDrmManager;
+import com.mtk.drm.frameworks.MtkDrmManager;
 import com.tct.gallery3d.app.GalleryApp;
 import com.tct.gallery3d.db.DataBaseManager;
 import com.tct.gallery3d.drm.DrmManager;

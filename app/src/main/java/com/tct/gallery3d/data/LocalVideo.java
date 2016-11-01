@@ -43,7 +43,7 @@ import android.provider.MediaStore.Video;
 import android.provider.MediaStore.Video.VideoColumns;
 import android.util.Log;
 
-import com.mediatek.omadrm.MtkDrmManager;
+import com.mtk.drm.frameworks.MtkDrmManager;
 import com.tct.gallery3d.app.GalleryApp;
 import com.tct.gallery3d.app.GalleryAppImpl;
 import com.tct.gallery3d.app.constant.GalleryConstant;
@@ -373,7 +373,7 @@ public class LocalVideo extends LocalMediaItem {
             } else if (DrmManager.getInstance().mCurrentDrm == DrmManager.MTK_DRM) {
                 if (cursor.getColumnIndex(DrmManager.TCT_IS_DRM) != -1) {
                     isDrm = cursor.getInt(MomentsNewAlbum.INDEX_IS_DRM);
-                    mDrmMethod = cursor.getInt(MomentsNewAlbum.INDEX_DRM_METHOD);
+                    mDrmMethod = cursor.getInt(cursor.getColumnIndex(DrmManager.TCT_DRM_METHOD));
                     if (isDrm == 1) {
                         mTctDrmType = DrmManager.getInstance().getDrmScheme(filePath);
                         if (MtkDrmManager.RightsStatus.RIGHTS_VALID ==
@@ -488,7 +488,7 @@ public class LocalVideo extends LocalMediaItem {
             } else if (DrmManager.getInstance().mCurrentDrm == DrmManager.MTK_DRM) {
                 if (cursor.getColumnIndex(DrmManager.TCT_IS_DRM) != -1) {
                     isDrm = uh.update(isDrm, cursor.getInt(MomentsNewAlbum.INDEX_IS_DRM));
-                    mDrmMethod = uh.update(mDrmMethod, cursor.getInt(MomentsNewAlbum.INDEX_DRM_METHOD));
+                    mDrmMethod = uh.update(mDrmMethod, cursor.getInt(cursor.getColumnIndex(DrmManager.TCT_DRM_METHOD)));
                     if (isDrm == 1) {
                         mTctDrmType = DrmManager.getInstance().getDrmScheme(filePath);
                         if (MtkDrmManager.RightsStatus.RIGHTS_VALID == DrmManager.getInstance().checkRightsStatus(filePath, MtkDrmManager.Action.PLAY)) {

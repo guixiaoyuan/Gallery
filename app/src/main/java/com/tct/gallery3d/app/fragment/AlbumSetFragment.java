@@ -131,8 +131,10 @@ public class AlbumSetFragment extends GalleryFragment {
 
     @Override
     public void onResume() {
+        Log.d(TAG,"onResume getResources().getConfiguration() = "+getResources().getConfiguration());
         super.onResume();
         mAdapter.resume();
+        mContext.getDataManager().notifyPrivateMode();
     }
 
     @Override
@@ -213,7 +215,6 @@ public class AlbumSetFragment extends GalleryFragment {
                                 dialog.dismiss();
                             }
                         });
-                sortTypeDialog.setCancelable(false);
                 sortTypeDialog.show();
                 return true;
             case R.id.action_collapse:

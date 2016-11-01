@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Pilih album"</string>
 	<!---->
+	<string name="rename_album">"Ganti nama album"</string>
+	<!---->
+	<string name="delete_album">"Hapus album"</string>
+	<!---->
 	<string name="select_group">"Pilih grup"</string>
 	<!---->
 	<string name="set_image">"Setel sebagai..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Hapus item terpilih?"</item>
 		<item quantity="other">"Hapus item terpilih?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Gerakkan"</string>
+	<!---->
+	<string name="moving">"Memindahkan"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Pindahkan item yang dipilih?"</item>
+		<item quantity="other">"Pindahkan item yang dipilih?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Salin"</string>
+	<!---->
+	<string name="copying">"Menyalin"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Salin item yang dipilih?"</item>
+		<item quantity="other">"Salin item yang dipilih?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Konfirmasi"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Tidak ada album yang tersedia"</string>
 	<!---->
 	<string name="empty_album">"Tidak ada gambar/video yang tersedia"</string>
+	<!---->
+	<string name="slideshow_alert">"Gambar tidak tersedia"</string>
 	<!---->
 	<string name="picasa_posts">"Posting"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Album"</string>
 	<!---->
+	<string name="tab_explore">"Jelajahi"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Opsi lainnya"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Pengaturan"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Tampilan bulanan"</string>
 	<!---->
+	<string name="slow_motion">"Tindakan lambat"</string>
+	<!---->
+	<string name="move_to_album">"Pindah ke album"</string>
+	<!---->
+	<string name="copy_to_album">"Salin ke album"</string>
+	<!---->
 	<string name="moments_day_view">"Tampilan harian"</string>
+	<!---->
+	<string name="moments_staggered_view">"tampilan bertumpuk"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Semua"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Foto"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Paralaks"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Video"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"BATAL"</string>
 	<!---->
 	<string name="burst_delete">"HAPUS"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"Favorit"</string>
 	<!---->
@@ -1083,7 +1115,7 @@
 	<!---->
 	<string name="main_tab_moments">"Momen"</string>
 	<!---->
-	<string name="moments_show">"Tampilkan"</string>
+	<string name="moments_show">"Tampil"</string>
 	<!---->
 	<string name="illegal_image_format">"Format gambar terlarang, tidak dapat diedit."</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Tampilkan foto dalam kolase yang luar biasa"</string>
 	<!---->
+	<string name="loading_data_message">"Memuat Data, tunggu sebentar!"</string>
+	<!---->
 	<string name="boom_key_tip_2">"Mumulai menampilkan kolase dengan tombol Boom"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Picu tampilan kolase dari Album"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"Hai!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Format video tidak didukung."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit tidak diinstal, dan fungsi ini tidak dapat digunakan!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Ciutkan album"</string>
+	<!---->
+	<string name="settings_albums">"Pengaturan"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Buat album"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Tulis nama album"</string>
+	<!---->
+	<string name="album_exists_warning">"Nama album sudah ada"</string>
+	<!---->
+	<string name="create_new_album_confirm">"BUAT"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Batal"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Hapus album ini?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Hapus"</string>
+	<!---->
+	<string name="delete_album_cancel">"Batal"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Nama album tidak boleh kosong"</string>
+	<!---->
+	<string name="new_album_select_title">"Tambahkan ke album"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Salin atau pindahkan ke album baru?"</string>
+	<!---->
+	<string name="new_album">"Album baru"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Nama album berisi karakter tidak valid!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Atur menjadi privat"</string>
+	<!---->
+	<string name="set_public">"Atur menjadi publik"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

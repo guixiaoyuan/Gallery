@@ -21,7 +21,7 @@
 <!--//[BUGFIX]-Modify by TCTNJ,su.jiang, 2015-09-19,PR735534 Begin -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/save_trim_video"
-            android:icon="@drawable/ic_check"
+            android:icon="@drawable/ic_check_white"
             android:title="@string/save"
             android:showAsAction="always" />
 </menu>

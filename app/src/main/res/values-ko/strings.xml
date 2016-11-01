@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"앨범 선택"</string>
 	<!---->
+	<string name="rename_album">"앨범명 변경"</string>
+	<!---->
+	<string name="delete_album">"앨범 삭제"</string>
+	<!---->
 	<string name="select_group">"그룹 선택"</string>
 	<!---->
 	<string name="set_image">"...로 설정"</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"선택한 항목을 삭제할까요?"</item>
 		<item quantity="other">"선택한 항목을 삭제할까요?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"이동"</string>
+	<!---->
+	<string name="moving">"이동 중"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"선택한 항목을 이동하시겠습니까?"</item>
+		<item quantity="other">"선택한 항목을 이동하시겠습니까?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"복사"</string>
+	<!---->
+	<string name="copying">"복사 중"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"선택한 항목을 복사하시겠습니까?"</item>
+		<item quantity="other">"선택한 항목을 복사하시겠습니까?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"확인"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"사용할 수 있는 앨범이 없습니다"</string>
 	<!---->
 	<string name="empty_album">"사용할 수 있는 이미지/동영상이 없음"</string>
+	<!---->
+	<string name="slideshow_alert">"사용할 수 있는 이미지가 없습니다"</string>
 	<!---->
 	<string name="picasa_posts">"소식"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"앨범"</string>
 	<!---->
+	<string name="tab_explore">"탐색"</string>
+	<!---->
 	<string name="camera_menu_more_label">"옵션 더보기"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"설정"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"월간 보기"</string>
 	<!---->
+	<string name="slow_motion">"슬로우 모션"</string>
+	<!---->
+	<string name="move_to_album">"앨범으로 이동"</string>
+	<!---->
+	<string name="copy_to_album">"앨범에 복사"</string>
+	<!---->
 	<string name="moments_day_view">"하루 보기"</string>
+	<!---->
+	<string name="moments_staggered_view">"스태거드 뷰"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"전체"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"사진"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"시차"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"동영상"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"취소"</string>
 	<!---->
 	<string name="burst_delete">"삭제"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"즐겨찾기"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"다른 콜라주 및 놀라운 콜라주에 있는 현재 사진"</string>
 	<!---->
+	<string name="loading_data_message">"데이터 로딩 중, 잠시 기다리십시오!"</string>
+	<!---->
 	<string name="boom_key_tip_2">"Boom key로 표시되는 시작 콜라주"</string>
 	<!---->
 	<string name="boom_key_tip_3">"앨범에서 표시되는 트리거 콜라주"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"안녕하세요!"</string>
 	<!---->
 	<string name="not_support_video_edit">"비디오 형식을 지원하지 않습니다."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit가 설치되지 않았으며 이 기능을 사용할 수 없습니다!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"앨범 축소"</string>
+	<!---->
+	<string name="settings_albums">"설정"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"앨범 생성"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"앨범명 입력"</string>
+	<!---->
+	<string name="album_exists_warning">"앨범명이 이미 존재합니다"</string>
+	<!---->
+	<string name="create_new_album_confirm">"생성"</string>
+	<!---->
+	<string name="create_new_album_cancel">"취소"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"이 앨범을 삭제하시겠습니까?"</string>
+	<!---->
+	<string name="delete_album_confirm">"삭제"</string>
+	<!---->
+	<string name="delete_album_cancel">"취소"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"앨범명을 비워둘 수 없습니다"</string>
+	<!---->
+	<string name="new_album_select_title">"앨범에 추가"</string>
+	<!---->
+	<string name="new_album_confirm_title">"새로운 앨범을 복사하거나 이동하시겠습니까?"</string>
+	<!---->
+	<string name="new_album">"새 앨범"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"앨범명에 잘못된 문자가 있습니다!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"비공개로 설정"</string>
+	<!---->
+	<string name="set_public">"공개로 설정"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

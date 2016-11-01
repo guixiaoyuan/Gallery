@@ -113,11 +113,12 @@ public class MomentsLoader extends CursorLoader {
         if (cursor != null) {
             mHidden.clear();
             String collapsePath = getCollapsePath();
-            while (cursor.moveToNext()) {
-                try {
+            try {
+                while (cursor.moveToNext()) {
                     buildHidden(cursor, collapsePath);
-                }catch (Exception e){
                 }
+            } catch (Exception e) {
+                return null;
             }
             ExifInfoFilter.getInstance(getContext()).notifySaveExifCache();
             if (mHidden.size() > 0) {

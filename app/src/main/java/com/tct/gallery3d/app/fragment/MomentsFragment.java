@@ -276,7 +276,6 @@ public class MomentsFragment extends GalleryFragment
             } else {
                 mCameraItem.setVisible(false);
             }
-
             if (ScreenUtils.isInSplitScreen(mContext)) {
                 mFaceShowItem.setEnabled(false);
             } else {
@@ -295,6 +294,7 @@ public class MomentsFragment extends GalleryFragment
 
     public void onPrepareOptionsMenu(Menu menu) {
         super.onPrepareOptionsMenu(menu);
+        updateFaceShowMenuItem();
         int currentpage = ((GalleryActivity) mContext).getCurrentPage();
         if (currentpage != GalleryActivity.PAGE_MOMENTS) {
             menu.clear();
@@ -600,10 +600,12 @@ public class MomentsFragment extends GalleryFragment
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-        if (ScreenUtils.isInSplitScreen(mContext)) {
-            mFaceShowItem.setEnabled(false);
-        } else {
-            mFaceShowItem.setEnabled(true);
+        if (mFaceShowItem != null) {
+            if (ScreenUtils.isInSplitScreen(mContext)) {
+                mFaceShowItem.setEnabled(false);
+            } else {
+                mFaceShowItem.setEnabled(true);
+            }
         }
 
         Log.d(TAG,"onConfigurationChanged" +mAdapter.isInActionMode());
@@ -752,5 +754,18 @@ public class MomentsFragment extends GalleryFragment
         mAdapter.setState(mState);
         setTempScreenSpanCount();
 //        mAdapter.notifyDataSetChanged();
+    }
+
+    /**
+     * update menu item  if uninstall or install faceshow apk
+     */
+    private void updateFaceShowMenuItem(){
+        if (null != mFaceShowItem) {
+            if (GalleryUtils.hasFaceShowAPK(mContext)) {
+                mFaceShowItem.setVisible(true);
+            } else {
+                mFaceShowItem.setVisible(false);
+            }
+        }
     }
 }

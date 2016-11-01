@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -8,13 +8,13 @@
 	<!---->
 	<string name="cannot_load_image">"Can\'t load the image"</string>
 	<!---->
-	<string name="cannot_edit_original">"Cannot edit original"</string>
+	<string name="cannot_edit_original">"Can\'t edit original"</string>
 	<!-- no translation found for original_picture_text -->
 	<skip />
 	<!---->
 	<string name="setting_wallpaper">"Setting wallpaper"</string>
 	<!---->
-	<string name="download_failure">"Could not download photo. Network unavailable."</string>
+	<string name="download_failure">"Couldn\'t download photo. Network unavailable."</string>
 	<!---->
 	<string name="original">"Original"</string>
 	<!---->
@@ -43,8 +43,8 @@
 	<string name="quality">"Quality"</string>
 	<!---->
 	<string name="size">"Size"</string>
-	<!---->
-	<string name="x">"x"</string>
+	<!-- no translation found for x -->
+	<skip />
 	<!---->
 	<string name="menu_settings">"Settings"</string>
 	<!---->
@@ -206,7 +206,7 @@
 	<!---->
 	<string name="draw_style_brush_spatter">"Marker"</string>
 	<!---->
-	<string name="draw_style_brush_marker">"Splatter"</string>
+	<string name="draw_style_brush_marker">"Spatter"</string>
 	<!---->
 	<string name="draw_clear">"Clear"</string>
 	<!---->

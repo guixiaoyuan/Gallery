@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Velg album"</string>
 	<!---->
+	<string name="rename_album">"Gi nytt navn til album"</string>
+	<!---->
+	<string name="delete_album">"Slette album"</string>
+	<!---->
 	<string name="select_group">"Velg gruppe"</string>
 	<!---->
 	<string name="set_image">"Angi som ..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Slette valgt element?"</item>
 		<item quantity="other">"Slette valgte elementer?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Flytt"</string>
+	<!---->
+	<string name="moving">"Flytter"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Flytte valgt element?"</item>
+		<item quantity="other">"Flytte valgte elementer?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Kopier"</string>
+	<!---->
+	<string name="copying">"Kopierer"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Kopiere valgt element?"</item>
+		<item quantity="other">"Kopiere valgte elementer?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Bekreft"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Ingen tilgjengelige album"</string>
 	<!---->
 	<string name="empty_album">"Ingen tilgjengelige bilder/videoer"</string>
+	<!---->
+	<string name="slideshow_alert">"Ikke noe bilde tilgjengelig"</string>
 	<!---->
 	<string name="picasa_posts">"Innlegg"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Album"</string>
 	<!---->
+	<string name="tab_explore">"Utforsk"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Flere alternativer"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Innstillinger"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Månedvisning"</string>
 	<!---->
+	<string name="slow_motion">"Sakte film"</string>
+	<!---->
+	<string name="move_to_album">"Flytt til album"</string>
+	<!---->
+	<string name="copy_to_album">"Kopier til album"</string>
+	<!---->
 	<string name="moments_day_view">"Dagvisning"</string>
+	<!---->
+	<string name="moments_staggered_view">"forskjøvet visning"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Alle"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Bilde"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Parallax"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Video"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"Avbryt"</string>
 	<!---->
 	<string name="burst_delete">"slett"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"favoritt"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Presenter bilder i forskjellige og utrolige kollasjer"</string>
 	<!---->
+	<string name="loading_data_message">"Laster inn data. Vent litt!"</string>
+	<!---->
 	<string name="boom_key_tip_2">"Start kollasjvisning med Boom-tasten"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Løs ut kollasj-show fra album"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"HEI!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Videoformatet støttes ikke."</string>
+	<!---->
+	<string name="no_slowmoedit">"Sakte redigering er ikke installert, og denne funksjonen kan ikke brukes!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Skrump sammen albumer"</string>
+	<!---->
+	<string name="settings_albums">"Innstillinger"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Opprett album"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Angi albumnavn"</string>
+	<!---->
+	<string name="album_exists_warning">"Albumnavnet finnes allerede"</string>
+	<!---->
+	<string name="create_new_album_confirm">"OPPRETT"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Avbryt"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Slette dette albumet?"</string>
+	<!---->
+	<string name="delete_album_confirm">"slett"</string>
+	<!---->
+	<string name="delete_album_cancel">"Avbryt"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Albumnavn kan ikke stå tomt"</string>
+	<!---->
+	<string name="new_album_select_title">"Legg til i album"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Kopiere eller flytte til nytt album?"</string>
+	<!---->
+	<string name="new_album">"Nytt album"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Albumnavnet inneholder et ulovlig tegn!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Angi som privat"</string>
+	<!---->
+	<string name="set_public">"Angi som offentlig"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

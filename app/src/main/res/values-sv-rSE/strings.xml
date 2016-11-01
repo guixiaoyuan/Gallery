@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Välj album"</string>
 	<!---->
+	<string name="rename_album">"Byt namn på album"</string>
+	<!---->
+	<string name="delete_album">"Ta bort album"</string>
+	<!---->
 	<string name="select_group">"Välj en grupp"</string>
 	<!---->
 	<string name="set_image">"Ange som..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Ta bort markerat objekt?"</item>
 		<item quantity="other">"Radera markerade objekt?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Flytta"</string>
+	<!---->
+	<string name="moving">"Flyttar"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Flytta valt objekt?"</item>
+		<item quantity="other">"Flytta valda objekt?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Kopiera"</string>
+	<!---->
+	<string name="copying">"Kopierar"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Kopiera valt objekt?"</item>
+		<item quantity="other">"Kopiera valda objekt?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Bekräfta"</string>
@@ -187,7 +207,9 @@
 	<!---->
 	<string name="no_albums_alert">"Det finns inga album"</string>
 	<!---->
-	<string name="empty_album">"Ingen bild/videofilm tillgänglig"</string>
+	<string name="empty_album">"Ingen tillgänglig bild/video"</string>
+	<!---->
+	<string name="slideshow_alert">"Ingen bild tillgänglig"</string>
 	<!---->
 	<string name="picasa_posts">"Inlägg"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Album"</string>
 	<!---->
+	<string name="tab_explore">"Utforska"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Fler alternativ"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Inställningar"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Månadens bild"</string>
 	<!---->
+	<string name="slow_motion">"Långsam rörelse"</string>
+	<!---->
+	<string name="move_to_album">"Flytta till album"</string>
+	<!---->
+	<string name="copy_to_album">"Kopiera till album"</string>
+	<!---->
 	<string name="moments_day_view">"Dagens bild"</string>
+	<!---->
+	<string name="moments_staggered_view">"utspritt visningsläge"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Alla"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Foto"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Parallax"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Video"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"AVBRYT"</string>
 	<!---->
 	<string name="burst_delete">"ta bort"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"favorit"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Visa bilder i olika häpnadsväckande kollage"</string>
 	<!---->
+	<string name="loading_data_message">"Laddar data, vänta en stund!"</string>
+	<!---->
 	<string name="boom_key_tip_2">"Starta bildkollaget med Boom-knappen"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Trigga kollagespel från Album"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"Hej!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Videoformatet stöds ej."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit är inte installerat och denna funktion kan inte användas!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Dölj album"</string>
+	<!---->
+	<string name="settings_albums">"Inställningar"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Skapa album"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Ange ett nytt albumnamn"</string>
+	<!---->
+	<string name="album_exists_warning">"Albumnamnet finns redan"</string>
+	<!---->
+	<string name="create_new_album_confirm">"SKAPA"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Återgå"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Ta bort detta album?"</string>
+	<!---->
+	<string name="delete_album_confirm">"ta bort"</string>
+	<!---->
+	<string name="delete_album_cancel">"Återgå"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Albumnamnet får inte vara tomt"</string>
+	<!---->
+	<string name="new_album_select_title">"Lägg till album"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Kopiera eller flytta till ett nytt album?"</string>
+	<!---->
+	<string name="new_album">"Nytt album"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Albumnamnet innehåller ogiltiga tecken!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Använd som privat"</string>
+	<!---->
+	<string name="set_public">"Använd som delad"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

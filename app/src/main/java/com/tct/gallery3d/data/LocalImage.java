@@ -71,7 +71,8 @@ import android.provider.MediaStore.MediaColumns;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.mediatek.omadrm.MtkDrmManager;
+import com.mediatek.galleryfeature.drm.DrmHelper;
+import com.mtk.drm.frameworks.MtkDrmManager;
 import com.tct.gallery3d.app.GalleryApp;
 import com.tct.gallery3d.app.GalleryAppImpl;
 import com.tct.gallery3d.app.PanoramaMetadataSupport;
@@ -367,7 +368,7 @@ public class LocalImage extends LocalMediaItem {
                 //[ALM][BUGFIX]-Add by TCTNJ,qiang.ding1, 2015-04-23,PR186130 begin
                 if (DrmManager.mCurrentDrm == DrmManager.MTK_DRM) {
                     isSupportSetWallpaper = false;
-                    if (MtkDrmManager.checkRightsStatusValid(mApplication.getAndroidContext(), filePath, MtkDrmManager.Action.WALLPAPER)) {
+                    if (DrmHelper.checkRightsStatusValid(mApplication.getAndroidContext(), filePath, MtkDrmManager.Action.WALLPAPER)) {
                         isSupportSetWallpaper = true;
                     } else if (MtkDrmManager.RightsStatus.RIGHTS_VALID == DrmManager.getInstance().checkRightsStatus(filePath, MtkDrmManager.Action.DISPLAY)
                             && !DrmManager.getInstance().hasCountConstraint(filePath)) {
@@ -462,7 +463,7 @@ public class LocalImage extends LocalMediaItem {
             } else if (DrmManager.getInstance().mCurrentDrm == DrmManager.MTK_DRM) {
                 if (cursor.getColumnIndex(DrmManager.TCT_IS_DRM) != -1) {
                     isDrm = cursor.getInt(MomentsNewAlbum.INDEX_IS_DRM);
-                    mDrmMethod = cursor.getInt(MomentsNewAlbum.INDEX_DRM_METHOD);
+                    mDrmMethod = cursor.getInt(cursor.getColumnIndex(DrmManager.TCT_DRM_METHOD));
                     if (isDrm == 1) {
                         mTctDrmType = DrmManager.getInstance().getDrmScheme(filePath);
                         if (MtkDrmManager.RightsStatus.RIGHTS_VALID ==
@@ -564,7 +565,7 @@ public class LocalImage extends LocalMediaItem {
             } else if (DrmManager.getInstance().mCurrentDrm == DrmManager.MTK_DRM) {
                 if (cursor.getColumnIndex(DrmManager.TCT_IS_DRM) != -1) {
                     isDrm = uh.update(isDrm, cursor.getInt(MomentsNewAlbum.INDEX_IS_DRM));
-                    mDrmMethod = uh.update(mDrmMethod, cursor.getInt(MomentsNewAlbum.INDEX_DRM_METHOD));
+                    mDrmMethod = uh.update(mDrmMethod, cursor.getInt(cursor.getColumnIndex(DrmManager.TCT_DRM_METHOD)));
                     if (isDrm == 1) {
                         mTctDrmType = DrmManager.getInstance().getDrmScheme(filePath);
                         if (MtkDrmManager.RightsStatus.RIGHTS_VALID ==

@@ -59,7 +59,7 @@ public class MomentsNewAlbum extends MediaSet {
     public static final int INDEX_DRM_TYPE = 19;
     public static final int INDEX_DRM_RIGHT_TYPE = 20;
     public static final int INDEX_DRM_VALID = 21;
-    public static final int INDEX_DRM_METHOD = 22;
+//    public static final int INDEX_DRM_METHOD = 22;
 
     public static final String[] NEW_PROJECTION = {
             BaseColumns._ID,                                // 0
@@ -139,10 +139,7 @@ public class MomentsNewAlbum extends MediaSet {
             MediaStore.Video.VideoColumns.DURATION,         // 16
             GalleryConstant.NO_COLUMN,                      // 17
             DrmManager.TCT_IS_DRM,                          // 18
-            DrmManager.TCT_DRM_TYPE,                        // 19
-            DrmManager.TCT_DRM_RIGHT_TYPE,                  // 20
-            DrmManager.TCT_DRM_VALID,                       // 21
-            DrmManager.TCT_DRM_METHOD,                      // 22
+            DrmManager.TCT_DRM_METHOD,
             GappTypeInfo.GAPP_MEDIA_TYPE,
             GappTypeInfo.GAPP_BURST_ID,
             GappTypeInfo.GAPP_BURST_INDEX
@@ -221,10 +218,7 @@ public class MomentsNewAlbum extends MediaSet {
             MediaStore.Video.VideoColumns.DURATION,         // 16
             GalleryConstant.NO_COLUMN,                      // 17
             DrmManager.TCT_IS_DRM,                          // 18
-            DrmManager.TCT_DRM_TYPE,                        // 19
-            DrmManager.TCT_DRM_RIGHT_TYPE,                  // 20
-            DrmManager.TCT_DRM_VALID,                       // 21
-            DrmManager.TCT_DRM_METHOD,                      // 22
+            DrmManager.TCT_DRM_METHOD,
     };
 
     public static final String[] PRIVATE_NEW_PROJECTION = {
@@ -305,10 +299,7 @@ public class MomentsNewAlbum extends MediaSet {
             MediaStore.Video.VideoColumns.DURATION,         // 16
             GalleryConstant.IS_PRIVATE,                     // 17
             DrmManager.TCT_IS_DRM,                          // 18
-            DrmManager.TCT_DRM_TYPE,                        // 19
-            DrmManager.TCT_DRM_RIGHT_TYPE,                  // 20
-            DrmManager.TCT_DRM_VALID,                       // 21
-            DrmManager.TCT_DRM_METHOD,                      // 22
+            DrmManager.TCT_DRM_METHOD,
             GappTypeInfo.GAPP_MEDIA_TYPE,
             GappTypeInfo.GAPP_BURST_ID,
             GappTypeInfo.GAPP_BURST_INDEX
@@ -387,10 +378,7 @@ public class MomentsNewAlbum extends MediaSet {
             MediaStore.Video.VideoColumns.DURATION,         // 16
             GalleryConstant.IS_PRIVATE,                     // 17
             DrmManager.TCT_IS_DRM,                          // 18
-            DrmManager.TCT_DRM_TYPE,                        // 19
-            DrmManager.TCT_DRM_RIGHT_TYPE,                  // 20
-            DrmManager.TCT_DRM_VALID,                       // 21
-            DrmManager.TCT_DRM_METHOD,                      // 22
+            DrmManager.TCT_DRM_METHOD,
     };
 
     // exclude media files, they would be here also.

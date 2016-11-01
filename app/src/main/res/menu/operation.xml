@@ -85,7 +85,7 @@
             android:showAsAction="never"
             android:visible="false" />
     <item android:id="@+id/action_multi_getcontent"
-            android:icon="@drawable/ic_check"
+            android:icon="@drawable/ic_check_black"
             android:title="@string/ok"
             android:showAsAction="always"
             android:visible="false" />

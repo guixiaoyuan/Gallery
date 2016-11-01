@@ -20,6 +20,9 @@ import android.app.Application;
 import android.content.Context;
 import android.os.AsyncTask;
 
+import com.tcl.statisticsdk.agent.StatisticsAgent;
+import com.tct.gallery3d.R;
+import com.tct.gallery3d.app.constant.GalleryConstant;
 import com.tct.gallery3d.data.DataManager;
 import com.tct.gallery3d.data.DownloadCache;
 import com.tct.gallery3d.db.DataBaseManager;
@@ -54,6 +57,12 @@ public class GalleryAppImpl extends Application implements GalleryApp {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        if (getResources().getBoolean(R.bool.feature_Gallery2_MIG_SDK_on)) {
+            StatisticsAgent.init(getApplicationContext());
+            StatisticsAgent.setDebugMode(true);
+            StatisticsAgent.setSessionTimeOut(this, GalleryConstant.DEFAULT_SESSION_TIME_OUT);
+        }
         initializeAsyncTask();
         GalleryUtils.initialize(this);
         WidgetUtils.initialize(this);

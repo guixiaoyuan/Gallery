@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -43,8 +43,8 @@
 	<string name="quality">"画質"</string>
 	<!---->
 	<string name="size">"サイズ"</string>
-	<!---->
-	<string name="x">"x"</string>
+	<!-- no translation found for x -->
+	<skip />
 	<!---->
 	<string name="menu_settings">"設定"</string>
 	<!---->
@@ -112,7 +112,7 @@
 	<!---->
 	<string name="bwfilter">"BWフィルター"</string>
 	<!---->
-	<string name="wbalance">"自動カラー"</string>
+	<string name="wbalance">"オートカラー"</string>
 	<!---->
 	<string name="hue">"色合い"</string>
 	<!---->

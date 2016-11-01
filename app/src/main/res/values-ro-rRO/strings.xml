@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Selectați album"</string>
 	<!---->
+	<string name="rename_album">"Redenumire album"</string>
+	<!---->
+	<string name="delete_album">"Ștergere album"</string>
+	<!---->
 	<string name="select_group">"Selectaţi un grup"</string>
 	<!---->
 	<string name="set_image">"Setaţi ca..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Ştergeţi elementul selectat?"</item>
 		<item quantity="other">"Ştergeţi elementele selectate?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Mutare"</string>
+	<!---->
+	<string name="moving">"Se mută"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Mutați elementul selectat?"</item>
+		<item quantity="other">"Mutați elementele selectate?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Copiere"</string>
+	<!---->
+	<string name="copying">"Se copiază"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Copiați elementul selectat?"</item>
+		<item quantity="other">"Copiați elementele selectate?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Confirmaţi"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Nu există albume disponibile"</string>
 	<!---->
 	<string name="empty_album">"Nu există imagini/videoclipuri disponibile"</string>
+	<!---->
+	<string name="slideshow_alert">"Nu există imagini disponibile"</string>
 	<!---->
 	<string name="picasa_posts">"Postări"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Albume"</string>
 	<!---->
+	<string name="tab_explore">"Explorare"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Mai multe opţiuni"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Setări"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Mod de afișare Lună"</string>
 	<!---->
+	<string name="slow_motion">"Încetinitor"</string>
+	<!---->
+	<string name="move_to_album">"Mutare în album"</string>
+	<!---->
+	<string name="copy_to_album">"Copiere în album"</string>
+	<!---->
 	<string name="moments_day_view">"Mod de afișare Zi"</string>
+	<!---->
+	<string name="moments_staggered_view">"afișare decalată"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Toate"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Fotografie"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Paralaxă"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Video"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"ANULARE"</string>
 	<!---->
 	<string name="burst_delete">"ştergere"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"Preferate"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Prezentați fotografiile în colaje noi, incredibile"</string>
 	<!---->
+	<string name="loading_data_message">"Se încarcă datele. Așteptați un moment!"</string>
+	<!---->
 	<string name="boom_key_tip_2">"Declanșare afișare colaje prin tasta Boom."</string>
 	<!---->
 	<string name="boom_key_tip_3">"Declanșare afișare colaje din Albume"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"BUNĂ!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Formatul video nu este acceptat."</string>
+	<!---->
+	<string name="no_slowmoedit">"Funcția SlowmoEdit nu este instalată. Prin urmare, nu poate fi utilizată!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Restrângere albume"</string>
+	<!---->
+	<string name="settings_albums">"Setări"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Creare album"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Introduceți numele albumului"</string>
+	<!---->
+	<string name="album_exists_warning">"Numele albumului există deja"</string>
+	<!---->
+	<string name="create_new_album_confirm">"CREARE"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Anulaţi"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Ștergeți acest album?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Ştergere"</string>
+	<!---->
+	<string name="delete_album_cancel">"Anulaţi"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Câmpul pentru numele albumului nu poate fi gol"</string>
+	<!---->
+	<string name="new_album_select_title">"Adăugare la album"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Copiați sau mutați în noul album?"</string>
+	<!---->
+	<string name="new_album">"Album nou"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Numele albumului conține caractere incorecte."</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Setare ca privat"</string>
+	<!---->
+	<string name="set_public">"Setare ca public"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

@@ -2,7 +2,11 @@ package com.tct.gallery3d.app.fragment;
 
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
+import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
@@ -38,6 +42,8 @@ import android.widget.ImageView.ScaleType;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
+import com.android.gallery3d.gif.GifActivity;
+import com.mtk.drm.frameworks.MtkDrmManager;
 import com.tct.gallery3d.R;
 import com.tct.gallery3d.app.AbstractGalleryActivity;
 import com.tct.gallery3d.app.AbstractGalleryFragment;
@@ -56,6 +62,7 @@ import com.tct.gallery3d.app.view.SmoothImageView.TransformListener;
 import com.tct.gallery3d.app.view.TrimVideo;
 import com.tct.gallery3d.data.DataManager;
 import com.tct.gallery3d.data.LocalMediaItem;
+import com.tct.gallery3d.data.LocalVideo;
 import com.tct.gallery3d.data.MediaDetails;
 import com.tct.gallery3d.data.MediaItem;
 import com.tct.gallery3d.data.MediaObject;
@@ -257,7 +264,6 @@ public class PhotoFragment extends GalleryFragment
         showLoadingImage(true);
         super.onDestroy();
         mAdapter.destroy();
-        mAdapter = null;
         setCurrentContent();
         mFromPageType = GalleryConstant.FROM_NONE_PAGE;
     }
@@ -358,8 +364,12 @@ public class PhotoFragment extends GalleryFragment
             case R.id.photopage_bottom_control_share:
                 return !isDrm && (item.getSupportedOperations() & MediaItem.SUPPORT_SHARE) != 0;
             case R.id.photopage_bottom_control_edit:
-            return !isDrm && (item.getSupportedOperations() & MediaItem.SUPPORT_EDIT) != 0
-                    && item.getMediaType() == MediaObject.MEDIA_TYPE_IMAGE;
+                 if (Build.VERSION.SDK_INT == Build.VERSION_CODES.N) {
+                     return false;
+                 } else {
+                     return !isDrm && (item.getSupportedOperations() & MediaItem.SUPPORT_EDIT) != 0
+                             && item.getMediaType() == MediaObject.MEDIA_TYPE_IMAGE;
+                 }
 //                return false;
             case R.id.photopage_bottom_control_video_edit:
                 return !isDrm && (item.getSupportedOperations() & MediaItem.SUPPORT_EDIT) != 0
@@ -396,8 +406,12 @@ public class PhotoFragment extends GalleryFragment
             case R.id.photopage_bottom_control_share:
                 return !isDrm && (item.getSupportedOperations() & MediaItem.SUPPORT_SHARE) != 0;
             case R.id.photopage_bottom_control_edit:
-                return !isDrm && (item.getSupportedOperations() & MediaItem.SUPPORT_EDIT) != 0
-                        && item.getMediaType() == MediaObject.MEDIA_TYPE_IMAGE;
+                if (Build.VERSION.SDK_INT == Build.VERSION_CODES.N) {
+                    return false;
+                } else {
+                    return !isDrm && (item.getSupportedOperations() & MediaItem.SUPPORT_EDIT) != 0
+                            && item.getMediaType() == MediaObject.MEDIA_TYPE_IMAGE;
+                }
 //                return false;
             case R.id.photopage_bottom_control_video_edit:
                 return !isDrm && (item.getSupportedOperations() & MediaItem.SUPPORT_EDIT) != 0
@@ -846,15 +860,183 @@ public class PhotoFragment extends GalleryFragment
     @Override
     public void onPlayClicked(int position) {
         MediaItem item = mAdapter.getMediaItem(position);
+        if (item == null) {
+            return;
+        }
         int type = item.getMediaType();
         if (type == MediaItem.MEDIA_TYPE_VIDEO) {
             /* MODIFIED-BEGIN by Yaoyu.Yang, 2016-08-04,BUG-2208330*/
             if (ExifInfoFilter.getInstance(mContext).queryType(item.getPath().getSuffix()) == ExifInfoFilter.SLOWMOTION
                     && GalleryUtils.hasSlowMotionApk(mContext)) {
                 playSlowMotion(item);
+            } else if (item.isDrm() == DrmManager.IS_DRM) {
+                if (DrmManager.getInstance().mCurrentDrm == DrmManager.MTK_DRM) {
+                    int drmType = DrmManager.getInstance().getDrmScheme(item.getFilePath());
+                    if (drmType == DrmManager.DRM_SCHEME_OMA1_FL) {
+                        playVideo(item.getPlayUri(), item.getName());
+                    } else {
+                        if (!checkDrmPlayRight(item, true)) return;
+                    }
+                } else {
+                    playVideo(item.getPlayUri(), item.getName());
+                }
             } else {
                 playVideo(item.getPlayUri(), item.getName());
             }
+        } else if (type == MediaItem.MEDIA_TYPE_GIF && item.isDrm() == DrmManager.IS_DRM) {
+            int drmType = DrmManager.getInstance().getDrmScheme(item.getFilePath());
+            if (drmType == DrmManager.DRM_SCHEME_OMA1_FL) {
+                playGif(mContext, item.getContentUri(), item.getName());
+            } else {
+                /* MODIFIED-BEGIN by wencan.wu1, 2016-10-29,BUG-2208330*/
+                if (checkDrmPlayRight(item, true)) {
+                    Uri gifUri = item.getContentUri();
+                    playGif(mContext, gifUri, item.getName());
+                }
+                /* MODIFIED-END by wencan.wu1,BUG-2208330*/
+            }
+        }
+    }
+
+    private boolean checkDrmPlayRight(final MediaItem item, boolean isPlay) {
+        final Context sContext = mContext.getAndroidContext();
+        final Uri itemUri = item.getContentUri();
+        if (item.isDrm() == DrmManager.IS_DRM) {
+            if (DrmManager.getInstance().mCurrentDrm == DrmManager.MTK_DRM) {
+                LocalMediaItem.updateDrmRight(item);
+            }
+            int drmType = DrmManager.getInstance().getDrmScheme(item.getFilePath());
+            if (DrmManager.getInstance().mCurrentDrm == DrmManager.MTK_DRM) {
+                if (drmType != DrmManager.DRM_SCHEME_OMA1_FL) {
+                    showMtkDrmDialog(sContext, item, isPlay);
+                    return false;
+                }
+            }
+            boolean isVaild = DrmManager.getInstance().isRightsStatus(item.getFilePath());
+            if (isVaild) {
+                return true;
+            }
+            if (drmType == DrmManager.DRM_SCHEME_OMA1_SD) {
+                String message = String.format(
+                        sContext.getString(R.string.drm_unlock_invalid_content), item.getName());
+                new AlertDialog.Builder(sContext).setTitle(R.string.app_name).setMessage(message)
+                        .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dlg, int sumthin) {
+                                DrmManager.getInstance().activateContent(sContext, item.getFilePath());
+                            }
+                        })
+                        .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dlg, int sumthin) {
+                            }
+                        }).show();
+            } else if (drmType == DrmManager.DRM_SCHEME_OMA1_FL) {
+                Toast.makeText(sContext, R.string.drm_no_valid_right, Toast.LENGTH_SHORT).show();
+                return false;
+            } else {
+                String message = String.format(
+                        sContext.getString(R.string.drm_delete_invalid_content), item.getName());
+                new AlertDialog.Builder(sContext).setTitle(R.string.delete).setMessage(message)
+                        .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dlg, int sumthin) {
+                                try {
+                                    item.delete();
+                                } catch (Exception ex) {
+                                    ex.printStackTrace();
+                                    return;
+                                }
+                            }
+                        })
+                        .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dlg, int sumthin) {
+                            }
+                        }).show();
+            }
+
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    public void showMtkDrmDialog(Context context, MediaItem item, final boolean isPlay) {
+        final MediaItem mediaItem = (MediaItem) item;
+        int rights = -1;
+        if (mediaItem instanceof LocalVideo) {
+            rights = DrmManager.getInstance().checkRightsStatus(mediaItem.getFilePath(), MtkDrmManager.Action.PLAY);
+        } else {
+            rights = DrmManager.getInstance().checkRightsStatus(mediaItem.getFilePath(), MtkDrmManager.Action.DISPLAY);
+        }
+        Log.w(TAG, "DRM PhotoPage rights= " + rights);
+
+        if (MtkDrmManager.RightsStatus.RIGHTS_VALID == rights) {
+            final int type = mediaItem.getMediaType();
+            if (!isPlay && type == MediaObject.MEDIA_TYPE_IMAGE) {
+                DrmManager.getInstance().showConsumeDialog(context,
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                PhotoDetailView photoDetailView = mAdapter.getPhotoDetailView(mInnerIndex);
+                                if (DialogInterface.BUTTON_POSITIVE == which) {
+
+                                    if (photoDetailView != null) {
+                                        loadLarge(mediaItem, photoDetailView);
+                                        DrmManager.getInstance().consumeRights(mediaItem.getFilePath(), MtkDrmManager.Action.DISPLAY);
+                                    }
+                                } else {
+                                    loadThumbnail(mediaItem, photoDetailView);
+                                }
+                                dialog.dismiss();
+                            }
+                        },
+                        null
+                );
+            } else if (isPlay) {
+                DrmManager.getInstance().showConsumeDialog(context,
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                if (DialogInterface.BUTTON_POSITIVE == which) {
+
+                                    if (type == MediaObject.MEDIA_TYPE_GIF) {
+                                        Uri gifUri = mediaItem.getContentUri();
+                                        playGif(mContext, gifUri, mediaItem.getName());
+                                        DrmManager.getInstance().consumeRights(mediaItem.getFilePath(), MtkDrmManager.Action.DISPLAY);
+                                    }
+                                    if (type == MediaObject.MEDIA_TYPE_VIDEO) {
+                                        playVideo(mediaItem.getPlayUri(), mediaItem.getName());
+                                    }
+                                }
+                                dialog.dismiss();
+                            }
+                        },
+                        null
+                );
+            }
+        } else {
+            if (MtkDrmManager.RightsStatus.SECURE_TIMER_INVALID == rights) {
+                DrmManager.getInstance().showSecureTimerInvalidDialog(context,
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        },
+                        null
+                );
+            } else {
+                DrmManager.getInstance().showRefreshLicenseDialog(context, mediaItem.getFilePath());
+            }
+        }
+    }
+
+    public static void playGif(Activity activity, Uri uri, String title) {
+        try {
+            Log.i(TAG, "playGif 2......... ");
+            Intent intent = new Intent(activity, GifActivity.class)
+                    .setDataAndType(uri, MediaItem.MIME_TYPE_GIF)
+                    .putExtra(Intent.EXTRA_TITLE, title)
+                    .putExtra(GifActivity.KEY_TREAT_UP_AS_BACK, true);
+            activity.startActivityForResult(intent, GifActivity.REQUEST_PLAY_GIF);
+        } catch (ActivityNotFoundException e) {
+            Toast.makeText(activity, activity.getString(R.string.gif_err),
+                    Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -985,13 +1167,20 @@ public class PhotoFragment extends GalleryFragment
         if (current == null) {
             return;
         }
-        Intent intent;
         try {
-            if (current.isDrmEnable() && current.isDrm() != 0) {
-                intent = new Intent(GalleryConstant.ACTION_DRM_ATTACH_DATA);
-            } else {
-                intent = new Intent(Intent.ACTION_ATTACH_DATA);
+            if (current.isDrmEnable() && current.isDrm() == DrmManager.IS_DRM) {
+                boolean hasCountDrm = false;
+                String path = current.getFilePath();
+                if (!TextUtils.isEmpty(path)) {
+                    hasCountDrm = DrmManager.getInstance().hasCountConstraint(path);
+                }
+                if (hasCountDrm) {
+                    String message = String.format(mContext.getString(R.string.drm_no_crop), path);
+                    Toast.makeText(mContext, message, Toast.LENGTH_SHORT).show();
+                    return;
+                }
             }
+            Intent intent = new Intent(Intent.ACTION_ATTACH_DATA);
             intent.setData(current.getContentUri());
             intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
             intent.putExtra(Intent.EXTRA_MIME_TYPES, current.getMimeType());
@@ -1020,6 +1209,7 @@ public class PhotoFragment extends GalleryFragment
             if (item == null) {
                 return;
             }
+            checkDrmPlayRight(item, false);
             updateUI(item);
             resetPage(index);
         }

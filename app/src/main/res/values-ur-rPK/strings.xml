@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"البم منتخب کریں"</string>
 	<!---->
+	<string name="rename_album">"البم کو نیا نام دیں"</string>
+	<!---->
+	<string name="delete_album">"البم مٹائيں"</string>
+	<!---->
 	<string name="select_group">"گروپ منتخب کریں"</string>
 	<!---->
 	<string name="set_image">"سیٹ کریں بطور..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"منتخبہ آئٹم حذف کریں؟"</item>
 		<item quantity="other">"منتخبہ آئٹمز حذف کریں؟"</item>
+	</plurals>
+	<!---->
+	<string name="move">"منتقل کریں"</string>
+	<!---->
+	<string name="moving">"منتقل ہو رہا ہے"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"منتخب شدہ آئیم منتقل کریں؟"</item>
+		<item quantity="other">"منتخب شدہ آئیمز منتقل کریں؟"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"کاپی کریں"</string>
+	<!---->
+	<string name="copying">"کاپی کررہا ہے"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"منتخب شدہ آئیم کاپی کریں؟"</item>
+		<item quantity="other">"منتخب شدہ آئیمز کاپی کریں؟"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"توثیق کریں"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"کوئی البم نہیں ملا"</string>
 	<!---->
 	<string name="empty_album">"کوئی تصویر/ویڈیو نہیں دستیاب ہے"</string>
+	<!---->
+	<string name="slideshow_alert">"کوئی تصویر دستیاب نہیں ہے"</string>
 	<!---->
 	<string name="picasa_posts">"پوسٹس"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"البمس"</string>
 	<!---->
+	<string name="tab_explore">"دریافت کریں"</string>
+	<!---->
 	<string name="camera_menu_more_label">"مزید اختیارات"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"ترتیبات"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"مہینہ کا منظر"</string>
 	<!---->
+	<string name="slow_motion">"سست رفتار"</string>
+	<!---->
+	<string name="move_to_album">"البم پر منتقل کریں"</string>
+	<!---->
+	<string name="copy_to_album">"البم پر کاپی کریں"</string>
+	<!---->
 	<string name="moments_day_view">"دن کا منظر"</string>
+	<!---->
+	<string name="moments_staggered_view">"متذبذب منظر"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"سبھی"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"تصویر"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Parallax"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"ویڈیو"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"منسوخ کریں"</string>
 	<!---->
 	<string name="burst_delete">"حذف کریں"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"پسندیدہ"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"تصویروں کو مختلف اور حیرت انگیزی کولاجز میں پیش کریں"</string>
 	<!---->
+	<string name="loading_data_message">"ڈیٹا لوڈ کررہا ہے، براہ کرم ایک لمحہ انتظار کریں"</string>
+	<!---->
 	<string name="boom_key_tip_2">"بوم کی سے کولاج شو شروع کریں"</string>
 	<!---->
 	<string name="boom_key_tip_3">"البمز سے کولاج شو شروع کریں"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"HI!"</string>
 	<!---->
 	<string name="not_support_video_edit">"ویڈیو فارمیٹ تعاون یافتہ نہیں ہے۔"</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit انسٹال نہیں ہے، اور یہ فکنشن استعمال نہیں کیا جاسکتا!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"البم گرائيں"</string>
+	<!---->
+	<string name="settings_albums">"ترتیبات"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"البم بنائيں"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"البم کا نام درج کریں"</string>
+	<!---->
+	<string name="album_exists_warning">"البم کا نام پہلے سے ہی موجود ہے"</string>
+	<!---->
+	<string name="create_new_album_confirm">"بنائیں"</string>
+	<!---->
+	<string name="create_new_album_cancel">"منسوخ کریں"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"یہ البم حذف کریں؟"</string>
+	<!---->
+	<string name="delete_album_confirm">"حذف کریں"</string>
+	<!---->
+	<string name="delete_album_cancel">"منسوخ کریں"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"البم کا نام خالی نہيں ہوسکتا ہے"</string>
+	<!---->
+	<string name="new_album_select_title">"البم میں شامل کریں"</string>
+	<!---->
+	<string name="new_album_confirm_title">"ایک نئے البم میں کاپی یا منتقل کریں؟"</string>
+	<!---->
+	<string name="new_album">"نئی البم"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"البم کا نام ناجائز کیریکٹرز پر مشتمل ہے۔"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"بطور نجی سیٹ کریں"</string>
+	<!---->
+	<string name="set_public">"بطور پبلک سیٹ کریں"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

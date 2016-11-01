@@ -66,7 +66,6 @@ import com.tct.gallery3d.picturegrouping.ExifInfoFilter;
 import com.tct.gallery3d.ui.BitmapLoader;
 import com.tct.gallery3d.util.Future;
 import com.tct.gallery3d.util.FutureListener;
-import com.tct.gallery3d.util.ScreenUtils;
 import com.tct.gallery3d.util.ThreadPool;
 
 public class BurstShotActivity extends Activity implements
@@ -297,7 +296,7 @@ public class BurstShotActivity extends Activity implements
     private void display() {
         for (int i = 0; i < mItems.length; i++) {
             if (mItems[i].isSelected) {
-                mSaveMenu.setIcon(R.drawable.ic_check);
+                mSaveMenu.setIcon(R.drawable.ic_check_white);
                 mSaveMenu.setEnabled(true);
                 isSelect = true;
             }

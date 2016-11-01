@@ -3,8 +3,8 @@ package com.tct.gallery3d.app.view;
 import com.tct.gallery3d.R;
 import com.tct.gallery3d.app.constant.GalleryConstant;
 import com.tct.gallery3d.common.BitmapUtils;
+import com.tct.gallery3d.data.ImageRequest;
 import com.tct.gallery3d.data.MediaItem;
-import com.tct.gallery3d.drm.DrmManager;
 import com.tct.gallery3d.image.AsyncTask;
 
 import android.content.Context;
@@ -26,6 +26,7 @@ public class PhotoDetailView extends SubsamplingScaleImageView {
 
     private boolean mIsVideo = false;
     private boolean mIsGif = false;
+    private boolean mIsDrm = false;
 
     private Bitmap mVideoIcon = null;
     private RectF mVideoIconRect = new RectF();
@@ -83,7 +84,7 @@ public class PhotoDetailView extends SubsamplingScaleImageView {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        if (mIsVideo) {
+        if (mIsVideo || (mIsGif && mIsDrm)) {
             canvas.save();
             float x = canvas.getWidth() / 2 - mVideoIcon.getWidth() / 2;
             float y = canvas.getHeight() / 2 - mVideoIcon.getHeight() / 2;
@@ -101,6 +102,11 @@ public class PhotoDetailView extends SubsamplingScaleImageView {
     public void setIsGif(boolean isGif) {
         mIsGif = isGif;
         setZoomEnabled(!isGif);
+    }
+
+    public void setIsDrm(boolean isDrm) {
+        mIsDrm = isDrm;
+        setZoomEnabled(!isDrm);
     }
 
     public boolean getIsGif() {
@@ -121,7 +127,7 @@ public class PhotoDetailView extends SubsamplingScaleImageView {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        if (mIsVideo) {
+        if (mIsVideo || mIsGif) {
             int action = event.getAction();
             switch (action) {
                 case MotionEvent.ACTION_DOWN:
@@ -196,7 +202,13 @@ public class PhotoDetailView extends SubsamplingScaleImageView {
             protected Bitmap doInBackground(Object... params) {
                 String path = item.getFilePath();
                 // Get the drm from the DrmManager.
-                Bitmap bitmap = DrmManager.getInstance().getDrmBitmap(path);
+                Bitmap bitmap = null;
+                ImageRequest mRequest = (ImageRequest) item.requestImage(MediaItem.TYPE_THUMBNAIL);
+                try {
+                    bitmap = mRequest.requestBitmap();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
 
                 // Rotate the bitmap from the DrmManager.
                 int rotation = getExifOrientation(null);
@@ -214,13 +226,15 @@ public class PhotoDetailView extends SubsamplingScaleImageView {
                     setMaxScale(Math.max(screenWidth / width, screenHeight / height) * GalleryConstant.MAX_SCALE);
                     setDoubleTapZoomScale(Math.max(screenWidth / width, screenHeight / height) * GalleryConstant.MAX_SCALE);
                 }
+
                 return bitmap;
             }
 
             @Override
             protected void onPostExecute(Bitmap bitmap) {
                 if (bitmap != null) {
-                    onImageLoaded(bitmap, 0, false);
+//                    onImageLoaded(bitmap, 0, false);
+                    setImageDrawable(new BitmapDrawable(getResources(), bitmap));
                 }
             }
         };

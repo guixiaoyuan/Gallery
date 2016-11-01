@@ -211,8 +211,9 @@ public class AlbumFragment extends GalleryFragment {
             int mediaSetType = mMediaSet.getMediaSetType();
             String albumName = mMediaSet.getName();
             String slowMotion = getResources().getString(R.string.slow_motion);
+            String albumPath = mMediaSet.getAlbumFilePath();
             if (albumType != DataSourceType.ALBUM_NORMAL || (slowMotion.equals(albumName) && mediaSetType == MediaSet.MEDIASET_TYPE_VIDEO)
-                    || mMediaSet.getAlbumFilePath().equals(PICTURES_ALBUM_PATH) || mMediaSet.getAlbumFilePath().equals(ORIGINAL_ALBUM_PATH)) {
+                    || PICTURES_ALBUM_PATH.equals(albumPath) || ORIGINAL_ALBUM_PATH.equals(albumPath)) {
                 mRenameItem.setVisible(false);
                 mDeleteItem.setVisible(false);
             }

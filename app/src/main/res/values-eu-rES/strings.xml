@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Hautatu albuma"</string>
 	<!---->
+	<string name="rename_album">"Aldatu albumaren izena"</string>
+	<!---->
+	<string name="delete_album">"Ezabatu albuma"</string>
+	<!---->
 	<string name="select_group">"Hautatu taldea"</string>
 	<!---->
 	<string name="set_image">"Ezarri honela…"</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Hautatutako elementua ezabatu?"</item>
 		<item quantity="other">"Hautatutako elementuak ezabatu?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Eraman"</string>
+	<!---->
+	<string name="moving">"Eramaten"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Hautatutako elementua eraman?"</item>
+		<item quantity="other">"Hautatutako elementuak eraman?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Kopiatu"</string>
+	<!---->
+	<string name="copying">"Kopiatzen"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Hautatutako elementua kopiatu?"</item>
+		<item quantity="other">"Hautatutako elementuak kopiatu?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Berretsi"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Ez dago albumik erabilgarri"</string>
 	<!---->
 	<string name="empty_album">"Ez dago irudirik edo bideorik erabilgarri"</string>
+	<!---->
+	<string name="slideshow_alert">"Ez dago irudirik erabilgarri"</string>
 	<!---->
 	<string name="picasa_posts">"Mezuak"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Albumak"</string>
 	<!---->
+	<string name="tab_explore">"Arakatu"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Aukera gehiago"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Ezarpenak"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Hilabete-ikuspegia"</string>
 	<!---->
+	<string name="slow_motion">"Kamera geldoa"</string>
+	<!---->
+	<string name="move_to_album">"Eraman albumera"</string>
+	<!---->
+	<string name="copy_to_album">"Kopiatu albumean"</string>
+	<!---->
 	<string name="moments_day_view">"Egun-ikuspegia"</string>
+	<!---->
+	<string name="moments_staggered_view">"fasekako ikuspegia"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Guztiak"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Argazkia"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Paralaxia"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Bideoa"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"CANCEL"</string>
 	<!---->
 	<string name="burst_delete">"EZABATU"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"gogokoa"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Aurkeztu argazkiak hainbat collage zoragarritan"</string>
 	<!---->
+	<string name="loading_data_message">"Datuak kargatzen ari dira. Itxaron une batean."</string>
+	<!---->
 	<string name="boom_key_tip_2">"Hasi collage-aurkezpena Boom tekla erabilita"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Albumak atalean, abiarazi collage-aurkezpena"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"KAIXO!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Bideo-formatua ez da bateragarria."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit ez dago instalatuta eta ezin da erabili."</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Tolestu albumak"</string>
+	<!---->
+	<string name="settings_albums">"Ezarpenak"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Sortu albuma"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Idatzi albumaren izena"</string>
+	<!---->
+	<string name="album_exists_warning">"Badago albumaren izen hori"</string>
+	<!---->
+	<string name="create_new_album_confirm">"SORTU"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Leheneratu"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Albuma ezabatu?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Ezabatu"</string>
+	<!---->
+	<string name="delete_album_cancel">"Leheneratu"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Albumaren izena ezin da hutsik utzi."</string>
+	<!---->
+	<string name="new_album_select_title">"Gehitu albumean"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Kopiatu edo eraman album berrira?"</string>
+	<!---->
+	<string name="new_album">"Album berria"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Albumaren izenak balio ez duen karaktere bat du."</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Ezarri pribatu gisa"</string>
+	<!---->
+	<string name="set_public">"Ezarri publiko gisa"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

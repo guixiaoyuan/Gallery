@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Выбрать альбом"</string>
 	<!---->
+	<string name="rename_album">"Переименовать альбом"</string>
+	<!---->
+	<string name="delete_album">"Удалить альбом"</string>
+	<!---->
 	<string name="select_group">"Выбрать группы"</string>
 	<!---->
 	<string name="set_image">"Установить как..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Удалить выбранное?"</item>
 		<item quantity="other">"Удалить выбранные элементы?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Переместить"</string>
+	<!---->
+	<string name="moving">"Перемещение"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Переместить выбранный элемент?"</item>
+		<item quantity="other">"Переместить выбранные элементы?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Копировать"</string>
+	<!---->
+	<string name="copying">"Копирование..."</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Копировать выбранный элемент?"</item>
+		<item quantity="other">"Копировать выбранные элементы?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Подтвердите"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Нет доступных альбомов"</string>
 	<!---->
 	<string name="empty_album">"Нет изображений и видео"</string>
+	<!---->
+	<string name="slideshow_alert">"Нет изображений"</string>
 	<!---->
 	<string name="picasa_posts">"Записи"</string>
 	<!---->
@@ -391,7 +413,7 @@
 	<!---->
 	<string name="ingest_scanning_done">"Сканирование окончено"</string>
 	<!---->
-	<string name="ingest_importing">"Импортирование..."</string>
+	<string name="ingest_importing">"Импорт..."</string>
 	<!---->
 	<string name="ingest_empty_device">"Нет контента для импорта на данном устройстве."</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Альбомы"</string>
 	<!---->
+	<string name="tab_explore">"Открыть"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Ещё..."</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Настройки"</string>
@@ -861,7 +885,7 @@
 	<!---->
 	<string name="drm_wifidisplay_title">"Предупреждение"</string>
 	<!---->
-	<string name="drm_wifidisplay_message">"Все, защищенные от копирования, файлы, скрыты в результате подключения Wi-Fi экрана."</string>
+	<string name="drm_wifidisplay_message">"Все файлы, защищённые от копирования, скрыты, так как включён беспроводной экран."</string>
 	<!---->
 	<string name="drm_wifidisplay_cancel">"Выключить беспроводной экран"</string>
 	<!---->
@@ -893,7 +917,7 @@
 	<!---->
 	<string name="onef_inger_zoomer_tips_title">"Масштабирование одним пальцем"</string>
 	<!---->
-	<string name="drm_current_right">"Текущ. ограничение"</string>
+	<string name="drm_current_right">"Текущие ограничения"</string>
 	<!---->
 	<string name="right_url">"Лицензии"</string>
 	<!---->
@@ -1033,19 +1057,27 @@
 	<!---->
 	<string name="moments_month_view">"Месяц"</string>
 	<!---->
+	<string name="slow_motion">"Плавное переключение"</string>
+	<!---->
+	<string name="move_to_album">"Переместить в альбом"</string>
+	<!---->
+	<string name="copy_to_album">"Копировать в альбом"</string>
+	<!---->
 	<string name="moments_day_view">"День"</string>
+	<!---->
+	<string name="moments_staggered_view">"в шахматном порядке"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Все"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Фото"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Параллакс"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Видео"</string>
 	<!---->
 	<string name="actionbar_menu_text_fyuse">"3D-фото"</string>
 	<!---->
-	<string name="burst_mode_delete_message">"Эта серия снимков содержит %s фотографий. Удалить все из них?"</string>
+	<string name="burst_mode_delete_message">"Эта серия снимков содержит %s фото. Удалить все?"</string>
 	<!---->
 	<string name="burst_mode_save_message">"Перезаписать серию снимков или сохранить в виде отдельных изображений?"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"ОТМЕНА"</string>
 	<!---->
 	<string name="burst_delete">"удалить"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"Избранное"</string>
 	<!---->
@@ -1111,18 +1143,18 @@
 	<!---->
 	<string name="location_destination_text">"Сортировать фото и видео по местоположению в Хронике"</string>
 	<string-array name="month">
-		<item>"января"</item>
-		<item>"февраля"</item>
-		<item>"марта"</item>
-		<item>"апреля"</item>
-		<item>"мая"</item>
-		<item>"июня"</item>
-		<item>"июля"</item>
-		<item>"августа"</item>
-		<item>"сентября"</item>
-		<item>"октября"</item>
-		<item>"ноября"</item>
-		<item>"декабря"</item>
+		<item>"январь"</item>
+		<item>"февраль"</item>
+		<item>"март"</item>
+		<item>"апрель"</item>
+		<item>"май"</item>
+		<item>"июнь"</item>
+		<item>"июль"</item>
+		<item>"август"</item>
+		<item>"сентябрь"</item>
+		<item>"октябрь"</item>
+		<item>"ноябрь"</item>
+		<item>"декабрь"</item>
 	</string-array>
 	<!---->
 	<string name="permission_location_text">"Чтобы отсортировать фото и видео по местоположению, дайте Галерее разрешение на доступ к Местоположению."</string>
@@ -1130,6 +1162,8 @@
 	<string name="permission_location_settings">"Настройки"</string>
 	<!---->
 	<string name="boom_key_tip_1">"Из ваших фотографий будут созданы великолепные коллажи"</string>
+	<!---->
+	<string name="loading_data_message">"Загрузка Данных, пожалуйста, подождите!"</string>
 	<!---->
 	<string name="boom_key_tip_2">"Вы можете создать коллаж, находясь в Хронике"</string>
 	<!---->
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"Привет!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Формат видео не поддерживается."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit не установлено, и эта функция не может быть использована!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Свернуть альбомы"</string>
+	<!---->
+	<string name="settings_albums">"Настройки"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Создать альбом"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Введите имя альбома"</string>
+	<!---->
+	<string name="album_exists_warning">"Имя альбома уже существует"</string>
+	<!---->
+	<string name="create_new_album_confirm">"СОЗДАТЬ"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Отмена"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Удалить этот альбом?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Удалить"</string>
+	<!---->
+	<string name="delete_album_cancel">"Отмена"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Имя альбома не может быть пустым"</string>
+	<!---->
+	<string name="new_album_select_title">"Добавить в альбом"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Копировать или переместить в новый альбом?"</string>
+	<!---->
+	<string name="new_album">"Новый альбом"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Название альбома содержит недопустимый символ!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Установить как личный"</string>
+	<!---->
+	<string name="set_public">"Установить как общедоступный"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

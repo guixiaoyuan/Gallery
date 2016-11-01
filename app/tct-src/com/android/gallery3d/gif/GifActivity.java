@@ -86,6 +86,7 @@ public class GifActivity extends Activity {
     private static final String TAG = "GifActivity";
     public static final String KEY_LOGO_BITMAP = "logo-bitmap";
     public static final String KEY_TREAT_UP_AS_BACK = "treat-up-as-back";
+    public static final int REQUEST_PLAY_GIF = 7;
 
     private boolean mFinishOnCompletion;
     private Uri mUri;

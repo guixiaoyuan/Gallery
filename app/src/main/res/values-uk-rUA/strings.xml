@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Вибрати альбом"</string>
 	<!---->
+	<string name="rename_album">"Перейменувати альбом"</string>
+	<!---->
+	<string name="delete_album">"Видалити альбом"</string>
+	<!---->
 	<string name="select_group">"Вибрати групу"</string>
 	<!---->
 	<string name="set_image">"Встановити як..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Видалити вибраний елемент?"</item>
 		<item quantity="other">"Видалити вибрані елементи?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Перемістити"</string>
+	<!---->
+	<string name="moving">"Переміщення"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Перемістити вибраний елемент?"</item>
+		<item quantity="other">"Перемістити вибрані елементи?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Копіюв."</string>
+	<!---->
+	<string name="copying">"Копіювання"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Копіювати вибраний елемент?"</item>
+		<item quantity="other">"Копіювати вибрані елементи?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Підтверд."</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Немає доступних альбомів"</string>
 	<!---->
 	<string name="empty_album">"Немає доступного зображення/відео"</string>
+	<!---->
+	<string name="slideshow_alert">"Зображення відсутні"</string>
 	<!---->
 	<string name="picasa_posts">"Опублікування"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Альбоми"</string>
 	<!---->
+	<string name="tab_explore">"Перегляд"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Інші опції"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Установки"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Щомісячний перегляд"</string>
 	<!---->
+	<string name="slow_motion">"Сповільнений рух об’єктів"</string>
+	<!---->
+	<string name="move_to_album">"Перемістити в альбом"</string>
+	<!---->
+	<string name="copy_to_album">"Копіювати в альбом"</string>
+	<!---->
 	<string name="moments_day_view">"Щоденний перегляд"</string>
+	<!---->
+	<string name="moments_staggered_view">"подання зигзагом"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Усі"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Фотографія"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Зміщення"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Відео"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"СКАСУВАТИ"</string>
 	<!---->
 	<string name="burst_delete">"ВИДАЛИТИ"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"Показ облич"</string>
 	<!---->
 	<string name="favorite">"Обране"</string>
 	<!---->
@@ -1107,7 +1139,7 @@
 	<!---->
 	<string name="moment_album_today">"Сьогодні"</string>
 	<!---->
-	<string name="moment_album_yesterday">"учора"</string>
+	<string name="moment_album_yesterday">"вчора"</string>
 	<!---->
 	<string name="location_destination_text">"Сортування фотографій і відео за розташуванням у розділі «Знімки»"</string>
 	<string-array name="month">
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Демонстрація колажів із різноманітних фотографій"</string>
 	<!---->
+	<string name="loading_data_message">"Завантаження даних, зачекайте..."</string>
+	<!---->
 	<string name="boom_key_tip_2">"Розпочати показ колажу клавішею Boom"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Запустити показ колажів у меню «Альбоми»"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"Привіт!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Формат відео не підтримується."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit не встановлено, користуватися цією функцією неможливо!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Згорнути альбоми"</string>
+	<!---->
+	<string name="settings_albums">"Установки"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Створити альбом"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Введіть назву альбому"</string>
+	<!---->
+	<string name="album_exists_warning">"Назва альбому вже існує"</string>
+	<!---->
+	<string name="create_new_album_confirm">"СТВОРИТИ"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Скасувати"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Видалити цей альбом?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Видалити"</string>
+	<!---->
+	<string name="delete_album_cancel">"Скасувати"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Назва альбому не може бути пустою"</string>
+	<!---->
+	<string name="new_album_select_title">"Додати до альбому"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Копіювати або перемістити у новий альбом?"</string>
+	<!---->
+	<string name="new_album">"Новий альбом"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Назва альбому містить неприпустимий символ."</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Встановити як приватний"</string>
+	<!---->
+	<string name="set_public">"Встановити як загальнодоступний"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

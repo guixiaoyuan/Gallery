@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 
 import com.tct.gallery3d.R;
 import com.tct.gallery3d.app.fragment.PhotoFragment;
+import com.tct.gallery3d.app.fragment.SlideShowFragment;
 
 public abstract class AbstractGalleryFragment extends Fragment {
 
@@ -50,4 +51,11 @@ public abstract class AbstractGalleryFragment extends Fragment {
         return true;
     }
 
+    public static boolean checkSlideShowActive(AbstractGalleryActivity context) {
+        AbstractGalleryFragment content = context.getContent();
+        if (content != null && content instanceof SlideShowFragment) {
+            return false;
+        }
+        return true;
+    }
 }

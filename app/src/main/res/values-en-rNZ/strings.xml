@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -58,9 +58,13 @@
 	<!---->
 	<string name="select_video">"Select video"</string>
 	<!---->
-	<string name="select_item">"Select items"</string>
+	<string name="select_item">"Select item"</string>
 	<!---->
 	<string name="select_album">"Select album"</string>
+	<!---->
+	<string name="rename_album">"Rename album"</string>
+	<!---->
+	<string name="delete_album">"Delete album"</string>
 	<!---->
 	<string name="select_group">"Select group"</string>
 	<!---->
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Delete selected item?"</item>
 		<item quantity="other">"Delete selected items?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Move"</string>
+	<!---->
+	<string name="moving">"Moving"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Move selected item?"</item>
+		<item quantity="other">"Move selected items?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Copy"</string>
+	<!---->
+	<string name="copying">"Copying"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Copy selected item?"</item>
+		<item quantity="other">"Copy selected items?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Confirm"</string>
@@ -181,13 +201,15 @@
 	<!---->
 	<string name="appwidget_title">"Photo Gallery"</string>
 	<!---->
-	<string name="appwidget_empty_text">"No photos"</string>
+	<string name="appwidget_empty_text">"No photos."</string>
 	<!---->
 	<string name="crop_saved">"Cropped image saved to <xliff:g id="folder_name">%s</xliff:g>."</string>
 	<!---->
 	<string name="no_albums_alert">"No albums available"</string>
 	<!---->
 	<string name="empty_album">"No image/video available"</string>
+	<!---->
+	<string name="slideshow_alert">"No image available"</string>
 	<!---->
 	<string name="picasa_posts">"Posts"</string>
 	<!---->
@@ -337,7 +359,7 @@
 	<!---->
 	<string name="folder_imported">"Imported"</string>
 	<!---->
-	<string name="folder_screenshot">"Screenshots"</string>
+	<string name="folder_screenshot">"Screenshot"</string>
 	<!---->
 	<string name="help">"Help"</string>
 	<!---->
@@ -363,7 +385,7 @@
 	<!---->
 	<string name="mute_save_into">"Muted file saved to <xliff:g id="album_name">%1$s</xliff:g>"</string>
 	<!---->
-	<string name="trim_too_short">"Cannot trim : target video is too short"</string>
+	<string name="trim_too_short">"Can\'t trim: target video is too short"</string>
 	<!---->
 	<string name="mute_nosupport">"Can\'t mute: video isn\'t supported"</string>
 	<!---->
@@ -435,7 +457,7 @@
 	<!---->
 	<string name="pref_camera_timer_sound_title">"Beep during countdown"</string>
 	<!---->
-	<string name="setting_off">"OFF"</string>
+	<string name="setting_off">"Off"</string>
 	<!---->
 	<string name="setting_on">"On"</string>
 	<!---->
@@ -453,23 +475,23 @@
 	<!---->
 	<string name="pref_camera_picturesize_title">"Picture size"</string>
 	<!---->
-	<string name="pref_camera_picturesize_entry_13mp">"13M pixels"</string>
+	<string name="pref_camera_picturesize_entry_13mp">"13 megapixels"</string>
 	<!---->
-	<string name="pref_camera_picturesize_entry_8mp">"8M pixels"</string>
+	<string name="pref_camera_picturesize_entry_8mp">"8 megapixels"</string>
 	<!---->
-	<string name="pref_camera_picturesize_entry_5mp">"5M pixels"</string>
+	<string name="pref_camera_picturesize_entry_5mp">"5 megapixels"</string>
 	<!---->
-	<string name="pref_camera_picturesize_entry_4mp">"4M pixels"</string>
+	<string name="pref_camera_picturesize_entry_4mp">"4 megapixels"</string>
 	<!---->
-	<string name="pref_camera_picturesize_entry_3mp">"3M pixels"</string>
+	<string name="pref_camera_picturesize_entry_3mp">"3 megapixels"</string>
 	<!---->
-	<string name="pref_camera_picturesize_entry_2mp">"2M pixels"</string>
+	<string name="pref_camera_picturesize_entry_2mp">"2 megapixels"</string>
 	<!---->
-	<string name="pref_camera_picturesize_entry_2mp_wide">"2M pixels (16:9)"</string>
+	<string name="pref_camera_picturesize_entry_2mp_wide">"2 megapixels (16:9)"</string>
 	<!---->
-	<string name="pref_camera_picturesize_entry_1_3mp">"1.3M pixels"</string>
+	<string name="pref_camera_picturesize_entry_1_3mp">"1.3 megapixels"</string>
 	<!---->
-	<string name="pref_camera_picturesize_entry_1mp">"1M pixels"</string>
+	<string name="pref_camera_picturesize_entry_1mp">"1 megapixel"</string>
 	<!---->
 	<string name="pref_camera_picturesize_entry_vga">"VGA"</string>
 	<!---->
@@ -585,7 +607,7 @@
 	<!---->
 	<string name="pano_dialog_prepare_preview">"Preparing panorama"</string>
 	<!---->
-	<string name="pano_dialog_panorama_failed">"Couldn\'t save panorama."</string>
+	<string name="pano_dialog_panorama_failed">"Couldn\'t save panorama"</string>
 	<!---->
 	<string name="pano_dialog_title">"Panorama"</string>
 	<!---->
@@ -769,11 +791,11 @@
 	<!---->
 	<string name="pref_video_time_lapse_frame_interval_86400000">"24 hours"</string>
 	<!---->
-	<string name="time_lapse_seconds">"Seconds"</string>
+	<string name="time_lapse_seconds">"seconds"</string>
 	<!---->
-	<string name="time_lapse_minutes">"Minutes"</string>
+	<string name="time_lapse_minutes">"minutes"</string>
 	<!---->
-	<string name="time_lapse_hours">"Hours"</string>
+	<string name="time_lapse_hours">"hours"</string>
 	<!---->
 	<string name="time_lapse_interval_set">"Done"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Albums"</string>
 	<!---->
+	<string name="tab_explore">"Explore"</string>
+	<!---->
 	<string name="camera_menu_more_label">"More options"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Settings"</string>
@@ -827,7 +851,7 @@
 	<!---->
 	<string name="media_controller_buffering">"Buffering %d%%..."</string>
 	<!---->
-	<string name="VideoView_error_text_cannot_connect_to_server">"Cannot connect to server"</string>
+	<string name="VideoView_error_text_cannot_connect_to_server">"Can\'t connect to server"</string>
 	<!---->
 	<string name="media_controller_live">"Live"</string>
 	<!---->
@@ -885,7 +909,7 @@
 	<!---->
 	<string name="valid_until">"Valid until"</string>
 	<!---->
-	<string name="onef_inger_zoomer_tips_camera">"Double tap and slide to zoom in/out in Camera"</string>
+	<string name="onef_inger_zoomer_tips_camera">"Double touch and slide to zoom in/out in Camera"</string>
 	<!---->
 	<string name="tips_done">"Done"</string>
 	<!---->
@@ -903,7 +927,7 @@
 	<!---->
 	<string name="selectRenderer">"Select a player"</string>
 	<!---->
-	<string name="noRenderer">"Can\'t find any rendering devices"</string>
+	<string name="noRenderer">"Can\'t find any renderer device"</string>
 	<!---->
 	<string name="stop_playing_video_on_tv">"Stop playing video on TV?"</string>
 	<!---->
@@ -949,7 +973,7 @@
 	<!---->
 	<string name="never_tip">"Show tips at start up"</string>
 	<!---->
-	<string name="three_finger_tips0">"Put three fingers on the screen"</string>
+	<string name="three_finger_tips0">"Put three fingers on screen"</string>
 	<!---->
 	<string name="three_finger_tips1">"Drag the file to the yellow area"</string>
 	<!---->
@@ -959,7 +983,7 @@
 	<!---->
 	<string name="filtershow_save_title">"Save changes"</string>
 	<!---->
-	<string name="filtershow_save_message">"Would you like to save as a copy or overwrite the original image?"</string>
+	<string name="filtershow_save_message">"Save as a copy or overwrite the original image?"</string>
 	<!---->
 	<string name="filtershow_save_no_ask">"Don\'t ask again"</string>
 	<!---->
@@ -1005,7 +1029,7 @@
 	<!---->
 	<string name="polaroid_action_send">"Send"</string>
 	<!---->
-	<string name="polaroid_default_slogan">"Give me a hug"</string>
+	<string name="polaroid_default_slogan">"Give me a hug ~"</string>
 	<!---->
 	<string name="polaroid_saving_picture">"Saving picture..."</string>
 	<!---->
@@ -1023,7 +1047,7 @@
 	<!---->
 	<string name="save_iamge_compelete">"Photo saved to Gallery."</string>
 	<!---->
-	<string name="save_image_error">"Failed to save file"</string>
+	<string name="save_image_error">"Couldn\'t save file"</string>
 	<!---->
 	<string name="dialog_min_image_save_title">"Image too small"</string>
 	<!---->
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Month view"</string>
 	<!---->
+	<string name="slow_motion">"Slow motion"</string>
+	<!---->
+	<string name="move_to_album">"Move to album"</string>
+	<!---->
+	<string name="copy_to_album">"Copy to album"</string>
+	<!---->
 	<string name="moments_day_view">"Day view"</string>
+	<!---->
+	<string name="moments_staggered_view">"staggered view"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"All"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Photo"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Parallax"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Video"</string>
 	<!---->
@@ -1056,10 +1088,10 @@
 	<string name="burst_cancel">"Cancel"</string>
 	<!---->
 	<string name="burst_delete">"Delete"</string>
-	<!-- no translation found for face_show -->
-	<skip />
 	<!---->
-	<string name="favorite">"Favorites"</string>
+	<string name="face_show">"FaceShow"</string>
+	<!---->
+	<string name="favorite">"Favorite"</string>
 	<!---->
 	<string name="select">"Select"</string>
 	<!---->
@@ -1071,7 +1103,7 @@
 	<!---->
 	<string name="faceshow_takemore">"You need more selfies to create your own face show."</string>
 	<!---->
-	<string name="selfies">"Selfies"</string>
+	<string name="selfies">"Selfie"</string>
 	<!---->
 	<string name="parallax">"Parallax"</string>
 	<!---->
@@ -1112,14 +1144,14 @@
 	<string name="location_destination_text">"Sort photos and videos by location in Moments"</string>
 	<string-array name="month">
 		<item>"January"</item>
-		<item>"Februrary"</item>
+		<item>"February"</item>
 		<item>"March"</item>
 		<item>"April"</item>
 		<item>"May"</item>
 		<item>"June"</item>
 		<item>"July"</item>
 		<item>"August"</item>
-		<item>"Septemper"</item>
+		<item>"September"</item>
 		<item>"October"</item>
 		<item>"November"</item>
 		<item>"December"</item>
@@ -1130,6 +1162,8 @@
 	<string name="permission_location_settings">"Settings"</string>
 	<!---->
 	<string name="boom_key_tip_1">"Present photos in different and incredible collages"</string>
+	<!---->
+	<string name="loading_data_message">"Loading data, please wait for a moment!"</string>
 	<!---->
 	<string name="boom_key_tip_2">"Start collage show by Boom key"</string>
 	<!---->
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"HI!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Video format isn’t supported."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit isn\'t installed, and this function can\'t be used!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Collapse albums"</string>
+	<!---->
+	<string name="settings_albums">"Settings"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Create album"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Enter album name"</string>
+	<!---->
+	<string name="album_exists_warning">"Album name already exists"</string>
+	<!---->
+	<string name="create_new_album_confirm">"CREATE"</string>
+	<!---->
+	<string name="create_new_album_cancel">"CANCEL"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Delete this album?"</string>
+	<!---->
+	<string name="delete_album_confirm">"DELETE"</string>
+	<!---->
+	<string name="delete_album_cancel">"CANCEL"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Album name can\'t be empty"</string>
+	<!---->
+	<string name="new_album_select_title">"Add to album"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Copy or move to new album?"</string>
+	<!---->
+	<string name="new_album">"New album"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Album name contains invalid character!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Set as private"</string>
+	<!---->
+	<string name="set_public">"Set as public"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

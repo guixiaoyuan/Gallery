@@ -259,6 +259,7 @@ public class MenuExecutor {
     }
 
     public static void updateMenuOperation(Menu menu, int supported, boolean isCameraReview, boolean isPrivateMode) {
+        Log.d(TAG, " isPrivateMode = " + isPrivateMode);
         boolean supportDelete = (supported & MediaObject.SUPPORT_DELETE) != 0;
         //boolean supportRotate = (supported & MediaObject.SUPPORT_ROTATE) != 0;
         boolean supportCrop = (supported & MediaObject.SUPPORT_CROP) != 0;

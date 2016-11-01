@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -61,6 +61,10 @@
 	<string name="select_item">"आइटम चुनें"</string>
 	<!---->
 	<string name="select_album">"एल्‍बम चुनें"</string>
+	<!-- no translation found for rename_album -->
+	<skip />
+	<!-- no translation found for delete_album -->
+	<skip />
 	<!---->
 	<string name="select_group">"समूह चुनें"</string>
 	<!---->
@@ -79,6 +83,18 @@
 		<item quantity="one">"चयनित आइटम हटायें?"</item>
 		<item quantity="other">"चयनित आइटम हटायें?"</item>
 	</plurals>
+	<!-- no translation found for move -->
+	<skip />
+	<!-- no translation found for moving -->
+	<skip />
+	<!-- no translation found for move_selection -->
+	<skip />
+	<!---->
+	<string name="copy">"कॉपी करें"</string>
+	<!-- no translation found for copying -->
+	<skip />
+	<!-- no translation found for copy_selection -->
+	<skip />
 	<!---->
 	<string name="confirm">"पुष्टि करें"</string>
 	<!---->
@@ -188,6 +204,8 @@
 	<string name="no_albums_alert">"कोई एल्‍बम उपलब्‍ध नहीं"</string>
 	<!---->
 	<string name="empty_album">"कोई छवि/वीडियो उपलब्‍ध नहीं"</string>
+	<!-- no translation found for slideshow_alert -->
+	<skip />
 	<!---->
 	<string name="picasa_posts">"पोस्‍ट"</string>
 	<!---->
@@ -802,6 +820,8 @@
 	<string name="tab_photos">"फोटो"</string>
 	<!---->
 	<string name="tab_albums">"एल्‍बम"</string>
+	<!-- no translation found for tab_explore -->
+	<skip />
 	<!---->
 	<string name="camera_menu_more_label">"अधिक विकल्प"</string>
 	<!---->
@@ -1033,7 +1053,15 @@
 	<!---->
 	<string name="moments_month_view">"माह दृश्‍य"</string>
 	<!---->
+	<string name="slow_motion">"स्‍लो मोशन"</string>
+	<!-- no translation found for move_to_album -->
+	<skip />
+	<!-- no translation found for copy_to_album -->
+	<skip />
+	<!---->
 	<string name="moments_day_view">"दिवस दृश्‍य"</string>
+	<!-- no translation found for moments_staggered_view -->
+	<skip />
 	<!---->
 	<string name="actionbar_menu_text_all">"सभी"</string>
 	<!---->
@@ -1130,6 +1158,8 @@
 	<string name="permission_location_settings">"सेटिंग्‍स"</string>
 	<!---->
 	<string name="boom_key_tip_1">"तस्‍वीरों को अलग और ज़बर्दस्‍त कोलाज के रूप में प्रस्‍तुत करें"</string>
+	<!-- no translation found for loading_data_message -->
+	<skip />
 	<!---->
 	<string name="boom_key_tip_2">"बूम कुंजी द्वारा कोलाज शो आरंभ करें"</string>
 	<!---->
@@ -1150,4 +1180,72 @@
 	<string name="permissions_hi">"नमस्‍ते!"</string>
 	<!---->
 	<string name="not_support_video_edit">"वीडियो प्रारूप समर्थित नहीं है."</string>
+	<!-- no translation found for no_slowmoedit -->
+	<skip />
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!-- no translation found for collapse_albums -->
+	<skip />
+	<!---->
+	<string name="settings_albums">"सेटिंग्‍स"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!-- no translation found for create_new_album_dialog_title -->
+	<skip />
+	<!-- no translation found for create_new_album_dialog_hint -->
+	<skip />
+	<!-- no translation found for album_exists_warning -->
+	<skip />
+	<!-- no translation found for create_new_album_confirm -->
+	<skip />
+	<!---->
+	<string name="create_new_album_cancel">"रद्द करें"</string>
+	<!-- no translation found for delete_album_dialog_title -->
+	<skip />
+	<!---->
+	<string name="delete_album_confirm">"हटाएं"</string>
+	<!---->
+	<string name="delete_album_cancel">"रद्द करें"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!-- no translation found for new_album_empty_warning -->
+	<skip />
+	<!-- no translation found for new_album_select_title -->
+	<skip />
+	<!-- no translation found for new_album_confirm_title -->
+	<skip />
+	<!-- no translation found for new_album -->
+	<skip />
+	<!-- no translation found for invalid_char_of_albumname -->
+	<skip />
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!-- no translation found for set_private -->
+	<skip />
+	<!-- no translation found for set_public -->
+	<skip />
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

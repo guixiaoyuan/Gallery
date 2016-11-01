@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"เลือกอัลบั้ม"</string>
 	<!---->
+	<string name="rename_album">"เปลี่ยนชื่ออัลบั้ม"</string>
+	<!---->
+	<string name="delete_album">"ลบอัลบั้ม"</string>
+	<!---->
 	<string name="select_group">"เลือกกลุ่ม"</string>
 	<!---->
 	<string name="set_image">"ตั้งค่าเป็น..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"ลบรายการที่เลือกหรือไม?่"</item>
 		<item quantity="other">"ลบรายการที่เลือกหรือไม่?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"ย้าย"</string>
+	<!---->
+	<string name="moving">"กำลังย้าย"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"ย้ายรายการที่เลือกหรือไม่"</item>
+		<item quantity="other">"ย้ายรายการที่เลือกหรือไม่"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"คัดลอก"</string>
+	<!---->
+	<string name="copying">"กำลังคัดลอก"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"คัดลอกรายการที่เลือกหรือไม่"</item>
+		<item quantity="other">"คัดลอกรายการที่เลือกหรือไม่"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"ยืนยัน"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"ไม่มีอัลบั้ม"</string>
 	<!---->
 	<string name="empty_album">"ไม่มีภาพ/วิดีโอ"</string>
+	<!---->
+	<string name="slideshow_alert">"ไม่มีภาพ"</string>
 	<!---->
 	<string name="picasa_posts">"โพสต์"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"อัลบั้ม"</string>
 	<!---->
+	<string name="tab_explore">"สำรวจ"</string>
+	<!---->
 	<string name="camera_menu_more_label">"ตัวเลือกเพิ่มเติม"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"การตั้งค่า"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"ดูแบบเดือน"</string>
 	<!---->
+	<string name="slow_motion">"การดำเนินการอย่างช้า ๆ"</string>
+	<!---->
+	<string name="move_to_album">"ย้ายไปยังอัลบั้ม"</string>
+	<!---->
+	<string name="copy_to_album">"คัดลอกไปยังอัลบั้ม"</string>
+	<!---->
 	<string name="moments_day_view">"ดูแบบวัน"</string>
+	<!---->
+	<string name="moments_staggered_view">"มุมมองฟันปลา"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"ทั้งหมด"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"รูปภาพ"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Parallax"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"วิดีโอ"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"ยกเลิก"</string>
 	<!---->
 	<string name="burst_delete">"ลบ"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"แสดงหน้า"</string>
 	<!---->
 	<string name="favorite">"รายการโปรด"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"นำเสนอภาพถ่ายเป็นภาพตัดปะที่แตกต่างกันและสวยงาม"</string>
 	<!---->
+	<string name="loading_data_message">"กำลังโหลดข้อมูล โปรดรอสักครู่!"</string>
+	<!---->
 	<string name="boom_key_tip_2">"เริ่มต้นการแสดงภาพคอลลาจโดยใช้ปุ่มบูม"</string>
 	<!---->
 	<string name="boom_key_tip_3">"ทริกเกอร์การแสดงภาพตัดปะจากอัลบัม"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"สวัสดี!"</string>
 	<!---->
 	<string name="not_support_video_edit">"ไม่รองรับรูปแบบวิดีโอนี้"</string>
+	<!---->
+	<string name="no_slowmoedit">"ยังไม่มีการติดตั้ง SlowmoEdit และไม่สามารถใช้งานฟังก์ชั่นนี้ได้!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"ยุบอัลบั้ม"</string>
+	<!---->
+	<string name="settings_albums">"การตั้งค่า"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"สร้างอัลบั้ม"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"ป้อนชื่ออัลบั้ม"</string>
+	<!---->
+	<string name="album_exists_warning">"มีชื่ออัลบั้มอยู่แล้ว"</string>
+	<!---->
+	<string name="create_new_album_confirm">"สร้าง"</string>
+	<!---->
+	<string name="create_new_album_cancel">"ยกเลิก"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"ต้องการลบอัลบั้มนี้หรือ"</string>
+	<!---->
+	<string name="delete_album_confirm">"ลบ"</string>
+	<!---->
+	<string name="delete_album_cancel">"ยกเลิก"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"ชื่ออัลบั้มไม่สามารถเว้นว่างได้"</string>
+	<!---->
+	<string name="new_album_select_title">"เพิ่มอัลบั้ม"</string>
+	<!---->
+	<string name="new_album_confirm_title">"คัดลอกหรือย้ายไปที่อัลบั้มใหม่หรือไม่"</string>
+	<!---->
+	<string name="new_album">"อัลบั้มใหม่"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"ชื่ออัลบั้มมีอักขระที่ไม่สามารถใช้งานได้"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"ตั้งเป็นส่วนบุคคล"</string>
+	<!---->
+	<string name="set_public">"ตั้งเป็นสาธารณะ"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

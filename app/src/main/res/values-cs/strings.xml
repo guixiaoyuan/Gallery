@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Vybrat album"</string>
 	<!---->
+	<string name="rename_album">"Přejmenovat album"</string>
+	<!---->
+	<string name="delete_album">"Odstranit album"</string>
+	<!---->
 	<string name="select_group">"Vybrat skupinu"</string>
 	<!---->
 	<string name="set_image">"Nastavit jako..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Smazat vybranou položku?"</item>
 		<item quantity="other">"Smazat vybrané položky?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Přesunout"</string>
+	<!---->
+	<string name="moving">"Přesunování"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Přesunout vybranou položku?"</item>
+		<item quantity="other">"Přesunout vybrané položky?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Kopírovat"</string>
+	<!---->
+	<string name="copying">"Kopírování"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Kopírovat vybranou položku?"</item>
+		<item quantity="other">"Kopírovat vybrané položky?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Potvrdit"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Žádné album není k dispozici"</string>
 	<!---->
 	<string name="empty_album">"Nejsou k dispozici žádné obrázky/videa"</string>
+	<!---->
+	<string name="slideshow_alert">"Není k dispozici žádný obrázek"</string>
 	<!---->
 	<string name="picasa_posts">"Příspěvky"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Alba"</string>
 	<!---->
+	<string name="tab_explore">"Prozkoumat"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Další možnosti"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Nastavení"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Zobrazení Měsíc"</string>
 	<!---->
+	<string name="slow_motion">"Zpomalený pohyb"</string>
+	<!---->
+	<string name="move_to_album">"Přesunout do alba"</string>
+	<!---->
+	<string name="copy_to_album">"Kopírovat do alba"</string>
+	<!---->
 	<string name="moments_day_view">"Zobrazení Den"</string>
+	<!---->
+	<string name="moments_staggered_view">"střídavé zobrazení"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Vše"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Fotografie"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Paralaxa"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Video"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"ZRUŠIT"</string>
 	<!---->
 	<string name="burst_delete">"SMAZAT"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"Oblíbené"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Prezentujte fotografie pomocí výjimečných a nevídaných koláží"</string>
 	<!---->
+	<string name="loading_data_message">"Načítají se data, prosím chvíli počkejte."</string>
+	<!---->
 	<string name="boom_key_tip_2">"Spustit zobrazení koláže stisknutím tlačítka Boom"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Spustit zobrazení koláže z alb"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"Ahoj!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Formát videa není podporován."</string>
+	<!---->
+	<string name="no_slowmoedit">"Aplikace SlowmoEdit není nainstalována a tuto funkci nelze použít."</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Sbalit alba"</string>
+	<!---->
+	<string name="settings_albums">"Nastavení"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Vytvořit album"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Zadejte název alba"</string>
+	<!---->
+	<string name="album_exists_warning">"Název alba již existuje"</string>
+	<!---->
+	<string name="create_new_album_confirm">"VYTVOŘIT"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Zrušit"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Odstranit toto album?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Odstranit"</string>
+	<!---->
+	<string name="delete_album_cancel">"Zrušit"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Název alba nemůže být prázdný"</string>
+	<!---->
+	<string name="new_album_select_title">"Přidat do alba"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Kopírovat nebo přesunout do nového alba?"</string>
+	<!---->
+	<string name="new_album">"Nové album"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Název alba obsahuje neplatný znak!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Nastavit jako soukromé"</string>
+	<!---->
+	<string name="set_public">"Nastavit jako veřejné"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

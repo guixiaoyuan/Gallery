@@ -42,6 +42,8 @@ public abstract class GalleryConstant {
     public static final String ACTION_SLOW_MO_PLAY = "com.muvee.slowmoedit.SLOW_MO_PLAY";
     public static final String ACTION_REVIEW = "com.android.camera.action.REVIEW";
     public static final String ACTION_DRM_ATTACH_DATA = "android.drm.action.ATTACH_DATA";
+    public static final String EMULATED_PATH = "/storage/emulated/0/Download/";
+    public static final String SDCARD_PATH = "/storage/sdcard0/Download/";
 
     //faceshow
     public static final String DEFAULT_PATH = "/local/image/item";
@@ -80,4 +82,6 @@ public abstract class GalleryConstant {
     public static final String NO_COLUMN = "0";
 
     public static final int MENU_CLOSE_ANIMATION_DURATION = 350;
+
+    public static final int DEFAULT_SESSION_TIME_OUT = 30000;
 }

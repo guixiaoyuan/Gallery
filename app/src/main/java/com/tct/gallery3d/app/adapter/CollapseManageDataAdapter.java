@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.tct.gallery3d.R;
 import com.tct.gallery3d.app.AbstractGalleryActivity;
@@ -21,6 +22,7 @@ import com.tct.gallery3d.data.MediaSet;
 import com.tct.gallery3d.data.MediaSource;
 import com.tct.gallery3d.ui.Log;
 import com.tct.gallery3d.util.GalleryUtils;
+import com.tct.gallery3d.util.LinkedNode;
 import com.tct.gallery3d.util.MediaSetUtils;
 
 import java.util.ArrayList;
@@ -47,8 +49,6 @@ public class CollapseManageDataAdapter extends RecyclerView.Adapter<CollapseMana
     private boolean mGetContent;
     private boolean mGetMultiContent;
     private int mTotal;
-    final List<Boolean> mList = new ArrayList<>();
-    final Boolean[] mBoolean = new Boolean[11];
 
     private LinearLayoutManager mLayoutManager;
 
@@ -78,9 +78,6 @@ public class CollapseManageDataAdapter extends RecyclerView.Adapter<CollapseMana
 
     @Override
     public int getItemCount() {
-        for (int i = 0; i < mTotal; i++) {
-            mList.add(i,false);
-        }
         return mTotal;
     }
 
@@ -88,11 +85,6 @@ public class CollapseManageDataAdapter extends RecyclerView.Adapter<CollapseMana
     public CollapseViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(mContext).inflate(R.layout.item_collapse_manage_albums, parent, false);
         CollapseManageDataAdapter.CollapseViewHolder holder = new CollapseManageDataAdapter.CollapseViewHolder(view);
-        holder.mSwitch.setChecked(true);
-        holder.mSwitch.setVisibility(View.VISIBLE);
-        for (int i = 0; i < mTotal; i++) {
-            holder.mSwitch.setChecked(mBoolean[i]);
-        }
         return holder;
     }
 
@@ -137,6 +129,7 @@ public class CollapseManageDataAdapter extends RecyclerView.Adapter<CollapseMana
     private void setLayoutInfo(CollapseViewHolder collapseViewHolder, int slotIndex) {
         synchronized (mLoader) {
 
+            final List<Integer> list = new ArrayList<>();
             final CollapseViewHolder holder = collapseViewHolder;
             final int position = slotIndex;
 
@@ -169,13 +162,10 @@ public class CollapseManageDataAdapter extends RecyclerView.Adapter<CollapseMana
                 });
 
                 if (sharedPreferences.getString(album.getAlbumFilePath(), null) != null) {
-                    //holder.mSwitch.setChecked(true);
-                    mBoolean[position] = true;
+                    holder.mSwitch.setChecked(true);
                 } else {
-                    //holder.mSwitch.setChecked(false);
-                    mBoolean[position] = false;
+                    holder.mSwitch.setChecked(false);
                 }
-
             }
 
         }

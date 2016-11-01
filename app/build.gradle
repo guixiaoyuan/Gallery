@@ -11,9 +11,9 @@ android {
         applicationId 'com.tct.gallery3d'
         minSdkVersion 22
         targetSdkVersion 24
-        versionCode Integer.valueOf("981610251")
-        versionName "v7.0.2.0.9802.0"
-        renderscriptTargetApi 18
+        versionCode Integer.valueOf("0416102902")
+        versionName "v7.1.1.0.0402.0"
+        renderscriptTargetApi 22
         renderscriptSupportModeEnabled true
         multiDexEnabled true
         ndk {

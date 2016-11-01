@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"تحديد ألبوم"</string>
 	<!---->
+	<string name="rename_album">"إعادة تسمية ألبوم"</string>
+	<!---->
+	<string name="delete_album">"حذف الألبوم"</string>
+	<!---->
 	<string name="select_group">"تحديد مجموعة"</string>
 	<!---->
 	<string name="set_image">"تعيين كـ..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"حذف العنصر المحدد؟"</item>
 		<item quantity="other">"حذف العناصر المحددة؟"</item>
+	</plurals>
+	<!---->
+	<string name="move">"نقل"</string>
+	<!---->
+	<string name="moving">"نقل"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"هل تريد نقل العنصر المحدد؟"</item>
+		<item quantity="other">"هل تريد نقل العناصر المحددة؟"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"نسخ"</string>
+	<!---->
+	<string name="copying">"نسخ"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"هل تريد نسخ العنصر المحدد؟"</item>
+		<item quantity="other">"هل تريد نسخ العناصر المحددة؟"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"تأكيد"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"ليست هناك أية ألبومات متاحة"</string>
 	<!---->
 	<string name="empty_album">"لا توجد صورة/فيديو متوفر"</string>
+	<!---->
+	<string name="slideshow_alert">"لا توجد صورة متوفرة"</string>
 	<!---->
 	<string name="picasa_posts">"المشاركات"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"ألبومات"</string>
 	<!---->
+	<string name="tab_explore">"استكشاف"</string>
+	<!---->
 	<string name="camera_menu_more_label">"خيارات أكثر"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"الإعدادات"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"طريقة عرض الأشهر"</string>
 	<!---->
+	<string name="slow_motion">"إجراء بطيء"</string>
+	<!---->
+	<string name="move_to_album">"نقل إلى الألبوم"</string>
+	<!---->
+	<string name="copy_to_album">"نسخ إلى الألبوم"</string>
+	<!---->
 	<string name="moments_day_view">"طريقة عرض الأيام"</string>
+	<!---->
+	<string name="moments_staggered_view">"عرض مرتب"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"الكل"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"صورة"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"اختلاف المنظر"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"الفيديو"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"إلغاء"</string>
 	<!---->
 	<string name="burst_delete">"حذف"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"المفضلة"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"عرض الصور في تجميعات مذهلة ومختلفة"</string>
 	<!---->
+	<string name="loading_data_message">"جارٍ تحميل البيانات، يرجى الانتظار لمدة دقيقة!"</string>
+	<!---->
 	<string name="boom_key_tip_2">"بدء عرض الصور بواسطة مفتاح Boom"</string>
 	<!---->
 	<string name="boom_key_tip_3">"تشغيل إظهار تجميع الصور من الألبومات"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"مرحبًا!"</string>
 	<!---->
 	<string name="not_support_video_edit">"تنسيق الفيديو غير مدعوم."</string>
+	<!---->
+	<string name="no_slowmoedit">"لم يتم تثبيت SlowmoEdit، ولا يمكن استخدام هذه الوظيفة!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"طي ألبومات"</string>
+	<!---->
+	<string name="settings_albums">"الإعدادات"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"إنشاء ألبوم"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"أدخل اسم الألبوم"</string>
+	<!---->
+	<string name="album_exists_warning">"اسم الألبوم موجود بالفعل"</string>
+	<!---->
+	<string name="create_new_album_confirm">"إنشاء"</string>
+	<!---->
+	<string name="create_new_album_cancel">"إلغاء"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"هل تريد حذف هذا الألبوم؟"</string>
+	<!---->
+	<string name="delete_album_confirm">"حذف"</string>
+	<!---->
+	<string name="delete_album_cancel">"إلغاء"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"يمكن/لا يمكن أن يكون الاسم فارغًا"</string>
+	<!---->
+	<string name="new_album_select_title">"إضافة إلى ألبوم"</string>
+	<!---->
+	<string name="new_album_confirm_title">"هل تريد النسخ أم الانتقال إلى ألبوم جديد؟"</string>
+	<!---->
+	<string name="new_album">"ألبوم جديد"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"اسم الألبوم يحتوي على حرف غير صالح!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"تعيين كخاص"</string>
+	<!---->
+	<string name="set_public">"تعيين كعام"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

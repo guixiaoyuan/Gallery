@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Selezionare l\'album"</string>
 	<!---->
+	<string name="rename_album">"Rinomina album"</string>
+	<!---->
+	<string name="delete_album">"Elimina album"</string>
+	<!---->
 	<string name="select_group">"Seleziona gruppo"</string>
 	<!---->
 	<string name="set_image">"Imposta come..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Eliminare l\'elemento selezionato?"</item>
 		<item quantity="other">"Eliminare gli elementi selezionati?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Sposta"</string>
+	<!---->
+	<string name="moving">"Spostamento in corso"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Spostare l\'elemento selezionato?"</item>
+		<item quantity="other">"Spostare gli elementi selezionati?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Copia"</string>
+	<!---->
+	<string name="copying">"Copia in corso"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Copiare l\'elemento selezionato?"</item>
+		<item quantity="other">"Copiare gli elementi selezionati?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Conferma"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Nessun album disponibile"</string>
 	<!---->
 	<string name="empty_album">"Nessun video/immagine disponibile"</string>
+	<!---->
+	<string name="slideshow_alert">"Nessuna immagine disponibile"</string>
 	<!---->
 	<string name="picasa_posts">"Post"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Album"</string>
 	<!---->
+	<string name="tab_explore">"Esplora"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Altre opzioni"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Impostazioni"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Visualizzazione mensile"</string>
 	<!---->
+	<string name="slow_motion">"Rallentatore"</string>
+	<!---->
+	<string name="move_to_album">"Sposta nell\'album"</string>
+	<!---->
+	<string name="copy_to_album">"Copia nell\'album"</string>
+	<!---->
 	<string name="moments_day_view">"Visualizzazione giornaliera"</string>
+	<!---->
+	<string name="moments_staggered_view">"visualizzazione a griglia"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Tutti"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Foto"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Parallasse"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Video"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"ANNULLA"</string>
 	<!---->
 	<string name="burst_delete">"Cancella"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"Face Show"</string>
 	<!---->
 	<string name="favorite">"Preferiti"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Presenta le foto in collage diversi e incredibili"</string>
 	<!---->
+	<string name="loading_data_message">"Caricamento dei dati in corso. Attendere."</string>
+	<!---->
 	<string name="boom_key_tip_2">"Avvia la visualizzazione del collage tramite il tasto Boom"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Attiva la presentazione collage da Album"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"Ciao!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Il formato del video non è supportato."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit non è installato e non è possibile utilizzare questa funzione."</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Comprimi album"</string>
+	<!---->
+	<string name="settings_albums">"Impostazioni"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Crea album"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Immetti nome album"</string>
+	<!---->
+	<string name="album_exists_warning">"Il nome dell\'album esiste già"</string>
+	<!---->
+	<string name="create_new_album_confirm">"CREA"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Annulla"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Eliminare l\'album?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Elimina"</string>
+	<!---->
+	<string name="delete_album_cancel">"Annulla"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Il nome dell\'album non può essere vuoto"</string>
+	<!---->
+	<string name="new_album_select_title">"Aggiungi all\'album"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Copiare o spostare nel nuovo album?"</string>
+	<!---->
+	<string name="new_album">"Nuovo album"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Il nome dell\'album contiene caratteri non validi."</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Imposta come privato"</string>
+	<!---->
+	<string name="set_public">"Imposta come pubblico"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

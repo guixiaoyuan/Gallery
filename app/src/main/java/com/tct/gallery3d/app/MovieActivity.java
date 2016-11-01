@@ -209,7 +209,7 @@ import com.android.gallery3d.app.DeviceInfo;
 import com.android.gallery3d.app.DlnaService;
 import com.android.gallery3d.ext.IMovieItem;
 import com.android.gallery3d.ext.MovieItem;
-import com.mediatek.omadrm.MtkDrmManager;
+import com.mtk.drm.frameworks.MtkDrmManager;
 import com.tct.gallery3d.R;
 import com.tct.gallery3d.app.MoviePlayer.TVState;
 import com.tct.gallery3d.app.constant.GalleryConstant;
@@ -2325,8 +2325,14 @@ public class MovieActivity extends Activity implements SensorEventListener,
             intent.setAction("com.muvee.iclipeditor.TRIM");
         }
         // [ALM][BUGFIX]-Add by TCTNJ,jian.pan1, 2015-12-14,Defect:1157514 end
-        Uri uri = Uri.fromFile(new File(mItem.getFilePath()));
-        intent.setDataAndType(uri, mMimeType);
+        //Uri uri = Uri.fromFile(new File(mItem.getFilePath()));
+        if (com.tct.gallery3d.image.Utils.hasN()) {
+            intent.setData(mItem.getContentUri());
+        } else {
+            Uri uri = Uri.fromFile(new File(mItem.getFilePath()));
+            intent.setDataAndType(uri, mItem.mimeType);
+        }
+        //intent.setDataAndType(uri, mMimeType);
         intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION); //[BUGFIX]-Modify by TCTNJ, dongliang.feng, 2015-12-10, PR1044803
         //[BUGFIX]-Add by TCTNJ,su.jiang, 2016-03-15,PR1694257 begin
         if (PLFUtils.getBoolean(this,"def_gallery_custom_share_enable")) {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"アルバムを選択"</string>
 	<!---->
+	<string name="rename_album">"アルバムの名前変更"</string>
+	<!---->
+	<string name="delete_album">"アルバムを削除します"</string>
+	<!---->
 	<string name="select_group">"グループの選択"</string>
 	<!---->
 	<string name="set_image">"名前を付けて設定する..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"選択したアイテムを削除しますか？"</item>
 		<item quantity="other">"選択したアイテムを削除しますか？"</item>
+	</plurals>
+	<!---->
+	<string name="move">"移動"</string>
+	<!---->
+	<string name="moving">"移動中"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"選択した項目を移動しますか？"</item>
+		<item quantity="other">"選択した項目を移動しますか？"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"コピー"</string>
+	<!---->
+	<string name="copying">"コピー中"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"選択した項目をコピーしますか？"</item>
+		<item quantity="other">"選択した項目をコピーしますか？"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"確認"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"使用できるアルバムはありません"</string>
 	<!---->
 	<string name="empty_album">"使用できる画像/ビデオがありません"</string>
+	<!---->
+	<string name="slideshow_alert">"使用できる画像がありません"</string>
 	<!---->
 	<string name="picasa_posts">"投稿"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"アルバム"</string>
 	<!---->
+	<string name="tab_explore">"検索"</string>
+	<!---->
 	<string name="camera_menu_more_label">"その他のオプション"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"設定"</string>
@@ -1031,15 +1055,23 @@
 	<!---->
 	<string name="open_with">"開く"</string>
 	<!---->
-	<string name="moments_month_view">"1 か月表示"</string>
+	<string name="moments_month_view">"1ヶ月表示"</string>
+	<!---->
+	<string name="slow_motion">"スローモーション"</string>
+	<!---->
+	<string name="move_to_album">"アルバムに移動する"</string>
+	<!---->
+	<string name="copy_to_album">"アルバムにコピーします"</string>
 	<!---->
 	<string name="moments_day_view">"1 日表示"</string>
+	<!---->
+	<string name="moments_staggered_view">"スタガー表示"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"すべて"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"写真"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Parallax"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"動画"</string>
 	<!---->
@@ -1055,9 +1087,9 @@
 	<!---->
 	<string name="burst_cancel">"キャンセル"</string>
 	<!---->
-	<string name="burst_delete">"Del"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<string name="burst_delete">"削除"</string>
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"お気に入り"</string>
 	<!---->
@@ -1081,7 +1113,7 @@
 	<!---->
 	<string name="trim_discard">"破棄"</string>
 	<!---->
-	<string name="main_tab_moments">"Moments"</string>
+	<string name="main_tab_moments">"日時"</string>
 	<!---->
 	<string name="moments_show">"表示"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"コラージュで写真を表示"</string>
 	<!---->
+	<string name="loading_data_message">"データを読み込みます。しばらくお待ちください。"</string>
+	<!---->
 	<string name="boom_key_tip_2">"ブームキーを使ってコラージュショーを開始"</string>
 	<!---->
 	<string name="boom_key_tip_3">"アルバムからのコラージュショーを開始"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"こんにちは"</string>
 	<!---->
 	<string name="not_support_video_edit">"ビデオフォーマットには対応していません。"</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEditがインストールされていないため、この機能は使用できません。"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"アルバムを破棄します"</string>
+	<!---->
+	<string name="settings_albums">"設定"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"アルバムを作成します"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"アルバム名を入力します"</string>
+	<!---->
+	<string name="album_exists_warning">"このアルバム名はすでに存在します"</string>
+	<!---->
+	<string name="create_new_album_confirm">"作成"</string>
+	<!---->
+	<string name="create_new_album_cancel">"キャンセル"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"このアルバムを削除しますか?"</string>
+	<!---->
+	<string name="delete_album_confirm">"削除"</string>
+	<!---->
+	<string name="delete_album_cancel">"キャンセル"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"アルバム名は空白にできません"</string>
+	<!---->
+	<string name="new_album_select_title">"アルバムに追加"</string>
+	<!---->
+	<string name="new_album_confirm_title">"コピーするか新しいアルバムに移動しますか?"</string>
+	<!---->
+	<string name="new_album">"新しいアルバム"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"アルバム名に無効な文字が含まれています!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"プライベートとして設定"</string>
+	<!---->
+	<string name="set_public">"パブリックとして設定"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

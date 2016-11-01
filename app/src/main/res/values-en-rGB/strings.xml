@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">"Gallery"</string>
@@ -8,9 +8,9 @@
     <string name="gadget_title">"Picture frame"</string>
 
     <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-    <string name="details_ms">%1$02d:%2$02d</string>
+    <string name="details_ms">"%1$02d:%2$02d"</string>
     <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <string name="details_hms">"%1$d:%2$02d:%3$02d"</string>
     <!-- Activity label. This might show up in the activity-picker -->
     <string name="movie_view_label">"Video player"</string>
     <!-- shown in the video player view while the video is being loaded, before it starts playing -->
@@ -80,6 +80,10 @@
     <string name="select_item">"Select item"</string>
     <!-- Title prompted for user to choose an album [CHAR LIMIT=20] -->
     <string name="select_album">"Select album"</string>
+    <!-- Title prompted for user to rename an album [CHAR LIMIT=20] -->
+    <string name="rename_album">"Rename album"</string>
+    <!-- Title prompted for user to delete an album [CHAR LIMIT=20] -->
+    <string name="delete_album">"Delete album"</string>
     <!-- Title prompted for user to choose a group [CHAR LIMIT=20] -->
     <string name="select_group">"Select group"</string>
 
@@ -101,6 +105,18 @@
     <plurals name="delete_selection">
         <item quantity="one">"Delete selected item?"</item>
         <item quantity="other">"Delete selected items?"</item>
+    </plurals>
+    <string name="move">"Move"</string>
+    <string name="moving">"Moving"</string>
+    <plurals name="move_selection">
+        <item quantity="one">"Move selected item?"</item>
+        <item quantity="other">"Move selected items?"</item>
+    </plurals>
+    <string name="copy">"Copy"</string>
+    <string name="copying">"Copying"</string>
+    <plurals name="copy_selection">
+        <item quantity="one">"Copy selected item?"</item>
+        <item quantity="other">"Copy selected items?"</item>
     </plurals>
     <string name="confirm">"Confirm"</string>
     <string name="cancel">"Cancel"</string>
@@ -264,7 +280,7 @@
     <!-- Toast message shown when we close the AlbumPage because it is empty
             [CHAR LIMIT=50] -->
     <string name="empty_album">"No image/video available"</string>
-
+    <string name="slideshow_alert">"No image available"</string>
     <!-- Album label used to indicate the collection of PWA Buzz/Post photos -->
     <string name="picasa_posts">"Posts"</string>
 
@@ -480,7 +496,7 @@
     <string name="folder_imported">"Imported"</string>
 
     <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
-    <string name="folder_screenshot">"Screenshots"</string>
+    <string name="folder_screenshot">"Screenshot"</string>
 
     <!-- The title of the menu item which display online help in browser. [CHAR LIMIT=20]-->
     <string name="help">"Help"</string>
@@ -527,10 +543,10 @@
     <string msgid="8140440041190264400" name="save">"SAVE"</string>
 
     <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
-    <string name="ingest_import">@string/Import</string>
+    <string name="ingest_import">"@string/Import"</string>
 
     <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
-    <string name="ingest_import_complete">@string/import_complete</string>
+    <string name="ingest_import_complete">"@string/import_complete"</string>
 
     <!--  Text of notification message which is shown when user attaches camera -->
     <string msgid="2048262851775139720" name="ingest_scanning">"Scanning content..."</string>
@@ -565,10 +581,10 @@
     <string name="ingest_no_device">"There is no MTP device connected"</string>
 
     <!-- Label for album grid button -->
-    <string name="ingest_switch_photo_grid">@string/switch_photo_grid</string>
+    <string name="ingest_switch_photo_grid">"@string/switch_photo_grid"</string>
 
     <!-- Label for fullscreen button. [CHAR LIMIT=20] -->
-    <string name="ingest_switch_photo_fullscreen">@string/switch_photo_fullscreen</string>
+    <string name="ingest_switch_photo_fullscreen">"@string/switch_photo_fullscreen"</string>
 
     <!-- Camera resources below -->
 
@@ -1032,6 +1048,7 @@ CHAR LIMIT = NONE] -->
     <string name="tab_photos">"Photos"</string>
     <!-- Title for the albums tab [CHAR LIMIT=25] -->
     <string name="tab_albums">"Albums"</string>
+    <string name="tab_explore">"Explore"</string>
 
     <!-- Camera menu labels -->
 
@@ -1209,10 +1226,14 @@ CHAR LIMIT = NONE] -->
     <string name="dialog_min_image_save_message">"Minimum size is 320 x 320 pixels."</string>
     <string name="open_with">"Open with"</string>
     <string name="moments_month_view">"Month view"</string>
+    <string name="slow_motion">"Slow motion"</string>
+    <string name="move_to_album">"Move to album"</string>
+    <string name="copy_to_album">"Copy to album"</string>
     <string name="moments_day_view">"Day view"</string>
+    <string name="moments_staggered_view">"Staggered view"</string>
     <string name="actionbar_menu_text_all">"All"</string>
     <string name="actionbar_menu_text_photo">"Photo"</string>
-    <string name="actionbar_menu_text_parallax">Parallax</string>
+    <string name="actionbar_menu_text_parallax">"Parallax"</string>
     <string name="actionbar_menu_text_video">"Video"</string>
     <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-12-26,PR1048523 Begin -->
     <string name="actionbar_menu_text_fyuse">"Fyuse"</string>
@@ -1223,14 +1244,14 @@ CHAR LIMIT = NONE] -->
     <string name="burst_save_as_individual_images">"Save as individual images"</string>
     <string name="burst_cancel">"Cancel"</string>
     <string name="burst_delete">"Delete"</string>
-    <string name="face_show">FaceShow</string>
+    <string name="face_show">"FaceShow"</string>
     <string name="favorite">"Favourite"</string>
     <string name="select">"Select"</string>
     <string name="getstarted">"Get started"</string>
     <string name="gotit">"Got it"</string>
     <string name="faceshow_start">"A real marvel awaits when you reach up to a certain amount of selfies. Start your journey now!"</string>
     <string name="faceshow_takemore">"You need more selfies to create your own face show."</string>
-    <string name="selfies">"Selfies"</string>
+    <string name="selfies">"Selfie"</string>
     <string name="parallax">"Parallax"</string>
     <!--//[BUGFIX]-Add by TCTNJ,su.jiang, 2015-10-26,PR791933 Begin -->
     <string name="trim_title">"Discard changes?"</string>
@@ -1284,6 +1305,7 @@ CHAR LIMIT = NONE] -->
 
     <string name="boom_key_tip_1">"Present photos in different and incredible collages"</string>
     <!--//[BUGFIX]-Modify by TCTNJ,su.jiang, 2016-03-10,PR1534334 begin -->
+    <string name="loading_data_message">"Loading data, please wait for a moment!"</string>
     <string name="boom_key_tip_2">"Start collage show by Boom key"</string>
     <!--//[BUGFIX]-Modify by TCTNJ,su.jiang, 2016-03-10,PR1534334 end -->
     <string name="boom_key_tip_3">"Trigger collage show from Albums"</string>
@@ -1297,4 +1319,43 @@ CHAR LIMIT = NONE] -->
     <string name="not_support_parallax_share">"Can\'t share Fyuse from Moments"</string>
     <string name="permissions_hi">"HI!"</string>
     <string name="not_support_video_edit">"Video format isn’t supported."</string>
+    <string name="no_slowmoedit">"SlowmoEdit isn\'t installed, and this function can\'t be used!"</string>
+    <string name="default_album_count">00</string>
+    <string name="default_album_name">Pictures</string>
+    <string name="grid_layout_header_time">Time</string>
+    <string name="grid_layout_header_location">Location</string>
+    <string name="no_content">"No contents"</string>
+    <string name="no_content_description">"Take some photos with your phone."</string>
+    <string name="no_content_album">"No contents in this album"</string>
+    <string name="no_content_album_description">"Select items and copy or move them here"</string>
+
+    <string name="create_album">Create album</string>
+    <string name="sort_albums">"Sort albums"</string>
+    <string name="collapse_albums">"Collapse albums"</string>
+    <string name="settings_albums">"Settings"</string>
+    <string name="album_type">album_type</string>
+
+    <string name="create_new_album_dialog_title">"Create album"</string>
+    <string name="create_new_album_dialog_hint">"Enter album name"</string>
+    <string name="album_exists_warning">"Album name already exists"</string>
+    <string name="create_new_album_confirm">"CREATE"</string>
+    <string name="create_new_album_cancel">"CANCEL"</string>
+    <string name="delete_album_dialog_title">"Delete this album?"</string>
+    <string name="delete_album_confirm">"DELETE"</string>
+    <string name="delete_album_cancel">"CANCEL"</string>
+    <string name="create_new_album_fail_warning">create new album fail</string>
+    <string name="new_album_empty_warning">"Album name can\'t be empty"</string>
+    <string name="new_album_select_title">"Add to album"</string>
+    <string name="new_album_confirm_title">"Copy or move to new album?"</string>
+    <string name="new_album">"New album"</string>
+    <string name="invalid_char_of_albumname">"Album name contains invalid character!"</string>
+
+    <string name="animator_on">Animator ON</string>
+    <string name="animator_off">Animator OFF</string>
+
+    <string name="no_muvee_app_toast">"No Muvee App"</string>
+
+    <string name="set_private">"Set as private"</string>
+    <string name="set_public">"Set as public"</string>
+    <string name="private_album_name">"Private Album"</string>
 </resources>

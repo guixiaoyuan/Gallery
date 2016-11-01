@@ -2,17 +2,21 @@ package com.tct.gallery3d.app.adapter;
 
 import android.content.ClipData;
 import android.content.ClipDescription;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 
+import com.mtk.drm.frameworks.MtkDrmManager;
 import com.tct.gallery3d.R;
 import com.tct.gallery3d.app.AbstractGalleryActivity;
 import com.tct.gallery3d.app.GalleryActivity;
@@ -23,9 +27,13 @@ import com.tct.gallery3d.app.fragment.PhotoFragment;
 import com.tct.gallery3d.app.view.PhotoDetailView;
 import com.tct.gallery3d.data.DataManager;
 import com.tct.gallery3d.data.FilterDeleteSet;
+import com.tct.gallery3d.data.LocalImage;
 import com.tct.gallery3d.data.LocalMediaItem;
+import com.tct.gallery3d.data.LocalVideo;
 import com.tct.gallery3d.data.MediaItem;
+import com.tct.gallery3d.data.MediaObject;
 import com.tct.gallery3d.data.Path;
+import com.tct.gallery3d.drm.DrmManager;
 import com.tct.gallery3d.picturegrouping.ExifInfoFilter;
 import com.tct.gallery3d.ui.MenuExecutor;
 import com.tct.gallery3d.ui.SelectionManager;
@@ -55,6 +63,10 @@ public class PhotoDataAdapter extends PagerAdapter implements DataListener ,View
     private int mTotal;
     private int mFirst;
     private Map<Integer, View> mContainsViews;
+
+    private MediaItem mMediaItem;
+    private PhotoDetailView mPhotoDetailView;
+    private boolean isShowConsume = false;
 
     public PhotoDataAdapter(PhotoFragment fragment, ViewPager viewPager) {
         mContainsViews = new HashMap<>();
@@ -96,6 +108,17 @@ public class PhotoDataAdapter extends PagerAdapter implements DataListener ,View
         if (mIsSingleItem)
             return;
         mLoader.resume();
+    }
+
+    public PhotoDetailView getPhotoDetailView(int position) {
+        if (mContainsViews != null) {
+            View view = mContainsViews.get(position);
+            if(view != null){
+                PhotoDetailView photoView = (PhotoDetailView) view.findViewById(R.id.imageView);
+                return  photoView;
+            }
+        }
+        return null;
     }
 
     public void pause() {
@@ -200,6 +223,7 @@ public class PhotoDataAdapter extends PagerAdapter implements DataListener ,View
                 mFragment.updateUI(item);
             }
             int type = item.getMediaType();
+
             switch (type) {
                 case MediaItem.MEDIA_TYPE_VIDEO:
                     photoView.setIsVideo(true);
@@ -210,10 +234,74 @@ public class PhotoDataAdapter extends PagerAdapter implements DataListener ,View
                 default:
                     break;
             }
-            mFragment.loadLarge(item, photoView);
+            if (item.isDrm() == DrmManager.IS_DRM) {
+                photoView.setIsDrm(true);
+            }
+            if (type == MediaItem.MEDIA_TYPE_IMAGE && item.isDrm() == DrmManager.IS_DRM && DrmManager.getInstance().mCurrentDrm == DrmManager.MTK_DRM) {
+                int drmType = DrmManager.getInstance().getDrmScheme(item.getFilePath());
+                if (drmType != DrmManager.DRM_SCHEME_OMA1_FL) {
+                    if (position == getCurrentIndex()) {
+                        mMediaItem = item;
+                        mPhotoDetailView = photoView;
+                        if (!isShowConsume) {
+                            showMtkDrmDialog(mContext.getAndroidContext(), item);
+                            isShowConsume = true;
+                        }
+                    } else {
+                        mFragment.loadThumbnail(item, photoView);
+                    }
+                } else {
+                    mFragment.loadLarge(item, photoView);
+                }
+            } else {
+                mFragment.loadLarge(item, photoView);
+            }
         }
     }
 
+    public void showMtkDrmDialog(Context context, MediaItem item) {
+        final MediaItem mediaItem = (MediaItem) item;
+        int rights = DrmManager.getInstance().checkRightsStatus(mediaItem.getFilePath(), MtkDrmManager.Action.DISPLAY);
+
+        if (MtkDrmManager.RightsStatus.RIGHTS_VALID == rights) {
+            DrmManager.getInstance().showConsumeDialog(context,
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            if (DialogInterface.BUTTON_POSITIVE == which) {
+                                mFragment.loadLarge(mMediaItem, mPhotoDetailView);
+                                DrmManager.getInstance().consumeRights(mediaItem.getFilePath(), MtkDrmManager.Action.DISPLAY);
+                            } else {
+                                mFragment.loadThumbnail(mMediaItem, mPhotoDetailView);
+                            }
+                            dialog.dismiss();
+                        }
+                    },
+                    new DialogInterface.OnDismissListener() {
+                        public void onDismiss(DialogInterface dialog) {
+                            isShowConsume = false;
+                        }
+                    }
+            );
+        } else {
+            if (MtkDrmManager.RightsStatus.SECURE_TIMER_INVALID == rights) {
+                DrmManager.getInstance().showSecureTimerInvalidDialog(context,
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        },
+                        new DialogInterface.OnDismissListener() {
+                            public void onDismiss(DialogInterface dialog) {
+                                isShowConsume = false;
+                            }
+                        }
+                );
+            } else {
+                DrmManager.getInstance().showRefreshLicenseDialog(context, mediaItem.getFilePath());
+                isShowConsume = false;
+            }
+        }
+    }
     @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
         container.removeView((View) object);

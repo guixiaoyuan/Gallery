@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Vyberte album"</string>
 	<!---->
+	<string name="rename_album">"Premenovať album"</string>
+	<!---->
+	<string name="delete_album">"Vymazať album"</string>
+	<!---->
 	<string name="select_group">"Vybrať skupinu"</string>
 	<!---->
 	<string name="set_image">"Nastaviť ako..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Vymazať vybranú položku?"</item>
 		<item quantity="other">"Vymazať vybrané položky?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Presunúť"</string>
+	<!---->
+	<string name="moving">"Presúva sa"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Presunúť vybratú položku?"</item>
+		<item quantity="other">"Presunúť vybraté položky?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Kopírovať"</string>
+	<!---->
+	<string name="copying">"Kopíruje sa"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Kopírovať vybratú položku?"</item>
+		<item quantity="other">"Kopírovať vybraté položky?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Potvrdiť"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"K dispozícii nie sú žiadne albumy"</string>
 	<!---->
 	<string name="empty_album">"Nie je dostupný žiaden obrázok/video"</string>
+	<!---->
+	<string name="slideshow_alert">"Nie je dostupný žiaden obrázok"</string>
 	<!---->
 	<string name="picasa_posts">"Príspevky"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Albumy"</string>
 	<!---->
+	<string name="tab_explore">"Preskúmať"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Ďalšie možnosti"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Nastavenia"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Mesačný prehľad"</string>
 	<!---->
+	<string name="slow_motion">"Spomalený záber"</string>
+	<!---->
+	<string name="move_to_album">"Presunúť do albumu"</string>
+	<!---->
+	<string name="copy_to_album">"Skopírovať do albumu"</string>
+	<!---->
 	<string name="moments_day_view">"Denný prehľad"</string>
+	<!---->
+	<string name="moments_staggered_view">"rozdelené zobrazenie"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Všetko"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Fotografia"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Paralaxa"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Video"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"ZRUŠIŤ"</string>
 	<!---->
 	<string name="burst_delete">"ODSTRÁNIŤ"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"Obľúbené"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Prezentujte fotografie pomocou výnimočných a nevídaných koláží"</string>
 	<!---->
+	<string name="loading_data_message">"Načítavajú sa údaje, chvíľku počkajte."</string>
+	<!---->
 	<string name="boom_key_tip_2">"Spustiť zobrazenie koláže stlačením tlačidla Boom"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Spustiť zobrazenie koláže z albumov"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"Ahoj!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Formát videa nie je podporovaný."</string>
+	<!---->
+	<string name="no_slowmoedit">"Funkcia SlowmoEdit nie je nainštalovaná a nemožno ju použiť!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Zbaliť albumy"</string>
+	<!---->
+	<string name="settings_albums">"Nastavenia"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Vytvoriť album"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Zadajte názov albumu"</string>
+	<!---->
+	<string name="album_exists_warning">"Názov albumu už existuje"</string>
+	<!---->
+	<string name="create_new_album_confirm">"VYTVORIŤ"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Zrušiť"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Vymazať tento album?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Odstrániť"</string>
+	<!---->
+	<string name="delete_album_cancel">"Zrušiť"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Názov albumu musí byť vyplnený"</string>
+	<!---->
+	<string name="new_album_select_title">"Pridať do albumu"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Kopírovať alebo presunúť do nového albumu?"</string>
+	<!---->
+	<string name="new_album">"Nový album"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Názov súboru obsahuje neplatný znak!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Nastaviť ako súkromné"</string>
+	<!---->
+	<string name="set_public">"Nastaviť ako verejné"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

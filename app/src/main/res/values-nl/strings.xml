@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Album selecteren"</string>
 	<!---->
+	<string name="rename_album">"Album hernoemen"</string>
+	<!---->
+	<string name="delete_album">"Album verwijderen"</string>
+	<!---->
 	<string name="select_group">"Groep selecteren"</string>
 	<!---->
 	<string name="set_image">"Instellen als..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Geselecteerde item verwijderen?"</item>
 		<item quantity="other">"Geselecteerde items verwijderen?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Verplaatsen"</string>
+	<!---->
+	<string name="moving">"Verplaatsen"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Geselecteerd item verplaatsen?"</item>
+		<item quantity="other">"Geselecteerde items verplaatsen?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Kopiëren"</string>
+	<!---->
+	<string name="copying">"Kopiëren"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Geselecteerd item kopiëren?"</item>
+		<item quantity="other">"Geselecteerde items kopiëren?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Bevestigen"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Geen albums beschikbaar"</string>
 	<!---->
 	<string name="empty_album">"Geen afbeeldingen/video beschikbaar"</string>
+	<!---->
+	<string name="slideshow_alert">"Geen afbeelding beschikbaar"</string>
 	<!---->
 	<string name="picasa_posts">"Berichten"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Albums"</string>
 	<!---->
+	<string name="tab_explore">"Verkennen"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Meer opties"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Instellingen"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Maandweergave"</string>
 	<!---->
+	<string name="slow_motion">"Langzame actie"</string>
+	<!---->
+	<string name="move_to_album">"Verplaatsen naar album"</string>
+	<!---->
+	<string name="copy_to_album">"Kopiëren naar album"</string>
+	<!---->
 	<string name="moments_day_view">"Dagweergave"</string>
+	<!---->
+	<string name="moments_staggered_view">"versprongen weergave"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Alles"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Foto"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Parallax"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Video"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"ANNULEREN"</string>
 	<!---->
 	<string name="burst_delete">"verwijderen"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"Gezichten weergeven"</string>
 	<!---->
 	<string name="favorite">"Favoriet"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Foto\'s weergeven in aparte en verbluffende collages"</string>
 	<!---->
+	<string name="loading_data_message">"Gegevens laden. Even geduld."</string>
+	<!---->
 	<string name="boom_key_tip_2">"Collageshow starten met Boom-toets"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Collageshow activeren vanuit Albums"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"Hallo!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Video-indeling wordt niet ondersteund."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit is niet geïnstalleerd. Deze functie kan niet worden gebruikt."</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Album samenvouwen"</string>
+	<!---->
+	<string name="settings_albums">"Instellingen"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Album maken"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Voer albumnaam in"</string>
+	<!---->
+	<string name="album_exists_warning">"Naam voor album bestaat al"</string>
+	<!---->
+	<string name="create_new_album_confirm">"MAKEN"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Annuleren"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Dit album verwijderen?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Verwijderen"</string>
+	<!---->
+	<string name="delete_album_cancel">"Annuleren"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Albumnaam mag niet leeg zijn"</string>
+	<!---->
+	<string name="new_album_select_title">"Toevoegen aan album"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Kopiëren of verplaatsen naar nieuw album?"</string>
+	<!---->
+	<string name="new_album">"Nieuw album"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Albumnaam bevat ongeldig teken."</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Instellen als privé"</string>
+	<!---->
+	<string name="set_public">"Instellen als openbaar"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

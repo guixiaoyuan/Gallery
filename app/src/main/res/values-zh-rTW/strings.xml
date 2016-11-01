@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"選擇專輯"</string>
 	<!---->
+	<string name="rename_album">"重命名相簿"</string>
+	<!---->
+	<string name="delete_album">"刪除相薄"</string>
+	<!---->
 	<string name="select_group">"選取群組"</string>
 	<!---->
 	<string name="set_image">"設為..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"刪除選取的項目？"</item>
 		<item quantity="other">"刪除選取的項目？"</item>
+	</plurals>
+	<!---->
+	<string name="move">"移動"</string>
+	<!---->
+	<string name="moving">"正在移動"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"是否移除所選項目？"</item>
+		<item quantity="other">"是否移除所選項目？"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"複製"</string>
+	<!---->
+	<string name="copying">"正在複製"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"是否複製所選項目？"</item>
+		<item quantity="other">"是否複製所選項目？"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"確認"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"沒有相簿"</string>
 	<!---->
 	<string name="empty_album">"O 個可用的圖片/影片"</string>
+	<!---->
+	<string name="slideshow_alert">"無可用的圖像"</string>
 	<!---->
 	<string name="picasa_posts">"訊息中的相片"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"相簿"</string>
 	<!---->
+	<string name="tab_explore">"探索"</string>
+	<!---->
 	<string name="camera_menu_more_label">"更多選項"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"設定"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"每月檢視"</string>
 	<!---->
+	<string name="slow_motion">"放慢動作"</string>
+	<!---->
+	<string name="move_to_album">"移動至相薄"</string>
+	<!---->
+	<string name="copy_to_album">"復制至相薄"</string>
+	<!---->
 	<string name="moments_day_view">"每日檢視"</string>
+	<!---->
+	<string name="moments_staggered_view">"交錯式視角"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"全部"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"相片"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"視差"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"影片"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"取消"</string>
 	<!---->
 	<string name="burst_delete">"刪除"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"我的最愛"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"在不同的出人意料的拼貼中呈現相片"</string>
 	<!---->
+	<string name="loading_data_message">"正在載入資料，請等待片刻！"</string>
+	<!---->
 	<string name="boom_key_tip_2">"透過聲震鍵開啟拼貼顯示"</string>
 	<!---->
 	<string name="boom_key_tip_3">"從專輯中觸發拼貼展示"</string>
@@ -1150,5 +1184,72 @@
 	<string name="permissions_hi">"你好！"</string>
 	<!---->
 	<string name="not_support_video_edit">"不支援的影片格式。"</string>
-    <string name="no_slowmoedit">"SlowmoEdit應用未安裝，此功能無法使用！"</string>
+	<!---->
+	<string name="no_slowmoedit">"未安裝 SlowmoEdit，此功能無法使用！"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"折疊相簿"</string>
+	<!---->
+	<string name="settings_albums">"設定"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"新建相簿"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"輸入相簿名稱"</string>
+	<!---->
+	<string name="album_exists_warning">"相簿名稱已存在"</string>
+	<!---->
+	<string name="create_new_album_confirm">"創建"</string>
+	<!---->
+	<string name="create_new_album_cancel">"取消"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"刪除該相簿？"</string>
+	<!---->
+	<string name="delete_album_confirm">"刪除"</string>
+	<!---->
+	<string name="delete_album_cancel">"取消"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"相簿名稱不能為空。"</string>
+	<!---->
+	<string name="new_album_select_title">"新增至相簿"</string>
+	<!---->
+	<string name="new_album_confirm_title">"複製或移動至新相簿？"</string>
+	<!---->
+	<string name="new_album">"新相簿"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"相簿名稱包含無效字元！"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"設為私人"</string>
+	<!---->
+	<string name="set_public">"設為公開"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

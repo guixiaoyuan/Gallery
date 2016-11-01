@@ -373,6 +373,9 @@ public abstract class MediaItem extends MediaObject {
                     }
                     Log.w("MediaItem", "DRM PhotoPage createDrmThumbnails............... bitmap1 =" + bitmap);
                 }
+                if (bitmap == null && DrmManager.getInstance().mCurrentDrm == DrmManager.MTK_DRM && item != null && item instanceof LocalImage) {
+                        bitmap = DrmManager.getInstance().getDrmThumbnail(path,640);
+                }
                 if (bitmap == null) {
                     Log.w("MediaItem", "DRM  createDrmThumbnails 2");
                     System.out.println("unlock");
@@ -381,14 +384,16 @@ public abstract class MediaItem extends MediaObject {
                     input.read(b);
                     bitmap =  DecodeUtils.requestDecode(jc, b, options);
                 }
+            } else if (DrmManager.getInstance().mCurrentDrm == DrmManager.MTK_DRM) {
+                return null;
             } else {
                 System.out.println("locked");
                 input = context.getResources().openRawResource(R.drawable.drm_thumbnail_locked);
                 b = new byte[input.available()];
                 input.read(b);
-                bitmap =  DecodeUtils.requestDecode(jc, b, options);
+                bitmap = DecodeUtils.requestDecode(jc, b, options);
             }
-            if(input != null) input.close();
+            if (input != null) input.close();
             return bitmap;
         } catch (IOException e) {
         }

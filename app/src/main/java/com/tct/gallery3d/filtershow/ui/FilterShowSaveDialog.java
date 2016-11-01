@@ -45,7 +45,7 @@ public class FilterShowSaveDialog implements OnClickListener {
         this.mContext = context;
         this.mHandler = handler;
         mInflater = LayoutInflater.from(context);
-        mSp = mContext.getSharedPreferences(DONT_ASK_TIP, 1);
+        mSp = mContext.getSharedPreferences(DONT_ASK_TIP, Context.MODE_PRIVATE);
         initView();
     }
 

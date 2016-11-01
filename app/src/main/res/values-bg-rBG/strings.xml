@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Изберете албум"</string>
 	<!---->
+	<string name="rename_album">"Преименуване на албум"</string>
+	<!---->
+	<string name="delete_album">"Изтриване на албума"</string>
+	<!---->
 	<string name="select_group">"Изберете група"</string>
 	<!---->
 	<string name="set_image">"Задаване като..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Изтриване на избрания елемент?"</item>
 		<item quantity="other">"Изтриване на избраните елементи?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Преместване"</string>
+	<!---->
+	<string name="moving">"Премества се"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Преместване на избрания елемент?"</item>
+		<item quantity="other">"Преместване на избраните елементи?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Копир."</string>
+	<!---->
+	<string name="copying">"Копира се"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Копиране на избрания елемент?"</item>
+		<item quantity="other">"Копиране на избраните елементи?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Потвърждение"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Няма налични албуми"</string>
 	<!---->
 	<string name="empty_album">"Няма снимки/видео на разположение"</string>
+	<!---->
+	<string name="slideshow_alert">"Няма налично изображение"</string>
 	<!---->
 	<string name="picasa_posts">"Публикации"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Албуми"</string>
 	<!---->
+	<string name="tab_explore">"Изследване"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Още опции"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Настройки"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Месечен преглед"</string>
 	<!---->
+	<string name="slow_motion">"Бавно действие"</string>
+	<!---->
+	<string name="move_to_album">"Преместване в албум"</string>
+	<!---->
+	<string name="copy_to_album">"Копиране в албум"</string>
+	<!---->
 	<string name="moments_day_view">"Дневен преглед"</string>
+	<!---->
+	<string name="moments_staggered_view">"поетапен преглед"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Всички"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Снимка"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Паралакс"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Видео"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"Отказ"</string>
 	<!---->
 	<string name="burst_delete">"ИЗТРИЙ"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"любимо"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Представяте снимки в различни и невероятни колажи"</string>
 	<!---->
+	<string name="loading_data_message">"Зареждане на данни, моля, изчакайте един момент!"</string>
+	<!---->
 	<string name="boom_key_tip_2">"Започнете колажното шоу с бутона Boom"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Пуска колажно шоу от Албуми"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"Привет!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Видео форматът не се поддържа."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit не е инсталирано и тази функция не може да се използва!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Свиване на албумите"</string>
+	<!---->
+	<string name="settings_albums">"Настройки"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Създаване на албум"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Въведете име на албума"</string>
+	<!---->
+	<string name="album_exists_warning">"Името на албума вече съществува"</string>
+	<!---->
+	<string name="create_new_album_confirm">"СЪЗДАВАНЕ"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Отказ"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Изтриване на този албум?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Изтрий"</string>
+	<!---->
+	<string name="delete_album_cancel">"Отказ"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Полето за име на албум не може да бъде празно"</string>
+	<!---->
+	<string name="new_album_select_title">"Добавяне в албум"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Копиране или преместване в нов албум?"</string>
+	<!---->
+	<string name="new_album">"Нов албум"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Името на албума съдържа невалиден знак!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Задаване като лично"</string>
+	<!---->
+	<string name="set_public">"Задаване като публично"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"בחר אלבום"</string>
 	<!---->
+	<string name="rename_album">"שנה את שם האלבום"</string>
+	<!---->
+	<string name="delete_album">"מחק אלבום"</string>
+	<!---->
 	<string name="select_group">"בחר קבוצה"</string>
 	<!---->
 	<string name="set_image">"קבע כ&#8230;"</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"האם למחוק את הפריט שנבחר?"</item>
 		<item quantity="other">"האם למחוק את הפריטים שנבחרו?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"העבר"</string>
+	<!---->
+	<string name="moving">"מעביר"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"להעביר פריט נבחר?"</item>
+		<item quantity="other">"להעביר פריטים נבחרים?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"העתק"</string>
+	<!---->
+	<string name="copying">"מעתיק"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"להעתיק פריט נבחר?"</item>
+		<item quantity="other">"להעתיק פריטים נבחרים?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"אשר"</string>
@@ -132,8 +152,8 @@
 	<string name="no_such_item">"הפריט לא נמצא."</string>
 	<!---->
 	<string name="edit">"ערוך"</string>
-	<!-- no translation found for mix_video -->
-	<skip />
+	<!---->
+	<string name="mix_video">"ערבוב"</string>
 	<!---->
 	<string name="simple_edit">"עריכה פשוטה"</string>
 	<!---->
@@ -186,8 +206,10 @@
 	<string name="crop_saved">"התמונה שנחתכה נשמרה ב-<xliff:g id="FOLDER_NAME">%s</xliff:g>."</string>
 	<!---->
 	<string name="no_albums_alert">"אין אלבומים זמינים"</string>
-	<!-- no translation found for empty_album -->
-	<skip />
+	<!---->
+	<string name="empty_album">"אין תמונה/סרטון וידאו זמינים."</string>
+	<!---->
+	<string name="slideshow_alert">"אין תמונה זמינה"</string>
 	<!---->
 	<string name="picasa_posts">"פוסטים"</string>
 	<!---->
@@ -358,10 +380,10 @@
 	<string name="please_wait">"אנא המתן"</string>
 	<!---->
 	<string name="save_into">"שומר וידיאו ב-<xliff:g id="album_name">%1$s</xliff:g> \u2026"</string>
-	<!-- no translation found for trim_save_into -->
-	<skip />
-	<!-- no translation found for mute_save_into -->
-	<skip />
+	<!---->
+	<string name="trim_save_into">"קובץ מקוצץ נשמר אל <xliff:g id="album_name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="mute_save_into">"קובץ בו השמע הושתק נשמר אל <xliff:g id="album_name">%1$s</xliff:g>"</string>
 	<!---->
 	<string name="trim_too_short">"לא יכול לחתוך: הוידאו קצר מדי"</string>
 	<!---->
@@ -381,8 +403,11 @@
 		<item quantity="one">"פריט %1$d נסרק"</item>
 		<item quantity="other">"%1$d פריטים נסרקו"</item>
 	</plurals>
-	<!-- no translation found for ingest_number_of_items_selected -->
-	<skip />
+	<plurals name="ingest_number_of_items_selected">
+		<item quantity="zero">"%1$d פריטים שנבחרו"</item>
+		<item quantity="one">"%1$d פריט שנבחר"</item>
+		<item quantity="other">"%1$d פריטים שנבחרו"</item>
+	</plurals>
 	<!---->
 	<string name="ingest_sorting">"ממיין..."</string>
 	<!---->
@@ -481,10 +506,10 @@
 	<string name="pref_camera_focusmode_entry_macro">"מאקרו"</string>
 	<!---->
 	<string name="pref_camera_focusmode_label_auto">"אוטומטי"</string>
-	<!-- no translation found for pref_camera_focusmode_label_infinity -->
-	<skip />
-	<!-- no translation found for pref_camera_focusmode_label_macro -->
-	<skip />
+	<!---->
+	<string name="pref_camera_focusmode_label_infinity">"אינפיניטי"</string>
+	<!---->
+	<string name="pref_camera_focusmode_label_macro">"מאקרו"</string>
 	<!---->
 	<string name="pref_camera_flashmode_title">"מצב Flash"</string>
 	<!---->
@@ -800,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"אלבומים"</string>
 	<!---->
+	<string name="tab_explore">"חקור"</string>
+	<!---->
 	<string name="camera_menu_more_label">"אפשרויות נוספות"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"הגדרות"</string>
@@ -833,10 +860,10 @@
 	<string name="notify_photo_text">"בקר וידיאו"</string>
 	<!---->
 	<string name="notify_video_text">"בקר וידיאו"</string>
-	<!-- no translation found for notify_ticker_forwfd_photo -->
-	<skip />
-	<!-- no translation found for notify_ticker_forwfd_video -->
-	<skip />
+	<!---->
+	<string name="notify_ticker_forwfd_photo">"מצגת תמונות בתצוגת Wi-Fi מופעלת"</string>
+	<!---->
+	<string name="notify_ticker_forwfd_video">"וידאו בתצוגת Wi-Fi מופעל"</string>
 	<!---->
 	<string name="wfd_alert">"התראה"</string>
 	<!---->
@@ -845,28 +872,28 @@
 	<string name="wfd_change_button">"כן"</string>
 	<!---->
 	<string name="wfd_not_change_button">"לא"</string>
-	<!-- no translation found for wfd_show -->
-	<skip />
-	<!-- no translation found for wfd_show_on -->
-	<skip />
+	<!---->
+	<string name="wfd_show">"תצוגת Wi-Fi"</string>
+	<!---->
+	<string name="wfd_show_on">"הפעל תצוגת Wi-Fi"</string>
 	<!---->
 	<string name="wfd_show_off">"כיבוי קישור TV"</string>
-	<!-- no translation found for wifi_gesture_tip -->
-	<skip />
+	<!---->
+	<string name="wifi_gesture_tip">"יש לגרור את הקובץ למלבן הצהוב כדי לשתף במסך שלך."</string>
 	<!---->
 	<string name="popupvideo_notsupport_message">"סוג זה לא נתמך"</string>
 	<!---->
 	<string name="drm_wifidisplay_title">"מצב אזהרה"</string>
-	<!-- no translation found for drm_wifidisplay_message -->
-	<skip />
+	<!---->
+	<string name="drm_wifidisplay_message">"כל הקבצים המוגנים-מפני-העתקה מוסתרים בשל חיבור תצוגת Wi-Fi."</string>
 	<!---->
 	<string name="drm_wifidisplay_cancel">"כיבוי קישור TV"</string>
 	<!---->
 	<string name="drm_wifidisplay_continue">"המשך"</string>
-	<!-- no translation found for tv_link_close -->
-	<skip />
-	<!-- no translation found for drm_no_valid_right -->
-	<skip />
+	<!---->
+	<string name="tv_link_close">"תצוגת Wi-Fi נסגרה."</string>
+	<!---->
+	<string name="drm_no_valid_right">"לקובץ אין אסמכתת DRM תקפה"</string>
 	<!---->
 	<string name="drm_delete_invalid_content">"פג תוקפו של קובץ DRM "%s. האם ברצונך למחוק אותו?"</string>
 	<!---->
@@ -903,22 +930,22 @@
 	<string name="noRenderer">"לא ניתן למצוא התקן עיבוד"</string>
 	<!---->
 	<string name="stop_playing_video_on_tv">"להפסיק להציג וידיאו בטלוויזיה?"</string>
-	<!-- no translation found for stop_playing_picture_on_tv -->
-	<skip />
+	<!---->
+	<string name="stop_playing_picture_on_tv">"להפסיק להציג תמונות בטלוויזיה?"</string>
 	<!---->
 	<string name="play_video">"נגן וידיאו"</string>
-	<!-- no translation found for shake_video_text -->
-	<skip />
-	<!-- no translation found for shake_picture_text -->
-	<skip />
+	<!---->
+	<string name="shake_video_text">"כדי לנגן זאת בטלוויזיה שלך, נער את הטלפון שלך בעמוד הווידאו."</string>
+	<!---->
+	<string name="shake_picture_text">"כדי לנגן זאת בטלוויזיה שלך, נער את הטלפון שלך בעמוד התמונה."</string>
 	<!---->
 	<string name="wait_dialog">"אנא המתן...""</string>
-	<!-- no translation found for toast_nostop -->
-	<skip />
+	<!---->
+	<string name="toast_nostop">"כדי להפסיק להציג בטלוויזיה, בחר בנגן מקומי."</string>
 	<!---->
 	<string name="dlna_format_not_support">"תבנית הקובץ אינה נתמכת."</string>
-	<!-- no translation found for left_title_camera_roll -->
-	<skip />
+	<!---->
+	<string name="left_title_camera_roll">"סרט המצלמה"</string>
 	<!---->
 	<string name="left_title_timeline">"שעון"</string>
 	<!---->
@@ -931,8 +958,8 @@
 	<string name="drawer_open">"פתח את חלונית הניווט"</string>
 	<!---->
 	<string name="drawer_close">"סגור את חלונית הניווט"</string>
-	<!-- no translation found for photo_share -->
-	<skip />
+	<!---->
+	<string name="photo_share">"שתף עם"</string>
 	<!---->
 	<string name="filtershow_save">"שמור"</string>
 	<!---->
@@ -943,38 +970,38 @@
 	<string name="drm_no_crop">"קובץ "%s" לא מורשה העתקה משום היותו מוגן DRM"</string>
 	<!---->
 	<string name="drm_no_contact_icon">"הקובץ %s לא יכול להיות מוגדר כתמונת מתקשר שכן הוא מוגן DRM."</string>
-	<!-- no translation found for never_tip -->
-	<skip />
-	<!-- no translation found for three_finger_tips0 -->
-	<skip />
-	<!-- no translation found for three_finger_tips1 -->
-	<skip />
-	<!-- no translation found for three_finger_tips2 -->
-	<skip />
+	<!---->
+	<string name="never_tip">"הצג עצות בעת ההתחלה"</string>
+	<!---->
+	<string name="three_finger_tips0">"הנח שלוש אצבעות על המסך."</string>
+	<!---->
+	<string name="three_finger_tips1">"גרור את הקובץ לאזור הצהוב."</string>
+	<!---->
+	<string name="three_finger_tips2">"כאשר האזור כולו מוצהב, השיתוף מצליח."</string>
 	<!---->
 	<string name="drm_not_support_wifidisplay">"אין להציג קובץ DRM בתצוגת Wi-Fi!"</string>
-	<!-- no translation found for filtershow_save_title -->
-	<skip />
-	<!-- no translation found for filtershow_save_message -->
-	<skip />
+	<!---->
+	<string name="filtershow_save_title">"שמור שינויים"</string>
+	<!---->
+	<string name="filtershow_save_message">"לשמור בתור עותק או לשמור על גבי התמונה המקורית?"</string>
 	<!---->
 	<string name="filtershow_save_no_ask">"אל תשאל שוב"</string>
-	<!-- no translation found for filtershow_save_button_copy -->
-	<skip />
-	<!-- no translation found for filtershow_save_button_overwrite -->
-	<skip />
-	<!-- no translation found for lock_video -->
-	<skip />
-	<!-- no translation found for unlock_video -->
-	<skip />
+	<!---->
+	<string name="filtershow_save_button_copy">"לשמור בתור עותק"</string>
+	<!---->
+	<string name="filtershow_save_button_overwrite">"שמור על גבי המקור"</string>
+	<!---->
+	<string name="lock_video">"נעול"</string>
+	<!---->
+	<string name="unlock_video">"לא נעול"</string>
 	<!---->
 	<string name="drm_toast_license_expired">"תוקפו של רישיון ה-DRM פג."</string>
 	<!---->
 	<string name="drm_protection_status">"מצב הגנה:"</string>
 	<!---->
 	<string name="drm_can_forward">"ניתן להעברה."</string>
-	<!-- no translation found for drm_can_not_forward -->
-	<skip />
+	<!---->
+	<string name="drm_can_not_forward">"לא ניתן להעברה."</string>
 	<!---->
 	<string name="drm_no_license">"אין רישיון DRM זמין."</string>
 	<!---->
@@ -983,120 +1010,128 @@
 	<string name="drm_no_limitation">"אין הגבלה."</string>
 	<!---->
 	<string name="drm_end">"סיים:"</string>
-	<!-- no translation found for drm_use_left -->
-	<skip />
-	<!-- no translation found for date_taken -->
-	<skip />
-	<!-- no translation found for modified_time -->
-	<skip />
-	<!-- no translation found for fast_forward -->
-	<skip />
-	<!-- no translation found for fast_backward -->
-	<skip />
-	<!-- no translation found for network_reconnected_when_playing -->
-	<skip />
+	<!---->
+	<string name="drm_use_left">"נותר"</string>
+	<!---->
+	<string name="date_taken">"תאריך הצילום"</string>
+	<!---->
+	<string name="modified_time">"זמן שונה"</string>
+	<!---->
+	<string name="fast_forward">"הרצ %dות מהירות קדימה"</string>
+	<!---->
+	<string name="fast_backward">"הרצ %dות מהירות אחורה"</string>
+	<!---->
+	<string name="network_reconnected_when_playing">"הרשת מחוברת מחדש, להמשיך לנגן?"</string>
 	<!---->
 	<string name="polaroid_action_open">"פתח"</string>
 	<!---->
 	<string name="polaroid_action_save">"שמור"</string>
 	<!---->
 	<string name="polaroid_action_send">"שלח"</string>
-	<!-- no translation found for polaroid_default_slogan -->
-	<skip />
-	<!-- no translation found for polaroid_saving_picture -->
-	<skip />
-	<!-- no translation found for editor_select_polaroid -->
-	<skip />
-	<!-- no translation found for editor_select_filtershow -->
-	<skip />
+	<!---->
+	<string name="polaroid_default_slogan">"תן לי חיבוק ~"</string>
+	<!---->
+	<string name="polaroid_saving_picture">"שומר תמונה..."</string>
+	<!---->
+	<string name="editor_select_polaroid">"עורך פולארויד"</string>
+	<!---->
+	<string name="editor_select_filtershow">"עורך (ברירת מחדל)"</string>
 	<!---->
 	<string name="date_tag">"תאריך"</string>
 	<!---->
 	<string name="location_tag">"מיקום"</string>
-	<!-- no translation found for slogan_tag -->
-	<skip />
+	<!---->
+	<string name="slogan_tag">"סיסמת-פרסום"</string>
 	<!---->
 	<string name="polaroid_no_location">"ללא מיקום"</string>
-	<!-- no translation found for save_iamge_compelete -->
-	<skip />
-	<!-- no translation found for save_image_error -->
-	<skip />
-	<!-- no translation found for dialog_min_image_save_title -->
-	<skip />
-	<!-- no translation found for dialog_min_image_save_message -->
-	<skip />
+	<!---->
+	<string name="save_iamge_compelete">"התמונה נשמרה ל-"גלריה"."</string>
+	<!---->
+	<string name="save_image_error">"לא ניתן לשמור את הקובץ."</string>
+	<!---->
+	<string name="dialog_min_image_save_title">"התמונה קטנה מדי"</string>
+	<!---->
+	<string name="dialog_min_image_save_message">"הגודל המינימלי הינו 320x320 פיקסלים."</string>
 	<!---->
 	<string name="open_with">"פתח באמצעות"</string>
-	<!-- no translation found for moments_month_view -->
-	<skip />
-	<!-- no translation found for moments_day_view -->
-	<skip />
+	<!---->
+	<string name="moments_month_view">"תצוגת חודש"</string>
+	<!---->
+	<string name="slow_motion">"הילוך איטי"</string>
+	<!---->
+	<string name="move_to_album">"עבור לאלבום"</string>
+	<!---->
+	<string name="copy_to_album">"העתק לאלבום"</string>
+	<!---->
+	<string name="moments_day_view">"תצוגת יום"</string>
+	<!---->
+	<string name="moments_staggered_view">"תצוגה מדורגת"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"הכל"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"תמונה"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"פאראלאקס"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"וידיאו"</string>
-	<!-- no translation found for actionbar_menu_text_fyuse -->
-	<skip />
-	<!-- no translation found for burst_mode_delete_message -->
-	<skip />
-	<!-- no translation found for burst_mode_save_message -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_fyuse">"פיוז"</string>
+	<!---->
+	<string name="burst_mode_delete_message">"רצף תמונות מתפרצות זה מכיל %s תמונות. למחוק את כולן?"</string>
+	<!---->
+	<string name="burst_mode_save_message">"לשמור על גבי התמונות המתפרצות או לשמור בתור תמונות נפרדות?"</string>
 	<!---->
 	<string name="burst_overwrite">"החלף"</string>
-	<!-- no translation found for burst_save_as_individual_images -->
-	<skip />
+	<!---->
+	<string name="burst_save_as_individual_images">"לשמור בתור תמונות נפרדות"</string>
 	<!---->
 	<string name="burst_cancel">"ביטול"</string>
 	<!---->
 	<string name="burst_delete">"מחק"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"מועדף"</string>
 	<!---->
 	<string name="select">"בחר"</string>
 	<!---->
 	<string name="getstarted">"צעדים ראשונים"</string>
-	<!-- no translation found for gotit -->
-	<skip />
-	<!-- no translation found for faceshow_start -->
-	<skip />
-	<!-- no translation found for faceshow_takemore -->
-	<skip />
-	<!-- no translation found for selfies -->
-	<skip />
-	<!-- no translation found for parallax -->
-	<skip />
-	<!-- no translation found for trim_title -->
-	<skip />
-	<!-- no translation found for trim_message -->
-	<skip />
+	<!---->
+	<string name="gotit">"הבנתי"</string>
+	<!---->
+	<string name="faceshow_start">"מחכה לך משהו מדהים ממש כשיהיו לך מספיק תמונות סלפי. התחל את המסע שלך כעת!"</string>
+	<!---->
+	<string name="faceshow_takemore">"נחוצות לך תמונות סלפי רבות יותר כדי ליצור תערוכת פנים משלך."</string>
+	<!---->
+	<string name="selfies">"סלפי"</string>
+	<!---->
+	<string name="parallax">"פאראלאקס"</string>
+	<!---->
+	<string name="trim_title">"בטל שינויים?"</string>
+	<!---->
+	<string name="trim_message">"השינויים שלך לא נשמרו"</string>
 	<!---->
 	<string name="trim_discard">"בטל"</string>
-	<!-- no translation found for main_tab_moments -->
-	<skip />
-	<!-- no translation found for moments_show -->
-	<skip />
-	<!-- no translation found for illegal_image_format -->
-	<skip />
-	<!-- no translation found for exporting_video -->
-	<skip />
-	<!-- no translation found for exporting_message -->
-	<skip />
-	<!-- no translation found for share_save_video -->
-	<skip />
-	<!-- no translation found for share_saved -->
-	<skip />
-	<!-- no translation found for share_save_image -->
-	<skip />
-	<!-- no translation found for share_image_saved -->
-	<skip />
-	<!-- no translation found for location_permission_toast_text -->
-	<skip />
+	<!---->
+	<string name="main_tab_moments">"רגעים"</string>
+	<!---->
+	<string name="moments_show">"הצג"</string>
+	<!---->
+	<string name="illegal_image_format">"פורמט תמונה לא חוקי, לא ניתן לערוך."</string>
+	<!---->
+	<string name="exporting_video">"מייצא סרטון"</string>
+	<!---->
+	<string name="exporting_message">"הדבר עשוי להתארך מספר שניות, חכה רגע..."</string>
+	<!---->
+	<string name="share_save_video">"שומר את הסרטון ל"גלריה"..."</string>
+	<!---->
+	<string name="share_saved">"הסרטון נשמר ל-"גלריה""</string>
+	<!---->
+	<string name="share_save_image">"שומר את התמונה ל"גלריה"..."</string>
+	<!---->
+	<string name="share_image_saved">"התמונה נשמרה ל-"גלריה""</string>
+	<!---->
+	<string name="location_permission_toast_text">"אין נתונים לגבי מיקום מהמצלמה"</string>
 	<!---->
 	<string name="no_internet_contect_text">"אין חיבור לאינטרנט"</string>
 	<!---->
@@ -1105,58 +1140,116 @@
 	<string name="moment_album_today">"היום"</string>
 	<!---->
 	<string name="moment_album_yesterday">"אתמול"</string>
-	<!-- no translation found for location_destination_text -->
-	<skip />
+	<!---->
+	<string name="location_destination_text">"מיין תמונות וסרטונים לפי מיקום ב-"רגעים""</string>
 	<string-array name="month">
-		<!--inherit from default language-->
-		<item>"January"</item>
-		<!--inherit from default language-->
-		<item>"February"</item>
-		<!--inherit from default language-->
-		<item>"March"</item>
-		<!--inherit from default language-->
-		<item>"April"</item>
-		<!--inherit from default language-->
-		<item>"May"</item>
-		<!--inherit from default language-->
-		<item>"June"</item>
-		<!--inherit from default language-->
-		<item>"July"</item>
-		<!--inherit from default language-->
-		<item>"August"</item>
-		<!--inherit from default language-->
-		<item>"September"</item>
-		<!--inherit from default language-->
-		<item>"October"</item>
-		<!--inherit from default language-->
-		<item>"November"</item>
-		<!--inherit from default language-->
-		<item>"December"</item>
+		<item>"ינואר"</item>
+		<item>"פברואר"</item>
+		<item>"מרץ"</item>
+		<item>"אפריל"</item>
+		<item>"מאי"</item>
+		<item>"יוני"</item>
+		<item>"יולי"</item>
+		<item>"אוגוסט"</item>
+		<item>"ספטמבר"</item>
+		<item>"אוקטובר"</item>
+		<item>"נובמבר"</item>
+		<item>"דצמבר"</item>
 	</string-array>
-	<!-- no translation found for permission_location_text -->
-	<skip />
+	<!---->
+	<string name="permission_location_text">"כדי למיין תמונות וסרטוני וידאו לפי מיקום, תן ל-"גלריה" רשות לגשת ל-"מיקום"."</string>
 	<!---->
 	<string name="permission_location_settings">"הגדרות"</string>
-	<!-- no translation found for boom_key_tip_1 -->
-	<skip />
-	<!-- no translation found for boom_key_tip_2 -->
-	<skip />
-	<!-- no translation found for boom_key_tip_3 -->
-	<skip />
-	<!-- no translation found for boom_key_tip_4 -->
-	<skip />
+	<!---->
+	<string name="boom_key_tip_1">"הצג תמונות בקולאז\'ים שונים ומדהימים"</string>
+	<!---->
+	<string name="loading_data_message">"טוען נתונים, אנא המתן!"</string>
+	<!---->
+	<string name="boom_key_tip_2">"התחל תצוגת קולאז\' באמצעות מפתח "בום""</string>
+	<!---->
+	<string name="boom_key_tip_3">"הפעל תצוגת קולאז\' מ-"אלבומים""</string>
+	<!---->
+	<string name="boom_key_tip_4">"הפעל תצוגת קולאז\' מהתצוגה המקדימה של התמונות"</string>
 	<!---->
 	<string name="tx_skip">"דלג"</string>
 	<!---->
 	<string name="tx_done">"סיום"</string>
-	<!-- no translation found for boom_key -->
+	<!---->
+	<string name="boom_key">"כפתור בום"</string>
+	<!---->
+	<string name="press">"לחץ"</string>
+	<!---->
+	<string name="not_support_parallax_share">"לא ניתן לשתף פיוז מתוך רגעים"</string>
+	<!---->
+	<string name="permissions_hi">"הי!"</string>
+	<!---->
+	<string name="not_support_video_edit">"פורמט וידאו אינו נתמך."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit אינו מותקן ולא ניתן להשתמש בפונקציה זו."</string>
+	<!-- no translation found for default_album_count -->
 	<skip />
-	<!-- no translation found for press -->
+	<!-- no translation found for default_album_name -->
 	<skip />
-	<!-- no translation found for not_support_parallax_share -->
+	<!-- no translation found for grid_layout_header_time -->
 	<skip />
-	<!-- no translation found for permissions_hi -->
+	<!-- no translation found for grid_layout_header_location -->
 	<skip />
-	<!-- no translation found for not_support_video_edit -->
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"כווץ אלבומים"</string>
+	<!---->
+	<string name="settings_albums">"הגדרות"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"צור אלבום"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"הכנס שם אלבום"</string>
+	<!---->
+	<string name="album_exists_warning">"שם האלבום כבר קיים"</string>
+	<!---->
+	<string name="create_new_album_confirm">"צור"</string>
+	<!---->
+	<string name="create_new_album_cancel">"ביטול"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"למחוק את האלבום?"</string>
+	<!---->
+	<string name="delete_album_confirm">"TÖRLÉS"</string>
+	<!---->
+	<string name="delete_album_cancel">"ביטול"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"שם האלבום לא יכול להיות ריק"</string>
+	<!---->
+	<string name="new_album_select_title">"הוסף לאלבום"</string>
+	<!---->
+	<string name="new_album_confirm_title">"להעתיק או להעביר לאלבום חדש?"</string>
+	<!---->
+	<string name="new_album">"אלבום חדש"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"שם האלבום מכיל תווים בלתי חוקיים!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"הגדר כפרטי"</string>
+	<!---->
+	<string name="set_public">"הגדר כציבורי"</string>
+	<!-- no translation found for private_album_name -->
 	<skip />
 </resources>

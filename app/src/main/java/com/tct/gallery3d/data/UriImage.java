@@ -41,7 +41,7 @@ import android.graphics.BitmapRegionDecoder;
 import android.net.Uri;
 import android.os.ParcelFileDescriptor;
 
-import com.mediatek.omadrm.MtkDrmManager;
+import com.mtk.drm.frameworks.MtkDrmManager;
 import com.tct.gallery3d.app.GalleryApp;
 import com.tct.gallery3d.app.GalleryAppImpl;
 import com.tct.gallery3d.app.PanoramaMetadataSupport;

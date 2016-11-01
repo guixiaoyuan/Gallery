@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Odaberite album"</string>
 	<!---->
+	<string name="rename_album">"Preimenuj album"</string>
+	<!---->
+	<string name="delete_album">"Obriši album"</string>
+	<!---->
 	<string name="select_group">"Odabir grupe"</string>
 	<!---->
 	<string name="set_image">"Postavi kao&#8230;"</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Obrisati odabranu stavku?"</item>
 		<item quantity="other">"Obrisati odabrane stavke?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Premjesti"</string>
+	<!---->
+	<string name="moving">"Premještanje"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Premjestiti odabranu stavku?"</item>
+		<item quantity="other">"Premjestiti odabrane stavke?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Kopiraj"</string>
+	<!---->
+	<string name="copying">"Kopiranje"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Kopirati odabranu stavku?"</item>
+		<item quantity="other">"Kopirati odabrane stavke?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Potvrdi"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Nema dostupnih albuma"</string>
 	<!---->
 	<string name="empty_album">"Nema slike/zvuka"</string>
+	<!---->
+	<string name="slideshow_alert">"Nema dostupne slike"</string>
 	<!---->
 	<string name="picasa_posts">"Postovi"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Albumi"</string>
 	<!---->
+	<string name="tab_explore">"Pretraživanje"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Više opcija"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Postavke"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Pregled mjeseca"</string>
 	<!---->
+	<string name="slow_motion">"Usporeni film"</string>
+	<!---->
+	<string name="move_to_album">"Premjesti u album"</string>
+	<!---->
+	<string name="copy_to_album">"Kopiraj u album"</string>
+	<!---->
 	<string name="moments_day_view">"Pregled dana"</string>
+	<!---->
+	<string name="moments_staggered_view">"raspoređeni prikaz"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Sve"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Fotografija"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Premještanje"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Video"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"ODUSTANI"</string>
 	<!---->
 	<string name="burst_delete">"izbriši"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"Prikaz lica"</string>
 	<!---->
 	<string name="favorite">"favorit"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Vaše fotografije prikazane u različitim i nevjerojatnim kolažima"</string>
 	<!---->
+	<string name="loading_data_message">"Učitavanje podataka, molimo pričekajte trenutak!"</string>
+	<!---->
 	<string name="boom_key_tip_2">"Pokretanje prikaza kolaža putem instantne tipke"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Pokretanje prikaza kolaža iz albuma"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"BOK!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Format videozapisa nije podržan."</string>
+	<!---->
+	<string name="no_slowmoedit">"Aplikacija SlowmoEdit nije instalirana i ne možete koristiti ovu značajku."</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Sažmi albume"</string>
+	<!---->
+	<string name="settings_albums">"Postavke"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Izradi album"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Unesite ime albuma"</string>
+	<!---->
+	<string name="album_exists_warning">"Ime albuma već postoji"</string>
+	<!---->
+	<string name="create_new_album_confirm">"IZRADI"</string>
+	<!---->
+	<string name="create_new_album_cancel">"ODUSTANI"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Obrisati ovaj album?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Obriši"</string>
+	<!---->
+	<string name="delete_album_cancel">"ODUSTANI"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Ime albuma ne može biti prazno"</string>
+	<!---->
+	<string name="new_album_select_title">"Dodaj u album"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Kopirati ili premjestiti u novi album?"</string>
+	<!---->
+	<string name="new_album">"Novi album"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Ime albuma sadrži neispravni znak!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Postavi kao privatno"</string>
+	<!---->
+	<string name="set_public">"Postavi kao javno"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

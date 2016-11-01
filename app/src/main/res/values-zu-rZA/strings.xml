@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -61,6 +61,10 @@
 	<string name="select_item">"Khetha into"</string>
 	<!---->
 	<string name="select_album">"Khetha i-albhamu"</string>
+	<!-- no translation found for rename_album -->
+	<skip />
+	<!-- no translation found for delete_album -->
+	<skip />
 	<!---->
 	<string name="select_group">"Khetha iqembu"</string>
 	<!---->
@@ -79,6 +83,18 @@
 		<item quantity="one">"Dilitha lokhu okukhethiwe?"</item>
 		<item quantity="other">"Sula izinto ezikhethiwe?"</item>
 	</plurals>
+	<!-- no translation found for move -->
+	<skip />
+	<!-- no translation found for moving -->
+	<skip />
+	<!-- no translation found for move_selection -->
+	<skip />
+	<!---->
+	<string name="copy">"Kopisha"</string>
+	<!-- no translation found for copying -->
+	<skip />
+	<!-- no translation found for copy_selection -->
+	<skip />
 	<!---->
 	<string name="confirm">"Qinisekisa"</string>
 	<!---->
@@ -188,6 +204,8 @@
 	<string name="no_albums_alert">"Awekho ama-albhamu atholakalyo"</string>
 	<!---->
 	<string name="empty_album">"Asikho isithombe/amavidiyo atholakalyo"</string>
+	<!-- no translation found for slideshow_alert -->
+	<skip />
 	<!---->
 	<string name="picasa_posts">"Okuthunyelwe"</string>
 	<!---->
@@ -802,6 +820,8 @@
 	<string name="tab_photos">"Izithombe"</string>
 	<!---->
 	<string name="tab_albums">"Ama-albhamu"</string>
+	<!-- no translation found for tab_explore -->
+	<skip />
 	<!---->
 	<string name="camera_menu_more_label">"Izinketho ezingaphezulu"</string>
 	<!---->
@@ -1033,7 +1053,15 @@
 	<!---->
 	<string name="moments_month_view">"Ukubuka kwenyanga"</string>
 	<!---->
+	<string name="slow_motion">"Ukunyakaza kancane"</string>
+	<!-- no translation found for move_to_album -->
+	<skip />
+	<!-- no translation found for copy_to_album -->
+	<skip />
+	<!---->
 	<string name="moments_day_view">"Ukubuka kosuku"</string>
+	<!-- no translation found for moments_staggered_view -->
+	<skip />
 	<!---->
 	<string name="actionbar_menu_text_all">"Konke"</string>
 	<!---->
@@ -1130,6 +1158,8 @@
 	<string name="permission_location_settings">"Amasethingi"</string>
 	<!---->
 	<string name="boom_key_tip_1">"Izithombe ezikhona kuma-collages ahlukahlukene namangazayo"</string>
+	<!-- no translation found for loading_data_message -->
+	<skip />
 	<!---->
 	<string name="boom_key_tip_2">"Qala umbukiso we-collage nge-Boom key"</string>
 	<!---->
@@ -1150,4 +1180,72 @@
 	<string name="permissions_hi">"Sawubona!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Ifomethi yevidiyo ayisekelwa:"</string>
+	<!-- no translation found for no_slowmoedit -->
+	<skip />
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!-- no translation found for collapse_albums -->
+	<skip />
+	<!---->
+	<string name="settings_albums">"Amasethingi"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!-- no translation found for create_new_album_dialog_title -->
+	<skip />
+	<!-- no translation found for create_new_album_dialog_hint -->
+	<skip />
+	<!-- no translation found for album_exists_warning -->
+	<skip />
+	<!-- no translation found for create_new_album_confirm -->
+	<skip />
+	<!-- no translation found for create_new_album_cancel -->
+	<skip />
+	<!-- no translation found for delete_album_dialog_title -->
+	<skip />
+	<!-- no translation found for delete_album_confirm -->
+	<skip />
+	<!-- no translation found for delete_album_cancel -->
+	<skip />
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!-- no translation found for new_album_empty_warning -->
+	<skip />
+	<!-- no translation found for new_album_select_title -->
+	<skip />
+	<!-- no translation found for new_album_confirm_title -->
+	<skip />
+	<!-- no translation found for new_album -->
+	<skip />
+	<!-- no translation found for invalid_char_of_albumname -->
+	<skip />
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!-- no translation found for set_private -->
+	<skip />
+	<!-- no translation found for set_public -->
+	<skip />
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

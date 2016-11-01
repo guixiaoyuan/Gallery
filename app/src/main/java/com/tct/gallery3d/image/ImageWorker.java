@@ -103,7 +103,7 @@ public abstract class ImageWorker {
         if (data == null) {
             return;
         }
-        if (imageView != null) {
+        if (imageView != null && data.getItem() != null && data.getItem().isDrm() != DrmManager.IS_DRM) {
             Object tag = imageView.getTag(R.id.image_view_tag);
             if (tag != null) {
                 if (String.valueOf(tag).equals(String.valueOf(data))) {
@@ -199,6 +199,8 @@ public abstract class ImageWorker {
                     detailView.setImage(full);
                 } else if (detailView.getIsGif()) {
                     detailView.setImageURI(uri);
+                } else {
+                    loadGlide(item, detailView);
                 }
             }
         };
@@ -421,8 +423,18 @@ public abstract class ImageWorker {
             // here, if it was, and the thread is still running, we may as well add the processed
             // bitmap to our cache as it might be used again in the future
             if (bitmap != null) {
-                addBitmapToCache(miniKey, bitmap, true);
-                drawable = addBitmapToCache(diskKey, bitmap, false);
+                MediaItem tempItem = mData.getItem();
+                if (tempItem != null) {
+                    if (tempItem.isDrm() != DrmManager.IS_DRM) {
+                        addBitmapToCache(miniKey, bitmap, true);
+                        drawable = addBitmapToCache(diskKey, bitmap, false);
+                    } else {
+                        drawable = createDrawable(bitmap);
+                    }
+                } else {
+                    addBitmapToCache(miniKey, bitmap, true);
+                    drawable = addBitmapToCache(diskKey, bitmap, false);
+                }
             }
 
             if (Utils.DEBUG) {
@@ -716,19 +728,29 @@ public abstract class ImageWorker {
         return drawable;
     }
 
+    public void loadGlide(MediaItem item, ImageView imageView) {
+        if (item == null || imageView == null) {
+            return;
+        }
+
+        try {
+            Context context = imageView.getContext();
+            Drawable drawable = imageView.getDrawable();
+            BitmapTypeRequest<Uri> request = Glide.with(context).fromUri().asBitmap();
+            if (drawable != null) {
+                request.placeholder(drawable);
+            }
+            request.load(item.getContentUri()).into(imageView);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     public void loadGlide(final Activity activity, final MediaItem item, final ImageView imageView) {
-        if (activity == null || item == null || imageView == null) {
+        if (activity == null || activity.isDestroyed()) {
             return;
         }
-        if (activity.isDestroyed()) {
-            return;
-        }
-        Drawable drawable = imageView.getDrawable();
-        BitmapTypeRequest<Uri> request = Glide.with(activity).fromUri().asBitmap();
-        if (drawable != null) {
-            request.placeholder(drawable);
-        }
-        request.load(item.getContentUri()).into(imageView);
+        loadGlide(item, imageView);
     }
 
     public void resumeWork() {

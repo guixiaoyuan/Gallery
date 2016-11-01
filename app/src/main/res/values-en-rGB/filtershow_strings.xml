@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!--  Title for the image editor activity [CHAR LIMIT=NONE]-->
@@ -11,7 +11,7 @@
     <!--  String shown when cannot load the original image. We will edit selected image [CHAR LIMIT=NONE] -->
     <string name="cannot_edit_original">"Can\'t edit original"</string>
     <!--  String displayed when showing the original image [CHAR LIMIT=NONE] -->
-    <string name="original_picture_text">@string/original</string>
+    <string name="original_picture_text">"@string/original"</string>
     <!--  String displayed when setting the homepage wallpaper in the background [CHAR LIMIT=NONE] -->
     <string name="setting_wallpaper">"Setting wallpaper"</string>
 
@@ -79,7 +79,7 @@
     <!--  Text for the history panel reset button [CHAR LIMIT=20]-->
     <string name="reset">"Reset"</string>
     <!--  Text for the original image[CHAR LIMIT=20]-->
-    <string name="history_original">@string/original</string>
+    <string name="history_original">"@string/original"</string>
 
     <!--  Image state panel -->
 
@@ -97,27 +97,27 @@
     <!--  Label for aspect [CHAR LIMIT=15] -->
     <string name="aspect">"Aspect"</string>
     <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
-    <string name="aspect1to1_effect">1:1</string>
+    <string name="aspect1to1_effect">"1:1"</string>
     <!--  Label for the aspect 4:3 effect [CHAR LIMIT=15] -->
-    <string name="aspect4to3_effect">4:3</string>
+    <string name="aspect4to3_effect">"4:3"</string>
     <!--  Label for the aspect 3:4 effect [CHAR LIMIT=15] -->
-    <string name="aspect3to4_effect">3:4</string>
+    <string name="aspect3to4_effect">"3:4"</string>
     <!--  Label for the aspect 4:7 effect [CHAR LIMIT=15] -->
-    <string name="aspect4to6_effect">4:6</string>
+    <string name="aspect4to6_effect">"4:6"</string>
     <!--  Label for the aspect 5:7 effect [CHAR LIMIT=15] -->
-    <string name="aspect5to7_effect">5:7</string>
+    <string name="aspect5to7_effect">"5:7"</string>
     <!--  Label for the aspect 7:5 effect [CHAR LIMIT=15] -->
-    <string name="aspect7to5_effect">7:5</string>
+    <string name="aspect7to5_effect">"7:5"</string>
     <!--  Label for the aspect 1:1 effect [CHAR LIMIT=15] -->
     <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-02-13,PR929635 Begin -->
-    <string name="aspect9to16_effect">9:16</string>
-    <string name="aspect16to9_effect">16:9</string>
+    <string name="aspect9to16_effect">"9:16"</string>
+    <string name="aspect16to9_effect">"16:9"</string>
     <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
     <string name="aspectNone_effect">"None"</string>
     <string name="aspectCustom_effect">"Custom"</string>
     <!--//[BUGFIX]-Add by TCTNJ,jian.pan1, 2015-02-13,PR929635 End -->
     <!--  Label for the aspect None effect [CHAR LIMIT=15] -->
-    <string name="aspectOriginal_effect">@string/original</string>
+    <string name="aspectOriginal_effect">"@string/original"</string>
     <!-- Label for when the aspect ratio is fixed to a value [CHAR LIMIT=15] -->
     <string name="Fixed">"Fixed"</string>
     <!--  Label for the tuny planet effect [CHAR LIMIT=10] -->

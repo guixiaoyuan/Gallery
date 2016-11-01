@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -61,6 +61,10 @@
 	<string name="select_item">"ជ្រើសរើសវត្ថុ"</string>
 	<!---->
 	<string name="select_album">"ជ្រើសរើសអាល់ប៊ុម"</string>
+	<!-- no translation found for rename_album -->
+	<skip />
+	<!-- no translation found for delete_album -->
+	<skip />
 	<!---->
 	<string name="select_group">"ជ្រើសរើសក្រុម"</string>
 	<!---->
@@ -79,6 +83,18 @@
 		<item quantity="one">"លុបវត្ថុដែលបានជ្រើសរើសចោលទេ?"</item>
 		<item quantity="other">"លុបវត្ថុដែលបានជ្រើសរើសចោលទេ?"</item>
 	</plurals>
+	<!-- no translation found for move -->
+	<skip />
+	<!-- no translation found for moving -->
+	<skip />
+	<!-- no translation found for move_selection -->
+	<skip />
+	<!---->
+	<string name="copy">"ចម្លង"</string>
+	<!-- no translation found for copying -->
+	<skip />
+	<!-- no translation found for copy_selection -->
+	<skip />
 	<!---->
 	<string name="confirm">"បញ្ជាក់"</string>
 	<!---->
@@ -187,6 +203,8 @@
 	<!---->
 	<string name="no_albums_alert">"មិនមានអាល់ប៊ុមទេ ។"</string>
 	<!-- no translation found for empty_album -->
+	<skip />
+	<!-- no translation found for slideshow_alert -->
 	<skip />
 	<!---->
 	<string name="picasa_posts">"បិទផ្សាយ"</string>
@@ -799,6 +817,8 @@
 	<string name="tab_photos">"រូបថត"</string>
 	<!---->
 	<string name="tab_albums">"អាល់ប៊ុម"</string>
+	<!-- no translation found for tab_explore -->
+	<skip />
 	<!---->
 	<string name="camera_menu_more_label">"ជម្រើសច្រើនថែមទៀត"</string>
 	<!---->
@@ -1029,7 +1049,15 @@
 	<string name="open_with">"បើក​ជា​មួយ"</string>
 	<!-- no translation found for moments_month_view -->
 	<skip />
+	<!-- no translation found for slow_motion -->
+	<skip />
+	<!-- no translation found for move_to_album -->
+	<skip />
+	<!-- no translation found for copy_to_album -->
+	<skip />
 	<!-- no translation found for moments_day_view -->
+	<skip />
+	<!-- no translation found for moments_staggered_view -->
 	<skip />
 	<!-- no translation found for actionbar_menu_text_all -->
 	<skip />
@@ -1108,29 +1136,17 @@
 	<!-- no translation found for location_destination_text -->
 	<skip />
 	<string-array name="month">
-		<!--inherit from default language-->
 		<item>"January"</item>
-		<!--inherit from default language-->
 		<item>"February"</item>
-		<!--inherit from default language-->
 		<item>"March"</item>
-		<!--inherit from default language-->
 		<item>"April"</item>
-		<!--inherit from default language-->
 		<item>"May"</item>
-		<!--inherit from default language-->
 		<item>"June"</item>
-		<!--inherit from default language-->
 		<item>"July"</item>
-		<!--inherit from default language-->
 		<item>"August"</item>
-		<!--inherit from default language-->
 		<item>"September"</item>
-		<!--inherit from default language-->
 		<item>"October"</item>
-		<!--inherit from default language-->
 		<item>"November"</item>
-		<!--inherit from default language-->
 		<item>"December"</item>
 	</string-array>
 	<!-- no translation found for permission_location_text -->
@@ -1138,6 +1154,8 @@
 	<!-- no translation found for permission_location_settings -->
 	<skip />
 	<!-- no translation found for boom_key_tip_1 -->
+	<skip />
+	<!-- no translation found for loading_data_message -->
 	<skip />
 	<!-- no translation found for boom_key_tip_2 -->
 	<skip />
@@ -1158,5 +1176,73 @@
 	<!-- no translation found for permissions_hi -->
 	<skip />
 	<!-- no translation found for not_support_video_edit -->
+	<skip />
+	<!-- no translation found for no_slowmoedit -->
+	<skip />
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!-- no translation found for collapse_albums -->
+	<skip />
+	<!---->
+	<string name="settings_albums">"ការកំណត់"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!-- no translation found for create_new_album_dialog_title -->
+	<skip />
+	<!-- no translation found for create_new_album_dialog_hint -->
+	<skip />
+	<!-- no translation found for album_exists_warning -->
+	<skip />
+	<!-- no translation found for create_new_album_confirm -->
+	<skip />
+	<!---->
+	<string name="create_new_album_cancel">"លើកលែង"</string>
+	<!-- no translation found for delete_album_dialog_title -->
+	<skip />
+	<!---->
+	<string name="delete_album_confirm">"លុបចោល"</string>
+	<!---->
+	<string name="delete_album_cancel">"លើកលែង"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!-- no translation found for new_album_empty_warning -->
+	<skip />
+	<!-- no translation found for new_album_select_title -->
+	<skip />
+	<!-- no translation found for new_album_confirm_title -->
+	<skip />
+	<!-- no translation found for new_album -->
+	<skip />
+	<!-- no translation found for invalid_char_of_albumname -->
+	<skip />
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!-- no translation found for set_private -->
+	<skip />
+	<!-- no translation found for set_public -->
+	<skip />
+	<!-- no translation found for private_album_name -->
 	<skip />
 </resources>

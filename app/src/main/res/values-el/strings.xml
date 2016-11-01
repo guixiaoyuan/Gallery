@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Επιλογή άλμπουμ"</string>
 	<!---->
+	<string name="rename_album">"Μετονομασία άλμπουμ"</string>
+	<!---->
+	<string name="delete_album">"Διαγραφή άλμπουμ"</string>
+	<!---->
 	<string name="select_group">"Επιλογή ομάδας"</string>
 	<!---->
 	<string name="set_image">"Ορισμός ως&#8230;"</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Να διαγραφεί το επιλεγμένο στοιχείο;"</item>
 		<item quantity="other">"Να διαγραφούν τα επιλεγμένα στοιχεία;"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Μετακίνηση"</string>
+	<!---->
+	<string name="moving">"Μετακίνηση σε εξέλιξη"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Μεταφορά επιλεγμένου στοιχείου;"</item>
+		<item quantity="other">"Μεταφορά επιλεγμένων στοιχείων;"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Αντιγρ."</string>
+	<!---->
+	<string name="copying">"Αντιγραφή σε εξέλιξη"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Αντιγραφή επιλεγμένου στοιχείου;"</item>
+		<item quantity="other">"Αντιγραφή επιλεγμένων στοιχείων;"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Επιβεβαίωση"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Δεν υπάρχουν διαθέσιμα λευκώματα"</string>
 	<!---->
 	<string name="empty_album">"Δεν υπάρχει διαθέσιμη εικόνα/βίντεο"</string>
+	<!---->
+	<string name="slideshow_alert">"Δεν υπάρχει διαθέσιμη εικόνα"</string>
 	<!---->
 	<string name="picasa_posts">"Αναρτήσεις"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Λευκώματα"</string>
 	<!---->
+	<string name="tab_explore">"Εξερεύνηση"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Περισσότερες επιλογές"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Ρυθμίσεις"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Προβολή μήνα"</string>
 	<!---->
+	<string name="slow_motion">"Αργή κίνηση"</string>
+	<!---->
+	<string name="move_to_album">"Μεταφορά στο άλμπουμ"</string>
+	<!---->
+	<string name="copy_to_album">"Αντιγραφή στο άλμπουμ"</string>
+	<!---->
 	<string name="moments_day_view">"Προβολή ημέρας"</string>
+	<!---->
+	<string name="moments_staggered_view">"προβολή ασύμμετρων στοιχείων"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Όλα"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Φωτογραφία"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Εφέ παράλλαξης"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Βίντεο"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"ΑΚΥΡΩΣΗ"</string>
 	<!---->
 	<string name="burst_delete">"delete"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"FaceShow"</string>
 	<!---->
 	<string name="favorite">"Αγαπημένο"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Παρουσιάστε τις φωτογραφίες σας σε διαφορετικά και απίστευτα κολάζ"</string>
 	<!---->
+	<string name="loading_data_message">"Γίνεται φόρτωση δεδομένων. Περιμένετε μερικά λεπτά!"</string>
+	<!---->
 	<string name="boom_key_tip_2">"Χρησιμοποιήστε το Boom Key για ενεργοποίηση προβολής κολάζ"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Ενεργοποίηση προβολής κολάζ από τα Άλμπουμ"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"ΓΕΙΑ!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Η μορφή του βίντεο δεν υποστηρίζεται."</string>
+	<!---->
+	<string name="no_slowmoedit">"Το SlowmoEdit δεν έχει εγκατασταθεί. Δεν είναι δυνατή η χρήση αυτής της λειτουργίας!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Σύμπτυξη άλμπουμ"</string>
+	<!---->
+	<string name="settings_albums">"Ρυθμίσεις"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Δημιουργία άλμπουμ"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Καταχωρίστε το όνομα του άλμπουμ"</string>
+	<!---->
+	<string name="album_exists_warning">"Το όνομα του άλμπουμ υπάρχει ήδη"</string>
+	<!---->
+	<string name="create_new_album_confirm">"ΔΗΜΙΟΥΡΓΙΑ"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Ακύρωση"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Να διαγραφεί αυτό το άλμπουμ;"</string>
+	<!---->
+	<string name="delete_album_confirm">"Διαγραφή"</string>
+	<!---->
+	<string name="delete_album_cancel">"Ακύρωση"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Το όνομα του άλμπουμ δεν μπορεί να είναι κενό"</string>
+	<!---->
+	<string name="new_album_select_title">"Προσθήκη σε άλμπουμ"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Αντιγραφή ή μετακίνηση σε νέο άλμπουμ;"</string>
+	<!---->
+	<string name="new_album">"Νέο άλμπουμ"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Το όνομα του άλμπουμ περιέχει μη έγκυρο χαρακτήρα!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Ορισμός ως ιδιωτικού"</string>
+	<!---->
+	<string name="set_public">"Ορισμός ως δημόσιου"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

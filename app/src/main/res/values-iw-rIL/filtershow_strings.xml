@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -33,10 +33,10 @@
 	<string name="export_image">"ייצא"</string>
 	<!---->
 	<string name="print_image">"הדפס"</string>
-	<!-- no translation found for filtershow_auto_edit -->
-	<skip />
-	<!-- no translation found for export_flattened -->
-	<skip />
+	<!---->
+	<string name="filtershow_auto_edit">"עריכה-אוטומטית"</string>
+	<!---->
+	<string name="export_flattened">"יצא תמונה משוטחת"</string>
 	<!---->
 	<string name="select_output_settings">"התמונה המיוצאת תהיה עותק ללא היסטוריית עריכה."</string>
 	<!---->
@@ -109,8 +109,8 @@
 	<string name="vibrance">"מלא חיים"</string>
 	<!---->
 	<string name="saturation">"רוויה"</string>
-	<!-- no translation found for bwfilter -->
-	<skip />
+	<!---->
+	<string name="bwfilter">"פילטר שחור לבן"</string>
 	<!---->
 	<string name="wbalance">"צבע אוטומטי"</string>
 	<!---->
@@ -131,8 +131,8 @@
 	<string name="vignette_saturation">"רוויה"</string>
 	<!---->
 	<string name="vignette_contrast">"ניגודיות"</string>
-	<!-- no translation found for vignette_falloff -->
-	<skip />
+	<!---->
+	<string name="vignette_falloff">"מרכז בהיר, קצוות חשוכים"</string>
 	<!---->
 	<string name="redeye">"עין אדומה"</string>
 	<!---->
@@ -155,8 +155,8 @@
 	<string name="kmeans">"מצב פוסטר (Posterize)"</string>
 	<!---->
 	<string name="downsample">"הפחתת גודל"</string>
-	<!-- no translation found for grad -->
-	<skip />
+	<!---->
+	<string name="grad">"הכהיה"</string>
 	<!---->
 	<string name="editor_grad_brightness">"בהירות"</string>
 	<!---->
@@ -181,8 +181,8 @@
 	<string name="editor_grad_style">"סיגנון"</string>
 	<!---->
 	<string name="editor_grad_new">"חדש"</string>
-	<!-- no translation found for curves_channel_rgb -->
-	<skip />
+	<!---->
+	<string name="curves_channel_rgb">"RGB"</string>
 	<!---->
 	<string name="curves_channel_red">"אדום"</string>
 	<!---->
@@ -235,8 +235,8 @@
 	<string name="filtershow_notification_message">"מעבד..."</string>
 	<!---->
 	<string name="filtershow_save_preset">"שמור הגדרה מראש נוכחית"</string>
-	<!-- no translation found for filtershow_manage_preset -->
-	<skip />
+	<!---->
+	<string name="filtershow_manage_preset">"נהל הגדרות מראש של המשתמש"</string>
 	<!---->
 	<string name="filtershow_new_preset">"הגדרה מראש חדשה"</string>
 	<!---->
@@ -269,8 +269,8 @@
 	<string name="filtershow_exif_iso">"ISO"</string>
 	<!---->
 	<string name="filtershow_exif_subject_distance">"מרחק עצם"</string>
-	<!-- no translation found for filtershow_exif_date -->
-	<skip />
+	<!---->
+	<string name="filtershow_exif_date">"תאריך תפוס"</string>
 	<!---->
 	<string name="filtershow_exif_f_stop">"מעצור F"</string>
 	<!---->

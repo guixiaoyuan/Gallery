@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<!--
-		this file is built by arct v:froyo_2011-03-23
+		this file is built by arct
 	-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!---->
@@ -62,6 +62,10 @@
 	<!---->
 	<string name="select_album">"Pilih album"</string>
 	<!---->
+	<string name="rename_album">"Namakan semula album"</string>
+	<!---->
+	<string name="delete_album">"Padam album"</string>
+	<!---->
 	<string name="select_group">"Pilih kumpulan"</string>
 	<!---->
 	<string name="set_image">"Set sebagai..."</string>
@@ -78,6 +82,22 @@
 	<plurals name="delete_selection">
 		<item quantity="one">"Padam item yang dipilih?"</item>
 		<item quantity="other">"Padam item yang dipilih?"</item>
+	</plurals>
+	<!---->
+	<string name="move">"Pindahkan"</string>
+	<!---->
+	<string name="moving">"Memindahkan"</string>
+	<plurals name="move_selection">
+		<item quantity="one">"Pindahkan item yang dipilih?"</item>
+		<item quantity="other">"Pindahkan item yang dipilih?"</item>
+	</plurals>
+	<!---->
+	<string name="copy">"Salin"</string>
+	<!---->
+	<string name="copying">"Menyalin"</string>
+	<plurals name="copy_selection">
+		<item quantity="one">"Salin item yang dipilih?"</item>
+		<item quantity="other">"Salin item yang dipilih?"</item>
 	</plurals>
 	<!---->
 	<string name="confirm">"Sahkan"</string>
@@ -188,6 +208,8 @@
 	<string name="no_albums_alert">"Tiada album tersedia"</string>
 	<!---->
 	<string name="empty_album">"Tiada imej/video tersedia"</string>
+	<!---->
+	<string name="slideshow_alert">"Tiada imej tersedia"</string>
 	<!---->
 	<string name="picasa_posts">"Siaran"</string>
 	<!---->
@@ -803,6 +825,8 @@
 	<!---->
 	<string name="tab_albums">"Album"</string>
 	<!---->
+	<string name="tab_explore">"Terokai"</string>
+	<!---->
 	<string name="camera_menu_more_label">"Lagi pilihan"</string>
 	<!---->
 	<string name="camera_menu_settings_label">"Tetapan"</string>
@@ -1033,13 +1057,21 @@
 	<!---->
 	<string name="moments_month_view">"Pemandangan dalam bulan"</string>
 	<!---->
+	<string name="slow_motion">"Tindakan perlahan"</string>
+	<!---->
+	<string name="move_to_album">"Pindah ke album"</string>
+	<!---->
+	<string name="copy_to_album">"Salin ke album"</string>
+	<!---->
 	<string name="moments_day_view">"Pemandangan dalam hari"</string>
+	<!---->
+	<string name="moments_staggered_view">"paparan berperingkat"</string>
 	<!---->
 	<string name="actionbar_menu_text_all">"Semua"</string>
 	<!---->
 	<string name="actionbar_menu_text_photo">"Gambar"</string>
-	<!-- no translation found for actionbar_menu_text_parallax -->
-	<skip />
+	<!---->
+	<string name="actionbar_menu_text_parallax">"Paralaks"</string>
 	<!---->
 	<string name="actionbar_menu_text_video">"Video"</string>
 	<!---->
@@ -1056,8 +1088,8 @@
 	<string name="burst_cancel">"BATAL"</string>
 	<!---->
 	<string name="burst_delete">"PADAM"</string>
-	<!-- no translation found for face_show -->
-	<skip />
+	<!---->
+	<string name="face_show">"PertunjukanWajah"</string>
 	<!---->
 	<string name="favorite">"Kegemaran"</string>
 	<!---->
@@ -1131,6 +1163,8 @@
 	<!---->
 	<string name="boom_key_tip_1">"Kemukakan foto dalam kolaj yang berbeza-beza dan menarik"</string>
 	<!---->
+	<string name="loading_data_message">"Memuatkan Data, sila tunggu sebentar!"</string>
+	<!---->
 	<string name="boom_key_tip_2">"Mulakan persembahan kolaj dengan Boom key"</string>
 	<!---->
 	<string name="boom_key_tip_3">"Cetuskan persembahan kolaj dari Album"</string>
@@ -1150,4 +1184,72 @@
 	<string name="permissions_hi">"Hai!"</string>
 	<!---->
 	<string name="not_support_video_edit">"Format video tidak disokong."</string>
+	<!---->
+	<string name="no_slowmoedit">"SlowmoEdit tidak dipasang dan fungsi ini tidak dapat digunakan!"</string>
+	<!-- no translation found for default_album_count -->
+	<skip />
+	<!-- no translation found for default_album_name -->
+	<skip />
+	<!-- no translation found for grid_layout_header_time -->
+	<skip />
+	<!-- no translation found for grid_layout_header_location -->
+	<skip />
+	<!-- no translation found for no_content -->
+	<skip />
+	<!-- no translation found for no_content_description -->
+	<skip />
+	<!-- no translation found for no_content_album -->
+	<skip />
+	<!-- no translation found for no_content_album_description -->
+	<skip />
+	<!-- no translation found for create_album -->
+	<skip />
+	<!-- no translation found for sort_albums -->
+	<skip />
+	<!---->
+	<string name="collapse_albums">"Runtuhkan susunan album"</string>
+	<!---->
+	<string name="settings_albums">"Tetapan"</string>
+	<!-- no translation found for album_type -->
+	<skip />
+	<!---->
+	<string name="create_new_album_dialog_title">"Buat album"</string>
+	<!---->
+	<string name="create_new_album_dialog_hint">"Masukkan nama album"</string>
+	<!---->
+	<string name="album_exists_warning">"Nama album sudah wujud"</string>
+	<!---->
+	<string name="create_new_album_confirm">"BUAT"</string>
+	<!---->
+	<string name="create_new_album_cancel">"Batal"</string>
+	<!---->
+	<string name="delete_album_dialog_title">"Padam album ini?"</string>
+	<!---->
+	<string name="delete_album_confirm">"Padam"</string>
+	<!---->
+	<string name="delete_album_cancel">"Batal"</string>
+	<!-- no translation found for create_new_album_fail_warning -->
+	<skip />
+	<!---->
+	<string name="new_album_empty_warning">"Nama album tidak boleh kosong"</string>
+	<!---->
+	<string name="new_album_select_title">"Tambah ke album"</string>
+	<!---->
+	<string name="new_album_confirm_title">"Salin atau pindah ke album baharu?"</string>
+	<!---->
+	<string name="new_album">"Album baharu"</string>
+	<!---->
+	<string name="invalid_char_of_albumname">"Nama album mengandungi aksara tak sah!"</string>
+	<!-- no translation found for animator_on -->
+	<skip />
+	<!-- no translation found for animator_off -->
+	<skip />
+	<!-- no translation found for no_muvee_app_toast -->
+	<skip />
+	<!---->
+	<string name="set_private">"Tetapkan sebagai peribadi"</string>
+	<!---->
+	<string name="set_public">"Tetapkan sebagai awam"</string>
+	<!-- no translation found for private_album_name -->
+	<skip />
 </resources>

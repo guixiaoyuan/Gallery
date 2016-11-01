@@ -165,6 +165,7 @@ public class AbstractGalleryActivity extends FragmentActivity implements Gallery
     protected void onResume() {
         super.onResume();
         boolean currentPrivateMode = GalleryAppImpl.getTctPrivacyModeHelperInstance(this).isPrivacyModeEnable();
+        Log.d(TAG, " currentPrivateMode = " + currentPrivateMode + " mPrePrivateState = " + mPrePrivateState);
         if (mPrePrivateState ^ currentPrivateMode) {
             mPrePrivateState = currentPrivateMode;
             getDataManager().notifyPrivateMode();
@@ -517,15 +518,18 @@ public class AbstractGalleryActivity extends FragmentActivity implements Gallery
                             }
                             break;
                         case GalleryConstant.START_SLIDE_SHOW_MSG:
-                            FragmentManager fm = getSupportFragmentManager();
-                            FragmentTransaction ft = fm.beginTransaction();
-                            ft.setCustomAnimations(FragmentTransaction.TRANSIT_NONE, FragmentTransaction.TRANSIT_NONE);
-                            AbstractGalleryFragment fragment = SlideShowFragment.getInstance();
-                            fragment.setHasOptionsMenu(true);
-                            fragment.setArguments(message.getData());
-                            setContent(fragment);
-                            ft.add(android.R.id.content, fragment, SlideShowFragment.TAG);
-                            ft.commit();
+                            boolean slideshowIsActive = AbstractGalleryFragment.checkSlideShowActive((AbstractGalleryActivity) getAndroidContext());
+                            if (slideshowIsActive) {
+                                FragmentManager fm = getSupportFragmentManager();
+                                FragmentTransaction ft = fm.beginTransaction();
+                                ft.setCustomAnimations(FragmentTransaction.TRANSIT_NONE, FragmentTransaction.TRANSIT_NONE);
+                                AbstractGalleryFragment fragment = SlideShowFragment.getInstance();
+                                fragment.setHasOptionsMenu(true);
+                                fragment.setArguments(message.getData());
+                                setContent(fragment);
+                                ft.add(android.R.id.content, fragment, SlideShowFragment.TAG);
+                                ft.commit();
+                            }
                             break;
                     }
                 }
