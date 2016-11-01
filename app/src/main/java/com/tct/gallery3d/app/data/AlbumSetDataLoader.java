@@ -58,7 +58,9 @@ public class AlbumSetDataLoader {
 
         void onSizeChanged(int size, boolean showCollapse);
     }
-
+    public interface AllAlbumSetListener{
+        void getAllAlbums(List<MediaSet> list);
+    }
     private final MediaSet[] mData;
     private final MediaItem[] mCoverItem;
     private final int[] mTotalCount;
@@ -76,6 +78,7 @@ public class AlbumSetDataLoader {
     private int mSize;
 
     private DataListener mDataListener;
+    private AllAlbumSetListener mAllAlbumSetListener;
     private LoadingListener mLoadingListener;
     private ReloadTask mReloadTask;
 
@@ -300,6 +303,10 @@ public class AlbumSetDataLoader {
         mDataListener = listener;
     }
 
+    public void setAllAlbumSetListener(AllAlbumSetListener listener) {
+        this.mAllAlbumSetListener = listener;
+    }
+
     public void setLoadingListener(LoadingListener listener) {
         mLoadingListener = listener;
     }
@@ -370,6 +377,7 @@ public class AlbumSetDataLoader {
                 boolean showCollapse = false;
                 if (mSource != null && mSource instanceof LocalAlbumSet) {
                     showCollapse = mSource.getShowCollapseAlbum();
+                    mAllAlbumSetListener.getAllAlbums(((LocalAlbumSet) mSource).getAllALbums());
                 }
                 if (mDataListener != null) mDataListener.onSizeChanged(mSize, showCollapse);
                 if (mContentEnd > mSize) mContentEnd = mSize;

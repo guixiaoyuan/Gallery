@@ -54,7 +54,6 @@ import com.tct.gallery3d.picturegrouping.ExifInfoFilter;
 import com.tct.gallery3d.picturegrouping.ExifInfoFilter.FilterSourceListener;
 import com.tct.gallery3d.util.Future;
 import com.tct.gallery3d.util.FutureListener;
-import com.tct.gallery3d.util.GalleryUtils;
 import com.tct.gallery3d.util.MediaSetUtils;
 import com.tct.gallery3d.util.ThreadPool;
 import com.tct.gallery3d.util.ThreadPool.JobContext;
@@ -101,6 +100,8 @@ public class LocalAlbumSet extends MediaSet
     private final SortObserver mSortObserver = new SortObserver();
 
     private int bucketID = 0;   //[DEFECT]-modified by dekuan.liu,01/31/2016,Defect 1392909
+
+    List<MediaSet> mAllAlbums = new ArrayList<MediaSet>();
 
     public class FaceShowListenter implements FilterSourceListener {
         public boolean isDirty = false;
@@ -253,6 +254,7 @@ public class LocalAlbumSet extends MediaSet
             //[BUGFIX]-Modify by TCTNJ, dongliang.feng, 2015-04-22, CR979027 end
 
             ArrayList<MediaSet> albums = new ArrayList<MediaSet>();
+            mAllAlbums.clear();
             int albumCount = 0;
             DataManager dataManager = mApplication.getDataManager();
             boolean hasQueryFaceshow = false;// [ALM][BUGFIX]-Add by TCTNJ,jian.pan1, 2016-02-29,Defect:1533170
@@ -291,6 +293,7 @@ public class LocalAlbumSet extends MediaSet
                     albums.add(album);
                 } else {
                     album.mAlbumType = DataSourceType.ALBUM_NORMAL;
+                    mAllAlbums.add(album);
                     SharedPreferences sharedPreferences = mApplication.getAndroidContext().getSharedPreferences(GalleryConstant.COLLAPSE_DATA_NAME, Context.MODE_PRIVATE);
                     if (sharedPreferences.getString(album.getAlbumFilePath(), null) == null) {
                         albums.add(album);
@@ -360,6 +363,9 @@ public class LocalAlbumSet extends MediaSet
         }
     }
 
+    public List<MediaSet> getAllALbums() {
+        return mAllAlbums;
+    }
     private MediaSet getFavoriteAlbum(DataManager manager, int type, Path path) {
         synchronized (DataManager.LOCK) {
             MediaObject object = manager.peekMediaObject(path);

@@ -35,18 +35,16 @@ import com.tct.gallery3d.data.Path;
 import com.tct.gallery3d.ui.Log;
 import com.tct.gallery3d.util.GalleryUtils;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
-
-import com.tct.gallery3d.app.constant.GalleryConstant;
 
 
 public class AlbumSetDataAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         implements OnClickListener,
-        AlbumSetDataLoader.DataListener, LoadingListener {
+        AlbumSetDataLoader.DataListener, LoadingListener ,AlbumSetDataLoader.AllAlbumSetListener{
 
     private static final String TAG = "AlbumSetDataAdapter";
 
@@ -71,6 +69,8 @@ public class AlbumSetDataAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
     private GridLayoutManager mLayoutManager;
     private CollapseAlbumItem mCollapseAlbumItem;
 
+    List<MediaSet> mAllAlbums = new ArrayList<>();
+
     public AlbumSetDataAdapter(GalleryFragment fragment, GridLayoutManager layoutManager) {
         Log.d(TAG, "AlbumSetDataAdapter");
         mFragment = fragment;
@@ -92,6 +92,7 @@ public class AlbumSetDataAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
         mLoader = new AlbumSetDataLoader(mContext, mediaSet, CACHE_SIZE);
         mLoader.setModelListener(this);
         mLoader.setLoadingListener(this);
+        mLoader.setAllAlbumSetListener(this);
 
     }
 
@@ -234,6 +235,15 @@ public class AlbumSetDataAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
         } else {
             return VIEW_TYPE_ITEM;
         }
+    }
+
+    @Override
+    public void getAllAlbums(List<MediaSet> list) {
+        mAllAlbums = list;
+    }
+
+    public List<MediaSet> getAllAlbums() {
+        return mAllAlbums;
     }
 
     class AlbumViewHolder extends RecyclerView.ViewHolder {

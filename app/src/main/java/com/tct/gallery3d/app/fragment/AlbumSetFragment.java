@@ -21,12 +21,12 @@ import com.tct.gallery3d.R;
 import com.tct.gallery3d.app.AbstractGalleryActivity;
 import com.tct.gallery3d.app.CollapseAlbumsManageActivity;
 import com.tct.gallery3d.app.GalleryActivity;
-import com.tct.gallery3d.app.Log;
 import com.tct.gallery3d.app.NewAlbumDialogActivity;
 import com.tct.gallery3d.app.SystemBarTintManager;
 import com.tct.gallery3d.app.adapter.AlbumSetDataAdapter;
 import com.tct.gallery3d.app.adapter.CollapseAlbumSetDataAdapter;
 import com.tct.gallery3d.app.constant.GalleryConstant;
+import com.tct.gallery3d.data.AlbumSetManager;
 import com.tct.gallery3d.util.ScreenUtils;
 
 import android.content.SharedPreferences;
@@ -219,6 +219,7 @@ public class AlbumSetFragment extends GalleryFragment {
                 return true;
             case R.id.action_collapse:
                 intent = new Intent(mContext, CollapseAlbumsManageActivity.class);
+                AlbumSetManager.getInstance().setAll(mAdapter.getAllAlbums());
                 startActivity(intent);
                 return true;
             /*case R.id.action_settings:
