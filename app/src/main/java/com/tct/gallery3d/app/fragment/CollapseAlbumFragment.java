@@ -120,6 +120,7 @@ public class CollapseAlbumFragment extends GalleryFragment {
         init();
         super.onResume();
         mAdapter.resume();
+	mContext.getDataManager().notifyPrivateMode();
     }
 
     @Override
