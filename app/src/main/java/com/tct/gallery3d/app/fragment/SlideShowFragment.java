@@ -198,16 +198,16 @@ public class SlideShowFragment extends GalleryFragment implements OnTouchListene
 
     @Override
     public void onPause() {
-        super.onPause();
-    }
-
-    @Override
-    public void onStop() {
         mLoader.pause(); // MODIFIED by Yaoyu.Yang, 2016-07-18,BUG-2208330
         mFlipper.removeAllViews();
         mContext.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         mHandler.removeMessages(MSG_LOAD_NEXT_BITMAP);
         mHandler.removeMessages(MSG_SHOW_PENDING_BITMAP);
+        super.onPause();
+    }
+
+    @Override
+    public void onStop() {
         super.onStop();
     }
 
