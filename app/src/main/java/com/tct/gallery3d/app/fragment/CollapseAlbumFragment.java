@@ -206,24 +206,7 @@ public class CollapseAlbumFragment extends GalleryFragment {
             return;
         }
         SystemBarTintManager.SystemBarConfig config = mContext.mTintManager.getConfig();
-        Resources res = mContext.getResources();
-        float tabsHeight = res.getDimension(R.dimen.tab_height);
-        int paddingTop = config.getPixelInsetTop(true);
-        int paddingBottom = 0;
-        paddingTop = 168;
-        boolean hasNavigation = config.hasNavigtionBar();
-        if (hasNavigation) {
-            if (ScreenUtils.getScreenInfo(mContext) == ScreenUtils.tempScreenInPortFull) {
-                paddingBottom = (int) (config.getPixelInsetBottom() + tabsHeight);
-            } else {
-                paddingBottom = (int) tabsHeight;
-            }
-        }
-
-        // if screen at bottom,we should reset the postion of mRecyclerView
-        if (ScreenUtils.splitScreenIsAtBottom(mContext, mContext.getToolbar())) {
-            paddingTop = config.getActionBarHeight();
-        }
+        int paddingTop = config.getActionBarHeight();
         mRecyclerView.setPadding(0, paddingTop, 0, 0);
         // mRecyclerView.smoothScrollBy(0,-config.getStatusBarHeight());
     }
